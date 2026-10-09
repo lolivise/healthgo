@@ -1,5 +1,5 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
-- [Cutting goal 2026](cutting-goal-2026.md) — cut since 2026-07-15 from 102 kg; goal 15–18% BF (~79–82 kg); 0.5–0.75%/wk; checkpoint 83–85 kg by 2027-01-22
+- [Cutting goal 2026](cutting-goal-2026.md) — cut since 2026-07-15 from 102 kg; goal 15–18% BF (~80–83 kg); 0.5–0.75%/wk; checkpoint 83–85 kg by 2027-01-22
 - [Daily diet baseline](daily-diet-baseline.md) — fixed 1,846 kcal / 167 g protein diet eaten every day; eats out ~every 1–2 weeks
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
