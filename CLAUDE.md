@@ -32,7 +32,9 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | Work | Who | How |
 |---|---|---|
 | Execution: sync, backfill, recording entries, commits, troubleshooting commands | **Sonnet** | `health-ops` agent |
-| **Reading any image** (InBody printout, blood report, meal photo): extracting the values | **Sonnet** | `health-ops` agent, given the file path. Opus never opens images |
+| **Reading InBody / blood-report images**: extracting the values | **Sonnet** | `health-ops` agent, given the file path. Opus never opens images |
+| **Reading meal photos** (eating-out kcal estimate) | **Haiku** | `health-ops` spawned with `model: "haiku"` |
+| Voice notes | Workers AI Whisper | transcribed in the Worker; the text is handled like any note |
 | Information gathering: running prep, querying the DB, building the numeric digest | **Sonnet** | `health-data` agent |
 | Report writing: the 繁中 report from a decided verdict | **Sonnet** | `health-writer` agent |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |

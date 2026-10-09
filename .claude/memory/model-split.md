@@ -21,6 +21,15 @@ opus. it will be overkilled". `health-ops` reads InBody, bloodwork and meal phot
 Opus checks the returned numbers and makes the judgment calls (e.g. an SMM drop). Photos come in through the Telegram
 inbox (`data/inbox/`). If one is pasted into chat, ask him to resend it via the bot.
 
+**Revised 2026-10-09, after Darren asked whether Haiku would be accurate:**
+- **Meal photos → `health-ops` on Haiku** (`model: "haiku"`). The kcal is an estimate anyway.
+- **InBody and bloodwork photos stay on Sonnet.** One misread digit (e.g. SMM) could flip a verdict, and they are rare.
+- **InBody numbers go through `healthgo add inbody --check`** (internal consistency) before recording.
+- **Pending:** a Haiku-vs-Sonnet comparison on his first InBody after 2026-10-09 (steps in `/log`). If Haiku matches,
+  InBody may move to Haiku too.
+- **Voice notes:** no Claude model takes audio. Workers AI Whisper transcribes them in the Worker, and the transcript is
+  text like any note.
+
 **Why:** token cost. The main thread is the expensive, long-lived context, so raw Garmin JSON and table
 dumps must stay out of it.
 

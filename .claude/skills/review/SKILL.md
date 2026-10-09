@@ -41,7 +41,7 @@ Login trouble belongs to `/sync`.
 `/blood`, photos). Run `uv run healthgo inbox && uv run healthgo inbox --list` (a one-line pull plus a short
 table). For each pending entry, read `data/inbox/<stem>.json` (text only). Extract text values
 as in `/log` step 1. **Never open the photos in the main thread**: pass their paths to `health-ops`, which reads them
-with Sonnet, records them, and returns the extracted values. The brief also tells it to run
+with Sonnet (meal photos: spawn it with `model: "haiku"`; InBody follows `/log`'s `--check` and one-time comparison rules), records them, and returns the extracted values. The brief also tells it to run
 `uv run healthgo inbox --done <id> …` for every entry it recorded. An entry dated before the review window still
 counts if it was never recorded. Don't ask about anything the inbox already answers.
 

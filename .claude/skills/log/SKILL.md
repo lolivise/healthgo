@@ -10,6 +10,17 @@ The split follows `CLAUDE.md` → Model split:
   parsing, use sonnet agent. do not use opus. it will be overkilled".
 - **Opus (main thread):** turns *text* input into exact values.
 - **`health-ops` (Sonnet):** extracts values from photos, records everything, compares with history, and commits.
+  **Meal photos only:** spawn `health-ops` with `model: "haiku"` (Darren, 2026-10-09). The kcal is an estimate anyway.
+  InBody and bloodwork stay on Sonnet.
+- **InBody numbers are validated:** have `health-ops` run `uv run healthgo add inbody --check '<json>'` before recording. If a
+  consistency check fails, it re-reads the image once. If it still fails, ask Darren for those numbers. Never `--force` without
+  his confirmation.
+- **One-time comparison (the first InBody photo after 2026-10-09):** extract it twice, once with `health-ops` on
+  `model: "haiku"` and once on Sonnet, both with `--check`. Record the Sonnet values. Then show Darren a per-field diff and
+  how many fields each model got right (or that both agreed), and decide with him whether InBody can move to Haiku.
+  Afterwards, update this line and memory `model-split.md`.
+- Voice notes arrive already transcribed (Workers AI Whisper in the Worker). Treat the transcript as text. If the text
+  is empty (transcription failed) and an `.oga` file is present, ask Darren what he said. Don't guess.
 - **Opus:** gives the one-line confirmation in 繁中.
 
 ## 1. Extract: Opus for text, `health-ops` for images

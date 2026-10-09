@@ -172,9 +172,15 @@ def cmd_daily(args) -> int:
 
 
 def cmd_add(args) -> int:
-    from . import db, manual
+    from . import db, inbody_check, manual
 
-    record = manual.add(args.kind, json.loads(args.json))
+    record = json.loads(args.json)
+    if args.check:
+        if args.kind != "inbody":
+            sys.exit("--check only applies to inbody")
+        bad = inbody_check.failures(manual.check_inbody(record))
+        return 2 if bad else 0
+    record = manual.add(args.kind, record, force=args.force)
     db.build()
     print(json.dumps(record, ensure_ascii=False))
     return 0
@@ -254,6 +260,8 @@ def main(argv: list[str] | None = None) -> int:
     a = sub.add_parser("add", help="append a manual record")
     a.add_argument("kind", choices=["inbody", "eating_out", "bloodwork", "weight", "review", "note"])
     a.add_argument("json", help="the record as a JSON object")
+    a.add_argument("--check", action="store_true", help="inbody only: validate consistency, write nothing")
+    a.add_argument("--force", action="store_true", help="inbody only: record even if consistency checks fail")
     a.set_defaults(fn=cmd_add)
 
     i = sub.add_parser("inbox", help="pull Telegram inbox entries into data/inbox/")
