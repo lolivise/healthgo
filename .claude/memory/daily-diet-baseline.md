@@ -24,6 +24,9 @@ Source: `daily_diet_intake(1).csv`, given 2026-10-09.
 | Creatine (肌酸) | 5 g | 0 | 0 | 0 | 0 |
 | **Daily total** | | **1,846** | **167.3** | **44.7** | **186.3** |
 
+**Fish oil:** 2 capsules/day (2 g fish oil each → 4 g fat, ~36 kcal; 600 mg omega-3 per capsule, i.e. 360 EPA + 240 DHA).
+It was not in the CSV, so the real baseline was **≈1,893 kcal / 48.8 g fat (0.54 g/kg)**, not 1,846 / 44.7.
+
 **Meal timing (Darren, 2026-10-09):** energy bar → *workout* → protein shake + 2 eggs + 200 g potato +
 200 g veg → lunch: 350 g chicken + 200 g potato + 200 g veg → dinner: yogurt (actually **310 g**) + 35 g oats.
 Chicken, potato and oats are weighed **raw**. Olive oil, chia and creatine were not in this list; they are
@@ -37,10 +40,11 @@ assumed unchanged (oil for cooking, chia with the yogurt). Confirm at the next r
 These match the table above.
 
 **Changes agreed at the 2026-W41 review (2026-10-09):**
-- **Fat up to the 0.6 g/kg floor:** olive oil 8 g → 18 g, permanently.
+- **Fat up to the 0.6 g/kg floor:** olive oil 8 g → **14 g**, permanently. Fish oil supplies the other 4 g. The first
+  proposal (18 g) was made before the fish oil was known.
 - **2,000 kcal experiment, 3 weeks: 2026-10-12 → 2026-11-01 (W42–W44)**, with rice replacing potato.
   - Darren wanted 2,000 kcal: the 1,850 number "looks low" (not hunger or energy). He also has a long-term wish of a 2,500 TDEE.
-  - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 18 g → ≈1,998 kcal / 166 P / 54.5 F / 198 C.
+  - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g → ≈1,995 kcal / 166 P / 54.5 F / 197 C.
     SunRice white medium grain, raw per 100 g: 356 kcal, 6.8 P, 0.1 F, 79.1 C (label confirmed 2026-10-09).
   - Expected at TDEE ≈2,330: ≈ −0.33 %/wk, putting him at ~87 kg on 1/16 (vs ~85 at 1,850). He accepted the slower pace.
   - **Purpose: measure his real TDEE** from the daily weigh-ins at a known, constant intake.
@@ -48,7 +52,7 @@ These match the table above.
     (≈75 g rice). Ignore the first rice week's scale noise, so judge from W43 on.
   - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W44 review (~2026-11-01) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
-- Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 18 g oil.
+- Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 14 g oil.
 - Calorie-equivalent swap: 400 g potato ≈ 86 g raw rice. Rice is far less filling per kcal. If he is hungry, add vegetables
   (~30 kcal/100 g).
 

@@ -6,7 +6,8 @@ metadata:
 ---
 
 - **Hepatitis B, liver issues, under control** (reported 2026-10-09). Implications:
-  - **Never suggest new supplements** beyond what he already takes (protein powder, creatine).
+  - **Never suggest new supplements** beyond what he already takes (protein powder, creatine 5 g, **fish oil 2 × 2 g capsules/day** =
+    1.2 g EPA+DHA; disclosed 2026-10-09; fine to continue, worth mentioning to his doctor at the next blood test).
     Fat burners, high-dose green tea extract and many pre-workouts are hepatotoxic.
   - Very fast loss raises gallstone risk, which is one reason for the 1%/wk cap in [[safety-limits]].
   - Alcohol advice belongs in the trip guidance ([[trip-taiwan-2027]]).
