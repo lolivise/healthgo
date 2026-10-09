@@ -16,6 +16,11 @@ model" — and then: "write this as a rule or a skill".
 - **Opus (main thread):** reads memory, asks Darren the review questions, reads the digest, decides the
   verdict and changes, and updates memory.
 
+**Images go to Sonnet too (Darren, 2026-10-09):** "when doing any images parsing, use sonnet agent. do not use
+opus. it will be overkilled". `health-ops` reads InBody, bloodwork and meal photos by file path and returns the values.
+Opus checks the returned numbers and makes the judgment calls (e.g. an SMM drop). Photos come in through the Telegram
+inbox (`data/inbox/`). If one is pasted into chat, ask him to resend it via the bot.
+
 **Why:** token cost. The main thread is the expensive, long-lived context, so raw Garmin JSON and table
 dumps must stay out of it.
 

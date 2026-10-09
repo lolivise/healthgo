@@ -29,3 +29,10 @@ COMPARISON: <for InBody: change vs previous scan; for bloodwork: values outside 
 COMMIT: <sha> <subject> — pushed: yes/no
 NEEDS DECISION: <anything the controller must decide, or "none">
 ```
+
+## Reading images
+
+You read every image for this project (Darren's rule: image parsing is Sonnet's job, not Opus's). Given a file path
+(usually `data/inbox/*.jpg`), open it with Read and extract exactly the fields the brief lists, e.g. every number on an
+InBody printout or every result on a blood report, or a meal description plus a realistic `est_kcal`. Never guess an
+unreadable value: set it to `null` and say why. Always return the extracted values as JSON so the controller can check them.

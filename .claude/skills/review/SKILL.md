@@ -39,8 +39,9 @@ Login trouble belongs to `/sync`.
 
 **Inbox first.** Darren logs from his phone through the Telegram bot (`/eat`, `/inbody`, `/weight`, `/note`,
 `/blood`, photos). Run `uv run healthgo inbox && uv run healthgo inbox --list` (a one-line pull plus a short
-table). For each pending entry, read `data/inbox/<stem>.json` and look at its photo, if any, yourself. Extract the
-values as in `/log` step 1 and include them in the `health-ops` brief below. The brief also tells it to run
+table). For each pending entry, read `data/inbox/<stem>.json` (text only). Extract text values
+as in `/log` step 1. **Never open the photos in the main thread**: pass their paths to `health-ops`, which reads them
+with Sonnet, records them, and returns the extracted values. The brief also tells it to run
 `uv run healthgo inbox --done <id> …` for every entry it recorded. An entry dated before the review window still
 counts if it was never recorded. Don't ask about anything the inbox already answers.
 
@@ -48,7 +49,7 @@ Then ask in **one message**, and only what's still missing:
 
 1. **InBody**: if the digest says it's missing this week (no scan in the last 7 days):
    *"這週有做 InBody 嗎？可以傳結果照片或數字給我（體重、體脂率、骨骼肌重、體脂肪重、內臟脂肪等級）。"*
-   If he sends a photo, read every number off it yourself (the image is already in your context).
+   Ask him to send the photo through the Telegram bot's `/inbody` menu, then pull the inbox. `health-ops` reads it.
 2. **Eating out**: always ask, covering the days since the last review:
    *"上次 review（日期）之後有外食嗎？哪天、大概吃了什麼？"* Estimate the kcal per meal yourself.
 

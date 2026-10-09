@@ -1,18 +1,24 @@
 ---
 name: log
-description: Record health data Garmin never sees into the healthgo repo — an InBody scan (photo of the printout or numbers), an eating-out meal, blood-test results, a manual weight, or a free note. Opus reads the input, a Sonnet health-ops agent records, compares and commits. Trigger on /log, "here's my InBody", "I ate out", "my blood test results", or when Darren sends an InBody/bloodwork photo.
+description: Record health data Garmin never sees into the healthgo repo — an InBody scan (photo of the printout or numbers), an eating-out meal, blood-test results, a manual weight, or a free note. A Sonnet health-ops agent reads any photo, records, compares and commits; Opus only handles text input and the confirmation. Trigger on /log, "here's my InBody", "I ate out", "my blood test results", or when Darren sends an InBody/bloodwork photo.
 ---
 
 # /log
 
 The split follows `CLAUDE.md` → Model split:
-- **Opus (main thread):** reads what Darren sent and turns it into exact values.
-- **`health-ops` (Sonnet):** records them, compares them with history, and commits.
+- **Images are always read by `health-ops` (Sonnet), never by Opus.** Darren, 2026-10-09: "when doing any images
+  parsing, use sonnet agent. do not use opus. it will be overkilled".
+- **Opus (main thread):** turns *text* input into exact values.
+- **`health-ops` (Sonnet):** extracts values from photos, records everything, compares with history, and commits.
 - **Opus:** gives the one-line confirmation in 繁中.
 
-## 1. Extract: Opus
+## 1. Extract: Opus for text, `health-ops` for images
 
-The photo or text is already in your context, so read it here. Don't make an agent re-read it.
+- **Text** (e.g. "/eat Korean BBQ with friends", "InBody 90.2 kg 24.8 %"): Opus extracts the values below.
+- **Images** (an InBody printout, a blood report, a meal photo): **don't read them in the main thread.** Pass the
+  file path to `health-ops` in step 2 with the field list below, and it reads the image and extracts the values.
+  Telegram inbox photos are files under `data/inbox/`. A photo pasted straight into this chat has no file path, so
+  ask Darren to send it through the bot's `/inbody` / `/blood` / `/eat` menu instead.
 
 | Kind | Values to extract |
 |---|---|
@@ -24,14 +30,16 @@ The photo or text is already in your context, so read it here. Don't make an age
 
 - Dates default to today in Perth time.
 - **Telegram inbox:** `/log` with no input (or "check my inbox") → run `uv run healthgo inbox && uv run healthgo inbox --list`,
-  read each pending `data/inbox/<stem>.json` and its photo, and extract from those. The entry's date is the filename
+  read each pending `data/inbox/<stem>.json` (text only); entries with a photo go to `health-ops` by path. The entry's date is the filename
   date unless the text says otherwise (e.g. "/eat yesterday dinner…"). Tell `health-ops` to run
   `uv run healthgo inbox --done <id> …` after recording.
 - If a number is unreadable or the date is ambiguous, ask Darren. Don't guess.
 
 ## 2. Record: `health-ops` agent (Sonnet)
 
-Brief it with the kind and the exact JSON. It runs `uv run healthgo add <kind> '<json>'`, then:
+Brief it with the kind and either the exact JSON (text input) or the image path plus the step 1 field list, and
+for a meal photo, tell it to estimate `est_kcal` for a realistic restaurant portion. It must return the values it
+extracted (as JSON) so Opus can check them, and it must mark an unreadable number as `null` with a note instead of guessing (Opus then asks Darren). It runs `uv run healthgo add <kind> '<json>'`, then:
 - **InBody:** compares with the previous scan (`SELECT * FROM inbody ORDER BY date`) and reports deltas.
 - **Bloodwork:** lists out-of-range values, liver panel first (ALT, AST, GGT, bilirubin, hepatitis B markers).
 
