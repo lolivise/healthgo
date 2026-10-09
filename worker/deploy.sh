@@ -37,13 +37,13 @@ npx wrangler d1 execute healthgo-inbox --remote --file schema.sql
 # Both values are used only inside this subshell.
 BOT_TOKEN="$(op_read TELEGRAM/BOT_TOKEN)"
 WEBHOOK_SECRET="$(op_read INBOX/WEBHOOK_SECRET)"
-printf 'url = "https://api.telegram.org/bot%s/setWebhook"\ndata-urlencode = "url=%s/telegram"\ndata-urlencode = "secret_token=%s"\ndata-urlencode = "allowed_updates=[\\"message\\"]"\n' \
+printf 'url = "https://api.telegram.org/bot%s/setWebhook"\ndata-urlencode = "url=%s/telegram"\ndata-urlencode = "secret_token=%s"\ndata-urlencode = "allowed_updates=[\\"message\\",\\"callback_query\\"]"\n' \
   "$BOT_TOKEN" "$WORKER_URL" "$WEBHOOK_SECRET" | curl -sS -K - | python3 -c 'import json,sys; d=json.load(sys.stdin); print("setWebhook ok:", d.get("ok"), d.get("description", ""))'
 
 printf 'url = "https://api.telegram.org/bot%s/getWebhookInfo"\n' "$BOT_TOKEN" | curl -sS -K - \
   | python3 -c 'import json,sys; r=json.load(sys.stdin).get("result", {}); [print(k+":", r.get(k)) for k in ("url","pending_update_count","last_error_date","last_error_message","allowed_updates")]'
 
 # The command menu (the "/" button in the chat).
-CMDS='[{"command":"eat","description":"外食紀錄（文字或照片）"},{"command":"inbody","description":"InBody 結果照片"},{"command":"weight","description":"手動體重"},{"command":"blood","description":"驗血結果"},{"command":"note","description":"其他備註"},{"command":"cancel","description":"取消"},{"command":"help","description":"指令說明"}]'
+CMDS='[{"command":"eat","description":"外食紀錄（文字或照片）"},{"command":"feel","description":"身體狀況回報（點選回答）"},{"command":"inbody","description":"InBody 結果照片"},{"command":"weight","description":"手動體重"},{"command":"blood","description":"驗血結果"},{"command":"note","description":"其他備註"},{"command":"cancel","description":"取消"},{"command":"help","description":"指令說明"}]'
 printf 'url = "https://api.telegram.org/bot%s/setMyCommands"\ndata-urlencode = "commands=%s"\n' \
   "$BOT_TOKEN" "${CMDS//\"/\\\"}" | curl -sS -K - | python3 -c 'import json,sys; d=json.load(sys.stdin); print("setMyCommands ok:", d.get("ok"), d.get("description", ""))'

@@ -1,3 +1,5 @@
+import { Answers, applyPress, finalText, firstStep, nextStep, rawAnswers, render, summarize } from "./feel";
+
 export interface Env {
   DB: D1Database;
   BOT_TOKEN: string;
@@ -12,6 +14,7 @@ const LABELS: Record<string, string> = {
   weight: "體重",
   note: "備註",
   blood: "驗血",
+  feel: "身體狀況",
 };
 
 // Asked after a bare command tapped from the menu; the next message gets that kind.
@@ -27,6 +30,7 @@ const PENDING_TTL_S = 30 * 60;
 const HELP =
   "healthgo 收件匣指令：\n" +
   "/eat 外食內容（例：/eat 朋友聚餐，韓式烤肉）\n" +
+  "/feel 身體狀況回報（點選回答）\n" +
   "/inbody 附上 InBody 結果照片\n" +
   "/weight 體重數字\n" +
   "/blood 驗血結果（文字或照片）\n" +
@@ -34,7 +38,7 @@ const HELP =
   "/cancel 取消\n\n" +
   "也可以從選單點指令，再輸入內容或傳照片。";
 
-const COMMAND = /^\/(eat|inbody|weight|note|blood|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
+const COMMAND = /^\/(eat|feel|inbody|weight|note|blood|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
 
 function safeEqual(a: string, b: string): boolean {
   const enc = new TextEncoder();
@@ -45,22 +49,128 @@ function safeEqual(a: string, b: string): boolean {
   return diff === 0;
 }
 
-async function reply(env: Env, chatId: string, text: string, extra: object = {}): Promise<void> {
-  const res = await fetch(`https://api.telegram.org/bot${env.BOT_TOKEN}/sendMessage`, {
+async function tg(env: Env, method: string, body: object): Promise<any> {
+  const res = await fetch(`https://api.telegram.org/bot${env.BOT_TOKEN}/${method}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ chat_id: chatId, text, ...extra }),
+    body: JSON.stringify(body),
   });
-  if (!res.ok) console.error("sendMessage failed", res.status);
+  if (!res.ok) console.error(`${method} failed`, res.status);
+  return res.ok ? res.json().catch(() => null) : null;
+}
+
+async function reply(env: Env, chatId: string, text: string, extra: object = {}): Promise<void> {
+  await tg(env, "sendMessage", { chat_id: chatId, text, ...extra });
+}
+
+// ---- /feel check-in: one bot message edited in place, state in D1 `checkins` ----
+
+const CHECKIN_TTL_S = 2 * 60 * 60;
+const nowS = () => Math.floor(Date.now() / 1000);
+
+interface Checkin { message_id: number; step: string; answers: Answers; started_at: number }
+
+async function loadCheckin(env: Env, chatId: string): Promise<Checkin | null> {
+  const r = await env.DB.prepare("SELECT message_id, step, answers, started_at FROM checkins WHERE chat_id = ?")
+    .bind(chatId).first<{ message_id: number; step: string; answers: string; started_at: number }>();
+  return r ? { ...r, answers: JSON.parse(r.answers) } : null;
+}
+
+async function saveCheckin(env: Env, chatId: string, c: Checkin): Promise<void> {
+  await env.DB.prepare(
+    "INSERT OR REPLACE INTO checkins (chat_id, message_id, step, answers, started_at) VALUES (?, ?, ?, ?, ?)",
+  ).bind(chatId, c.message_id, c.step, JSON.stringify(c.answers), c.started_at).run();
+}
+
+async function editCheckin(env: Env, chatId: string, messageId: number, text: string, markup: object): Promise<void> {
+  await tg(env, "editMessageText", { chat_id: chatId, message_id: messageId, text, reply_markup: markup });
+}
+
+/** Store the check-in as one `feel` entry (negative tg_message_id can't collide with real ones), close it. */
+async function finishCheckin(env: Env, chatId: string, c: Checkin, extra: Answers = {}): Promise<void> {
+  const a = { ...c.answers, ...extra };
+  await env.DB.prepare(
+    "INSERT OR IGNORE INTO entries (tg_message_id, received_at, kind, text, file_id, media_group_id, raw) " +
+      "VALUES (?, ?, 'feel', ?, NULL, NULL, ?)",
+  ).bind(-c.message_id, new Date().toISOString(), summarize(a), JSON.stringify(rawAnswers(a))).run();
+  await env.DB.prepare("DELETE FROM checkins WHERE chat_id = ?").bind(chatId).run();
+  await editCheckin(env, chatId, c.message_id, finalText(a), { inline_keyboard: [] });
+}
+
+/** An open check-in is being abandoned (new command, or stale): keep it if Q1 was answered. */
+async function settleCheckin(env: Env, chatId: string, c: Checkin): Promise<void> {
+  if (c.step !== firstStep) return finishCheckin(env, chatId, c, { partial: true });
+  await env.DB.prepare("DELETE FROM checkins WHERE chat_id = ?").bind(chatId).run();
+  await editCheckin(env, chatId, c.message_id, "已取消", { inline_keyboard: [] });
+}
+
+const isStale = (c: Checkin) => nowS() - c.started_at > CHECKIN_TTL_S;
+
+async function startCheckin(env: Env, chatId: string): Promise<void> {
+  const v = render(firstStep, {});
+  const res = await tg(env, "sendMessage", { chat_id: chatId, text: v.text, reply_markup: v.reply_markup });
+  const id = res?.result?.message_id;
+  if (id) await saveCheckin(env, chatId, { message_id: id, step: firstStep, answers: {}, started_at: nowS() });
+}
+
+async function handleCallback(cq: any, env: Env): Promise<void> {
+  const chatId = String(cq.message?.chat?.id ?? "");
+  let toast: string | undefined;
+  try {
+    if (chatId !== String(env.CHAT_ID) || String(cq.from?.id) !== String(env.CHAT_ID)) return;
+    const [, stepId, code] = String(cq.data ?? "").split(":");
+    let c = await loadCheckin(env, chatId);
+    if (!c || c.message_id !== cq.message.message_id) { toast = "已過期"; return; }
+    if (isStale(c)) { await settleCheckin(env, chatId, c); toast = "已過期"; return; }
+    if (stepId !== c.step) { toast = "已過期"; return; }
+
+    const p = applyPress(c.step, code, c.answers);
+    toast = p.toast;
+    if (p.urgent) { await finishCheckin(env, chatId, c, { urgent: true }); return; }
+    c = { ...c, answers: p.answers };
+    if (p.advance) {
+      const next = nextStep(c.step, c.answers);
+      if (!next) { await finishCheckin(env, chatId, c); return; }
+      c.step = next;
+    }
+    await saveCheckin(env, chatId, c);
+    const v = render(c.step, c.answers);
+    await editCheckin(env, chatId, c.message_id, v.text, v.reply_markup);
+  } finally {
+    await tg(env, "answerCallbackQuery", { callback_query_id: cq.id, ...(toast ? { text: toast } : {}) });
+  }
 }
 
 async function handle(update: any, env: Env): Promise<void> {
+  if (update?.callback_query) return handleCallback(update.callback_query, env);
   const msg = update?.message;
   if (!msg || String(msg.chat?.id) !== String(env.CHAT_ID)) return;
 
   const chatId = String(msg.chat.id);
   const raw: string = (msg.text ?? msg.caption ?? "").trim();
   const m = COMMAND.exec(raw);
+
+  // An open check-in: a stale one is settled; /cancel drops it; any other command saves it as partial;
+  // plain text at the last question is the free-text answer.
+  const open = await loadCheckin(env, chatId);
+  if (open) {
+    const cmd = m?.[1].toLowerCase();
+    if (isStale(open) || (m && cmd !== "cancel")) {
+      await settleCheckin(env, chatId, open);
+    } else if (cmd === "cancel") {
+      await env.DB.prepare("DELETE FROM checkins WHERE chat_id = ?").bind(chatId).run();
+      await editCheckin(env, chatId, open.message_id, "已取消", { inline_keyboard: [] });
+    } else if (!m && open.step === "q5" && raw && !msg.photo && !msg.document) {
+      await finishCheckin(env, chatId, { ...open, answers: { ...open.answers, note: raw } });
+      return;
+    }
+  }
+  if (m && m[1].toLowerCase() === "feel") {
+    await env.DB.prepare("DELETE FROM pending WHERE chat_id = ?").bind(chatId).run();
+    await startCheckin(env, chatId);
+    return;
+  }
+
   let kind = "note";
   let text = raw;
   if (m) {

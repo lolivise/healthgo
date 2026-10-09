@@ -33,6 +33,9 @@ The split follows `CLAUDE.md` → Model split:
   read each pending `data/inbox/<stem>.json` (text only); entries with a photo go to `health-ops` by path. The entry's date is the filename
   date unless the text says otherwise (e.g. "/eat yesterday dinner…"). Tell `health-ops` to run
   `uv run healthgo inbox --done <id> …` after recording.
+- **`feel` entries** (the `/feel` check-in, see memory `feel-checkin.md`): record as a `note` whose text is the entry's
+  summary, prefixed `[feel]`; mark `partial` / `urgent` if set. Any Hep B symptom (B6) or dizziness with palpitations,
+  cold sweat or shaking → say "see a doctor" in the confirmation.
 - If a number is unreadable or the date is ambiguous, ask Darren. Don't guess.
 
 ## 2. Record: `health-ops` agent (Sonnet)

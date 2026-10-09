@@ -14,3 +14,11 @@ CREATE TABLE IF NOT EXISTS pending (
   kind TEXT,
   set_at INTEGER
 );
+
+CREATE TABLE IF NOT EXISTS checkins (
+  chat_id TEXT PRIMARY KEY,
+  message_id INTEGER,
+  step TEXT,
+  answers TEXT,
+  started_at INTEGER
+);

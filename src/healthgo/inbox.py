@@ -21,7 +21,7 @@ log = logging.getLogger(__name__)
 INBOX = config.DATA / "inbox"
 DONE = INBOX / "done"
 PLACEHOLDER = "REPLACE_AFTER_DEPLOY"
-KINDS = {"eat", "inbody", "weight", "note", "blood"}
+KINDS = {"eat", "feel", "inbody", "weight", "note", "blood"}
 
 
 class InboxError(RuntimeError):
@@ -74,6 +74,11 @@ def write_entry(entry: dict) -> Path:
     so a retry starts clean."""
     name = stem(entry)
     record = {k: v for k, v in entry.items() if k != "raw"}
+    if entry.get("kind") == "feel":  # raw holds the structured check-in answers (not a Telegram message)
+        try:
+            record["answers"] = json.loads(entry.get("raw") or "null")
+        except ValueError:
+            pass
     if entry.get("file_id"):
         content, ext = download_file(entry["file_id"])
         INBOX.mkdir(parents=True, exist_ok=True)
