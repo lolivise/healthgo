@@ -30,7 +30,9 @@ def send(text: str) -> bool:
         )
         with urllib.request.urlopen(req, timeout=20) as resp:
             if json.load(resp).get("ok"):
+                log.info("Telegram sent: %s", text.splitlines()[0][:60])
                 return True
+            log.warning("Telegram replied ok=false; using macOS notification")
     except Exception as e:  # never let a notification failure break the sync
         # the bot token is part of the URL, so log the type only
         log.warning("Telegram send failed (%s); using macOS notification", type(e).__name__)
