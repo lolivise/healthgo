@@ -6,6 +6,7 @@ export interface Env {
   CHAT_ID: string;
   WEBHOOK_SECRET: string;
   PULL_TOKEN: string;
+  AI: Ai;
 }
 
 const LABELS: Record<string, string> = {
@@ -36,6 +37,7 @@ const HELP =
   "/blood 驗血結果（文字或照片）\n" +
   "/note 其他備註（不加指令也會當備註）\n" +
   "/cancel 取消\n\n" +
+  "🎙 也可以傳語音（會自動轉成文字）\n" +
   "也可以從選單點指令，再輸入內容或傳照片。";
 
 const COMMAND = /^\/(eat|feel|inbody|weight|note|blood|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
@@ -141,6 +143,37 @@ async function handleCallback(cq: any, env: Env): Promise<void> {
   }
 }
 
+// ---- Voice messages: Telegram getFile -> Workers AI Whisper -> text ----
+
+const WHISPER = "@cf/openai/whisper-large-v3-turbo";
+const WHISPER_PROMPT = "以下是繁體中文的健康紀錄，可能夾雜英文，例如 leg day、InBody。";
+const MAX_VOICE_S = 5 * 60;
+const MAX_VOICE_BYTES = 20 * 1024 * 1024;
+
+function toBase64(buf: ArrayBuffer): string {
+  const bytes = new Uint8Array(buf);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+
+/** Returns the transcript; throws a short, URL-free error message on any failure. Never logs the file URL (it holds the token). */
+async function transcribe(env: Env, voice: any): Promise<string> {
+  if ((voice.duration ?? 0) > MAX_VOICE_S) throw new Error("voice too long");
+  if ((voice.file_size ?? 0) > MAX_VOICE_BYTES) throw new Error("voice too large");
+  const info = await tg(env, "getFile", { file_id: voice.file_id });
+  const path: string | undefined = info?.result?.file_path;
+  if (!path) throw new Error("getFile failed");
+  const res = await fetch(`https://api.telegram.org/file/bot${env.BOT_TOKEN}/${path}`);
+  if (!res.ok) throw new Error(`download failed ${res.status}`);
+  const buf = await res.arrayBuffer();
+  if (buf.byteLength > MAX_VOICE_BYTES) throw new Error("voice too large");
+  const out = await env.AI.run(WHISPER, { audio: toBase64(buf), initial_prompt: WHISPER_PROMPT });
+  const text = (out?.text ?? "").trim();
+  if (!text) throw new Error("empty transcript");
+  return text;
+}
+
 async function handle(update: any, env: Env): Promise<void> {
   if (update?.callback_query) return handleCallback(update.callback_query, env);
   const msg = update?.message;
@@ -149,6 +182,20 @@ async function handle(update: any, env: Env): Promise<void> {
   const chatId = String(msg.chat.id);
   const raw: string = (msg.text ?? msg.caption ?? "").trim();
   const m = COMMAND.exec(raw);
+
+  // Voice note: transcribe up front so a /feel Q5 answer and a normal entry share the result.
+  const voice = msg.voice?.file_id ? msg.voice : msg.audio?.file_id ? msg.audio : null;
+  const control = m && /^(help|start|cancel|feel)$/i.test(m[1]);
+  let transcript = "";
+  let transcribeError = "";
+  if (voice && !control) {
+    try {
+      transcript = await transcribe(env, voice);
+    } catch (e) {
+      transcribeError = (e instanceof Error ? e.message : String(e)).slice(0, 80);
+      console.error("transcribe failed", transcribeError);
+    }
+  }
 
   // An open check-in: a stale one is settled; /cancel drops it; any other command saves it as partial;
   // plain text at the last question is the free-text answer.
@@ -160,8 +207,9 @@ async function handle(update: any, env: Env): Promise<void> {
     } else if (cmd === "cancel") {
       await env.DB.prepare("DELETE FROM checkins WHERE chat_id = ?").bind(chatId).run();
       await editCheckin(env, chatId, open.message_id, "已取消", { inline_keyboard: [] });
-    } else if (!m && open.step === "q5" && raw && !msg.photo && !msg.document) {
-      await finishCheckin(env, chatId, { ...open, answers: { ...open.answers, note: raw } });
+    } else if (!m && open.step === "q5" && (raw || transcript) && !msg.photo && !msg.document) {
+      await finishCheckin(env, chatId, { ...open, answers: { ...open.answers, note: raw || transcript } });
+      if (transcript) await reply(env, chatId, `🎙 ${transcript}`);
       return;
     }
   }
@@ -187,6 +235,7 @@ async function handle(update: any, env: Env): Promise<void> {
     kind = cmd;
     text = (m[2] ?? "").trim();
   }
+  if (voice) text = [text, transcript].filter(Boolean).join("\n");
 
   let fileId: string | null = null;
   if (Array.isArray(msg.photo) && msg.photo.length) {
@@ -195,6 +244,8 @@ async function handle(update: any, env: Env): Promise<void> {
     fileId = largest.file_id;
   } else if (msg.document?.file_id) {
     fileId = msg.document.file_id;
+  } else if (voice) {
+    fileId = voice.file_id;
   }
 
   // Bare command (tapped from the menu): remember it and ask for the content.
@@ -230,14 +281,21 @@ async function handle(update: any, env: Env): Promise<void> {
   }
 
   const receivedAt = new Date((msg.date ?? Math.floor(Date.now() / 1000)) * 1000).toISOString();
+  const stored = voice
+    ? { ...msg, ...(transcribeError ? { transcribe_error: transcribeError } : { transcribed: true, duration: voice.duration ?? null }) }
+    : msg;
   const res = await env.DB.prepare(
     "INSERT OR IGNORE INTO entries (tg_message_id, received_at, kind, text, file_id, media_group_id, raw) " +
       "VALUES (?, ?, ?, ?, ?, ?, ?)",
-  ).bind(msg.message_id, receivedAt, kind, text, fileId, group, JSON.stringify(msg)).run();
+  ).bind(msg.message_id, receivedAt, kind, text, fileId, group, JSON.stringify(stored)).run();
 
   // A Telegram retry inserts nothing: don't reply twice.
   if (res.meta.changes > 0 && firstOfGroup) {
-    await reply(env, chatId, `✅ 已記錄（${LABELS[kind]}）`);
+    if (voice && transcribeError) {
+      await reply(env, chatId, "⚠️ 已收到語音，但轉錄失敗，review 時會再處理。");
+    } else {
+      await reply(env, chatId, `✅ 已記錄（${LABELS[kind]}）` + (voice ? `\n🎙 ${transcript}` : ""));
+    }
   }
 }
 

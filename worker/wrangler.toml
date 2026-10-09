@@ -8,3 +8,6 @@ binding = "DB"
 database_name = "healthgo-inbox"
 # Paste the id printed by `npx wrangler d1 create healthgo-inbox`.
 database_id = "9823eeae-1b5c-4069-b885-61686d219dc1"
+
+[ai]
+binding = "AI"

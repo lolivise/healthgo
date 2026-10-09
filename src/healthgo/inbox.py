@@ -1,6 +1,7 @@
 """Telegram inbox: pull messages the Cloudflare Worker (worker/) stored in D1 into data/inbox/.
 
 Photos stay on Telegram until now: each entry carries a file_id and we download it via getFile.
+Transcribed voice notes are not downloaded; a failed transcription (empty text) is, as .oga.
 Neither the bot token nor the pull token may reach a log line, so errors log the type only.
 """
 
@@ -69,6 +70,15 @@ def stem(entry: dict) -> str:
     return f"{day}_{entry['id']}_{kind}"
 
 
+def is_voice(entry: dict) -> bool:
+    """True for a Telegram voice/audio message (raw is the message JSON; feel entries hold answers instead)."""
+    try:
+        raw = json.loads(entry.get("raw") or "null")
+    except ValueError:
+        return False
+    return isinstance(raw, dict) and bool(raw.get("voice") or raw.get("audio"))
+
+
 def write_entry(entry: dict) -> Path:
     """Write one entry (and its photo). Raises before the json exists if the download fails,
     so a retry starts clean."""
@@ -79,8 +89,13 @@ def write_entry(entry: dict) -> Path:
             record["answers"] = json.loads(entry.get("raw") or "null")
         except ValueError:
             pass
-    if entry.get("file_id"):
+    voice = is_voice(entry)
+    record["voice"] = voice
+    # a transcribed voice note needs no audio file; keep it only when transcription failed (empty text)
+    if entry.get("file_id") and not (voice and (entry.get("text") or "").strip()):
         content, ext = download_file(entry["file_id"])
+        if voice:
+            ext = ".oga"
         INBOX.mkdir(parents=True, exist_ok=True)
         (INBOX / f"{name}{ext}").write_bytes(content)
         record["file"] = f"{name}{ext}"
@@ -113,7 +128,7 @@ def pending() -> list[dict]:
         rec = store.read_json(p, {})
         rows.append({
             "date": p.name[:10], "id": rec.get("id"), "kind": rec.get("kind"),
-            "text": (rec.get("text") or "").replace("\n", " "), "photo": bool(rec.get("file_id")),
+            "text": (rec.get("text") or "").replace("\n", " "), "file": "voice" if rec.get("voice") else "photo" if rec.get("file_id") else "-",
         })
     return rows
 
@@ -121,10 +136,10 @@ def pending() -> list[dict]:
 def format_table(rows: list[dict]) -> str:
     if not rows:
         return "inbox empty"
-    lines = [f"{'date':<10}  {'id':>4}  {'kind':<6}  {'photo':<5}  text"]
+    lines = [f"{'date':<10}  {'id':>4}  {'kind':<6}  {'file':<5}  text"]
     for r in rows:
         text = r["text"] if len(r["text"]) <= 60 else r["text"][:59] + "…"
-        lines.append(f"{r['date']:<10}  {r['id']!s:>4}  {r['kind'] or '':<6}  {'yes' if r['photo'] else '-':<5}  {text}")
+        lines.append(f"{r['date']:<10}  {r['id']!s:>4}  {r['kind'] or '':<6}  {r['file']:<5}  {text}")
     return "\n".join(lines)
 
 

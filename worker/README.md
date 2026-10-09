@@ -19,6 +19,15 @@ Cloudflare Worker + D1. Telegram webhook -> D1 `entries`; the Mac pulls with `uv
 Send `/eat ...`, `/inbody` + photo, `/weight`, `/blood`, `/note` (or plain text) to the bot; `/help` lists them.
 `uv run healthgo inbox --list` shows pending items; `--done <id>...` moves them to `data/inbox/done/`.
 
+### Voice messages
+
+Send a Telegram voice note (any kind: caption `/eat`, a pending command, or plain = note). The Worker downloads it
+via getFile and transcribes it with Workers AI Whisper (`@cf/openai/whisper-large-v3-turbo`, binding `AI`, with a
+繁中 `initial_prompt`), stores the transcript as `text` and echoes it back. At /feel's last question it becomes the
+free-text answer. Over 5 min or 20 MB, or on a Whisper error, the entry is stored with empty `text` and
+`transcribe_error` in `raw`; `inbox` then downloads the audio as `.oga`. Transcribed voices are not downloaded.
+Needs no deploy.sh change (the `[ai]` binding is in wrangler.toml; Workers AI has a free daily allowance).
+
 ### /feel
 
 `/feel` starts a tap-to-answer symptom check-in: one bot message edited in place (multi-select toggles with
