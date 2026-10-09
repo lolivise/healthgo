@@ -70,6 +70,21 @@ def _strength(con, start: date, end: date) -> list[dict]:
     return out
 
 
+def _mean_intake(p: dict, start: date, end: date) -> float:
+    """Average planned daily intake over [start, end] from `intake_kcal_schedule` (falls back to the baseline)."""
+    sched = sorted(p.get("intake_kcal_schedule", []), key=lambda e: e["from"])
+    days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
+
+    def kcal(d: date) -> float:
+        k = p["baseline_intake_kcal"]
+        for e in sched:
+            if date.fromisoformat(e["from"]) <= d:
+                k = e["kcal"]
+        return k
+
+    return sum(kcal(d) for d in days) / len(days)
+
+
 def prepare(sunday: date) -> Path:
     start = sunday - timedelta(days=6)
     base_start, base_end = start - timedelta(days=28), start - timedelta(days=1)
@@ -83,7 +98,7 @@ def prepare(sunday: date) -> Path:
     tdee = None
     if slope28 and w_now:
         kg_per_day = slope28[0] / 100 * w_now / 7
-        tdee = round(p["baseline_intake_kcal"] - kg_per_day * KCAL_PER_KG)
+        tdee = round(_mean_intake(p, sunday - timedelta(days=27), sunday) - kg_per_day * KCAL_PER_KG)
 
     recovery = {}
     for col in ("rhr", "hrv_last_night", "sleep_h", "sleep_score", "avg_stress", "bb_high", "bb_low", "steps",

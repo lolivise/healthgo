@@ -21,6 +21,9 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
   from extra carbs (potato, oats) and fat. Protein stays the same.
 - **Near the trip:** from about 2027-01-16, plan maintenance regardless of the other signals ([[trip-taiwan-2027]]).
 - **The first 4–6 weeks of the cut** overstate fat loss (water and glycogen). Don't use them to calibrate the maintenance estimate.
+- **Deliberate load drops:** since late Sep 2026 he trains lighter and slower on purpose (form, mind-muscle;
+  see memory `training-routine.md`). An e1RM drop on a lift he deliberately de-loaded is **not** strength loss.
+  Judge muscle by InBody SMM, plus e1RM on lifts whose load he kept.
 - **Creatine** (5 g/day) holds water. Keep it constant, and don't read a creatine change as fat.
 - **Shoulder:** any OHP or shoulder-press load jump, or pain he mentions → keep the load moderate, use 8–12 reps, and suggest a
   landmine press or neutral-grip dumbbell press as a swap.

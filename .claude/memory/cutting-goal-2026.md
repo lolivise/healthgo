@@ -31,6 +31,15 @@ need ~1.5 kg/week. Do not resurrect it.
 - After the trip: ignore the scale for week 1, take an InBody, re-set targets, resume the cut.
 - 12 weeks of continuous deficit had already passed at planning time. Watch for diet fatigue.
 
+**Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
+maintenance is ≈2,330 ± 200 at ~91 kg. At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
+So 2,500 needs:
+- more daily steps (the biggest lever, ≈40–50 kcal per +1,000 steps);
+- more muscle over time;
+- a gradual reverse diet after the cut (+~100 kcal/week while the weight holds) to find his true maintenance.
+
+Plan for this in the post-cut / post-trip phase. Keep re-estimating maintenance at every review.
+
 **Why:** health-first at 36, with Hep B ([[health-conditions]]), so protect lean mass, liver and
 hormones over speed.
 
