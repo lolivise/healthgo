@@ -1,0 +1,9 @@
+#!/bin/zsh
+# launchd entry point. launchd gives a bare environment: no ~/.zshrc, minimal PATH.
+# The 1Password service-account token is read from ~/.zshrc by healthgo itself.
+set -u
+REPO="${0:A:h:h}"
+cd "$REPO" || exit 1
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+echo "=== $(date '+%Y-%m-%d %H:%M:%S %Z') healthgo daily ==="
+exec uv run --frozen --quiet healthgo daily

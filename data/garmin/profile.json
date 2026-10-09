@@ -1,0 +1,52 @@
+{
+  "availableTrainingDays": null,
+  "dateFormat": {
+    "displayFormat": "EEE, MMM d, yyyy",
+    "formatId": 23,
+    "formatKey": "mmddyyyy",
+    "groupingUsed": false,
+    "maxFraction": 0,
+    "minFraction": 0
+  },
+  "displayName": "49de0d23-a7c3-4853-9194-a0e6b27990d3",
+  "firstDayOfWeek": {
+    "dayId": 2,
+    "dayName": "sunday",
+    "isPossibleFirstDay": true,
+    "sortOrder": 2
+  },
+  "golfDistanceUnit": "statute_us",
+  "golfElevationUnit": null,
+  "golfSpeedUnit": null,
+  "heartRateFormat": {
+    "displayFormat": null,
+    "formatId": 21,
+    "formatKey": "bpm",
+    "groupingUsed": false,
+    "maxFraction": 0,
+    "minFraction": 0
+  },
+  "hydrationContainers": [],
+  "hydrationMeasurementUnit": "cup",
+  "measurementSystem": "metric",
+  "numberFormat": "decimal_period",
+  "powerFormat": {
+    "displayFormat": null,
+    "formatId": 30,
+    "formatKey": "watt",
+    "groupingUsed": true,
+    "maxFraction": 0,
+    "minFraction": 0
+  },
+  "preferredLocale": "en",
+  "preferredLongTrainingDays": null,
+  "timeFormat": {
+    "displayFormat": "h:mm a",
+    "formatId": 32,
+    "formatKey": "time_twelve_hr",
+    "groupingUsed": false,
+    "maxFraction": 0,
+    "minFraction": 0
+  },
+  "timeZone": "Asia/Hong_Kong"
+}

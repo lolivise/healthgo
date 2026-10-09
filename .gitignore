@@ -1,0 +1,12 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Derived: rebuilt from the committed JSON by `uv run healthgo build-db`
+data/healthgo.db*
+
+# Runtime lock for concurrent sync runs
+data/.sync.lock
+
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run healthgo:*)",
+      "Bash(uv sync:*)",
+      "Bash(sqlite3 -header -column data/healthgo.db:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push origin main)",
+      "Bash(git push origin HEAD:main)",
+      "Bash(tail -50 ~/Library/Logs/healthgo/daily.log)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(op item get:*)"
+    ]
+  }
+}

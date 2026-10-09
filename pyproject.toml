@@ -1,0 +1,20 @@
+[project]
+name = "healthgo"
+version = "0.1.0"
+description = "Darren's personal health tracker: Garmin Connect sync, recovery checks, weekly review prep."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    # Pinned on purpose: Garmin breaks login every few months and a fix ships as a
+    # new release. Bump deliberately (see .claude/skills/sync/SKILL.md), never float.
+    "garminconnect==0.3.17",
+]
+
+[project.scripts]
+healthgo = "healthgo.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/healthgo"]

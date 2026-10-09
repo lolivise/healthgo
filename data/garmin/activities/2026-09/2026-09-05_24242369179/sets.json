@@ -1,0 +1,78 @@
+{
+  "activityId": 24242369179,
+  "exerciseSets": [
+    {
+      "avgConcentricDuration": null,
+      "avgConcentricMeanPower": null,
+      "avgConcentricMeanVelocity": null,
+      "avgConcentricPeakPower": null,
+      "avgConcentricPeakVelocity": null,
+      "avgConcentricRom": null,
+      "avgEccentricDuration": null,
+      "avgEccentricMeanVelocity": null,
+      "avgEccentricPeakVelocity": null,
+      "avgMeanPropulsiveVelocity": null,
+      "duration": 61.273,
+      "exercises": [
+        {
+          "category": "BENCH_PRESS",
+          "name": null,
+          "probability": 99.609375
+        },
+        {
+          "category": "SHOULDER_PRESS",
+          "name": null,
+          "probability": 99.609375
+        }
+      ],
+      "maxConcentricDuration": null,
+      "maxConcentricMeanPower": null,
+      "maxConcentricMeanVelocity": null,
+      "maxConcentricPeakPower": null,
+      "maxConcentricPeakVelocity": null,
+      "maxConcentricRom": null,
+      "maxEccentricDuration": null,
+      "maxEccentricMeanVelocity": null,
+      "maxEccentricPeakVelocity": null,
+      "maxMeanPropulsiveVelocity": null,
+      "messageIndex": 0,
+      "minimalViableThreshold": null,
+      "repetitionCount": 15,
+      "setType": "ACTIVE",
+      "startTime": "2026-09-05T06:38:29.0",
+      "weight": 30000.0,
+      "wktStepIndex": null
+    },
+    {
+      "avgConcentricDuration": null,
+      "avgConcentricMeanPower": null,
+      "avgConcentricMeanVelocity": null,
+      "avgConcentricPeakPower": null,
+      "avgConcentricPeakVelocity": null,
+      "avgConcentricRom": null,
+      "avgEccentricDuration": null,
+      "avgEccentricMeanVelocity": null,
+      "avgEccentricPeakVelocity": null,
+      "avgMeanPropulsiveVelocity": null,
+      "duration": 14.094,
+      "exercises": [],
+      "maxConcentricDuration": null,
+      "maxConcentricMeanPower": null,
+      "maxConcentricMeanVelocity": null,
+      "maxConcentricPeakPower": null,
+      "maxConcentricPeakVelocity": null,
+      "maxConcentricRom": null,
+      "maxEccentricDuration": null,
+      "maxEccentricMeanVelocity": null,
+      "maxEccentricPeakVelocity": null,
+      "maxMeanPropulsiveVelocity": null,
+      "messageIndex": 1,
+      "minimalViableThreshold": null,
+      "repetitionCount": null,
+      "setType": "REST",
+      "startTime": "2026-09-05T06:39:30.0",
+      "weight": null,
+      "wktStepIndex": null
+    }
+  ]
+}

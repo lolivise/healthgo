@@ -1,0 +1,120 @@
+{
+  "activityId": 24380404462,
+  "exerciseSets": [
+    {
+      "avgConcentricDuration": null,
+      "avgConcentricMeanPower": null,
+      "avgConcentricMeanVelocity": null,
+      "avgConcentricPeakPower": null,
+      "avgConcentricPeakVelocity": null,
+      "avgConcentricRom": null,
+      "avgEccentricDuration": null,
+      "avgEccentricMeanVelocity": null,
+      "avgEccentricPeakVelocity": null,
+      "avgMeanPropulsiveVelocity": null,
+      "duration": 52.716,
+      "exercises": [
+        {
+          "category": "UNKNOWN",
+          "name": null,
+          "probability": 99.609375
+        },
+        {
+          "category": "CURL",
+          "name": null,
+          "probability": 0.0
+        }
+      ],
+      "maxConcentricDuration": null,
+      "maxConcentricMeanPower": null,
+      "maxConcentricMeanVelocity": null,
+      "maxConcentricPeakPower": null,
+      "maxConcentricPeakVelocity": null,
+      "maxConcentricRom": null,
+      "maxEccentricDuration": null,
+      "maxEccentricMeanVelocity": null,
+      "maxEccentricPeakVelocity": null,
+      "maxMeanPropulsiveVelocity": null,
+      "messageIndex": 0,
+      "minimalViableThreshold": null,
+      "repetitionCount": 10,
+      "setType": "ACTIVE",
+      "startTime": "2026-09-16T08:12:09.0",
+      "weight": 60000.0,
+      "wktStepIndex": null
+    },
+    {
+      "avgConcentricDuration": null,
+      "avgConcentricMeanPower": null,
+      "avgConcentricMeanVelocity": null,
+      "avgConcentricPeakPower": null,
+      "avgConcentricPeakVelocity": null,
+      "avgConcentricRom": null,
+      "avgEccentricDuration": null,
+      "avgEccentricMeanVelocity": null,
+      "avgEccentricPeakVelocity": null,
+      "avgMeanPropulsiveVelocity": null,
+      "duration": 49.257,
+      "exercises": [],
+      "maxConcentricDuration": null,
+      "maxConcentricMeanPower": null,
+      "maxConcentricMeanVelocity": null,
+      "maxConcentricPeakPower": null,
+      "maxConcentricPeakVelocity": null,
+      "maxConcentricRom": null,
+      "maxEccentricDuration": null,
+      "maxEccentricMeanVelocity": null,
+      "maxEccentricPeakVelocity": null,
+      "maxMeanPropulsiveVelocity": null,
+      "messageIndex": 1,
+      "minimalViableThreshold": null,
+      "repetitionCount": null,
+      "setType": "REST",
+      "startTime": "2026-09-16T08:13:01.0",
+      "weight": null,
+      "wktStepIndex": null
+    },
+    {
+      "avgConcentricDuration": null,
+      "avgConcentricMeanPower": null,
+      "avgConcentricMeanVelocity": null,
+      "avgConcentricPeakPower": null,
+      "avgConcentricPeakVelocity": null,
+      "avgConcentricRom": null,
+      "avgEccentricDuration": null,
+      "avgEccentricMeanVelocity": null,
+      "avgEccentricPeakVelocity": null,
+      "avgMeanPropulsiveVelocity": null,
+      "duration": 2.114,
+      "exercises": [
+        {
+          "category": "SIT_UP",
+          "name": null,
+          "probability": 66.40625
+        },
+        {
+          "category": "CRUNCH",
+          "name": null,
+          "probability": 66.40625
+        }
+      ],
+      "maxConcentricDuration": null,
+      "maxConcentricMeanPower": null,
+      "maxConcentricMeanVelocity": null,
+      "maxConcentricPeakPower": null,
+      "maxConcentricPeakVelocity": null,
+      "maxConcentricRom": null,
+      "maxEccentricDuration": null,
+      "maxEccentricMeanVelocity": null,
+      "maxEccentricPeakVelocity": null,
+      "maxMeanPropulsiveVelocity": null,
+      "messageIndex": 2,
+      "minimalViableThreshold": null,
+      "repetitionCount": 0,
+      "setType": "ACTIVE",
+      "startTime": "2026-09-16T08:13:51.0",
+      "weight": 60000.0,
+      "wktStepIndex": null
+    }
+  ]
+}

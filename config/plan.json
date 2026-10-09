@@ -1,0 +1,38 @@
+{
+  "_comment": "Machine-readable plan. The human reasoning behind every number lives in .claude/memory/. Change both together.",
+  "timezone": "Australia/Perth",
+  "backfill_start": "2026-07-01",
+  "baseline_intake_kcal": 1846,
+  "cut": {
+    "start_date": "2026-07-15",
+    "start_weight_kg": 102.0,
+    "target_body_fat_pct": [15, 18],
+    "target_rate_pct_per_week": [0.5, 0.75]
+  },
+  "checkpoint": {
+    "date": "2027-01-22",
+    "weight_kg": [83, 85],
+    "maintenance_from": "2027-01-16"
+  },
+  "trip": {
+    "start": "2027-01-23",
+    "end": "2027-02-25",
+    "place": "Taiwan",
+    "alerts": false
+  },
+  "safety": {
+    "max_loss_pct_per_week": 1.0,
+    "min_kcal": 1700,
+    "min_protein_g_per_kg": 1.6,
+    "min_fat_g_per_kg": 0.6,
+    "diet_break_after_weeks": [10, 12]
+  },
+  "alerts": {
+    "rhr_rise_bpm": 5,
+    "sleep_short_hours": 6.0,
+    "stress_rise": 10,
+    "body_battery_high_below": 50,
+    "ohp_jump_ratio": 1.1,
+    "resend_after_days": 3
+  }
+}
