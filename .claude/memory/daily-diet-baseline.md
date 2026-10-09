@@ -30,7 +30,9 @@ trend. Coffee: **black, 2 × 300 ml cups/day**, plus the 10 g of instant coffee 
 ≈400–800 mg caffeine/day, above the 400 mg guideline.
 
 **Decided 2026-10-09:** **1 black coffee a day** (before ~1 pm), and the shake's instant coffee goes **10 g → 5 g**.
-That gives ≈200–400 mg/day. Taper over about a week to avoid withdrawal headaches. Sleep is his weakest metric,
+That gives ≈200–400 mg/day. Taper over about a week to avoid withdrawal headaches.
+**Day 1 (2026-10-09) withdrawal:** hunger, constant dizziness and a headache (/feel severity 3, cause: caffeine).
+The advised taper is slower: for 3–4 days, ½–1 black coffee and 7–8 g in the shake, reaching target the week after. If it is no better after ~1 week, see a doctor. Sleep is his weakest metric,
 which is why this matters.
 
 **Fish oil:** 2 capsules/day (2 g fish oil each → 4 g fat, ~36 kcal; 600 mg omega-3 per capsule, i.e. 360 EPA + 240 DHA).

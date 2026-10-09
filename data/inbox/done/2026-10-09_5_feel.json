@@ -1,0 +1,25 @@
+{
+  "answers": {
+    "b1": "constant",
+    "b2": "more",
+    "partial": false,
+    "q1": [
+      "hungry",
+      "dizzy",
+      "headache"
+    ],
+    "q2": 3,
+    "q3": "today",
+    "q4": [
+      "caffeine"
+    ],
+    "urgent": false
+  },
+  "file_id": null,
+  "id": 5,
+  "kind": "feel",
+  "media_group_id": null,
+  "received_at": "2026-10-09T10:27:51.537Z",
+  "text": "餓、頭暈、頭痛｜嚴重度 3｜今天｜原因：咖啡因有變｜頭暈：一直暈｜餓：比較餓",
+  "tg_message_id": -27
+}
