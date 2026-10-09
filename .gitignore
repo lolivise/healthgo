@@ -10,3 +10,5 @@ data/healthgo.db*
 data/.sync.lock
 
 .DS_Store
+worker/node_modules/
+worker/.wrangler/

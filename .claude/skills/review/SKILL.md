@@ -35,9 +35,16 @@ one more number, send the agent a follow-up rather than querying inline, unless 
 If the digest says sync failed, carry on with the data on disk, and state in one line how stale it is.
 Login trouble belongs to `/sync`.
 
-## 3. Ask Darren: Opus. These are the only questions allowed
+## 3. Read the Telegram inbox, then ask Darren: Opus. These are the only questions allowed
 
-Ask in **one message**, and only what's missing:
+**Inbox first.** Darren logs from his phone through the Telegram bot (`/eat`, `/inbody`, `/weight`, `/note`,
+`/blood`, photos). Run `uv run healthgo inbox && uv run healthgo inbox --list` (a one-line pull plus a short
+table). For each pending entry, read `data/inbox/<stem>.json` and look at its photo, if any, yourself. Extract the
+values as in `/log` step 1 and include them in the `health-ops` brief below. The brief also tells it to run
+`uv run healthgo inbox --done <id> …` for every entry it recorded. An entry dated before the review window still
+counts if it was never recorded. Don't ask about anything the inbox already answers.
+
+Then ask in **one message**, and only what's still missing:
 
 1. **InBody**: if the digest says it's missing this week (no scan in the last 7 days):
    *"這週有做 InBody 嗎？可以傳結果照片或數字給我（體重、體脂率、骨骼肌重、體脂肪重、內臟脂肪等級）。"*

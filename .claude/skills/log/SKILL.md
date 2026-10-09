@@ -23,6 +23,10 @@ The photo or text is already in your context, so read it here. Don't make an age
 | Note | `date`, `text` (injury, illness, sleep disruption, …) |
 
 - Dates default to today in Perth time.
+- **Telegram inbox:** `/log` with no input (or "check my inbox") → run `uv run healthgo inbox && uv run healthgo inbox --list`,
+  read each pending `data/inbox/<stem>.json` and its photo, and extract from those. The entry's date is the filename
+  date unless the text says otherwise (e.g. "/eat yesterday dinner…"). Tell `health-ops` to run
+  `uv run healthgo inbox --done <id> …` after recording.
 - If a number is unreadable or the date is ambiguous, ask Darren. Don't guess.
 
 ## 2. Record: `health-ops` agent (Sonnet)

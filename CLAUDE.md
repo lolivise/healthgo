@@ -55,10 +55,11 @@ finishing any change, then report what landed. **Never** force-push, `reset --ha
 
 | Path | What |
 |---|---|
-| `src/healthgo/` | Python CLI (`uv run healthgo …`): `sync`, `daily`, `check`, `prepare-week`, `add`, `status`, `build-db`, `login`, `notify-test`, `install-launchd` |
+| `src/healthgo/` | Python CLI (`uv run healthgo …`): `sync`, `daily`, `check`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `install-launchd` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
 | `data/manual/*.jsonl` | Things Garmin never sees: `inbody`, `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
+| `data/inbox/` | Telegram bot entries pulled from the Cloudflare Worker (`worker/`), pending until recorded; recorded ones move to `data/inbox/done/` |
 | `data/weekly/YYYY-Www.json` | Numbers prepared on Sunday 20:30 for `/review` |
 | `data/state.json` | Sync bookkeeping: `complete_through`, login guard, alert de-duplication |
 | `data/healthgo.db` | SQLite built from the JSON (git-ignored). Query with `sqlite3 -header -column data/healthgo.db` |
@@ -74,10 +75,11 @@ finishing any change, then report what landed. **Never** force-push, `reset --ha
 
 One launchd agent, `com.healthgo.daily`, runs daily at 20:00, Sundays at 20:30, and at login. Each run:
 1. Catch-up sync of every date since `complete_through`, minus a 3-day overlap.
-2. Rebuild the database.
-3. Rule-based checks, with a Telegram alert, de-duplicated over 3 days and silenced during the trip.
-4. If a Sunday 20:30 has passed without a weekly file: prepare it and send a Telegram ping to run `/review`.
-5. Commit and push `data/`.
+2. Pull the Telegram inbox (`healthgo inbox`); a failure is only a warning.
+3. Rebuild the database.
+4. Rule-based checks, with a Telegram alert, de-duplicated over 3 days and silenced during the trip.
+5. If a Sunday 20:30 has passed without a weekly file: prepare it and send a Telegram ping to run `/review`.
+6. Commit and push `data/`.
 
 Logs go to `~/Library/Logs/healthgo/daily.log`. Garmin login is capped at one credential attempt per 24h.
 

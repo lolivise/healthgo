@@ -1,0 +1,10 @@
+name = "healthgo-inbox"
+main = "src/index.ts"
+account_id = "dd81fc7bcd3167d2734368588b478b0c"
+compatibility_date = "2025-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "healthgo-inbox"
+# Paste the id printed by `npx wrangler d1 create healthgo-inbox`.
+database_id = "9823eeae-1b5c-4069-b885-61686d219dc1"

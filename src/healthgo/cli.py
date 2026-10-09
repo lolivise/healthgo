@@ -57,6 +57,41 @@ def _do_sync(state: dict, *, start: date | None = None, force_login: bool = Fals
     return None
 
 
+def _pull_inbox() -> None:
+    """Pull Telegram inbox entries; never fails the caller. Log the type only (URLs carry tokens)."""
+    from . import inbox
+
+    try:
+        n = inbox.pull()
+        if n:
+            log.info("inbox: %d new entries", n)
+    except inbox.InboxError as e:
+        log.warning("inbox skipped: %s", e)
+    except Exception as e:
+        log.warning("inbox pull failed (%s)", type(e).__name__)
+
+
+def cmd_inbox(args) -> int:
+    from . import inbox
+
+    if args.list:
+        print(inbox.format_table(inbox.pending()))
+        return 0
+    if args.done:
+        moved = inbox.mark_done(args.done)
+        print(f"moved {len(moved)} files to data/inbox/done/")
+        return 0 if moved else 1
+    try:
+        print(f"pulled {inbox.pull()} new entries")
+    except inbox.InboxError as e:
+        print(e, file=sys.stderr)
+        return 1
+    except Exception as e:
+        print(f"inbox pull failed ({type(e).__name__})", file=sys.stderr)
+        return 1
+    return 0
+
+
 def cmd_login(args) -> int:
     from . import garmin
 
@@ -121,6 +156,7 @@ def cmd_daily(args) -> int:
     with sync_lock():
         state = store.load_state()
         _do_sync(state)
+        _pull_inbox()
         db.build()
         today = config.today()
         if not config.in_trip(today):
@@ -219,6 +255,11 @@ def main(argv: list[str] | None = None) -> int:
     a.add_argument("kind", choices=["inbody", "eating_out", "bloodwork", "weight", "review", "note"])
     a.add_argument("json", help="the record as a JSON object")
     a.set_defaults(fn=cmd_add)
+
+    i = sub.add_parser("inbox", help="pull Telegram inbox entries into data/inbox/")
+    i.add_argument("--list", action="store_true", help="show pending entries")
+    i.add_argument("--done", nargs="+", type=int, metavar="ID", help="move these entries to data/inbox/done/")
+    i.set_defaults(fn=cmd_inbox)
 
     sub.add_parser("status").set_defaults(fn=cmd_status)
 
