@@ -21,6 +21,9 @@ Disclosed 2026-10-09. All are daily:
   regulator (TGA) warns of peripheral neuropathy from long-term B6. Most of it comes from the magnesium tablet.
   He was told to ask a pharmacist or doctor about a magnesium product without B6, and to stop it and see a doctor if he
   gets tingling or numbness in his hands or feet.
+- **Replacement evaluated 2026-10-09:** Blackmores Magnesium (magnesium citrate, 150 mg elemental, no B6, no Mn).
+  Judged a good swap at 1 tablet/day: B6 drops to ~12 mg (multivitamin only), supplemental Mg to ~200 mg,
+  Mn to 1 mg. 2 tablets (the cramp dose) would put supplemental Mg back at ~350 mg. Update this table if he switches.
 - Supplemental magnesium ≈ 355 mg, at the 350 mg supplemental UL. The main side effect is loose stools (oxide form).
 - **For the doctor, because of his Hep B:**
   - manganese (excreted via bile, ~5 mg/day from supplements);
