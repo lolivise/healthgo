@@ -32,5 +32,10 @@ Disclosed 2026-10-09. All are daily:
   Bring the full list to the next blood test. Ginseng can also disturb sleep in some people, and his sleep is his
   weakest metric, so take the multivitamin in the morning.
 
+**Asked "what else should I take?" (2026-10-09):** nothing new. The stack plus his diet covers needs.
+- Suggested he ask the doctor to add **vitamin D (25-OH D)** and **ferritin / iron studies** to the next blood
+  test. Supplement only if the doctor says to.
+- Avoid: fat burners, green tea extract, turmeric/curcumin capsules, "liver detox" herbals, proprietary pre-workout blends.
+
 **How to apply:** don't suggest new supplements ([[health-conditions]]). Re-check this list if he reports
 tingling, GI issues or new liver results. Changes to it are his or his doctor's call.

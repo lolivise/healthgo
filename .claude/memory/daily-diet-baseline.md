@@ -53,6 +53,11 @@ These match the table above.
   - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W44 review (~2026-11-01) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
 - Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 14 g oil.
+- **Food gaps from the rice swap (estimated 2026-10-09):**
+  - fiber ~29 → ~20 g/day (AU guideline 30 g);
+  - potassium ~5,100 → ~3,600 mg (AU adequate intake 3,800).
+  Advice given: fix with food (more vegetables, leafy greens), not supplements. If he adds veg, update the intake
+  schedule in `config/plan.json`.
 - Calorie-equivalent swap: 400 g potato ≈ 86 g raw rice. Rice is far less filling per kcal. If he is hungry, add vegetables
   (~30 kcal/100 g).
 
