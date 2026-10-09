@@ -2,10 +2,10 @@
   "_comment": "Machine-readable plan. The human reasoning behind every number lives in .claude/memory/. Change both together.",
   "timezone": "Australia/Perth",
   "backfill_start": "2026-07-01",
-  "baseline_intake_kcal": 1938,
+  "baseline_intake_kcal": 1974,
   "intake_kcal_schedule": [
-    {"from": "2026-07-15", "kcal": 1938, "note": "fixed potato diet incl. fish oil + actual 600 g veg"},
-    {"from": "2026-10-12", "kcal": 2040, "note": "2,000 kcal rice experiment W42-W44; olive oil 14 g + fish oil; 600 g veg (spinach/kale avg)"}
+    {"from": "2026-07-15", "kcal": 1974, "note": "fixed potato diet incl. fish oil, 600 g veg, shake cocoa+coffee"},
+    {"from": "2026-10-12", "kcal": 2075, "note": "2,000 kcal rice experiment W42-W44; olive oil 14 g + fish oil; 600 g veg (spinach/kale avg)"}
   ],
   "cut": {
     "start_date": "2026-07-15",

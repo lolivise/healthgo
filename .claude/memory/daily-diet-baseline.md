@@ -43,13 +43,21 @@ It was not in the CSV, so the real baseline was **≈1,893 kcal / 48.8 g fat (0.
 | **Total** (spinach / kale day) | 600 | **134 / 195** | 10 / 13 | 1.6 / 1.8 | 16 / 26 | 13 / 15 |
 
 Against the 400 g row, that is **+14 kcal on a spinach day and +75 on a kale day; about +45 kcal on average**, and +6 g protein.
-So the potato-era baseline was really **≈1,938 kcal** (1,893 + 45). Potassium from veg is ~1,700–2,000 mg/day
+So the potato-era baseline was really **≈1,974 kcal** (1,893 + 45 veg + 36 cocoa/coffee). Potassium from veg is ~1,700–2,000 mg/day
 (spinach is high in it).
 
 **Meal timing (Darren, 2026-10-09):** energy bar → *workout* → protein shake + 2 eggs + 200 g potato +
 200 g veg → lunch: 350 g chicken + 200 g potato + 200 g veg → dinner: yogurt (actually **310 g**) + 35 g oats.
-Chicken, potato and oats are weighed **raw**. Olive oil, chia and creatine were not in this list; they are
-assumed unchanged (oil for cooking, chia with the yogurt). Confirm at the next review.
+Chicken, potato and oats are weighed **raw**. Olive oil is for cooking.
+
+**Post-workout protein drink (Darren, 2026-10-09):**
+- 50 g whey
+- 10 g chia
+- 5 g creatine
+- **5 g cocoa powder** (Cadbury Bournville, AU label per 100 g: 327 kcal, 22.5 P, 11 F, 19 C → 5 g ≈ 16 kcal)
+- **10 g instant coffee** (Nescafé Blend 43, ≈20 kcal; caffeine 50–90 mg per 2 g, so **≈250–450 mg in this drink alone**)
+
+Chia is in the shake, not the yogurt. The cocoa and coffee add **≈36 kcal/day**, not in the CSV.
 
 **Labels checked from photos 2026-10-09:**
 - Yogurt is Coles Simply strawberry, sweetened, per 100 g: 92 kcal, 4.4 P, 1.7 F, 14.2 C, 12 g sugar.
@@ -63,8 +71,8 @@ These match the table above.
   proposal (18 g) was made before the fish oil was known.
 - **2,000 kcal experiment, 3 weeks: 2026-10-12 → 2026-11-01 (W42–W44)**, with rice replacing potato.
   - Darren wanted 2,000 kcal: the 1,850 number "looks low" (not hunger or energy). He also has a long-term wish of a 2,500 TDEE.
-  - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g + 600 g veg → **≈2,010 (spinach) – 2,070 (kale) kcal, ~2,040 average** /
-    ~172 P / 55 F / ~195 C. Decided 2026-10-09: keep the food as is and log the intake as 2,040. Don't trim the rice.
+  - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g + 600 g veg → **≈2,010 (spinach) – 2,070 (kale) kcal, ~2,040 average**, plus 36 from cocoa/coffee → **≈2,075** /
+    ~174 P / 56 F / ~197 C. Decided 2026-10-09: keep the food as is and log the intake as 2,075. Don't trim the rice.
     SunRice white medium grain, raw per 100 g: 356 kcal, 6.8 P, 0.1 F, 79.1 C (label confirmed 2026-10-09).
   - Expected at TDEE ≈2,330: ≈ −0.33 %/wk, putting him at ~87 kg on 1/16 (vs ~85 at 1,850). He accepted the slower pace.
   - **Purpose: measure his real TDEE** from the daily weigh-ins at a known, constant intake.
