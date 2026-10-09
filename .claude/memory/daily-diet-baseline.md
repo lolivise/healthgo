@@ -26,7 +26,9 @@ Source: `daily_diet_intake(1).csv`, given 2026-10-09.
 
 **Water:** about **3.5–4 L/day** in total, including the water in coffee and protein shakes (Darren, 2026-10-09).
 That is adequate for ~91 kg with daily training and creatine. It is a steady habit, so it shouldn't move the scale
-trend. He drinks coffee; what goes into it (milk, sugar) and how many cups is not recorded yet.
+trend. Coffee: **black, 2 × 300 ml cups/day** (≈5–10 kcal total, so it is not counted in intake). That is
+≈250–400 mg caffeine, within the ~400 mg/day guideline. Sleep is his weakest metric, so the advice given was to have
+the last cup before ~1 pm.
 
 **Fish oil:** 2 capsules/day (2 g fish oil each → 4 g fat, ~36 kcal; 600 mg omega-3 per capsule, i.e. 360 EPA + 240 DHA).
 It was not in the CSV, so the real baseline was **≈1,893 kcal / 48.8 g fat (0.54 g/kg)**, not 1,846 / 44.7.
