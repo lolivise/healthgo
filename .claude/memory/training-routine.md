@@ -1,6 +1,6 @@
 ---
 name: training-routine
-description: Darren's actual routine from Garmin data — early-morning 5-day split (Back ×2, Chest, Shoulder, Legs) + ~30 min treadmill most days; main-lift e1RM reference levels as of 2026-10
+description: Darren's routine (trial from 2026-10-10: Tue legs, Wed back, Thu shoulders, Sat back, Sun chest) — from Garmin data — early-morning 5-day split (Back ×2, Chest, Shoulder, Legs) + ~30 min treadmill most days; main-lift e1RM reference levels as of 2026-10
 metadata:
   type: project
 ---
@@ -18,6 +18,26 @@ Derived from Garmin sets/activities 2026-07 → 2026-10 (first review, 2026-10-0
 - **Deliberate technique phase, from ~late Sep 2026 (W39–W40):** Darren (2026-10-09): he now focuses on
   posture and muscle feeling over load: lighter weights, slower tempo. The row dropping from 60×10 to 30×12
   is this, not strength loss. Other lifts may follow.
+
+**Schedule trial from 2026-10-10 (agreed 2026-10-09), 2 weeks, review at W43:**
+- **Why:** a recurring Friday slump. Over the last 6 weeks, Friday has the lowest HRV (40.7 vs a 42.9 mean) and the highest
+  all-day stress (38.9 vs 34.3), even though it has the longest sleep. RHR is flat, so this is accumulated fatigue from the
+  Tue–Thu streak with legs last, plus the shortest sleep on Wednesday night (5.5 h). It is not overtraining.
+- **New week:**
+
+  | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+  |---|---|---|---|---|---|---|
+  | rest | **Legs** | Back | **Shoulders** | rest | **Back** | **Chest** |
+
+  - Legs move to the first day of the streak.
+  - Darren's own change: chest and back swap on the weekend, so his shoulder gets 72 h between shoulder day (Thu) and
+    chest (Sun). Sun chest → Thu shoulders is 4 days.
+- **Extras:**
+  - On Friday, the energy bar goes to 3–4 pm.
+  - Friday treadmill is an easy walk or skipped.
+  - Earlier bedtime on Wednesday.
+- **Judge at W43–W44:** Friday HRV and stress against the mean above, Friday `/feel` entries, and shoulder or chest
+  pressing loads.
 
 **How to apply:** a load drop with good recovery is **intentional**, not muscle loss. Don't call it "strength
 dropping". During this phase **InBody skeletal muscle mass (SMM) is the primary muscle signal**. Use e1RM
