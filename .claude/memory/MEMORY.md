@@ -9,3 +9,4 @@
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push
 - [Model split](model-split.md) — Sonnet agents execute/gather/write reports; Opus main thread analyses and decides (standing rule)
 - [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; since late Sep 2026 lighter loads & slow tempo on purpose → judge muscle by InBody SMM
+- [Supplements](supplements.md) — whey, creatine, fish oil, CoQ10, Mg+B6 complex, multivitamin w/ ginseng; B6 ≈62 mg/day > AU UL 50 → pharmacist/doctor
