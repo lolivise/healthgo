@@ -34,7 +34,7 @@
         ],
         "bodyBatteryDynamicFeedbackEvent": {
           "bodyBatteryLevel": "MODERATE",
-          "eventTimestampGmt": "2026-10-09T02:27:47.0",
+          "eventTimestampGmt": "2026-10-09T03:52:40.0",
           "feedbackLongType": "DAY_STRESSFUL_AND_EXERCISE",
           "feedbackShortType": "DAY_STRESSFUL_AND_EXERCISE"
         },
@@ -54,19 +54,19 @@
             19
           ],
           [
-            1791488880000,
-            58
+            1791489600000,
+            59
           ],
           [
-            1791489420000,
-            58
+            1791489780000,
+            59
           ],
           [
             1791498060000,
             71
           ],
           [
-            1791503640000,
+            1791504360000,
             61
           ],
           [
@@ -83,8 +83,8 @@
           "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE",
           "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INTENSIVE_EXERCISE"
         },
-        "endTimestampGMT": "2026-10-09T03:51:00.0",
-        "endTimestampLocal": "2026-10-09T11:51:00.0",
+        "endTimestampGMT": "2026-10-09T04:01:00.0",
+        "endTimestampLocal": "2026-10-09T12:01:00.0",
         "startTimestampGMT": "2026-10-08T16:00:00.0",
         "startTimestampLocal": "2026-10-09T00:00:00.0"
       }
@@ -11062,7 +11062,7 @@
       }
     },
     "stress": {
-      "avgStressLevel": 26,
+      "avgStressLevel": 25,
       "bodyBatteryValueDescriptorsDTOList": [
         {
           "bodyBatteryValueDescriptorIndex": 0,
@@ -12503,11 +12503,35 @@
           "MEASURED",
           45,
           3.0
+        ],
+        [
+          1791517860000,
+          "MEASURED",
+          45,
+          3.0
+        ],
+        [
+          1791518040000,
+          "MEASURED",
+          45,
+          3.0
+        ],
+        [
+          1791518220000,
+          "MEASURED",
+          45,
+          3.0
+        ],
+        [
+          1791518400000,
+          "MEASURED",
+          45,
+          3.0
         ]
       ],
       "calendarDate": "2026-10-09",
-      "endTimestampGMT": "2026-10-09T03:51:00.0",
-      "endTimestampLocal": "2026-10-09T11:51:00.0",
+      "endTimestampGMT": "2026-10-09T04:01:00.0",
+      "endTimestampLocal": "2026-10-09T12:01:00.0",
       "maxStressLevel": 93,
       "startTimestampGMT": "2026-10-08T16:00:00.0",
       "startTimestampLocal": "2026-10-09T00:00:00.0",
@@ -13471,6 +13495,22 @@
         [
           1791517680000,
           17
+        ],
+        [
+          1791517860000,
+          20
+        ],
+        [
+          1791518040000,
+          24
+        ],
+        [
+          1791518220000,
+          20
+        ],
+        [
+          1791518400000,
+          17
         ]
       ],
       "userProfilePK": 127649376
@@ -13480,12 +13520,12 @@
       "activeKilocalories": 389.0,
       "activeSeconds": 3030,
       "activityStressDuration": 6900,
-      "activityStressPercentage": 16.17,
+      "activityStressPercentage": 15.95,
       "averageMonitoringEnvironmentAltitude": null,
       "averageSpo2": 95.0,
-      "averageStressLevel": 26,
+      "averageStressLevel": 25,
       "avgWakingRespirationValue": 14.0,
-      "bmrKilocalories": 1106.0,
+      "bmrKilocalories": 1122.0,
       "bodyBatteryActivityEventList": [
         {
           "activityId": null,
@@ -13536,7 +13576,7 @@
       "bodyBatteryDuringSleep": 60,
       "bodyBatteryDynamicFeedbackEvent": {
         "bodyBatteryLevel": "MODERATE",
-        "eventTimestampGmt": "2026-10-09T02:27:47",
+        "eventTimestampGmt": "2026-10-09T03:52:40",
         "feedbackLongType": "DAY_STRESSFUL_AND_EXERCISE",
         "feedbackShortType": "DAY_STRESSFUL_AND_EXERCISE"
       },
@@ -13548,7 +13588,7 @@
       "calendarDate": "2026-10-09",
       "consumedKilocalories": null,
       "dailyStepGoal": 10000,
-      "durationInMilliseconds": 42660000,
+      "durationInMilliseconds": 43260000,
       "endOfDayBodyBatteryDynamicFeedbackEvent": {
         "bodyBatteryLevel": "HIGH",
         "eventTimestampGmt": "2026-10-08T16:50:25",
@@ -13560,7 +13600,7 @@
       "floorsDescended": null,
       "floorsDescendedInMeters": null,
       "highStressDuration": 900,
-      "highStressPercentage": 2.11,
+      "highStressPercentage": 2.08,
       "highestRespirationValue": 21.0,
       "highlyActiveSeconds": 3000,
       "includesActivityData": true,
@@ -13568,23 +13608,23 @@
       "includesWellnessData": true,
       "intensityMinutesGoal": 200,
       "lastSevenDaysAvgRestingHeartRate": 49,
-      "lastSyncTimestampGMT": "2026-10-09T03:52:39.705",
-      "latestRespirationTimeGMT": "2026-10-09T03:51:00.0",
+      "lastSyncTimestampGMT": "2026-10-09T04:02:42.848",
+      "latestRespirationTimeGMT": "2026-10-09T04:01:00.0",
       "latestRespirationValue": 11.0,
       "latestSpo2": 93,
       "latestSpo2ReadingTimeGmt": "2026-10-08T22:26:00.0",
       "latestSpo2ReadingTimeLocal": "2026-10-09T06:26:00.0",
-      "lowStressDuration": 5160,
-      "lowStressPercentage": 12.1,
+      "lowStressDuration": 5340,
+      "lowStressPercentage": 12.34,
       "lowestRespirationValue": 7.0,
       "lowestSpo2": 90,
       "maxAvgHeartRate": 142,
       "maxHeartRate": 143,
       "maxStressLevel": 93,
       "measurableAsleepDuration": 22500,
-      "measurableAwakeDuration": 18600,
+      "measurableAwakeDuration": 19200,
       "mediumStressDuration": 3480,
-      "mediumStressPercentage": 8.16,
+      "mediumStressPercentage": 8.04,
       "minAvgHeartRate": 48,
       "minHeartRate": 48,
       "moderateIntensityMinutes": 15,
@@ -13593,26 +13633,26 @@
       "privacyProtected": false,
       "remainingKilocalories": 2169.0,
       "respirationAlgorithmVersion": 200,
-      "restStressDuration": 24660,
-      "restStressPercentage": 57.81,
+      "restStressDuration": 25080,
+      "restStressPercentage": 57.98,
       "restingCaloriesFromActivity": 65.0,
       "restingHeartRate": 49,
       "rule": {
         "typeId": 2,
         "typeKey": "private"
       },
-      "sedentarySeconds": 14108,
+      "sedentarySeconds": 14708,
       "sleepingSeconds": 22522,
       "source": "GARMIN",
-      "stressDuration": 9540,
-      "stressPercentage": 22.36,
+      "stressDuration": 9720,
+      "stressPercentage": 22.47,
       "stressQualifier": "UNKNOWN",
       "totalDistanceMeters": 5901,
-      "totalKilocalories": 1495.0,
+      "totalKilocalories": 1511.0,
       "totalSteps": 6771,
-      "totalStressDuration": 42660,
+      "totalStressDuration": 43260,
       "uncategorizedStressDuration": 1560,
-      "uncategorizedStressPercentage": 3.66,
+      "uncategorizedStressPercentage": 3.61,
       "userDailySummaryId": 127649376,
       "userFloorsAscendedGoal": 10,
       "userProfileId": 127649376,
@@ -13621,9 +13661,9 @@
       "wellnessActiveKilocalories": 389.0,
       "wellnessDescription": null,
       "wellnessDistanceMeters": 5901,
-      "wellnessEndTimeGmt": "2026-10-09T03:51:00.0",
-      "wellnessEndTimeLocal": "2026-10-09T11:51:00.0",
-      "wellnessKilocalories": 1495.0,
+      "wellnessEndTimeGmt": "2026-10-09T04:01:00.0",
+      "wellnessEndTimeLocal": "2026-10-09T12:01:00.0",
+      "wellnessKilocalories": 1511.0,
       "wellnessStartTimeGmt": "2026-10-08T16:00:00.0",
       "wellnessStartTimeLocal": "2026-10-09T00:00:00.0"
     },
