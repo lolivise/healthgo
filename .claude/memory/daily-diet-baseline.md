@@ -26,9 +26,12 @@ Source: `daily_diet_intake(1).csv`, given 2026-10-09.
 
 **Water:** about **3.5–4 L/day** in total, including the water in coffee and protein shakes (Darren, 2026-10-09).
 That is adequate for ~91 kg with daily training and creatine. It is a steady habit, so it shouldn't move the scale
-trend. Coffee: **black, 2 × 300 ml cups/day** (≈5–10 kcal total, so it is not counted in intake). That is
-≈250–400 mg caffeine, within the ~400 mg/day guideline. Sleep is his weakest metric, so the advice given was to have
-the last cup before ~1 pm.
+trend. Coffee: **black, 2 × 300 ml cups/day**, plus the 10 g of instant coffee in the shake. Together that is
+≈400–800 mg caffeine/day, above the 400 mg guideline.
+
+**Decided 2026-10-09:** **1 black coffee a day** (before ~1 pm), and the shake's instant coffee goes **10 g → 5 g**.
+That gives ≈200–400 mg/day. Taper over about a week to avoid withdrawal headaches. Sleep is his weakest metric,
+which is why this matters.
 
 **Fish oil:** 2 capsules/day (2 g fish oil each → 4 g fat, ~36 kcal; 600 mg omega-3 per capsule, i.e. 360 EPA + 240 DHA).
 It was not in the CSV, so the real baseline was **≈1,893 kcal / 48.8 g fat (0.54 g/kg)**, not 1,846 / 44.7.
@@ -55,7 +58,7 @@ Chicken, potato and oats are weighed **raw**. Olive oil is for cooking.
 - 10 g chia
 - 5 g creatine
 - **5 g cocoa powder** (Cadbury Bournville, AU label per 100 g: 327 kcal, 22.5 P, 11 F, 19 C → 5 g ≈ 16 kcal)
-- **10 g instant coffee** (Nescafé Blend 43, ≈20 kcal; caffeine 50–90 mg per 2 g, so **≈250–450 mg in this drink alone**)
+- **Instant coffee, now 5 g** (was 10 g; Nescafé Blend 43, caffeine 50–90 mg per 2 g → ≈125–225 mg)
 
 Chia is in the shake, not the yogurt. The cocoa and coffee add **≈36 kcal/day**, not in the CSV.
 
