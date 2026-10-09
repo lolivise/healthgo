@@ -93,6 +93,14 @@ These match the table above.
 - Calorie-equivalent swap: 400 g potato ≈ 86 g raw rice. Rice is far less filling per kcal. If he is hungry, add vegetables
   (~30 kcal/100 g).
 
+**Salt (Darren, 2026-10-09):** no added salt. Vegetables are microwaved plain, with no dressing. Estimated sodium is only
+**≈1,000 mg/day** (chicken ~250, whey ~200, spinach ~160, yogurt ~150, eggs ~140, the rest small), while he trains 5 days/week
+and drinks 3.5–4 L of water. That is a plausible contributor to the 2026-10-09 headache and dizziness.
+- **Advised:** add **¼ tsp salt/day (~1.5 g ≈ 600 mg Na)** to the veg or chicken. That brings sodium to ≈1,600 mg, still under the
+  2,000 mg guideline (AU suggested dietary target).
+- No blood-pressure or kidney issue is on record. He should still mention it at the next blood test, because of the Hep B.
+- Expect a one-off water gain of ~0.3–0.5 kg on the scale. It lands before W43, where the rice-experiment judging starts.
+
 **Eating out:** a team lunch at work or a meal with friends, about **once every 1–2 weeks**. Those days are
 the exception and should be logged as such, not assumed.
 
