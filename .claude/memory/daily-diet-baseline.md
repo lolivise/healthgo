@@ -16,7 +16,7 @@ Source: `daily_diet_intake(1).csv`, given 2026-10-09.
 | Chicken breast (雞胸肉) | 350 g raw weight | 420 | 78.8 | 9.1 | 0.0 |
 | Yogurt (優格) | 300 g | 274 | 13.2 | 5.2 | 42.6 |
 | Oats (燕麥) | 35 g | 136 | 5.9 | 2.4 | 23.2 |
-| Vegetables (蔬菜) | 400 g | 120 | 5.2 | 0.8 | 22.0 |
+| Vegetables (蔬菜) — CSV said 400 g; **actually 600 g, see below** | 400 g | 120 | 5.2 | 0.8 | 22.0 |
 | Eggs (雞蛋) | 2 eggs | 144 | 12.6 | 9.6 | 0.7 |
 | Protein powder (蛋白粉) | 50 g | 201 | 39.5 | 2.5 | 4.9 |
 | Chia seeds (奇亞籽) | 10 g | 49 | 1.7 | 3.1 | 4.2 |
@@ -32,6 +32,19 @@ the last cup before ~1 pm.
 
 **Fish oil:** 2 capsules/day (2 g fish oil each → 4 g fat, ~36 kcal; 600 mg omega-3 per capsule, i.e. 360 EPA + 240 DHA).
 It was not in the CSV, so the real baseline was **≈1,893 kcal / 48.8 g fat (0.54 g/kg)**, not 1,846 / 44.7.
+
+**Vegetables, actual (Darren, 2026-10-09): 600 g/day, not 400 g.** Labels are from coles.com.au:
+
+| Veg | g/day | kcal | P | F | C | Fibre |
+|---|---:|---:|---:|---:|---:|---:|
+| Coles frozen stir-fry (beans, carrot, onion, broccoli, capsicum) | 250 | 75 | 3.0 | 1.3 | 9.8 | 6.3 |
+| Spinach (I'M Perfect) **or** kale (Coles chopped) | 200 | 32 / 93 | 5.6 / 8.6 | 0 / 0.2 | 0 / 10.4 | 5.0 / 7.2 |
+| Tomato (generic values) | 150 | 27 | 1.4 | 0.3 | 5.9 | 1.8 |
+| **Total** (spinach / kale day) | 600 | **134 / 195** | 10 / 13 | 1.6 / 1.8 | 16 / 26 | 13 / 15 |
+
+Against the 400 g row, that is **+14 kcal on a spinach day and +75 on a kale day; about +45 kcal on average**, and +6 g protein.
+So the potato-era baseline was really **≈1,938 kcal** (1,893 + 45). Potassium from veg is ~1,700–2,000 mg/day
+(spinach is high in it).
 
 **Meal timing (Darren, 2026-10-09):** energy bar → *workout* → protein shake + 2 eggs + 200 g potato +
 200 g veg → lunch: 350 g chicken + 200 g potato + 200 g veg → dinner: yogurt (actually **310 g**) + 35 g oats.
@@ -50,7 +63,8 @@ These match the table above.
   proposal (18 g) was made before the fish oil was known.
 - **2,000 kcal experiment, 3 weeks: 2026-10-12 → 2026-11-01 (W42–W44)**, with rice replacing potato.
   - Darren wanted 2,000 kcal: the 1,850 number "looks low" (not hunger or energy). He also has a long-term wish of a 2,500 TDEE.
-  - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g → ≈1,995 kcal / 166 P / 54.5 F / 197 C.
+  - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g + 600 g veg → **≈2,010 (spinach) – 2,070 (kale) kcal, ~2,040 average** /
+    ~172 P / 55 F / ~195 C. Decided 2026-10-09: keep the food as is and log the intake as 2,040. Don't trim the rice.
     SunRice white medium grain, raw per 100 g: 356 kcal, 6.8 P, 0.1 F, 79.1 C (label confirmed 2026-10-09).
   - Expected at TDEE ≈2,330: ≈ −0.33 %/wk, putting him at ~87 kg on 1/16 (vs ~85 at 1,850). He accepted the slower pace.
   - **Purpose: measure his real TDEE** from the daily weigh-ins at a known, constant intake.
@@ -59,11 +73,10 @@ These match the table above.
   - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W44 review (~2026-11-01) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
 - Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 14 g oil.
-- **Food gaps from the rice swap (estimated 2026-10-09):**
-  - fiber ~29 → ~20 g/day (AU guideline 30 g);
-  - potassium ~5,100 → ~3,600 mg (AU adequate intake 3,800).
-  Advice given: fix with food (more vegetables, leafy greens), not supplements. If he adds veg, update the intake
-  schedule in `config/plan.json`.
+- **Food gaps from the rice swap,** re-estimated with the real 600 g of veg:
+  - fiber ~33 → **~25 g/day** (AU guideline 30 g), a small gap;
+  - potassium ~5,600 → **~4,200 mg** (AU adequate intake 3,800), no gap.
+  No action needed. A first estimate assumed 400 g of veg and overstated both gaps.
 - Calorie-equivalent swap: 400 g potato ≈ 86 g raw rice. Rice is far less filling per kcal. If he is hungry, add vegetables
   (~30 kcal/100 g).
 

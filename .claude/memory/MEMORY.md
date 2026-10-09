@@ -1,6 +1,6 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
 - [Cutting goal 2026](cutting-goal-2026.md) — cut since 2026-07-15 from 102 kg; goal 15–18% BF (~80–83 kg); 0.5–0.75%/wk; checkpoint 83–85 kg by 2027-01-22
-- [Daily diet baseline](daily-diet-baseline.md) — fixed diet + meal timing + labels; fish oil 4 g fat; olive oil 14 g; 2,000 kcal rice experiment 2026-10-12→11-01 (100 g SunRice raw)
+- [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; 2,000 kcal rice experiment 2026-10-12→11-01 ≈2,040 kcal logged
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
 - [Review preferences](review-preferences.md) — ask InBody if >7 days old, ask eating-out each review; 繁中 verdict-first; no waist/photos
