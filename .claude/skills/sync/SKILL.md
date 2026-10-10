@@ -6,8 +6,10 @@ description: Operate and troubleshoot the healthgo Garmin pipeline — manual ca
 # /sync
 
 The split follows `CLAUDE.md` → Model split:
-- **The `health-ops` agent (Sonnet) runs everything below** and returns facts: status, log excerpts,
-  errors, what it ran.
+- **Pulling Garmin data** (a routine sync, re-pulling a range, status, build-db): spawn `health-ops` with
+  `model: "haiku"` (Darren, 2026-10-10). If it hits an error, don't let Haiku diagnose; hand the error to a Sonnet run.
+- **Troubleshooting** (login failures, 429s, launchd, the library pin): the `health-ops` agent on Sonnet. It returns facts:
+  status, log excerpts, errors, what it ran.
 - **The main thread (Opus) decides:** whether to force a login, whether to bump the library, and what to tell
   Darren.
 

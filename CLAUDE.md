@@ -31,11 +31,12 @@ Darren's standing rule (2026-10-09), for token efficiency:
 
 | Work | Who | How |
 |---|---|---|
-| Execution: sync, backfill, recording entries, commits, troubleshooting commands | **Sonnet** | `health-ops` agent |
+| **Pulling Garmin data**: routine sync, re-pull a range, status, build-db | **Haiku** | `health-ops` spawned with `model: "haiku"` (Darren, 2026-10-10) |
+| Execution: recording entries, commits, troubleshooting (login failures, 429s, launchd, library bump) | **Sonnet** | `health-ops` agent |
 | **Reading blood-report images**: extracting the values | **Sonnet** | `health-ops` agent, given the file path. Opus never opens images |
 | **Reading meal photos** (eating-out kcal estimate) | **Haiku** | `health-ops` spawned with `model: "haiku"` |
 | Voice notes | Workers AI Whisper | transcribed in the Worker; the text is handled like any note |
-| Information gathering: running prep, querying the DB, building the numeric digest | **Sonnet** | `health-data` agent |
+| Information gathering: Garmin sync, running prep, querying the DB, building the numeric digest | **Haiku** | `health-data` agent (pinned `model: haiku`) |
 | Report writing: the 繁中 report from a decided verdict | **Sonnet** | `health-writer` agent |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |
 
@@ -77,7 +78,7 @@ eating out, and `/feel` + notes via Telegram.
 | `reports/YYYY-Www.md` | Weekly reviews (繁中) |
 | `config/plan.json` | Targets, trip dates, safety and alert thresholds |
 | `bin/healthgo-job` | launchd entry point → `healthgo daily` |
-| `.claude/agents/` | Sonnet workers: `health-data`, `health-ops`, `health-writer` (see Model split) |
+| `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer` (see Model split) |
 
 **Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history: one scan, 2026-09-27), `eating_out`,
 `bloodwork`, `reviews`, `notes`; view `strength_top`.

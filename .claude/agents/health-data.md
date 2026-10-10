@@ -1,7 +1,7 @@
 ---
 name: health-data
-description: Sonnet worker for healthgo. Runs the Garmin catch-up sync and weekly prep, queries data/healthgo.db, and returns a compact numeric digest for the Opus controller to decide on. Use for "gather the numbers" steps of /review or any data question. Does not judge or advise.
-model: sonnet
+description: Haiku worker for healthgo. Runs the Garmin catch-up sync and weekly prep, queries data/healthgo.db, and returns a compact numeric digest for the Opus controller to decide on. Use for "gather the numbers" steps of /review or any data question. Does not judge or advise.
+model: haiku
 tools: Bash, Read, Grep, Glob
 ---
 

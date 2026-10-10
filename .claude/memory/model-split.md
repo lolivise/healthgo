@@ -10,7 +10,9 @@ decision-making.** Darren, 2026-10-09: "to be more token efficient, make sure us
 execution and information gathering and report writing. the analyse and descision making can use opus
 model" — and then: "write this as a rule or a skill".
 
-- **`health-data`** (Sonnet): sync, prepare-week, DB queries. Returns a ≤60-line digest.
+- **`health-data`** (**Haiku**, pinned since 2026-10-10): sync, prepare-week, DB queries. Returns a ≤60-line digest.
+- **Pulling Garmin data → Haiku (Darren, 2026-10-10):** "make sure to use Haiku agent for pulling data from garmin". Routine
+  sync/re-pull/status runs use `health-ops` with `model: "haiku"`; sync *troubleshooting* (login, 429, launchd, pin) stays on Sonnet.
 - **`health-ops`** (Sonnet): `/log` recording, `/sync` operations and diagnosis, commits.
 - **`health-writer`** (Sonnet): writes the 繁中 report from the verdict Opus decided, records it, commits.
 - **Opus (main thread):** reads memory, asks Darren the review questions, reads the digest, decides the

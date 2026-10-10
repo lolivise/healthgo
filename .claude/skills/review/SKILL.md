@@ -20,7 +20,7 @@ what this skill exists to prevent.
 - Read `config/plan.json` and the **verdict block only** of the 2 most recent `reports/*.md`, so advice
   builds on what was said last time.
 
-## 2. Gather numbers: `health-data` agent (Sonnet)
+## 2. Gather numbers: `health-data` agent (Haiku)
 
 Spawn the `health-data` agent with a self-contained brief:
 - the week to prepare (default: the latest due Sunday; for a mid-week review, `--week-end <coming Sunday>`
