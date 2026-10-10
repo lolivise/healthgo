@@ -1,15 +1,13 @@
 ---
 name: review-preferences
-description: How reviews must run — ask InBody if none in 7 days, ask eating-out since last review, 繁中 report with verdict on top, training tweaks only, no waist/photos
+description: How reviews must run — no InBody (gone 2026-10-10), ask eating-out since last review, 繁中 report with verdict on top, training tweaks only, no waist/photos
 metadata:
   type: feedback
 ---
 
 Decided with Darren 2026-10-09:
 
-- **InBody:** he scans weekly, usually Saturday or Sunday, but not on a fixed day. **Before any review
-  or advice, if there is no InBody from the last 7 days, ask for it** (a photo of the printout or the
-  numbers) and record it.
+- **InBody: no longer exists** (gym removed it, 2026-10-10). Never ask for it ([[data-sources]]).
 - **Eating out:** about once every 1–2 weeks (team lunch, friends). **At every review ask "did you eat
   out since the last review? when, roughly what?" and record the answer**, including "none".
 - **Dropped on purpose:** waist measurements and progress photos ("too much, it will turn me off").

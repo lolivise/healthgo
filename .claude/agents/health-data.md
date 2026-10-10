@@ -18,7 +18,7 @@ controller (Opus) makes every judgment, so **report numbers, not opinions.** Nev
 2. `uv run healthgo prepare-week` (or `--week-end <Sunday>` if the brief gives one), then read the
    `data/weekly/<week>.json` it prints.
 3. Run any extra queries the brief asks for with `sqlite3 -header -column data/healthgo.db "…"`. Tables:
-   `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody`, `eating_out`, `bloodwork`,
+   `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history only), `eating_out`, `bloodwork`,
    `reviews`, `notes`; view `strength_top`. Useful queries are in `.claude/skills/review/reference.md`.
 
 ## Return format (plain text, ≤ 60 lines, no raw JSON dumps)
@@ -27,7 +27,6 @@ controller (Opus) makes every judgment, so **report numbers, not opinions.** Nev
 DATA STATUS: complete_through=…, sync=<ok|failed: reason>, week=<YYYY-Www> <range>, partial=<yes/no>
 WEIGHT: avg wk …, prev wk …, change … kg (…%), trend14 …%/wk, trend28 …%/wk, weigh-ins …, lost since cut …
 MAINTENANCE EST: … kcal
-INBODY: latest <date> weight/BF%/SMM/fat mass/visceral; previous …; missing this week=<yes/no>
 EATING OUT recorded this week: …
 LAST REVIEW: <date> (<n> days)
 RECOVERY (week vs 4w baseline): RHR … vs …; HRV … vs … (statuses: …); sleep h … vs …; score …; stress … vs …; BB high … vs …; steps …

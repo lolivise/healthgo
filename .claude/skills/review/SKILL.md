@@ -1,6 +1,6 @@
 ---
 name: review
-description: Darren's health review — weekly (after the Sunday 20:30 Telegram ping) or any time he asks how he's doing, whether to keep cutting, if his strength is dropping, or for diet/training advice. Sonnet agents sync and gather the numbers, Opus asks for a missing InBody and eating-out days and decides the verdict (keep cutting / slow down / diet break / adjust intake), a Sonnet agent writes the 繁體中文 report and commits. Trigger on /review, "review my progress", "how am I doing", "should I keep cutting", "give me advice".
+description: Darren's health review — weekly (after the Sunday 20:30 Telegram ping) or any time he asks how he's doing, whether to keep cutting, if his strength is dropping, or for diet/training advice. Sonnet agents sync and gather the numbers, Opus asks for eating-out days and decides the verdict (keep cutting / slow down / diet break / adjust intake), a Sonnet agent writes the 繁體中文 report and commits. Trigger on /review, "review my progress", "how am I doing", "should I keep cutting", "give me advice".
 ---
 
 # /review
@@ -10,7 +10,7 @@ You (the main thread, **Opus**) are Darren's coach. You decide; Sonnet agents do
 grounded in his own numbers and bounded by his safety limits.
 
 Arguments: none → the latest week. `W41` / a date / "last 3 weeks" → that period. A free-text question →
-answer it, but still run steps 1–3 first, because advice without fresh data and the InBody check is
+answer it, but still run steps 1–3 first, because advice without fresh data is
 what this skill exists to prevent.
 
 ## 1. Load context: Opus, quickly
@@ -37,32 +37,28 @@ Login trouble belongs to `/sync`.
 
 ## 3. Read the Telegram inbox, then ask Darren: Opus. These are the only questions allowed
 
-**Inbox first.** Darren logs from his phone through the Telegram bot (`/eat`, `/inbody`, `/weight`, `/note`,
+**Inbox first.** Darren logs from his phone through the Telegram bot (`/eat`, `/feel`, `/weight`, `/note`,
 `/blood`, photos). Run `uv run healthgo inbox && uv run healthgo inbox --list` (a one-line pull plus a short
 table). For each pending entry, read `data/inbox/<stem>.json` (text only). Extract text values
 as in `/log` step 1. **Never open the photos in the main thread**: pass their paths to `health-ops`, which reads them
-with Sonnet (meal photos: spawn it with `model: "haiku"`; InBody follows `/log`'s `--check` and one-time comparison rules), records them, and returns the extracted values. The brief also tells it to run
+with Sonnet (meal photos: spawn it with `model: "haiku"`; bloodwork photos on Sonnet), records them, and returns the extracted values. The brief also tells it to run
 `uv run healthgo inbox --done <id> …` for every entry it recorded. An entry dated before the review window still
 counts if it was never recorded. Don't ask about anything the inbox already answers.
 
 Then ask in **one message**, and only what's still missing:
 
-1. **InBody**: if the digest says it's missing this week (no scan in the last 7 days):
-   *"這週有做 InBody 嗎？可以傳結果照片或數字給我（體重、體脂率、骨骼肌重、體脂肪重、內臟脂肪等級）。"*
-   Ask him to send the photo through the Telegram bot's `/inbody` menu, then pull the inbox. `health-ops` reads it.
-2. **Eating out**: always ask, covering the days since the last review:
+**Eating out** is the only question: always ask, covering the days since the last review:
    *"上次 review（日期）之後有外食嗎？哪天、大概吃了什麼？"* Estimate the kcal per meal yourself.
 
-Then hand the values you extracted to the **`health-ops` agent** to record. That includes InBody, each eating-out
-meal, or a note saying "no eating out since <date>" if there was none. It also compares the scan with the previous
-one and commits. Do not ask about mood, waist, photos or soreness. If the data shows something you can't
+Then hand the values you extracted to the **`health-ops` agent** to record. That includes each eating-out
+meal, or a note saying "no eating out since <date>" if there was none. It also commits. Do not ask about mood, waist, photos or soreness. If the data shows something you can't
 read without him (e.g. no workouts for 6 days), one short question is fine.
 
 ## 4. Decide: Opus, in the main thread. Never delegated to Sonnet
 
 Work through `reference.md` → **Decision rules**:
 - **Rate:** 14- and 28-day weight trend against the 0.5–0.75%/wk target and the 1% cap.
-- **Muscle:** e1RM of the main lifts against the prior 4 weeks, and InBody skeletal muscle mass against the previous scan.
+- **Muscle:** e1RM of the main lifts against the prior 4 weeks, plus rate of loss staying within target and protein adequacy (no InBody anymore; see `reference.md`).
 - **Recovery:** RHR, HRV, sleep, stress and Body Battery against his own baseline.
 - **Context:** cut week, phase (gentle cut → maintenance from 2026-12-14, see `cutting-goal-2026.md`), days to the trip; ground advice in the `evidence-*.md` memories.
 - **Limits:** every change is checked against `safety-limits.md`. His fat intake is below the floor, so that's
@@ -91,7 +87,7 @@ It writes the report, records the review, commits and pushes, then returns the v
 ## 6. Tell Darren and learn: Opus
 
 - Reply in chat **in 繁中** with the verdict block and the report path. Keep it short.
-- **Durable learnings go to memory.** Examples: a better maintenance estimate, a lift that keeps stalling, an InBody-based goal
-  weight, a diet change he agreed to (`daily-diet-baseline.md`).
+- **Durable learnings go to memory.** Examples: a better maintenance estimate, a lift that keeps stalling, a goal
+  weight estimate, a diet change he agreed to (`daily-diet-baseline.md`).
   - If a target or date changes, update `config/plan.json` too.
   - These are judgments, so write them yourself, then commit and push (`git add .claude config && git commit -m "memory: …" && git push origin main`).

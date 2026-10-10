@@ -21,7 +21,7 @@ metadata:
 | Holiday foods in Taiwan | Energy-dense: 蘿蔔糕, 年糕, 油飯, 麻油雞, 瓜子/糖果, fried dishes, hotpot (very salty broth). Easy protein: 茶葉蛋, 滷蛋, 無糖豆漿, 豆腐, convenience-store 雞胸 / boiled eggs, fish | practical |
 
 **How to apply:**
-- Use waist < 90 cm and InBody trends (not BMI, since his height isn't recorded) as population-appropriate checks.
-- Never read a single InBody change below the noise band as fat gain or muscle loss.
+- Use waist < 90 cm (not BMI, since his height isn't recorded) as population-appropriate checks.
+- InBody is gone (2026-10-10); the noise row matters only for reading the 2026-09-27 scan or a future one-off.
 - His ~1,000 mg/day sodium habit plus salty banquet food means a quick water jump in Taiwan. Expect it, don't read it as fat.
 - Related: [[health-conditions]], [[safety-limits]], [[trip-taiwan-2027]], [[evidence-cut-and-training]].

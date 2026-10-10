@@ -11,7 +11,6 @@ export interface Env {
 
 const LABELS: Record<string, string> = {
   eat: "外食",
-  inbody: "InBody",
   weight: "體重",
   note: "備註",
   blood: "驗血",
@@ -21,7 +20,6 @@ const LABELS: Record<string, string> = {
 // Asked after a bare command tapped from the menu; the next message gets that kind.
 const PROMPTS: Record<string, string> = {
   eat: "🍽 吃了什麼？哪一天、哪一餐、大概內容（也可以傳照片）",
-  inbody: "📊 請傳 InBody 結果照片",
   weight: "⚖️ 體重多少？（例：90.8）",
   blood: "🩸 請傳驗血報告照片或文字",
   note: "📝 要記什麼？",
@@ -32,7 +30,6 @@ const HELP =
   "healthgo 收件匣指令：\n" +
   "/eat 外食內容（例：/eat 朋友聚餐，韓式烤肉）\n" +
   "/feel 身體狀況回報（點選回答）\n" +
-  "/inbody 附上 InBody 結果照片\n" +
   "/weight 體重數字\n" +
   "/blood 驗血結果（文字或照片）\n" +
   "/note 其他備註（不加指令也會當備註）\n" +
@@ -40,7 +37,7 @@ const HELP =
   "🎙 也可以傳語音（會自動轉成文字）\n" +
   "也可以從選單點指令，再輸入內容或傳照片。";
 
-const COMMAND = /^\/(eat|feel|inbody|weight|note|blood|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
+const COMMAND = /^\/(eat|feel|weight|note|blood|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
 
 function safeEqual(a: string, b: string): boolean {
   const enc = new TextEncoder();
@@ -146,7 +143,7 @@ async function handleCallback(cq: any, env: Env): Promise<void> {
 // ---- Voice messages: Telegram getFile -> Workers AI Whisper -> text ----
 
 const WHISPER = "@cf/openai/whisper-large-v3-turbo";
-const WHISPER_PROMPT = "以下是繁體中文的健康紀錄，可能夾雜英文，例如 leg day、InBody。";
+const WHISPER_PROMPT = "以下是繁體中文的健康紀錄，可能夾雜英文，例如 leg day。";
 const MAX_VOICE_S = 5 * 60;
 const MAX_VOICE_BYTES = 20 * 1024 * 1024;
 
@@ -264,7 +261,7 @@ async function handle(update: any, env: Env): Promise<void> {
       .bind(chatId).first<{ kind: string; set_at: number }>();
     if (pending) {
       await env.DB.prepare("DELETE FROM pending WHERE chat_id = ?").bind(chatId).run();
-      if (Date.now() / 1000 - pending.set_at <= PENDING_TTL_S) kind = pending.kind;
+      if (Date.now() / 1000 - pending.set_at <= PENDING_TTL_S && pending.kind in PROMPTS) kind = pending.kind;
     }
   }
 

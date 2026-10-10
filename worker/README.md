@@ -16,7 +16,7 @@ Cloudflare Worker + D1. Telegram webhook -> D1 `entries`; the Mac pulls with `uv
 
 ## Use
 
-Send `/eat ...`, `/inbody` + photo, `/weight`, `/blood`, `/note` (or plain text) to the bot; `/help` lists them.
+Send `/eat ...`, `/weight`, `/blood`, `/note` (or plain text) to the bot; `/help` lists them.
 `uv run healthgo inbox --list` shows pending items; `--done <id>...` moves them to `data/inbox/done/`.
 
 ### Voice messages

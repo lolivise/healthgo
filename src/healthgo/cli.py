@@ -172,15 +172,10 @@ def cmd_daily(args) -> int:
 
 
 def cmd_add(args) -> int:
-    from . import db, inbody_check, manual
+    from . import db, manual
 
     record = json.loads(args.json)
-    if args.check:
-        if args.kind != "inbody":
-            sys.exit("--check only applies to inbody")
-        bad = inbody_check.failures(manual.check_inbody(record))
-        return 2 if bad else 0
-    record = manual.add(args.kind, record, force=args.force)
+    record = manual.add(args.kind, record)
     db.build()
     print(json.dumps(record, ensure_ascii=False))
     return 0
@@ -192,7 +187,6 @@ def cmd_status(args) -> int:
     state = store.load_state()
     token = config.TOKENSTORE / "garmin_tokens.json"
     reviews = store.read_jsonl(config.MANUAL / "reviews.jsonl")
-    inbody = store.read_jsonl(config.MANUAL / "inbody.jsonl")
     out = {
         "today": config.today().isoformat(),
         "complete_through": state.get("complete_through"),
@@ -203,7 +197,6 @@ def cmd_status(args) -> int:
         "launchd_loaded": launchd.is_loaded(),
         "latest_weekly": weekly.latest_week_file(),
         "last_review": reviews[-1]["date"] if reviews else None,
-        "last_inbody": inbody[-1]["date"] if inbody else None,
         "in_trip": config.in_trip(config.today()),
     }
     print(json.dumps(out, indent=2, ensure_ascii=False))
@@ -258,10 +251,8 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("daily", help="launchd entry point").set_defaults(fn=cmd_daily)
 
     a = sub.add_parser("add", help="append a manual record")
-    a.add_argument("kind", choices=["inbody", "eating_out", "bloodwork", "weight", "review", "note"])
+    a.add_argument("kind", choices=["eating_out", "bloodwork", "weight", "review", "note"])
     a.add_argument("json", help="the record as a JSON object")
-    a.add_argument("--check", action="store_true", help="inbody only: validate consistency, write nothing")
-    a.add_argument("--force", action="store_true", help="inbody only: record even if consistency checks fail")
     a.set_defaults(fn=cmd_add)
 
     i = sub.add_parser("inbox", help="pull Telegram inbox entries into data/inbox/")

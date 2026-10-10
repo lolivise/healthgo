@@ -21,7 +21,7 @@ thresholds). **Change both together.**
   supplements and a doctor referral for anything liver-related.
 - **Reports and advice are in Traditional Chinese (繁體中文)**, with English technical terms in brackets.
 - **Don't add tracking chores.** He rejected waist and photo tracking. Read Garmin data, and only ask
-  questions inside a review he started (InBody if missing, eating-out since the last review).
+  questions inside a review he started (eating out since the last review).
 - **Never print secret values.** Credentials live in 1Password `HealthGo/secrets`; the Garmin token
   lives in `~/.garminconnect/`.
 
@@ -32,7 +32,7 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | Work | Who | How |
 |---|---|---|
 | Execution: sync, backfill, recording entries, commits, troubleshooting commands | **Sonnet** | `health-ops` agent |
-| **Reading InBody / blood-report images**: extracting the values | **Sonnet** | `health-ops` agent, given the file path. Opus never opens images |
+| **Reading blood-report images**: extracting the values | **Sonnet** | `health-ops` agent, given the file path. Opus never opens images |
 | **Reading meal photos** (eating-out kcal estimate) | **Haiku** | `health-ops` spawned with `model: "haiku"` |
 | Voice notes | Workers AI Whisper | transcribed in the Worker; the text is handled like any note |
 | Information gathering: running prep, querying the DB, building the numeric digest | **Sonnet** | `health-data` agent |
@@ -54,6 +54,14 @@ finishing any change, then report what landed. **Never** force-push, `reset --ha
 `tag` or `stash drop` without an explicit ask. Everything is committed except the derived
 `data/healthgo.db`.
 
+## No InBody anymore
+
+His gym removed its InBody machine (2026-10-10), so no new scans will ever exist. The one scan (2026-09-27: 91.4 kg,
+25.5 %) stays in `data/manual/inbody.jsonl` and the `inbody` table as history only. Body-fat % is no longer measured:
+progress toward the 15-18 % goal is estimated from the weight trend, assuming lean mass of about 68 kg
+(15-18 % is roughly 80-83 kg), a rough estimate. Data sources now: Garmin (incl. strength sets, sleep, HRV), weight,
+eating out, and `/feel` + notes via Telegram.
+
 ## Layout
 
 | Path | What |
@@ -61,7 +69,7 @@ finishing any change, then report what landed. **Never** force-push, `reset --ha
 | `src/healthgo/` | Python CLI (`uv run healthgo …`): `sync`, `daily`, `check`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `install-launchd` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
-| `data/manual/*.jsonl` | Things Garmin never sees: `inbody`, `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
+| `data/manual/*.jsonl` | Things Garmin never sees (`inbody` is history only, see below): `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
 | `data/inbox/` | Telegram bot entries pulled from the Cloudflare Worker (`worker/`), pending until recorded; recorded ones move to `data/inbox/done/` |
 | `data/weekly/YYYY-Www.json` | Numbers prepared on Sunday 20:30 for `/review` |
 | `data/state.json` | Sync bookkeeping: `complete_through`, login guard, alert de-duplication |
@@ -71,7 +79,7 @@ finishing any change, then report what landed. **Never** force-push, `reset --ha
 | `bin/healthgo-job` | launchd entry point → `healthgo daily` |
 | `.claude/agents/` | Sonnet workers: `health-data`, `health-ops`, `health-writer` (see Model split) |
 
-**Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody`, `eating_out`,
+**Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history: one scan, 2026-09-27), `eating_out`,
 `bloodwork`, `reviews`, `notes`; view `strength_top`.
 
 ## Automation
@@ -88,6 +96,6 @@ Logs go to `~/Library/Logs/healthgo/daily.log`. Garmin login is capped at one cr
 
 ## Skills
 
-- `/review`: the weekly (or any-time) review. Sync, ask about InBody and eating out, verdict, 繁中 report, commit.
-- `/log`: record InBody (photo or numbers), eating out, bloodwork, a manual weight, or a note.
+- `/review`: the weekly (or any-time) review. Sync, ask about eating out, verdict, 繁中 report, commit.
+- `/log`: record eating out (text or meal photo), bloodwork, a manual weight, or a note.
 - `/sync`: manual sync or backfill, status, and troubleshooting Garmin login, 429s, launchd and the library pin.

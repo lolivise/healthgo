@@ -3,14 +3,15 @@
 - [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; 2,000 kcal rice experiment 2026-10-12→11-01 ≈2,040 kcal logged
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
-- [Review preferences](review-preferences.md) — ask InBody if >7 days old, ask eating-out each review; 繁中 verdict-first; no waist/photos
+- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; 繁中 verdict-first; no waist/photos
 - [Trip Taiwan 2027](trip-taiwan-2027.md) — 2027-01-23→02-25 family road trip, will overeat; plan before/during/after; alerts off
 - [Garmin data access](garmin-data-access.md) — garminconnect 0.3.17, 1Password HealthGo/secrets, ≤1 login/24h, no readiness/VO2 on his watch, grams
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push
 - [Model split](model-split.md) — Sonnet agents execute/gather/write reports; Opus main thread analyses and decides (standing rule)
-- [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; since late Sep 2026 lighter loads & slow tempo on purpose → judge muscle by InBody SMM
+- [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; since late Sep 2026 lighter loads & slow tempo on purpose → judge muscle by strength at same load
 - [Supplements](supplements.md) — whey, creatine, fish oil, CoQ10, Blackmores Mg citrate (B6-free, swapped 2026-10-09), multivitamin w/ ginseng; tell doctor re Hep B
 - [Feel check-in](feel-checkin.md) — Telegram /feel symptom questions (no libido); re-review the question set at the first review ≥ 2026-11-09
 - [Evidence: cut & training](evidence-cut-and-training.md) — 2023–26 research base: deficit ≤~500 kcal, protein, fat floor, diet breaks, volume/failure/tempo, holiday minimum dose
 - [Evidence: ending a cut](evidence-maintenance-transition.md) — straight-to-maintenance beats reverse ramp; +0.5–2 kg water jump; flexible rules; TDEE from trend
 - [Evidence: Taiwanese man + Hep B](evidence-asian-hepb.md) — HPA BMI/waist norms, 15–18% sensible, InBody noise band, Taiwan DRI, HBV+metabolic risk, ALDH2/alcohol
+- [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg

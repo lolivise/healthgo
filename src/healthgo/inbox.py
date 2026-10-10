@@ -22,7 +22,7 @@ log = logging.getLogger(__name__)
 INBOX = config.DATA / "inbox"
 DONE = INBOX / "done"
 PLACEHOLDER = "REPLACE_AFTER_DEPLOY"
-KINDS = {"eat", "feel", "inbody", "weight", "note", "blood"}
+KINDS = {"eat", "feel", "weight", "note", "blood"}
 
 
 class InboxError(RuntimeError):

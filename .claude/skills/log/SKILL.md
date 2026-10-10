@@ -1,6 +1,6 @@
 ---
 name: log
-description: Record health data Garmin never sees into the healthgo repo — an InBody scan (photo of the printout or numbers), an eating-out meal, blood-test results, a manual weight, or a free note. A Sonnet health-ops agent reads any photo, records, compares and commits; Opus only handles text input and the confirmation. Trigger on /log, "here's my InBody", "I ate out", "my blood test results", or when Darren sends an InBody/bloodwork photo.
+description: Record health data Garmin never sees into the healthgo repo — an eating-out meal, blood-test results, a manual weight, or a free note. A Sonnet health-ops agent reads any photo, records, compares and commits; Opus only handles text input and the confirmation. Trigger on /log, "I ate out", "my blood test results", or when Darren sends a meal/bloodwork photo.
 ---
 
 # /log
@@ -11,29 +11,23 @@ The split follows `CLAUDE.md` → Model split:
 - **Opus (main thread):** turns *text* input into exact values.
 - **`health-ops` (Sonnet):** extracts values from photos, records everything, compares with history, and commits.
   **Meal photos only:** spawn `health-ops` with `model: "haiku"` (Darren, 2026-10-09). The kcal is an estimate anyway.
-  InBody and bloodwork stay on Sonnet.
-- **InBody numbers are validated:** have `health-ops` run `uv run healthgo add inbody --check '<json>'` before recording. If a
-  consistency check fails, it re-reads the image once. If it still fails, ask Darren for those numbers. Never `--force` without
-  his confirmation.
-- **One-time comparison (the first InBody photo after 2026-10-09):** extract it twice, once with `health-ops` on
-  `model: "haiku"` and once on Sonnet, both with `--check`. Record the Sonnet values. Then show Darren a per-field diff and
-  how many fields each model got right (or that both agreed), and decide with him whether InBody can move to Haiku.
-  Afterwards, update this line and memory `model-split.md`.
+  Bloodwork photos stay on Sonnet.
+- **No InBody anymore** (gym removed the machine, 2026-10-10): `healthgo add` no longer accepts `inbody`. Anything he sends that
+  looks like an InBody result is recorded as a plain note.
 - Voice notes arrive already transcribed (Workers AI Whisper in the Worker). Treat the transcript as text. If the text
   is empty (transcription failed) and an `.oga` file is present, ask Darren what he said. Don't guess.
 - **Opus:** gives the one-line confirmation in 繁中.
 
 ## 1. Extract: Opus for text, `health-ops` for images
 
-- **Text** (e.g. "/eat Korean BBQ with friends", "InBody 90.2 kg 24.8 %"): Opus extracts the values below.
-- **Images** (an InBody printout, a blood report, a meal photo): **don't read them in the main thread.** Pass the
+- **Text** (e.g. "/eat Korean BBQ with friends"): Opus extracts the values below.
+- **Images** (a blood report, a meal photo): **don't read them in the main thread.** Pass the
   file path to `health-ops` in step 2 with the field list below, and it reads the image and extracts the values.
   Telegram inbox photos are files under `data/inbox/`. A photo pasted straight into this chat has no file path, so
-  ask Darren to send it through the bot's `/inbody` / `/blood` / `/eat` menu instead.
+  ask Darren to send it through the bot's `/blood` / `/eat` menu instead.
 
 | Kind | Values to extract |
 |---|---|
-| InBody | `date`, `weight_kg`, `body_fat_pct`, `skeletal_muscle_kg`, `fat_mass_kg`, `visceral_fat_level`, plus **everything else** on the printout (body water, protein, minerals, BMR, InBody score, segmental values) under `other` |
 | Eating out | `date`, `meal` (lunch/dinner/…), `description`, `est_kcal`: your estimate for a realistic restaurant portion |
 | Bloodwork | `date`, `results` {name: value with units as printed}, `lab`, `flags` (anything outside the reference range) |
 | Weight | `date`, `kg`, `source: "manual"` |
@@ -54,7 +48,6 @@ The split follows `CLAUDE.md` → Model split:
 Brief it with the kind and either the exact JSON (text input) or the image path plus the step 1 field list, and
 for a meal photo, tell it to estimate `est_kcal` for a realistic restaurant portion. It must return the values it
 extracted (as JSON) so Opus can check them, and it must mark an unreadable number as `null` with a note instead of guessing (Opus then asks Darren). It runs `uv run healthgo add <kind> '<json>'`, then:
-- **InBody:** compares with the previous scan (`SELECT * FROM inbody ORDER BY date`) and reports deltas.
 - **Bloodwork:** lists out-of-range values, liver panel first (ALT, AST, GGT, bilirubin, hepatitis B markers).
 
 It then commits and pushes (`log: <kind> <date>`).
@@ -62,8 +55,7 @@ It then commits and pushes (`log: <kind> <date>`).
 ## 3. Confirm: Opus
 
 One or two lines in 繁中:
-- **InBody:** flag a skeletal-muscle drop of 0.5 kg or more against the previous scan.
 - **Eating out:** say the kcal is an estimate, and don't moralise; eating out is part of the plan.
 - **Bloodwork:** out-of-range values → "worth raising with your doctor", never a diagnosis. He has Hep B,
   so mention liver values explicitly.
-- If the entry changes the picture (e.g. a big muscle drop), say so and suggest running `/review`.
+- If the entry changes the picture (e.g. a big strength drop), say so and suggest running `/review`.

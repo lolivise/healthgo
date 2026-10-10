@@ -40,7 +40,7 @@ Derived from Garmin sets/activities 2026-07 → 2026-10 (first review, 2026-10-0
   pressing loads.
 
 **How to apply:** a load drop with good recovery is **intentional**, not muscle loss. Don't call it "strength
-dropping". During this phase **InBody skeletal muscle mass (SMM) is the primary muscle signal**. Use e1RM
+dropping". There is no InBody any more ([[data-sources]]), so the muscle signal is strength: use e1RM
 only for lifts whose load he hasn't deliberately reduced, and use reps at the same load. Otherwise use
 the reference levels above as the baseline for "is strength dropping". Training advice stays as
 targeted tweaks to this split ([[review-preferences]]); watch shoulder loads ([[health-conditions]]).

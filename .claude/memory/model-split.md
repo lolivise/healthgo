@@ -17,16 +17,14 @@ model" — and then: "write this as a rule or a skill".
   verdict and changes, and updates memory.
 
 **Images go to Sonnet too (Darren, 2026-10-09):** "when doing any images parsing, use sonnet agent. do not use
-opus. it will be overkilled". `health-ops` reads InBody, bloodwork and meal photos by file path and returns the values.
-Opus checks the returned numbers and makes the judgment calls (e.g. an SMM drop). Photos come in through the Telegram
+opus. it will be overkilled". `health-ops` reads bloodwork and meal photos by file path and returns the values.
+Opus checks the returned numbers and makes the judgment calls. Photos come in through the Telegram
 inbox (`data/inbox/`). If one is pasted into chat, ask him to resend it via the bot.
 
 **Revised 2026-10-09, after Darren asked whether Haiku would be accurate:**
 - **Meal photos → `health-ops` on Haiku** (`model: "haiku"`). The kcal is an estimate anyway.
-- **InBody and bloodwork photos stay on Sonnet.** One misread digit (e.g. SMM) could flip a verdict, and they are rare.
-- **InBody numbers go through `healthgo add inbody --check`** (internal consistency) before recording.
-- **Pending:** a Haiku-vs-Sonnet comparison on his first InBody after 2026-10-09 (steps in `/log`). If Haiku matches,
-  InBody may move to Haiku too.
+- **Bloodwork photos stay on Sonnet.** One misread digit could matter, and they are rare.
+- InBody no longer exists (2026-10-10), so its `--check` validator and the Haiku-vs-Sonnet comparison were dropped ([[data-sources]]).
 - **Voice notes:** no Claude model takes audio. Workers AI Whisper transcribes them in the Worker, and the transcript is
   text like any note.
 

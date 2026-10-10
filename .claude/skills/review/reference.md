@@ -8,7 +8,6 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
 |---|---|---|---|---|
 | 14d weight trend | −0.5 to −0.75 %/wk | below −1.0 %/wk, or −0.75 to −1.0 % with any recovery flag | — | above −0.25 %/wk for 2+ weeks (a plateau) with good recovery |
 | Strength (e1RM, main lifts) | stable within ±3 % | −3 to −5 % on 1–2 lifts | −5 % or worse on several lifts for 2+ weeks | — |
-| InBody muscle | SMM stable | SMM −0.5 kg or more between scans | SMM falling on 2 scans in a row | — |
 | Recovery | baseline | 1–2 flags (RHR +5, HRV unbalanced, sleep <6 h, BB high <50) | flags persisting 10+ days | — |
 | Cut length | — | — | 10–12+ weeks of continuous deficit with fatigue signs | — |
 
@@ -23,7 +22,11 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
 - **The first 4–6 weeks of the cut** overstate fat loss (water and glycogen). Don't use them to calibrate the maintenance estimate.
 - **Deliberate load drops:** since late Sep 2026 he trains lighter and slower on purpose (form, mind-muscle;
   see memory `training-routine.md`). An e1RM drop on a lift he deliberately de-loaded is **not** strength loss.
-  Judge muscle by InBody SMM, plus e1RM on lifts whose load he kept.
+  Judge strength by e1RM (or reps at the same load) on lifts whose load he has not deliberately lowered.
+- **Muscle signal (no InBody anymore, gym removed it 2026-10-10):** strength on those lifts, plus the rate of loss staying
+  within target (at most about 0.5-0.75 %/wk) and protein adequacy. Body-fat % is no longer measured: progress toward the
+  15-18 % goal is estimated from the weight trend, assuming lean mass of about 68 kg from the one 2026-09-27 scan
+  (91.4 kg, 25.5 %), so 15-18 % is roughly 80-83 kg. Treat it as a rough estimate.
 - **Creatine** (5 g/day) holds water. Keep it constant, and don't read a creatine change as fat.
 - **Shoulder:** any OHP or shoulder-press load jump, or pain he mentions → keep the load moderate, use 8–12 reps, and suggest a
   landmine press or neutral-grip dumbbell press as a swap.
@@ -72,7 +75,7 @@ with no load recorded, so don't count them as strength loss.
 
 ## 體重與身體組成
 | | 本週 | 上週 | 變化 |
-…（平均體重、14/28 天趨勢、InBody 體脂率與骨骼肌重 vs 上次）
+…（平均體重、14/28 天趨勢、估計體脂進度（由體重趨勢推算））
 
 ## 力量 (Strength)
 …（主要動作 e1RM 表格、停滯或下降的動作、肩推 (OHP) 狀況）

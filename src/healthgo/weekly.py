@@ -1,6 +1,6 @@
 """Sunday prep: crunch the week's numbers into data/weekly/<ISO week>.json for /review.
 
-The AI review itself happens interactively (it must ask about InBody and eating out),
+The AI review itself happens interactively (it must ask about eating out),
 so this step only prepares numbers and pings Darren that the review is ready.
 """
 
@@ -116,10 +116,6 @@ def prepare(sunday: date) -> Path:
         "SELECT date, name, duration_min FROM activities WHERE type = 'strength_training' "
         "AND date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), sunday.isoformat()))]
 
-    inbody = [dict(r) for r in con.execute(
-        "SELECT date, weight_kg, body_fat_pct, skeletal_muscle_kg, fat_mass_kg, visceral_fat_level "
-        "FROM inbody ORDER BY date DESC LIMIT 2")]
-    latest_inbody = inbody[0] if inbody else None
     eating_out = [dict(r) for r in con.execute(
         "SELECT * FROM eating_out WHERE date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), sunday.isoformat()))]
     last_review = con.execute("SELECT MAX(date) FROM reviews").fetchone()[0]
@@ -149,9 +145,6 @@ def prepare(sunday: date) -> Path:
         "training": training,
         "strength_workouts": workouts,
         "strength": strength,
-        "inbody_latest": latest_inbody,
-        "inbody_previous": inbody[1] if len(inbody) > 1 else None,
-        "inbody_missing_this_week": not latest_inbody or latest_inbody["date"] < start.isoformat(),
         "eating_out_recorded": eating_out,
         "last_review": last_review,
         "days_since_review": (sunday - date.fromisoformat(last_review)).days if last_review else None,
