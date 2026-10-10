@@ -64,7 +64,7 @@ Work through `reference.md` → **Decision rules**:
 - **Rate:** 14- and 28-day weight trend against the 0.5–0.75%/wk target and the 1% cap.
 - **Muscle:** e1RM of the main lifts against the prior 4 weeks, and InBody skeletal muscle mass against the previous scan.
 - **Recovery:** RHR, HRV, sleep, stress and Body Battery against his own baseline.
-- **Context:** cut week, days to the 2027-01-22 checkpoint, the trip window.
+- **Context:** cut week, phase (gentle cut → maintenance from 2026-12-14, see `cutting-goal-2026.md`), days to the trip; ground advice in the `evidence-*.md` memories.
 - **Limits:** every change is checked against `safety-limits.md`. His fat intake is below the floor, so that's
   the first lever.
 

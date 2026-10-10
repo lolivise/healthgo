@@ -1,5 +1,5 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
-- [Cutting goal 2026](cutting-goal-2026.md) — cut since 2026-07-15 from 102 kg; goal 15–18% BF (~80–83 kg); 0.5–0.75%/wk; checkpoint 83–85 kg by 2027-01-22
+- [Cutting goal 2026](cutting-goal-2026.md) — cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target
 - [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; 2,000 kcal rice experiment 2026-10-12→11-01 ≈2,040 kcal logged
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
@@ -11,3 +11,6 @@
 - [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; since late Sep 2026 lighter loads & slow tempo on purpose → judge muscle by InBody SMM
 - [Supplements](supplements.md) — whey, creatine, fish oil, CoQ10, Blackmores Mg citrate (B6-free, swapped 2026-10-09), multivitamin w/ ginseng; tell doctor re Hep B
 - [Feel check-in](feel-checkin.md) — Telegram /feel symptom questions (no libido); re-review the question set at the first review ≥ 2026-11-09
+- [Evidence: cut & training](evidence-cut-and-training.md) — 2023–26 research base: deficit ≤~500 kcal, protein, fat floor, diet breaks, volume/failure/tempo, holiday minimum dose
+- [Evidence: ending a cut](evidence-maintenance-transition.md) — straight-to-maintenance beats reverse ramp; +0.5–2 kg water jump; flexible rules; TDEE from trend
+- [Evidence: Taiwanese man + Hep B](evidence-asian-hepb.md) — HPA BMI/waist norms, 15–18% sensible, InBody noise band, Taiwan DRI, HBV+metabolic risk, ALDH2/alcohol

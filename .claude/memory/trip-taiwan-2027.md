@@ -12,8 +12,11 @@ so **assume overeating**.
 Taiwan is UTC+8, the same as Perth, so there are no timezone effects on the data.
 
 **Plan agreed 2026-10-09:**
-- **Before:** cut until ~2027-01-16, then ~1 week at maintenance so the switch to holiday eating
-  bloats less. Checkpoint 2027-01-22 at ~83–85 kg ([[cutting-goal-2026]]).
+- **Before (revised 2026-10-10):** the cut ends 2026-12-13; **maintenance from 2026-12-14** to departure, so he
+  arrives with energy and the water/glycogen jump has already happened. No weight target for 01-22 ([[cutting-goal-2026]]).
+- **During, minimum training** ([[evidence-cut-and-training]]): 1–2 short full-body sessions a week near failure hold
+  muscle; daily walking. Protein options: 茶葉蛋, 無糖豆漿, 豆腐, convenience-store chicken ([[evidence-asian-hepb]]).
+  Flexible rules, no forbidden foods ([[evidence-maintenance-transition]]).
 - **During:** no calorie rules, only a loose guide: protein at most meals, walk at road-trip stops,
   go easy on alcohol (liver, see [[health-conditions]]). **Telegram alerts are silenced**
   (`config/plan.json` → `trip`).

@@ -1,6 +1,6 @@
 ---
 name: cutting-goal-2026
-description: The cut — started 2026-07-15 at 102 kg, goal 15–18% body fat (~80–83 kg), 0.5–0.75%/wk, checkpoint 83–85 kg by 2027-01-22
+description: The cut — started 2026-07-15 at 102 kg, goal 15–18% BF (~80–83 kg) finished after the trip; gentle cut to 2026-12-13, then maintenance 12-14 → 01-22 (no pre-trip weight target)
 metadata:
   type: project
 ---
@@ -23,13 +23,23 @@ similar 1–1.5 kg spikes after eating out, and judge the trend, not single days
 **Original goal "86 kg by 2026-11-01" is retired.** Darren himself judged it impossible, and it would
 need ~1.5 kg/week. Do not resurrect it.
 
-**Agreed plan (2026-10-09):**
-- Rate **0.5–0.75% bodyweight/week** (~0.45–0.7 kg/wk), slower than the first 12 weeks.
-- **Pre-trip checkpoint 2027-01-22: ~83–85 kg**, feeling good rather than drained.
-- Keep cutting until **~2027-01-16**, then about one week at maintenance before the trip
-  ([[trip-taiwan-2027]]). Reason: the trip itself is the diet break, so don't add a second one before it.
-- After the trip: ignore the scale for week 1, take an InBody, re-set targets, resume the cut.
-- 12 weeks of continuous deficit had already passed at planning time. Watch for diet fatigue.
+**Plan revised 2026-10-10 (replaces the 2026-10-09 plan of "cut to 83–85 kg, 1 week maintenance from 01-16"):**
+Darren: he doesn't want to keep cutting hard or "kill my muscles"; the goal can finish after the trip. What he wants
+is to **be back at maintenance before he leaves**, so he travels with energy, less anxiety and no binge urge. He
+reported low energy and discomfort on the current intake. Built on [[evidence-maintenance-transition]] and
+[[evidence-cut-and-training]].
+- **Phase 1, gentle cut, 2026-10-12 → 2026-12-13:** the 2,075 kcal rice experiment ([[daily-diet-baseline]]) at
+  ~0.3–0.5 %/wk (deficit ~250–350 kcal, inside the muscle-safe zone). The W44 review (~11-01) measures his real TDEE.
+  Its −0.25 %/wk fallback rule still applies.
+- **Phase 2, maintenance, 2026-12-14 → 2027-01-22 (~5.5 weeks, includes Christmas):** one straight step up to the
+  measured maintenance (≈2,300–2,400), not a slow ramp. Expect +0.5–2 kg of water/glycogen in the first 2 weeks.
+  Judge from week 3: a flat trend = success; still rising >0.25 kg/wk → trim 100–150 kcal. The point is to
+  practise eating at maintenance before the trip.
+- **The weight on 2027-01-22 is not a target.** The expected landing zone is ~86–88 kg (≈21–23 % BF if lean mass holds).
+  Don't let the scale push him back into a deficit before the trip.
+- **After the trip:** 1–2 weeks at maintenance, an InBody, then resume at ~0.5 %/wk with a 1–2 week maintenance break
+  every 6–8 weeks until 15–18 %. Possibly a lean-gain phase after that.
+- By 2026-12-13 he will have been in a deficit for ~22 weeks; the maintenance block doubles as the diet break.
 
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
 maintenance is ≈2,330 ± 200 at ~91 kg. At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).

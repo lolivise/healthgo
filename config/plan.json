@@ -16,8 +16,9 @@
   },
   "checkpoint": {
     "date": "2027-01-22",
-    "weight_kg": [83, 85],
-    "maintenance_from": "2027-01-16"
+    "weight_kg": [86, 88],
+    "weight_note": "expected landing zone, not a target (plan revised 2026-10-10)",
+    "maintenance_from": "2026-12-14"
   },
   "trip": {
     "start": "2027-01-23",
