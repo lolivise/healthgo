@@ -1,7 +1,7 @@
-"""Install the single launchd job: daily 20:00, Sunday 20:30, and at login.
+"""Install the single launchd job: daily 20:00, Sunday 18:00, and at login.
 
 One job covers both schedules: `healthgo daily` always syncs, checks, and prepares
-the weekly file if a Sunday 20:30 has passed without one. RunAtLoad catches the
+the weekly file if a Sunday 18:00 has passed without one. RunAtLoad catches the
 case where the Mac was powered off (launchd only replays missed runs after sleep).
 """
 
@@ -29,7 +29,7 @@ def install() -> str:
         "Label": LABEL,
         "ProgramArguments": [str(config.ROOT / "bin" / "healthgo-job")],
         "WorkingDirectory": str(config.ROOT),
-        "StartCalendarInterval": [{"Hour": 20, "Minute": 0}, {"Weekday": 0, "Hour": 20, "Minute": 30}],
+        "StartCalendarInterval": [{"Hour": 20, "Minute": 0}, {"Weekday": 0, "Hour": 18, "Minute": 0}],
         "RunAtLoad": True,
         "StandardOutPath": str(LOG_DIR / "daily.log"),
         "StandardErrorPath": str(LOG_DIR / "daily.log"),

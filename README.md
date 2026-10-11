@@ -7,7 +7,7 @@ review with Claude that tells me whether to keep cutting.
 
 - **20:00 every day** (and at login, to catch up after the Mac was off): pull every missing day from
   Garmin, run recovery checks, alert on Telegram only if something is off, commit and push.
-- **Sunday 20:30:** prepare the week's numbers → Telegram: "run /review".
+- **Sunday 18:00:** prepare the week's numbers → Telegram: "run /review".
 - **`/review` in Claude Code** (in this folder): asks for eating-out days, gives the verdict,
   writes `reports/YYYY-Www.md` in 繁體中文.
 - **`/log`:** eating out, blood test, notes. **`/sync`:** fix things.

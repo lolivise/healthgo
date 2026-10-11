@@ -13,7 +13,7 @@ from statistics import mean
 from . import checks, config, db, store
 
 KCAL_PER_KG = 7700
-PREP_TIME = time(20, 30)
+PREP_TIME = time(18, 0)
 
 
 def latest_due_sunday(now: datetime) -> date:

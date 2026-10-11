@@ -1,6 +1,6 @@
 ---
 name: review
-description: Darren's health review — weekly (after the Sunday 20:30 Telegram ping) or any time he asks how he's doing, whether to keep cutting, if his strength is dropping, or for diet/training advice. Sonnet agents sync and gather the numbers, Opus asks for eating-out days and decides the verdict (keep cutting / slow down / diet break / adjust intake), a Sonnet agent writes the 繁體中文 report and commits. Trigger on /review, "review my progress", "how am I doing", "should I keep cutting", "give me advice".
+description: Darren's health review — weekly (after the Sunday 18:00 Telegram ping) or any time he asks how he's doing, whether to keep cutting, if his strength is dropping, or for diet/training advice. Sonnet agents sync and gather the numbers, Opus asks for eating-out days and decides the verdict (keep cutting / slow down / diet break / adjust intake), a Sonnet agent writes the 繁體中文 report and commits. Trigger on /review, "review my progress", "how am I doing", "should I keep cutting", "give me advice".
 ---
 
 # /review

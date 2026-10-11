@@ -22,7 +22,7 @@ Decided with Darren 2026-10-09:
 - **Training advice level:** targeted adjustments to his existing routine (lighter weeks, stalled
   lifts, shoulder protection). **Not** a full new program.
 - **Diet changes:** adjust quantities of his existing foods, not a new diet ([[daily-diet-baseline]]).
-- **Cadence:** a Telegram ping on Sunday 20:30 → he runs `/review` interactively. Daily red flags
+- **Cadence:** a Telegram ping on Sunday 18:00 → he runs `/review` interactively. Daily red flags
   arrive on Telegram from the rule-based check, with no AI involved.
 
 **Why:** he wants the system to carry the tracking burden. Questions are acceptable only inside a
