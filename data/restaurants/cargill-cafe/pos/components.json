@@ -1,0 +1,597 @@
+[
+  {
+    "cost": "471.50",
+    "id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "label": "武當炸雞粉(錯的)",
+    "unit_type": "g",
+    "volume": "95000.00"
+  },
+  {
+    "cost": "7.52",
+    "id": "0cc884d2-74f8-4ec2-b3b3-5c9097d1a5e9",
+    "label": "米漿",
+    "unit_type": "l",
+    "volume": "5.70"
+  },
+  {
+    "cost": "26.40",
+    "id": "1088b8f3-de59-4327-9452-0020874d4105",
+    "label": "滷雞心",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.19",
+    "id": "124c4aad-819b-4c07-9fa2-6f35e5a4ab3a",
+    "label": "煮好的仙草",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "cost": "25.71",
+    "id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "label": "醃漬排骨",
+    "unit_type": "g",
+    "volume": "2500.00"
+  },
+  {
+    "cost": "3.67",
+    "id": "1c874419-4e0c-4478-be78-df48742bddfd",
+    "label": "海鮮組合",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "cost": "11.61",
+    "id": "1cc03072-0a6a-4489-88d8-8e6fac1caefc",
+    "label": "滷雞爪",
+    "unit_type": "kg",
+    "volume": "2.00"
+  },
+  {
+    "cost": "153.90",
+    "id": "243a726e-687c-4cda-903c-fed4c1b69636",
+    "label": "滷牛腱2",
+    "unit_type": "g",
+    "volume": "5500.00"
+  },
+  {
+    "cost": "157.93",
+    "id": "25a03756-d083-4397-962f-097152a1d57c",
+    "label": "滷羊肉",
+    "unit_type": "g",
+    "volume": "5000.00"
+  },
+  {
+    "cost": "82.65",
+    "id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "label": "肉圓肉",
+    "unit_type": "g",
+    "volume": "5000.00"
+  },
+  {
+    "cost": "14.31",
+    "id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "label": "蚵仔醬",
+    "unit_type": "g",
+    "volume": "6000.00"
+  },
+  {
+    "cost": "12.77",
+    "id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "label": "武當炸雞粉",
+    "unit_type": "g",
+    "volume": "2500.00"
+  },
+  {
+    "cost": "18.10",
+    "id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "label": "乾炸粉",
+    "unit_type": "g",
+    "volume": "3000.00"
+  },
+  {
+    "cost": "1.94",
+    "id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "label": "大骨高湯",
+    "unit_type": "g",
+    "volume": "5000.00"
+  },
+  {
+    "cost": "74.04",
+    "id": "325b04df-cec9-4b67-8398-744be2965374",
+    "label": "滷雞翅",
+    "unit_type": "隻",
+    "volume": "110.00"
+  },
+  {
+    "cost": "0.86",
+    "id": "3b1abec5-ed14-4520-ba97-749b4673bf43",
+    "label": "煎蛋",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "cost": "1.58",
+    "id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "label": "煎基底",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.49",
+    "id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "label": "紅茶基底(億品)",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "cost": "2.74",
+    "id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "label": "炒滷醬",
+    "unit_type": "g",
+    "volume": "275.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "435ca734-585e-4698-8d9c-5dfc90d49c58",
+    "label": "芋頭",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.34",
+    "id": "44615b06-00d5-4be8-858e-27ccda81f2e5",
+    "label": "統一布丁",
+    "unit_type": "g",
+    "volume": "1200.00"
+  },
+  {
+    "cost": "3.78",
+    "id": "47a64ff9-41b8-4059-b4b0-6e9009f28d3d",
+    "label": "綠茶基底",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "cost": "5.94",
+    "id": "487cafc3-04f1-42e7-a22a-7ba2e96255f6",
+    "label": "百香果醬",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "5.39",
+    "id": "4a35cfa0-4579-4871-8a2e-f198b95cbb9b",
+    "label": "豆花基底",
+    "unit_type": "g",
+    "volume": "3300.00"
+  },
+  {
+    "cost": "0.93",
+    "id": "4b3fa0f4-bb61-40c0-b0ba-052681a233c5",
+    "label": "綜合醬",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "cost": "10.19",
+    "id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "label": "肉燥基底",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.51",
+    "id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "label": "火鍋基底",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "5.01",
+    "id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "label": "麵線基底",
+    "unit_type": "g",
+    "volume": "2100.00"
+  },
+  {
+    "cost": "97.40",
+    "id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "label": "炸醬麵基底",
+    "unit_type": "g",
+    "volume": "6500.00"
+  },
+  {
+    "cost": "4.00",
+    "id": "5b03b9e5-3bbe-4008-a33d-695076950ac2",
+    "label": "泡發腐竹",
+    "unit_type": "g",
+    "volume": "180.00"
+  },
+  {
+    "cost": "54.81",
+    "id": "679ab541-484b-42b1-bd9b-5183c329b548",
+    "label": "滷豬耳朵",
+    "unit_type": "g",
+    "volume": "4000.00"
+  },
+  {
+    "cost": "31.49",
+    "id": "68f96d10-9a56-4ec0-8b97-039cd4948bf2",
+    "label": "肉燥",
+    "unit_type": "g",
+    "volume": "1800.00"
+  },
+  {
+    "cost": "10.76",
+    "id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "label": "涼麵醬(josh)",
+    "unit_type": "ml",
+    "volume": "990.00"
+  },
+  {
+    "cost": "7.53",
+    "id": "6a89f96e-fa86-41a1-b812-026ef9cae9ba",
+    "label": "牛奶鍋基底",
+    "unit_type": "l",
+    "volume": "3.00"
+  },
+  {
+    "cost": "63.36",
+    "id": "6cf2ca11-5975-49a1-8f79-b383acb7e169",
+    "label": "紅燒肉",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "188.74",
+    "id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "label": "薑母鴨半成品(紅)",
+    "unit_type": "kg",
+    "volume": "6.50"
+  },
+  {
+    "cost": "75.11",
+    "id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "label": "滷肉",
+    "unit_type": "g",
+    "volume": "2800.00"
+  },
+  {
+    "cost": "9.37",
+    "id": "7af15ea3-dc20-4c1b-b272-64fb6c41d06a",
+    "label": "肉圓皮(蔡季芳)",
+    "unit_type": "g",
+    "volume": "3190.00"
+  },
+  {
+    "cost": "30.00",
+    "id": "7b8eb2a3-f519-4840-b802-96d5e30b5720",
+    "label": "解凍蚵仔",
+    "unit_type": "g",
+    "volume": "920.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "80fc9cc9-644e-4232-8b01-e57c11385570",
+    "label": "蚵仔煎粉",
+    "unit_type": "g",
+    "volume": "3000.00"
+  },
+  {
+    "cost": "5.76",
+    "id": "81479ee5-f7bd-40f9-9dd2-a201a308a292",
+    "label": "滷豬腳",
+    "unit_type": "g",
+    "volume": "600.00"
+  },
+  {
+    "cost": "1.18",
+    "id": "81626651-6627-4952-8b5a-5646a00fae77",
+    "label": "煮好的粉粿",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "2.86",
+    "id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "label": "藥膳鍋底",
+    "unit_type": "ml",
+    "volume": "2500.00"
+  },
+  {
+    "cost": "25.40",
+    "id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "label": "控肉滷汁",
+    "unit_type": "ml",
+    "volume": "20000.00"
+  },
+  {
+    "cost": "2.01",
+    "id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "label": "便當基底",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "cost": "2.12",
+    "id": "8c338fce-e2cf-44c2-b4cd-8e1ffff8e1bd",
+    "label": "煮好的珍珠",
+    "unit_type": "g",
+    "volume": "900.00"
+  },
+  {
+    "cost": "13.26",
+    "id": "8c4cdd14-255d-4e8c-a60d-783c1f4ee2fc",
+    "label": "滷蹄膀",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "cost": "23.58",
+    "id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "label": "黑胡椒醬",
+    "unit_type": "g",
+    "volume": "3880.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "8db491b2-c1d8-4ebf-8032-49e6d32d5efa",
+    "label": "玉米濃湯底",
+    "unit_type": "l",
+    "volume": "10.00"
+  },
+  {
+    "cost": "3.49",
+    "id": "8f715d71-6933-4acc-8025-e9ae5fbea95b",
+    "label": "雞排",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "172.06",
+    "id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "label": "醃漬雞腿肉",
+    "unit_type": "g",
+    "volume": "13500.00"
+  },
+  {
+    "cost": "34.92",
+    "id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "label": "肉圓皮",
+    "unit_type": "g",
+    "volume": "5440.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "925efe35-4508-49ab-aaa9-7137a8820428",
+    "label": "粉漿粉",
+    "unit_type": "g",
+    "volume": "3000.00"
+  },
+  {
+    "cost": "7.70",
+    "id": "99da24f3-526d-487f-bee4-2cba3936c3b7",
+    "label": "雞翅滷汁(可滷兩次)",
+    "unit_type": "ml",
+    "volume": "2400.00"
+  },
+  {
+    "cost": "3.27",
+    "id": "9b627d63-b9b2-47bc-bdf0-b2b2deef3b8e",
+    "label": "芋圓",
+    "unit_type": "g",
+    "volume": "350.00"
+  },
+  {
+    "cost": "46.31",
+    "id": "9cfc2129-f0fa-457d-ba93-a9f502114b53",
+    "label": "滷控肉(損耗)",
+    "unit_type": "g",
+    "volume": "1400.00"
+  },
+  {
+    "cost": "23.82",
+    "id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "label": "蘑菇醬",
+    "unit_type": "g",
+    "volume": "3800.00"
+  },
+  {
+    "cost": "4.99",
+    "id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "label": "土魠魚羹湯底",
+    "unit_type": "ml",
+    "volume": "4000.00"
+  },
+  {
+    "cost": "6.50",
+    "id": "aa728490-2364-4302-82f2-77a4a577443a",
+    "label": "煮好的米苔目",
+    "unit_type": "g",
+    "volume": "1200.00"
+  },
+  {
+    "cost": "5.29",
+    "id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "label": "奶茶基底",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "cost": "5.13",
+    "id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "label": "意麵基底",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "label": "麵糊",
+    "unit_type": "g",
+    "volume": "3000.00"
+  },
+  {
+    "cost": "6.20",
+    "id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "label": "飯",
+    "unit_type": "kg",
+    "volume": "2.00"
+  },
+  {
+    "cost": "2.70",
+    "id": "b8ee1a1a-6237-484c-8a20-96b7d5b89f93",
+    "label": "煮好的小湯圓",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "24.53",
+    "id": "b9c3b425-0f18-48ac-8ea8-7838d331eee9",
+    "label": "武當乾炸粉",
+    "unit_type": "g",
+    "volume": "5000.00"
+  },
+  {
+    "cost": "24.40",
+    "id": "bd7cfad5-61c1-4912-b837-2318d67be63b",
+    "label": "奶蓋",
+    "unit_type": "l",
+    "volume": "3.00"
+  },
+  {
+    "cost": "18.99",
+    "id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "label": "牛肉麵湯",
+    "unit_type": "ml",
+    "volume": "17500.00"
+  },
+  {
+    "cost": "192.89",
+    "id": "c17c6e38-99a4-4668-b983-6a0b13222913",
+    "label": "醃漬雞胸肉",
+    "unit_type": "g",
+    "volume": "15000.00"
+  },
+  {
+    "cost": "1.38",
+    "id": "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50",
+    "label": "紅糟肉醬",
+    "unit_type": "ml",
+    "volume": "650.00"
+  },
+  {
+    "cost": "41.80",
+    "id": "c7fae0a0-9abb-4983-962c-fb2a8cf351ef",
+    "label": "清燙豬肚",
+    "unit_type": "g",
+    "volume": "4200.00"
+  },
+  {
+    "cost": "7.07",
+    "id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "label": "蜜紅豆",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.41",
+    "id": "d33657e3-9327-4f4b-8277-e684e3eccdb6",
+    "label": "豆漿",
+    "unit_type": "l",
+    "volume": "4.70"
+  },
+  {
+    "cost": "12.31",
+    "id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "label": "小王子涼麵",
+    "unit_type": "g",
+    "volume": "955.00"
+  },
+  {
+    "cost": "16.80",
+    "id": "d59ca29c-3261-415d-a03a-fde2ddeb82ab",
+    "label": "滷牛筋",
+    "unit_type": "g",
+    "volume": "1600.00"
+  },
+  {
+    "cost": "8.95",
+    "id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "label": "涼麵醬",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "2.61",
+    "id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "label": "薑母鴨火鍋基底",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "18.00",
+    "id": "d7fbd24b-d814-43f1-926b-ad84beda6f91",
+    "label": "燒仙草",
+    "unit_type": "kg",
+    "volume": "12.50"
+  },
+  {
+    "cost": "2.87",
+    "id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "label": "牛排基底",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.77",
+    "id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
+    "label": "鹹酥雞",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "cost": "2.08",
+    "id": "e2a316d4-4a55-4893-8e1b-ef8c2dc22774",
+    "label": "自製刀削麵",
+    "unit_type": "g",
+    "volume": "1400.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "e7e14d3b-af67-455f-90dd-f82315b73d61",
+    "label": "泡發木耳",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "cost": "3.82",
+    "id": "ea58429b-e4b8-40e7-98b4-d0b0975e06ea",
+    "label": "麻婆豆腐基底",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "cost": "49.22",
+    "id": "f16cea3f-a896-495e-9256-d056b1954c08",
+    "label": "滷雞胗",
+    "unit_type": "g",
+    "volume": "3600.00"
+  },
+  {
+    "cost": "25.16",
+    "id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "label": "三杯醬",
+    "unit_type": "g",
+    "volume": "3760.00"
+  },
+  {
+    "cost": "3.26",
+    "id": "ffe72e9b-4fd1-4094-918c-a51a13f071ad",
+    "label": "燙蚵仔",
+    "unit_type": "g",
+    "volume": "75.00"
+  }
+]

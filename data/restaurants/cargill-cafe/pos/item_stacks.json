@@ -1,0 +1,5852 @@
+[
+  {
+    "child_id": "d59ca29c-3261-415d-a03a-fde2ddeb82ab",
+    "child_item_type": "COMPONENT",
+    "id": "001db4d4-b800-4bb4-b4ca-575d66b78b6f",
+    "parent_id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "5925f12d-1b23-4056-9492-df97a0a52048",
+    "child_item_type": "INGREDIENT",
+    "id": "003a7006-8508-447e-81b6-96c9893dca1d",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "328498e5-58ed-4585-a0d0-be55d3656df9",
+    "child_item_type": "INGREDIENT",
+    "id": "018889c6-9a31-4326-b51c-6cbad389cb18",
+    "parent_id": "da6ba565-607e-4f21-80da-a5f2d7745a57",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "96ec780c-03d8-4f3d-b9b3-26d6cc1281a7",
+    "child_item_type": "INGREDIENT",
+    "id": "019973cc-09a4-48a3-994a-8f623b9e3287",
+    "parent_id": "5818b8de-3caa-4579-9550-e5fc2122336c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "1c874419-4e0c-4478-be78-df48742bddfd",
+    "child_item_type": "COMPONENT",
+    "id": "01b5a8e6-dad8-4ee1-b861-eb8e49ed5e9d",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "99da24f3-526d-487f-bee4-2cba3936c3b7",
+    "child_item_type": "COMPONENT",
+    "id": "02860d29-d5e6-4193-8d2c-dcbac6a2c5da",
+    "parent_id": "1cc03072-0a6a-4489-88d8-8e6fac1caefc",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "child_item_type": "COMPONENT",
+    "id": "02a5fee4-7ac5-461d-9712-ed99385c1973",
+    "parent_id": "e90cbbcd-7c6c-4db0-a71f-ec7f096e0b81",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "child_item_type": "COMPONENT",
+    "id": "0330552f-7019-4966-afba-67031a972b84",
+    "parent_id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc",
+    "child_item_type": "INGREDIENT",
+    "id": "0371f7e4-9697-4e45-b34f-2729d5f11191",
+    "parent_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "03954a71-5275-41ba-924e-3e07539d5792",
+    "parent_id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "03d2d3c0-eaea-440b-b3a0-3d5f2d460c52",
+    "parent_id": "71def2e9-ddfc-4c25-93ab-4f4485806b8a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ebead413-7445-4e20-ae1a-d8b4e5c2809a",
+    "child_item_type": "INGREDIENT",
+    "id": "04226249-9ec8-40cd-9d25-022c59b4a0d6",
+    "parent_id": "4d6334ff-35f8-4068-81d5-b3cdd9d0bc12",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "04234232-1dd4-49d0-ad27-fdd1ec17083e",
+    "parent_id": "6507a46a-6e77-4987-adfa-946d9c87fb98",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "053fd7ab-819d-4eb9-9a41-72df2da79570",
+    "parent_id": "8bb05b33-8a9e-4dcb-845b-3b8f7e4f2472",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "a5d2743e-4f6e-4743-b3bd-a0d8f4be7d4e",
+    "child_item_type": "INGREDIENT",
+    "id": "0671f069-775d-44ff-a2c0-1259af42e3bd",
+    "parent_id": "b284d7ed-9aaa-4409-8dc9-318e93af0565",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
+    "child_item_type": "INGREDIENT",
+    "id": "07785f8a-ab8a-4a3d-8dd4-2c1bd3b74438",
+    "parent_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "087ce43d-5c3e-4b57-8043-fccc190c71d4",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "17250.00"
+  },
+  {
+    "child_id": "5c1f3f36-586c-45f9-a25b-ddf5842cc701",
+    "child_item_type": "INGREDIENT",
+    "id": "089e5646-6aed-429d-9b10-33de12b065c3",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "7.50"
+  },
+  {
+    "child_id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "child_item_type": "INGREDIENT",
+    "id": "08b03f84-2fb9-4e17-b895-58c72a146df7",
+    "parent_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "a9f762e9-b08a-4e82-b1be-e959a35bf086",
+    "child_item_type": "INGREDIENT",
+    "id": "09a4b770-8366-4ce4-83d8-53204b081ac1",
+    "parent_id": "7ff375fb-b243-4de8-b165-f9649c79d391",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "child_item_type": "COMPONENT",
+    "id": "09f4bf34-d02f-426e-b8e0-7338387ab775",
+    "parent_id": "71def2e9-ddfc-4c25-93ab-4f4485806b8a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "9e59027c-2fe0-45dc-b1db-54c5161900e5",
+    "child_item_type": "INGREDIENT",
+    "id": "0a1cccf8-a472-4f7f-92d6-0ee5e0f377d3",
+    "parent_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15000.00"
+  },
+  {
+    "child_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "child_item_type": "COMPONENT",
+    "id": "0a3a6cde-f60c-470f-b57d-57f68804006a",
+    "parent_id": "3998c1d4-1640-420b-b824-cf5728c5e85a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "796acc37-bb89-4662-851b-43e28cd555fa",
+    "child_item_type": "INGREDIENT",
+    "id": "0a5a9611-c1b6-4e17-8beb-ed49536930a0",
+    "parent_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1500.00"
+  },
+  {
+    "child_id": "fe2c45f5-3cf9-4cc3-870d-aa2d98489f4d",
+    "child_item_type": "INGREDIENT",
+    "id": "0c7a723b-35d1-4f6c-984c-c5bd62f5d560",
+    "parent_id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "7c5fce2a-d9f8-4019-ac0f-4e8a5ed02753",
+    "child_item_type": "INGREDIENT",
+    "id": "0cc005bd-471d-4b17-9942-05fcefd4c50e",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "8457b424-1906-4e54-a941-e5af97819337",
+    "child_item_type": "INGREDIENT",
+    "id": "0cf00ee1-2be0-42c9-bf5b-f94536ca9974",
+    "parent_id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "4f935e06-d106-40bc-941e-a0b2a4ea04e5",
+    "child_item_type": "INGREDIENT",
+    "id": "0cf26b94-727a-4fdd-8d3f-7e9fd760ac85",
+    "parent_id": "01cf6b58-c5d1-438e-ab23-9e187ea738d8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "f0458965-4a17-4692-96b2-9cfb8f5b42cd",
+    "child_item_type": "INGREDIENT",
+    "id": "0d402033-1bc2-4db0-8ce8-6c6826eea81b",
+    "parent_id": "fb03ba03-d754-4ee6-80c5-80f0ae1392ad",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "37a38e46-020c-4633-a6cb-0b5816d17b62",
+    "child_item_type": "INGREDIENT",
+    "id": "0d65d4b2-415d-41e1-b3b0-3b38dabf8a7f",
+    "parent_id": "b8ee1a1a-6237-484c-8a20-96b7d5b89f93",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "e5107cd6-b45b-4e9c-ba9b-5ff784e4e25e",
+    "child_item_type": "INGREDIENT",
+    "id": "0da500e0-0a8b-4c3c-bed1-9f28db014ed4",
+    "parent_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "7b8eb2a3-f519-4840-b802-96d5e30b5720",
+    "child_item_type": "COMPONENT",
+    "id": "0de36c93-2741-4a81-9803-f975d2a55b48",
+    "parent_id": "02b2b126-e919-4cc9-80db-714d908644f9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "65.00"
+  },
+  {
+    "child_id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
+    "child_item_type": "INGREDIENT",
+    "id": "0fa797e1-63f5-442a-8918-12a528e6ef14",
+    "parent_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "80fc9cc9-644e-4232-8b01-e57c11385570",
+    "child_item_type": "COMPONENT",
+    "id": "101f6b5a-6da2-4bc3-9519-6f641fcd13ed",
+    "parent_id": "02b2b126-e919-4cc9-80db-714d908644f9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "10631efb-1c1b-4626-8bc6-dc62177c9749",
+    "parent_id": "bd7cfad5-61c1-4912-b837-2318d67be63b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.50"
+  },
+  {
+    "child_id": "5c1f3f36-586c-45f9-a25b-ddf5842cc701",
+    "child_item_type": "INGREDIENT",
+    "id": "10fcdab5-5b35-4660-9fe1-3398b105eb72",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "11552a75-cd49-4294-8180-6bb7f6e86df2",
+    "parent_id": "02b2b126-e919-4cc9-80db-714d908644f9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "fd1219ea-fcc3-4a83-8869-70883140b192",
+    "child_item_type": "INGREDIENT",
+    "id": "11b426fc-fbe4-46fe-bbd6-c0c2e2920cd7",
+    "parent_id": "70b17346-424d-4c8d-8b6f-19b23fdbfa4f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "8c338fce-e2cf-44c2-b4cd-8e1ffff8e1bd",
+    "child_item_type": "COMPONENT",
+    "id": "11bdac95-90b1-4f6b-b587-e2ba84572b4d",
+    "parent_id": "66d76d77-e5ff-4e7f-b0fb-9c3e3764097e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "bd7cfad5-61c1-4912-b837-2318d67be63b",
+    "child_item_type": "COMPONENT",
+    "id": "11c381fa-1c3b-4221-9b0e-1d602be00eb4",
+    "parent_id": "c7062013-bd57-4e6d-968b-c7e9d2077677",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "040b36d4-4bd3-45ec-8c24-2cd3f5daf30e",
+    "child_item_type": "INGREDIENT",
+    "id": "11ec5863-d7eb-40ab-afc2-630eab6402d3",
+    "parent_id": "455120c6-4b6f-4031-9a7c-a4ad7711f02a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "121eaa76-2b4c-41e7-9817-a37d7d99617a",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "1251218e-1c5f-4d3f-bf57-892ad40db3d9",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "child_item_type": "COMPONENT",
+    "id": "12c02ead-aacf-40d3-b532-ba3dca7274cc",
+    "parent_id": "c4947b56-1f24-40a3-8d0a-0088798eb682",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "143e251d-ddaf-4e52-9341-75e5a4f3015c",
+    "parent_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "f0677d69-b6ea-45a2-88d9-43a47bfab5ff",
+    "child_item_type": "INGREDIENT",
+    "id": "1460738b-fa29-419e-a66f-06dcb0627b4a",
+    "parent_id": "ea58429b-e4b8-40e7-98b4-d0b0975e06ea",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "15f12edc-3790-4e6b-aacc-e957ff42372a",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "25.00"
+  },
+  {
+    "child_id": "16f9e0f3-836c-4fd5-a377-211db254fad7",
+    "child_item_type": "INGREDIENT",
+    "id": "165e6ade-6943-44bc-a0f4-0e85f9a7aabf",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "125.00"
+  },
+  {
+    "child_id": "3365d222-b985-4eb0-8c43-c7a7e861d73a",
+    "child_item_type": "INGREDIENT",
+    "id": "16984641-bbc4-4e89-84f1-d9a0075ad082",
+    "parent_id": "388199be-7ed2-42ea-a72e-f2972d32c181",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "96ec780c-03d8-4f3d-b9b3-26d6cc1281a7",
+    "child_item_type": "INGREDIENT",
+    "id": "16cd5340-ce8f-426e-b9e5-750b2a9a0ea2",
+    "parent_id": "e3d131ea-d2c8-415c-81cd-bc2175e5407f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "child_item_type": "INGREDIENT",
+    "id": "16e4c547-9f88-4768-82c9-800550ad447c",
+    "parent_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "df2bb9f8-be3d-46d8-b175-41603646c0f5",
+    "child_item_type": "INGREDIENT",
+    "id": "16f6bb5c-cbb1-4028-8330-d107d778aee9",
+    "parent_id": "81626651-6627-4952-8b5a-5646a00fae77",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "17210a84-d908-4d49-a7e1-16032512e47d",
+    "parent_id": "124c4aad-819b-4c07-9fa2-6f35e5a4ab3a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "a5d02ada-a4ad-4743-8d95-4659fd5abce5",
+    "child_item_type": "INGREDIENT",
+    "id": "172bf24d-2e74-412b-96c7-67a393a88b5b",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "child_item_type": "INGREDIENT",
+    "id": "17d4626b-95f7-44b8-9331-ae27bce988e0",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "child_item_type": "COMPONENT",
+    "id": "17e04775-920a-4eb2-9da6-06849d6f1d4c",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "de68ecc6-7dfb-476f-bc24-44abd7f3f050",
+    "child_item_type": "INGREDIENT",
+    "id": "180b9b6e-4731-4cbe-902c-1a1d8ee27448",
+    "parent_id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "3365d222-b985-4eb0-8c43-c7a7e861d73a",
+    "child_item_type": "INGREDIENT",
+    "id": "180c4449-9f25-4b38-b1c7-aaaae53d5af4",
+    "parent_id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "c87a262e-63ca-4060-b7b5-402026c57317",
+    "child_item_type": "INGREDIENT",
+    "id": "1886ac2b-caa6-4cbd-82b5-2f05b47d2732",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
+    "child_item_type": "COMPONENT",
+    "id": "190be813-7854-413b-9165-86e62e1462fe",
+    "parent_id": "15a69840-b1d6-40e9-b958-6d51023a246e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "f47c06e1-d83e-4832-b6a1-a3a8d239e403",
+    "child_item_type": "INGREDIENT",
+    "id": "19c90b73-0693-42fc-8bb0-da4b0a5ad4f7",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "1a097dbd-ce08-4119-a7fa-d0790e683353",
+    "parent_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "6fdbcc25-468a-4adc-8aaa-bee20253c594",
+    "child_item_type": "INGREDIENT",
+    "id": "1ba41e23-b332-4bc2-a26e-f578f031e239",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "包",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "child_item_type": "COMPONENT",
+    "id": "1ba68fdb-938e-428d-8791-8c3aee1168cc",
+    "parent_id": "ef511572-9222-488c-98ed-e567e011daca",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "child_item_type": "INGREDIENT",
+    "id": "1c8e1289-6759-4466-b097-028769199cf0",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "child_item_type": "COMPONENT",
+    "id": "1ce6045e-f03c-4faf-b818-729bd210fbc5",
+    "parent_id": "c2159c66-f3c5-42ae-9d25-de8c8ce6e00f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "child_item_type": "INGREDIENT",
+    "id": "1cf27cab-017e-492a-a8a0-ccfec3912c76",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "child_item_type": "INGREDIENT",
+    "id": "1d01f67d-9743-412b-9847-702b4a4cd150",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "child_item_type": "COMPONENT",
+    "id": "1d0251fe-504d-401c-9233-c787a198cc30",
+    "parent_id": "9b516b6d-8fa9-49ab-9402-19d9efa2574c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "27c05a31-1d11-451f-aff5-cdb4b731b40d",
+    "child_item_type": "INGREDIENT",
+    "id": "1d45a04e-beb3-4135-bdb6-1268179ad0b3",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "1daeef86-f2c4-4801-8282-233518e0b5f8",
+    "parent_id": "6fa6d7e8-8e6e-49c9-bcfb-7e9d3ea00d04",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "d95160f5-2aa0-41c7-b21e-407a9f92296d",
+    "child_item_type": "INGREDIENT",
+    "id": "1dd01017-9662-40e8-90b1-ac6c4b1f7392",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "child_item_type": "COMPONENT",
+    "id": "1dd8fd9e-ba20-4773-beda-313af2851bd2",
+    "parent_id": "13775e0d-9a32-46d3-99dd-a17d626b3a85",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "450.00"
+  },
+  {
+    "child_id": "925efe35-4508-49ab-aaa9-7137a8820428",
+    "child_item_type": "COMPONENT",
+    "id": "1e61dbdf-a834-4272-8faa-243d431efe6c",
+    "parent_id": "1212d334-2f98-47c5-aeb3-d71456dd88fe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "796acc37-bb89-4662-851b-43e28cd555fa",
+    "child_item_type": "INGREDIENT",
+    "id": "1f7ef348-1859-48e5-aba3-34df28a0f911",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "614cf2ed-9d75-4ac9-8006-a9269335fd8b",
+    "child_item_type": "INGREDIENT",
+    "id": "200c628c-efe2-41ca-8939-b1b380a54865",
+    "parent_id": "46c7c985-41fa-4cfd-be23-64acbc5ee741",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "2035206b-5e34-46be-a76d-016b954f2d65",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.40"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "2085da26-8328-46e0-9ae6-af5c6ec0b5a0",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.50"
+  },
+  {
+    "child_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "child_item_type": "COMPONENT",
+    "id": "209d5452-4bbd-43f5-bb87-e9ccbec098d8",
+    "parent_id": "9cfc2129-f0fa-457d-ba93-a9f502114b53",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "f19ebc56-00a0-4092-aca6-b5401e2bf235",
+    "child_item_type": "INGREDIENT",
+    "id": "20a53297-ae3c-481b-a454-bbca2809bb6f",
+    "parent_id": "37478aea-7cc9-420b-aceb-9ce54199858c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "977c1d43-5ed5-4824-8780-55c4ea12a7e0",
+    "child_item_type": "INGREDIENT",
+    "id": "20fc4e83-a63f-431f-bd5c-6aeb812419f9",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "350.00"
+  },
+  {
+    "child_id": "679ab541-484b-42b1-bd9b-5183c329b548",
+    "child_item_type": "COMPONENT",
+    "id": "213a8879-f43b-4b61-b4db-3c65b940705f",
+    "parent_id": "51aea3c1-43e5-4d34-b650-e4719914642e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "child_item_type": "COMPONENT",
+    "id": "215dc6ef-1178-4f91-90f8-fab8f886c270",
+    "parent_id": "99543dfb-faa9-42cb-99d9-363f54a884b9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "84c534c5-67bd-4133-b367-c621bdfdb745",
+    "child_item_type": "INGREDIENT",
+    "id": "216d61d1-e806-4b15-82c6-b99c638628a0",
+    "parent_id": "2646adb7-4ac8-4592-8277-7930650b4d52",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "21c6f5cb-d1d5-4848-a6d6-4cc41bb3686b",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "child_item_type": "COMPONENT",
+    "id": "220b3984-f9a1-40c3-888a-4f8c9dc50b28",
+    "parent_id": "dc62b1a0-8f7f-458e-aaef-9a072d18ed5f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "child_item_type": "COMPONENT",
+    "id": "23023d7f-f9aa-4386-9606-37b286701d69",
+    "parent_id": "7d46826a-db14-4df0-90f2-1841df9963fe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "ea3fdb75-3777-49d6-8dc6-f8a2bdbfaf11",
+    "child_item_type": "INGREDIENT",
+    "id": "231b423f-ed36-45fc-923d-2effd8204183",
+    "parent_id": "53aec83b-4d86-4ec5-95b9-3ff07576d9fe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "child_item_type": "INGREDIENT",
+    "id": "23b66a77-b913-4754-85ca-35a7f92c5ec1",
+    "parent_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "24122624-c7cb-439c-bde9-96503ca25463",
+    "parent_id": "e3988bf1-8a97-4e84-a97b-9474dac2c55d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "050928f3-c8b5-43c7-a8f4-da3016c838fc",
+    "child_item_type": "INGREDIENT",
+    "id": "244d3d91-4f5b-43fe-b8d6-103d35069556",
+    "parent_id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5000.00"
+  },
+  {
+    "child_id": "5d0d9390-5356-4455-a667-f2e4565c79ba",
+    "child_item_type": "INGREDIENT",
+    "id": "2473eb72-adc0-453a-a24e-51f991365f8d",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "57bdbcd4-466e-4f2d-8065-b1406777a10b",
+    "child_item_type": "INGREDIENT",
+    "id": "248b0a54-4945-4f9f-a5ca-1a2e690fb366",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "24fc1dc4-c90e-42f7-9c67-83db23754fec",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "8db491b2-c1d8-4ebf-8032-49e6d32d5efa",
+    "child_item_type": "COMPONENT",
+    "id": "250aa6ea-ed98-4422-a03f-1a02181c31c1",
+    "parent_id": "7c5c0b2a-574d-4c29-9f65-b591c7590ad0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "4ac729a5-48e5-4bbe-8c6f-5e0fa89205cb",
+    "child_item_type": "INGREDIENT",
+    "id": "25287e71-248a-42bb-b1f5-24df8484a879",
+    "parent_id": "2b4c56d5-fcee-4171-bd71-c597e427c2f7",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "2.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "255b87a6-b85b-44df-85a6-eff2cfa2ec28",
+    "parent_id": "d40b7a92-3364-412e-b005-378a5d8b1870",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "d0b62f57-b5cc-4c1d-8846-256745a64188",
+    "child_item_type": "INGREDIENT",
+    "id": "2773347a-c133-49a6-92c4-f92a5dec0f2a",
+    "parent_id": "69a71b6a-81b9-46f6-abc6-fbcc8442d547",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "9dbb076b-6adc-414e-9806-10e18ee10e9d",
+    "child_item_type": "INGREDIENT",
+    "id": "289cbf75-1044-4eb4-a95c-62961bc47273",
+    "parent_id": "4e5e67ba-41b2-4399-822d-8fcf2cda5a83",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "9d2079c6-fe3e-4080-abc7-dbdcb20fdae9",
+    "child_item_type": "INGREDIENT",
+    "id": "28c51e98-a718-462b-bee5-5e812fa90370",
+    "parent_id": "8c338fce-e2cf-44c2-b4cd-8e1ffff8e1bd",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "0.50"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "28d19553-0514-4a23-9884-42a5afd5c532",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "16f9e0f3-836c-4fd5-a377-211db254fad7",
+    "child_item_type": "INGREDIENT",
+    "id": "29d30c3a-6469-4ba7-8a7d-a60377e17577",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "29f13a56-c004-4702-894f-3cbd166066ed",
+    "parent_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "2af6fee8-ad38-4fa9-af78-8048249af467",
+    "parent_id": "17e34f63-8d3e-442d-b56b-7c4e4030e9cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "2b8408b0-9ec4-43ed-a470-68a61bd08e3a",
+    "parent_id": "3f829b4e-acb6-4c5a-8aff-caf321bf174b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "d15390ed-93e6-491e-9cc5-c9107c2a5a98",
+    "child_item_type": "INGREDIENT",
+    "id": "2bb5ba10-e1d9-4e9c-b402-343dc1b2b5ad",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "8f715d71-6933-4acc-8025-e9ae5fbea95b",
+    "child_item_type": "COMPONENT",
+    "id": "2bc7559a-56b4-4524-8315-8164222f80f1",
+    "parent_id": "3604c6c6-d68d-4c2e-abdd-e0f9b21f8faa",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "d95160f5-2aa0-41c7-b21e-407a9f92296d",
+    "child_item_type": "INGREDIENT",
+    "id": "2c681d3e-6368-40ea-bb66-2db751526e06",
+    "parent_id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "10c89f1d-221b-45fd-9981-e216c126bdff",
+    "child_item_type": "INGREDIENT",
+    "id": "2ca41f76-482f-423f-ba95-714e66621956",
+    "parent_id": "ea58429b-e4b8-40e7-98b4-d0b0975e06ea",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "2cadf608-3742-4fa1-99e1-f22c4971fd4a",
+    "parent_id": "c2159c66-f3c5-42ae-9d25-de8c8ce6e00f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "b128339d-844e-428a-a0b8-b13126b82252",
+    "child_item_type": "INGREDIENT",
+    "id": "2d46edef-2088-49d4-80ad-ebe50121ad7e",
+    "parent_id": "95467a0d-9733-4ba3-b2b8-8d5caf9706d2",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "16f9e0f3-836c-4fd5-a377-211db254fad7",
+    "child_item_type": "INGREDIENT",
+    "id": "2d85c315-9710-4df8-93ab-03841cbe9e7c",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "125.00"
+  },
+  {
+    "child_id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "child_item_type": "INGREDIENT",
+    "id": "2dc3b845-a50f-47f6-9459-189f1a5d8171",
+    "parent_id": "d40b7a92-3364-412e-b005-378a5d8b1870",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "2e67d794-2279-4479-a607-1b5768bfe38b",
+    "parent_id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "776f87f9-70e8-4a90-91fe-445f4485552f",
+    "child_item_type": "INGREDIENT",
+    "id": "2e7a6c82-ad92-42bc-8030-c4273b4621b4",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
+    "child_item_type": "INGREDIENT",
+    "id": "2e9f727a-7f82-4f93-bae6-d69d63d6cd39",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "child_item_type": "COMPONENT",
+    "id": "30946975-0e9a-4589-a08e-b7397bd6b655",
+    "parent_id": "456d2944-74b9-4941-b6e9-8dc5df15c17e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "31176613-2b98-44d2-b66e-9198ae799a93",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "cac05d53-9d64-40cf-aa08-4c6b7957e7e2",
+    "child_item_type": "INGREDIENT",
+    "id": "318552b0-5c8d-419e-9fb7-0d73c6240ebf",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5000.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "3204fb1d-c989-4195-815b-6be60582729a",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "600.00"
+  },
+  {
+    "child_id": "abab8454-fcef-4975-867a-0d59e5a799b8",
+    "child_item_type": "INGREDIENT",
+    "id": "325c8bd8-b80e-48b5-8900-14d618a7f71b",
+    "parent_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "6fdbcc25-468a-4adc-8aaa-bee20253c594",
+    "child_item_type": "INGREDIENT",
+    "id": "326923b4-bd88-4bcb-b90e-8adc22f873b1",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "包",
+    "volume": "4.00"
+  },
+  {
+    "child_id": "6a89f96e-fa86-41a1-b812-026ef9cae9ba",
+    "child_item_type": "COMPONENT",
+    "id": "32696d48-5664-4b23-aafa-3fa7304e9fa4",
+    "parent_id": "d7b46d2e-13a7-441e-b3e4-079ec5a62a66",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "32c9e262-6bd9-4f05-985b-38411fd22833",
+    "parent_id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "3329d9ca-2342-4626-b794-ab2a559ead84",
+    "parent_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "cc5170cd-71cc-452e-b710-fff78807478d",
+    "child_item_type": "INGREDIENT",
+    "id": "3359b9f7-2355-4f8a-a0a4-440880c62479",
+    "parent_id": "8c76ed31-183c-44ed-b50f-1bd5446af22d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "9d002521-acd0-461d-acfe-dd500c9cf32c",
+    "child_item_type": "INGREDIENT",
+    "id": "33a4ad45-24fb-48db-9ab2-3ab84539fcef",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "child_item_type": "COMPONENT",
+    "id": "351af4e4-37de-41c9-89f2-2996d5b387dd",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "750.00"
+  },
+  {
+    "child_id": "d95160f5-2aa0-41c7-b21e-407a9f92296d",
+    "child_item_type": "INGREDIENT",
+    "id": "369a368e-d2f5-4c01-841e-b0998ca43807",
+    "parent_id": "60c2a3ae-4d9e-4c65-ad1b-a0f1a0d781de",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "36e22c88-7860-45d3-be02-81133f37502b",
+    "parent_id": "b37a2d35-bb90-4f8a-90c2-56581e5733a0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "child_item_type": "COMPONENT",
+    "id": "36e9f091-792b-4c01-814e-521b9e6b23c3",
+    "parent_id": "8f715d71-6933-4acc-8025-e9ae5fbea95b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "child_item_type": "INGREDIENT",
+    "id": "36eb2e5a-9983-429f-8219-0388019bf963",
+    "parent_id": "1212d334-2f98-47c5-aeb3-d71456dd88fe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "120.00"
+  },
+  {
+    "child_id": "f19ebc56-00a0-4092-aca6-b5401e2bf235",
+    "child_item_type": "INGREDIENT",
+    "id": "372b8770-36f9-490b-a007-ba254c8766c3",
+    "parent_id": "84e1e4ce-5d69-4599-a3e2-18125f4fefb3",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "243a726e-687c-4cda-903c-fed4c1b69636",
+    "child_item_type": "COMPONENT",
+    "id": "38921627-f24f-4a9c-85e8-393f0bbb01a7",
+    "parent_id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "96ec780c-03d8-4f3d-b9b3-26d6cc1281a7",
+    "child_item_type": "INGREDIENT",
+    "id": "38d34c5e-ae45-40a2-9025-f66df3b16a29",
+    "parent_id": "2646adb7-4ac8-4592-8277-7930650b4d52",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "3165b244-8543-484f-ba7f-39d50bc3d663",
+    "child_item_type": "INGREDIENT",
+    "id": "392afde4-1d96-44d5-b2c4-ab88571970be",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "180.00"
+  },
+  {
+    "child_id": "16b548ea-bb4e-447a-b752-6096e21bf4b5",
+    "child_item_type": "INGREDIENT",
+    "id": "3942012c-b052-4cfa-80ce-5d72022c97e8",
+    "parent_id": "124c4aad-819b-4c07-9fa2-6f35e5a4ab3a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "160.00"
+  },
+  {
+    "child_id": "4a4d57b7-99cc-4a2e-a157-a576f81c6836",
+    "child_item_type": "INGREDIENT",
+    "id": "39504ff0-06fb-4819-8006-55f754c85911",
+    "parent_id": "de03d241-41d6-48b4-a2c3-6d573b7ec95c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "279a7d1a-f821-4ce2-acec-04d724c31435",
+    "child_item_type": "INGREDIENT",
+    "id": "39e9fad4-a34a-490c-87ab-1795937812a6",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "39eaf33c-422e-4650-8a4c-a43431cb8e7d",
+    "parent_id": "1f52ebfe-9691-4275-99ce-ddb5ecc3ba65",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "3a250e46-6fdb-4e8d-876d-7a27deca94b8",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1400.00"
+  },
+  {
+    "child_id": "677d34f8-3d71-415a-8b80-cfc5fbb5ca81",
+    "child_item_type": "INGREDIENT",
+    "id": "3ae32d75-cac4-4df5-890c-520ed8eff00a",
+    "parent_id": "7ef06873-940f-41a3-b038-f0e745e2babe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "瓶",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "3b0458f1-546d-4990-abcd-be652e30e348",
+    "parent_id": "6507a46a-6e77-4987-adfa-946d9c87fb98",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "3b334c5d-9915-4ca3-88ff-2552ae92c48c",
+    "parent_id": "0cc884d2-74f8-4ec2-b3b3-5c9097d1a5e9",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "4200.00"
+  },
+  {
+    "child_id": "80ada7c3-0a8f-426e-b063-04810925e403",
+    "child_item_type": "INGREDIENT",
+    "id": "3c54316f-356b-4c80-bc3c-7cb74ba58c28",
+    "parent_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "b128339d-844e-428a-a0b8-b13126b82252",
+    "child_item_type": "INGREDIENT",
+    "id": "3d9fb322-a221-4850-84fd-97bf9765f30e",
+    "parent_id": "fc07fc10-2de4-4e21-9261-3445a9a78c2c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "51f49ce1-64d9-4683-95d9-d57a310a45b9",
+    "child_item_type": "INGREDIENT",
+    "id": "3dac2332-7910-470f-aa1d-a29e55c87abf",
+    "parent_id": "667edd1f-9e87-43dc-ae0b-85bce694178e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "7b8eb2a3-f519-4840-b802-96d5e30b5720",
+    "child_item_type": "COMPONENT",
+    "id": "3dd98b14-601a-44d1-a033-e6f78ad2f035",
+    "parent_id": "7e248f4f-fe63-4f4d-82bf-d1c131d15e9d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "3e365ed9-b505-4824-8ca6-517b2d56f4d2",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "child_item_type": "COMPONENT",
+    "id": "3ec614a9-013e-4d3b-86c3-e1736e70d1a1",
+    "parent_id": "6fa6d7e8-8e6e-49c9-bcfb-7e9d3ea00d04",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "660.00"
+  },
+  {
+    "child_id": "92d895b5-2924-4ecc-b210-904b41cd8276",
+    "child_item_type": "INGREDIENT",
+    "id": "3f069356-268c-489d-99df-bb0a0080f776",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "3f997339-bebb-4c49-a9a8-cd0a68bc7c15",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "6cf2ca11-5975-49a1-8f79-b383acb7e169",
+    "child_item_type": "COMPONENT",
+    "id": "400ac315-45d1-4118-8b3e-f452b6ba0512",
+    "parent_id": "e3988bf1-8a97-4e84-a97b-9474dac2c55d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "ea3fdb75-3777-49d6-8dc6-f8a2bdbfaf11",
+    "child_item_type": "INGREDIENT",
+    "id": "409a45cd-0f4c-4687-86c3-c8d511269617",
+    "parent_id": "b2bf0ef5-9911-43b6-bbe9-8d69321a508c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "d33657e3-9327-4f4b-8277-e684e3eccdb6",
+    "child_item_type": "COMPONENT",
+    "id": "40bf6977-53a9-446a-b895-db8cf6ab1227",
+    "parent_id": "26fa07c4-2489-4244-b0c8-e0ab70caa7b1",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "450.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "413e2b6d-6b99-4683-8f3c-1771653ca8e9",
+    "parent_id": "c17c6e38-99a4-4668-b983-6a0b13222913",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "350.00"
+  },
+  {
+    "child_id": "5d0d9390-5356-4455-a667-f2e4565c79ba",
+    "child_item_type": "INGREDIENT",
+    "id": "421b7586-b384-4cad-b066-0d27bc212992",
+    "parent_id": "c2159c66-f3c5-42ae-9d25-de8c8ce6e00f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "child_item_type": "COMPONENT",
+    "id": "42222c5f-85de-4829-b086-5c84a2051a10",
+    "parent_id": "7726b0e4-1309-45d5-9cc5-67d3af8860d6",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "4255eb64-dc84-4bb7-b87a-8d86bfb60f27",
+    "parent_id": "47a64ff9-41b8-4059-b4b0-6e9009f28d3d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "child_id": "2db38bd1-d57d-4d1a-a772-817d0b6639d6",
+    "child_item_type": "INGREDIENT",
+    "id": "42a92988-3552-4984-b843-e99f16e8ee1a",
+    "parent_id": "d6ab52c7-b2e9-4be6-8548-1f91acbf5d5c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "42ce5f18-3d1e-4d58-89c6-e55225f9bb97",
+    "parent_id": "1fe65262-789a-4b25-bb5c-c2936b77f07e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "8457b424-1906-4e54-a941-e5af97819337",
+    "child_item_type": "INGREDIENT",
+    "id": "4330f811-24fb-4528-b367-6ad62755f128",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "731fca82-d20d-4edb-93e6-7ced9800f05c",
+    "child_item_type": "INGREDIENT",
+    "id": "4374c763-b30e-40ea-a32b-d56d3795724e",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "14.68"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "43d83374-2622-459a-827d-80643ca42c05",
+    "parent_id": "4a35cfa0-4579-4871-8a2e-f198b95cbb9b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50",
+    "child_item_type": "COMPONENT",
+    "id": "43dfa377-9e85-47d0-b319-1867f22a892e",
+    "parent_id": "57d703f2-2239-42ca-bbfe-f0370121ee80",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "43fe5295-f308-48b6-8548-2cbdc40154f8",
+    "parent_id": "4af495a2-a79d-4062-91ce-ccc058978f91",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "440e4148-c07a-441e-8c82-ea80b7c9330f",
+    "parent_id": "c4947b56-1f24-40a3-8d0a-0088798eb682",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "3e7a07ed-2b8c-43c8-b09e-b69c191a5aa3",
+    "child_item_type": "INGREDIENT",
+    "id": "442839b8-f74f-472a-ae2a-394b494f5e98",
+    "parent_id": "4ad53cce-6ea3-455f-80f0-66b9599c6dcc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "7f47eb18-c2fd-4660-8edd-852cbf1249ac",
+    "child_item_type": "INGREDIENT",
+    "id": "44e69973-90b6-40b1-b1b3-ce2ed2c4d2f1",
+    "parent_id": "7c5c0b2a-574d-4c29-9f65-b591c7590ad0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "child_item_type": "COMPONENT",
+    "id": "45eab38c-6a1f-47e6-9d1f-10577281c498",
+    "parent_id": "667edd1f-9e87-43dc-ae0b-85bce694178e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "b67de4ea-83a6-4fb7-af5a-e932cc0d9995",
+    "child_item_type": "INGREDIENT",
+    "id": "45f214ac-0e05-4487-8d0a-ef36aacdaf91",
+    "parent_id": "fae7c4ef-822a-4e26-9018-420e2fd3b01b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "child_item_type": "COMPONENT",
+    "id": "46943dda-d456-41a2-b1e7-74728c6b4f23",
+    "parent_id": "68f96d10-9a56-4ec0-8b97-039cd4948bf2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "515a3437-6caa-48ca-94dd-86d247127cb6",
+    "child_item_type": "INGREDIENT",
+    "id": "471201b6-0b01-409a-b08f-3a3ca7d4f03e",
+    "parent_id": "a77eb75d-e0b1-4292-ad34-59ffc5478ce1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "471655ef-45d1-4d5b-8139-49a5d436e172",
+    "parent_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1340.00"
+  },
+  {
+    "child_id": "c6771e10-8a3a-400c-aabf-5b20ae023087",
+    "child_item_type": "INGREDIENT",
+    "id": "4723db3d-a724-4a86-8b5b-83a5f28a04d9",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "child_item_type": "COMPONENT",
+    "id": "474cb41c-d13a-40ec-b085-53ab22ae2507",
+    "parent_id": "12c35bde-33ff-4814-8cd8-23fcf140f3c0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "8c338fce-e2cf-44c2-b4cd-8e1ffff8e1bd",
+    "child_item_type": "COMPONENT",
+    "id": "4760bb6f-0344-47bd-9765-1384a2a5a1da",
+    "parent_id": "53b4386b-df6c-413b-b9cf-e6445c49f177",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "47aabfe7-5e92-49b9-b0c5-a05ed743bfcd",
+    "parent_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "48d75f1b-0864-4cb7-8b1b-d1fec7f2ac86",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "90.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "49ae471e-6ca8-4b9a-9742-56b4296b5df9",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "20000.00"
+  },
+  {
+    "child_id": "4b5e0c39-9fcf-4546-aa33-0f34c5fd89c6",
+    "child_item_type": "INGREDIENT",
+    "id": "49cee16e-2213-44c7-9109-60585582ed45",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "4a177114-c187-4b5f-a9bd-74ac74607350",
+    "parent_id": "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "663edc2b-0f42-44a5-9646-41f8c20efe6d",
+    "child_item_type": "INGREDIENT",
+    "id": "4a19dba9-6478-4a4b-b646-f28f4df3310d",
+    "parent_id": "23eb12cc-bd3a-4c49-bf56-9307eedbdea2",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "6ec2b359-3588-4594-b17f-366f3ccc9030",
+    "child_item_type": "INGREDIENT",
+    "id": "4a61d575-e025-4d41-900a-263f8ee06d5b",
+    "parent_id": "10730d9b-216b-4c1a-a5d5-ef44e2f3dae8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "4b3b844d-f5bb-4f2e-b59d-85364917e508",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "670.00"
+  },
+  {
+    "child_id": "325b04df-cec9-4b67-8398-744be2965374",
+    "child_item_type": "COMPONENT",
+    "id": "4bc5dd39-4aeb-4383-b173-ef69b3a32f11",
+    "parent_id": "29f1a2cf-95e3-4792-94e6-a7e380876db1",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "隻",
+    "volume": "4.00"
+  },
+  {
+    "child_id": "6cf2ca11-5975-49a1-8f79-b383acb7e169",
+    "child_item_type": "COMPONENT",
+    "id": "4bdccd78-f598-4d4f-bb3a-f24b9a75b2e7",
+    "parent_id": "71535496-15d8-489b-9f22-e307d5d4a973",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "eb6f80ed-5d66-421a-be88-9834ae0e6bba",
+    "child_item_type": "INGREDIENT",
+    "id": "4c4ab4b6-5663-45d5-91db-57ecac812b2c",
+    "parent_id": "8aa875df-50f0-4c4f-944c-ee0c919ebaf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "187.00"
+  },
+  {
+    "child_id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "child_item_type": "COMPONENT",
+    "id": "4d62d1d7-8bfb-4140-92e0-7d177395b26a",
+    "parent_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "4d7965e0-cb1e-437f-9685-bfbefa325d56",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "4d7d9dd3-8a44-4776-bcf4-5e41dab0c900",
+    "parent_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "child_item_type": "COMPONENT",
+    "id": "4e08cfe6-de1f-4228-9b81-18ca0e786b90",
+    "parent_id": "679ab541-484b-42b1-bd9b-5183c329b548",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "4e2c77f8-0a1b-4369-93cd-572cdb2871c8",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "child_item_type": "INGREDIENT",
+    "id": "4e8f2f19-3433-456d-8982-047a5a14b580",
+    "parent_id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "4ac729a5-48e5-4bbe-8c6f-5e0fa89205cb",
+    "child_item_type": "INGREDIENT",
+    "id": "4eb3a044-49b6-451c-94bd-caf5e16482bc",
+    "parent_id": "5818b8de-3caa-4579-9550-e5fc2122336c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "6790b15b-6ac7-43e5-84fe-d479cc16daf4",
+    "child_item_type": "INGREDIENT",
+    "id": "4f50bb95-9fbb-402c-a7ff-44b15abc2820",
+    "parent_id": "925efe35-4508-49ab-aaa9-7137a8820428",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "8c4cdd14-255d-4e8c-a60d-783c1f4ee2fc",
+    "child_item_type": "COMPONENT",
+    "id": "4f9382a3-4c52-4bfe-be35-67338681428a",
+    "parent_id": "01e42e9c-7b60-48d8-8269-b9cb0a74118f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "c6771e10-8a3a-400c-aabf-5b20ae023087",
+    "child_item_type": "INGREDIENT",
+    "id": "4fbbc3ce-5b0c-4e1c-91a3-02339445bf89",
+    "parent_id": "35ab906c-20cf-4cb0-a0c7-14320462fc60",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "child_item_type": "COMPONENT",
+    "id": "508a603f-c4b3-4765-a8c2-b152c49577a8",
+    "parent_id": "62acce79-9428-4ef5-be59-550b7621e9d1",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "d15390ed-93e6-491e-9cc5-c9107c2a5a98",
+    "child_item_type": "INGREDIENT",
+    "id": "50fbf81d-0d84-43b7-877c-7df454dc9b39",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "c6ea4ba0-af2a-4fd9-8658-b5a3827ea93c",
+    "child_item_type": "INGREDIENT",
+    "id": "51ff02e3-04fb-482e-99ad-3b208312f438",
+    "parent_id": "e7e14d3b-af67-455f-90dd-f82315b73d61",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "child_item_type": "COMPONENT",
+    "id": "5207cb03-7d8c-4825-b099-3056f02fe155",
+    "parent_id": "9e99dca5-f15e-46f4-86f6-fae89a10db19",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "807d7ee6-379a-415d-bda0-371112928264",
+    "child_item_type": "INGREDIENT",
+    "id": "522c2184-d702-4fdb-a731-05613ab051f6",
+    "parent_id": "a77ad972-3e95-4214-b226-bbaa229a4f02",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "240.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "5282ecf0-cd86-4fc9-8df7-0ec9fa9312fc",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "322037fc-79d6-4a10-ac03-69bfbb43e35a",
+    "child_item_type": "INGREDIENT",
+    "id": "52969fe0-af7d-4e52-9c2e-1a8ec47238e8",
+    "parent_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "9d002521-acd0-461d-acfe-dd500c9cf32c",
+    "child_item_type": "INGREDIENT",
+    "id": "52ace676-6d3b-41cf-9889-d012f8d47d5e",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "675f9d24-8618-47fb-bee4-c7353f4bf557",
+    "child_item_type": "INGREDIENT",
+    "id": "52fcbfb5-ca6e-420f-8b4a-8acf13ef5d16",
+    "parent_id": "435ca734-585e-4698-8d9c-5dfc90d49c58",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "child_item_type": "COMPONENT",
+    "id": "5318667e-bc24-423f-9de7-e53589ff4243",
+    "parent_id": "53b4386b-df6c-413b-b9cf-e6445c49f177",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "550.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "54804d58-b300-42c1-87b4-07ad326fb24e",
+    "parent_id": "6a89f96e-fa86-41a1-b812-026ef9cae9ba",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "child_item_type": "COMPONENT",
+    "id": "5490d131-220e-487e-b35e-8e33805f1673",
+    "parent_id": "b37a2d35-bb90-4f8a-90c2-56581e5733a0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "a65589b5-0fdf-4e42-9867-fe12890e8ca2",
+    "child_item_type": "INGREDIENT",
+    "id": "54ad5791-147a-48f2-b888-32c05a8437c0",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "675f9d24-8618-47fb-bee4-c7353f4bf557",
+    "child_item_type": "INGREDIENT",
+    "id": "54b122ee-959c-4890-8274-487b80b38b2c",
+    "parent_id": "94be80c6-5d45-4f4d-9272-67aa41ab2c36",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "child_item_type": "COMPONENT",
+    "id": "54e2bce7-f6be-4487-a113-6acc62c61a22",
+    "parent_id": "95467a0d-9733-4ba3-b2b8-8d5caf9706d2",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "child_item_type": "COMPONENT",
+    "id": "5532fdea-0e89-4853-b10c-decf338e9d9a",
+    "parent_id": "b5df9964-1971-4f41-bcd7-93f18ea7e74a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "94cd8d5e-12e6-4931-be5b-84137d72363e",
+    "child_item_type": "INGREDIENT",
+    "id": "55d4f3c5-d642-406b-8679-7eac30e45e8e",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2500.00"
+  },
+  {
+    "child_id": "c98280f2-787a-4b91-b35e-5b84d3fc1a31",
+    "child_item_type": "INGREDIENT",
+    "id": "57c5f10f-eb05-4625-982f-655635386eec",
+    "parent_id": "0cc884d2-74f8-4ec2-b3b3-5c9097d1a5e9",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.50"
+  },
+  {
+    "child_id": "e0f1b569-3a26-4a26-a9ad-b6656909c7ca",
+    "child_item_type": "INGREDIENT",
+    "id": "57faeb2e-022b-4567-a1f4-fc2cda7ba6f6",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "581199d8-6215-4f30-b7df-a67cc72b2f47",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "2c41007d-5fef-4682-82c4-633c5174b5a7",
+    "child_item_type": "INGREDIENT",
+    "id": "582f25b0-bbac-417f-80c8-b946a1076764",
+    "parent_id": "679ab541-484b-42b1-bd9b-5183c329b548",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "5.10"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "58ae3b2f-09fb-45b2-a5ba-62011205f59c",
+    "parent_id": "2b4c56d5-fcee-4171-bd71-c597e427c2f7",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "37f2ac2f-6105-4e3d-9f40-079b948b4b7b",
+    "child_item_type": "INGREDIENT",
+    "id": "58b346cc-0630-47a0-944e-ab8ed4ed4dd5",
+    "parent_id": "fae7c4ef-822a-4e26-9018-420e2fd3b01b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "81479ee5-f7bd-40f9-9dd2-a201a308a292",
+    "child_item_type": "COMPONENT",
+    "id": "58cabea6-1aa8-424b-a249-38ffdc5d236b",
+    "parent_id": "17e34f63-8d3e-442d-b56b-7c4e4030e9cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "b8f3b97f-d6b6-4634-a869-12765d9bfc7b",
+    "child_item_type": "INGREDIENT",
+    "id": "58d91d7b-df18-4209-9224-873559f12c62",
+    "parent_id": "26066358-0ad6-4c0f-ae27-3796e1e6b411",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "58de2c5a-9ba1-489c-9399-1a8d88520bb3",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "5933269a-f142-4ea8-90d2-2e0ad0959b71",
+    "parent_id": "3b1abec5-ed14-4520-ba97-749b4673bf43",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "59606dfb-872d-4bfc-872f-da9fb25a2a3c",
+    "parent_id": "d2ef1e37-68f1-4ee9-a17a-08e21cb4ec4b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "68f96d10-9a56-4ec0-8b97-039cd4948bf2",
+    "child_item_type": "COMPONENT",
+    "id": "59c368a9-a4c4-40b0-a6d7-2b98661ef1ab",
+    "parent_id": "49d903a5-193a-4b98-b81a-02c3cf539960",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "child_item_type": "COMPONENT",
+    "id": "59fbcb4f-8434-4fb1-ab6d-7060579f719e",
+    "parent_id": "6beadc92-fd29-4550-a9d0-0109f1fc1015",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50",
+    "child_item_type": "COMPONENT",
+    "id": "5a5e47be-3126-448a-a045-6884adfe7116",
+    "parent_id": "7726b0e4-1309-45d5-9cc5-67d3af8860d6",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "e19e7415-9f3d-4783-b5bc-4ec6dedbfafd",
+    "child_item_type": "INGREDIENT",
+    "id": "5a9f23dd-3326-4d29-a44e-46afc4a80bee",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1500.00"
+  },
+  {
+    "child_id": "b8ee1a1a-6237-484c-8a20-96b7d5b89f93",
+    "child_item_type": "COMPONENT",
+    "id": "5bc231c5-d9e2-4c37-ac61-7447b2772d77",
+    "parent_id": "1cb830ff-5f6f-4bb0-9fb4-fcbe3370d834",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "7b8eb2a3-f519-4840-b802-96d5e30b5720",
+    "child_item_type": "COMPONENT",
+    "id": "5c206e60-4fa1-4e6b-a5db-8840297b6c53",
+    "parent_id": "ffe72e9b-4fd1-4094-918c-a51a13f071ad",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc",
+    "child_item_type": "INGREDIENT",
+    "id": "5c4e0e59-cfa9-4b41-a171-9d194e98c421",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "7af15ea3-dc20-4c1b-b272-64fb6c41d06a",
+    "child_item_type": "COMPONENT",
+    "id": "5c5d0d31-95f5-4a3f-b3f9-a4bae89a00f4",
+    "parent_id": "57d703f2-2239-42ca-bbfe-f0370121ee80",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "8f64a8aa-1910-4426-bda4-393703f64bd0",
+    "child_item_type": "INGREDIENT",
+    "id": "5f150d60-eaac-4e2a-8e37-cceaddd7c9ff",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "da977ba5-517f-429e-b84e-e14ee24a6603",
+    "child_item_type": "INGREDIENT",
+    "id": "5f8b4860-91e0-4cf6-8cea-8ad5ebd35651",
+    "parent_id": "c17c6e38-99a4-4668-b983-6a0b13222913",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15000.00"
+  },
+  {
+    "child_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "child_item_type": "COMPONENT",
+    "id": "600c5df4-ae9f-4eed-841d-baff00c65004",
+    "parent_id": "de03d241-41d6-48b4-a2c3-6d573b7ec95c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "60439360-964f-4826-9375-5e4817a66b9c",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "dae0bd34-5e31-4b01-97d5-74ccb13064ed",
+    "child_item_type": "INGREDIENT",
+    "id": "61121e68-fe4e-468b-bf1f-7abd9dcc64df",
+    "parent_id": "c59eeba5-8450-49d3-93b7-8de4bb578b89",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "678fe373-02d7-4720-bef0-e65adfb5a6b1",
+    "child_item_type": "INGREDIENT",
+    "id": "615c3efc-7c58-4b63-ba8e-856ed1aca124",
+    "parent_id": "b9c3b425-0f18-48ac-8ea8-7838d331eee9",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "750.00"
+  },
+  {
+    "child_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "child_item_type": "COMPONENT",
+    "id": "6178dd14-d676-47da-9855-c3589f12fc99",
+    "parent_id": "8aa875df-50f0-4c4f-944c-ee0c919ebaf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "312.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "61dbc699-d4e8-4381-b93b-4f8292b9aaca",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "6210feb3-6c24-4fcd-8e62-480589c97ce5",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "d15390ed-93e6-491e-9cc5-c9107c2a5a98",
+    "child_item_type": "INGREDIENT",
+    "id": "623a6e21-168b-4a17-9b2e-8e6026b47215",
+    "parent_id": "e2a316d4-4a55-4893-8e1b-ef8c2dc22774",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "8.00"
+  },
+  {
+    "child_id": "69e05b4c-64d1-4123-99d3-55bacfea0fbe",
+    "child_item_type": "INGREDIENT",
+    "id": "636239eb-1552-4d83-98f1-79b315588da3",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "8aa4d375-b54c-4f01-8e06-8b8f1fa5dd4b",
+    "child_item_type": "INGREDIENT",
+    "id": "641353ea-b788-4448-8c4d-fc97e3bcfe85",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "8000.00"
+  },
+  {
+    "child_id": "80fc9cc9-644e-4232-8b01-e57c11385570",
+    "child_item_type": "COMPONENT",
+    "id": "64649d79-940c-4334-8a3b-4eb7c7a685ce",
+    "parent_id": "c2159c66-f3c5-42ae-9d25-de8c8ce6e00f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "646d85f9-ff9f-4212-8786-e2427ad152b6",
+    "parent_id": "e2a316d4-4a55-4893-8e1b-ef8c2dc22774",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "f7855492-a2dc-4938-928e-ed2aa2c4c426",
+    "child_item_type": "INGREDIENT",
+    "id": "65a70efb-d2f4-4078-9d1d-12537a57c4fa",
+    "parent_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "5b4c7ca2-c5d5-4240-a149-0eaba0cf778c",
+    "child_item_type": "INGREDIENT",
+    "id": "66af95a1-6baf-41af-99a0-3f608a05318e",
+    "parent_id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10000.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "66dfb883-3ff5-4d1d-aeae-3abd7a061b5f",
+    "parent_id": "124c4aad-819b-4c07-9fa2-6f35e5a4ab3a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "2e75b3e1-7c1f-451d-bfc8-8f33f3abae36",
+    "child_item_type": "INGREDIENT",
+    "id": "672aa21e-5c8e-4c19-b8b0-5d0fc9619351",
+    "parent_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "68188b69-98a4-4151-9aea-342d3774ff43",
+    "parent_id": "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "57e11ab0-ae13-4208-a08a-2cfe79e807b1",
+    "child_item_type": "INGREDIENT",
+    "id": "68b6e2ea-da4b-4a69-bf51-64f362beffd8",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "694c63a1-776c-446a-a399-5677102d4283",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "6977b365-57ad-4d5f-bf22-f75e871fc3f5",
+    "parent_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "69a30abb-045f-4189-b997-7d9cf1fb090f",
+    "parent_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "350.00"
+  },
+  {
+    "child_id": "98ce5e90-f533-4ff2-9395-bf6385223010",
+    "child_item_type": "INGREDIENT",
+    "id": "6a0b49d3-a8d0-44fb-811d-40042312f16c",
+    "parent_id": "7af15ea3-dc20-4c1b-b272-64fb6c41d06a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "95.00"
+  },
+  {
+    "child_id": "7bab3341-fda3-408d-8662-eafcf88282eb",
+    "child_item_type": "INGREDIENT",
+    "id": "6a161c90-c784-49e1-a796-6519f0e68d33",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "160.00"
+  },
+  {
+    "child_id": "0f6a712f-be44-48e2-8571-6c4871531ea6",
+    "child_item_type": "INGREDIENT",
+    "id": "6a2fd69d-c781-4fb5-9e46-42f1d9c43d78",
+    "parent_id": "d59ca29c-3261-415d-a03a-fde2ddeb82ab",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.40"
+  },
+  {
+    "child_id": "e6ff184a-0ed6-4317-b558-11451dbc6282",
+    "child_item_type": "INGREDIENT",
+    "id": "6a8ed537-05e7-49b0-9bfb-fdb23a068271",
+    "parent_id": "1efea369-9c3f-4da1-b6ea-ce72020947a4",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "798ed535-124d-4885-be32-297ec8eb07c5",
+    "child_item_type": "INGREDIENT",
+    "id": "6b36950c-d5ab-4a45-b292-f3ceb68e3e37",
+    "parent_id": "ef511572-9222-488c-98ed-e567e011daca",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "6b550989-6bc6-4aea-ac67-ca6e457cea28",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "4a4d57b7-99cc-4a2e-a157-a576f81c6836",
+    "child_item_type": "INGREDIENT",
+    "id": "6b5cd8bb-687e-4f46-971a-a30e6342d2ba",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "9cfc2129-f0fa-457d-ba93-a9f502114b53",
+    "child_item_type": "COMPONENT",
+    "id": "6b9c50e3-e653-4dff-80d9-a4058577afd9",
+    "parent_id": "4d1a26a6-8e0e-426a-98b4-c7f2b058229e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "449489a7-fe17-47f4-8247-8ed840732580",
+    "child_item_type": "INGREDIENT",
+    "id": "6c2b2ab1-d8f4-46ea-be27-02e9f9dda8b8",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "96ec780c-03d8-4f3d-b9b3-26d6cc1281a7",
+    "child_item_type": "INGREDIENT",
+    "id": "6d194dc8-78e2-4ed5-8bc0-eadcedb11839",
+    "parent_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "5dd86cf6-a0d1-4dd4-ad94-20709c6d39c4",
+    "child_item_type": "INGREDIENT",
+    "id": "6e271762-faaa-4b4d-a5a8-b7af140356be",
+    "parent_id": "47a64ff9-41b8-4059-b4b0-6e9009f28d3d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "d33657e3-9327-4f4b-8277-e684e3eccdb6",
+    "child_item_type": "COMPONENT",
+    "id": "6e9367dc-b057-44c2-8913-647423ab7cc0",
+    "parent_id": "b2fbf5ea-1892-4177-b14a-8c7a2c46d103",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "child_item_type": "COMPONENT",
+    "id": "6f0e7240-2dc8-4937-9ea1-82e33a296f75",
+    "parent_id": "fe77de1c-1d9c-4d6a-afb4-cdff78d32a9a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "90.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "6f33b377-294f-46ae-b210-a4845fedd748",
+    "parent_id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "19979099-0467-4e71-b0ef-325a4e0a32d6",
+    "child_item_type": "INGREDIENT",
+    "id": "6fc1b10e-8648-45f9-9399-421f2f9697a0",
+    "parent_id": "157647ee-c964-42a5-b116-d734c751b5a5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "6fe059ca-1960-4289-9f48-e450b3b9d9ff",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "child_item_type": "COMPONENT",
+    "id": "7012bf3a-063b-46d5-b202-284b7da1760a",
+    "parent_id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "704a58e0-93e2-47aa-ad0b-39a8428f55cf",
+    "parent_id": "46fc97cb-b4a1-4398-97a6-cf83ac0480c5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "cbd36064-ef4c-405e-a5eb-a711bf4d8b11",
+    "child_item_type": "INGREDIENT",
+    "id": "705c6249-1b8d-4fe3-ac0b-962b01a6e59a",
+    "parent_id": "5b03b9e5-3bbe-4008-a33d-695076950ac2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "eb6f80ed-5d66-421a-be88-9834ae0e6bba",
+    "child_item_type": "INGREDIENT",
+    "id": "70b0eccc-0ff6-4704-b350-466ecd6cfc6d",
+    "parent_id": "a165fc78-9dce-469c-a55f-0e23a9327d7f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "187.00"
+  },
+  {
+    "child_id": "d59ca29c-3261-415d-a03a-fde2ddeb82ab",
+    "child_item_type": "COMPONENT",
+    "id": "711a3340-42bf-4c45-b528-7f09d241016d",
+    "parent_id": "ef511572-9222-488c-98ed-e567e011daca",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "7158eb00-605e-4e2e-8f95-2cbba16fedf3",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "257f72c1-ade6-4161-af21-7906180cde9c",
+    "child_item_type": "INGREDIENT",
+    "id": "72163a1a-f025-4417-8d8c-85c8cdd3fbdc",
+    "parent_id": "56807346-f2f0-424c-8e49-0a43e58eaa4b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "5d0d9390-5356-4455-a667-f2e4565c79ba",
+    "child_item_type": "INGREDIENT",
+    "id": "72311199-a7dd-4d54-9f0a-79f9005b0bc4",
+    "parent_id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "child_item_type": "INGREDIENT",
+    "id": "724ed0cb-fa6d-45de-bcf2-7619ce86c2cb",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "bd7cfad5-61c1-4912-b837-2318d67be63b",
+    "child_item_type": "COMPONENT",
+    "id": "7261549e-a6ec-4d50-a513-e2133e0170ee",
+    "parent_id": "58dc2f9a-3252-4f3f-9b2d-e73eebe20f8b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "4ac729a5-48e5-4bbe-8c6f-5e0fa89205cb",
+    "child_item_type": "INGREDIENT",
+    "id": "72aa699f-f2d1-4805-8e11-a330b3bffc72",
+    "parent_id": "2646adb7-4ac8-4592-8277-7930650b4d52",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "2.00"
+  },
+  {
+    "child_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "child_item_type": "COMPONENT",
+    "id": "72fa173c-9196-4f34-bb3e-b43ec05ab228",
+    "parent_id": "4b3fa0f4-bb61-40c0-b0ba-052681a233c5",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "a122c115-4664-4a74-803a-6dc86f74891f",
+    "child_item_type": "INGREDIENT",
+    "id": "73257a04-ce38-4897-b433-39ab0fa16bee",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "125.00"
+  },
+  {
+    "child_id": "44615b06-00d5-4be8-858e-27ccda81f2e5",
+    "child_item_type": "COMPONENT",
+    "id": "7337fe61-e568-49c7-a421-84a5f409fefb",
+    "parent_id": "7ea4ce53-4684-4cd6-8c21-992098bb8246",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "142124b9-97c5-4188-80ef-2a327fe84d94",
+    "child_item_type": "INGREDIENT",
+    "id": "73e0cefd-2008-4fdf-aa9b-88ba935e6979",
+    "parent_id": "e95a2567-a8f7-4eb9-8096-6e25071f7c39",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "7401cd84-335c-4a20-8f1d-819b1e987775",
+    "parent_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "8f715d71-6933-4acc-8025-e9ae5fbea95b",
+    "child_item_type": "COMPONENT",
+    "id": "74067b8c-dbbb-4d04-a310-5fb4c2dc5e42",
+    "parent_id": "96794cd7-a84e-4eac-aa4e-8f69766cf616",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "7ad07256-8d56-4e02-a706-d9cc21e27ffb",
+    "child_item_type": "INGREDIENT",
+    "id": "756b5f85-1ff0-405e-8dd9-a4bcd72db7f0",
+    "parent_id": "9b516b6d-8fa9-49ab-9402-19d9efa2574c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "7955aaa4-9309-4afe-b21a-1805af293c07",
+    "child_item_type": "INGREDIENT",
+    "id": "75f21ac3-c0da-4264-adbb-46c53e6780e5",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "120.00"
+  },
+  {
+    "child_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "child_item_type": "COMPONENT",
+    "id": "76874b49-2c75-4478-a4f3-f9e232aac04d",
+    "parent_id": "2b4c56d5-fcee-4171-bd71-c597e427c2f7",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "a122c115-4664-4a74-803a-6dc86f74891f",
+    "child_item_type": "INGREDIENT",
+    "id": "76ec9f72-da0a-41a4-80f9-42a4a7783416",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "125.00"
+  },
+  {
+    "child_id": "16b548ea-bb4e-447a-b752-6096e21bf4b5",
+    "child_item_type": "INGREDIENT",
+    "id": "770541fa-82a5-42b3-b66f-0d331d7a101c",
+    "parent_id": "d7fbd24b-d814-43f1-926b-ad84beda6f91",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "fc46226a-db5d-4d68-af90-d6fc8711b7a9",
+    "child_item_type": "INGREDIENT",
+    "id": "775eb886-d420-45ef-866c-669ab051d36c",
+    "parent_id": "c17c6e38-99a4-4668-b983-6a0b13222913",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "36314ac8-a748-45db-b2ab-2bddb78db0fd",
+    "child_item_type": "INGREDIENT",
+    "id": "778c4a3c-cf7d-4857-aa02-49f76874fd5a",
+    "parent_id": "928ba006-1219-4053-bb21-232fe821c0fc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "7740e542-b245-430e-a838-4f635e23fac1",
+    "child_item_type": "INGREDIENT",
+    "id": "77bd3090-2715-4a68-a381-ad15dbe3e76b",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "7ac877df-e22e-41b3-a7c4-13e65a8c47c7",
+    "child_item_type": "INGREDIENT",
+    "id": "780a47f2-1aa2-4481-a2b9-1320d9bc8afc",
+    "parent_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "25.00"
+  },
+  {
+    "child_id": "796acc37-bb89-4662-851b-43e28cd555fa",
+    "child_item_type": "INGREDIENT",
+    "id": "78ba1a35-81b7-43c4-adfe-6629ab7809a3",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "523734f6-6acf-451d-a94f-e0258da2f614",
+    "child_item_type": "INGREDIENT",
+    "id": "78c5ba1c-3dff-451e-8017-8901fea605db",
+    "parent_id": "325b04df-cec9-4b67-8398-744be2965374",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "78f5b064-a864-461d-920f-8cb04e28e75b",
+    "parent_id": "44615b06-00d5-4be8-858e-27ccda81f2e5",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "child_item_type": "COMPONENT",
+    "id": "79233d1c-56fe-4e85-a4d3-afa412cd2f08",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "600.00"
+  },
+  {
+    "child_id": "449489a7-fe17-47f4-8247-8ed840732580",
+    "child_item_type": "INGREDIENT",
+    "id": "797356fe-c2c9-484e-b99e-eef7c7409282",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "child_item_type": "COMPONENT",
+    "id": "79d2aab3-e982-4ea6-b8b6-cdb5b57b1fc9",
+    "parent_id": "6507a46a-6e77-4987-adfa-946d9c87fb98",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "16f9e0f3-836c-4fd5-a377-211db254fad7",
+    "child_item_type": "INGREDIENT",
+    "id": "79e3ca9a-a0ac-4eb5-8b12-820f2a548d92",
+    "parent_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "79ec7572-0a1e-424e-9143-34fda843edb1",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "e1a94409-3525-4cab-a983-bcedc357388e",
+    "child_item_type": "INGREDIENT",
+    "id": "7a94cfea-4fbb-42d5-96e8-8a8b92d88b57",
+    "parent_id": "243a726e-687c-4cda-903c-fed4c1b69636",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "8100.00"
+  },
+  {
+    "child_id": "ebead413-7445-4e20-ae1a-d8b4e5c2809a",
+    "child_item_type": "INGREDIENT",
+    "id": "7afde276-2ca3-4e55-9a62-ff26b0a9f7ca",
+    "parent_id": "a4f9ed12-f6df-4468-aa0b-c7b0a22f7c20",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "a11d5862-01aa-452a-b55f-5f147bbf2c09",
+    "child_item_type": "INGREDIENT",
+    "id": "7b4a3394-7608-4191-b93d-f78aec9ba401",
+    "parent_id": "585d8122-9afa-42cc-a165-1cfeef4be9e7",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "dd36d70e-eb8e-46de-b5b9-cd1f31eac3da",
+    "child_item_type": "INGREDIENT",
+    "id": "7b957965-4315-4a74-bf45-052d0348b0be",
+    "parent_id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "3.00"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "7b9a73df-7321-4d83-8776-f243807b1488",
+    "parent_id": "b423dd36-3878-4c9f-aa9e-77a3e10d236f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "b128339d-844e-428a-a0b8-b13126b82252",
+    "child_item_type": "INGREDIENT",
+    "id": "7c092915-386e-4b80-a791-b6d5b49b0f44",
+    "parent_id": "f2738f9b-6135-4db4-bfbb-df3464f7f78b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "98ce5e90-f533-4ff2-9395-bf6385223010",
+    "child_item_type": "INGREDIENT",
+    "id": "7c13421f-7b15-4f49-bbdd-ac25ac5f7784",
+    "parent_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "450.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "7c6c83e5-27a7-46f6-9a5a-542f9c2383f1",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "7ecaa9c7-bbbd-4137-a4ce-126d808fac18",
+    "child_item_type": "INGREDIENT",
+    "id": "7c86a7b4-7136-49d1-8e07-baff56957b73",
+    "parent_id": "64f178b0-bdd4-48db-8494-ba028ecce2e3",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "73e08298-6919-4f78-92c7-37a015491a27",
+    "child_item_type": "INGREDIENT",
+    "id": "7cad6421-6426-487f-b685-a478b8f9e54e",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "c6d84215-8c3a-4fc5-a81f-17937b57a0bf",
+    "child_item_type": "INGREDIENT",
+    "id": "7d0a5bbc-1cdb-4b65-aacb-c722ae755195",
+    "parent_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "57e11ab0-ae13-4208-a08a-2cfe79e807b1",
+    "child_item_type": "INGREDIENT",
+    "id": "7d15ba00-9deb-433e-b1ea-9de2e3d91abc",
+    "parent_id": "9cfc2129-f0fa-457d-ba93-a9f502114b53",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "2.00"
+  },
+  {
+    "child_id": "359bb538-4495-4b2e-95b8-d3fcb259d9d9",
+    "child_item_type": "INGREDIENT",
+    "id": "7d5cd9d3-634d-49f8-9e12-adbb369d2500",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "7ded55ff-67e7-4b96-88b3-7ec532381c0e",
+    "parent_id": "df795da1-8e83-492c-a08d-f2dc8e85bedb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "7e584c85-b429-4cb7-b07f-cbecc83bce04",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "7ff0f4a2-9a4f-402e-9937-592fb1286587",
+    "parent_id": "e71c9630-3258-4897-9c85-b0c347955e48",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "child_item_type": "COMPONENT",
+    "id": "7ffa123e-24e0-4cfa-ac46-4f5f2683746f",
+    "parent_id": "f8dac303-a3a3-451d-a227-5293ff2eeac4",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "80bae113-f005-450d-9949-c8af447eef1e",
+    "parent_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "2720.00"
+  },
+  {
+    "child_id": "4f5b37d2-0f3b-42d4-82c1-ea9bf1a9b82a",
+    "child_item_type": "INGREDIENT",
+    "id": "80c63cab-5924-422e-a883-0c4422f6ea0d",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "child_item_type": "COMPONENT",
+    "id": "80cfd917-28aa-4177-9dfe-8b26799af826",
+    "parent_id": "57d703f2-2239-42ca-bbfe-f0370121ee80",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "child_item_type": "COMPONENT",
+    "id": "80e7dac6-c399-4812-bba1-752556608cf4",
+    "parent_id": "8bb05b33-8a9e-4dcb-845b-3b8f7e4f2472",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "813af630-fdc8-4247-8af0-2a9b3204c276",
+    "parent_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "e0f1b569-3a26-4a26-a9ad-b6656909c7ca",
+    "child_item_type": "INGREDIENT",
+    "id": "81425573-b598-4996-a4aa-72c9454fade3",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "0f9a5e79-fecc-40e3-82fa-dccd321f5afd",
+    "child_item_type": "INGREDIENT",
+    "id": "81ad5bdb-4875-4c53-8b7e-3092f33537ec",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "8263cab0-6406-41ae-987d-0e955b0fea0c",
+    "parent_id": "9b627d63-b9b2-47bc-bdf0-b2b2deef3b8e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "83f92343-bcf2-4ef2-8cae-a3698ab46f24",
+    "parent_id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "842db8f9-0cf1-4e07-addc-16db7c93feb8",
+    "parent_id": "6c29328f-a17a-4b52-be35-01136c6f8708",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "child_item_type": "COMPONENT",
+    "id": "8473f3fa-7e94-4a1c-b8f2-551c6f1861ff",
+    "parent_id": "d6ab52c7-b2e9-4be6-8548-1f91acbf5d5c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "f7c87504-8a0a-4474-bb8d-a2ed136f61e3",
+    "child_item_type": "INGREDIENT",
+    "id": "852cc90b-e640-42fb-bc5e-57a74afefd89",
+    "parent_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "359bb538-4495-4b2e-95b8-d3fcb259d9d9",
+    "child_item_type": "INGREDIENT",
+    "id": "85736c14-bf77-4716-81ea-921489779f06",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "4a35cfa0-4579-4871-8a2e-f198b95cbb9b",
+    "child_item_type": "COMPONENT",
+    "id": "866e3122-99ee-4634-8593-87b42d37c797",
+    "parent_id": "62acce79-9428-4ef5-be59-550b7621e9d1",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "124c4aad-819b-4c07-9fa2-6f35e5a4ab3a",
+    "child_item_type": "COMPONENT",
+    "id": "879d6f2a-2fce-4d1f-b5a2-b3aefcbbf6ec",
+    "parent_id": "cb95da89-661b-4cb0-bdaf-366708ef82c9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "215bd410-8e6e-484e-b59c-fa7ed7f2ab26",
+    "child_item_type": "INGREDIENT",
+    "id": "881b72da-d32f-495b-ad92-1d71707e4467",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "aa81ba4a-b258-4249-b4be-68af4d9f63d2",
+    "child_item_type": "INGREDIENT",
+    "id": "883544b2-dace-4585-8944-4153046b673c",
+    "parent_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "a300c207-7566-4342-b26f-b470a4d9a524",
+    "child_item_type": "INGREDIENT",
+    "id": "892d9864-bca6-4796-a9ae-3a8a92e79823",
+    "parent_id": "8db491b2-c1d8-4ebf-8032-49e6d32d5efa",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "63dc2187-a3af-44d9-b6d7-1a36d7ede420",
+    "child_item_type": "INGREDIENT",
+    "id": "8a08f941-0e83-473a-b0cb-835f21e52a62",
+    "parent_id": "e90cbbcd-7c6c-4db0-a71f-ec7f096e0b81",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "5b4c7ca2-c5d5-4240-a149-0eaba0cf778c",
+    "child_item_type": "INGREDIENT",
+    "id": "8a99e8d7-5400-46e8-8544-317dc91ae3df",
+    "parent_id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "bb4ed411-6c6c-4752-8527-c0288cc3c8cb",
+    "child_item_type": "INGREDIENT",
+    "id": "8b0be8f6-08e0-428e-ad8f-7d4e332a3f5f",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "child_item_type": "COMPONENT",
+    "id": "8b1bfc6a-a4d2-42e6-8271-d825ab6bc742",
+    "parent_id": "02b2b126-e919-4cc9-80db-714d908644f9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "d33657e3-9327-4f4b-8277-e684e3eccdb6",
+    "child_item_type": "COMPONENT",
+    "id": "8b4163f4-9bb6-4bb2-b7c3-cd699c73f8f4",
+    "parent_id": "4a35cfa0-4579-4871-8a2e-f198b95cbb9b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "3500.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "8b520a3a-d00a-4912-b26c-938aeb34657e",
+    "parent_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "0bcfdceb-4d26-4a24-b83a-394d09a7f903",
+    "child_item_type": "INGREDIENT",
+    "id": "8bb3e3c2-add7-4b4f-a404-c611a404d73e",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1100.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "8cbf6c30-881c-45e8-bca5-fe91af9e32d5",
+    "parent_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "8cffb357-f74a-41f2-bfd8-bd529d36b530",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "8d0fc637-2dac-4128-b7ee-c7bbb1437598",
+    "parent_id": "7af15ea3-dc20-4c1b-b272-64fb6c41d06a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "30253645-1099-48f9-8427-97725325cd6a",
+    "child_item_type": "INGREDIENT",
+    "id": "8d15f772-dc25-4af2-b31e-7213b3760afa",
+    "parent_id": "e851f869-9e18-47ae-9941-17be558b3011",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "cda10449-4bd1-4089-8b7d-7be85db3263e",
+    "child_item_type": "INGREDIENT",
+    "id": "8d20a454-907c-4507-87d7-9837570aecba",
+    "parent_id": "e90cbbcd-7c6c-4db0-a71f-ec7f096e0b81",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "child_item_type": "COMPONENT",
+    "id": "8d591aca-8479-4f60-982d-f8e78ee24366",
+    "parent_id": "c7062013-bd57-4e6d-968b-c7e9d2077677",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "8f26988b-5df5-4adc-9a40-95cf8fa898e9",
+    "child_item_type": "INGREDIENT",
+    "id": "8dc1d579-a9eb-4413-ba3e-e717d5159972",
+    "parent_id": "6c29328f-a17a-4b52-be35-01136c6f8708",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "child_item_type": "COMPONENT",
+    "id": "8e4a6604-4c0b-45ae-8b96-d8a16185abf6",
+    "parent_id": "157647ee-c964-42a5-b116-d734c751b5a5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "5d0d9390-5356-4455-a667-f2e4565c79ba",
+    "child_item_type": "INGREDIENT",
+    "id": "8f0d0937-6eb1-4996-882c-e71f15a16ced",
+    "parent_id": "02b2b126-e919-4cc9-80db-714d908644f9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "8f0dbe3a-0268-4989-afe3-0db0fec0a5ff",
+    "parent_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "8f153b69-5d89-4840-8cf5-b1cc6c6c609b",
+    "parent_id": "62acce79-9428-4ef5-be59-550b7621e9d1",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "57e11ab0-ae13-4208-a08a-2cfe79e807b1",
+    "child_item_type": "INGREDIENT",
+    "id": "8f2665b9-06eb-4ab9-a246-81f7b78c63f0",
+    "parent_id": "6cf2ca11-5975-49a1-8f79-b383acb7e169",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "child_id": "68f96d10-9a56-4ec0-8b97-039cd4948bf2",
+    "child_item_type": "COMPONENT",
+    "id": "8f382531-70e8-4bbb-a4e4-1722ee506e98",
+    "parent_id": "bea05575-b6ea-4338-bf09-a64ed2463240",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "f0331ef4-7d3d-479e-a183-a8871e23fabf",
+    "child_item_type": "INGREDIENT",
+    "id": "8f60938c-199b-43f7-a1a2-72f2fdec5a9c",
+    "parent_id": "c7fae0a0-9abb-4983-962c-fb2a8cf351ef",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "5.50"
+  },
+  {
+    "child_id": "679ab541-484b-42b1-bd9b-5183c329b548",
+    "child_item_type": "COMPONENT",
+    "id": "8fddf8a6-7d08-4c52-a622-54369ecef68d",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "907b270a-2ccb-4fa0-9766-aaa30c77607b",
+    "parent_id": "8bb05b33-8a9e-4dcb-845b-3b8f7e4f2472",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "90a80bab-f653-4e9c-92e0-8db136e3ce58",
+    "parent_id": "a77eb75d-e0b1-4292-ad34-59ffc5478ce1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "child_item_type": "COMPONENT",
+    "id": "918792d5-3026-4226-8e26-11c512a46b34",
+    "parent_id": "4b3fa0f4-bb61-40c0-b0ba-052681a233c5",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "9e59027c-2fe0-45dc-b1db-54c5161900e5",
+    "child_item_type": "INGREDIENT",
+    "id": "9290a018-9623-41f3-ae0d-26f83ee736bc",
+    "parent_id": "6507a46a-6e77-4987-adfa-946d9c87fb98",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "08b900f8-c06d-4b70-ac65-1f1f1ae1e635",
+    "child_item_type": "INGREDIENT",
+    "id": "9332d414-d3a1-441b-a0fd-8a7547479ced",
+    "parent_id": "c6791ed8-1ff1-4b84-a813-93d77fa083df",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "16f9e0f3-836c-4fd5-a377-211db254fad7",
+    "child_item_type": "INGREDIENT",
+    "id": "93865cfc-0c65-4bfd-8799-bc4213a409d5",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "93af604e-1eb0-4dd6-88a8-4146aaa1dc8c",
+    "parent_id": "8f715d71-6933-4acc-8025-e9ae5fbea95b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "040b36d4-4bd3-45ec-8c24-2cd3f5daf30e",
+    "child_item_type": "INGREDIENT",
+    "id": "9416500c-32fb-4d9c-833e-77d1cf18cfb2",
+    "parent_id": "487cafc3-04f1-42e7-a22a-7ba2e96255f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "c1c9a74d-0602-4740-94d1-54ce6729c359",
+    "child_item_type": "INGREDIENT",
+    "id": "946af59a-98c5-435c-8ea4-2f3bc821ba53",
+    "parent_id": "e2a316d4-4a55-4893-8e1b-ef8c2dc22774",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "94f13769-d005-4bb2-a12f-6799046dd132",
+    "parent_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "5c1f3f36-586c-45f9-a25b-ddf5842cc701",
+    "child_item_type": "INGREDIENT",
+    "id": "94fdc46b-d77f-4fae-9ada-a0dcf23295b8",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "child_item_type": "COMPONENT",
+    "id": "9506e3a3-1272-4d85-8890-bbce92df70b8",
+    "parent_id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "6d6ef46d-196c-4040-88bf-99f349d1c286",
+    "child_item_type": "INGREDIENT",
+    "id": "96628196-ed66-46bb-a185-cc69645754cf",
+    "parent_id": "1cc03072-0a6a-4489-88d8-8e6fac1caefc",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "2.00"
+  },
+  {
+    "child_id": "a9628b12-e733-442e-b6d3-5db551cbdf8b",
+    "child_item_type": "INGREDIENT",
+    "id": "96887ed1-ee8c-47cf-8488-931cf0336f18",
+    "parent_id": "2c8504bf-9a11-41ef-ad60-a5f592c3956f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "each",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "97baf9cf-6b91-4ff8-a9e7-f725e4b43f12",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "1e349eba-2517-43fe-a917-99313727718f",
+    "child_item_type": "INGREDIENT",
+    "id": "9811fc0f-0226-4972-85c7-8c486d33f545",
+    "parent_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "0a23f8e1-f0d1-4072-b9a5-78191bb5c8dd",
+    "child_item_type": "INGREDIENT",
+    "id": "9866fe50-0a19-4111-8ae1-c37310067084",
+    "parent_id": "1c874419-4e0c-4478-be78-df48742bddfd",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "98e33f4e-0966-485d-bfd8-0c6ac13dd702",
+    "parent_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1500.00"
+  },
+  {
+    "child_id": "51f49ce1-64d9-4683-95d9-d57a310a45b9",
+    "child_item_type": "INGREDIENT",
+    "id": "990a39fd-3f2b-4170-8b2c-cf2950c7da90",
+    "parent_id": "28a3a704-cf15-4528-883f-d4edb137bc97",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "9a50832c-a157-4e2b-a9d3-e544615cb78d",
+    "parent_id": "c17c6e38-99a4-4668-b983-6a0b13222913",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "81626651-6627-4952-8b5a-5646a00fae77",
+    "child_item_type": "COMPONENT",
+    "id": "9a5f7099-14c6-4019-b181-e1855e4e1442",
+    "parent_id": "d0d2fded-2153-4a02-9987-545564e04943",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "e339c950-150a-4da1-b48c-bc40328763ff",
+    "child_item_type": "INGREDIENT",
+    "id": "9ae4f704-248e-4ce9-97d7-b5c62cb8137d",
+    "parent_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "f70262e5-bc95-4844-a583-1331e5b2abed",
+    "child_item_type": "INGREDIENT",
+    "id": "9afb5d01-e537-43e6-b564-8e2645d6d586",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "360.00"
+  },
+  {
+    "child_id": "d4d476cf-bf3b-4599-8d17-2ff5436ebc20",
+    "child_item_type": "INGREDIENT",
+    "id": "9b0d3cdd-f2af-43ee-9eb5-0403a4db21c5",
+    "parent_id": "584596bd-19e4-4be4-8eca-1c0bd35f0ddc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "0cc884d2-74f8-4ec2-b3b3-5c9097d1a5e9",
+    "child_item_type": "COMPONENT",
+    "id": "9b3663b5-0de5-4d01-99b7-847c9c3047f4",
+    "parent_id": "e71c9630-3258-4897-9c85-b0c347955e48",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "f7c87504-8a0a-4474-bb8d-a2ed136f61e3",
+    "child_item_type": "INGREDIENT",
+    "id": "9b402bf2-86b2-4474-a0ad-73a1df9656fc",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "175f69f5-cef2-4b05-a686-2e1504e74863",
+    "child_item_type": "INGREDIENT",
+    "id": "9b74155d-c22b-49b1-8974-a2502d2650e4",
+    "parent_id": "7825efd0-07d8-44da-bc98-a6c27d30fe69",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "7f47eb18-c2fd-4660-8edd-852cbf1249ac",
+    "child_item_type": "INGREDIENT",
+    "id": "9c728657-a839-40e5-9824-457d6617f29f",
+    "parent_id": "89b00dee-2231-4b30-8be9-606e14f36f1c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "3b1abec5-ed14-4520-ba97-749b4673bf43",
+    "child_item_type": "COMPONENT",
+    "id": "9d307c94-2e14-47ee-a129-7c8a47617cff",
+    "parent_id": "2a2b8e2b-614a-4186-9689-0fe80a0c594b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "9d4506de-0887-4334-8aff-60530a6547b1",
+    "parent_id": "456d2944-74b9-4941-b6e9-8dc5df15c17e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "eb7e1387-61b0-42d9-aea8-f4327987c87f",
+    "child_item_type": "INGREDIENT",
+    "id": "9d57436b-9a4c-4c3a-b95e-feeb50336142",
+    "parent_id": "2646adb7-4ac8-4592-8277-7930650b4d52",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "bebd3133-b7e4-4e5f-86ae-62d832bb06d0",
+    "child_item_type": "INGREDIENT",
+    "id": "9d7e87da-60bb-49a8-bacf-f2d280e7930d",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "798ed535-124d-4885-be32-297ec8eb07c5",
+    "child_item_type": "INGREDIENT",
+    "id": "9dd0f1be-f8ee-4929-82de-5e92d8c08e4d",
+    "parent_id": "d6ab52c7-b2e9-4be6-8548-1f91acbf5d5c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "e0f1b569-3a26-4a26-a9ad-b6656909c7ca",
+    "child_item_type": "INGREDIENT",
+    "id": "9de65962-96b8-4740-8545-359e83f157e8",
+    "parent_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "eb2f97e5-e699-48c5-9e70-fca105282686",
+    "child_item_type": "INGREDIENT",
+    "id": "9dec1f45-7e7c-44f4-8b5a-dfa8ca46f34d",
+    "parent_id": "1088b8f3-de59-4327-9452-0020874d4105",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "4.00"
+  },
+  {
+    "child_id": "b128339d-844e-428a-a0b8-b13126b82252",
+    "child_item_type": "INGREDIENT",
+    "id": "9ded9561-47d2-4d9d-99b4-befa41fe0f7e",
+    "parent_id": "4180ead3-5d63-4147-9aa5-6974f73e8758",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "9df55f0a-dc15-4cf6-b86d-0da4a4c239da",
+    "parent_id": "47a64ff9-41b8-4059-b4b0-6e9009f28d3d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "525.00"
+  },
+  {
+    "child_id": "ce0050ab-2554-4253-8c09-7dc3aa37515e",
+    "child_item_type": "INGREDIENT",
+    "id": "9e2270a4-3501-49fc-bf22-68cb2b9a35f3",
+    "parent_id": "ed747937-e71b-4ca4-af9b-85fe02212773",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "d7fbd24b-d814-43f1-926b-ad84beda6f91",
+    "child_item_type": "COMPONENT",
+    "id": "9ea5677e-29f9-4486-a513-38839191a87e",
+    "parent_id": "f9be9a44-d827-4005-9da6-cf62c74047ea",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "9ec1cd31-af63-4a10-a8b0-c4c6abb0fab9",
+    "parent_id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75000.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "9ed61002-7ec9-4677-b826-3155eec222e0",
+    "parent_id": "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "9ef76828-e751-45f9-99c0-395d7655e2a8",
+    "parent_id": "388199be-7ed2-42ea-a72e-f2972d32c181",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "b7f23112-3456-4170-a394-2adf1202f12f",
+    "child_item_type": "INGREDIENT",
+    "id": "9f3d2fe2-5635-4d20-bd20-b592fb8c3091",
+    "parent_id": "7c5c0b2a-574d-4c29-9f65-b591c7590ad0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "37f2ac2f-6105-4e3d-9f40-079b948b4b7b",
+    "child_item_type": "INGREDIENT",
+    "id": "9fa0799c-16e4-434f-b123-fa621e12eb72",
+    "parent_id": "39b70e2e-9f9b-463a-be98-b6b7f6ce6acf",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "d0b62f57-b5cc-4c1d-8846-256745a64188",
+    "child_item_type": "INGREDIENT",
+    "id": "a01dec8d-9890-4645-a252-592e36af76ed",
+    "parent_id": "ae9b87ab-ac38-40fc-b8f6-57d4509aed18",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "117031b4-32a3-45fd-998a-9d59315bf1d9",
+    "child_item_type": "INGREDIENT",
+    "id": "a0db6a15-d362-404c-b694-55288d05d057",
+    "parent_id": "388199be-7ed2-42ea-a72e-f2972d32c181",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "d7fbd24b-d814-43f1-926b-ad84beda6f91",
+    "child_item_type": "COMPONENT",
+    "id": "a0e34139-d231-4366-8411-2a441e5f449a",
+    "parent_id": "00399140-0e01-4711-ae9e-27cbd8e1b3bc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "a176ae21-fd58-4cda-9ca4-72e998b24c59",
+    "parent_id": "b9c3b425-0f18-48ac-8ea8-7838d331eee9",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "4250.00"
+  },
+  {
+    "child_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "child_item_type": "COMPONENT",
+    "id": "a1ffd3bf-cf85-485d-b215-909c2836cbf7",
+    "parent_id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "a308bcd9-1c80-416e-b2a5-29a31708c181",
+    "parent_id": "96794cd7-a84e-4eac-aa4e-8f69766cf616",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "47a64ff9-41b8-4059-b4b0-6e9009f28d3d",
+    "child_item_type": "COMPONENT",
+    "id": "a37aeb4d-72ed-49ea-a17c-02fcf0ad396e",
+    "parent_id": "58dc2f9a-3252-4f3f-9b2d-e73eebe20f8b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "eb6f80ed-5d66-421a-be88-9834ae0e6bba",
+    "child_item_type": "INGREDIENT",
+    "id": "a3ec6462-ec9d-4bcf-954b-390cb52c43e4",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "0f9a5e79-fecc-40e3-82fa-dccd321f5afd",
+    "child_item_type": "INGREDIENT",
+    "id": "a46171b9-02ce-4e89-bb73-37ba4226fb77",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "child_item_type": "COMPONENT",
+    "id": "a4995811-9828-4978-9537-c31de055309b",
+    "parent_id": "bb96847d-2a13-4ea7-af4b-14c3c35b06ae",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "c7944b3e-3af3-4c36-8835-266a635fd280",
+    "child_item_type": "INGREDIENT",
+    "id": "a4bb02a5-3ea1-408d-a027-51745bf4b9f2",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "614cf2ed-9d75-4ac9-8006-a9269335fd8b",
+    "child_item_type": "INGREDIENT",
+    "id": "a4f46306-9c32-4fe0-9541-dc154f197e8d",
+    "parent_id": "00399140-0e01-4711-ae9e-27cbd8e1b3bc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "798ed535-124d-4885-be32-297ec8eb07c5",
+    "child_item_type": "INGREDIENT",
+    "id": "a5023690-a035-4bf0-930c-e61d6858c987",
+    "parent_id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "4a4d57b7-99cc-4a2e-a157-a576f81c6836",
+    "child_item_type": "INGREDIENT",
+    "id": "a5c1a9b5-34be-464a-b445-a0e510d3b391",
+    "parent_id": "afccfdaa-fe77-4a61-a7aa-6c5dfa2666ac",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "child_item_type": "COMPONENT",
+    "id": "a634cd07-51fb-4d28-a570-1d278b6c7465",
+    "parent_id": "66d76d77-e5ff-4e7f-b0fb-9c3e3764097e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "child_item_type": "COMPONENT",
+    "id": "a67181b8-4e64-4a89-a3d2-91449624c154",
+    "parent_id": "2646adb7-4ac8-4592-8277-7930650b4d52",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "a6db0337-588c-466c-b064-2a15943cf9f5",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "a722fa82-2ba0-4446-b5a1-5ec6501eae71",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "225.00"
+  },
+  {
+    "child_id": "79c2d0f3-9962-4b1d-8e4b-44ee0fbac45b",
+    "child_item_type": "INGREDIENT",
+    "id": "a77464ce-f3cf-41c6-80d0-553e8929d9b5",
+    "parent_id": "6b526f3f-aaba-4b9b-8c92-c4d09fd779c9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "170.00"
+  },
+  {
+    "child_id": "bb956fee-bbd3-4437-960d-93fbac20d45c",
+    "child_item_type": "INGREDIENT",
+    "id": "a83c7b29-cc94-4f79-8270-416af226d17d",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "a856d779-a32a-419c-bdef-57743e52e453",
+    "parent_id": "ad870ccc-c0da-4a53-953f-aa7b3a459588",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "bfce0353-69cf-4a0c-95d2-0668733c56cc",
+    "child_item_type": "INGREDIENT",
+    "id": "a8b25591-93d5-4808-9ac3-2cddd2975508",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "a8edadc3-3508-4c30-bb31-cc601d7283d4",
+    "parent_id": "84e1e4ce-5d69-4599-a3e2-18125f4fefb3",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "f7c87504-8a0a-4474-bb8d-a2ed136f61e3",
+    "child_item_type": "INGREDIENT",
+    "id": "a9766149-27d0-446e-bd85-43178b90c3a4",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "94affca5-40db-488d-bfc5-31057fe46fa3",
+    "child_item_type": "INGREDIENT",
+    "id": "a9dcbef6-ff6b-4cbe-8119-12072ac21472",
+    "parent_id": "bd7cfad5-61c1-4912-b837-2318d67be63b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "183e5f26-2f73-4837-82e2-d9084376775f",
+    "child_item_type": "INGREDIENT",
+    "id": "aa0fc0c8-bfdc-4fdf-9a3d-5c288d17df2d",
+    "parent_id": "f16cea3f-a896-495e-9256-d056b1954c08",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "6.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "aa1c0d76-2a3e-4a25-9701-bc29716b6926",
+    "parent_id": "4d043141-9148-4954-a67b-c816c43ebcb4",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "aa37329f-fccb-4439-b68d-f91fc5a37624",
+    "parent_id": "4cd03351-bbdb-4df5-8493-3694063b7d3c",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "f47c06e1-d83e-4832-b6a1-a3a8d239e403",
+    "child_item_type": "INGREDIENT",
+    "id": "aa6fe128-8619-47bf-8b3c-e8bdf06ff074",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "4b5e0c39-9fcf-4546-aa33-0f34c5fd89c6",
+    "child_item_type": "INGREDIENT",
+    "id": "aaa9e2c7-9fbd-4d1a-8311-71ffae3a6634",
+    "parent_id": "1c874419-4e0c-4478-be78-df48742bddfd",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "child_item_type": "INGREDIENT",
+    "id": "aae3877a-ba17-47fd-a991-a3d83035aa25",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "6790b15b-6ac7-43e5-84fe-d479cc16daf4",
+    "child_item_type": "INGREDIENT",
+    "id": "ab746d91-bcaa-4753-bb31-2d669f7e2e9b",
+    "parent_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "554f65ba-c361-408f-a5d9-dce32d3748dc",
+    "child_item_type": "INGREDIENT",
+    "id": "abc1ab7f-1636-4659-91d7-355d4ef1c6b5",
+    "parent_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "3.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "abd94415-a36d-453f-9c0c-4a1b76db4058",
+    "parent_id": "6beadc92-fd29-4550-a9d0-0109f1fc1015",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "abe9b996-c93f-43fb-b646-2df284df332e",
+    "parent_id": "44615b06-00d5-4be8-858e-27ccda81f2e5",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "6fdbcc25-468a-4adc-8aaa-bee20253c594",
+    "child_item_type": "INGREDIENT",
+    "id": "aca60354-363f-4eff-92a7-59f9791aabb1",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "包",
+    "volume": "4.00"
+  },
+  {
+    "child_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "child_item_type": "COMPONENT",
+    "id": "acaab3f2-36a4-41c4-833f-19af813ec00e",
+    "parent_id": "dc7379de-ead3-441d-bdb8-e4939477e420",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "550.00"
+  },
+  {
+    "child_id": "36314ac8-a748-45db-b2ab-2bddb78db0fd",
+    "child_item_type": "INGREDIENT",
+    "id": "adb7c21d-a403-4aed-bc04-09c30b6a3c54",
+    "parent_id": "93c225bf-8e86-41dc-983e-1955d233f9b0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "7740e542-b245-430e-a838-4f635e23fac1",
+    "child_item_type": "INGREDIENT",
+    "id": "adc12deb-62a4-4148-a481-858e4e891f1e",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "ae270f49-3b72-4edd-bdd6-cf71741265d9",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "4000.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "ae572619-7c65-4c82-b3e5-b5a2c99e2832",
+    "parent_id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "aebaaad1-ea9e-479b-a14b-bf8d8597a9cb",
+    "parent_id": "99da24f3-526d-487f-bee4-2cba3936c3b7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "child_item_type": "COMPONENT",
+    "id": "aedba88f-4558-4b0f-bfb3-ec9b5dde009d",
+    "parent_id": "fb03ba03-d754-4ee6-80c5-80f0ae1392ad",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "child_item_type": "COMPONENT",
+    "id": "af3ffbd7-2c3d-4481-a727-426bc42987e8",
+    "parent_id": "0f224264-24aa-49ba-a972-d48ecef4ce5f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "fe2c45f5-3cf9-4cc3-870d-aa2d98489f4d",
+    "child_item_type": "INGREDIENT",
+    "id": "b022ddc4-ed79-4866-b6c7-285b672a791a",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "180.00"
+  },
+  {
+    "child_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "child_item_type": "COMPONENT",
+    "id": "b04bf8aa-e0d9-42e4-a850-eaecae8de242",
+    "parent_id": "bb96847d-2a13-4ea7-af4b-14c3c35b06ae",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "bb4ed411-6c6c-4752-8527-c0288cc3c8cb",
+    "child_item_type": "INGREDIENT",
+    "id": "b07ad860-5176-47a6-985b-16facbaf1ca4",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "63dc2187-a3af-44d9-b6d7-1a36d7ede420",
+    "child_item_type": "INGREDIENT",
+    "id": "b09d5533-a343-4439-ac22-2c142462ceca",
+    "parent_id": "456d2944-74b9-4941-b6e9-8dc5df15c17e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "child_item_type": "COMPONENT",
+    "id": "b0e43bfc-1f54-4d0e-a293-63321962ef19",
+    "parent_id": "6beadc92-fd29-4550-a9d0-0109f1fc1015",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "80fc9cc9-644e-4232-8b01-e57c11385570",
+    "child_item_type": "COMPONENT",
+    "id": "b1d33a25-7d32-4770-acb9-bc9b27f5935f",
+    "parent_id": "3bb638b4-2fbd-41e6-aeab-73c31ef8395a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "891a3aa1-7594-49b5-9d16-8da35ba3c076",
+    "child_item_type": "COMPONENT",
+    "id": "b1dc9616-d65b-44f1-80dd-78bf056c06fb",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "600.00"
+  },
+  {
+    "child_id": "86cdaa37-9528-4db7-bb05-980a34c4d8a3",
+    "child_item_type": "INGREDIENT",
+    "id": "b1f316ac-a752-44e2-bd22-6a9419164c43",
+    "parent_id": "7b8eb2a3-f519-4840-b802-96d5e30b5720",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1362.00"
+  },
+  {
+    "child_id": "1cc03072-0a6a-4489-88d8-8e6fac1caefc",
+    "child_item_type": "COMPONENT",
+    "id": "b23b6f73-3b10-40b5-90e0-0ea4102c5d54",
+    "parent_id": "6b00ecf2-0056-448d-8aae-bedcab2516f6",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "7c2ec36f-665d-438b-b407-8587bb6f9963",
+    "child_item_type": "INGREDIENT",
+    "id": "b2eb279c-8971-427e-9de5-73861b84d1dd",
+    "parent_id": "c5ec857e-b5b4-4795-b7f9-c44997e1fa31",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "b3407e70-ae7b-4687-aece-afc0d48f0895",
+    "parent_id": "2b4c56d5-fcee-4171-bd71-c597e427c2f7",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "9dbfcc7f-353b-47c8-8bd8-a8e53e098ad3",
+    "child_item_type": "INGREDIENT",
+    "id": "b34accf6-6336-4a68-8bf7-922e4ca5fa38",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "d15390ed-93e6-491e-9cc5-c9107c2a5a98",
+    "child_item_type": "INGREDIENT",
+    "id": "b3633a44-40a0-45d8-96ab-3a7502a030cd",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "515a3437-6caa-48ca-94dd-86d247127cb6",
+    "child_item_type": "INGREDIENT",
+    "id": "b3a419c4-f593-48d8-8406-d048854b4d2c",
+    "parent_id": "925efe35-4508-49ab-aaa9-7137a8820428",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "8f715d71-6933-4acc-8025-e9ae5fbea95b",
+    "child_item_type": "COMPONENT",
+    "id": "b400aaf4-6cc9-4a6b-86a1-dfd54ff0ae55",
+    "parent_id": "7d46826a-db14-4df0-90f2-1841df9963fe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "5925f12d-1b23-4056-9492-df97a0a52048",
+    "child_item_type": "INGREDIENT",
+    "id": "b45710cf-cb40-4e21-805b-df948fb5b817",
+    "parent_id": "1c874419-4e0c-4478-be78-df48742bddfd",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "c532c435-9ff2-4dfe-aee1-045f36a8d401",
+    "child_item_type": "INGREDIENT",
+    "id": "b458d361-1c63-4e1f-9c9d-df0bf888c57c",
+    "parent_id": "4a35cfa0-4579-4871-8a2e-f198b95cbb9b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "b68f0ebd-958f-4e28-9520-191d41485a36",
+    "parent_id": "49d903a5-193a-4b98-b81a-02c3cf539960",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "b69db214-1994-47fd-9c7e-c4f0fd55b44c",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "2500.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "b726ba02-c7c5-4c80-b584-ffe9af3cdebc",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "7ad07256-8d56-4e02-a706-d9cc21e27ffb",
+    "child_item_type": "INGREDIENT",
+    "id": "b7e89319-8997-497b-abf9-a31379bce8a2",
+    "parent_id": "c2159c66-f3c5-42ae-9d25-de8c8ce6e00f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "child_item_type": "COMPONENT",
+    "id": "b7f7317f-abbb-47f5-9471-f0b7d844c386",
+    "parent_id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "b80e6cee-c610-4ca3-954f-ae2627833455",
+    "parent_id": "37478aea-7cc9-420b-aceb-9ce54199858c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "child_item_type": "INGREDIENT",
+    "id": "b967c1f0-d43f-48b8-b518-f9ddfef46ac3",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "125.00"
+  },
+  {
+    "child_id": "b52f40dd-5fe8-411c-af84-7d35feab56f0",
+    "child_item_type": "INGREDIENT",
+    "id": "bae88a2d-7f2a-4758-b2d6-02a2af976c56",
+    "parent_id": "81479ee5-f7bd-40f9-9dd2-a201a308a292",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "600.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "bb55bace-a877-4dba-8331-14a1243b7cbd",
+    "parent_id": "ae9b87ab-ac38-40fc-b8f6-57d4509aed18",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "26f0542e-7004-4ea2-9874-7ad2485d8da1",
+    "child_item_type": "INGREDIENT",
+    "id": "bbe59a09-b600-491c-a4e1-9f3b7a4235a6",
+    "parent_id": "221926cb-6b36-4089-9d29-202e8c5b8e90",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "bc2a8533-6e54-404a-8967-7b2e198147b3",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "25.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "bc59c4a7-b752-45c0-b70a-bed68759fe4b",
+    "parent_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1600.00"
+  },
+  {
+    "child_id": "a309bd33-9dcc-4e4d-9b4e-927f1b0689b5",
+    "child_item_type": "INGREDIENT",
+    "id": "bc5b33bd-7219-42d2-9fbd-61d05cc295f8",
+    "parent_id": "b423dd36-3878-4c9f-aa9e-77a3e10d236f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "bd2dd8e0-5d3e-4860-9d28-0fdc85f592ea",
+    "parent_id": "01e42e9c-7b60-48d8-8269-b9cb0a74118f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "1cf1fcb1-0ab2-4213-a93f-c7ecdd5eb940",
+    "child_item_type": "INGREDIENT",
+    "id": "bd8084fc-0564-48f5-bbaf-1319150400d3",
+    "parent_id": "bd7cfad5-61c1-4912-b837-2318d67be63b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "b0ea624b-a465-467f-9f92-55e369471990",
+    "child_item_type": "INGREDIENT",
+    "id": "bd8d2cd9-099b-43ab-8cb2-e595b152b8d3",
+    "parent_id": "6287f839-9909-456d-8ce1-48bd6c32dc50",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "6fa854b7-2261-4ce3-86b3-875c86e87749",
+    "child_item_type": "INGREDIENT",
+    "id": "bdcfd6eb-881d-4e1b-a592-74ec80706a0b",
+    "parent_id": "26c354c0-e729-4ff9-b442-1385452c9f9e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "0f9a5e79-fecc-40e3-82fa-dccd321f5afd",
+    "child_item_type": "INGREDIENT",
+    "id": "bdf08996-0ca8-4c4e-acf5-7bb2e4ef72e1",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "bdf76339-eff5-4cb5-abf1-35a7c45a7af7",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "3ec9aed8-e2ec-4de1-a319-1440d5c840db",
+    "child_item_type": "INGREDIENT",
+    "id": "be9d4ce1-1726-404f-bbcc-23dd9f93b20e",
+    "parent_id": "9b627d63-b9b2-47bc-bdf0-b2b2deef3b8e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "37f2ac2f-6105-4e3d-9f40-079b948b4b7b",
+    "child_item_type": "INGREDIENT",
+    "id": "beb0dcbf-17cd-4183-89d1-fa179ffe1dd9",
+    "parent_id": "82e8814e-69dc-47e1-bc87-b041789d07e5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "bef79bfc-c31f-43b5-a073-831864af3f4d",
+    "parent_id": "7af15ea3-dc20-4c1b-b272-64fb6c41d06a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "2300.00"
+  },
+  {
+    "child_id": "37f2ac2f-6105-4e3d-9f40-079b948b4b7b",
+    "child_item_type": "INGREDIENT",
+    "id": "bf1b5b95-6268-49ee-bda1-ace9e3ae7357",
+    "parent_id": "28a3a704-cf15-4528-883f-d4edb137bc97",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "10c89f1d-221b-45fd-9981-e216c126bdff",
+    "child_item_type": "INGREDIENT",
+    "id": "bf6bf309-f2a3-4700-9993-831f54b5d73d",
+    "parent_id": "d40b7a92-3364-412e-b005-378a5d8b1870",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "515a3437-6caa-48ca-94dd-86d247127cb6",
+    "child_item_type": "INGREDIENT",
+    "id": "bfdadc39-05c2-4c3c-81cd-505b43f51fc1",
+    "parent_id": "2f4b96c3-975e-4f2e-9ebf-bd50b1b72c82",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "ec865af0-5929-4f5d-b13f-5437097768bc",
+    "child_item_type": "INGREDIENT",
+    "id": "bfe68a46-e6f3-41cd-986e-fa71dad87dd9",
+    "parent_id": "947b3cf7-bf77-4272-9f24-13ae19f0e745",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "child_item_type": "COMPONENT",
+    "id": "c055769a-2ae0-46a1-bd1a-5be99d04754a",
+    "parent_id": "f8dac303-a3a3-451d-a227-5293ff2eeac4",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "child_item_type": "COMPONENT",
+    "id": "c05ac22c-0f4a-4365-b35b-4a4c708eaaa2",
+    "parent_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "11bdb31c-da8d-4502-9961-0c34ff3d590b",
+    "child_item_type": "INGREDIENT",
+    "id": "c250033b-3498-4a4c-a2c0-97f9322b1bc5",
+    "parent_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "115.00"
+  },
+  {
+    "child_id": "2d6baf1e-7fe8-4f08-8ed8-0ed9ec335c7e",
+    "child_item_type": "INGREDIENT",
+    "id": "c2a1f891-82f9-4b49-ae1d-071ad030c11b",
+    "parent_id": "430ce83c-7ff8-4bf9-9f12-4a96c4b6c7f1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "c2b9947e-aee8-4c37-89e3-ec0dfe77a8c8",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "ab31f650-ad76-493a-adaf-d9dbb0a8e5ef",
+    "child_item_type": "INGREDIENT",
+    "id": "c2f594e2-7e74-4857-beee-7a0a9902c9b0",
+    "parent_id": "d33657e3-9327-4f4b-8277-e684e3eccdb6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1400.00"
+  },
+  {
+    "child_id": "ea58429b-e4b8-40e7-98b4-d0b0975e06ea",
+    "child_item_type": "COMPONENT",
+    "id": "c44e2ea0-43cc-4118-88c5-65b44e780fc3",
+    "parent_id": "4d043141-9148-4954-a67b-c816c43ebcb4",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "fe2c45f5-3cf9-4cc3-870d-aa2d98489f4d",
+    "child_item_type": "INGREDIENT",
+    "id": "c508984e-4994-4e6d-8f54-aad0df8eba71",
+    "parent_id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "599c8b8f-db1a-42f0-84a6-de2c42d72eb6",
+    "child_item_type": "INGREDIENT",
+    "id": "c5d6abb3-8109-4fea-b7cd-297929da3a0f",
+    "parent_id": "e0903bf6-b6c9-4f33-8e92-df1e574e7544",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "child_item_type": "COMPONENT",
+    "id": "c602a45f-4629-4e41-ad85-2d0f26646e7a",
+    "parent_id": "35ab906c-20cf-4cb0-a0c7-14320462fc60",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "child_item_type": "COMPONENT",
+    "id": "c632f46e-8fde-4ab0-8e89-55b8f6dbd337",
+    "parent_id": "8c4cdd14-255d-4e8c-a60d-783c1f4ee2fc",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "child_item_type": "INGREDIENT",
+    "id": "c6cc5735-c318-46c2-9913-aaed1f5094f4",
+    "parent_id": "6a89f96e-fa86-41a1-b812-026ef9cae9ba",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "798ed535-124d-4885-be32-297ec8eb07c5",
+    "child_item_type": "INGREDIENT",
+    "id": "c741b2c1-c14b-4beb-80bf-5e8e20d6d096",
+    "parent_id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "f19ebc56-00a0-4092-aca6-b5401e2bf235",
+    "child_item_type": "INGREDIENT",
+    "id": "c84cc248-a734-4cee-a3af-58e23aae1096",
+    "parent_id": "47e0b394-676b-445d-9dde-77ce1a02849c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "8db491b2-c1d8-4ebf-8032-49e6d32d5efa",
+    "child_item_type": "COMPONENT",
+    "id": "c965a5d0-fdd5-4171-9d69-684140fc4dee",
+    "parent_id": "89b00dee-2231-4b30-8be9-606e14f36f1c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "f47c06e1-d83e-4832-b6a1-a3a8d239e403",
+    "child_item_type": "INGREDIENT",
+    "id": "ca4111fe-3dfa-481e-bf6a-0193ca52ef06",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "f19ebc56-00a0-4092-aca6-b5401e2bf235",
+    "child_item_type": "INGREDIENT",
+    "id": "ca6e8dc8-c51a-4ec0-a667-28056875b26d",
+    "parent_id": "4af495a2-a79d-4062-91ce-ccc058978f91",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "27c05a31-1d11-451f-aff5-cdb4b731b40d",
+    "child_item_type": "INGREDIENT",
+    "id": "cb125015-4c22-44c1-9994-c1c97cdf9a7e",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "28ef6679-9541-4968-b8b1-d95c92cd805c",
+    "child_item_type": "INGREDIENT",
+    "id": "cb5d0bf0-0ee2-4aeb-a9bb-d9960142b8d7",
+    "parent_id": "b471a0cd-e870-47f0-8b46-50da28079375",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "cb90efc7-672c-4532-992e-eb2fec4cf798",
+    "parent_id": "81626651-6627-4952-8b5a-5646a00fae77",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "child_item_type": "INGREDIENT",
+    "id": "cc895151-6997-424a-87da-938d020350ca",
+    "parent_id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "cd9609af-535d-4608-a5bd-eecd867184b5",
+    "child_item_type": "INGREDIENT",
+    "id": "cc93a8e5-62b1-4f76-990d-b0395d4357af",
+    "parent_id": "0509d675-4064-4ee4-8c1c-7682493341bf",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "cd5a6db5-6907-4fd3-83e8-a3c66a05fbc3",
+    "parent_id": "c17c6e38-99a4-4668-b983-6a0b13222913",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "6f0a39e0-b7d4-4d97-bbf5-0407588531ac",
+    "child_item_type": "INGREDIENT",
+    "id": "cd95cba7-89b0-4d2a-a380-0544b658d2d3",
+    "parent_id": "312acee5-bf40-48b9-8aa6-c9e0d191e7ff",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "bb4ed411-6c6c-4752-8527-c0288cc3c8cb",
+    "child_item_type": "INGREDIENT",
+    "id": "ce83a88c-7338-4305-a2b5-a384d5e61d4e",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "cebcd6d0-1790-4341-86ee-f82b6d698ffc",
+    "parent_id": "e851f869-9e18-47ae-9941-17be558b3011",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "14e7d0dc-ef40-4c88-82a7-772856f92652",
+    "child_item_type": "INGREDIENT",
+    "id": "cf059ef4-3c47-4e4b-86d6-14a4a6f34689",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "child_item_type": "INGREDIENT",
+    "id": "cfa0178e-5439-4d1f-8741-71dff8ba9d3c",
+    "parent_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "91c897d1-ff31-47f9-bd67-b7a5e9120b4e",
+    "child_item_type": "INGREDIENT",
+    "id": "cfa168eb-e564-4b95-8480-20e49973df10",
+    "parent_id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "90.00"
+  },
+  {
+    "child_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "child_item_type": "COMPONENT",
+    "id": "cffd654a-4640-4e8c-b849-bbcb40786392",
+    "parent_id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "d04e798a-eba2-4c48-8a51-23b9208ef2b8",
+    "parent_id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1500.00"
+  },
+  {
+    "child_id": "76979f4a-de58-4ca8-8cbf-fedbe7b61837",
+    "child_item_type": "INGREDIENT",
+    "id": "d04f3476-5627-4ddf-aceb-3cfaab79f0a1",
+    "parent_id": "352b8de8-9934-45e2-9149-868a80134bde",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "7c5fce2a-d9f8-4019-ac0f-4e8a5ed02753",
+    "child_item_type": "INGREDIENT",
+    "id": "d0910527-1e24-4d1d-a875-05390b526f75",
+    "parent_id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "0cc884d2-74f8-4ec2-b3b3-5c9097d1a5e9",
+    "child_item_type": "COMPONENT",
+    "id": "d104dc40-df58-41e0-8e73-d2779cf86e65",
+    "parent_id": "df795da1-8e83-492c-a08d-f2dc8e85bedb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "480.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "d1ac8eed-9241-4f25-b057-ded42c1d9f36",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "120.00"
+  },
+  {
+    "child_id": "915a20a8-1790-46bf-85aa-1c16f8fc8d27",
+    "child_item_type": "INGREDIENT",
+    "id": "d1d0aaae-d0a8-40c3-8075-55e03f0f6090",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "25a03756-d083-4397-962f-097152a1d57c",
+    "child_item_type": "COMPONENT",
+    "id": "d207039c-5b1e-4015-b6ea-91093df29d02",
+    "parent_id": "b66e4061-410b-429d-a74b-5341cc79c87a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "998d8af6-78e8-4c6f-a097-73c767a09a72",
+    "child_item_type": "INGREDIENT",
+    "id": "d27c93ba-ae36-4cf8-a507-9a3c8f694906",
+    "parent_id": "6a89f96e-fa86-41a1-b812-026ef9cae9ba",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "child_item_type": "COMPONENT",
+    "id": "d2c6cb42-dc1d-40f7-8982-4a9aad67cf3c",
+    "parent_id": "ed747937-e71b-4ca4-af9b-85fe02212773",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
+    "child_item_type": "COMPONENT",
+    "id": "d331a727-cd97-4d17-89ca-79e2880f6402",
+    "parent_id": "1fe65262-789a-4b25-bb5c-c2936b77f07e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "450.00"
+  },
+  {
+    "child_id": "359bb538-4495-4b2e-95b8-d3fcb259d9d9",
+    "child_item_type": "INGREDIENT",
+    "id": "d36c6882-a4e4-470f-b6eb-765e506d9514",
+    "parent_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "600.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "d3951d88-d4a0-4f81-8d46-581a44bb086f",
+    "parent_id": "80fc9cc9-644e-4232-8b01-e57c11385570",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "2.00"
+  },
+  {
+    "child_id": "6cf2ca11-5975-49a1-8f79-b383acb7e169",
+    "child_item_type": "COMPONENT",
+    "id": "d3d2d27f-9e90-40a0-8fc1-f357d7bf4d1c",
+    "parent_id": "1f52ebfe-9691-4275-99ce-ddb5ecc3ba65",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "d4015712-2d7c-4162-9f2c-3b9884f8105c",
+    "parent_id": "8c338fce-e2cf-44c2-b4cd-8e1ffff8e1bd",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "child_item_type": "COMPONENT",
+    "id": "d4262eb4-42d9-4495-82da-2c919fbda051",
+    "parent_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
+    "child_item_type": "INGREDIENT",
+    "id": "d42a7a5e-3b13-4d80-9492-8a2ebecac8d4",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "bbc85a3c-f36d-4066-9002-cf9c52e3010c",
+    "child_item_type": "INGREDIENT",
+    "id": "d484fc90-3317-421f-8c90-a284749b798a",
+    "parent_id": "8c4cdd14-255d-4e8c-a60d-783c1f4ee2fc",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "e2240f3e-79a6-4b58-b0a7-9c5645865216",
+    "child_item_type": "INGREDIENT",
+    "id": "d48c04c0-3197-4686-b40e-fc9ccd162053",
+    "parent_id": "6cf2ca11-5975-49a1-8f79-b383acb7e169",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "120.00"
+  },
+  {
+    "child_id": "a122c115-4664-4a74-803a-6dc86f74891f",
+    "child_item_type": "INGREDIENT",
+    "id": "d502fb0a-4775-409a-a11b-8b9d970f6614",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "d5086af1-3952-461d-bf90-dc0f490744fb",
+    "parent_id": "71535496-15d8-489b-9f22-e307d5d4a973",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "2fae27ab-957d-428d-aa2b-fd7431909cd2",
+    "child_item_type": "INGREDIENT",
+    "id": "d5372b12-e5b8-49a8-ad16-6a89ea11d3e8",
+    "parent_id": "99da24f3-526d-487f-bee4-2cba3936c3b7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "410.00"
+  },
+  {
+    "child_id": "fc46226a-db5d-4d68-af90-d6fc8711b7a9",
+    "child_item_type": "INGREDIENT",
+    "id": "d5478e16-9f01-41b4-9d6d-47acd18498e5",
+    "parent_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "73e08298-6919-4f78-92c7-37a015491a27",
+    "child_item_type": "INGREDIENT",
+    "id": "d54f28e1-ab91-4554-a07a-620be531127c",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "75.00"
+  },
+  {
+    "child_id": "47a64ff9-41b8-4059-b4b0-6e9009f28d3d",
+    "child_item_type": "COMPONENT",
+    "id": "d57207d0-8aa5-4383-bef0-d400a636436e",
+    "parent_id": "36d97d1e-b36a-4dca-8510-a7febba99d3b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "ml",
+    "volume": "660.00"
+  },
+  {
+    "child_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "child_item_type": "COMPONENT",
+    "id": "d5cf4387-fa52-4ec1-8491-34cfbde3401b",
+    "parent_id": "56807346-f2f0-424c-8e49-0a43e58eaa4b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "7b8eb2a3-f519-4840-b802-96d5e30b5720",
+    "child_item_type": "COMPONENT",
+    "id": "d615ce84-4bfe-41da-b83a-e040bc006125",
+    "parent_id": "9b516b6d-8fa9-49ab-9402-19d9efa2574c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "c97faebf-ffa3-4993-a41f-4e295837e80d",
+    "child_item_type": "INGREDIENT",
+    "id": "d6246bc9-31b6-444d-b629-08d298246d96",
+    "parent_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "child_id": "57e11ab0-ae13-4208-a08a-2cfe79e807b1",
+    "child_item_type": "INGREDIENT",
+    "id": "d63a509d-5dcb-4485-981f-9d0c9e816714",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "c1c9a74d-0602-4740-94d1-54ce6729c359",
+    "child_item_type": "INGREDIENT",
+    "id": "d7f8db29-3d86-42d6-81f1-03a4c746d868",
+    "parent_id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "63dc2187-a3af-44d9-b6d7-1a36d7ede420",
+    "child_item_type": "INGREDIENT",
+    "id": "d811791d-703d-4d4b-ab56-3eac37965814",
+    "parent_id": "3998c1d4-1640-420b-b824-cf5728c5e85a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "614cf2ed-9d75-4ac9-8006-a9269335fd8b",
+    "child_item_type": "INGREDIENT",
+    "id": "d8a9906e-37be-4d21-9c47-8db79e1d4464",
+    "parent_id": "f9be9a44-d827-4005-9da6-cf62c74047ea",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "d8af6275-0e8e-4964-b145-978adbda28cf",
+    "parent_id": "da481c52-c1f5-40e1-aedc-b177c365cffc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b7f23112-3456-4170-a394-2adf1202f12f",
+    "child_item_type": "INGREDIENT",
+    "id": "d8f42a3f-84a2-47d8-aae8-2be950e2a117",
+    "parent_id": "89b00dee-2231-4b30-8be9-606e14f36f1c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "25.00"
+  },
+  {
+    "child_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "child_item_type": "COMPONENT",
+    "id": "d95e4f99-ab19-4084-8da9-1fa90c8362c2",
+    "parent_id": "7e248f4f-fe63-4f4d-82bf-d1c131d15e9d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "d9648746-c534-47f5-ae45-742c95f7818e",
+    "parent_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "child_item_type": "COMPONENT",
+    "id": "d9774cd9-f7f9-44d7-a137-c67a1efa9ed9",
+    "parent_id": "12c35bde-33ff-4814-8cd8-23fcf140f3c0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "f47c06e1-d83e-4832-b6a1-a3a8d239e403",
+    "child_item_type": "INGREDIENT",
+    "id": "d9845794-f6ba-450a-aa9f-d8a25d261944",
+    "parent_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "30.00"
+  },
+  {
+    "child_id": "51f49ce1-64d9-4683-95d9-d57a310a45b9",
+    "child_item_type": "INGREDIENT",
+    "id": "d9e82885-35ab-48b9-b5c9-c05d93b1a559",
+    "parent_id": "b37a2d35-bb90-4f8a-90c2-56581e5733a0",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "99da24f3-526d-487f-bee4-2cba3936c3b7",
+    "child_item_type": "COMPONENT",
+    "id": "d9e997e5-c0a8-4553-bc08-bde01712e035",
+    "parent_id": "f16cea3f-a896-495e-9256-d056b1954c08",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "3000.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "da12ded4-e92e-4ca4-af80-e07df56a50c1",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "63dc2187-a3af-44d9-b6d7-1a36d7ede420",
+    "child_item_type": "INGREDIENT",
+    "id": "dab1b66b-e833-4b39-830a-5d82c936530a",
+    "parent_id": "3f829b4e-acb6-4c5a-8aff-caf321bf174b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "96c2d5d8-931b-47cf-9194-4dcde1e2b949",
+    "child_item_type": "INGREDIENT",
+    "id": "db2fa1f5-683c-45b0-a789-20b904228e34",
+    "parent_id": "e5ca5a5a-53ed-4354-98c3-d1ac562802f2",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "f19ebc56-00a0-4092-aca6-b5401e2bf235",
+    "child_item_type": "INGREDIENT",
+    "id": "db375c1b-aba7-4f96-812a-df7bc7763a54",
+    "parent_id": "56fa962c-e9df-43bf-b339-99aa29fcaad9",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
+    "child_item_type": "COMPONENT",
+    "id": "db5f02b7-6ff4-4f33-827a-90364d4dc56c",
+    "parent_id": "da481c52-c1f5-40e1-aedc-b177c365cffc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "d95160f5-2aa0-41c7-b21e-407a9f92296d",
+    "child_item_type": "INGREDIENT",
+    "id": "db92faf2-e672-42ff-91e8-a109aa9b7b7c",
+    "parent_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "00a51c69-ebee-444d-9748-8c51388303ed",
+    "child_item_type": "INGREDIENT",
+    "id": "dbce4630-e434-4642-abb0-72edd89b46e6",
+    "parent_id": "7038453d-05d3-4ba1-9cda-b9e7affffa8a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "dc0a8c5a-146e-4f07-bf1a-9124ac44294d",
+    "parent_id": "0f224264-24aa-49ba-a972-d48ecef4ce5f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "124c4aad-819b-4c07-9fa2-6f35e5a4ab3a",
+    "child_item_type": "COMPONENT",
+    "id": "dd4ec3ee-5d17-40cf-8f3b-ccd723d1d170",
+    "parent_id": "dc7379de-ead3-441d-bdb8-e4939477e420",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "de549a0b-1735-4a3e-ba5b-f7396f0ffbe1",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "de6c172e-58ef-443d-8ddf-1221908e3a21",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "afd55e17-8f40-4390-a62e-4dd3c3f5e83f",
+    "child_item_type": "COMPONENT",
+    "id": "de7c46c1-f2c1-4334-8e0a-f08a5c7e2046",
+    "parent_id": "1e93f966-bcb5-45a1-a774-8744f1c2b083",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "cc0d90a5-dc93-4a30-932d-43c5c4e516d0",
+    "child_item_type": "COMPONENT",
+    "id": "df6341de-2ff8-4a50-b7cf-8395278317ed",
+    "parent_id": "e851f869-9e18-47ae-9941-17be558b3011",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
+    "child_item_type": "COMPONENT",
+    "id": "e0028b7e-b2e9-4cfe-9098-d13176cf86fe",
+    "parent_id": "ad870ccc-c0da-4a53-953f-aa7b3a459588",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "b67de4ea-83a6-4fb7-af5a-e932cc0d9995",
+    "child_item_type": "INGREDIENT",
+    "id": "e05ab035-7ddc-47d3-9020-99f90ce49fdd",
+    "parent_id": "9e99dca5-f15e-46f4-86f6-fae89a10db19",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "e05c8390-e34d-49c6-bc5a-86a0b17d4d99",
+    "parent_id": "b2fbf5ea-1892-4177-b14a-8c7a2c46d103",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "bebd3133-b7e4-4e5f-86ae-62d832bb06d0",
+    "child_item_type": "INGREDIENT",
+    "id": "e06e0808-77a9-4e2b-b734-196ec9a69518",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "25.00"
+  },
+  {
+    "child_id": "a51b993a-01b9-4998-9dc4-8429833e1b80",
+    "child_item_type": "INGREDIENT",
+    "id": "e08848ba-3cdc-4006-928f-5cb19d78e8b4",
+    "parent_id": "aa728490-2364-4302-82f2-77a4a577443a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "child_item_type": "INGREDIENT",
+    "id": "e0afa07b-8018-47f3-8a92-666f4f17c1cd",
+    "parent_id": "ea58429b-e4b8-40e7-98b4-d0b0975e06ea",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "7955aaa4-9309-4afe-b21a-1805af293c07",
+    "child_item_type": "INGREDIENT",
+    "id": "e10bb1d0-9be8-4800-a93f-454201ef9b22",
+    "parent_id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "120.00"
+  },
+  {
+    "child_id": "f0677d69-b6ea-45a2-88d9-43a47bfab5ff",
+    "child_item_type": "INGREDIENT",
+    "id": "e11a0505-6d75-4f6d-8a93-305a770c3ae2",
+    "parent_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "7c5fce2a-d9f8-4019-ac0f-4e8a5ed02753",
+    "child_item_type": "INGREDIENT",
+    "id": "e159e395-63db-449a-9ef0-b6a2c619392d",
+    "parent_id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "d84bd354-b05a-42f9-b5b1-e51ae6cf109a",
+    "child_item_type": "INGREDIENT",
+    "id": "e30176f0-8448-4cfa-b20d-21f16024d15a",
+    "parent_id": "35ab906c-20cf-4cb0-a0c7-14320462fc60",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "e3cc43fe-3622-478a-8593-d9d47511a438",
+    "parent_id": "79e45850-e4fc-4829-929b-846a0eb0f8a0",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "6000.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "e412685f-c910-4ecc-afae-a1db91ee5d2f",
+    "parent_id": "fe77de1c-1d9c-4d6a-afb4-cdff78d32a9a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "e4a6ec99-78d6-4392-827f-7d21334a93ea",
+    "parent_id": "6507a46a-6e77-4987-adfa-946d9c87fb98",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "515a3437-6caa-48ca-94dd-86d247127cb6",
+    "child_item_type": "INGREDIENT",
+    "id": "e4b9301b-bae3-4ca4-ba45-2ed8054f7b23",
+    "parent_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "child_id": "243a726e-687c-4cda-903c-fed4c1b69636",
+    "child_item_type": "COMPONENT",
+    "id": "e5eced4e-7a06-4284-8cd0-ab8d719f670e",
+    "parent_id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "99da24f3-526d-487f-bee4-2cba3936c3b7",
+    "child_item_type": "COMPONENT",
+    "id": "e648e13f-3514-4b25-ba88-bd687cb8044f",
+    "parent_id": "325b04df-cec9-4b67-8398-744be2965374",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "5.00"
+  },
+  {
+    "child_id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "child_item_type": "INGREDIENT",
+    "id": "e66e4f21-960c-4352-9010-3995db37ea40",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "b24d32e8-b332-4718-9a33-d6c083383ee1",
+    "child_item_type": "COMPONENT",
+    "id": "e7cae00b-531f-4ca0-a3be-55d4d46f1f33",
+    "parent_id": "e0903bf6-b6c9-4f33-8e92-df1e574e7544",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "child_item_type": "COMPONENT",
+    "id": "e881db0d-133a-4c4d-bbdb-c8501fdaea13",
+    "parent_id": "8b0755b3-c842-4be4-89bd-c153d085e68f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "child_item_type": "COMPONENT",
+    "id": "e92da5f2-a5dd-4d9b-b9e4-4de57c010201",
+    "parent_id": "d7b46d2e-13a7-441e-b3e4-079ec5a62a66",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "c1c9a74d-0602-4740-94d1-54ce6729c359",
+    "child_item_type": "INGREDIENT",
+    "id": "ea6c6d67-2c64-4a24-9a09-5b82a3d86778",
+    "parent_id": "05b2f656-4ee7-445f-b94f-f4e0f08a5c21",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "child_id": "bebd3133-b7e4-4e5f-86ae-62d832bb06d0",
+    "child_item_type": "INGREDIENT",
+    "id": "ea7864a0-6068-49d4-ba7d-5b2458ce6af4",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15.00"
+  },
+  {
+    "child_id": "b18adcc6-7552-4860-b282-596e571ccb0d",
+    "child_item_type": "INGREDIENT",
+    "id": "eb40d65b-59cb-477c-b9d5-f6914769dd7c",
+    "parent_id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "eb023115-55fe-4cd7-ba71-30e8a7323160",
+    "child_item_type": "INGREDIENT",
+    "id": "eb9a9e8c-f51e-49a8-87cd-ab203bb87eec",
+    "parent_id": "9d6a5a72-642b-4604-91d9-b74bbbbe7b40",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "280.00"
+  },
+  {
+    "child_id": "a50dc385-b9bf-4777-b665-807a05f35fe3",
+    "child_item_type": "INGREDIENT",
+    "id": "ec168afb-fe72-4273-a64b-7e73d4cbe55d",
+    "parent_id": "ac3aca79-910e-4eec-aa66-97e953c2902b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "ec90c5ea-a3ed-49a2-af27-39a41b795f8c",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "child_item_type": "INGREDIENT",
+    "id": "ec98dbcb-a852-45e4-9c50-5e5633712068",
+    "parent_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "3165b244-8543-484f-ba7f-39d50bc3d663",
+    "child_item_type": "INGREDIENT",
+    "id": "ed45303d-7cf7-4d06-bde6-ce052990bf37",
+    "parent_id": "d73d0a0e-8e3e-4c58-be35-89dd4dbe139d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "160.00"
+  },
+  {
+    "child_id": "68f96d10-9a56-4ec0-8b97-039cd4948bf2",
+    "child_item_type": "COMPONENT",
+    "id": "ed761048-cdd4-4405-a9ca-17e910630b96",
+    "parent_id": "e3d131ea-d2c8-415c-81cd-bc2175e5407f",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "child_item_type": "COMPONENT",
+    "id": "ed9a9023-c657-42b1-bb34-bc257e2e30f4",
+    "parent_id": "b66e4061-410b-429d-a74b-5341cc79c87a",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "2178aa23-efc2-42f8-b923-3c89a8926aff",
+    "child_item_type": "INGREDIENT",
+    "id": "ee1abbae-d36b-4cbd-91df-61e65f1c652f",
+    "parent_id": "7af15ea3-dc20-4c1b-b272-64fb6c41d06a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "96a867a5-88a1-4988-b2df-ae8be985e9f0",
+    "child_item_type": "INGREDIENT",
+    "id": "ef5c8c96-a55a-4c79-bca9-ba42e128a513",
+    "parent_id": "157647ee-c964-42a5-b116-d734c751b5a5",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "7d836c85-cd05-4104-86d7-475ab5ddda8a",
+    "child_item_type": "INGREDIENT",
+    "id": "ef6157ea-c3a2-48e8-b865-4229bb235141",
+    "parent_id": "0df5a0a2-1d0c-4b7f-822a-143656969d77",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "f7e3e337-bf66-4463-add0-5cf8c71549d2",
+    "child_item_type": "INGREDIENT",
+    "id": "effc6497-692e-4fdd-9137-2a6b1e8e4fcb",
+    "parent_id": "6a89f96e-fa86-41a1-b812-026ef9cae9ba",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.50"
+  },
+  {
+    "child_id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
+    "child_item_type": "INGREDIENT",
+    "id": "f082083d-a798-4940-b3c2-da1afd5ac30d",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "child_item_type": "COMPONENT",
+    "id": "f0b24315-9095-4f3a-aa52-bb880b139949",
+    "parent_id": "53aec83b-4d86-4ec5-95b9-3ff07576d9fe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "63dc2187-a3af-44d9-b6d7-1a36d7ede420",
+    "child_item_type": "INGREDIENT",
+    "id": "f0fad112-5167-4e25-a89e-83ca3c70d4c6",
+    "parent_id": "77239dd2-b9cb-4022-bfc9-09aaff86c559",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "130.00"
+  },
+  {
+    "child_id": "031a4965-dcca-4d3a-aa56-30aae6ab340b",
+    "child_item_type": "INGREDIENT",
+    "id": "f1119e0c-a842-4507-b655-9eed059f2d6b",
+    "parent_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "2178aa23-efc2-42f8-b923-3c89a8926aff",
+    "child_item_type": "INGREDIENT",
+    "id": "f116ec54-ab20-41c0-b773-547d93f29481",
+    "parent_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "320.00"
+  },
+  {
+    "child_id": "dd36d70e-eb8e-46de-b5b9-cd1f31eac3da",
+    "child_item_type": "INGREDIENT",
+    "id": "f1adb1b5-b4f5-4002-a7a2-d804c6e65cd6",
+    "parent_id": "2f44ed7c-79a2-4e49-8b5d-7e61ebda8116",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "8c338fce-e2cf-44c2-b4cd-8e1ffff8e1bd",
+    "child_item_type": "COMPONENT",
+    "id": "f1ef42d9-c12f-4a78-9e14-bab8f515b1ef",
+    "parent_id": "ebbca44e-0442-4c3e-93b4-0927e8f4527d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "f1f6d46d-b1da-4595-8437-44025e668c9b",
+    "parent_id": "c0bdeecf-c960-43b9-9448-a7c6d650d17d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
+    "child_id": "527b056b-2fd6-49c8-8666-f576b5d6821f",
+    "child_item_type": "COMPONENT",
+    "id": "f1fb9986-8ffe-4b5c-9b7f-4e8b4f7405e8",
+    "parent_id": "3e0c309f-529e-4fa2-a25a-488dcba47493",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "child_id": "de5c767f-e9e0-4658-92db-4c35453a488f",
+    "child_item_type": "INGREDIENT",
+    "id": "f20ee2e0-f597-4ffe-b169-865ded2cdf84",
+    "parent_id": "d7649a56-c2f5-44ac-bb2e-8f91e6bdd43c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "each",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "child_item_type": "INGREDIENT",
+    "id": "f2222202-1781-4348-ae54-283986b52058",
+    "parent_id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "70.00"
+  },
+  {
+    "child_id": "4dd4d649-89fe-4a71-ba2c-ecc504629a79",
+    "child_item_type": "COMPONENT",
+    "id": "f23323ca-b1f9-4087-940b-6223953786ae",
+    "parent_id": "297aea7c-2ca7-461a-bffb-a5965710e3b7",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "child_item_type": "INGREDIENT",
+    "id": "f249012c-0016-4c1a-b5f3-48c0385158dd",
+    "parent_id": "59ee98ac-5086-4507-9b7b-21be68d11f29",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "100.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "f294e307-8a92-4164-846d-361b917144e9",
+    "parent_id": "7737b7a4-fea6-49fd-b648-f37c575e2714",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "f2bdeda8-48f0-4ea0-91b4-9405875e76fe",
+    "parent_id": "41ea6ec8-8238-4484-a7b6-601bfe3bd96d",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "525.00"
+  },
+  {
+    "child_id": "eb023115-55fe-4cd7-ba71-30e8a7323160",
+    "child_item_type": "INGREDIENT",
+    "id": "f2d87cc6-975a-462e-bd1b-bb1a88375ba7",
+    "parent_id": "8d3fab40-cbbe-4160-ac4a-40ad693dbf7a",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "280.00"
+  },
+  {
+    "child_id": "f54eb7a1-8ab1-4e9d-aaf1-3aca3a4d4f3c",
+    "child_item_type": "INGREDIENT",
+    "id": "f35e59f3-47e7-472e-af61-4054a58ec1d3",
+    "parent_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "050928f3-c8b5-43c7-a8f4-da3016c838fc",
+    "child_item_type": "INGREDIENT",
+    "id": "f4f691a2-b4ec-4a0a-9a94-b593409c9b57",
+    "parent_id": "2b5ea38a-7d0e-4b1a-af81-258d6a328e1b",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "child_item_type": "INGREDIENT",
+    "id": "f536100e-3589-4e88-82c5-feb7c5129393",
+    "parent_id": "26fa07c4-2489-4244-b0c8-e0ab70caa7b1",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "child_item_type": "INGREDIENT",
+    "id": "f6d1e585-33d0-42ab-b9be-19089cd050ee",
+    "parent_id": "80fc9cc9-644e-4232-8b01-e57c11385570",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "f7324ade-cc2f-4156-afab-388ed8fefba7",
+    "parent_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "670.00"
+  },
+  {
+    "child_id": "d4d33eaa-d99f-4c18-a207-4e4eb24a9b9d",
+    "child_item_type": "COMPONENT",
+    "id": "f7bc9bd4-3062-4ffc-9e4a-798db41ba49f",
+    "parent_id": "5818b8de-3caa-4579-9550-e5fc2122336c",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "child_id": "10c89f1d-221b-45fd-9981-e216c126bdff",
+    "child_item_type": "INGREDIENT",
+    "id": "f830d154-7495-4b6f-bfcd-4d51981c8914",
+    "parent_id": "68f96d10-9a56-4ec0-8b97-039cd4948bf2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "kg",
+    "volume": "2.00"
+  },
+  {
+    "child_id": "89f2cc2c-312f-4359-80d7-b06f6f064d34",
+    "child_item_type": "COMPONENT",
+    "id": "f887931e-9df9-4b2f-8946-cf764176c800",
+    "parent_id": "81479ee5-f7bd-40f9-9dd2-a201a308a292",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "l",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
+    "child_item_type": "COMPONENT",
+    "id": "f8aa3ae1-34a6-4b9f-9a60-8342b366cd0d",
+    "parent_id": "d7b11008-c2a5-4817-b6a4-af08ab1b4052",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "child_id": "8b400caa-9dd4-4f03-8a5a-62cd8848bb69",
+    "child_item_type": "COMPONENT",
+    "id": "f8ed3d65-c9e8-4709-8705-88e9c4326f26",
+    "parent_id": "4d1a26a6-8e0e-426a-98b4-c7f2b058229e",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "份",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "91c23bba-0cec-4283-a678-2f65f92f0e05",
+    "child_item_type": "COMPONENT",
+    "id": "f90953fd-d977-4c79-8cbf-b365e4121e8a",
+    "parent_id": "7726b0e4-1309-45d5-9cc5-67d3af8860d6",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "child_id": "9bed14ff-11b7-4529-93c9-f52d0179f60a",
+    "child_item_type": "INGREDIENT",
+    "id": "f985ae07-b89f-4e3a-8024-427304fa8289",
+    "parent_id": "44615b06-00d5-4be8-858e-27ccda81f2e5",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "child_id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "child_item_type": "INGREDIENT",
+    "id": "fa30064a-5921-4ec1-bf2d-94649bc86968",
+    "parent_id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "10.00"
+  },
+  {
+    "child_id": "d8f5ed00-ac4d-48f8-8f44-3a32630c8442",
+    "child_item_type": "COMPONENT",
+    "id": "fa7d4396-2852-4f3f-af9e-42b28ca84f94",
+    "parent_id": "4ad53cce-6ea3-455f-80f0-66b9599c6dcc",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "fb14df57-039d-42ec-9bf0-b2957a12a6ef",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "60.00"
+  },
+  {
+    "child_id": "4a35cfa0-4579-4871-8a2e-f198b95cbb9b",
+    "child_item_type": "COMPONENT",
+    "id": "fc5429af-db10-450b-aa1c-41c8fb39c40a",
+    "parent_id": "d2ef1e37-68f1-4ee9-a17a-08e21cb4ec4b",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "child_id": "27c05a31-1d11-451f-aff5-cdb4b731b40d",
+    "child_item_type": "INGREDIENT",
+    "id": "fc9ef550-0790-4acf-85ea-64de420f57b1",
+    "parent_id": "69a7f208-c779-47e6-824e-b66b57daf3f6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "90.00"
+  },
+  {
+    "child_id": "5e6031da-f778-474c-a7e4-a13587920102",
+    "child_item_type": "INGREDIENT",
+    "id": "fce292b4-3090-4552-b11f-97fb84d9911b",
+    "parent_id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "child_item_type": "INGREDIENT",
+    "id": "fd05b7d6-af26-44be-b2de-2bd379e0c7dc",
+    "parent_id": "d33657e3-9327-4f4b-8277-e684e3eccdb6",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "3300.00"
+  },
+  {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "fd37d6ba-877e-479c-a472-5e98bf5f1849",
+    "parent_id": "fcd1192d-89e9-409c-a16a-c7d8c5774fa3",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "900.00"
+  },
+  {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "fd9b0e9b-5ac3-4d5e-821a-a842b4375d0c",
+    "parent_id": "91a4ea58-760c-4939-a552-29d487a4a7e2",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "child_id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "child_item_type": "INGREDIENT",
+    "id": "fdd3bc23-f883-4934-9ffa-363ed8aab29e",
+    "parent_id": "a81d391d-f417-4e83-b28e-4ca2381d0601",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "20.00"
+  },
+  {
+    "child_id": "449489a7-fe17-47f4-8247-8ed840732580",
+    "child_item_type": "INGREDIENT",
+    "id": "feabcba2-8560-4608-86e6-7e8a4cf656dc",
+    "parent_id": "25bc23c0-94cc-4483-95d8-79efdedce976",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "15.00"
+  }
+]

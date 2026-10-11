@@ -19,6 +19,7 @@ STATE_FILE = DATA / "state.json"
 DB_FILE = DATA / "healthgo.db"
 LOCK_FILE = DATA / ".sync.lock"
 PLAN_FILE = ROOT / "config" / "plan.json"
+RESTAURANTS = DATA / "restaurants"
 REPORTS = ROOT / "reports"
 
 # Garmin tokens are credentials, not health data: they live outside the repo.

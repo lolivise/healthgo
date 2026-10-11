@@ -1,0 +1,1969 @@
+[
+  {
+    "cost": "1.20",
+    "id": "00a51c69-ebee-444d-9748-8c51388303ed",
+    "label": "Gudao Plum green tea / 古道梅子綠茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "02cb52a7-f0f8-4edb-a065-8c4fecdaf3ca",
+    "label": "豆棗",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "031a4965-dcca-4d3a-aa56-30aae6ab340b",
+    "label": "香脆筍",
+    "unit_type": "g",
+    "volume": "600.00"
+  },
+  {
+    "cost": "29.70",
+    "id": "040b36d4-4bd3-45ec-8c24-2cd3f5daf30e",
+    "label": "百香果醬",
+    "unit_type": "kg",
+    "volume": "5.00"
+  },
+  {
+    "cost": "6.30",
+    "id": "04a54716-42e4-40b3-8a8a-1e844f354080",
+    "label": "小雞腿",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.80",
+    "id": "050928f3-c8b5-43c7-a8f4-da3016c838fc",
+    "label": "玉米粉(黃)",
+    "unit_type": "g",
+    "volume": "420.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "06492b69-4596-4b3f-8011-586028a1b417",
+    "label": "9*9餐巾紙(白色)",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "50.00",
+    "id": "08b900f8-c06d-4b70-ac65-1f1f1ae1e635",
+    "label": "秋水茶",
+    "unit_type": "個",
+    "volume": "24.00"
+  },
+  {
+    "cost": "13.80",
+    "id": "0a23f8e1-f0d1-4072-b9a5-78191bb5c8dd",
+    "label": "半殼淡菜",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.80",
+    "id": "0bcfdceb-4d26-4a24-b83a-394d09a7f903",
+    "label": "甜麵醬",
+    "unit_type": "g",
+    "volume": "800.00"
+  },
+  {
+    "cost": "3.50",
+    "id": "0d5d6c56-d806-49cd-a9b7-d9d1b7cf8842",
+    "label": "澄黺",
+    "unit_type": "g",
+    "volume": "454.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "0f6a712f-be44-48e2-8571-6c4871531ea6",
+    "label": "牛筋",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "0f72db14-752e-4658-a045-1ece2b4f3abf",
+    "label": "泡菜醬料",
+    "unit_type": "g",
+    "volume": "453.00"
+  },
+  {
+    "cost": "31.00",
+    "id": "0f9a5e79-fecc-40e3-82fa-dccd321f5afd",
+    "label": "八角",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "10.65",
+    "id": "10c89f1d-221b-45fd-9981-e216c126bdff",
+    "label": "豬絞肉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "28.00",
+    "id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "label": "米酒",
+    "unit_type": "l",
+    "volume": "6.00"
+  },
+  {
+    "cost": "200.00",
+    "id": "117031b4-32a3-45fd-998a-9d59315bf1d9",
+    "label": "芋頭罐頭",
+    "unit_type": "g",
+    "volume": "12000.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "11bdb31c-da8d-4502-9961-0c34ff3d590b",
+    "label": "花椒辣油",
+    "unit_type": "g",
+    "volume": "115.00"
+  },
+  {
+    "cost": "11.52",
+    "id": "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc",
+    "label": "蠔油",
+    "unit_type": "kg",
+    "volume": "2.40"
+  },
+  {
+    "cost": "0.00",
+    "id": "141286eb-762a-4c74-9974-81582fd54f6b",
+    "label": "四格便當盒蓋子",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "142124b9-97c5-4188-80ef-2a327fe84d94",
+    "label": "HeySong Sarsaparilla / 黑松沙士",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "16.15",
+    "id": "14e7d0dc-ef40-4c88-82a7-772856f92652",
+    "label": "黑菇",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "10.30",
+    "id": "15a45093-721a-46e8-8721-099525c47aaf",
+    "label": "CHICKEN SALTS 雞鹽",
+    "unit_type": "g",
+    "volume": "800.00"
+  },
+  {
+    "cost": "18.00",
+    "id": "16b548ea-bb4e-447a-b752-6096e21bf4b5",
+    "label": "仙草粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "16f9e0f3-836c-4fd5-a377-211db254fad7",
+    "label": "紅蔥酥",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "30.80",
+    "id": "175f69f5-cef2-4b05-a686-2e1504e74863",
+    "label": "草莓糖漿",
+    "unit_type": "kg",
+    "volume": "5.00"
+  },
+  {
+    "cost": "6.60",
+    "id": "183e5f26-2f73-4837-82e2-d9084376775f",
+    "label": "雞胗",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "14.20",
+    "id": "188fb8a8-e2c0-45ab-a747-e6d0b2f30fd6",
+    "label": "里肌肉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "19979099-0467-4e71-b0ef-325a4e0a32d6",
+    "label": "辣椒粉",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "cost": "40.00",
+    "id": "1caa60ff-3330-4d48-9c9d-cf26b174f1f6",
+    "label": "薑",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "28.50",
+    "id": "1cf1fcb1-0ab2-4213-a93f-c7ecdd5eb940",
+    "label": "奶蓋粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "97.20",
+    "id": "1e349eba-2517-43fe-a917-99313727718f",
+    "label": "當歸",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.50",
+    "id": "215bd410-8e6e-484e-b59c-fa7ed7f2ab26",
+    "label": "魚板",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "2178aa23-efc2-42f8-b923-3c89a8926aff",
+    "label": "在來米粉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "27.00",
+    "id": "21bbaec4-4f33-4093-a5de-ee643ea5a734",
+    "label": "乾香菇",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "33.50",
+    "id": "22fa5d6e-3553-43fa-a591-239610613bdf",
+    "label": "蝦子16/20",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "24a7f1d2-599d-4795-b42f-a4f33f4726f2",
+    "label": "鴨腿",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "257f72c1-ade6-4161-af21-7906180cde9c",
+    "label": "點心",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "25fcc32f-b67d-4086-ac9e-3dd90cd96706",
+    "label": "搖飲料機 (含有CE認證)",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "26f0542e-7004-4ea2-9874-7ad2485d8da1",
+    "label": "Coke-Zero Sugar / 無糖可樂",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "279a7d1a-f821-4ce2-acec-04d724c31435",
+    "label": "豬肉捲",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "3.00",
+    "id": "27c05a31-1d11-451f-aff5-cdb4b731b40d",
+    "label": "白醋",
+    "unit_type": "ml",
+    "volume": "600.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "28ef6679-9541-4968-b8b1-d95c92cd805c",
+    "label": "Vitali / 維大力",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "2bc5648e-2e8b-443f-a754-4757e124dfa7",
+    "label": "封口機",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "36.00",
+    "id": "2c314eef-85bd-4e8f-b4f0-add15d99e9e8",
+    "label": "鴨胸",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "48.50",
+    "id": "2c41007d-5fef-4682-82c4-633c5174b5a7",
+    "label": "豬耳朵",
+    "unit_type": "kg",
+    "volume": "5.10"
+  },
+  {
+    "cost": "10.08",
+    "id": "2d6baf1e-7fe8-4f08-8ed8-0ed9ec335c7e",
+    "label": "海鮮醬",
+    "unit_type": "kg",
+    "volume": "2.27"
+  },
+  {
+    "cost": "3.00",
+    "id": "2db38bd1-d57d-4d1a-a772-817d0b6639d6",
+    "label": "毛豆",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "4.50",
+    "id": "2e75b3e1-7c1f-451d-bfc8-8f33f3abae36",
+    "label": "古早食品蚵仔麵線",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "9.50",
+    "id": "2f1a12c8-c98e-4d75-a09c-b687aeaf3b76",
+    "label": "HAKE",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "2fae27ab-957d-428d-aa2b-fd7431909cd2",
+    "label": "李錦記滷水汁",
+    "unit_type": "ml",
+    "volume": "410.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "30253645-1099-48f9-8427-97725325cd6a",
+    "label": "市售豆花",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "16.50",
+    "id": "3165b244-8543-484f-ba7f-39d50bc3d663",
+    "label": "胡麻醬",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "322037fc-79d6-4a10-ac03-69bfbb43e35a",
+    "label": "太白粉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "0.80",
+    "id": "328498e5-58ed-4585-a0d0-be55d3656df9",
+    "label": "uni-president milk Tea / 麥香奶茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "32be3196-541f-49d6-ae9a-2529c24f0b41",
+    "label": "蘑菇切片",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "label": "香油",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "140.00",
+    "id": "3365d222-b985-4eb0-8c43-c7a7e861d73a",
+    "label": "蜜紅豆",
+    "unit_type": "g",
+    "volume": "19800.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "342ee48a-0b8e-48c7-b3c9-fe682ebd3f82",
+    "label": "元氣東部米",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "34f32282-2128-46fa-ba6e-c51d8c3fe533",
+    "label": "台灣越光米",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.00",
+    "id": "359bb538-4495-4b2e-95b8-d3fcb259d9d9",
+    "label": "烏醋",
+    "unit_type": "ml",
+    "volume": "600.00"
+  },
+  {
+    "cost": "9.80",
+    "id": "35a9a268-bdaf-4796-ab16-513f2840a539",
+    "label": "豬心",
+    "unit_type": "g",
+    "volume": "650.00"
+  },
+  {
+    "cost": "150.00",
+    "id": "36314ac8-a748-45db-b2ab-2bddb78db0fd",
+    "label": "地瓜薯條(瓜瓜園)",
+    "unit_type": "g",
+    "volume": "18000.00"
+  },
+  {
+    "cost": "2.70",
+    "id": "37a38e46-020c-4633-a6cb-0b5816d17b62",
+    "label": "雙色小湯圓",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "43.60",
+    "id": "37f2ac2f-6105-4e3d-9f40-079b948b4b7b",
+    "label": "chips",
+    "unit_type": "kg",
+    "volume": "15.00"
+  },
+  {
+    "cost": "28.80",
+    "id": "38a52f9f-0d52-41d8-940c-379f55784a62",
+    "label": "地瓜粉(小)",
+    "unit_type": "g",
+    "volume": "4800.00"
+  },
+  {
+    "cost": "8.60",
+    "id": "3dc8ba26-d7b7-4fd7-ad7c-016f78ba38cc",
+    "label": "嫩精",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "cost": "26.50",
+    "id": "3e7a07ed-2b8c-43c8-b09e-b69c191a5aa3",
+    "label": "眼肉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "17.80",
+    "id": "3eb878a4-0d2d-4600-a331-b9ff808d55d3",
+    "label": "開喜烏龍茶",
+    "unit_type": "個",
+    "volume": "24.00"
+  },
+  {
+    "cost": "13.05",
+    "id": "3ec9aed8-e2ec-4de1-a319-1440d5c840db",
+    "label": "芋圓粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "2.10",
+    "id": "3fdaeaa0-f293-43c9-893a-838060a97378",
+    "label": "馮德倫香腸",
+    "unit_type": "根",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.32",
+    "id": "43a81b56-cd2b-4926-a347-9f4d22235847",
+    "label": "960外帶杯",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "2.00",
+    "id": "449489a7-fe17-47f4-8247-8ed840732580",
+    "label": "五香粉",
+    "unit_type": "g",
+    "volume": "40.00"
+  },
+  {
+    "cost": "5.40",
+    "id": "4a4d57b7-99cc-4a2e-a157-a576f81c6836",
+    "label": "米血",
+    "unit_type": "g",
+    "volume": "600.00"
+  },
+  {
+    "cost": "0.22",
+    "id": "4ac729a5-48e5-4bbe-8c6f-5e0fa89205cb",
+    "label": "涼麵盒",
+    "unit_type": "個",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "4b5e0c39-9fcf-4546-aa33-0f34c5fd89c6",
+    "label": "熟蝦(大)",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "4dbe695c-3163-47ae-b78d-a74b087a6c5a",
+    "label": "肩頰肉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "4e76de75-51f5-4827-8321-bb754e4e6e8b",
+    "label": "仙草粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.00",
+    "id": "4f5b37d2-0f3b-42d4-82c1-ea9bf1a9b82a",
+    "label": "薑母鴨藥材包",
+    "unit_type": "g",
+    "volume": "60.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "4f935e06-d106-40bc-941e-a0b2a4ea04e5",
+    "label": "Oi Ocha Hojicha Tea / 伊藤園焙茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "8.50",
+    "id": "515a3437-6caa-48ca-94dd-86d247127cb6",
+    "label": "粘師傅起司酥脆粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "105.30",
+    "id": "51f49ce1-64d9-4683-95d9-d57a310a45b9",
+    "label": "Snapper",
+    "unit_type": "kg",
+    "volume": "5.00"
+  },
+  {
+    "cost": "5.80",
+    "id": "523734f6-6acf-451d-a94f-e0258da2f614",
+    "label": "雞翅",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "548ca94d-39e1-4dd0-8c87-61aec91a0c08",
+    "label": "切好的魷魚圈",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "80.00",
+    "id": "552429f1-351b-44aa-9822-9432fe5674cb",
+    "label": "shark",
+    "unit_type": "kg",
+    "volume": "5.00"
+  },
+  {
+    "cost": "37.80",
+    "id": "554f65ba-c361-408f-a5d9-dce32d3748dc",
+    "label": "甘草",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "17.50",
+    "id": "55652769-1117-418d-ac86-63130b303691",
+    "label": "芭樂汁",
+    "unit_type": "個",
+    "volume": "24.00"
+  },
+  {
+    "cost": "33.60",
+    "id": "57bdbcd4-466e-4f2d-8065-b1406777a10b",
+    "label": "猴頭菇",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "57e11ab0-ae13-4208-a08a-2cfe79e807b1",
+    "label": "五花肉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "13.80",
+    "id": "5925f12d-1b23-4056-9492-df97a0a52048",
+    "label": "花切小魷魚",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "599c8b8f-db1a-42f0-84a6-de2c42d72eb6",
+    "label": "蟹肉棒",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "13.80",
+    "id": "59c25002-9ea7-4fe7-971c-f05200585d39",
+    "label": "牛頰",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "51.00",
+    "id": "5b4c7ca2-c5d5-4240-a149-0eaba0cf778c",
+    "label": "玉米澱粉(FLOUR)",
+    "unit_type": "g",
+    "volume": "12000.00"
+  },
+  {
+    "cost": "35.80",
+    "id": "5c1f3f36-586c-45f9-a25b-ddf5842cc701",
+    "label": "桂皮",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "8.00",
+    "id": "5d0d9390-5356-4455-a667-f2e4565c79ba",
+    "label": "豆芽菜",
+    "unit_type": "kg",
+    "volume": "4.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "5d325169-ffa1-40d4-9670-04e571bff671",
+    "label": "炸蝦",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "729.00",
+    "id": "5dd86cf6-a0d1-4dd4-ad94-20709c6d39c4",
+    "label": "綠茶",
+    "unit_type": "kg",
+    "volume": "18.00"
+  },
+  {
+    "cost": "35.00",
+    "id": "5e6031da-f778-474c-a7e4-a13587920102",
+    "label": "白菇",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "5edb4da5-b546-42c5-b1ac-479aef2870da",
+    "label": "水",
+    "unit_type": "ml",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "2.00",
+    "id": "60199730-9dc9-4f1d-bc86-33fe6804547d",
+    "label": "蒟蒻",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "cost": "18.40",
+    "id": "614cf2ed-9d75-4ac9-8006-a9269335fd8b",
+    "label": "蜜花生",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "61bd24c1-9fbf-48aa-99c5-d018689cd48c",
+    "label": "隔間肉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "63cb6224-105f-4b18-ae1d-da768805bc2c",
+    "label": "紙杯 (16盎司) (公版)",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "27.00",
+    "id": "63dc2187-a3af-44d9-b6d7-1a36d7ede420",
+    "label": "土魠魚塊",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "663edc2b-0f42-44a5-9646-41f8c20efe6d",
+    "label": "麥仔茶",
+    "unit_type": "個",
+    "volume": "24.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "675f9d24-8618-47fb-bee4-c7353f4bf557",
+    "label": "芋頭",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "28.00",
+    "id": "677d34f8-3d71-415a-8b80-cfc5fbb5ca81",
+    "label": "台鹽水",
+    "unit_type": "瓶",
+    "volume": "20.00"
+  },
+  {
+    "cost": "55.00",
+    "id": "678fe373-02d7-4720-bef0-e65adfb5a6b1",
+    "label": "麵包粉 Obento",
+    "unit_type": "g",
+    "volume": "10000.00"
+  },
+  {
+    "cost": "3.50",
+    "id": "6790b15b-6ac7-43e5-84fe-d479cc16daf4",
+    "label": "自發粉",
+    "unit_type": "g",
+    "volume": "2000.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "68b7d163-e2c8-458e-ac66-16ada7c0a1a3",
+    "label": "韓式辣椒醬",
+    "unit_type": "g",
+    "volume": "453.00"
+  },
+  {
+    "cost": "3.50",
+    "id": "69e05b4c-64d1-4123-99d3-55bacfea0fbe",
+    "label": "大白菜",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "69f59493-35b7-45f1-a09b-9e3a9fa58d25",
+    "label": "豆漿原液",
+    "unit_type": "g",
+    "volume": "1500.00"
+  },
+  {
+    "cost": "4.20",
+    "id": "6d6ef46d-196c-4040-88bf-99f349d1c286",
+    "label": "雞腳",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "6d9f58fb-1c0e-4128-bbb2-c769471b212e",
+    "label": "一鑫餐具無爾臭臭鍋",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "6ec2b359-3588-4594-b17f-366f3ccc9030",
+    "label": "Sprite / 雪碧",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "6f0a39e0-b7d4-4d97-bbf5-0407588531ac",
+    "label": "雞汁",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "8.00",
+    "id": "6fa854b7-2261-4ce3-86b3-875c86e87749",
+    "label": "味噌",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.30",
+    "id": "6fdbcc25-468a-4adc-8aaa-bee20253c594",
+    "label": "麻醬40g",
+    "unit_type": "包",
+    "volume": "1.00"
+  },
+  {
+    "cost": "10.20",
+    "id": "731fca82-d20d-4edb-93e6-7ced9800f05c",
+    "label": "冷凍鴨(紅)",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "8.00",
+    "id": "73e08298-6919-4f78-92c7-37a015491a27",
+    "label": "奶油",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "18.50",
+    "id": "76979f4a-de58-4ca8-8cbf-fedbe7b61837",
+    "label": "楊桃汁",
+    "unit_type": "個",
+    "volume": "24.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "7740e542-b245-430e-a838-4f635e23fac1",
+    "label": "梅林辣醬油",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "4.00",
+    "id": "776f87f9-70e8-4a90-91fe-445f4485552f",
+    "label": "冰糖",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "3.20",
+    "id": "7955aaa4-9309-4afe-b21a-1805af293c07",
+    "label": "意麵/雞絲麵/60g",
+    "unit_type": "g",
+    "volume": "240.00"
+  },
+  {
+    "cost": "5.30",
+    "id": "796acc37-bb89-4662-851b-43e28cd555fa",
+    "label": "番茄醬",
+    "unit_type": "l",
+    "volume": "2.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "798ed535-124d-4885-be32-297ec8eb07c5",
+    "label": "關廟麵",
+    "unit_type": "g",
+    "volume": "900.00"
+  },
+  {
+    "cost": "202.50",
+    "id": "79c2d0f3-9962-4b1d-8e4b-44ee0fbac45b",
+    "label": "芋頭巧",
+    "unit_type": "g",
+    "volume": "12000.00"
+  },
+  {
+    "cost": "60.00",
+    "id": "7ac877df-e22e-41b3-a7c4-13e65a8c47c7",
+    "label": "辣椒",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "18.00",
+    "id": "7ad07256-8d56-4e02-a706-d9cc21e27ffb",
+    "label": "蝦子100/200",
+    "unit_type": "g",
+    "volume": "970.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "7bab3341-fda3-408d-8662-eafcf88282eb",
+    "label": "筍絲",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "7c2ec36f-665d-438b-b407-8587bb6f9963",
+    "label": "Pocari sweat / 寶礦力水得",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.40",
+    "id": "7c5fce2a-d9f8-4019-ac0f-4e8a5ed02753",
+    "label": "小蘇打粉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "19.00",
+    "id": "7d836c85-cd05-4104-86d7-475ab5ddda8a",
+    "label": "三色蒟蒻",
+    "unit_type": "kg",
+    "volume": "3.80"
+  },
+  {
+    "cost": "1.20",
+    "id": "7ecaa9c7-bbbd-4137-a4ce-126d808fac18",
+    "label": "itoen green tea no sugar / 伊藤園日式無糖綠茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "25.00",
+    "id": "7f47eb18-c2fd-4660-8edd-852cbf1249ac",
+    "label": "煙燻火雞胸",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "8.50",
+    "id": "807d7ee6-379a-415d-bda0-371112928264",
+    "label": "月亮蝦餅/240g",
+    "unit_type": "g",
+    "volume": "240.00"
+  },
+  {
+    "cost": "5.80",
+    "id": "80ada7c3-0a8f-426e-b063-04810925e403",
+    "label": "紹興酒",
+    "unit_type": "l",
+    "volume": "3.00"
+  },
+  {
+    "cost": "5.50",
+    "id": "8361a8d2-7e78-4327-abe7-8ae976894f65",
+    "label": "酸菜",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "8457b424-1906-4e54-a941-e5af97819337",
+    "label": "綜合火鍋料",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "2.00",
+    "id": "84c534c5-67bd-4133-b367-c621bdfdb745",
+    "label": "紅蘿蔔",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "86cdaa37-9528-4db7-bb05-980a34c4d8a3",
+    "label": "蚵仔",
+    "unit_type": "g",
+    "volume": "454.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "871390f3-be8d-4bd9-913e-bf3704025631",
+    "label": "封口膜 (公版)",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "89507369-6ebf-4a68-95cb-c26bac36d883",
+    "label": "四格便當盒",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "14.50",
+    "id": "8aa4d375-b54c-4f01-8e06-8b8f1fa5dd4b",
+    "label": "山羊肉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "120.00",
+    "id": "8bfa3a16-a049-4bc7-a57c-ddae85d1770c",
+    "label": "花豆",
+    "unit_type": "g",
+    "volume": "19800.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "8f26988b-5df5-4adc-9a40-95cf8fa898e9",
+    "label": "文蛤",
+    "unit_type": "g",
+    "volume": "340.00"
+  },
+  {
+    "cost": "37.80",
+    "id": "8f64a8aa-1910-4426-bda4-393703f64bd0",
+    "label": "甘草",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "30.00",
+    "id": "90dd51e3-c69b-473c-bc2d-88df64e56434",
+    "label": "醬油膏",
+    "unit_type": "g",
+    "volume": "2900.00"
+  },
+  {
+    "cost": "50.00",
+    "id": "915a20a8-1790-46bf-85aa-1c16f8fc8d27",
+    "label": "菜油",
+    "unit_type": "l",
+    "volume": "20.00"
+  },
+  {
+    "cost": "200.00",
+    "id": "91c897d1-ff31-47f9-bd67-b7a5e9120b4e",
+    "label": "五花豬肉捲",
+    "unit_type": "g",
+    "volume": "8000.00"
+  },
+  {
+    "cost": "16.00",
+    "id": "92d895b5-2924-4ecc-b210-904b41cd8276",
+    "label": "黑胡椒",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "94affca5-40db-488d-bfc5-31057fe46fa3",
+    "label": "奶蓋奶油",
+    "unit_type": "ml",
+    "volume": "100.00"
+  },
+  {
+    "cost": "9.80",
+    "id": "94cd8d5e-12e6-4931-be5b-84137d72363e",
+    "label": "排骨",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "96a867a5-88a1-4988-b2df-ae8be985e9f0",
+    "label": "泡菜",
+    "unit_type": "kg",
+    "volume": "1.20"
+  },
+  {
+    "cost": "9.80",
+    "id": "96a9224d-7e87-452d-a94a-05e098ba2046",
+    "label": "腐乳醬(750)",
+    "unit_type": "g",
+    "volume": "750.00"
+  },
+  {
+    "cost": "0.80",
+    "id": "96c2d5d8-931b-47cf-9194-4dcde1e2b949",
+    "label": "uni-president green Tea / 麥香綠茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "5.50",
+    "id": "96ec780c-03d8-4f3d-b9b3-26d6cc1281a7",
+    "label": "日本麵",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "977c1d43-5ed5-4824-8780-55c4ea12a7e0",
+    "label": "福壽香油",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "45.00",
+    "id": "98ce5e90-f533-4ff2-9395-bf6385223010",
+    "label": "E1422乙醯化雙澱粉己二酸酯",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "105.00",
+    "id": "994e7abf-a93e-4b2f-a6e3-11382fea0026",
+    "label": "蜜綠豆",
+    "unit_type": "g",
+    "volume": "19800.00"
+  },
+  {
+    "cost": "8.50",
+    "id": "998d8af6-78e8-4c6f-a097-73c767a09a72",
+    "label": "安佳鮮奶油",
+    "unit_type": "l",
+    "volume": "1.00"
+  },
+  {
+    "cost": "16.00",
+    "id": "9bed14ff-11b7-4529-93c9-f52d0179f60a",
+    "label": "統一布丁粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "13.00",
+    "id": "9c779c1d-dc4e-4077-93aa-e46b6e7a8631",
+    "label": "李叔叔香腸",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
+    "label": "雞蛋",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "9d002521-acd0-461d-acfe-dd500c9cf32c",
+    "label": "味精",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.60",
+    "id": "9d2079c6-fe3e-4080-abc7-dbdcb20fdae9",
+    "label": "珍珠",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "9dbb076b-6adc-414e-9806-10e18ee10e9d",
+    "label": "itoen golden Oolong Tea(1) / 伊藤園黃金烏龍",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "9dbfcc7f-353b-47c8-8bd8-a8e53e098ad3",
+    "label": "WWS新鮮蘑菇",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "9e59027c-2fe0-45dc-b1db-54c5161900e5",
+    "label": "無骨有皮雞腿肉",
+    "unit_type": "g",
+    "volume": "900.00"
+  },
+  {
+    "cost": "4.00",
+    "id": "9eb22b82-3d22-49de-8a00-c7d4fbb9187e",
+    "label": "蒜頭",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "a11d5862-01aa-452a-b55f-5f147bbf2c09",
+    "label": "CC Lemon / CC檸檬",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "a122c115-4664-4a74-803a-6dc86f74891f",
+    "label": "蒜酥",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "a300c207-7566-4342-b26f-b470a4d9a524",
+    "label": "玉米濃湯粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "11.60",
+    "id": "a309bd33-9dcc-4e4d-9b4e-927f1b0689b5",
+    "label": "魷魚圈(艾瑪)",
+    "unit_type": "kg",
+    "volume": "0.50"
+  },
+  {
+    "cost": "0.80",
+    "id": "a50dc385-b9bf-4777-b665-807a05f35fe3",
+    "label": "uni-president black tea / 麥香紅茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.50",
+    "id": "a51b993a-01b9-4998-9dc4-8429833e1b80",
+    "label": "米苔目",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "a5d02ada-a4ad-4743-8d95-4659fd5abce5",
+    "label": "大地魚粉",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "8.00",
+    "id": "a5d2743e-4f6e-4743-b3bd-a0d8f4be7d4e",
+    "label": "紫米",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.60",
+    "id": "a65589b5-0fdf-4e42-9867-fe12890e8ca2",
+    "label": "羊肉爐藥材包",
+    "unit_type": "g",
+    "volume": "50.00"
+  },
+  {
+    "cost": "10.50",
+    "id": "a8fcb17c-321d-43f3-8e63-ea514465c9c3",
+    "label": "起司片",
+    "unit_type": "g",
+    "volume": "648.00"
+  },
+  {
+    "cost": "21.50",
+    "id": "a9628b12-e733-442e-b6d3-5db551cbdf8b",
+    "label": "黑龍醬油玻璃瓶",
+    "unit_type": "each",
+    "volume": "1.00"
+  },
+  {
+    "cost": "148.00",
+    "id": "a9f762e9-b08a-4e82-b1be-e959a35bf086",
+    "label": "地瓜球(瓜瓜園)",
+    "unit_type": "g",
+    "volume": "14400.00"
+  },
+  {
+    "cost": "56.85",
+    "id": "aa81ba4a-b258-4249-b4be-68af4d9f63d2",
+    "label": "陳皮",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.75",
+    "id": "ab31f650-ad76-493a-adaf-d9dbb0a8e5ef",
+    "label": "金品豆漿",
+    "unit_type": "ml",
+    "volume": "1400.00"
+  },
+  {
+    "cost": "180.00",
+    "id": "abab8454-fcef-4975-867a-0d59e5a799b8",
+    "label": "奶精",
+    "unit_type": "kg",
+    "volume": "20.00"
+  },
+  {
+    "cost": "8.50",
+    "id": "abed840a-bd7f-4543-af27-646ad7628ee1",
+    "label": "月亮蝦餅",
+    "unit_type": "g",
+    "volume": "240.00"
+  },
+  {
+    "cost": "11.00",
+    "id": "b08e0cea-75d2-46d2-b3e4-9e7d59bca4c3",
+    "label": "雞塊",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "b0ea624b-a465-467f-9f92-55e369471990",
+    "label": "Gudao Passion fruit green tea / 古道百香果綠茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.20",
+    "id": "b0f75b39-5c9b-4e0d-9e00-82224ddfc5f4",
+    "label": "海帶節",
+    "unit_type": "個",
+    "volume": "19.00"
+  },
+  {
+    "cost": "3.00",
+    "id": "b128339d-844e-428a-a0b8-b13126b82252",
+    "label": "煉乳",
+    "unit_type": "g",
+    "volume": "397.00"
+  },
+  {
+    "cost": "3.50",
+    "id": "b18adcc6-7552-4860-b282-596e571ccb0d",
+    "label": "泡麵",
+    "unit_type": "g",
+    "volume": "700.00"
+  },
+  {
+    "cost": "2.85",
+    "id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "label": "糖",
+    "unit_type": "kg",
+    "volume": "2.00"
+  },
+  {
+    "cost": "15.00",
+    "id": "b450bd16-386c-485d-a71b-0a0d78cb90f2",
+    "label": "香菜",
+    "unit_type": "g",
+    "volume": "900.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "b52f40dd-5fe8-411c-af84-7d35feab56f0",
+    "label": "豬腳切塊",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "b5dc73ae-9078-4ec1-b68a-29c57b0e18ee",
+    "label": "黑龍蔭油",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "18.00",
+    "id": "b67de4ea-83a6-4fb7-af5a-e932cc0d9995",
+    "label": "Barramundi",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "1.40",
+    "id": "b6e5d9ea-1f34-47c1-8ff8-720b5a15c42b",
+    "label": "在來米粉",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "18.80",
+    "id": "b7df5fd5-b2a9-487a-a65d-9db4a43e6d82",
+    "label": "羊肉捲",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "2.50",
+    "id": "b7f23112-3456-4170-a394-2adf1202f12f",
+    "label": "玉米罐頭",
+    "unit_type": "g",
+    "volume": "245.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "b8f3b97f-d6b6-4634-a869-12765d9bfc7b",
+    "label": "Gudao Apple Peach Tea / 古道雙味果茶",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "b949df05-ec28-428b-bdca-b91ebc13ff78",
+    "label": "地瓜球",
+    "unit_type": "g",
+    "volume": "1800.00"
+  },
+  {
+    "cost": "64.00",
+    "id": "b992c335-a915-4184-af6f-5c7aca314716",
+    "label": "海霸王麻辣醬",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "52.72",
+    "id": "b9f3ef75-cee2-4b85-8130-a8e59f41f4e7",
+    "label": "魷魚圈",
+    "unit_type": "kg",
+    "volume": "5.00"
+  },
+  {
+    "cost": "72.00",
+    "id": "ba904d39-702d-41f0-a914-dbbfd2f0081c",
+    "label": "地瓜粉",
+    "unit_type": "g",
+    "volume": "15000.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "bb4ed411-6c6c-4752-8527-c0288cc3c8cb",
+    "label": "金蘭醬油",
+    "unit_type": "l",
+    "volume": "1.60"
+  },
+  {
+    "cost": "7.00",
+    "id": "bb956fee-bbd3-4437-960d-93fbac20d45c",
+    "label": "豬肥油",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "12.00",
+    "id": "bbc85a3c-f36d-4066-9002-cf9c52e3010c",
+    "label": "豬蹄膀",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "18.33",
+    "id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
+    "label": "大骨粉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "bebd3133-b7e4-4e5f-86ae-62d832bb06d0",
+    "label": "椒鹽粉",
+    "unit_type": "g",
+    "volume": "420.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "bfce0353-69cf-4a0c-95d2-0668733c56cc",
+    "label": "胡椒粉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "17.00",
+    "id": "bffb93fd-c2e2-4c4e-b978-e4614d635913",
+    "label": "黑糖",
+    "unit_type": "kg",
+    "volume": "4.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "c094a2f4-d92f-4343-b02b-ba5f522daa85",
+    "label": "豐菓冬瓜濃縮汁",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "13.50",
+    "id": "c1202dea-8a4a-41e0-83e6-1c517cff60b6",
+    "label": "牛肚",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "24.23",
+    "id": "c1c9a74d-0602-4740-94d1-54ce6729c359",
+    "label": "普通麵粉",
+    "unit_type": "g",
+    "volume": "12000.00"
+  },
+  {
+    "cost": "6.50",
+    "id": "c2d0e22a-3848-428b-8aeb-a73104655b8a",
+    "label": "粉粿粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "2.35",
+    "id": "c532c435-9ff2-4dfe-aee1-045f36a8d401",
+    "label": "豆花粉",
+    "unit_type": "g",
+    "volume": "90.00"
+  },
+  {
+    "cost": "2.75",
+    "id": "c6771e10-8a3a-400c-aabf-5b20ae023087",
+    "label": "洋蔥",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "39.95",
+    "id": "c6d84215-8c3a-4fc5-a81f-17937b57a0bf",
+    "label": "枸杞",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "30.00",
+    "id": "c6ea4ba0-af2a-4fd9-8658-b5a3827ea93c",
+    "label": "木耳",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "c706efb4-7eb7-496e-ac5d-b1713c80009e",
+    "label": "地瓜球",
+    "unit_type": "kg",
+    "volume": "1.80"
+  },
+  {
+    "cost": "18.00",
+    "id": "c7944b3e-3af3-4c36-8835-266a635fd280",
+    "label": "紅蔥頭",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "c87a262e-63ca-4060-b7b5-402026c57317",
+    "label": "鳥蛋",
+    "unit_type": "g",
+    "volume": "450.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "c97faebf-ffa3-4993-a41f-4e295837e80d",
+    "label": "澄粉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "7.10",
+    "id": "c98280f2-787a-4b91-b35e-5b84d3fc1a31",
+    "label": "金品米漿",
+    "unit_type": "l",
+    "volume": "1.50"
+  },
+  {
+    "cost": "12.00",
+    "id": "ca3dc050-1d88-4949-8f56-1553278fc030",
+    "label": "蜜豆",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "7.00",
+    "id": "cab078d5-f2f2-4b84-85a1-b49dbd973539",
+    "label": "泰國蒜頭雞粉",
+    "unit_type": "g",
+    "volume": "800.00"
+  },
+  {
+    "cost": "14.80",
+    "id": "cac05d53-9d64-40cf-aa08-4c6b7957e7e2",
+    "label": "梅花肉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "4.00",
+    "id": "cbd36064-ef4c-405e-a5eb-a711bf4d8b11",
+    "label": "腐竹",
+    "unit_type": "g",
+    "volume": "80.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "cc5170cd-71cc-452e-b710-fff78807478d",
+    "label": "Coke / 可樂",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "19.00",
+    "id": "cd9609af-535d-4608-a5bd-eecd867184b5",
+    "label": "花枝丸(百廚)3kg",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "5.50",
+    "id": "cda10449-4bd1-4089-8b7d-7be85db3263e",
+    "label": "台灣麵",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "20.00",
+    "id": "ce0050ab-2554-4253-8c09-7dc3aa37515e",
+    "label": "chuck肩頰",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "30.00",
+    "id": "d0b62f57-b5cc-4c1d-8846-256745a64188",
+    "label": "李叔叔香腸",
+    "unit_type": "g",
+    "volume": "1250.00"
+  },
+  {
+    "cost": "12.50",
+    "id": "d15390ed-93e6-491e-9cc5-c9107c2a5a98",
+    "label": "鹽",
+    "unit_type": "kg",
+    "volume": "10.00"
+  },
+  {
+    "cost": "8.00",
+    "id": "d2662486-c545-4530-9644-8e5046d50aa8",
+    "label": "大雞腿",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "30.00",
+    "id": "d4d476cf-bf3b-4599-8d17-2ff5436ebc20",
+    "label": "甜不辣",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "4.50",
+    "id": "d58490d4-7a8a-4c4b-b0a8-bb918baa1b44",
+    "label": "太白粉",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
+    "cost": "7.75",
+    "id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "label": "金味王醬油",
+    "unit_type": "l",
+    "volume": "1.60"
+  },
+  {
+    "cost": "20.00",
+    "id": "d84bd354-b05a-42f9-b5b1-e51ae6cf109a",
+    "label": "塔塔醬",
+    "unit_type": "kg",
+    "volume": "2.40"
+  },
+  {
+    "cost": "2.00",
+    "id": "d95160f5-2aa0-41c7-b21e-407a9f92296d",
+    "label": "青菜",
+    "unit_type": "g",
+    "volume": "300.00"
+  },
+  {
+    "cost": "12.50",
+    "id": "da977ba5-517f-429e-b84e-e14ee24a6603",
+    "label": "雞胸肉(蝴蝶刀)",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "5.20",
+    "id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
+    "label": "豆腐835",
+    "unit_type": "g",
+    "volume": "835.00"
+  },
+  {
+    "cost": "29.00",
+    "id": "dae0bd34-5e31-4b01-97d5-74ccb13064ed",
+    "label": "鳳梨糖漿",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "3.60",
+    "id": "dd36d70e-eb8e-46de-b5b9-cd1f31eac3da",
+    "label": "九層塔",
+    "unit_type": "g",
+    "volume": "120.00"
+  },
+  {
+    "cost": "21.50",
+    "id": "de5c767f-e9e0-4658-92db-4c35453a488f",
+    "label": "黑龍醬油(大)",
+    "unit_type": "each",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "de62a77a-9733-4aaa-bdc3-9ce2c04f37d3",
+    "label": "美食家油炸油",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "643.50",
+    "id": "de68ecc6-7dfb-476f-bc24-44abd7f3f050",
+    "label": "阿薩姆紅茶",
+    "unit_type": "kg",
+    "volume": "18.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "df2bb9f8-be3d-46d8-b175-41603646c0f5",
+    "label": "粉粿粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.50",
+    "id": "e0f1b569-3a26-4a26-a9ad-b6656909c7ca",
+    "label": "豆皮(盒裝)",
+    "unit_type": "g",
+    "volume": "200.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "e19e7415-9f3d-4783-b5bc-4ec6dedbfafd",
+    "label": "豆干",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "cost": "19.00",
+    "id": "e1a94409-3525-4cab-a983-bcedc357388e",
+    "label": "牛腱",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.20",
+    "id": "e2240f3e-79a6-4b58-b0a7-9c5645865216",
+    "label": "紅糟肉粉",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "e313edac-5749-44ce-b165-1ba3e16a45ce",
+    "label": "台梗9號",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "25.51",
+    "id": "e339c950-150a-4da1-b48c-bc40328763ff",
+    "label": "蘑菇精",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "28.00",
+    "id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
+    "label": "鰹魚粉",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "62.00",
+    "id": "e5107cd6-b45b-4e9c-ba9b-5ff784e4e25e",
+    "label": "米",
+    "unit_type": "kg",
+    "volume": "10.00"
+  },
+  {
+    "cost": "7.20",
+    "id": "e6ff184a-0ed6-4317-b558-11451dbc6282",
+    "label": "芋頭巧(甜)",
+    "unit_type": "g",
+    "volume": "400.00"
+  },
+  {
+    "cost": "0.10",
+    "id": "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1",
+    "label": "水",
+    "unit_type": "l",
+    "volume": "1.00"
+  },
+  {
+    "cost": "40.00",
+    "id": "ea3fdb75-3777-49d6-8dc6-f8a2bdbfaf11",
+    "label": "滷大腸",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "eb023115-55fe-4cd7-ba71-30e8a7323160",
+    "label": "A1",
+    "unit_type": "g",
+    "volume": "280.00"
+  },
+  {
+    "cost": "4.50",
+    "id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
+    "label": "杏鮑菇",
+    "unit_type": "g",
+    "volume": "350.00"
+  },
+  {
+    "cost": "6.60",
+    "id": "eb2f97e5-e699-48c5-9e70-fca105282686",
+    "label": "雞心",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "25.00",
+    "id": "eb6f80ed-5d66-421a-be88-9834ae0e6bba",
+    "label": "百頁豆腐",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "5.00",
+    "id": "eb7e1387-61b0-42d9-aea8-f4327987c87f",
+    "label": "小黃瓜",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "38.40",
+    "id": "ebead413-7445-4e20-ae1a-d8b4e5c2809a",
+    "label": "蝦捲55G/捲",
+    "unit_type": "kg",
+    "volume": "3.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "ec865af0-5929-4f5d-b13f-5437097768bc",
+    "label": "Apple Sidra / 蘋果西打",
+    "unit_type": "pcs",
+    "volume": "1.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "ee39fd80-d972-42bc-b03f-63df0c6b6c3f",
+    "label": "9*9餐巾紙(紅色)",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "41.80",
+    "id": "f0331ef4-7d3d-479e-a183-a8871e23fabf",
+    "label": "豬肚",
+    "unit_type": "kg",
+    "volume": "5.50"
+  },
+  {
+    "cost": "48.00",
+    "id": "f0458965-4a17-4692-96b2-9cfb8f5b42cd",
+    "label": "大生蠔",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "4.00",
+    "id": "f0677d69-b6ea-45a2-88d9-43a47bfab5ff",
+    "label": "哈哈豆瓣醬",
+    "unit_type": "g",
+    "volume": "450.00"
+  },
+  {
+    "cost": "0.00",
+    "id": "f0785487-5b95-4606-a4e6-307e9a6d0875",
+    "label": "3M黑金鋼(焦炭)(菜瓜布)",
+    "unit_type": "g",
+    "volume": "1.00"
+  },
+  {
+    "cost": "7.00",
+    "id": "f19ebc56-00a0-4092-aca6-b5401e2bf235",
+    "label": "虱目魚",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
+    "cost": "2.30",
+    "id": "f47c06e1-d83e-4832-b6a1-a3a8d239e403",
+    "label": "金針菇",
+    "unit_type": "g",
+    "volume": "330.00"
+  },
+  {
+    "cost": "4.80",
+    "id": "f54eb7a1-8ab1-4e9d-aaf1-3aca3a4d4f3c",
+    "label": "蜂蜜",
+    "unit_type": "g",
+    "volume": "250.00"
+  },
+  {
+    "cost": "3.80",
+    "id": "f70262e5-bc95-4844-a583-1331e5b2abed",
+    "label": "豆瓣醬",
+    "unit_type": "g",
+    "volume": "360.00"
+  },
+  {
+    "cost": "18.45",
+    "id": "f7855492-a2dc-4938-928e-ed2aa2c4c426",
+    "label": "紅棗",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "3.50",
+    "id": "f7c87504-8a0a-4474-bb8d-a2ed136f61e3",
+    "label": "高麗菜",
+    "unit_type": "kg",
+    "volume": "1.00"
+  },
+  {
+    "cost": "6.00",
+    "id": "f7e3e337-bf66-4463-add0-5cf8c71549d2",
+    "label": "WWS牛奶",
+    "unit_type": "l",
+    "volume": "3.00"
+  },
+  {
+    "cost": "175.00",
+    "id": "fc46226a-db5d-4d68-af90-d6fc8711b7a9",
+    "label": "肉類醃漬粉B",
+    "unit_type": "g",
+    "volume": "12000.00"
+  },
+  {
+    "cost": "7.50",
+    "id": "fd1219ea-fcc3-4a83-8869-70883140b192",
+    "label": "花枝丸",
+    "unit_type": "g",
+    "volume": "430.00"
+  },
+  {
+    "cost": "20.50",
+    "id": "fe2c45f5-3cf9-4cc3-870d-aa2d98489f4d",
+    "label": "糖 ",
+    "unit_type": "g",
+    "volume": "12000.00"
+  }
+]

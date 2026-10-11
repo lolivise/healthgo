@@ -15,7 +15,7 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
-from . import config, store, vault
+from . import config, manual, store, vault
 
 log = logging.getLogger(__name__)
 
@@ -104,8 +104,52 @@ def write_entry(entry: dict) -> Path:
     return path
 
 
+def recipe_record(entry: dict) -> dict | None:
+    """An `eat` entry the bot built from the Cargill Cafe recipes (raw.source == "cargill-cafe", with a total
+    kcal) needs no judgement: return the eating_out record for it. Anything else (free text, no-recipe dishes)
+    returns None and waits for /log."""
+    if entry.get("kind") != "eat":
+        return None
+    try:
+        raw = json.loads(entry.get("raw") or "null")
+    except ValueError:
+        return None
+    if not isinstance(raw, dict) or raw.get("source") != "cargill-cafe":
+        return None
+    total = raw.get("total") or {}
+    if not isinstance(total.get("kcal"), (int, float)):
+        return None
+    day = raw.get("date")
+    if not day:
+        try:
+            ts = datetime.fromisoformat((entry.get("received_at") or "").replace("Z", "+00:00"))
+            day = ts.astimezone(config.tz()).date().isoformat()
+        except ValueError:
+            return None
+    g = lambda k: round(total[k], 1) if isinstance(total.get(k), (int, float)) else None
+    return {
+        "date": day, "meal": raw.get("meal"), "description": (entry.get("text") or "").strip() or "Cargill Cafe",
+        "est_kcal": round(total["kcal"]), "source": "cargill-cafe", "protein_g": g("protein"), "fat_g": g("fat"),
+        "carb_g": g("carb"), "items": raw.get("items") or [], "kcal_basis": "recipe", "inbox_id": entry.get("id"),
+    }
+
+
+def auto_record(entry: dict) -> bool:
+    """Record a recipe-based eat straight into data/manual/eating_out.jsonl and move its files to done/.
+    Idempotent per inbox id. Returns True when the entry was handled."""
+    rec = recipe_record(entry)
+    if rec is None:
+        return False
+    if not any(r.get("inbox_id") == rec["inbox_id"] and r.get("source") == "cargill-cafe"
+               for r in store.read_jsonl(config.MANUAL / "eating_out.jsonl")):
+        manual.add("eating_out", rec)
+    mark_done([entry["id"]])
+    return True
+
+
 def pull() -> int:
-    """Fetch and write new entries; returns how many. last id advances only past written entries."""
+    """Fetch and write new entries; returns how many. last id advances only past written entries.
+    Recipe-based Cargill eats are recorded and filed under done/ on the spot."""
     state = store.load_state()
     last = int(state.get("inbox_last_id", 0))
     entries = sorted(fetch_entries(last), key=lambda e: e["id"])
@@ -113,6 +157,8 @@ def pull() -> int:
     try:
         for e in entries:
             write_entry(e)
+            if auto_record(e):
+                log.info("inbox: entry %s recorded from the Cargill recipe", e["id"])
             last = e["id"]
             written += 1
     finally:

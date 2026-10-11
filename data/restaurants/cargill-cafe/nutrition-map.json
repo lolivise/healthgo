@@ -1,0 +1,4120 @@
+{
+  "shop": "cargill-cafe",
+  "built_at": "2026-10-11T08:24:52+00:00",
+  "sources": {
+    "tfda": "衛生福利部食品藥物管理署 食品營養成分資料庫 / 食品營養成分資料集 (data.fda.gov.tw InfoId 20, CSV export 20_2.csv, downloaded 2026-10-11, 2213 foods, per 100 g edible portion) https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+    "usda": "USDA FoodData Central SR Legacy (April 2018 CSV release) https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+  },
+  "ingredients": {
+    "f0785487-5b95-4606-a4e6-307e9a6d0875": {
+      "label": "3M黑金鋼(焦炭)(菜瓜布)",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food (scouring pad), zero nutrition"
+    },
+    "06492b69-4596-4b3f-8011-586028a1b417": {
+      "label": "9*9餐巾紙(白色)",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food (paper napkin), zero nutrition"
+    },
+    "ee39fd80-d972-42bc-b03f-63df0c6b6c3f": {
+      "label": "9*9餐巾紙(紅色)",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food (paper napkin), zero nutrition"
+    },
+    "43a81b56-cd2b-4926-a347-9f4d22235847": {
+      "label": "960外帶杯",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food packaging (takeaway cup), zero nutrition"
+    },
+    "6d9f58fb-1c0e-4128-bbb2-c769471b212e": {
+      "label": "一鑫餐具無爾臭臭鍋",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food (cutlery), zero nutrition"
+    },
+    "89507369-6ebf-4a68-95cb-c26bac36d883": {
+      "label": "四格便當盒",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food packaging (bento box), zero nutrition"
+    },
+    "141286eb-762a-4c74-9974-81582fd54f6b": {
+      "label": "四格便當盒蓋子",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food packaging (bento lid), zero nutrition"
+    },
+    "2bc5648e-2e8b-443f-a754-4757e124dfa7": {
+      "label": "封口機",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food equipment (sealer), zero nutrition"
+    },
+    "871390f3-be8d-4bd9-913e-bf3704025631": {
+      "label": "封口膜 (公版)",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food packaging (cup seal film), zero nutrition"
+    },
+    "25fcc32f-b67d-4086-ac9e-3dd90cd96706": {
+      "label": "搖飲料機 (含有CE認證)",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food equipment, zero nutrition"
+    },
+    "63cb6224-105f-4b18-ae1d-da768805bc2c": {
+      "label": "紙杯 (16盎司) (公版)",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food packaging (paper cup), zero nutrition"
+    },
+    "4ac729a5-48e5-4bbe-8c6f-5e0fa89205cb": {
+      "label": "涼麵盒",
+      "source": "manual",
+      "source_id": "nonfood",
+      "source_name": "non-food item",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "non-food packaging (noodle box), zero nutrition"
+    },
+    "5edb4da5-b546-42c5-b1ac-479aef2870da": {
+      "label": "水",
+      "source": "manual",
+      "source_id": "water",
+      "source_name": "water",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "g_per_ml": 1.0,
+      "confidence": "high",
+      "note": "water, zero kcal"
+    },
+    "ea366c23-a6c9-4ad7-ad8d-1359e3e74aa1": {
+      "label": "水",
+      "source": "manual",
+      "source_id": "water",
+      "source_name": "water",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "g_per_ml": 1.0,
+      "confidence": "high",
+      "note": "water, zero kcal"
+    },
+    "677d34f8-3d71-415a-8b80-cfc5fbb5ca81": {
+      "label": "台鹽水",
+      "source": "manual",
+      "source_id": "water",
+      "source_name": "water",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "g_per_unit": {
+        "瓶": 600
+      },
+      "confidence": "medium",
+      "note": "bottled water, zero kcal; 1 bottle assumed 600 ml (20-pack $28 = $1.40/bottle) so ~600 g"
+    },
+    "d15390ed-93e6-491e-9cc5-c9107c2a5a98": {
+      "label": "鹽",
+      "source": "manual",
+      "source_id": "salt",
+      "source_name": "table salt (NaCl)",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "fat": 0,
+        "carb": 0
+      },
+      "confidence": "high",
+      "note": "table salt: zero kcal/protein/fat/carb (sodium chloride)"
+    },
+    "7c5fce2a-d9f8-4019-ac0f-4e8a5ed02753": {
+      "label": "小蘇打粉",
+      "source": "usda",
+      "source_id": "175040",
+      "source_name": "Leavening agents, baking soda",
+      "per100g": {
+        "kcal": 0.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "baking soda, zero kcal"
+    },
+    "eb023115-55fe-4cd7-ba71-30e8a7323160": {
+      "label": "A1",
+      "source": "usda",
+      "source_id": "171825",
+      "source_name": "Sauce, steak, tomato based",
+      "per100g": {
+        "kcal": 95.0,
+        "protein": 1.25,
+        "fat": 0.23,
+        "carb": 22.04
+      },
+      "confidence": "medium",
+      "note": "A.1.-style tomato-based steak sauce (USDA generic, not brand label)"
+    },
+    "ec865af0-5929-4f5d-b13f-5437097768bc": {
+      "label": "Apple Sidra / 蘋果西打",
+      "source": "tfda",
+      "source_id": "O0600601",
+      "source_name": "汽水(綜合口味) / Soda pop",
+      "per100g": {
+        "kcal": 42.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 10.6
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "canned soda proxy (TFDA 汽水 綜合口味); 1 can assumed 330 ml (~340 g); brand label not checked (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(碳酸水.糖.香料等); 前處理描述:混合均勻]"
+    },
+    "a11d5862-01aa-452a-b55f-5f147bbf2c09": {
+      "label": "CC Lemon / CC檸檬",
+      "source": "tfda",
+      "source_id": "O0700601",
+      "source_name": "紅茶(大麥) / Black tea",
+      "per100g": {
+        "kcal": 34.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 8.6
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "TFDA 汽水(維生素強化) as proxy for CC Lemon; 330 ml can assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:瓶裝(紅茶,大麥,糖等); 前處理描述:混合均勻]"
+    },
+    "cc5170cd-71cc-452e-b710-fff78807478d": {
+      "label": "Coke / 可樂",
+      "source": "tfda",
+      "source_id": "O0600101",
+      "source_name": "可樂 / Coca cola",
+      "per100g": {
+        "kcal": 51.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 12.8
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "medium",
+      "note": "TFDA 可樂 罐裝 (note: AU label Coke is ~42 kcal/100 ml, TFDA 51; macros blank in TFDA = 0); 330 ml can assumed (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(碳酸水.咖啡因.糖等); 前處理描述:混合圴勻]"
+    },
+    "26f0542e-7004-4ea2-9874-7ad2485d8da1": {
+      "label": "Coke-Zero Sugar / 無糖可樂",
+      "source": "tfda",
+      "source_id": "O0600201",
+      "source_name": "可樂(低熱量) / Diet coke",
+      "per100g": {
+        "kcal": 1.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 0.3
+      },
+      "g_per_unit": {
+        "pcs": 330
+      },
+      "confidence": "medium",
+      "note": "TFDA 可樂(低熱量); 330 ml can assumed (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(碳酸水.咖啡因.焦糖等); 前處理描述:混合均勻]"
+    },
+    "b8f3b97f-d6b6-4634-a869-12765d9bfc7b": {
+      "label": "Gudao Apple Peach Tea / 古道雙味果茶",
+      "source": "tfda",
+      "source_id": "O0702801",
+      "source_name": "冬瓜茶 / White gourd drink",
+      "per100g": {
+        "kcal": 33.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 8.3
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA bottled sweet tea (冬瓜茶), actual sweetness unknown; 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(冬瓜,糖,檸檬酸等); 前處理描述:混合均勻]"
+    },
+    "b0ea624b-a465-467f-9f92-55e369471990": {
+      "label": "Gudao Passion fruit green tea / 古道百香果綠茶",
+      "source": "tfda",
+      "source_id": "O0702801",
+      "source_name": "冬瓜茶 / White gourd drink",
+      "per100g": {
+        "kcal": 33.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 8.3
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA bottled sweet tea (冬瓜茶), actual sweetness unknown; 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(冬瓜,糖,檸檬酸等); 前處理描述:混合均勻]"
+    },
+    "00a51c69-ebee-444d-9748-8c51388303ed": {
+      "label": "Gudao Plum green tea / 古道梅子綠茶",
+      "source": "tfda",
+      "source_id": "O0702801",
+      "source_name": "冬瓜茶 / White gourd drink",
+      "per100g": {
+        "kcal": 33.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 8.3
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA bottled sweet tea (冬瓜茶), actual sweetness unknown; 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(冬瓜,糖,檸檬酸等); 前處理描述:混合均勻]"
+    },
+    "142124b9-97c5-4188-80ef-2a327fe84d94": {
+      "label": "HeySong Sarsaparilla / 黑松沙士",
+      "source": "tfda",
+      "source_id": "O0600301",
+      "source_name": "沙士 / Root beer",
+      "per100g": {
+        "kcal": 37.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 9.2
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "medium",
+      "note": "TFDA 沙士 (matches HeySong); 330 ml assumed (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(碳酸水,蔗糖,檸檬酸等); 前處理描述:混合均勻]"
+    },
+    "4f935e06-d106-40bc-941e-a0b2a4ea04e5": {
+      "label": "Oi Ocha Hojicha Tea / 伊藤園焙茶",
+      "source": "tfda",
+      "source_id": "O0701301",
+      "source_name": "綠茶茶湯 / Green tea",
+      "per100g": {
+        "kcal": 0.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 0.0
+      },
+      "g_per_unit": {
+        "pcs": 330
+      },
+      "confidence": "medium",
+      "note": "unsweetened roasted green tea ~0 kcal (TFDA 綠茶茶湯 proxy); 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:每茶袋以約90℃自來水240mL浸泡4分鐘,取湯汁混合均勻]"
+    },
+    "7c2ec36f-665d-438b-b407-8587bb6f9963": {
+      "label": "Pocari sweat / 寶礦力水得",
+      "source": "tfda",
+      "source_id": "O0703301",
+      "source_name": "運動飲料 / Isotonic drink",
+      "per100g": {
+        "kcal": 28.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 7.0
+      },
+      "g_per_unit": {
+        "pcs": 345
+      },
+      "confidence": "high",
+      "note": "TFDA 運動飲料 (Pocari ~27 kcal/100 ml); 340 ml can assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:瓶裝(含維生素C及礦物質Na,K,Ca,Mg等); 前處理描述:混合均勻]"
+    },
+    "6ec2b359-3588-4594-b17f-366f3ccc9030": {
+      "label": "Sprite / 雪碧",
+      "source": "tfda",
+      "source_id": "O0600601",
+      "source_name": "汽水(綜合口味) / Soda pop",
+      "per100g": {
+        "kcal": 42.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 10.6
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "medium",
+      "note": "TFDA 汽水(綜合口味) proxy for Sprite; 330 ml can (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(碳酸水.糖.香料等); 前處理描述:混合均勻]"
+    },
+    "28ef6679-9541-4968-b8b1-d95c92cd805c": {
+      "label": "Vitali / 維大力",
+      "source": "tfda",
+      "source_id": "O0600701",
+      "source_name": "汽水(維生素強化)",
+      "per100g": {
+        "kcal": 46.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 11.5
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA 汽水(維生素強化) for Vitali (sweet soda); 330 ml assumed (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(胡蘿蔔素,維生素B2等); 前處理描述:混合均勻]"
+    },
+    "9dbb076b-6adc-414e-9806-10e18ee10e9d": {
+      "label": "itoen golden Oolong Tea(1) / 伊藤園黃金烏龍",
+      "source": "tfda",
+      "source_id": "O0700801",
+      "source_name": "烏龍茶茶湯 / OoLong tea",
+      "per100g": {
+        "kcal": 0.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 0.0
+      },
+      "g_per_unit": {
+        "pcs": 330
+      },
+      "confidence": "medium",
+      "note": "unsweetened oolong ~0 kcal (TFDA 烏龍茶茶湯); 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:每茶袋以約90℃自來水240mL浸泡四分鐘,取湯汁混合均勻]"
+    },
+    "7ecaa9c7-bbbd-4137-a4ce-126d808fac18": {
+      "label": "itoen green tea no sugar / 伊藤園日式無糖綠茶",
+      "source": "tfda",
+      "source_id": "O0701301",
+      "source_name": "綠茶茶湯 / Green tea",
+      "per100g": {
+        "kcal": 0.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 0.0
+      },
+      "g_per_unit": {
+        "pcs": 330
+      },
+      "confidence": "medium",
+      "note": "unsweetened green tea ~0 kcal (TFDA 綠茶茶湯); 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:每茶袋以約90℃自來水240mL浸泡4分鐘,取湯汁混合均勻]"
+    },
+    "a50dc385-b9bf-4777-b665-807a05f35fe3": {
+      "label": "uni-president black tea / 麥香紅茶",
+      "source": "tfda",
+      "source_id": "O0702801",
+      "source_name": "冬瓜茶 / White gourd drink",
+      "per100g": {
+        "kcal": 33.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 8.3
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA bottled sweet tea; Mai Xiang black tea sweetness unverified; 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(冬瓜,糖,檸檬酸等); 前處理描述:混合均勻]"
+    },
+    "96c2d5d8-931b-47cf-9194-4dcde1e2b949": {
+      "label": "uni-president green Tea / 麥香綠茶",
+      "source": "tfda",
+      "source_id": "O0702801",
+      "source_name": "冬瓜茶 / White gourd drink",
+      "per100g": {
+        "kcal": 33.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 8.3
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA bottled sweet tea; sweetness unverified; 330 ml assumed (TFDA leaves fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(冬瓜,糖,檸檬酸等); 前處理描述:混合均勻]"
+    },
+    "328498e5-58ed-4585-a0d0-be55d3656df9": {
+      "label": "uni-president milk Tea / 麥香奶茶",
+      "source": "tfda",
+      "source_id": "O0701701",
+      "source_name": "烏龍奶茶(去冰,微糖)",
+      "per100g": {
+        "kcal": 59.0,
+        "protein": 0.2,
+        "fat": 2.9,
+        "carb": 8.1
+      },
+      "g_per_unit": {
+        "pcs": 340
+      },
+      "confidence": "low",
+      "note": "proxy: TFDA 烏龍奶茶(微糖) for bottled milk tea; 330 ml assumed [TFDA sample: 樣品狀態:現調飲料(大杯,約700 mL); 前處理描述:混合均勻]"
+    },
+    "b67de4ea-83a6-4fb7-af5a-e932cc0d9995": {
+      "label": "Barramundi",
+      "source": "tfda",
+      "source_id": "J0404402",
+      "source_name": "日本花鱸((3月) / Perch",
+      "per100g": {
+        "kcal": 100.0,
+        "protein": 20.0,
+        "fat": 1.6,
+        "carb": 0.5
+      },
+      "confidence": "medium",
+      "note": "Barramundi (Asian sea bass) -> TFDA 日本花鱸 (raw fillet) as closest lean sea bass; fillet weights assumed [TFDA sample: 樣品狀態:生; 前處理描述:去鱗,去皮,去頭尾,去內臟及骨刺,混合均勻打碎]"
+    },
+    "2f1a12c8-c98e-4d75-a09c-b687aeaf3b76": {
+      "label": "HAKE",
+      "source": "usda",
+      "source_id": "173713",
+      "source_name": "Fish, whiting, mixed species, raw",
+      "per100g": {
+        "kcal": 90.0,
+        "protein": 18.31,
+        "fat": 1.31,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "hake -> USDA whiting (silver hake) raw"
+    },
+    "51f49ce1-64d9-4683-95d9-d57a310a45b9": {
+      "label": "Snapper",
+      "source": "usda",
+      "source_id": "173698",
+      "source_name": "Fish, snapper, mixed species, raw",
+      "per100g": {
+        "kcal": 100.0,
+        "protein": 20.51,
+        "fat": 1.34,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "snapper raw, USDA mixed species"
+    },
+    "552429f1-351b-44aa-9822-9432fe5674cb": {
+      "label": "shark",
+      "source": "tfda",
+      "source_id": "J0200201",
+      "source_name": "雙髻鯊 / Hammerhead",
+      "per100g": {
+        "kcal": 117.0,
+        "protein": 27.4,
+        "fat": 0.1,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "shark raw (TFDA 雙髻鯊); USDA shark is 130 kcal, fattier [TFDA sample: 樣品狀態:生; 前處理描述:去鱗,含皮,去頭尾,去內臟及骨刺,混合均勻打碎]"
+    },
+    "15a45093-721a-46e8-8721-099525c47aaf": {
+      "label": "CHICKEN SALTS 雞鹽",
+      "source": "tfda",
+      "source_id": "P0400301",
+      "source_name": "鮮雞精 / Granulated chicken stock",
+      "per100g": {
+        "kcal": 267.0,
+        "protein": 10.8,
+        "fat": 10.1,
+        "carb": 33.3
+      },
+      "confidence": "low",
+      "note": "chicken salt/powder proxy (TFDA 鮮雞精); only 1 g used [TFDA sample: 前處理描述:混合均勻(鹽,糖,玉米澱粉,雞肉,雞油,味精,香料等)]"
+    },
+    "98ce5e90-f533-4ff2-9395-bf6385223010": {
+      "label": "E1422乙醯化雙澱粉己二酸酯",
+      "source": "tfda",
+      "source_id": "B0720101",
+      "source_name": "馬鈴薯粉 / Potato starch",
+      "per100g": {
+        "kcal": 346.0,
+        "protein": 0.1,
+        "fat": 0.1,
+        "carb": 83.8
+      },
+      "confidence": "low",
+      "note": "modified starch (E1422) proxy: TFDA 馬鈴薯粉 [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "9dbfcc7f-353b-47c8-8bd8-a8e53e098ad3": {
+      "label": "WWS新鮮蘑菇",
+      "source": "tfda",
+      "source_id": "G2000101",
+      "source_name": "洋菇 / Mushroom",
+      "per100g": {
+        "kcal": 25.0,
+        "protein": 3.0,
+        "fat": 0.2,
+        "carb": 3.8
+      },
+      "confidence": "high",
+      "note": "raw button mushroom [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "f7e3e337-bf66-4463-add0-5cf8c71549d2": {
+      "label": "WWS牛奶",
+      "source": "tfda",
+      "source_id": "L0102103",
+      "source_name": "全脂鮮乳(6月取樣) / Whole fresh milk",
+      "per100g": {
+        "kcal": 63.0,
+        "protein": 3.2,
+        "fat": 3.6,
+        "carb": 4.6
+      },
+      "g_per_ml": 1.03,
+      "confidence": "high",
+      "note": "full-cream fresh milk [TFDA sample: 樣品狀態:全脂(3.0-3.8%)鮮乳; 前處理描述:混合均勻]"
+    },
+    "37f2ac2f-6105-4e3d-9f40-079b948b4b7b": {
+      "label": "chips",
+      "source": "tfda",
+      "source_id": "R4100401",
+      "source_name": "冷凍馬鈴薯條 / French fries: potato",
+      "per100g": {
+        "kcal": 151.0,
+        "protein": 2.2,
+        "fat": 4.5,
+        "carb": 25.5
+      },
+      "confidence": "medium",
+      "note": "frozen potato fries (as packaged, before frying; frying oil uptake not included) [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "ce0050ab-2554-4253-8c09-7dc3aa37515e": {
+      "label": "chuck肩頰",
+      "source": "tfda",
+      "source_id": "I0102101",
+      "source_name": "板腱  / Top blade muscle",
+      "per100g": {
+        "kcal": 166.0,
+        "protein": 19.8,
+        "fat": 9.0,
+        "carb": 0.2
+      },
+      "confidence": "low",
+      "note": "beef chuck -> TFDA 板腱 (chuck blade) raw [TFDA sample: 樣品狀態:生,牛肩胛部位,冷凍產品; 前處理描述:混合均勻打碎]"
+    },
+    "a309bd33-9dcc-4e4d-9b4e-927f1b0689b5": {
+      "label": "魷魚圈(艾瑪)",
+      "source": "tfda",
+      "source_id": "J3500301",
+      "source_name": "阿根廷魷 / Argentine shortfin squid",
+      "per100g": {
+        "kcal": 71.0,
+        "protein": 12.4,
+        "fat": 2.0,
+        "carb": 0.4
+      },
+      "confidence": "low",
+      "note": "squid rings; raw squid proxy, brand product may be breaded [TFDA sample: 樣品狀態:生; 前處理描述:去外皮及骨刺,混合均勻打碎]"
+    },
+    "b9f3ef75-cee2-4b85-8130-a8e59f41f4e7": {
+      "label": "魷魚圈",
+      "source": "tfda",
+      "source_id": "J3500301",
+      "source_name": "阿根廷魷 / Argentine shortfin squid",
+      "per100g": {
+        "kcal": 71.0,
+        "protein": 12.4,
+        "fat": 2.0,
+        "carb": 0.4
+      },
+      "confidence": "low",
+      "note": "squid rings, raw squid proxy (may be pre-battered) [TFDA sample: 樣品狀態:生; 前處理描述:去外皮及骨刺,混合均勻打碎]"
+    },
+    "548ca94d-39e1-4dd0-8c87-61aec91a0c08": {
+      "label": "切好的魷魚圈",
+      "source": "tfda",
+      "source_id": "J3500301",
+      "source_name": "阿根廷魷 / Argentine shortfin squid",
+      "per100g": {
+        "kcal": 71.0,
+        "protein": 12.4,
+        "fat": 2.0,
+        "carb": 0.4
+      },
+      "confidence": "medium",
+      "note": "cut squid rings, raw squid [TFDA sample: 樣品狀態:生; 前處理描述:去外皮及骨刺,混合均勻打碎]"
+    },
+    "7d836c85-cd05-4104-86d7-475ab5ddda8a": {
+      "label": "三色蒟蒻",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "konjac cake: not in TFDA/USDA tables; essentially <10 kcal/100 g but not entered (never invented)"
+    },
+    "60199730-9dc9-4f1d-bc86-33fe6804547d": {
+      "label": "蒟蒻",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "konjac: no matching entry (near-zero kcal)"
+    },
+    "dd36d70e-eb8e-46de-b5b9-cd1f31eac3da": {
+      "label": "九層塔",
+      "source": "tfda",
+      "source_id": "E2700101",
+      "source_name": "九層塔 / Basil",
+      "per100g": {
+        "kcal": 27.0,
+        "protein": 2.9,
+        "fat": 0.3,
+        "carb": 4.4
+      },
+      "confidence": "high",
+      "note": "Thai basil raw [TFDA sample: 樣品狀態:生; 前處理描述:去粗梗,混合均勻打碎]"
+    },
+    "21bbaec4-4f33-4093-a5de-ee643ea5a734": {
+      "label": "乾香菇",
+      "source": "tfda",
+      "source_id": "G0810101",
+      "source_name": "乾香菇 / Mushroom: dry",
+      "per100g": {
+        "kcal": 333.0,
+        "protein": 23.3,
+        "fat": 1.4,
+        "carb": 66.6
+      },
+      "confidence": "high",
+      "note": "dried shiitake (dry weight; if weighed rehydrated, use much lower) [TFDA sample: 樣品狀態:乾貨; 前處理描述:混合均勻打碎]"
+    },
+    "57e11ab0-ae13-4208-a08a-2cfe79e807b1": {
+      "label": "五花肉",
+      "source": "tfda",
+      "source_id": "I0308201",
+      "source_name": "豬帶皮腹脇肉 / Pork belly meat: lean and fat",
+      "per100g": {
+        "kcal": 368.0,
+        "protein": 14.5,
+        "fat": 33.9,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "pork belly with skin, raw [TFDA sample: 樣品狀態:生,豬腹脇部位; 前處理描述:帶皮,混合均勻打碎]"
+    },
+    "91c897d1-ff31-47f9-bd67-b7a5e9120b4e": {
+      "label": "五花豬肉捲",
+      "source": "tfda",
+      "source_id": "I0308101",
+      "source_name": "豬去皮腹脇肉 / Pork belly meat: lean and fat",
+      "per100g": {
+        "kcal": 360.0,
+        "protein": 14.9,
+        "fat": 32.9,
+        "carb": 0.5
+      },
+      "confidence": "medium",
+      "note": "pork belly rolls (hot-pot slices), TFDA belly skinless raw [TFDA sample: 樣品狀態:生,豬腹脇部位; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "279a7d1a-f821-4ce2-acec-04d724c31435": {
+      "label": "豬肉捲",
+      "source": "tfda",
+      "source_id": "I0308201",
+      "source_name": "豬帶皮腹脇肉 / Pork belly meat: lean and fat",
+      "per100g": {
+        "kcal": 368.0,
+        "protein": 14.5,
+        "fat": 33.9,
+        "carb": 0.0
+      },
+      "confidence": "low",
+      "note": "pork rolls (hot pot slices): assumed belly with skin raw; may be leaner [TFDA sample: 樣品狀態:生,豬腹脇部位; 前處理描述:帶皮,混合均勻打碎]"
+    },
+    "449489a7-fe17-47f4-8247-8ed840732580": {
+      "label": "五香粉",
+      "source": "tfda",
+      "source_id": "P0100401",
+      "source_name": "五香粉",
+      "per100g": {
+        "kcal": 363.0,
+        "protein": 8.7,
+        "fat": 8.9,
+        "carb": 68.1
+      },
+      "confidence": "high",
+      "note": "five-spice powder [TFDA sample: 前處理描述:混合均勻(丁香,大茴,桂智,小茴,甘草等)]"
+    },
+    "4e76de75-51f5-4827-8321-bb754e4e6e8b": {
+      "label": "仙草粉",
+      "source": "tfda",
+      "source_id": "B0720101",
+      "source_name": "馬鈴薯粉 / Potato starch",
+      "per100g": {
+        "kcal": 346.0,
+        "protein": 0.1,
+        "fat": 0.1,
+        "carb": 83.8
+      },
+      "confidence": "low",
+      "note": "grass-jelly powder (starch + gelling) proxy: TFDA 馬鈴薯粉 [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "16b548ea-bb4e-447a-b752-6096e21bf4b5": {
+      "label": "仙草粉",
+      "source": "tfda",
+      "source_id": "B0720101",
+      "source_name": "馬鈴薯粉 / Potato starch",
+      "per100g": {
+        "kcal": 346.0,
+        "protein": 0.1,
+        "fat": 0.1,
+        "carb": 83.8
+      },
+      "confidence": "low",
+      "note": "grass-jelly powder (starch + gelling) proxy: TFDA 馬鈴薯粉 [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "342ee48a-0b8e-48c7-b3c9-fe682ebd3f82": {
+      "label": "元氣東部米",
+      "source": "tfda",
+      "source_id": "A05002",
+      "source_name": "稉米平均值 / Short grain rice",
+      "per100g": {
+        "kcal": 354.0,
+        "protein": 7.0,
+        "fat": 0.7,
+        "carb": 77.8
+      },
+      "confidence": "medium",
+      "note": "short-grain white rice (raw) TFDA average [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻磨碎]"
+    },
+    "e313edac-5749-44ce-b165-1ba3e16a45ce": {
+      "label": "台梗9號",
+      "source": "tfda",
+      "source_id": "A0500205",
+      "source_name": "稉米(台稉9號) / Short grain rice",
+      "per100g": {
+        "kcal": 353.0,
+        "protein": 6.6,
+        "fat": 0.6,
+        "carb": 78.2
+      },
+      "confidence": "high",
+      "note": "short-grain white rice 台稉9號 raw [TFDA sample: 樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎]"
+    },
+    "34f32282-2128-46fa-ba6e-c51d8c3fe533": {
+      "label": "台灣越光米",
+      "source": "tfda",
+      "source_id": "A0500302",
+      "source_name": "越光米(台南16號)(2024年取樣) / Rice Tainan 16",
+      "per100g": {
+        "kcal": 356.0,
+        "protein": 6.9,
+        "fat": 0.3,
+        "carb": 79.1
+      },
+      "confidence": "high",
+      "note": "Koshihikari 越光米 raw (TFDA 台南16號 2024) [TFDA sample: 樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎]"
+    },
+    "e5107cd6-b45b-4e9c-ba9b-5ff784e4e25e": {
+      "label": "米",
+      "source": "tfda",
+      "source_id": "A05002",
+      "source_name": "稉米平均值 / Short grain rice",
+      "per100g": {
+        "kcal": 354.0,
+        "protein": 7.0,
+        "fat": 0.7,
+        "carb": 77.8
+      },
+      "confidence": "high",
+      "note": "white rice, raw (TFDA 稉米平均值). Rice component 飯 is 1 kg raw -> 2 kg cooked [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻磨碎]"
+    },
+    "a5d2743e-4f6e-4743-b3bd-a0d8f4be7d4e": {
+      "label": "紫米",
+      "source": "tfda",
+      "source_id": "A0500801",
+      "source_name": "黑秈糯糙米 / Black glutinous rice",
+      "per100g": {
+        "kcal": 357.0,
+        "protein": 10.1,
+        "fat": 3.5,
+        "carb": 70.1
+      },
+      "confidence": "medium",
+      "note": "black glutinous brown rice (purple rice) raw [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻磨碎]"
+    },
+    "0f9a5e79-fecc-40e3-82fa-dccd321f5afd": {
+      "label": "八角",
+      "source": "tfda",
+      "source_id": "P0100101",
+      "source_name": "八角 / Star anise",
+      "per100g": {
+        "kcal": 360.0,
+        "protein": 4.9,
+        "fat": 3.9,
+        "carb": 76.2
+      },
+      "confidence": "high",
+      "note": "star anise [TFDA sample: 前處理描述:混合均勻打碎]"
+    },
+    "776f87f9-70e8-4a90-91fe-445f4485552f": {
+      "label": "冰糖",
+      "source": "tfda",
+      "source_id": "N0100201",
+      "source_name": "冰糖 / Candy sugar",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 99.9
+      },
+      "confidence": "high",
+      "note": "rock sugar (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻打碎(蔗糖提煉,自然提煉)]"
+    },
+    "731fca82-d20d-4edb-93e6-7ced9800f05c": {
+      "label": "冷凍鴨(紅)",
+      "source": "tfda",
+      "source_id": "I0500201",
+      "source_name": "番鴨 / Muscovy duck",
+      "per100g": {
+        "kcal": 229.0,
+        "protein": 18.2,
+        "fat": 16.7,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "red-face (Muscovy cross) duck whole meat+skin raw; bone weight not removed -> overstates if bone-in [TFDA sample: 樣品狀態:生,全鴨肉; 前處理描述:去頭腳,去骨及內臟,混合均勻打碎]"
+    },
+    "0a23f8e1-f0d1-4072-b9a5-78191bb5c8dd": {
+      "label": "半殼淡菜",
+      "source": "tfda",
+      "source_id": "J3100501",
+      "source_name": "綠殼菜蛤 / Green Mussel",
+      "per100g": {
+        "kcal": 96.0,
+        "protein": 17.8,
+        "fat": 2.2,
+        "carb": 2.6
+      },
+      "confidence": "low",
+      "note": "mussel meat raw; half-shell weight incl shell would be much lower edible fraction [TFDA sample: 樣品狀態:生; 前處理描述:去殼,混合均勻打碎]"
+    },
+    "2e75b3e1-7c1f-451d-bfc8-8f33f3abae36": {
+      "label": "古早食品蚵仔麵線",
+      "source": "tfda",
+      "source_id": "R1900301",
+      "source_name": "麵線 / Shou noodle/Vermicelli/-",
+      "per100g": {
+        "kcal": 350.0,
+        "protein": 11.7,
+        "fat": 1.5,
+        "carb": 72.4
+      },
+      "confidence": "medium",
+      "note": "dried 麵線 product (TFDA 麵線) [TFDA sample: 前處理描述:混合均勻打碎(麵粉,鹽,水,澱粉等)]"
+    },
+    "cda10449-4bd1-4089-8b7d-7be85db3263e": {
+      "label": "台灣麵",
+      "source": "tfda",
+      "source_id": "R2001101",
+      "source_name": "衛生油麵 / Oil noodle (cooked)",
+      "per100g": {
+        "kcal": 163.0,
+        "protein": 5.5,
+        "fat": 1.8,
+        "carb": 31.2
+      },
+      "confidence": "medium",
+      "note": "pre-boiled yellow oil noodle 衛生油麵 (cooked) [TFDA sample: 樣品狀態:濕麵條(麵粉,食油,鹼粉等); 前處理描述:混合均勻打碎]"
+    },
+    "6fa854b7-2261-4ce3-86b3-875c86e87749": {
+      "label": "味噌",
+      "source": "tfda",
+      "source_id": "P1200101",
+      "source_name": "味噌",
+      "per100g": {
+        "kcal": 215.0,
+        "protein": 10.6,
+        "fat": 4.5,
+        "carb": 33.1
+      },
+      "confidence": "high",
+      "note": "miso [TFDA sample: 前處理描述:混合均勻(米,黃豆,鹽等)]"
+    },
+    "9d002521-acd0-461d-acfe-dd500c9cf32c": {
+      "label": "味精",
+      "source": "tfda",
+      "source_id": "P0400101",
+      "source_name": "味精 / Monosodium glutamate",
+      "per100g": {
+        "kcal": 251.0,
+        "protein": 44.5,
+        "fat": 0.0,
+        "carb": 18.1
+      },
+      "confidence": "high",
+      "note": "MSG (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(L-麩酸鈉)]"
+    },
+    "f0677d69-b6ea-45a2-88d9-43a47bfab5ff": {
+      "label": "哈哈豆瓣醬",
+      "source": "tfda",
+      "source_id": "P1004201",
+      "source_name": "辣豆瓣醬",
+      "per100g": {
+        "kcal": 100.0,
+        "protein": 4.5,
+        "fat": 3.3,
+        "carb": 13.1
+      },
+      "confidence": "low",
+      "note": "chili bean paste proxy (TFDA 辣豆瓣醬), brand not verified [TFDA sample: 前處理描述:混合均勻打碎(辣椒,黃豆,醬油,麻油,鹽,糖,調味料等)]"
+    },
+    "63dc2187-a3af-44d9-b6d7-1a36d7ede420": {
+      "label": "土魠魚塊",
+      "source": "tfda",
+      "source_id": "J0414401",
+      "source_name": "康氏馬加鰆切片(含皮) / Spaniard",
+      "per100g": {
+        "kcal": 176.0,
+        "protein": 19.3,
+        "fat": 10.4,
+        "carb": 1.5
+      },
+      "confidence": "medium",
+      "note": "Spanish mackerel with skin raw (before any coating/frying) [TFDA sample: 樣品狀態:生; 前處理描述:含皮,去骨刺,混合均勻打碎]"
+    },
+    "2178aa23-efc2-42f8-b923-3c89a8926aff": {
+      "label": "在來米粉",
+      "source": "tfda",
+      "source_id": "A0520201",
+      "source_name": "秈米粉 / Long-grain rice powder",
+      "per100g": {
+        "kcal": 363.0,
+        "protein": 4.2,
+        "fat": 0.4,
+        "carb": 83.4
+      },
+      "confidence": "high",
+      "note": "rice flour (在來米粉) [TFDA sample: 樣品狀態:水磨在來米粉; 前處理描述:混合均勻]"
+    },
+    "b6e5d9ea-1f34-47c1-8ff8-720b5a15c42b": {
+      "label": "在來米粉",
+      "source": "tfda",
+      "source_id": "A0520201",
+      "source_name": "秈米粉 / Long-grain rice powder",
+      "per100g": {
+        "kcal": 363.0,
+        "protein": 4.2,
+        "fat": 0.4,
+        "carb": 83.4
+      },
+      "confidence": "high",
+      "note": "rice flour (在來米粉) [TFDA sample: 樣品狀態:水磨在來米粉; 前處理描述:混合均勻]"
+    },
+    "b949df05-ec28-428b-bdca-b91ebc13ff78": {
+      "label": "地瓜球",
+      "source": "tfda",
+      "source_id": "R4100301",
+      "source_name": "冷凍甘薯條 / French fries: sweet potato",
+      "per100g": {
+        "kcal": 182.0,
+        "protein": 1.8,
+        "fat": 6.5,
+        "carb": 29.0
+      },
+      "confidence": "low",
+      "note": "sweet-potato balls: proxy TFDA 冷凍甘薯條; actual product (fried dough) differs [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "c706efb4-7eb7-496e-ac5d-b1713c80009e": {
+      "label": "地瓜球",
+      "source": "tfda",
+      "source_id": "R4100301",
+      "source_name": "冷凍甘薯條 / French fries: sweet potato",
+      "per100g": {
+        "kcal": 182.0,
+        "protein": 1.8,
+        "fat": 6.5,
+        "carb": 29.0
+      },
+      "confidence": "low",
+      "note": "sweet-potato balls: proxy TFDA 冷凍甘薯條 [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "a9f762e9-b08a-4e82-b1be-e959a35bf086": {
+      "label": "地瓜球(瓜瓜園)",
+      "source": "tfda",
+      "source_id": "R4100301",
+      "source_name": "冷凍甘薯條 / French fries: sweet potato",
+      "per100g": {
+        "kcal": 182.0,
+        "protein": 1.8,
+        "fat": 6.5,
+        "carb": 29.0
+      },
+      "confidence": "low",
+      "note": "sweet-potato balls: proxy TFDA 冷凍甘薯條 [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "ba904d39-702d-41f0-a914-dbbfd2f0081c": {
+      "label": "地瓜粉",
+      "source": "tfda",
+      "source_id": "B0420101",
+      "source_name": "甘藷粉 / Sweet potato starch",
+      "per100g": {
+        "kcal": 358.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 85.5
+      },
+      "confidence": "high",
+      "note": "sweet potato starch [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "38a52f9f-0d52-41d8-940c-379f55784a62": {
+      "label": "地瓜粉(小)",
+      "source": "tfda",
+      "source_id": "B0420101",
+      "source_name": "甘藷粉 / Sweet potato starch",
+      "per100g": {
+        "kcal": 358.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 85.5
+      },
+      "confidence": "high",
+      "note": "sweet potato starch [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "36314ac8-a748-45db-b2ab-2bddb78db0fd": {
+      "label": "地瓜薯條(瓜瓜園)",
+      "source": "tfda",
+      "source_id": "R4100301",
+      "source_name": "冷凍甘薯條 / French fries: sweet potato",
+      "per100g": {
+        "kcal": 182.0,
+        "protein": 1.8,
+        "fat": 6.5,
+        "carb": 29.0
+      },
+      "confidence": "medium",
+      "note": "frozen sweet-potato fries as packaged (before frying) [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "d84bd354-b05a-42f9-b5b1-e51ae6cf109a": {
+      "label": "塔塔醬",
+      "source": "usda",
+      "source_id": "171826",
+      "source_name": "Sauce, tartar, ready-to-serve",
+      "per100g": {
+        "kcal": 211.0,
+        "protein": 1.0,
+        "fat": 16.7,
+        "carb": 13.3
+      },
+      "confidence": "medium",
+      "note": "tartar sauce, USDA ready-to-serve"
+    },
+    "a5d02ada-a4ad-4743-8d95-4659fd5abce5": {
+      "label": "大地魚粉",
+      "source": "tfda",
+      "source_id": "J0800401",
+      "source_name": "柴魚片 / Dried bonito flakes",
+      "per100g": {
+        "kcal": 383.0,
+        "protein": 76.5,
+        "fat": 6.2,
+        "carb": 2.6
+      },
+      "confidence": "low",
+      "note": "flatfish powder proxy: dried bonito flakes [TFDA sample: 樣品狀態:乾貨; 前處理描述:混合均勻打碎]"
+    },
+    "f0458965-4a17-4692-96b2-9cfb8f5b42cd": {
+      "label": "大生蠔",
+      "source": "tfda",
+      "source_id": "J3100202",
+      "source_name": "帶殼真牡蠣(生蠔) / Giant pacific oyster",
+      "per100g": {
+        "kcal": 59.0,
+        "protein": 9.8,
+        "fat": 1.9,
+        "carb": 6.7
+      },
+      "confidence": "medium",
+      "note": "oyster meat raw [TFDA sample: 樣品狀態:生; 前處理描述:去殼,混合均勻打碎]"
+    },
+    "69e05b4c-64d1-4123-99d3-55bacfea0fbe": {
+      "label": "大白菜",
+      "source": "tfda",
+      "source_id": "E33001",
+      "source_name": "結球白菜平均值 / Chinese cabbage",
+      "per100g": {
+        "kcal": 17.0,
+        "protein": 1.2,
+        "fat": 0.3,
+        "carb": 2.9
+      },
+      "confidence": "high",
+      "note": "napa cabbage (TFDA average) [TFDA sample: 樣品狀態:生,結球白菜; 前處理描述:混合均勻打碎]"
+    },
+    "d2662486-c545-4530-9644-8e5046d50aa8": {
+      "label": "大雞腿",
+      "source": "tfda",
+      "source_id": "I0404102",
+      "source_name": "骨腿(肉雞) / Chicken: leg quarters",
+      "per100g": {
+        "kcal": 196.0,
+        "protein": 14.4,
+        "fat": 14.9,
+        "carb": 1.7
+      },
+      "confidence": "medium",
+      "note": "chicken thigh boneless with skin raw; if weighed bone-in, edible yield ~70% [TFDA sample: 樣品狀態:生,雞腿部位; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "bd98fbec-95df-4e2b-83c5-4f11ee1db48c": {
+      "label": "大骨粉",
+      "source": "tfda",
+      "source_id": "P0500101",
+      "source_name": "高湯塊(排骨)",
+      "per100g": {
+        "kcal": 363.0,
+        "protein": 12.5,
+        "fat": 23.9,
+        "carb": 24.5
+      },
+      "confidence": "low",
+      "note": "bone-broth powder proxy: TFDA 高湯塊(排骨) [TFDA sample: 前處理描述:混合均勻打碎(植物油,澱粉,鹽,調味料,豚骨粉,濃縮高湯,洋蔥粉等]"
+    },
+    "d58490d4-7a8a-4c4b-b0a8-bb918baa1b44": {
+      "label": "太白粉",
+      "source": "tfda",
+      "source_id": "B0720101",
+      "source_name": "馬鈴薯粉 / Potato starch",
+      "per100g": {
+        "kcal": 346.0,
+        "protein": 0.1,
+        "fat": 0.1,
+        "carb": 83.8
+      },
+      "confidence": "medium",
+      "note": "太白粉 (potato/tapioca starch) [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "322037fc-79d6-4a10-ac03-69bfbb43e35a": {
+      "label": "太白粉",
+      "source": "tfda",
+      "source_id": "B0720101",
+      "source_name": "馬鈴薯粉 / Potato starch",
+      "per100g": {
+        "kcal": 346.0,
+        "protein": 0.1,
+        "fat": 0.1,
+        "carb": 83.8
+      },
+      "confidence": "medium",
+      "note": "太白粉 (potato/tapioca starch) [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "73e08298-6919-4f78-92c7-37a015491a27": {
+      "label": "奶油",
+      "source": "tfda",
+      "source_id": "M0900201",
+      "source_name": "奶油(固態,加鹽) / Butter: salted",
+      "per100g": {
+        "kcal": 699.0,
+        "protein": 0.7,
+        "fat": 77.5,
+        "carb": 3.7
+      },
+      "confidence": "high",
+      "note": "salted butter [TFDA sample: 前處理描述:混合均質(乳脂,鹽分,凝乳等)]"
+    },
+    "abab8454-fcef-4975-867a-0d59e5a799b8": {
+      "label": "奶精",
+      "source": "tfda",
+      "source_id": "P1400201",
+      "source_name": "奶精粉 / Non-dairy creamer",
+      "per100g": {
+        "kcal": 544.0,
+        "protein": 2.2,
+        "fat": 33.0,
+        "carb": 59.5
+      },
+      "confidence": "medium",
+      "note": "powdered non-dairy creamer [TFDA sample: 前處理描述:混合均勻(植物性脂肪)]"
+    },
+    "94affca5-40db-488d-bfc5-31057fe46fa3": {
+      "label": "奶蓋奶油",
+      "source": "tfda",
+      "source_id": "M0900301",
+      "source_name": "奶油(液態) / Cream",
+      "per100g": {
+        "kcal": 340.0,
+        "protein": 2.0,
+        "fat": 39.1,
+        "carb": 0.0
+      },
+      "g_per_ml": 0.99,
+      "confidence": "low",
+      "note": "cream foam base, assumed liquid cream (TFDA 奶油 液態) [TFDA sample: 前處理描述:混合均勻(乳脂,非乳脂固形物,食品添加物等)]"
+    },
+    "1cf1fcb1-0ab2-4213-a93f-c7ecdd5eb940": {
+      "label": "奶蓋粉",
+      "source": "tfda",
+      "source_id": "P1400201",
+      "source_name": "奶精粉 / Non-dairy creamer",
+      "per100g": {
+        "kcal": 544.0,
+        "protein": 2.2,
+        "fat": 33.0,
+        "carb": 59.5
+      },
+      "confidence": "low",
+      "note": "milk-foam powder proxy: creamer powder [TFDA sample: 前處理描述:混合均勻(植物性脂肪)]"
+    },
+    "3dc8ba26-d7b7-4fd7-ad7c-016f78ba38cc": {
+      "label": "嫩精",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "meat tenderiser powder: no matching entry"
+    },
+    "998d8af6-78e8-4c6f-a097-73c767a09a72": {
+      "label": "安佳鮮奶油",
+      "source": "tfda",
+      "source_id": "M0900301",
+      "source_name": "奶油(液態) / Cream",
+      "per100g": {
+        "kcal": 340.0,
+        "protein": 2.0,
+        "fat": 39.1,
+        "carb": 0.0
+      },
+      "g_per_ml": 0.99,
+      "confidence": "medium",
+      "note": "Anchor cream (35% fat) -> TFDA 奶油(液態) [TFDA sample: 前處理描述:混合均勻(乳脂,非乳脂固形物,食品添加物等)]"
+    },
+    "04a54716-42e4-40b3-8a8a-1e844f354080": {
+      "label": "小雞腿",
+      "source": "tfda",
+      "source_id": "I0404302",
+      "source_name": "棒棒腿(肉雞) / Chicken: drumstick",
+      "per100g": {
+        "kcal": 159.0,
+        "protein": 16.8,
+        "fat": 9.7,
+        "carb": 0.3
+      },
+      "confidence": "medium",
+      "note": "chicken drumstick meat raw (edible portion); bone weight not removed [TFDA sample: 樣品狀態:生,雞腿部位; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "eb7e1387-61b0-42d9-aea8-f4327987c87f": {
+      "label": "小黃瓜",
+      "source": "tfda",
+      "source_id": "E6400201",
+      "source_name": "花胡瓜(有機) / Cucumber",
+      "per100g": {
+        "kcal": 15.0,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carb": 3.1
+      },
+      "confidence": "medium",
+      "note": "cucumber (花胡瓜) [TFDA sample: 樣品狀態:生; 前處理描述:去蒂,混合均勻打碎]"
+    },
+    "8aa4d375-b54c-4f01-8e06-8b8f1fa5dd4b": {
+      "label": "山羊肉",
+      "source": "tfda",
+      "source_id": "I0200101",
+      "source_name": "山羊帶皮羊肉塊 / Goat meat",
+      "per100g": {
+        "kcal": 164.0,
+        "protein": 20.3,
+        "fat": 8.6,
+        "carb": 3.4
+      },
+      "confidence": "high",
+      "note": "goat meat with skin raw [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "30253645-1099-48f9-8427-97725325cd6a": {
+      "label": "市售豆花",
+      "source": "tfda",
+      "source_id": "Q2104201",
+      "source_name": "傳統豆花(未加糖)",
+      "per100g": {
+        "kcal": 39.0,
+        "protein": 3.2,
+        "fat": 1.9,
+        "carb": 2.1
+      },
+      "confidence": "medium",
+      "note": "plain 豆花 unsweetened [TFDA sample: 前處理描述:混合均勻均質]"
+    },
+    "7955aaa4-9309-4afe-b21a-1805af293c07": {
+      "label": "意麵/雞絲麵/60g",
+      "source": "tfda",
+      "source_id": "R2000601",
+      "source_name": "鍋燒意麵 / Noodle: pot-burn fried noodle",
+      "per100g": {
+        "kcal": 479.0,
+        "protein": 10.0,
+        "fat": 22.8,
+        "carb": 58.5
+      },
+      "confidence": "medium",
+      "note": "dried fried egg noodle (意麵), 60 g piece; assumed dry weight [TFDA sample: 樣品狀態:乾麵條(麵粉,雞蛋,沙拉油等); 前處理描述:混合均勻打碎]"
+    },
+    "94cd8d5e-12e6-4931-be5b-84137d72363e": {
+      "label": "排骨",
+      "source": "tfda",
+      "source_id": "I0304201",
+      "source_name": "豬大排 / Center cut loin",
+      "per100g": {
+        "kcal": 214.0,
+        "protein": 19.1,
+        "fat": 14.7,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "pork chop/大排 raw boneless; if weighed bone-in lower [TFDA sample: 樣品狀態:生,豬背脊部位; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "8f26988b-5df5-4adc-9a40-95cf8fa898e9": {
+      "label": "文蛤",
+      "source": "tfda",
+      "source_id": "J3101001",
+      "source_name": "文蛤 / Hard clam",
+      "per100g": {
+        "kcal": 37.0,
+        "protein": 7.6,
+        "fat": 0.5,
+        "carb": 2.7
+      },
+      "confidence": "medium",
+      "note": "clam meat raw (shell weight not removed) [TFDA sample: 樣品狀態:生; 前處理描述:去殼,混合均勻打碎]"
+    },
+    "96ec780c-03d8-4f3d-b9b3-26d6cc1281a7": {
+      "label": "日本麵",
+      "source": "tfda",
+      "source_id": "R2000901",
+      "source_name": "拉麵 / Noodle: Ramen",
+      "per100g": {
+        "kcal": 292.0,
+        "protein": 9.1,
+        "fat": 0.8,
+        "carb": 62.1
+      },
+      "confidence": "medium",
+      "note": "fresh ramen-style wet noodle (日本麵) [TFDA sample: 樣品狀態:濕麵條(麵粉,鹽,小麥粉等); 前處理描述:混合均勻打碎]"
+    },
+    "c1c9a74d-0602-4740-94d1-54ce6729c359": {
+      "label": "普通麵粉",
+      "source": "tfda",
+      "source_id": "A0320301",
+      "source_name": "中筋麵粉 / Medium-gluten flour",
+      "per100g": {
+        "kcal": 361.0,
+        "protein": 11.5,
+        "fat": 1.3,
+        "carb": 74.1
+      },
+      "confidence": "high",
+      "note": "plain (medium-gluten) flour [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "abed840a-bd7f-4543-af27-646ad7628ee1": {
+      "label": "月亮蝦餅",
+      "source": "tfda",
+      "source_id": "R6400301",
+      "source_name": "冷凍蝦捲",
+      "per100g": {
+        "kcal": 156.0,
+        "protein": 10.3,
+        "fat": 5.7,
+        "carb": 16.0
+      },
+      "confidence": "low",
+      "note": "Thai shrimp cake proxy: TFDA 冷凍蝦捲 (raw, frozen) [TFDA sample: 樣品狀態:冷凍包裝(魚漿,蝦,豬脂,馬蹄,紅蘿蔔,蒜頭,蔥,豆皮等); 前處理描述:混合均勻打碎]"
+    },
+    "807d7ee6-379a-415d-bda0-371112928264": {
+      "label": "月亮蝦餅/240g",
+      "source": "tfda",
+      "source_id": "R6400301",
+      "source_name": "冷凍蝦捲",
+      "per100g": {
+        "kcal": 156.0,
+        "protein": 10.3,
+        "fat": 5.7,
+        "carb": 16.0
+      },
+      "confidence": "low",
+      "note": "Thai shrimp cake proxy: TFDA 冷凍蝦捲 (raw, frozen) [TFDA sample: 樣品狀態:冷凍包裝(魚漿,蝦,豬脂,馬蹄,紅蘿蔔,蒜頭,蔥,豆皮等); 前處理描述:混合均勻打碎]"
+    },
+    "c6ea4ba0-af2a-4fd9-8658-b5a3827ea93c": {
+      "label": "木耳",
+      "source": "tfda",
+      "source_id": "G0100201",
+      "source_name": "冷凍木耳 / Juda's ear: frozen",
+      "per100g": {
+        "kcal": 51.0,
+        "protein": 0.9,
+        "fat": 0.1,
+        "carb": 12.4
+      },
+      "confidence": "low",
+      "note": "frozen wood ear proxy [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "d0b62f57-b5cc-4c1d-8846-256745a64188": {
+      "label": "李叔叔香腸",
+      "source": "tfda",
+      "source_id": "R5300202",
+      "source_name": "香腸(蒜味) / Pork: sausage",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 16.6,
+        "fat": 27.8,
+        "carb": 17.7
+      },
+      "confidence": "low",
+      "note": "Taiwanese sausage proxy: TFDA 香腸(蒜味) [TFDA sample: 樣品狀態:生(豬肉,豬腸衣,鹽,糖,蒜粉,食品添加物等); 前處理描述:混合均勻打碎]"
+    },
+    "9c779c1d-dc4e-4077-93aa-e46b6e7a8631": {
+      "label": "李叔叔香腸",
+      "source": "tfda",
+      "source_id": "R5300202",
+      "source_name": "香腸(蒜味) / Pork: sausage",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 16.6,
+        "fat": 27.8,
+        "carb": 17.7
+      },
+      "confidence": "low",
+      "note": "Taiwanese sausage proxy: TFDA 香腸(蒜味) [TFDA sample: 樣品狀態:生(豬肉,豬腸衣,鹽,糖,蒜粉,食品添加物等); 前處理描述:混合均勻打碎]"
+    },
+    "3fdaeaa0-f293-43c9-893a-838060a97378": {
+      "label": "馮德倫香腸",
+      "source": "tfda",
+      "source_id": "R5300202",
+      "source_name": "香腸(蒜味) / Pork: sausage",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 16.6,
+        "fat": 27.8,
+        "carb": 17.7
+      },
+      "g_per_unit": {
+        "根": 75
+      },
+      "confidence": "low",
+      "note": "sausage proxy: TFDA 香腸(蒜味); 1 piece assumed ~75 g [TFDA sample: 樣品狀態:生(豬肉,豬腸衣,鹽,糖,蒜粉,食品添加物等); 前處理描述:混合均勻打碎]"
+    },
+    "2fae27ab-957d-428d-aa2b-fd7431909cd2": {
+      "label": "李錦記滷水汁",
+      "source": "tfda",
+      "source_id": "P0700101",
+      "source_name": "醬油 / Soy sauce",
+      "per100g": {
+        "kcal": 90.0,
+        "protein": 7.8,
+        "fat": 0.0,
+        "carb": 14.7
+      },
+      "g_per_ml": 1.15,
+      "confidence": "low",
+      "note": "Lee Kum Kee master stock (soy-based) proxy: TFDA 醬油 (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽,糖,調味料等)]"
+    },
+    "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5": {
+      "label": "杏鮑菇",
+      "source": "tfda",
+      "source_id": "G13002",
+      "source_name": "杏鮑菇平均值 / King oyster mushroom",
+      "per100g": {
+        "kcal": 41.0,
+        "protein": 2.7,
+        "fat": 0.2,
+        "carb": 8.3
+      },
+      "confidence": "high",
+      "note": "king oyster mushroom (TFDA average) [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "c6d84215-8c3a-4fc5-a81f-17937b57a0bf": {
+      "label": "枸杞",
+      "source": "tfda",
+      "source_id": "E7210101",
+      "source_name": "枸杞乾",
+      "per100g": {
+        "kcal": 347.0,
+        "protein": 12.3,
+        "fat": 1.3,
+        "carb": 77.8
+      },
+      "confidence": "high",
+      "note": "dried goji [TFDA sample: 樣品狀態:乾貨; 前處理描述:混合均勻打碎]"
+    },
+    "5c1f3f36-586c-45f9-a25b-ddf5842cc701": {
+      "label": "桂皮",
+      "source": "tfda",
+      "source_id": "P0100601",
+      "source_name": "肉桂粉 / Cassia powder",
+      "per100g": {
+        "kcal": 343.0,
+        "protein": 4.2,
+        "fat": 2.9,
+        "carb": 78.8
+      },
+      "confidence": "medium",
+      "note": "cassia/cinnamon powder (bark used whole, flavour only) [TFDA sample: 前處理描述:混合均勻(肉桂粉,清華桂粉等)]"
+    },
+    "7740e542-b245-430e-a838-4f635e23fac1": {
+      "label": "梅林辣醬油",
+      "source": "usda",
+      "source_id": "171610",
+      "source_name": "Sauce, worcestershire",
+      "per100g": {
+        "kcal": 77.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 19.17
+      },
+      "confidence": "high",
+      "note": "Worcestershire sauce"
+    },
+    "bebd3133-b7e4-4e5f-86ae-62d832bb06d0": {
+      "label": "椒鹽粉",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "salt-and-pepper mix: no matching entry (mostly salt, kcal negligible)"
+    },
+    "cac05d53-9d64-40cf-aa08-4c6b7957e7e2": {
+      "label": "梅花肉",
+      "source": "tfda",
+      "source_id": "I0300301",
+      "source_name": "豬上肩肉 / Pork: part fat",
+      "per100g": {
+        "kcal": 207.0,
+        "protein": 18.9,
+        "fat": 14.0,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "梅花肉 = pork shoulder butt (TFDA 豬上肩肉) raw [TFDA sample: 樣品狀態:生,豬肩胛部位; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "76979f4a-de58-4ca8-8cbf-fedbe7b61837": {
+      "label": "楊桃汁",
+      "source": "tfda",
+      "source_id": "O0100201",
+      "source_name": "芭樂汁(非原汁) / Guava juice",
+      "per100g": {
+        "kcal": 45.0,
+        "protein": 0.2,
+        "fat": 0.1,
+        "carb": 11.0
+      },
+      "g_per_unit": {
+        "個": 310
+      },
+      "confidence": "low",
+      "note": "starfruit juice: proxy TFDA 芭樂汁; 1 unit assumed 300 ml bottle [TFDA sample: 樣品狀態:瓶裝; 前處理描述:混合均勻均質]"
+    },
+    "55652769-1117-418d-ac86-63130b303691": {
+      "label": "芭樂汁",
+      "source": "tfda",
+      "source_id": "O0100201",
+      "source_name": "芭樂汁(非原汁) / Guava juice",
+      "per100g": {
+        "kcal": 45.0,
+        "protein": 0.2,
+        "fat": 0.1,
+        "carb": 11.0
+      },
+      "g_per_unit": {
+        "個": 310
+      },
+      "confidence": "medium",
+      "note": "guava juice (TFDA 芭樂汁 非原汁); 1 unit assumed 300 ml bottle [TFDA sample: 樣品狀態:瓶裝; 前處理描述:混合均勻均質]"
+    },
+    "2db38bd1-d57d-4d1a-a772-817d0b6639d6": {
+      "label": "毛豆",
+      "source": "tfda",
+      "source_id": "H1100301",
+      "source_name": "冷凍毛豆仁 / Vegetable soy bean: frozen",
+      "per100g": {
+        "kcal": 135.0,
+        "protein": 12.5,
+        "fat": 6.1,
+        "carb": 9.8
+      },
+      "confidence": "medium",
+      "note": "frozen shelled edamame [TFDA sample: 樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "96a867a5-88a1-4988-b2df-ae8be985e9f0": {
+      "label": "泡菜",
+      "source": "tfda",
+      "source_id": "R4400301",
+      "source_name": "韓式泡菜",
+      "per100g": {
+        "kcal": 35.0,
+        "protein": 2.0,
+        "fat": 0.4,
+        "carb": 5.8
+      },
+      "confidence": "medium",
+      "note": "Korean kimchi [TFDA sample: 前處理描述:混合均勻打碎(大白菜,辣椒粉,大蒜,魚露,蔥,洋蔥,薑,胡蘿蔔,鹽,糖等)]"
+    },
+    "0f72db14-752e-4658-a045-1ece2b4f3abf": {
+      "label": "泡菜醬料",
+      "source": "tfda",
+      "source_id": "P1003201",
+      "source_name": "辣椒醬 / Hot sauce",
+      "per100g": {
+        "kcal": 83.0,
+        "protein": 2.6,
+        "fat": 2.9,
+        "carb": 11.5
+      },
+      "confidence": "low",
+      "note": "kimchi seasoning paste proxy: TFDA 辣椒醬 [TFDA sample: 前處理描述:混合均勻打碎(紅辣椒,鹽,糖,麻油,香油,味精等)]"
+    },
+    "b18adcc6-7552-4860-b282-596e571ccb0d": {
+      "label": "泡麵",
+      "source": "tfda",
+      "source_id": "R2100201",
+      "source_name": "泡麵(牛肉口味) / Instant noodle",
+      "per100g": {
+        "kcal": 473.0,
+        "protein": 9.6,
+        "fat": 24.5,
+        "carb": 53.6
+      },
+      "confidence": "medium",
+      "note": "instant noodle block (dry) [TFDA sample: 前處理描述:混合均勻打碎(麵粉,調味料等)]"
+    },
+    "cab078d5-f2f2-4b84-85a1-b49dbd973539": {
+      "label": "泰國蒜頭雞粉",
+      "source": "tfda",
+      "source_id": "P0400301",
+      "source_name": "鮮雞精 / Granulated chicken stock",
+      "per100g": {
+        "kcal": 267.0,
+        "protein": 10.8,
+        "fat": 10.1,
+        "carb": 33.3
+      },
+      "confidence": "low",
+      "note": "garlic chicken powder proxy: TFDA 鮮雞精 [TFDA sample: 前處理描述:混合均勻(鹽,糖,玉米澱粉,雞肉,雞油,味精,香料等)]"
+    },
+    "c6771e10-8a3a-400c-aabf-5b20ae023087": {
+      "label": "洋蔥",
+      "source": "tfda",
+      "source_id": "E2400301",
+      "source_name": "黃洋蔥 / Onion",
+      "per100g": {
+        "kcal": 42.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 9.5
+      },
+      "confidence": "high",
+      "note": "yellow onion [TFDA sample: 樣品狀態:生; 前處理描述:去根部及外皮,混合均勻打碎]"
+    },
+    "b0f75b39-5c9b-4e0d-9e00-82224ddfc5f4": {
+      "label": "海帶節",
+      "source": "tfda",
+      "source_id": "F0700101",
+      "source_name": "海帶卷 / Kelp",
+      "per100g": {
+        "kcal": 14.0,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carb": 2.8
+      },
+      "confidence": "low",
+      "note": "kelp knot proxy: TFDA 海帶卷 [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "b992c335-a915-4184-af6f-5c7aca314716": {
+      "label": "海霸王麻辣醬",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "mala hot-pot sauce: no matching entry"
+    },
+    "2d6baf1e-7fe8-4f08-8ed8-0ed9ec335c7e": {
+      "label": "海鮮醬",
+      "source": "tfda",
+      "source_id": "P1002201",
+      "source_name": "海鮮醬",
+      "per100g": {
+        "kcal": 228.0,
+        "protein": 1.8,
+        "fat": 2.2,
+        "carb": 50.3
+      },
+      "confidence": "high",
+      "note": "hoisin sauce [TFDA sample: 前處理描述:混合均勻(蕃薯,黃豆,蒜,栗粉,芝麻,辣椒,醋酸,鹽,糖等)]"
+    },
+    "ea3fdb75-3777-49d6-8dc6-f8a2bdbfaf11": {
+      "label": "滷大腸",
+      "source": "tfda",
+      "source_id": "I0321801",
+      "source_name": "豬大腸 / Pork: large intestine",
+      "per100g": {
+        "kcal": 198.0,
+        "protein": 6.6,
+        "fat": 18.9,
+        "carb": 1.9
+      },
+      "confidence": "low",
+      "note": "braised pork intestine: raw pork large intestine proxy [TFDA sample: 樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎]"
+    },
+    "c97faebf-ffa3-4993-a41f-4e295837e80d": {
+      "label": "澄粉",
+      "source": "tfda",
+      "source_id": "A0320101",
+      "source_name": "去筋麵粉 / Non-glutinous flour",
+      "per100g": {
+        "kcal": 355.0,
+        "protein": 0.2,
+        "fat": 0.1,
+        "carb": 85.7
+      },
+      "confidence": "medium",
+      "note": "澄粉 = wheat starch (TFDA 去筋麵粉) [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "0d5d6c56-d806-49cd-a9b7-d9d1b7cf8842": {
+      "label": "澄黺",
+      "source": "tfda",
+      "source_id": "A0320101",
+      "source_name": "去筋麵粉 / Non-glutinous flour",
+      "per100g": {
+        "kcal": 355.0,
+        "protein": 0.2,
+        "fat": 0.1,
+        "carb": 85.7
+      },
+      "confidence": "medium",
+      "note": "澄粉 (typo in label) = wheat starch [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "359bb538-4495-4b2e-95b8-d3fcb259d9d9": {
+      "label": "烏醋",
+      "source": "tfda",
+      "source_id": "P0600701",
+      "source_name": "烏醋 / Black vinegar",
+      "per100g": {
+        "kcal": 37.0,
+        "protein": 0.5,
+        "fat": 0.0,
+        "carb": 8.7
+      },
+      "g_per_ml": 1.1,
+      "confidence": "high",
+      "note": "black vinegar [TFDA sample: 前處理描述:混合均勻(米醋,酒,醬油,果汁,蔬菜汁,糖,鹽等)]"
+    },
+    "9e59027c-2fe0-45dc-b1db-54c5161900e5": {
+      "label": "無骨有皮雞腿肉",
+      "source": "tfda",
+      "source_id": "I0404102",
+      "source_name": "骨腿(肉雞) / Chicken: leg quarters",
+      "per100g": {
+        "kcal": 196.0,
+        "protein": 14.4,
+        "fat": 14.9,
+        "carb": 1.7
+      },
+      "confidence": "high",
+      "note": "boneless skin-on chicken thigh raw [TFDA sample: 樣品狀態:生,雞腿部位; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "b128339d-844e-428a-a0b8-b13126b82252": {
+      "label": "煉乳",
+      "source": "tfda",
+      "source_id": "L0400201",
+      "source_name": "加糖部份脫脂煉乳 / Sweetened condensed partly skim milk",
+      "per100g": {
+        "kcal": 325.0,
+        "protein": 7.5,
+        "fat": 7.8,
+        "carb": 56.2
+      },
+      "confidence": "high",
+      "note": "sweetened condensed milk [TFDA sample: 樣品狀態:部份脫脂(1~8%)(生乳,乳脂,蔗糖等); 前處理描述:混合均勻]"
+    },
+    "7f47eb18-c2fd-4660-8edd-852cbf1249ac": {
+      "label": "煙燻火雞胸",
+      "source": "usda",
+      "source_id": "174612",
+      "source_name": "Turkey, breast, smoked, lemon pepper flavor, 97% fat-free",
+      "per100g": {
+        "kcal": 95.0,
+        "protein": 20.9,
+        "fat": 0.69,
+        "carb": 1.31
+      },
+      "confidence": "low",
+      "note": "smoked turkey breast, USDA"
+    },
+    "4b5e0c39-9fcf-4546-aa33-0f34c5fd89c6": {
+      "label": "熟蝦(大)",
+      "source": "tfda",
+      "source_id": "J2101201",
+      "source_name": "藍對蝦",
+      "per100g": {
+        "kcal": 95.0,
+        "protein": 20.9,
+        "fat": 0.6,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "cooked prawns: raw prawn proxy (cooked ~99 kcal USDA) [TFDA sample: 樣品狀態:生; 前處理描述:去殼,去頭尾及腸泥,混合均勻打碎]"
+    },
+    "0f6a712f-be44-48e2-8571-6c4871531ea6": {
+      "label": "牛筋",
+      "source": "tfda",
+      "source_id": "I0120301",
+      "source_name": "牛筋 / Beef Tendons",
+      "per100g": {
+        "kcal": 157.0,
+        "protein": 21.7,
+        "fat": 7.2,
+        "carb": 3.3
+      },
+      "confidence": "medium",
+      "note": "beef tendon raw [TFDA sample: 樣品狀態:生,牛臟器,真空冷凍包裝; 前處理描述:混合均勻打碎]"
+    },
+    "c1202dea-8a4a-41e0-83e6-1c517cff60b6": {
+      "label": "牛肚",
+      "source": "tfda",
+      "source_id": "I0120201",
+      "source_name": "牛肚(蜂巢胃) / Honeycomb tripe",
+      "per100g": {
+        "kcal": 107.0,
+        "protein": 19.0,
+        "fat": 2.8,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "beef tripe (honeycomb) raw [TFDA sample: 樣品狀態:生,牛臟器; 前處理描述:混合均勻打碎]"
+    },
+    "e1a94409-3525-4cab-a983-bcedc357388e": {
+      "label": "牛腱",
+      "source": "tfda",
+      "source_id": "I0108301",
+      "source_name": "牛後腿腱子心 / Hind shank",
+      "per100g": {
+        "kcal": 139.0,
+        "protein": 19.8,
+        "fat": 6.0,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "beef shin (腱子心) raw [TFDA sample: 樣品狀態:生,牛後腿部位,冷凍產品; 前處理描述:混合均勻打碎]"
+    },
+    "59c25002-9ea7-4fe7-971c-f05200585d39": {
+      "label": "牛頰",
+      "source": "tfda",
+      "source_id": "I0102101",
+      "source_name": "板腱  / Top blade muscle",
+      "per100g": {
+        "kcal": 166.0,
+        "protein": 19.8,
+        "fat": 9.0,
+        "carb": 0.2
+      },
+      "confidence": "low",
+      "note": "beef cheek: proxy chuck blade (TFDA 板腱) [TFDA sample: 樣品狀態:生,牛肩胛部位,冷凍產品; 前處理描述:混合均勻打碎]"
+    },
+    "57bdbcd4-466e-4f2d-8065-b1406777a10b": {
+      "label": "猴頭菇",
+      "source": "tfda",
+      "source_id": "G2300101",
+      "source_name": "猴頭菇 / Monkey's mane",
+      "per100g": {
+        "kcal": 30.0,
+        "protein": 2.1,
+        "fat": 0.2,
+        "carb": 5.9
+      },
+      "confidence": "high",
+      "note": "lion's mane mushroom raw [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "5b4c7ca2-c5d5-4240-a149-0eaba0cf778c": {
+      "label": "玉米澱粉(FLOUR)",
+      "source": "usda",
+      "source_id": "169698",
+      "source_name": "Cornstarch",
+      "per100g": {
+        "kcal": 381.0,
+        "protein": 0.26,
+        "fat": 0.05,
+        "carb": 91.27
+      },
+      "confidence": "high",
+      "note": "corn starch"
+    },
+    "a300c207-7566-4342-b26f-b470a4d9a524": {
+      "label": "玉米濃湯粉",
+      "source": "tfda",
+      "source_id": "R8100201",
+      "source_name": "玉米濃湯調理包",
+      "per100g": {
+        "kcal": 369.0,
+        "protein": 4.4,
+        "fat": 5.9,
+        "carb": 74.7
+      },
+      "confidence": "medium",
+      "note": "corn soup powder (TFDA 玉米濃湯調理包) [TFDA sample: 前處理描述:混合均勻打碎(澱粉,玉米,糖,鹽,蔬菜粉,植物油,酵母粉,紅蘿蔔,馬鈴薯,維生素等)]"
+    },
+    "050928f3-c8b5-43c7-a8f4-da3016c838fc": {
+      "label": "玉米粉(黃)",
+      "source": "usda",
+      "source_id": "168867",
+      "source_name": "Cornmeal, degermed, enriched, yellow",
+      "per100g": {
+        "kcal": 370.0,
+        "protein": 7.11,
+        "fat": 1.75,
+        "carb": 79.45
+      },
+      "confidence": "medium",
+      "note": "yellow cornmeal (USDA degermed)"
+    },
+    "b7f23112-3456-4170-a394-2adf1202f12f": {
+      "label": "玉米罐頭",
+      "source": "usda",
+      "source_id": "169214",
+      "source_name": "Corn, sweet, yellow, canned, whole kernel, drained solids",
+      "per100g": {
+        "kcal": 67.0,
+        "protein": 2.29,
+        "fat": 1.22,
+        "carb": 14.34
+      },
+      "confidence": "medium",
+      "note": "canned sweet corn kernels drained"
+    },
+    "9d2079c6-fe3e-4080-abc7-dbdcb20fdae9": {
+      "label": "珍珠",
+      "source": "tfda",
+      "source_id": "R4100201",
+      "source_name": "粉圓",
+      "per100g": {
+        "kcal": 346.0,
+        "protein": 0.2,
+        "fat": 0.0,
+        "carb": 86.2
+      },
+      "confidence": "high",
+      "note": "tapioca pearls uncooked (dry) [TFDA sample: 樣品狀態:未烹調; 前處理描述:混合均勻打碎]"
+    },
+    "8f64a8aa-1910-4426-bda4-393703f64bd0": {
+      "label": "甘草",
+      "source": "tfda",
+      "source_id": "P0100501",
+      "source_name": "甘草粉",
+      "per100g": {
+        "kcal": 341.0,
+        "protein": 9.2,
+        "fat": 3.6,
+        "carb": 73.4
+      },
+      "confidence": "low",
+      "note": "licorice root (herb, not eaten); powder proxy [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "554f65ba-c361-408f-a5d9-dce32d3748dc": {
+      "label": "甘草",
+      "source": "tfda",
+      "source_id": "P0100501",
+      "source_name": "甘草粉",
+      "per100g": {
+        "kcal": 341.0,
+        "protein": 9.2,
+        "fat": 3.6,
+        "carb": 73.4
+      },
+      "confidence": "low",
+      "note": "licorice root (herb, not eaten); powder proxy [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "d4d476cf-bf3b-4599-8d17-2ff5436ebc20": {
+      "label": "甜不辣",
+      "source": "tfda",
+      "source_id": "R6700401",
+      "source_name": "天婦羅 / Tempura",
+      "per100g": {
+        "kcal": 176.0,
+        "protein": 12.4,
+        "fat": 4.7,
+        "carb": 21.0
+      },
+      "confidence": "high",
+      "note": "tempura-style fish cake 甜不辣 [TFDA sample: 樣品狀態:含魚漿,太白粉等(不含調味醬); 前處理描述:混合均勻打碎]"
+    },
+    "0bcfdceb-4d26-4a24-b83a-394d09a7f903": {
+      "label": "甜麵醬",
+      "source": "tfda",
+      "source_id": "P1002601",
+      "source_name": "甜麵醬",
+      "per100g": {
+        "kcal": 216.0,
+        "protein": 4.5,
+        "fat": 2.4,
+        "carb": 44.0
+      },
+      "confidence": "high",
+      "note": "sweet bean sauce [TFDA sample: 前處理描述:混合均勻(黃豆,鹽,糖,麵粉,米,香辛料等)]"
+    },
+    "796acc37-bb89-4662-851b-43e28cd555fa": {
+      "label": "番茄醬",
+      "source": "tfda",
+      "source_id": "P1003501",
+      "source_name": "蕃茄醬 / Catchup",
+      "per100g": {
+        "kcal": 114.0,
+        "protein": 1.6,
+        "fat": 0.1,
+        "carb": 26.7
+      },
+      "g_per_ml": 1.15,
+      "confidence": "high",
+      "note": "tomato ketchup [TFDA sample: 前處理描述:混合均勻(蕃茄,醋,糖,鹽,香辛料等)]"
+    },
+    "1e349eba-2517-43fe-a917-99313727718f": {
+      "label": "當歸",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "dang gui (herb, not eaten): no matching entry"
+    },
+    "5e6031da-f778-474c-a7e4-a13587920102": {
+      "label": "白菇",
+      "source": "tfda",
+      "source_id": "G1900101",
+      "source_name": "鴻喜菇 / Bunashimeji",
+      "per100g": {
+        "kcal": 30.0,
+        "protein": 2.9,
+        "fat": 0.1,
+        "carb": 5.3
+      },
+      "confidence": "low",
+      "note": "white shimeji proxy (TFDA 鴻喜菇) [TFDA sample: 樣品狀態:生; 前處理描述:去菌柄基部,混合均勻打碎]"
+    },
+    "14e7d0dc-ef40-4c88-82a7-772856f92652": {
+      "label": "黑菇",
+      "source": "tfda",
+      "source_id": "G1900101",
+      "source_name": "鴻喜菇 / Bunashimeji",
+      "per100g": {
+        "kcal": 30.0,
+        "protein": 2.9,
+        "fat": 0.1,
+        "carb": 5.3
+      },
+      "confidence": "low",
+      "note": "brown mushroom proxy (TFDA 鴻喜菇) [TFDA sample: 樣品狀態:生; 前處理描述:去菌柄基部,混合均勻打碎]"
+    },
+    "27c05a31-1d11-451f-aff5-cdb4b731b40d": {
+      "label": "白醋",
+      "source": "tfda",
+      "source_id": "P0600201",
+      "source_name": "糯米醋 / Rice vinegar",
+      "per100g": {
+        "kcal": 17.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 4.1
+      },
+      "g_per_ml": 1.01,
+      "confidence": "medium",
+      "note": "white vinegar (TFDA 糯米醋 white) [TFDA sample: 樣品狀態:白醋; 前處理描述:混合均勻]"
+    },
+    "eb6f80ed-5d66-421a-be88-9834ae0e6bba": {
+      "label": "百頁豆腐",
+      "source": "tfda",
+      "source_id": "R4700801",
+      "source_name": "百頁豆腐 / Beancurd sheets",
+      "per100g": {
+        "kcal": 196.0,
+        "protein": 13.4,
+        "fat": 13.1,
+        "carb": 6.3
+      },
+      "confidence": "high",
+      "note": "百頁豆腐 [TFDA sample: 前處理描述:混合均勻打碎(黃豆,鹽等)]"
+    },
+    "040b36d4-4bd3-45ec-8c24-2cd3f5daf30e": {
+      "label": "百香果醬",
+      "source": "tfda",
+      "source_id": "P1300501",
+      "source_name": "柚子果醬",
+      "per100g": {
+        "kcal": 268.0,
+        "protein": 0.6,
+        "fat": 0.8,
+        "carb": 64.5
+      },
+      "confidence": "low",
+      "note": "passion fruit sauce proxy: TFDA fruit jam [TFDA sample: 前處理描述:混合均勻均質]"
+    },
+    "3e7a07ed-2b8c-43c8-b09e-b69c191a5aa3": {
+      "label": "眼肉",
+      "source": "usda",
+      "source_id": "171735",
+      "source_name": "Beef, Australian, imported, grass-fed, rib, ribeye steak/roast lip-on, boneless, separable lean only, raw",
+      "per100g": {
+        "kcal": 160.0,
+        "protein": 21.47,
+        "fat": 8.2,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "ribeye, Australian grass-fed raw (USDA)"
+    },
+    "977c1d43-5ed5-4824-8780-55c4ea12a7e0": {
+      "label": "福壽香油",
+      "source": "tfda",
+      "source_id": "P0900201",
+      "source_name": "香油",
+      "per100g": {
+        "kcal": 883.0,
+        "protein": 0.0,
+        "fat": 99.9,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "sesame oil blend (TFDA 香油) (TFDA leaves protein blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(白芝麻油及沙拉油調合而成)]"
+    },
+    "08b900f8-c06d-4b70-ac65-1f1f1ae1e635": {
+      "label": "秋水茶",
+      "source": "tfda",
+      "source_id": "O0200701",
+      "source_name": "麥茶",
+      "per100g": {
+        "kcal": 18.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 4.4
+      },
+      "g_per_unit": {
+        "個": 305
+      },
+      "confidence": "low",
+      "note": "bottled tea, unknown sweetness: proxy TFDA 麥茶; 1 unit assumed 300 ml (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(大麥抽出液,砂糖等); 前處理描述:混合均勻]"
+    },
+    "a51b993a-01b9-4998-9dc4-8429833e1b80": {
+      "label": "米苔目",
+      "source": "tfda",
+      "source_id": "R1100601",
+      "source_name": "米苔目 / Rice noodle: thick",
+      "per100g": {
+        "kcal": 121.0,
+        "protein": 0.6,
+        "fat": 0.1,
+        "carb": 29.6
+      },
+      "confidence": "high",
+      "note": "米苔目 [TFDA sample: 前處理描述:混合均勻打碎]"
+    },
+    "4a4d57b7-99cc-4a2e-a157-a576f81c6836": {
+      "label": "米血",
+      "source": "tfda",
+      "source_id": "R0600101",
+      "source_name": "豬血糕",
+      "per100g": {
+        "kcal": 194.0,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carb": 37.8
+      },
+      "confidence": "high",
+      "note": "pig blood rice cake 米血 [TFDA sample: 前處理描述:混合均勻打碎(豬血,糯米,鹽等)]"
+    },
+    "110f1c2c-d28f-4f0b-954c-6703c077997e": {
+      "label": "米酒",
+      "source": "usda",
+      "source_id": "167723",
+      "source_name": "Alcoholic beverage, rice (sake)",
+      "per100g": {
+        "kcal": 134.0,
+        "protein": 0.5,
+        "fat": 0.0,
+        "carb": 5.0
+      },
+      "g_per_ml": 0.97,
+      "confidence": "low",
+      "note": "rice cooking wine (米酒 ~19.5% abv) -> USDA sake; much of alcohol cooked off"
+    },
+    "c2d0e22a-3848-428b-8aeb-a73104655b8a": {
+      "label": "粉粿粉",
+      "source": "tfda",
+      "source_id": "B0420101",
+      "source_name": "甘藷粉 / Sweet potato starch",
+      "per100g": {
+        "kcal": 358.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 85.5
+      },
+      "confidence": "low",
+      "note": "粉粿 powder (starch based) proxy: sweet potato starch [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "df2bb9f8-be3d-46d8-b175-41603646c0f5": {
+      "label": "粉粿粉",
+      "source": "tfda",
+      "source_id": "B0420101",
+      "source_name": "甘藷粉 / Sweet potato starch",
+      "per100g": {
+        "kcal": 358.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 85.5
+      },
+      "confidence": "low",
+      "note": "粉粿 powder (starch based) proxy: sweet potato starch [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "515a3437-6caa-48ca-94dd-86d247127cb6": {
+      "label": "粘師傅起司酥脆粉",
+      "source": "tfda",
+      "source_id": "P1500201",
+      "source_name": "炸雞粉",
+      "per100g": {
+        "kcal": 333.0,
+        "protein": 8.3,
+        "fat": 1.7,
+        "carb": 71.0
+      },
+      "confidence": "low",
+      "note": "cheese crisp coating mix proxy: TFDA 炸雞粉 (flour+starch mix) [TFDA sample: 前處理描述:混合均勻(麵粉,澱粉,糖,鹽,胡椒等)]"
+    },
+    "b36b081f-98c7-43ad-a547-21992a791873": {
+      "label": "糖",
+      "source": "usda",
+      "source_id": "169655",
+      "source_name": "Sugars, granulated",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 99.98
+      },
+      "confidence": "high",
+      "note": "white granulated sugar"
+    },
+    "fe2c45f5-3cf9-4cc3-870d-aa2d98489f4d": {
+      "label": "糖 ",
+      "source": "usda",
+      "source_id": "169655",
+      "source_name": "Sugars, granulated",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 99.98
+      },
+      "confidence": "high",
+      "note": "white granulated sugar"
+    },
+    "f7855492-a2dc-4938-928e-ed2aa2c4c426": {
+      "label": "紅棗",
+      "source": "tfda",
+      "source_id": "D3100401",
+      "source_name": "紅棗(乾) / Chinese jujube",
+      "per100g": {
+        "kcal": 227.0,
+        "protein": 3.2,
+        "fat": 0.3,
+        "carb": 59.5
+      },
+      "confidence": "medium",
+      "note": "dried red date [TFDA sample: 樣品狀態:乾貨; 前處理描述:去籽,混合均勻打碎]"
+    },
+    "e2240f3e-79a6-4b58-b0a7-9c5645865216": {
+      "label": "紅糟肉粉",
+      "source": "tfda",
+      "source_id": "P1500301",
+      "source_name": "蒸肉粉(五香)",
+      "per100g": {
+        "kcal": 350.0,
+        "protein": 10.3,
+        "fat": 1.1,
+        "carb": 74.8
+      },
+      "confidence": "low",
+      "note": "red-yeast pork powder proxy: TFDA 蒸肉粉 [TFDA sample: 前處理描述:混合均勻打碎(米,花椒,八角,香辛料,鹽,糖,味素等)]"
+    },
+    "16f9e0f3-836c-4fd5-a377-211db254fad7": {
+      "label": "紅蔥酥",
+      "source": "tfda",
+      "source_id": "P0200601",
+      "source_name": "油蔥酥 / Fried shallots",
+      "per100g": {
+        "kcal": 518.0,
+        "protein": 7.4,
+        "fat": 28.8,
+        "carb": 57.1
+      },
+      "confidence": "high",
+      "note": "fried shallot 油蔥酥 [TFDA sample: 前處理描述:混合均勻打碎(紅蔥頭,沙拉油等)]"
+    },
+    "c7944b3e-3af3-4c36-8835-266a635fd280": {
+      "label": "紅蔥頭",
+      "source": "tfda",
+      "source_id": "E2500101",
+      "source_name": "紅蔥頭 / Shallot",
+      "per100g": {
+        "kcal": 75.0,
+        "protein": 3.4,
+        "fat": 0.3,
+        "carb": 16.4
+      },
+      "confidence": "high",
+      "note": "shallot raw [TFDA sample: 樣品狀態:生; 前處理描述:去根部及外皮,混合均勻打碎]"
+    },
+    "84c534c5-67bd-4133-b367-c621bdfdb745": {
+      "label": "紅蘿蔔",
+      "source": "tfda",
+      "source_id": "E0200101",
+      "source_name": "胡蘿蔔 / Carrot",
+      "per100g": {
+        "kcal": 37.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 8.5
+      },
+      "confidence": "high",
+      "note": "carrot raw [TFDA sample: 樣品狀態:生; 前處理描述:去蒂及皮,混合均勻打碎]"
+    },
+    "80ada7c3-0a8f-426e-b063-04810925e403": {
+      "label": "紹興酒",
+      "source": "tfda",
+      "source_id": "R9900201",
+      "source_name": "陳年紹興酒 / Shaohsiug wine",
+      "per100g": {
+        "kcal": 133.0,
+        "protein": 1.8,
+        "fat": 0.0,
+        "carb": 19.1
+      },
+      "g_per_ml": 0.99,
+      "confidence": "high",
+      "note": "Shaoxing wine [TFDA sample: 前處理描述:混合均勻(糯米,蓬萊米,小麥等)]"
+    },
+    "9bed14ff-11b7-4529-93c9-f52d0179f60a": {
+      "label": "統一布丁粉",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "instant pudding powder: no matching dry-mix entry"
+    },
+    "8457b424-1906-4e54-a941-e5af97819337": {
+      "label": "綜合火鍋料",
+      "source": "tfda",
+      "source_id": "R6100101",
+      "source_name": "冷凍花枝丸",
+      "per100g": {
+        "kcal": 166.0,
+        "protein": 12.7,
+        "fat": 7.0,
+        "carb": 13.0
+      },
+      "confidence": "low",
+      "note": "mixed hot-pot fish products proxy: TFDA 花枝丸 [TFDA sample: 樣品狀態:冷凍包裝(花枝肉,板油,澱粉等); 前處理描述:混合均勻打碎]"
+    },
+    "5dd86cf6-a0d1-4dd4-ad94-20709c6d39c4": {
+      "label": "綠茶",
+      "source": "tfda",
+      "source_id": "O0701301",
+      "source_name": "綠茶茶湯 / Green tea",
+      "per100g": {
+        "kcal": 0.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "green tea leaves are infused and discarded: infusion ~0 kcal (TFDA 綠茶茶湯) (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:每茶袋以約90℃自來水240mL浸泡4分鐘,取湯汁混合均勻]"
+    },
+    "de68ecc6-7dfb-476f-bc24-44abd7f3f050": {
+      "label": "阿薩姆紅茶",
+      "source": "tfda",
+      "source_id": "O0700501",
+      "source_name": "紅茶茶湯 / Black tea",
+      "per100g": {
+        "kcal": 0.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "Assam black tea leaves infused and discarded: infusion ~0 kcal (TFDA 紅茶茶湯) (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:每茶袋以約90℃自來水240mL浸泡4分鐘,取湯汁混合均勻]"
+    },
+    "b7df5fd5-b2a9-487a-a65d-9db4a43e6d82": {
+      "label": "羊肉捲",
+      "source": "tfda",
+      "source_id": "I0210501",
+      "source_name": "綿羊腹脅肉火鍋片 / Boneless flap: sliced",
+      "per100g": {
+        "kcal": 252.0,
+        "protein": 16.9,
+        "fat": 20.0,
+        "carb": 2.5
+      },
+      "confidence": "low",
+      "note": "lamb roll (hot-pot slices) proxy: TFDA 綿羊腹脅肉火鍋片 [TFDA sample: 樣品狀態:生,綿羊,腹脅部位,冷凍火鍋肉片; 前處理描述:混合均勻打碎]"
+    },
+    "a65589b5-0fdf-4e42-9867-fe12890e8ca2": {
+      "label": "羊肉爐藥材包",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "herbal soup pack (steeped, not eaten): no matching entry"
+    },
+    "4f5b37d2-0f3b-42d4-82c1-ea9bf1a9b82a": {
+      "label": "薑母鴨藥材包",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "herbal soup pack (steeped, not eaten): no matching entry"
+    },
+    "de62a77a-9733-4aaa-bdc3-9ce2c04f37d3": {
+      "label": "美食家油炸油",
+      "source": "tfda",
+      "source_id": "M1100101",
+      "source_name": "大豆油 / Soybean oil",
+      "per100g": {
+        "kcal": 884.0,
+        "protein": 0.0,
+        "fat": 100.0,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "frying oil: refined vegetable oil ~884 kcal/100 g [TFDA sample: 前處理描述:混合均勻(100%大豆沙拉油)]"
+    },
+    "fc46226a-db5d-4d68-af90-d6fc8711b7a9": {
+      "label": "肉類醃漬粉B",
+      "source": "tfda",
+      "source_id": "P1500201",
+      "source_name": "炸雞粉",
+      "per100g": {
+        "kcal": 333.0,
+        "protein": 8.3,
+        "fat": 1.7,
+        "carb": 71.0
+      },
+      "confidence": "low",
+      "note": "marinade powder (salt/sugar/starch/MSG) proxy: TFDA 炸雞粉 [TFDA sample: 前處理描述:混合均勻(麵粉,澱粉,糖,鹽,胡椒等)]"
+    },
+    "4dbe695c-3163-47ae-b78d-a74b087a6c5a": {
+      "label": "肩頰肉",
+      "source": "tfda",
+      "source_id": "I0310201",
+      "source_name": "豬頰肉 / Pork: cheek meat",
+      "per100g": {
+        "kcal": 182.0,
+        "protein": 17.5,
+        "fat": 11.9,
+        "carb": 1.4
+      },
+      "confidence": "low",
+      "note": "肩頰肉 assumed pork cheek (TFDA 豬頰肉) [TFDA sample: 樣品狀態:生,與豬舌相連之豬肉; 前處理描述:混合均勻打碎]"
+    },
+    "bfce0353-69cf-4a0c-95d2-0668733c56cc": {
+      "label": "胡椒粉",
+      "source": "tfda",
+      "source_id": "P0101101",
+      "source_name": "白胡椒粉 / White pepper powder",
+      "per100g": {
+        "kcal": 342.0,
+        "protein": 3.7,
+        "fat": 1.1,
+        "carb": 78.8
+      },
+      "confidence": "high",
+      "note": "white pepper powder [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "3165b244-8543-484f-ba7f-39d50bc3d663": {
+      "label": "胡麻醬",
+      "source": "usda",
+      "source_id": "171006",
+      "source_name": "Salad dressing, sesame seed dressing, regular",
+      "per100g": {
+        "kcal": 443.0,
+        "protein": 3.1,
+        "fat": 45.2,
+        "carb": 8.6
+      },
+      "confidence": "medium",
+      "note": "sesame dressing (goma), USDA"
+    },
+    "96a9224d-7e87-452d-a94a-05e098ba2046": {
+      "label": "腐乳醬(750)",
+      "source": "tfda",
+      "source_id": "R4701401",
+      "source_name": "麻油辣腐乳",
+      "per100g": {
+        "kcal": 107.0,
+        "protein": 9.0,
+        "fat": 5.8,
+        "carb": 4.8
+      },
+      "confidence": "low",
+      "note": "fermented tofu paste proxy: TFDA 麻油辣腐乳 [TFDA sample: 前處理描述:混合均勻打碎(豆腐,辣椒,麻油等)]"
+    },
+    "cbd36064-ef4c-405e-a5eb-a711bf4d8b11": {
+      "label": "腐竹",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "dried yuba: TFDA 豆腐皮 is a fresh/non-dried product; no dried entry"
+    },
+    "675f9d24-8618-47fb-bee4-c7353f4bf557": {
+      "label": "芋頭",
+      "source": "tfda",
+      "source_id": "B0500301",
+      "source_name": "檳榔心芋 / Taro",
+      "per100g": {
+        "kcal": 121.0,
+        "protein": 1.3,
+        "fat": 0.0,
+        "carb": 28.1
+      },
+      "confidence": "high",
+      "note": "taro raw peeled [TFDA sample: 樣品狀態:生; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "79c2d0f3-9962-4b1d-8e4b-44ee0fbac45b": {
+      "label": "芋頭巧",
+      "source": "tfda",
+      "source_id": "B0500301",
+      "source_name": "檳榔心芋 / Taro",
+      "per100g": {
+        "kcal": 121.0,
+        "protein": 1.3,
+        "fat": 0.0,
+        "carb": 28.1
+      },
+      "confidence": "low",
+      "note": "taro product; proxy raw taro (canned/sweet may be higher) [TFDA sample: 樣品狀態:生; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "e6ff184a-0ed6-4317-b558-11451dbc6282": {
+      "label": "芋頭巧(甜)",
+      "source": "tfda",
+      "source_id": "B0500301",
+      "source_name": "檳榔心芋 / Taro",
+      "per100g": {
+        "kcal": 121.0,
+        "protein": 1.3,
+        "fat": 0.0,
+        "carb": 28.1
+      },
+      "confidence": "low",
+      "note": "sweetened taro product; proxy raw taro (understates sugar) [TFDA sample: 樣品狀態:生; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "117031b4-32a3-45fd-998a-9d59315bf1d9": {
+      "label": "芋頭罐頭",
+      "source": "tfda",
+      "source_id": "B0500301",
+      "source_name": "檳榔心芋 / Taro",
+      "per100g": {
+        "kcal": 121.0,
+        "protein": 1.3,
+        "fat": 0.0,
+        "carb": 28.1
+      },
+      "confidence": "low",
+      "note": "canned taro; proxy raw taro [TFDA sample: 樣品狀態:生; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "5925f12d-1b23-4056-9492-df97a0a52048": {
+      "label": "花切小魷魚",
+      "source": "tfda",
+      "source_id": "J3500301",
+      "source_name": "阿根廷魷 / Argentine shortfin squid",
+      "per100g": {
+        "kcal": 71.0,
+        "protein": 12.4,
+        "fat": 2.0,
+        "carb": 0.4
+      },
+      "confidence": "medium",
+      "note": "small cut squid, raw squid proxy [TFDA sample: 樣品狀態:生; 前處理描述:去外皮及骨刺,混合均勻打碎]"
+    },
+    "fd1219ea-fcc3-4a83-8869-70883140b192": {
+      "label": "花枝丸",
+      "source": "tfda",
+      "source_id": "R6100101",
+      "source_name": "冷凍花枝丸",
+      "per100g": {
+        "kcal": 166.0,
+        "protein": 12.7,
+        "fat": 7.0,
+        "carb": 13.0
+      },
+      "confidence": "high",
+      "note": "cuttlefish balls (frozen) [TFDA sample: 樣品狀態:冷凍包裝(花枝肉,板油,澱粉等); 前處理描述:混合均勻打碎]"
+    },
+    "cd9609af-535d-4608-a5bd-eecd867184b5": {
+      "label": "花枝丸(百廚)3kg",
+      "source": "tfda",
+      "source_id": "R6100101",
+      "source_name": "冷凍花枝丸",
+      "per100g": {
+        "kcal": 166.0,
+        "protein": 12.7,
+        "fat": 7.0,
+        "carb": 13.0
+      },
+      "confidence": "high",
+      "note": "cuttlefish balls (frozen) [TFDA sample: 樣品狀態:冷凍包裝(花枝肉,板油,澱粉等); 前處理描述:混合均勻打碎]"
+    },
+    "11bdb31c-da8d-4502-9961-0c34ff3d590b": {
+      "label": "花椒辣油",
+      "source": "tfda",
+      "source_id": "P0900101",
+      "source_name": "紅辣椒油",
+      "per100g": {
+        "kcal": 899.0,
+        "protein": 0.0,
+        "fat": 99.8,
+        "carb": 0.1
+      },
+      "confidence": "medium",
+      "note": "chili oil (花椒辣油) ~ TFDA 紅辣椒油 [TFDA sample: 前處理描述:混合均勻(植物油,芝麻油,辣椒萃取物等)]"
+    },
+    "8bfa3a16-a049-4bc7-a57c-ddae85d1770c": {
+      "label": "花豆",
+      "source": "tfda",
+      "source_id": "R4900301",
+      "source_name": "花豆罐頭(糖漬) / Kidney beans: canned",
+      "per100g": {
+        "kcal": 204.0,
+        "protein": 7.6,
+        "fat": 0.0,
+        "carb": 43.5
+      },
+      "confidence": "medium",
+      "note": "sugar-glazed 花豆 (19.8 kg pack like candied beans) -> TFDA 花豆罐頭(糖漬) [TFDA sample: 樣品狀態:罐頭製品(花豆,糖等); 前處理描述:混合均勻打碎]"
+    },
+    "175f69f5-cef2-4b05-a686-2e1504e74863": {
+      "label": "草莓糖漿",
+      "source": "tfda",
+      "source_id": "N0300101",
+      "source_name": "果糖 / Fructose",
+      "per100g": {
+        "kcal": 297.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 76.9
+      },
+      "confidence": "low",
+      "note": "flavoured syrup proxy: TFDA 果糖 (HFCS) (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(高果糖糖漿)]"
+    },
+    "dae0bd34-5e31-4b01-97d5-74ccb13064ed": {
+      "label": "鳳梨糖漿",
+      "source": "tfda",
+      "source_id": "N0300101",
+      "source_name": "果糖 / Fructose",
+      "per100g": {
+        "kcal": 297.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 76.9
+      },
+      "confidence": "low",
+      "note": "flavoured syrup proxy: TFDA 果糖 (HFCS) (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(高果糖糖漿)]"
+    },
+    "915a20a8-1790-46bf-85aa-1c16f8fc8d27": {
+      "label": "菜油",
+      "source": "tfda",
+      "source_id": "M1100101",
+      "source_name": "大豆油 / Soybean oil",
+      "per100g": {
+        "kcal": 884.0,
+        "protein": 0.0,
+        "fat": 100.0,
+        "carb": 0.0
+      },
+      "g_per_ml": 0.92,
+      "confidence": "medium",
+      "note": "菜油 = soybean/canola cooking oil [TFDA sample: 前處理描述:混合均勻(100%大豆沙拉油)]"
+    },
+    "a122c115-4664-4a74-803a-6dc86f74891f": {
+      "label": "蒜酥",
+      "source": "tfda",
+      "source_id": "P0200901",
+      "source_name": "蒜頭酥",
+      "per100g": {
+        "kcal": 452.0,
+        "protein": 11.7,
+        "fat": 17.8,
+        "carb": 61.2
+      },
+      "confidence": "medium",
+      "note": "fried garlic 蒜頭酥 [TFDA sample: 前處理描述:混合均勻打碎(蒜頭,油,玉米粉等)]"
+    },
+    "9eb22b82-3d22-49de-8a00-c7d4fbb9187e": {
+      "label": "蒜頭",
+      "source": "tfda",
+      "source_id": "E2100101",
+      "source_name": "大蒜 / Garlic",
+      "per100g": {
+        "kcal": 122.0,
+        "protein": 6.7,
+        "fat": 0.2,
+        "carb": 26.4
+      },
+      "confidence": "medium",
+      "note": "garlic bulb (TFDA 大蒜) [TFDA sample: 樣品狀態:乾貨; 前處理描述:去外膜,混合均勻打碎]"
+    },
+    "1caa60ff-3330-4d48-9c9d-cf26b174f1f6": {
+      "label": "薑",
+      "source": "tfda",
+      "source_id": "E1900103",
+      "source_name": "老薑 / Ginger",
+      "per100g": {
+        "kcal": 53.0,
+        "protein": 1.1,
+        "fat": 0.5,
+        "carb": 11.7
+      },
+      "confidence": "high",
+      "note": "mature ginger raw [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "f19ebc56-00a0-4092-aca6-b5401e2bf235": {
+      "label": "虱目魚",
+      "source": "tfda",
+      "source_id": "J0401201",
+      "source_name": "虱目魚腹肉(虱目魚肚)",
+      "per100g": {
+        "kcal": 342.0,
+        "protein": 17.4,
+        "fat": 29.6,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "milkfish belly (虱目魚肚), raw frozen pack, skinless, boneless [TFDA sample: 樣品狀態:生,冷凍包裝; 前處理描述:去皮及骨刺,混合均勻打碎]. Used by 虱目魚肚飯/虱目魚肚湯/煎虱目魚, all belly cuts."
+    },
+    "86cdaa37-9528-4db7-bb05-980a34c4d8a3": {
+      "label": "蚵仔",
+      "source": "tfda",
+      "source_id": "J31002",
+      "source_name": "真牡蠣平均值 / Giant pacific oyster",
+      "per100g": {
+        "kcal": 54.0,
+        "protein": 9.4,
+        "fat": 1.6,
+        "carb": 4.2
+      },
+      "confidence": "high",
+      "note": "oyster meat raw (TFDA average) [TFDA sample: 樣品狀態:生; 前處理描述:去殼,混合均勻打碎]"
+    },
+    "f54eb7a1-8ab1-4e9d-aaf1-3aca3a4d4f3c": {
+      "label": "蜂蜜",
+      "source": "tfda",
+      "source_id": "N0700101",
+      "source_name": "蜂蜜(冬蜜) / Honey: winter",
+      "per100g": {
+        "kcal": 315.0,
+        "protein": 0.1,
+        "fat": 0.1,
+        "carb": 81.5
+      },
+      "confidence": "high",
+      "note": "honey [TFDA sample: 樣品狀態:冬蜜(油菜花蜜); 前處理描述:混合均勻]"
+    },
+    "3365d222-b985-4eb0-8c43-c7a7e861d73a": {
+      "label": "蜜紅豆",
+      "source": "tfda",
+      "source_id": "R4900301",
+      "source_name": "花豆罐頭(糖漬) / Kidney beans: canned",
+      "per100g": {
+        "kcal": 204.0,
+        "protein": 7.6,
+        "fat": 0.0,
+        "carb": 43.5
+      },
+      "confidence": "low",
+      "note": "candied red bean proxy: TFDA 花豆罐頭(糖漬) [TFDA sample: 樣品狀態:罐頭製品(花豆,糖等); 前處理描述:混合均勻打碎]"
+    },
+    "994e7abf-a93e-4b2f-a6e3-11382fea0026": {
+      "label": "蜜綠豆",
+      "source": "tfda",
+      "source_id": "R4900301",
+      "source_name": "花豆罐頭(糖漬) / Kidney beans: canned",
+      "per100g": {
+        "kcal": 204.0,
+        "protein": 7.6,
+        "fat": 0.0,
+        "carb": 43.5
+      },
+      "confidence": "low",
+      "note": "candied mung bean proxy: TFDA 花豆罐頭(糖漬) [TFDA sample: 樣品狀態:罐頭製品(花豆,糖等); 前處理描述:混合均勻打碎]"
+    },
+    "614cf2ed-9d75-4ac9-8006-a9269335fd8b": {
+      "label": "蜜花生",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "candied peanuts: no matching entry"
+    },
+    "ca3dc050-1d88-4949-8f56-1553278fc030": {
+      "label": "蜜豆",
+      "source": "tfda",
+      "source_id": "R4900301",
+      "source_name": "花豆罐頭(糖漬) / Kidney beans: canned",
+      "per100g": {
+        "kcal": 204.0,
+        "protein": 7.6,
+        "fat": 0.0,
+        "carb": 43.5
+      },
+      "confidence": "low",
+      "note": "candied beans proxy: TFDA 花豆罐頭(糖漬) [TFDA sample: 樣品狀態:罐頭製品(花豆,糖等); 前處理描述:混合均勻打碎]"
+    },
+    "7ad07256-8d56-4e02-a706-d9cc21e27ffb": {
+      "label": "蝦子100/200",
+      "source": "tfda",
+      "source_id": "J2101201",
+      "source_name": "藍對蝦",
+      "per100g": {
+        "kcal": 95.0,
+        "protein": 20.9,
+        "fat": 0.6,
+        "carb": 0.0
+      },
+      "confidence": "low",
+      "note": "raw prawn (peeled assumed); if shell-on, edible fraction ~55% [TFDA sample: 樣品狀態:生; 前處理描述:去殼,去頭尾及腸泥,混合均勻打碎]"
+    },
+    "22fa5d6e-3553-43fa-a591-239610613bdf": {
+      "label": "蝦子16/20",
+      "source": "tfda",
+      "source_id": "J2101201",
+      "source_name": "藍對蝦",
+      "per100g": {
+        "kcal": 95.0,
+        "protein": 20.9,
+        "fat": 0.6,
+        "carb": 0.0
+      },
+      "confidence": "low",
+      "note": "raw prawn (peeled assumed); if shell-on, edible fraction ~55% [TFDA sample: 樣品狀態:生; 前處理描述:去殼,去頭尾及腸泥,混合均勻打碎]"
+    },
+    "ebead413-7445-4e20-ae1a-d8b4e5c2809a": {
+      "label": "蝦捲55G/捲",
+      "source": "tfda",
+      "source_id": "R6400301",
+      "source_name": "冷凍蝦捲",
+      "per100g": {
+        "kcal": 156.0,
+        "protein": 10.3,
+        "fat": 5.7,
+        "carb": 16.0
+      },
+      "confidence": "medium",
+      "note": "frozen prawn roll [TFDA sample: 樣品狀態:冷凍包裝(魚漿,蝦,豬脂,馬蹄,紅蘿蔔,蒜頭,蔥,豆皮等); 前處理描述:混合均勻打碎]"
+    },
+    "599c8b8f-db1a-42f0-84a6-de2c42d72eb6": {
+      "label": "蟹肉棒",
+      "source": "tfda",
+      "source_id": "R6700101",
+      "source_name": "冷凍蟹味棒",
+      "per100g": {
+        "kcal": 118.0,
+        "protein": 9.3,
+        "fat": 0.7,
+        "carb": 18.6
+      },
+      "confidence": "high",
+      "note": "crab stick [TFDA sample: 樣品狀態:冷凍包裝(魚漿等); 前處理描述:混合均勻打碎]"
+    },
+    "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc": {
+      "label": "蠔油",
+      "source": "tfda",
+      "source_id": "P0800301",
+      "source_name": "蠔油",
+      "per100g": {
+        "kcal": 156.0,
+        "protein": 6.5,
+        "fat": 0.1,
+        "carb": 32.2
+      },
+      "confidence": "high",
+      "note": "oyster sauce [TFDA sample: 前處理描述:混合均勻(鮮蠔提煉,食鹽,水,糖,澱粉,醬色等)]"
+    },
+    "e19e7415-9f3d-4783-b5bc-4ec6dedbfafd": {
+      "label": "豆干",
+      "source": "tfda",
+      "source_id": "R4700203",
+      "source_name": "小方豆干 / Hard bean curd",
+      "per100g": {
+        "kcal": 161.0,
+        "protein": 17.4,
+        "fat": 8.6,
+        "carb": 3.5
+      },
+      "confidence": "medium",
+      "note": "firm tofu (小方豆干) [TFDA sample: 前處理描述:混合均勻打碎(黃豆,鹽,調味料等)]"
+    },
+    "02cb52a7-f0f8-4edb-a065-8c4fecdaf3ca": {
+      "label": "豆棗",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "豆棗: unidentified product"
+    },
+    "69f59493-35b7-45f1-a09b-9e3a9fa58d25": {
+      "label": "豆漿原液",
+      "source": "tfda",
+      "source_id": "R5000101",
+      "source_name": "豆漿 / Soy milk",
+      "per100g": {
+        "kcal": 60.0,
+        "protein": 3.2,
+        "fat": 1.3,
+        "carb": 9.0
+      },
+      "confidence": "low",
+      "note": "soy milk concentrate proxy: TFDA 豆漿 (diluted) [TFDA sample: 樣品狀態:包裝產品(黃豆,水,糖等); 前處理描述:混合均勻]"
+    },
+    "f70262e5-bc95-4844-a583-1331e5b2abed": {
+      "label": "豆瓣醬",
+      "source": "tfda",
+      "source_id": "P1004101",
+      "source_name": "豆瓣醬 / Bean paste",
+      "per100g": {
+        "kcal": 178.0,
+        "protein": 14.2,
+        "fat": 8.1,
+        "carb": 12.2
+      },
+      "confidence": "high",
+      "note": "broad-bean paste [TFDA sample: 前處理描述:混合均勻打碎(蠶豆,黃豆,麵粉,食鹽,麻油等)]"
+    },
+    "e0f1b569-3a26-4a26-a9ad-b6656909c7ca": {
+      "label": "豆皮(盒裝)",
+      "source": "tfda",
+      "source_id": "R4700401",
+      "source_name": "豆腐皮 / Dried beancurd skin",
+      "per100g": {
+        "kcal": 209.0,
+        "protein": 25.3,
+        "fat": 11.0,
+        "carb": 2.4
+      },
+      "confidence": "low",
+      "note": "boxed yuba/tofu skin proxy: TFDA 豆腐皮 [TFDA sample: 前處理描述:混合均勻打碎]"
+    },
+    "dac5fc3d-9359-4988-90c6-c3e3fe47c14d": {
+      "label": "豆腐835",
+      "source": "tfda",
+      "source_id": "R4700901",
+      "source_name": "傳統豆腐 / Tofu",
+      "per100g": {
+        "kcal": 88.0,
+        "protein": 8.5,
+        "fat": 3.4,
+        "carb": 6.0
+      },
+      "confidence": "high",
+      "note": "traditional tofu [TFDA sample: 前處理描述:混合均勻打碎]"
+    },
+    "c532c435-9ff2-4dfe-aee1-045f36a8d401": {
+      "label": "豆花粉",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "豆花 setting powder (gypsum/starch): no entry"
+    },
+    "5d0d9390-5356-4455-a667-f2e4565c79ba": {
+      "label": "豆芽菜",
+      "source": "tfda",
+      "source_id": "E7700701",
+      "source_name": "綠豆芽 / Mung bean sprout",
+      "per100g": {
+        "kcal": 24.0,
+        "protein": 2.3,
+        "fat": 0.2,
+        "carb": 4.1
+      },
+      "confidence": "medium",
+      "note": "mung bean sprouts [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "c094a2f4-d92f-4343-b02b-ba5f522daa85": {
+      "label": "豐菓冬瓜濃縮汁",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "wax-gourd concentrate syrup: no entry"
+    },
+    "35a9a268-bdaf-4796-ab16-513f2840a539": {
+      "label": "豬心",
+      "source": "tfda",
+      "source_id": "I0320101",
+      "source_name": "豬心 / Pork: heart",
+      "per100g": {
+        "kcal": 128.0,
+        "protein": 13.6,
+        "fat": 7.8,
+        "carb": 1.0
+      },
+      "confidence": "high",
+      "note": "pork heart raw [TFDA sample: 樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎]"
+    },
+    "10c89f1d-221b-45fd-9981-e216c126bdff": {
+      "label": "豬絞肉",
+      "source": "tfda",
+      "source_id": "I03104",
+      "source_name": "豬絞肉平均值",
+      "per100g": {
+        "kcal": 212.0,
+        "protein": 18.7,
+        "fat": 14.6,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "minced pork (TFDA average) [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "2c41007d-5fef-4682-82c4-633c5174b5a7": {
+      "label": "豬耳朵",
+      "source": "tfda",
+      "source_id": "I0320401",
+      "source_name": "豬耳 / Pork: ear",
+      "per100g": {
+        "kcal": 219.0,
+        "protein": 24.2,
+        "fat": 12.8,
+        "carb": 0.9
+      },
+      "confidence": "high",
+      "note": "pork ear raw [TFDA sample: 樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎]"
+    },
+    "f0331ef4-7d3d-479e-a183-a8871e23fabf": {
+      "label": "豬肚",
+      "source": "tfda",
+      "source_id": "I0321101",
+      "source_name": "豬肚 / Pork: stomach",
+      "per100g": {
+        "kcal": 152.0,
+        "protein": 12.4,
+        "fat": 11.0,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "pork stomach raw [TFDA sample: 樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎]"
+    },
+    "bb956fee-bbd3-4437-960d-93fbac20d45c": {
+      "label": "豬肥油",
+      "source": "usda",
+      "source_id": "167811",
+      "source_name": "Pork, fresh, backfat, raw",
+      "per100g": {
+        "kcal": 812.0,
+        "protein": 2.92,
+        "fat": 88.69,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "pork back fat raw"
+    },
+    "b52f40dd-5fe8-411c-af84-7d35feab56f0": {
+      "label": "豬腳切塊",
+      "source": "tfda",
+      "source_id": "I0322101",
+      "source_name": "豬前腳 / Pork: feet",
+      "per100g": {
+        "kcal": 252.0,
+        "protein": 21.9,
+        "fat": 17.6,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "pork front trotter meat raw; bone weight not removed [TFDA sample: 樣品狀態:生,豬腳; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "bbc85a3c-f36d-4066-9002-cf9c52e3010c": {
+      "label": "豬蹄膀",
+      "source": "tfda",
+      "source_id": "I0322301",
+      "source_name": "豬蹄膀 / Pork hock",
+      "per100g": {
+        "kcal": 331.0,
+        "protein": 17.1,
+        "fat": 28.6,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "pork hock with skin raw [TFDA sample: 樣品狀態:生,豬蹄膀; 前處理描述:去骨,含皮,混合均勻打碎]"
+    },
+    "a8fcb17c-321d-43f3-8e63-ea514465c9c3": {
+      "label": "起司片",
+      "source": "tfda",
+      "source_id": "L0500101",
+      "source_name": "切片乾酪 / Cheese: slice",
+      "per100g": {
+        "kcal": 309.0,
+        "protein": 18.3,
+        "fat": 23.7,
+        "carb": 5.9
+      },
+      "confidence": "medium",
+      "note": "sliced cheese [TFDA sample: 前處理描述:混合均勻打碎(鮮牛奶,凝乳酶等)]"
+    },
+    "7ac877df-e22e-41b3-a7c4-13e65a8c47c7": {
+      "label": "辣椒",
+      "source": "tfda",
+      "source_id": "E7500503",
+      "source_name": "糯米椒 / Hot pepper",
+      "per100g": {
+        "kcal": 28.0,
+        "protein": 1.2,
+        "fat": 0.3,
+        "carb": 5.6
+      },
+      "confidence": "low",
+      "note": "fresh chili proxy (TFDA 糯米椒 green) [TFDA sample: 樣品狀態:生,青辣椒; 前處理描述:去蒂,混合均勻打碎]"
+    },
+    "19979099-0467-4e71-b0ef-325a4e0a32d6": {
+      "label": "辣椒粉",
+      "source": "tfda",
+      "source_id": "P0101801",
+      "source_name": "辣椒粉 / Shili powder",
+      "per100g": {
+        "kcal": 387.0,
+        "protein": 14.7,
+        "fat": 14.1,
+        "carb": 59.1
+      },
+      "confidence": "high",
+      "note": "chili powder [TFDA sample: 前處理描述:混合均勻打碎]"
+    },
+    "8361a8d2-7e78-4327-abe7-8ae976894f65": {
+      "label": "酸菜",
+      "source": "tfda",
+      "source_id": "R4401401",
+      "source_name": "酸菜 / kraut， sourkrout， sourcrout， sauerkraut",
+      "per100g": {
+        "kcal": 19.0,
+        "protein": 0.8,
+        "fat": 0.3,
+        "carb": 3.2
+      },
+      "confidence": "high",
+      "note": "pickled mustard greens [TFDA sample: 樣品狀態:鹽漬發酵; 前處理描述:混合均勻打碎]"
+    },
+    "90dd51e3-c69b-473c-bc2d-88df64e56434": {
+      "label": "醬油膏",
+      "source": "tfda",
+      "source_id": "P0700701",
+      "source_name": "醬油膏",
+      "per100g": {
+        "kcal": 103.0,
+        "protein": 6.8,
+        "fat": 0.0,
+        "carb": 19.0
+      },
+      "confidence": "high",
+      "note": "soy paste 醬油膏 (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽 ,糖,澱粉,米等)]"
+    },
+    "188fb8a8-e2c0-45ab-a747-e6d0b2f30fd6": {
+      "label": "里肌肉",
+      "source": "tfda",
+      "source_id": "I0304101",
+      "source_name": "豬大里肌 / Lean pork: fillet",
+      "per100g": {
+        "kcal": 212.0,
+        "protein": 19.2,
+        "fat": 14.4,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "pork loin raw [TFDA sample: 樣品狀態:生,豬背脊部位; 前處理描述:混合均勻打碎]"
+    },
+    "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11": {
+      "label": "金味王醬油",
+      "source": "tfda",
+      "source_id": "P0700101",
+      "source_name": "醬油 / Soy sauce",
+      "per100g": {
+        "kcal": 90.0,
+        "protein": 7.8,
+        "fat": 0.0,
+        "carb": 14.7
+      },
+      "g_per_ml": 1.15,
+      "confidence": "high",
+      "note": "soy sauce (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽,糖,調味料等)]"
+    },
+    "bb4ed411-6c6c-4752-8527-c0288cc3c8cb": {
+      "label": "金蘭醬油",
+      "source": "tfda",
+      "source_id": "P0700101",
+      "source_name": "醬油 / Soy sauce",
+      "per100g": {
+        "kcal": 90.0,
+        "protein": 7.8,
+        "fat": 0.0,
+        "carb": 14.7
+      },
+      "g_per_ml": 1.15,
+      "confidence": "high",
+      "note": "soy sauce (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽,糖,調味料等)]"
+    },
+    "c98280f2-787a-4b91-b35e-5b84d3fc1a31": {
+      "label": "金品米漿",
+      "source": "tfda",
+      "source_id": "R1300201",
+      "source_name": "保久米漿",
+      "per100g": {
+        "kcal": 62.0,
+        "protein": 1.0,
+        "fat": 1.5,
+        "carb": 11.3
+      },
+      "g_per_ml": 1.02,
+      "confidence": "medium",
+      "note": "rice milk (米漿) [TFDA sample: 樣品狀態:常溫包裝(米,花生,水,砂糖等); 前處理描述:混合均質]"
+    },
+    "ab31f650-ad76-493a-adaf-d9dbb0a8e5ef": {
+      "label": "金品豆漿",
+      "source": "tfda",
+      "source_id": "R5000101",
+      "source_name": "豆漿 / Soy milk",
+      "per100g": {
+        "kcal": 60.0,
+        "protein": 3.2,
+        "fat": 1.3,
+        "carb": 9.0
+      },
+      "g_per_ml": 1.02,
+      "confidence": "high",
+      "note": "soy milk [TFDA sample: 樣品狀態:包裝產品(黃豆,水,糖等); 前處理描述:混合均勻]"
+    },
+    "f47c06e1-d83e-4832-b6a1-a3a8d239e403": {
+      "label": "金針菇",
+      "source": "tfda",
+      "source_id": "G1600101",
+      "source_name": "金針菇 / Velvet foot",
+      "per100g": {
+        "kcal": 37.0,
+        "protein": 2.6,
+        "fat": 0.3,
+        "carb": 7.2
+      },
+      "confidence": "high",
+      "note": "enoki raw [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "3eb878a4-0d2d-4600-a331-b9ff808d55d3": {
+      "label": "開喜烏龍茶",
+      "source": "tfda",
+      "source_id": "O0701101",
+      "source_name": "烏龍茶(去冰,半糖)",
+      "per100g": {
+        "kcal": 21.0,
+        "protein": 0.1,
+        "fat": 0.0,
+        "carb": 5.2
+      },
+      "g_per_unit": {
+        "個": 305
+      },
+      "confidence": "low",
+      "note": "bottled oolong, sweetness unknown: proxy TFDA 烏龍茶(半糖); 1 unit assumed 300 ml [TFDA sample: 樣品狀態:現調飲料(大杯,約700 mL); 前處理描述:混合均勻]"
+    },
+    "798ed535-124d-4885-be32-297ec8eb07c5": {
+      "label": "關廟麵",
+      "source": "tfda",
+      "source_id": "R2000101",
+      "source_name": "乾麵條 / Noodle: dried",
+      "per100g": {
+        "kcal": 350.0,
+        "protein": 11.6,
+        "fat": 1.5,
+        "carb": 72.5
+      },
+      "confidence": "medium",
+      "note": "dry wheat noodle (關廟麵) [TFDA sample: 樣品狀態:乾麵條(麵粉,鹽,水,食用澱粉等); 前處理描述:混合均勻打碎]"
+    },
+    "aa81ba4a-b258-4249-b4be-68af4d9f63d2": {
+      "label": "陳皮",
+      "source": "tfda",
+      "source_id": "P0201401",
+      "source_name": "陳皮 / Tangerine peel",
+      "per100g": {
+        "kcal": 349.0,
+        "protein": 6.9,
+        "fat": 2.4,
+        "carb": 74.8
+      },
+      "confidence": "medium",
+      "note": "dried tangerine peel [TFDA sample: 樣品狀態:乾貨; 前處理描述:混合均勻打碎]"
+    },
+    "61bd24c1-9fbf-48aa-99c5-d018689cd48c": {
+      "label": "隔間肉",
+      "source": "tfda",
+      "source_id": "I0300101",
+      "source_name": "豬下肩肉 / Pork: forefeet",
+      "per100g": {
+        "kcal": 200.0,
+        "protein": 18.1,
+        "fat": 13.6,
+        "carb": 0.0
+      },
+      "confidence": "low",
+      "note": "隔間肉 (diaphragm/skirt) proxy: TFDA 豬下肩肉 [TFDA sample: 樣品狀態:生,豬肩胛部位; 前處理描述:去皮,混合均勻打碎]"
+    },
+    "37a38e46-020c-4633-a6cb-0b5816d17b62": {
+      "label": "雙色小湯圓",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "glutinous rice balls: no matching entry"
+    },
+    "b08e0cea-75d2-46d2-b3e4-9e7d59bca4c3": {
+      "label": "雞塊",
+      "source": "tfda",
+      "source_id": "R5500201",
+      "source_name": "冷凍雞塊 / Chicken nugget",
+      "per100g": {
+        "kcal": 228.0,
+        "protein": 15.3,
+        "fat": 12.9,
+        "carb": 12.6
+      },
+      "confidence": "medium",
+      "note": "frozen chicken nuggets (as packaged) [TFDA sample: 樣品狀態:冷凍包裝(雞胸肉,腿肉等); 前處理描述:混合均勻打碎]"
+    },
+    "eb2f97e5-e699-48c5-9e70-fca105282686": {
+      "label": "雞心",
+      "source": "tfda",
+      "source_id": "I0420101",
+      "source_name": "雞心(肉雞) / Chicken: heart",
+      "per100g": {
+        "kcal": 190.0,
+        "protein": 13.3,
+        "fat": 14.8,
+        "carb": 0.1
+      },
+      "confidence": "high",
+      "note": "chicken heart raw [TFDA sample: 樣品狀態:生,雞臟器; 前處理描述:混合均勻打碎]"
+    },
+    "6f0a39e0-b7d4-4d97-bbf5-0407588531ac": {
+      "label": "雞汁",
+      "source": "tfda",
+      "source_id": "P0400301",
+      "source_name": "鮮雞精 / Granulated chicken stock",
+      "per100g": {
+        "kcal": 267.0,
+        "protein": 10.8,
+        "fat": 10.1,
+        "carb": 33.3
+      },
+      "confidence": "low",
+      "note": "chicken essence/stock concentrate proxy: TFDA 鮮雞精 [TFDA sample: 前處理描述:混合均勻(鹽,糖,玉米澱粉,雞肉,雞油,味精,香料等)]"
+    },
+    "523734f6-6acf-451d-a94f-e0258da2f614": {
+      "label": "雞翅",
+      "source": "tfda",
+      "source_id": "I0406202",
+      "source_name": "三節翅(肉雞) / Chicken: whole wings",
+      "per100g": {
+        "kcal": 222.0,
+        "protein": 17.7,
+        "fat": 16.3,
+        "carb": 0.0
+      },
+      "confidence": "medium",
+      "note": "whole chicken wing meat+skin raw; bone weight not removed [TFDA sample: 樣品狀態:生,雞翅部位; 前處理描述:去骨,含皮,混合均勻打碎]"
+    },
+    "183e5f26-2f73-4837-82e2-d9084376775f": {
+      "label": "雞胗",
+      "source": "tfda",
+      "source_id": "I0420401",
+      "source_name": "雞胗(肉雞) / Chicken: gizzard",
+      "per100g": {
+        "kcal": 89.0,
+        "protein": 16.6,
+        "fat": 2.0,
+        "carb": 0.3
+      },
+      "confidence": "high",
+      "note": "chicken gizzard raw [TFDA sample: 樣品狀態:生,雞臟器; 前處理描述:混合均勻打碎]"
+    },
+    "da977ba5-517f-429e-b84e-e14ee24a6603": {
+      "label": "雞胸肉(蝴蝶刀)",
+      "source": "tfda",
+      "source_id": "I0402402",
+      "source_name": "去皮清肉(肉雞) / Chicken: skinned breast halves without ribs",
+      "per100g": {
+        "kcal": 117.0,
+        "protein": 23.3,
+        "fat": 1.9,
+        "carb": 0.6
+      },
+      "confidence": "medium",
+      "note": "skinless chicken breast raw [TFDA sample: 樣品狀態:生,雞胸部位; 前處理描述:混合均勻打碎]"
+    },
+    "6d6ef46d-196c-4040-88bf-99f349d1c286": {
+      "label": "雞腳",
+      "source": "tfda",
+      "source_id": "I0420801",
+      "source_name": "雞腳(肉雞) / Chicken: feet",
+      "per100g": {
+        "kcal": 209.0,
+        "protein": 20.7,
+        "fat": 13.3,
+        "carb": 1.2
+      },
+      "confidence": "medium",
+      "note": "chicken feet raw (deboned); bone weight not removed [TFDA sample: 樣品狀態:生,雞腳; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "9cca240c-3600-4398-9b3a-c94fab9c8b4c": {
+      "label": "雞蛋",
+      "source": "tfda",
+      "source_id": "K0100101",
+      "source_name": "雞蛋(白殼) / Hen's egg: white eggshell",
+      "per100g": {
+        "kcal": 139.0,
+        "protein": 12.9,
+        "fat": 9.2,
+        "carb": 1.3
+      },
+      "confidence": "high",
+      "note": "whole egg raw [TFDA sample: 樣品狀態:生; 前處理描述:去殼,混合均質]"
+    },
+    "d95160f5-2aa0-41c7-b21e-407a9f92296d": {
+      "label": "青菜",
+      "source": "tfda",
+      "source_id": "E3201302",
+      "source_name": "青江菜(水耕)(4月取樣) / Pak-choi",
+      "per100g": {
+        "kcal": 14.0,
+        "protein": 1.4,
+        "fat": 0.2,
+        "carb": 2.4
+      },
+      "confidence": "low",
+      "note": "leafy greens proxy: bok choy [TFDA sample: 樣品狀態:生; 前處理描述:混合均勻打碎]"
+    },
+    "68b7d163-e2c8-458e-ac66-16ada7c0a1a3": {
+      "label": "韓式辣椒醬",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "gochujang: no matching entry in TFDA/USDA"
+    },
+    "32ec46ff-53bd-4ef4-9370-7f5beaf9163c": {
+      "label": "香油",
+      "source": "tfda",
+      "source_id": "P0900201",
+      "source_name": "香油",
+      "per100g": {
+        "kcal": 883.0,
+        "protein": 0.0,
+        "fat": 99.9,
+        "carb": 0.0
+      },
+      "confidence": "high",
+      "note": "sesame oil blend (TFDA leaves protein blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(白芝麻油及沙拉油調合而成)]"
+    },
+    "031a4965-dcca-4d3a-aa56-30aae6ab340b": {
+      "label": "香脆筍",
+      "source": "usda",
+      "source_id": "169212",
+      "source_name": "Bamboo shoots, canned, drained solids",
+      "per100g": {
+        "kcal": 19.0,
+        "protein": 1.72,
+        "fat": 0.4,
+        "carb": 3.22
+      },
+      "confidence": "low",
+      "note": "crispy bamboo; canned bamboo shoots proxy (seasoning not included)"
+    },
+    "b450bd16-386c-485d-a71b-0a0d78cb90f2": {
+      "label": "香菜",
+      "source": "tfda",
+      "source_id": "E4000101",
+      "source_name": "芫荽 / Chinese parsley",
+      "per100g": {
+        "kcal": 26.0,
+        "protein": 2.3,
+        "fat": 0.3,
+        "carb": 4.5
+      },
+      "confidence": "high",
+      "note": "coriander [TFDA sample: 樣品狀態:生; 前處理描述:去根部,混合均勻打碎]"
+    },
+    "f7c87504-8a0a-4474-bb8d-a2ed136f61e3": {
+      "label": "高麗菜",
+      "source": "tfda",
+      "source_id": "E3000103",
+      "source_name": "甘藍(圓球形) / Cabbage",
+      "per100g": {
+        "kcal": 24.0,
+        "protein": 1.4,
+        "fat": 0.2,
+        "carb": 4.9
+      },
+      "confidence": "high",
+      "note": "cabbage [TFDA sample: 樣品狀態:生,圓球形; 前處理描述:去粗莖,混合均勻打碎]"
+    },
+    "215bd410-8e6e-484e-b59c-fa7ed7f2ab26": {
+      "label": "魚板",
+      "source": "tfda",
+      "source_id": "R6700301",
+      "source_name": "魚板",
+      "per100g": {
+        "kcal": 128.0,
+        "protein": 10.0,
+        "fat": 2.0,
+        "carb": 17.6
+      },
+      "confidence": "high",
+      "note": "fish cake [TFDA sample: 前處理描述:混合均勻打碎]"
+    },
+    "e4b3e69e-8549-42f4-b62d-bea9a8a187f0": {
+      "label": "鰹魚粉",
+      "source": "tfda",
+      "source_id": "J0800401",
+      "source_name": "柴魚片 / Dried bonito flakes",
+      "per100g": {
+        "kcal": 383.0,
+        "protein": 76.5,
+        "fat": 6.2,
+        "carb": 2.6
+      },
+      "confidence": "low",
+      "note": "bonito powder proxy: dried bonito flakes [TFDA sample: 樣品狀態:乾貨; 前處理描述:混合均勻打碎]"
+    },
+    "c87a262e-63ca-4060-b7b5-402026c57317": {
+      "label": "鳥蛋",
+      "source": "tfda",
+      "source_id": "K0300101",
+      "source_name": "鵪鶉蛋 / Quail's egg",
+      "per100g": {
+        "kcal": 172.0,
+        "protein": 12.7,
+        "fat": 13.0,
+        "carb": 1.2
+      },
+      "confidence": "medium",
+      "note": "quail egg raw (pack may be cooked: ~similar) [TFDA sample: 樣品狀態:生; 前處理描述:去殼,混合均質]"
+    },
+    "2c314eef-85bd-4e8f-b4f0-add15d99e9e8": {
+      "label": "鴨胸",
+      "source": "tfda",
+      "source_id": "I0502101",
+      "source_name": "櫻桃鴨胸肉片",
+      "per100g": {
+        "kcal": 227.0,
+        "protein": 16.7,
+        "fat": 17.2,
+        "carb": 4.7
+      },
+      "confidence": "medium",
+      "note": "duck breast raw [TFDA sample: 樣品狀態:生,鴨胸部位; 前處理描述:混合均勻打碎]"
+    },
+    "24a7f1d2-599d-4795-b42f-a4f33f4726f2": {
+      "label": "鴨腿",
+      "source": "tfda",
+      "source_id": "I0504101",
+      "source_name": "鴨腿 / Ducks: drumsticks",
+      "per100g": {
+        "kcal": 282.0,
+        "protein": 14.4,
+        "fat": 24.5,
+        "carb": 3.4
+      },
+      "confidence": "medium",
+      "note": "duck leg meat raw [TFDA sample: 樣品狀態:生,鴨腿部位; 前處理描述:去骨,混合均勻打碎]"
+    },
+    "663edc2b-0f42-44a5-9646-41f8c20efe6d": {
+      "label": "麥仔茶",
+      "source": "tfda",
+      "source_id": "O0200701",
+      "source_name": "麥茶",
+      "per100g": {
+        "kcal": 18.0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carb": 4.4
+      },
+      "g_per_unit": {
+        "個": 305
+      },
+      "confidence": "low",
+      "note": "barley tea; TFDA canned 麥茶 (sweetened); 1 unit assumed 300 ml (TFDA leaves protein/fat blank -> treated as 0) [TFDA sample: 樣品狀態:罐裝(大麥抽出液,砂糖等); 前處理描述:混合均勻]"
+    },
+    "678fe373-02d7-4720-bef0-e65adfb5a6b1": {
+      "label": "麵包粉 Obento",
+      "source": "tfda",
+      "source_id": "P1500501",
+      "source_name": "麵包粉 / Bread crumb",
+      "per100g": {
+        "kcal": 370.0,
+        "protein": 14.4,
+        "fat": 1.5,
+        "carb": 74.6
+      },
+      "confidence": "high",
+      "note": "bread crumbs [TFDA sample: 前處理描述:混合均勻打碎(麵包粉,小麥粉,酵母,起酥油,鹽,葡萄糖,vit C等)]"
+    },
+    "6fdbcc25-468a-4adc-8aaa-bee20253c594": {
+      "label": "麻醬40g",
+      "source": "tfda",
+      "source_id": "P1000901",
+      "source_name": "麻醬 / Sesame sauce",
+      "per100g": {
+        "kcal": 643.0,
+        "protein": 20.8,
+        "fat": 52.8,
+        "carb": 21.3
+      },
+      "g_per_unit": {
+        "包": 40
+      },
+      "confidence": "medium",
+      "note": "sesame paste sachet; pack name says 40 g/包 [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "bffb93fd-c2e2-4c4e-b978-e4614d635913": {
+      "label": "黑糖",
+      "source": "tfda",
+      "source_id": "N0100401",
+      "source_name": "黑砂糖 / Black sugar",
+      "per100g": {
+        "kcal": 369.0,
+        "protein": 0.5,
+        "fat": 0.7,
+        "carb": 95.3
+      },
+      "confidence": "high",
+      "note": "dark brown sugar [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "92d895b5-2924-4ecc-b210-904b41cd8276": {
+      "label": "黑胡椒",
+      "source": "tfda",
+      "source_id": "P0101301",
+      "source_name": "黑胡椒粉 / Black pepper powder",
+      "per100g": {
+        "kcal": 372.0,
+        "protein": 11.6,
+        "fat": 6.7,
+        "carb": 67.7
+      },
+      "confidence": "high",
+      "note": "black pepper [TFDA sample: 前處理描述:混合均勻]"
+    },
+    "b5dc73ae-9078-4ec1-b68a-29c57b0e18ee": {
+      "label": "黑龍蔭油",
+      "source": "tfda",
+      "source_id": "P0700701",
+      "source_name": "醬油膏",
+      "per100g": {
+        "kcal": 103.0,
+        "protein": 6.8,
+        "fat": 0.0,
+        "carb": 19.0
+      },
+      "confidence": "low",
+      "note": "蔭油 proxy: TFDA 醬油膏 (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽 ,糖,澱粉,米等)]"
+    },
+    "de5c767f-e9e0-4658-92db-4c35453a488f": {
+      "label": "黑龍醬油(大)",
+      "source": "tfda",
+      "source_id": "P0700101",
+      "source_name": "醬油 / Soy sauce",
+      "per100g": {
+        "kcal": 90.0,
+        "protein": 7.8,
+        "fat": 0.0,
+        "carb": 14.7
+      },
+      "g_per_unit": {
+        "each": 600
+      },
+      "confidence": "low",
+      "note": "soy sauce (TFDA); bottle size unknown, 1 each assumed ~500 ml (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽,糖,調味料等)]"
+    },
+    "a9628b12-e733-442e-b6d3-5db551cbdf8b": {
+      "label": "黑龍醬油玻璃瓶",
+      "source": "tfda",
+      "source_id": "P0700101",
+      "source_name": "醬油 / Soy sauce",
+      "per100g": {
+        "kcal": 90.0,
+        "protein": 7.8,
+        "fat": 0.0,
+        "carb": 14.7
+      },
+      "g_per_unit": {
+        "each": 600
+      },
+      "confidence": "low",
+      "note": "soy sauce (TFDA); glass bottle size unknown, assumed ~500 ml (TFDA leaves fat blank -> treated as 0) [TFDA sample: 前處理描述:混合均勻(黃豆,小麥,鹽,糖,調味料等)]"
+    },
+    "257f72c1-ade6-4161-af21-7906180cde9c": {
+      "label": "點心",
+      "source": "none",
+      "source_id": null,
+      "source_name": null,
+      "per100g": null,
+      "confidence": "low",
+      "note": "點心: unidentified frozen snack"
+    },
+    "e339c950-150a-4da1-b48c-bc40328763ff": {
+      "label": "蘑菇精",
+      "source": "tfda",
+      "source_id": "P0400301",
+      "source_name": "鮮雞精 / Granulated chicken stock",
+      "per100g": {
+        "kcal": 267.0,
+        "protein": 10.8,
+        "fat": 10.1,
+        "carb": 33.3
+      },
+      "confidence": "low",
+      "note": "mushroom seasoning powder proxy: TFDA 鮮雞精 [TFDA sample: 前處理描述:混合均勻(鹽,糖,玉米澱粉,雞肉,雞油,味精,香料等)]"
+    },
+    "32be3196-541f-49d6-ae9a-2529c24f0b41": {
+      "label": "蘑菇切片",
+      "source": "tfda",
+      "source_id": "R4500601",
+      "source_name": "洋菇罐頭 / Mushroom: canned",
+      "per100g": {
+        "kcal": 31.0,
+        "protein": 2.9,
+        "fat": 0.3,
+        "carb": 4.3
+      },
+      "confidence": "medium",
+      "note": "sliced mushrooms (assumed canned) [TFDA sample: 樣品狀態:罐頭製品; 前處理描述:瀝除水分,混合均勻打碎]"
+    },
+    "5d325169-ffa1-40d4-9670-04e571bff671": {
+      "label": "炸蝦",
+      "source": "usda",
+      "source_id": "171970",
+      "source_name": "Crustaceans, shrimp, mixed species, cooked, breaded and fried",
+      "per100g": {
+        "kcal": 242.0,
+        "protein": 21.39,
+        "fat": 12.28,
+        "carb": 11.47
+      },
+      "confidence": "low",
+      "note": "fried prawns (breaded) USDA; assumed frozen breaded raw product, nutrition of fried"
+    },
+    "7bab3341-fda3-408d-8662-eafcf88282eb": {
+      "label": "筍絲",
+      "source": "usda",
+      "source_id": "169212",
+      "source_name": "Bamboo shoots, canned, drained solids",
+      "per100g": {
+        "kcal": 19.0,
+        "protein": 1.72,
+        "fat": 0.4,
+        "carb": 3.22
+      },
+      "confidence": "medium",
+      "note": "bamboo shoot strips: USDA canned bamboo shoots drained"
+    },
+    "6790b15b-6ac7-43e5-84fe-d479cc16daf4": {
+      "label": "自發粉",
+      "source": "usda",
+      "source_id": "168895",
+      "source_name": "Wheat flour, white, all-purpose, self-rising, enriched",
+      "per100g": {
+        "kcal": 354.0,
+        "protein": 9.89,
+        "fat": 0.97,
+        "carb": 74.22
+      },
+      "confidence": "high",
+      "note": "self-rising wheat flour (USDA, enriched)"
+    },
+    "3ec9aed8-e2ec-4de1-a319-1440d5c840db": {
+      "label": "芋圓粉",
+      "source": "tfda",
+      "source_id": "B0420101",
+      "source_name": "甘藷粉 / Sweet potato starch",
+      "per100g": {
+        "kcal": 358.0,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 85.5
+      },
+      "confidence": "low",
+      "note": "taro-ball mix (starch + taro powder) proxy: sweet potato starch [TFDA sample: 前處理描述:混合均勻]"
+    }
+  },
+  "components": {
+    "8b400caa-9dd4-4f03-8a5a-62cd8848bb69": {
+      "label": "便當基底",
+      "g_per_unit": {
+        "份": 450
+      },
+      "confidence": "high",
+      "note": "1 份 = 香脆筍 50 + 青菜 100 + 飯 300 g (sum of item_stacks edges); yield and use both 份, no conversion needed by the calculator"
+    },
+    "3bb638b4-2fbd-41e6-aeab-73c31ef8395a": {
+      "label": "煎基底",
+      "g_per_unit": {
+        "個": 370
+      },
+      "confidence": "high",
+      "note": "1 個 = 雞蛋 70 + 豆芽菜 80 + 蚵仔煎粉 150 + 蚵仔醬 70 g (edge sum)"
+    },
+    "d8f5ed00-ac4d-48f8-8f44-3a32630c8442": {
+      "label": "牛排基底",
+      "g_per_unit": {
+        "個": 410
+      },
+      "confidence": "high",
+      "note": "1 個 = 日本麵 200 + 雞蛋 60 + 黑胡椒醬 150 g (edge sum)"
+    },
+    "4dd4d649-89fe-4a71-ba2c-ecc504629a79": {
+      "label": "火鍋基底",
+      "g_per_unit": {
+        "個": 1510
+      },
+      "confidence": "high",
+      "note": "1 個 = solids 560 g + 飯 300 + 大骨高湯 750 g (edge sum; mostly broth)"
+    },
+    "d7b11008-c2a5-4817-b6a4-af08ab1b4052": {
+      "label": "薑母鴨火鍋基底",
+      "g_per_unit": {
+        "個": 500
+      },
+      "confidence": "high",
+      "note": "1 個 = 豆腐 70 + 豆皮 20 + 金針菇 30 + 杏鮑菇 30 + 高麗菜 100 + 飯 250 g (edge sum); duck is a separate component"
+    },
+    "4cd03351-bbdb-4df5-8493-3694063b7d3c": {
+      "label": "肉燥基底",
+      "g_per_unit": {
+        "個": 1050
+      },
+      "confidence": "medium",
+      "note": "1 個 = 醬油膏 300 + 金味王醬油 200 ml (~230 g) + 大骨粉 60 + 糖 60 + 紅蔥酥 200 + 米酒 200 ml (~195 g) = ~1045 g seasoning batch for 2 kg pork"
+    },
+    "afd55e17-8f40-4390-a62e-4dd3c3f5e83f": {
+      "label": "意麵基底",
+      "g_per_unit": {
+        "份": 1070
+      },
+      "confidence": "high",
+      "note": "1 份 = solids 370 g + 大骨高湯 700 g (edge sum)"
+    },
+    "1c874419-4e0c-4478-be78-df48742bddfd": {
+      "label": "海鮮組合",
+      "g_per_unit": {
+        "份": 230
+      },
+      "confidence": "high",
+      "note": "1 份 = 熟蝦 80 + 淡菜 100 + 花切小魷魚 50 g (edge sum)"
+    },
+    "325b04df-cec9-4b67-8398-744be2965374": {
+      "label": "滷雞翅",
+      "g_per_unit": {
+        "隻": 91
+      },
+      "confidence": "medium",
+      "note": "yield 110 隻 from 10 kg raw wings -> ~91 g raw per wing; braising liquid absorption not counted"
+    },
+    "41ea6ec8-8238-4484-a7b6-601bfe3bd96d": {
+      "label": "紅茶基底(億品)",
+      "g_per_ml": 1.0,
+      "confidence": "high",
+      "note": "brewed tea: density estimate 1.00 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "ad2b250d-ca7c-47f7-b608-e457469b93aa": {
+      "label": "奶茶基底",
+      "g_per_ml": 1.03,
+      "confidence": "medium",
+      "note": "milk tea base: density estimate 1.03 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "47a64ff9-41b8-4059-b4b0-6e9009f28d3d": {
+      "label": "綠茶基底",
+      "g_per_ml": 1.0,
+      "confidence": "high",
+      "note": "brewed tea: density estimate 1.00 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "8db491b2-c1d8-4ebf-8032-49e6d32d5efa": {
+      "label": "玉米濃湯底",
+      "g_per_ml": 1.03,
+      "confidence": "medium",
+      "note": "corn soup: density estimate 1.03 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "0cc884d2-74f8-4ec2-b3b3-5c9097d1a5e9": {
+      "label": "米漿",
+      "g_per_ml": 1.02,
+      "confidence": "medium",
+      "note": "rice milk: density estimate 1.02 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "d33657e3-9327-4f4b-8277-e684e3eccdb6": {
+      "label": "豆漿",
+      "g_per_ml": 1.02,
+      "confidence": "high",
+      "note": "soy milk: density estimate 1.02 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "bd7cfad5-61c1-4912-b837-2318d67be63b": {
+      "label": "奶蓋",
+      "g_per_ml": 1.0,
+      "confidence": "low",
+      "note": "cream foam, ~cream density: density estimate 1.00 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "891a3aa1-7594-49b5-9d16-8da35ba3c076": {
+      "label": "藥膳鍋底",
+      "g_per_ml": 1.0,
+      "confidence": "medium",
+      "note": "herbal broth: density estimate 1.00 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "6a89f96e-fa86-41a1-b812-026ef9cae9ba": {
+      "label": "牛奶鍋基底",
+      "g_per_ml": 1.02,
+      "confidence": "medium",
+      "note": "milk broth: density estimate 1.02 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "a81d391d-f417-4e83-b28e-4ca2381d0601": {
+      "label": "土魠魚羹湯底",
+      "g_per_ml": 1.03,
+      "confidence": "medium",
+      "note": "thickened soup: density estimate 1.03 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "c0bdeecf-c960-43b9-9448-a7c6d650d17d": {
+      "label": "牛肉麵湯",
+      "g_per_ml": 1.01,
+      "confidence": "medium",
+      "note": "broth: density estimate 1.01 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "99da24f3-526d-487f-bee4-2cba3936c3b7": {
+      "label": "雞翅滷汁(可滷兩次)",
+      "g_per_ml": 1.1,
+      "confidence": "medium",
+      "note": "soy braising liquid: density estimate 1.10 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "89f2cc2c-312f-4359-80d7-b06f6f064d34": {
+      "label": "控肉滷汁",
+      "g_per_ml": 1.1,
+      "confidence": "medium",
+      "note": "soy braising liquid: density estimate 1.10 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "69a7f208-c779-47e6-824e-b66b57daf3f6": {
+      "label": "涼麵醬(josh)",
+      "g_per_ml": 1.1,
+      "confidence": "low",
+      "note": "sesame/soy noodle sauce: density estimate 1.10 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    },
+    "c4ca677d-6e79-4468-95ad-cbe2c8b5ec50": {
+      "label": "紅糟肉醬",
+      "g_per_ml": 1.1,
+      "confidence": "low",
+      "note": "marinade paste: density estimate 1.10 g/ml. Component yield and use are both volume, so no conversion is strictly needed"
+    }
+  }
+}

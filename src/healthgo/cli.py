@@ -71,6 +71,29 @@ def _pull_inbox() -> None:
         log.warning("inbox pull failed (%s)", type(e).__name__)
 
 
+def _refresh_menu(state_shop: str = "cargill-cafe") -> None:
+    """Daily: re-export the Cargill Cafe recipes, recompute, push to the worker when the menu changed.
+    Never fails the caller: any error is a warning (the Mac or tunnel being offline must not break the sync)."""
+    from . import menu, notify
+
+    try:
+        out = menu.sync(state_shop, do_export=True, close=True)
+        out.pop("_export_counts", None)
+        new = menu.new_unmapped(state_shop, out)
+        if new:
+            notify.alert_once(store.load_state(), "menu_unmapped:" + ",".join(new)[:80],
+                              "healthgo：Cargill 菜單出現沒有營養資料的新食材：" + "、".join(new[:10])
+                              + "\n請在 nutrition-map.json 補上。")
+    except BaseException as e:  # SystemExit from the exporter included
+        log.warning("menu-sync skipped (%s)", type(e).__name__)
+        return
+    try:
+        r = menu.push(state_shop)
+        log.info("menu-push: %s", r)
+    except BaseException as e:
+        log.warning("menu-push failed (%s)", type(e).__name__)
+
+
 def cmd_inbox(args) -> int:
     from . import inbox
 
@@ -157,6 +180,8 @@ def cmd_daily(args) -> int:
         state = store.load_state()
         _do_sync(state)
         _pull_inbox()
+        _refresh_menu()
+        state = store.load_state()  # the inbox pull and menu refresh saved their own keys; don't clobber them
         db.build()
         today = config.today()
         if not config.in_trip(today):
@@ -225,6 +250,35 @@ def cmd_uninstall_launchd(args) -> int:
     return 0
 
 
+def cmd_menu_sync(args) -> int:
+    from . import menu
+
+    out = menu.sync(args.shop, do_export=not args.no_export, close=args.close)
+    if out.pop("_export_counts"):
+        print("exported to", menu.shop_dir(args.shop) / "pos")
+    print(menu.format_summary(out))
+    return 0
+
+
+def cmd_menu_push(args) -> int:
+    from . import menu
+
+    try:
+        r = menu.push(args.shop, force=args.force)
+    except Exception as e:
+        print(f"menu-push failed: {e}", file=sys.stderr)
+        return 1
+    print(json.dumps(r, ensure_ascii=False))
+    return 0
+
+
+def cmd_menu_show(args) -> int:
+    from . import menu
+
+    print(menu.format_show(args.shop, args.text, args.tree, args.retail, args.hidden))
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     p = argparse.ArgumentParser(prog="healthgo")
@@ -259,6 +313,25 @@ def main(argv: list[str] | None = None) -> int:
     i.add_argument("--list", action="store_true", help="show pending entries")
     i.add_argument("--done", nargs="+", type=int, metavar="ID", help="move these entries to data/inbox/done/")
     i.set_defaults(fn=cmd_inbox)
+
+    m = sub.add_parser("menu-sync", help="export a restaurant's recipes from the POS DB and compute nutrition")
+    m.add_argument("--shop", default="cargill-cafe")
+    m.add_argument("--no-export", action="store_true", help="recompute from the existing pos/*.json")
+    m.add_argument("--close", action="store_true", help="close the query.py tunnel after exporting")
+    m.set_defaults(fn=cmd_menu_sync)
+
+    m = sub.add_parser("menu-push", help="push the menu (dishes, kitchen components, add-ons) to the worker's D1")
+    m.add_argument("--shop", default="cargill-cafe")
+    m.add_argument("--force", action="store_true", help="push even if the menu hash is unchanged")
+    m.set_defaults(fn=cmd_menu_push)
+
+    m = sub.add_parser("menu-show", help="search dishes/components (en or zh) and show nutrition")
+    m.add_argument("text")
+    m.add_argument("--shop", default="cargill-cafe")
+    m.add_argument("--tree", action="store_true", help="ingredient breakdown in grams")
+    m.add_argument("--retail", action="store_true", help="include take-home retail items (hidden by default)")
+    m.add_argument("--hidden", action="store_true", help="include dishes hidden by overrides.json")
+    m.set_defaults(fn=cmd_menu_show)
 
     sub.add_parser("status").set_defaults(fn=cmd_status)
 

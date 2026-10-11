@@ -36,3 +36,22 @@ accepts a free-text reply within 2 h or "跳過". Any other command, or 2 h of s
 as `partial`. It lands as one `feel` entry (negative `tg_message_id`): `text` is a 繁中 summary, `raw` the
 structured answers, pulled into `data/inbox/<date>_<id>_feel.json` as `answers`. State lives in the D1
 `checkins` table (`schema.sql`); the webhook must allow `callback_query` (`deploy.sh` sets it).
+
+### /eat (Cargill Cafe menu)
+
+`/eat` with no text shows one message, edited in place: 🍱 Cargill 菜單 (category, dish, variant, add-ons, portion) |
+🥣 廚房自己配 (components with ½ · 1 · 1½ · 2 · 3 servings) | ⭐ 常吃 (saved favourites, 🗑 to delete) | ✏️ 其他外食
+(the old free-text/photo prompt). After a save the receipt has ⭐ 存成常吃, which asks for a name by force-reply
+(10 min, else "常吃 N"). Text shortcuts: `/eat 雞排飯`, `/eat 廚房 白飯1 紅燒肉1.5 蛋1` (a trailing number is the
+multiplier; add-ons and `½` / `¾` / `¼` tokens work after a dish); voice notes go through the same matcher. If every token
+matches uniquely the bot asks to confirm; an ambiguous token shows candidate buttons; a token that matches nothing stores
+the text as an ordinary `eat` entry.
+
+The menu lives in the D1 `menu` table, filled by `uv run healthgo menu-push` (also run by `healthgo daily` when the menu
+changed; `--force` re-pushes). Flow state is in `eat_sessions` (2 h), favourites in `favourites`. A saved entry is `kind eat`
+with a negative `tg_message_id` and `raw` = `{source:"cargill-cafe", mode, items, portion, total, meal, date}`; the Mac pull
+records those straight into `data/manual/eating_out.jsonl` (`kcal_basis: "recipe"`). A dish without a recipe saves with no
+kcal and stays pending for `/log` to estimate.
+
+Local test: `.dev.vars` (git-ignored) with dummy `BOT_TOKEN`, `CHAT_ID`, `WEBHOOK_SECRET`, `PULL_TOKEN` and `TG_API_BASE`
+pointing at a stub server, then `npx wrangler dev --local` and POST updates to `/telegram`.

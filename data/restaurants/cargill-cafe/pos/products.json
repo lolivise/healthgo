@@ -1,0 +1,998 @@
+[
+  {
+    "cost": "2.20",
+    "id": "00399140-0e01-4711-ae9e-27cbd8e1b3bc",
+    "label": "燒仙草(小)",
+    "price": "10.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "01cf6b58-c5d1-438e-ab23-9e187ea738d8",
+    "label": "Oi Ocha Hojicha Tea / 伊藤園焙茶",
+    "price": "4.00"
+  },
+  {
+    "cost": "4.85",
+    "id": "01e42e9c-7b60-48d8-8269-b9cb0a74118f",
+    "label": "滷蹄膀飯",
+    "price": "17.27"
+  },
+  {
+    "cost": "3.70",
+    "id": "02b2b126-e919-4cc9-80db-714d908644f9",
+    "label": "蚵仔煎",
+    "price": "12.91"
+  },
+  {
+    "cost": "1.90",
+    "id": "0509d675-4064-4ee4-8c1c-7682493341bf",
+    "label": "百廚炸花枝丸",
+    "price": "7.00"
+  },
+  {
+    "cost": "0.25",
+    "id": "0df5a0a2-1d0c-4b7f-822a-143656969d77",
+    "label": "三色蒟蒻",
+    "price": "0.97"
+  },
+  {
+    "cost": "4.51",
+    "id": "0f224264-24aa-49ba-a972-d48ecef4ce5f",
+    "label": "羊肉湯(碗)",
+    "price": "17.52"
+  },
+  {
+    "cost": "1.00",
+    "id": "10730d9b-216b-4c1a-a5d5-ef44e2f3dae8",
+    "label": "Sprite / 雪碧",
+    "price": "3.50"
+  },
+  {
+    "cost": "1.70",
+    "id": "1212d334-2f98-47c5-aeb3-d71456dd88fe",
+    "label": "炸杏鮑菇",
+    "price": "6.69"
+  },
+  {
+    "cost": "5.46",
+    "id": "128751a8-0faa-4aff-9a04-4afefa6afdf8",
+    "label": "三杯杏鮑菇",
+    "price": "19.00"
+  },
+  {
+    "cost": "6.97",
+    "id": "12c35bde-33ff-4814-8cd8-23fcf140f3c0",
+    "label": "薑母鴨(小)",
+    "price": "25.00"
+  },
+  {
+    "cost": "13.07",
+    "id": "13775e0d-9a32-46d3-99dd-a17d626b3a85",
+    "label": "薑母鴨(大)",
+    "price": "50.00"
+  },
+  {
+    "cost": "8.45",
+    "id": "157647ee-c964-42a5-b116-d734c751b5a5",
+    "label": "泡菜鍋",
+    "price": "25.50"
+  },
+  {
+    "cost": "3.77",
+    "id": "15a69840-b1d6-40e9-b958-6d51023a246e",
+    "label": "炸鹹酥雞",
+    "price": "13.00"
+  },
+  {
+    "cost": "4.89",
+    "id": "17e34f63-8d3e-442d-b56b-7c4e4030e9cb",
+    "label": "豬腳飯",
+    "price": "17.42"
+  },
+  {
+    "cost": "0.45",
+    "id": "1cb830ff-5f6f-4bb0-9fb4-fcbe3370d834",
+    "label": "煮好的小湯圓",
+    "price": "1.75"
+  },
+  {
+    "cost": "5.13",
+    "id": "1e93f966-bcb5-45a1-a774-8744f1c2b083",
+    "label": "鍋燒雞絲麵",
+    "price": "19.00"
+  },
+  {
+    "cost": "2.70",
+    "id": "1efea369-9c3f-4da1-b6ea-ce72020947a4",
+    "label": "芋頭巧(甜)",
+    "price": "9.00"
+  },
+  {
+    "cost": "4.10",
+    "id": "1f52ebfe-9691-4275-99ce-ddb5ecc3ba65",
+    "label": "紅燒肉蓋飯",
+    "price": "19.00"
+  },
+  {
+    "cost": "0.72",
+    "id": "1fe65262-789a-4b25-bb5c-c2936b77f07e",
+    "label": "奶茶(小)",
+    "price": "3.50"
+  },
+  {
+    "cost": "1.00",
+    "id": "221926cb-6b36-4089-9d29-202e8c5b8e90",
+    "label": "Coke-Zero Sugar / 無糖可樂",
+    "price": "3.50"
+  },
+  {
+    "cost": "0.71",
+    "id": "23eb12cc-bd3a-4c49-bf56-9307eedbdea2",
+    "label": "麥仔茶",
+    "price": "2.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "26066358-0ad6-4c0f-ae27-3796e1e6b411",
+    "label": "Gudao Apple Peach Tea / 古道雙味果茶",
+    "price": "4.00"
+  },
+  {
+    "cost": "2.08",
+    "id": "2646adb7-4ac8-4592-8277-7930650b4d52",
+    "label": "涼麵",
+    "price": "9.00"
+  },
+  {
+    "cost": "0.74",
+    "id": "26fa07c4-2489-4244-b0c8-e0ab70caa7b1",
+    "label": "豆漿(小)",
+    "price": "4.50"
+  },
+  {
+    "cost": "4.61",
+    "id": "28a3a704-cf15-4528-883f-d4edb137bc97",
+    "label": "炸魚薯條",
+    "price": "17.69"
+  },
+  {
+    "cost": "6.51",
+    "id": "297aea7c-2ca7-461a-bffb-a5965710e3b7",
+    "label": "原味火鍋",
+    "price": "25.00"
+  },
+  {
+    "cost": "2.69",
+    "id": "29f1a2cf-95e3-4792-94e6-a7e380876db1",
+    "label": "滷雞翅",
+    "price": "10.00"
+  },
+  {
+    "cost": "0.86",
+    "id": "2a2b8e2b-614a-4186-9689-0fe80a0c594b",
+    "label": "煎蛋",
+    "price": "2.00"
+  },
+  {
+    "cost": "4.81",
+    "id": "2b4c56d5-fcee-4171-bd71-c597e427c2f7",
+    "label": "炸排骨便當",
+    "price": "16.88"
+  },
+  {
+    "cost": "21.50",
+    "id": "2c8504bf-9a11-41ef-ad60-a5f592c3956f",
+    "label": "黑龍玻璃瓶",
+    "price": "25.00"
+  },
+  {
+    "cost": "0.77",
+    "id": "352b8de8-9934-45e2-9149-868a80134bde",
+    "label": "楊桃汁",
+    "price": "2.50"
+  },
+  {
+    "cost": "2.06",
+    "id": "35ab906c-20cf-4cb0-a0c7-14320462fc60",
+    "label": "炸洋蔥圈",
+    "price": "8.21"
+  },
+  {
+    "cost": "2.33",
+    "id": "3604c6c6-d68d-4c2e-abdd-e0f9b21f8faa",
+    "label": "炸雞排",
+    "price": "13.00"
+  },
+  {
+    "cost": "0.42",
+    "id": "36d97d1e-b36a-4dca-8510-a7febba99d3b",
+    "label": "綠茶",
+    "price": "5.00"
+  },
+  {
+    "cost": "3.90",
+    "id": "37478aea-7cc9-420b-aceb-9ce54199858c",
+    "label": "虱目魚湯(小)",
+    "price": "11.00"
+  },
+  {
+    "cost": "2.25",
+    "id": "388199be-7ed2-42ea-a72e-f2972d32c181",
+    "label": "剉冰",
+    "price": "10.00"
+  },
+  {
+    "cost": "4.38",
+    "id": "3998c1d4-1640-420b-b824-cf5728c5e85a",
+    "label": "土魠魚羹",
+    "price": "15.00"
+  },
+  {
+    "cost": "1.45",
+    "id": "39b70e2e-9f9b-463a-be98-b6b7f6ce6acf",
+    "label": "炸薯條(小)",
+    "price": "6.00"
+  },
+  {
+    "cost": "1.67",
+    "id": "3e0c309f-529e-4fa2-a25a-488dcba47493",
+    "label": "清麵線",
+    "price": "6.34"
+  },
+  {
+    "cost": "6.03",
+    "id": "3e42a1f8-c399-4937-955c-d655bc248f5a",
+    "label": "鍋燒意麵(肉)",
+    "price": "7.70"
+  },
+  {
+    "cost": "5.52",
+    "id": "3f829b4e-acb6-4c5a-8aff-caf321bf174b",
+    "label": "土魠魚便當",
+    "price": "18.00"
+  },
+  {
+    "cost": "0.23",
+    "id": "4180ead3-5d63-4147-9aa5-6974f73e8758",
+    "label": "煉乳",
+    "price": "1.00"
+  },
+  {
+    "cost": "0.59",
+    "id": "455120c6-4b6f-4031-9a7c-a4ad7711f02a",
+    "label": "百香果醬",
+    "price": "2.10"
+  },
+  {
+    "cost": "5.31",
+    "id": "456d2944-74b9-4941-b6e9-8dc5df15c17e",
+    "label": "土魠魚羹飯",
+    "price": "18.00"
+  },
+  {
+    "cost": "1.10",
+    "id": "46c7c985-41fa-4cfd-be23-64acbc5ee741",
+    "label": "花生",
+    "price": "3.73"
+  },
+  {
+    "cost": "0.93",
+    "id": "46fc97cb-b4a1-4398-97a6-cf83ac0480c5",
+    "label": "白飯",
+    "price": "4.00"
+  },
+  {
+    "cost": "3.50",
+    "id": "47e0b394-676b-445d-9dde-77ce1a02849c",
+    "label": "虱目魚",
+    "price": "12.87"
+  },
+  {
+    "cost": "1.80",
+    "id": "49d903a5-193a-4b98-b81a-02c3cf539960",
+    "label": "肉燥飯",
+    "price": "7.00"
+  },
+  {
+    "cost": "8.17",
+    "id": "4ad53cce-6ea3-455f-80f0-66b9599c6dcc",
+    "label": "鐵板牛排",
+    "price": "30.00"
+  },
+  {
+    "cost": "5.51",
+    "id": "4af495a2-a79d-4062-91ce-ccc058978f91",
+    "label": "虱目魚肚飯",
+    "price": "18.00"
+  },
+  {
+    "cost": "3.32",
+    "id": "4d043141-9148-4954-a67b-c816c43ebcb4",
+    "label": "麻婆豆腐蓋飯",
+    "price": "12.91"
+  },
+  {
+    "cost": "6.31",
+    "id": "4d1a26a6-8e0e-426a-98b4-c7f2b058229e",
+    "label": "控肉飯",
+    "price": "20.03"
+  },
+  {
+    "cost": "1.92",
+    "id": "4d6334ff-35f8-4068-81d5-b3cdd9d0bc12",
+    "label": "蝦捲",
+    "price": "6.40"
+  },
+  {
+    "cost": "1.20",
+    "id": "4e5e67ba-41b2-4399-822d-8fcf2cda5a83",
+    "label": "itoen golden Oolong Tea(1) / 伊藤園黃金烏龍",
+    "price": "4.00"
+  },
+  {
+    "cost": "2.74",
+    "id": "51aea3c1-43e5-4d34-b650-e4719914642e",
+    "label": "滷豬耳朵(盒裝)",
+    "price": "10.66"
+  },
+  {
+    "cost": "4.67",
+    "id": "53aec83b-4d86-4ec5-95b9-3ff07576d9fe",
+    "label": "大腸麵線",
+    "price": "18.00"
+  },
+  {
+    "cost": "0.72",
+    "id": "53b4386b-df6c-413b-b9cf-e6445c49f177",
+    "label": "珍珠奶茶",
+    "price": "6.00"
+  },
+  {
+    "cost": "0.77",
+    "id": "56807346-f2f0-424c-8e49-0a43e58eaa4b",
+    "label": "炸點心",
+    "price": "4.00"
+  },
+  {
+    "cost": "7.00",
+    "id": "56fa962c-e9df-43bf-b339-99aa29fcaad9",
+    "label": "虱目魚肚(整片)",
+    "price": "20.00"
+  },
+  {
+    "cost": "2.12",
+    "id": "57d703f2-2239-42ca-bbfe-f0370121ee80",
+    "label": "肉圓(蔡季芳)",
+    "price": "10.00"
+  },
+  {
+    "cost": "1.96",
+    "id": "5818b8de-3caa-4579-9550-e5fc2122336c",
+    "label": "小王子涼麵",
+    "price": "7.00"
+  },
+  {
+    "cost": "1.50",
+    "id": "584596bd-19e4-4be4-8eca-1c0bd35f0ddc",
+    "label": "炸甜不辣",
+    "price": "5.83"
+  },
+  {
+    "cost": "1.20",
+    "id": "585d8122-9afa-42cc-a165-1cfeef4be9e7",
+    "label": "CC Lemon / CC檸檬",
+    "price": "4.00"
+  },
+  {
+    "cost": "1.13",
+    "id": "58dc2f9a-3252-4f3f-9b2d-e73eebe20f8b",
+    "label": "奶蓋綠",
+    "price": "7.00"
+  },
+  {
+    "cost": "2.67",
+    "id": "60c2a3ae-4d9e-4c65-ad1b-a0f1a0d781de",
+    "label": "炒青菜",
+    "price": "6.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "6287f839-9909-456d-8ce1-48bd6c32dc50",
+    "label": "Gudao Passion fruit green tea / 古道百香果綠茶",
+    "price": "4.00"
+  },
+  {
+    "cost": "1.32",
+    "id": "62acce79-9428-4ef5-be59-550b7621e9d1",
+    "label": "花生豆花",
+    "price": "6.69"
+  },
+  {
+    "cost": "1.20",
+    "id": "64f178b0-bdd4-48db-8494-ba028ecce2e3",
+    "label": "itoen green tea no sugar / 伊藤園日式無糖綠茶",
+    "price": "4.00"
+  },
+  {
+    "cost": "5.98",
+    "id": "6507a46a-6e77-4987-adfa-946d9c87fb98",
+    "label": "三杯雞",
+    "price": "19.00"
+  },
+  {
+    "cost": "3.36",
+    "id": "667edd1f-9e87-43dc-ae0b-85bce694178e",
+    "label": "炸Snapper",
+    "price": "13.00"
+  },
+  {
+    "cost": "0.68",
+    "id": "66d76d77-e5ff-4e7f-b0fb-9c3e3764097e",
+    "label": "珍奶",
+    "price": "6.00"
+  },
+  {
+    "cost": "3.12",
+    "id": "69a71b6a-81b9-46f6-abc6-fbcc8442d547",
+    "label": "單點香腸*2",
+    "price": "12.00"
+  },
+  {
+    "cost": "1.74",
+    "id": "6b00ecf2-0056-448d-8aae-bedcab2516f6",
+    "label": "滷雞爪",
+    "price": "6.77"
+  },
+  {
+    "cost": "2.87",
+    "id": "6b526f3f-aaba-4b9b-8c92-c4d09fd779c9",
+    "label": "炸芋粿巧",
+    "price": "11.16"
+  },
+  {
+    "cost": "5.50",
+    "id": "6beadc92-fd29-4550-a9d0-0109f1fc1015",
+    "label": "炸雞腿便當",
+    "price": "18.00"
+  },
+  {
+    "cost": "4.08",
+    "id": "6c29328f-a17a-4b52-be35-01136c6f8708",
+    "label": "蛤蠣湯",
+    "price": "15.00"
+  },
+  {
+    "cost": "0.70",
+    "id": "6fa6d7e8-8e6e-49c9-bcfb-7e9d3ea00d04",
+    "label": "紅茶",
+    "price": "5.00"
+  },
+  {
+    "cost": "1.20",
+    "id": "7038453d-05d3-4ba1-9cda-b9e7affffa8a",
+    "label": "Gudao Plum green tea / 古道梅子綠茶",
+    "price": "4.00"
+  },
+  {
+    "cost": "1.74",
+    "id": "70b17346-424d-4c8d-8b6f-19b23fdbfa4f",
+    "label": "炸花枝丸",
+    "price": "6.77"
+  },
+  {
+    "cost": "3.57",
+    "id": "71535496-15d8-489b-9f22-e307d5d4a973",
+    "label": "紅燒肉成品",
+    "price": "11.67"
+  },
+  {
+    "cost": "1.20",
+    "id": "71def2e9-ddfc-4c25-93ab-4f4485806b8a",
+    "label": "奶茶(大)",
+    "price": "6.00"
+  },
+  {
+    "cost": "3.51",
+    "id": "77239dd2-b9cb-4022-bfc9-09aaff86c559",
+    "label": "炸土魠魚",
+    "price": "11.70"
+  },
+  {
+    "cost": "2.39",
+    "id": "7726b0e4-1309-45d5-9cc5-67d3af8860d6",
+    "label": "肉圓",
+    "price": "10.00"
+  },
+  {
+    "cost": "0.31",
+    "id": "7825efd0-07d8-44da-bc98-a6c27d30fe69",
+    "label": "草莓果醬",
+    "price": "1.09"
+  },
+  {
+    "cost": "2.61",
+    "id": "7c5c0b2a-574d-4c29-9f65-b591c7590ad0",
+    "label": "玉米濃湯(大)",
+    "price": "9.00"
+  },
+  {
+    "cost": "5.16",
+    "id": "7d46826a-db14-4df0-90f2-1841df9963fe",
+    "label": "雞排麵線",
+    "price": "19.91"
+  },
+  {
+    "cost": "4.93",
+    "id": "7e248f4f-fe63-4f4d-82bf-d1c131d15e9d",
+    "label": "蚵仔麵線",
+    "price": "19.02"
+  },
+  {
+    "cost": "0.28",
+    "id": "7ea4ce53-4684-4cd6-8c21-992098bb8246",
+    "label": "統一布丁",
+    "price": "2.00"
+  },
+  {
+    "cost": "1.40",
+    "id": "7ef06873-940f-41a3-b038-f0e745e2babe",
+    "label": "台鹽水",
+    "price": "3.00"
+  },
+  {
+    "cost": "1.54",
+    "id": "7ff375fb-b243-4de8-b165-f9649c79d391",
+    "label": "炸地瓜球",
+    "price": "8.00"
+  },
+  {
+    "cost": "2.91",
+    "id": "82e8814e-69dc-47e1-bc87-b041789d07e5",
+    "label": "炸薯條(大)",
+    "price": "11.00"
+  },
+  {
+    "cost": "7.40",
+    "id": "84e1e4ce-5d69-4599-a3e2-18125f4fefb3",
+    "label": "虱目魚肚湯",
+    "price": "25.00"
+  },
+  {
+    "cost": "0.99",
+    "id": "89b00dee-2231-4b30-8be9-606e14f36f1c",
+    "label": "玉米濃湯(小)",
+    "price": "3.85"
+  },
+  {
+    "cost": "1.95",
+    "id": "8aa875df-50f0-4c4f-944c-ee0c919ebaf8",
+    "label": "滷百頁豆腐",
+    "price": "8.00"
+  },
+  {
+    "cost": "2.87",
+    "id": "8b0755b3-c842-4be4-89bd-c153d085e68f",
+    "label": "鐵板麵",
+    "price": "11.00"
+  },
+  {
+    "cost": "4.37",
+    "id": "8bb05b33-8a9e-4dcb-845b-3b8f7e4f2472",
+    "label": "炸排骨麵線",
+    "price": "19.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "8c76ed31-183c-44ed-b50f-1bd5446af22d",
+    "label": "Coke / 可樂",
+    "price": "3.50"
+  },
+  {
+    "cost": "2.08",
+    "id": "928ba006-1219-4053-bb21-232fe821c0fc",
+    "label": "地瓜薯條",
+    "price": "8.10"
+  },
+  {
+    "cost": "2.08",
+    "id": "93c225bf-8e86-41dc-983e-1955d233f9b0",
+    "label": "炸地瓜薯條",
+    "price": "8.10"
+  },
+  {
+    "cost": "7.07",
+    "id": "94305465-58e0-4d5c-ae89-5b52e1f78fbe",
+    "label": "海鮮火鍋",
+    "price": "27.50"
+  },
+  {
+    "cost": "1.00",
+    "id": "947b3cf7-bf77-4272-9f24-13ae19f0e745",
+    "label": "Apple Sidra / 蘋果西打",
+    "price": "3.50"
+  },
+  {
+    "cost": "1.02",
+    "id": "94be80c6-5d45-4f4d-9272-67aa41ab2c36",
+    "label": "芋頭",
+    "price": "4.00"
+  },
+  {
+    "cost": "1.44",
+    "id": "95467a0d-9733-4ba3-b2b8-8d5caf9706d2",
+    "label": "紅豆牛奶冰",
+    "price": "8.48"
+  },
+  {
+    "cost": "5.50",
+    "id": "96794cd7-a84e-4eac-aa4e-8f69766cf616",
+    "label": "雞排飯",
+    "price": "19.00"
+  },
+  {
+    "cost": "0.71",
+    "id": "99543dfb-faa9-42cb-99d9-363f54a884b9",
+    "label": "蜜紅豆",
+    "price": "2.75"
+  },
+  {
+    "cost": "3.62",
+    "id": "9b516b6d-8fa9-49ab-9402-19d9efa2574c",
+    "label": "綜合煎",
+    "price": "12.64"
+  },
+  {
+    "cost": "2.90",
+    "id": "9e99dca5-f15e-46f4-86f6-fae89a10db19",
+    "label": "炸Barramundi",
+    "price": "13.00"
+  },
+  {
+    "cost": "1.56",
+    "id": "a165fc78-9dce-469c-a55f-0e23a9327d7f",
+    "label": "炸百頁豆腐",
+    "price": "8.00"
+  },
+  {
+    "cost": "1.92",
+    "id": "a4f9ed12-f6df-4468-aa0b-c7b0a22f7c20",
+    "label": "炸蝦捲",
+    "price": "6.40"
+  },
+  {
+    "cost": "8.50",
+    "id": "a77ad972-3e95-4214-b226-bbaa229a4f02",
+    "label": "月亮蝦餅",
+    "price": "17.00"
+  },
+  {
+    "cost": "0.80",
+    "id": "ac3aca79-910e-4eec-aa66-97e953c2902b",
+    "label": "uni-president black tea / 麥香紅茶",
+    "price": "2.50"
+  },
+  {
+    "cost": "2.36",
+    "id": "ad870ccc-c0da-4a53-953f-aa7b3a459588",
+    "label": "炸排骨",
+    "price": "12.00"
+  },
+  {
+    "cost": "5.13",
+    "id": "ae9b87ab-ac38-40fc-b8f6-57d4509aed18",
+    "label": "香腸飯",
+    "price": "20.00"
+  },
+  {
+    "cost": "2.25",
+    "id": "afccfdaa-fe77-4a61-a7aa-6c5dfa2666ac",
+    "label": "炸米血",
+    "price": "8.75"
+  },
+  {
+    "cost": "0.40",
+    "id": "b284d7ed-9aaa-4409-8dc9-318e93af0565",
+    "label": "紫米",
+    "price": "1.56"
+  },
+  {
+    "cost": "2.00",
+    "id": "b2bf0ef5-9911-43b6-bbe9-8d69321a508c",
+    "label": "滷大腸",
+    "price": "7.58"
+  },
+  {
+    "cost": "1.26",
+    "id": "b2fbf5ea-1892-4177-b14a-8c7a2c46d103",
+    "label": "豆漿(大)",
+    "price": "7.50"
+  },
+  {
+    "cost": "5.37",
+    "id": "b37a2d35-bb90-4f8a-90c2-56581e5733a0",
+    "label": "椒鹽魚排飯",
+    "price": "19.00"
+  },
+  {
+    "cost": "2.62",
+    "id": "b423dd36-3878-4c9f-aa9e-77a3e10d236f",
+    "label": "炸魷魚圈",
+    "price": "10.19"
+  },
+  {
+    "cost": "1.00",
+    "id": "b471a0cd-e870-47f0-8b46-50da28079375",
+    "label": "Vitali / 維大力",
+    "price": "3.00"
+  },
+  {
+    "cost": "5.13",
+    "id": "b5df9964-1971-4f41-bcd7-93f18ea7e74a",
+    "label": "鍋燒意麵",
+    "price": "19.00"
+  },
+  {
+    "cost": "6.72",
+    "id": "b66e4061-410b-429d-a74b-5341cc79c87a",
+    "label": "羊肉爐",
+    "price": "27.00"
+  },
+  {
+    "cost": "6.06",
+    "id": "bb96847d-2a13-4ea7-af4b-14c3c35b06ae",
+    "label": "鐵板雞排",
+    "price": "22.00"
+  },
+  {
+    "cost": "0.52",
+    "id": "bea05575-b6ea-4338-bf09-a64ed2463240",
+    "label": "滷肉燥",
+    "price": "1.98"
+  },
+  {
+    "cost": "3.43",
+    "id": "c2159c66-f3c5-42ae-9d25-de8c8ce6e00f",
+    "label": "蝦仁煎",
+    "price": "11.90"
+  },
+  {
+    "cost": "2.58",
+    "id": "c4947b56-1f24-40a3-8d0a-0088798eb682",
+    "label": "雙蛋煎",
+    "price": "7.00"
+  },
+  {
+    "cost": "0.48",
+    "id": "c59eeba5-8450-49d3-93b7-8de4bb578b89",
+    "label": "鳳梨果醬",
+    "price": "1.56"
+  },
+  {
+    "cost": "1.20",
+    "id": "c5ec857e-b5b4-4795-b7f9-c44997e1fa31",
+    "label": "Pocari sweat / 寶礦力水得",
+    "price": "4.00"
+  },
+  {
+    "cost": "2.08",
+    "id": "c6791ed8-1ff1-4b84-a813-93d77fa083df",
+    "label": "秋水茶",
+    "price": "3.50"
+  },
+  {
+    "cost": "1.10",
+    "id": "c7062013-bd57-4e6d-968b-c7e9d2077677",
+    "label": "奶蓋紅",
+    "price": "7.00"
+  },
+  {
+    "cost": "6.27",
+    "id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
+    "label": "半筋半肉牛肉麵",
+    "price": "25.00"
+  },
+  {
+    "cost": "0.24",
+    "id": "cb95da89-661b-4cb0-bdaf-366708ef82c9",
+    "label": "仙草",
+    "price": "1.00"
+  },
+  {
+    "cost": "0.35",
+    "id": "d0d2fded-2153-4a02-9987-545564e04943",
+    "label": "粉粿",
+    "price": "1.50"
+  },
+  {
+    "cost": "0.70",
+    "id": "d2ef1e37-68f1-4ee9-a17a-08e21cb4ec4b",
+    "label": "豆花",
+    "price": "8.50"
+  },
+  {
+    "cost": "2.62",
+    "id": "d40b7a92-3364-412e-b005-378a5d8b1870",
+    "label": "麻婆豆腐",
+    "price": "10.19"
+  },
+  {
+    "cost": "6.83",
+    "id": "d68ec1f8-a9e2-4b56-90c9-12391391b0cb",
+    "label": "藥膳火鍋",
+    "price": "26.56"
+  },
+  {
+    "cost": "3.03",
+    "id": "d6ab52c7-b2e9-4be6-8548-1f91acbf5d5c",
+    "label": "炸醬麵",
+    "price": "10.73"
+  },
+  {
+    "cost": "21.50",
+    "id": "d7649a56-c2f5-44ac-bb2e-8f91e6bdd43c",
+    "label": "黑龍醬油(大)",
+    "price": "25.00"
+  },
+  {
+    "cost": "8.14",
+    "id": "d7b46d2e-13a7-441e-b3e4-079ec5a62a66",
+    "label": "牛奶鍋",
+    "price": "25.40"
+  },
+  {
+    "cost": "5.78",
+    "id": "da481c52-c1f5-40e1-aedc-b177c365cffc",
+    "label": "炸鹹酥雞飯",
+    "price": "19.00"
+  },
+  {
+    "cost": "0.80",
+    "id": "da6ba565-607e-4f21-80da-a5f2d7745a57",
+    "label": "uni-president milk Tea / 麥香奶茶",
+    "price": "2.50"
+  },
+  {
+    "cost": "0.42",
+    "id": "dc62b1a0-8f7f-458e-aaef-9a072d18ed5f",
+    "label": "蜜紅豆",
+    "price": "2.80"
+  },
+  {
+    "cost": "0.64",
+    "id": "dc7379de-ead3-441d-bdb8-e4939477e420",
+    "label": "仙草奶茶",
+    "price": "6.00"
+  },
+  {
+    "cost": "3.70",
+    "id": "de03d241-41d6-48b4-a2c3-6d573b7ec95c",
+    "label": "滷米血",
+    "price": "13.61"
+  },
+  {
+    "cost": "0.95",
+    "id": "df795da1-8e83-492c-a08d-f2dc8e85bedb",
+    "label": "米漿(小)",
+    "price": "4.54"
+  },
+  {
+    "cost": "0.62",
+    "id": "e0903bf6-b6c9-4f33-8e92-df1e574e7544",
+    "label": "炸蟹肉棒",
+    "price": "4.00"
+  },
+  {
+    "cost": "4.54",
+    "id": "e146b3d7-3c50-4455-a5c9-b94c13b76869",
+    "label": "炒滷味",
+    "price": "17.46"
+  },
+  {
+    "cost": "5.18",
+    "id": "e3988bf1-8a97-4e84-a97b-9474dac2c55d",
+    "label": "紅糟肉飯",
+    "price": "19.00"
+  },
+  {
+    "cost": "1.97",
+    "id": "e3d131ea-d2c8-415c-81cd-bc2175e5407f",
+    "label": "大麵炒",
+    "price": "8.28"
+  },
+  {
+    "cost": "0.80",
+    "id": "e5ca5a5a-53ed-4354-98c3-d1ac562802f2",
+    "label": "uni-president green Tea / 麥香綠茶",
+    "price": "2.50"
+  },
+  {
+    "cost": "1.64",
+    "id": "e71c9630-3258-4897-9c85-b0c347955e48",
+    "label": "米漿(大)",
+    "price": "8.00"
+  },
+  {
+    "cost": "2.33",
+    "id": "e851f869-9e18-47ae-9941-17be558b3011",
+    "label": "市售豆花",
+    "price": "11.01"
+  },
+  {
+    "cost": "5.48",
+    "id": "e90cbbcd-7c6c-4db0-a71f-ec7f096e0b81",
+    "label": "土魠魚羹麵",
+    "price": "18.00"
+  },
+  {
+    "cost": "1.00",
+    "id": "e95a2567-a8f7-4eb9-8096-6e25071f7c39",
+    "label": "HeySong Sarsaparilla / 黑松沙士",
+    "price": "3.50"
+  },
+  {
+    "cost": "0.24",
+    "id": "ebbca44e-0442-4c3e-93b4-0927e8f4527d",
+    "label": "珍珠",
+    "price": "0.93"
+  },
+  {
+    "cost": "6.87",
+    "id": "ed747937-e71b-4ca4-af9b-85fe02212773",
+    "label": "鐵板牛排(便宜的)",
+    "price": "26.00"
+  },
+  {
+    "cost": "3.36",
+    "id": "ef511572-9222-488c-98ed-e567e011daca",
+    "label": "牛筋麵",
+    "price": "18.63"
+  },
+  {
+    "cost": "0.76",
+    "id": "f2738f9b-6135-4db4-bfbb-df3464f7f78b",
+    "label": "煉乳",
+    "price": "2.06"
+  },
+  {
+    "cost": "4.90",
+    "id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
+    "label": "牛肉麵",
+    "price": "20.00"
+  },
+  {
+    "cost": "4.93",
+    "id": "f8dac303-a3a3-451d-a227-5293ff2eeac4",
+    "label": "鐵板豬排",
+    "price": "18.94"
+  },
+  {
+    "cost": "4.69",
+    "id": "f9be9a44-d827-4005-9da6-cf62c74047ea",
+    "label": "燒仙草(大)",
+    "price": "16.00"
+  },
+  {
+    "cost": "4.15",
+    "id": "fae7c4ef-822a-4e26-9018-420e2fd3b01b",
+    "label": "Barramundi薯條",
+    "price": "15.94"
+  },
+  {
+    "cost": "5.27",
+    "id": "fb03ba03-d754-4ee6-80c5-80f0ae1392ad",
+    "label": "超蠔麵線",
+    "price": "20.00"
+  },
+  {
+    "cost": "0.23",
+    "id": "fc07fc10-2de4-4e21-9261-3445a9a78c2c",
+    "label": "煉乳",
+    "price": "1.00"
+  },
+  {
+    "cost": "3.34",
+    "id": "fe77de1c-1d9c-4d6a-afb4-cdff78d32a9a",
+    "label": "滷肉飯",
+    "price": "13.50"
+  }
+]

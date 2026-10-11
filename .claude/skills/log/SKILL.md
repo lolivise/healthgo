@@ -38,6 +38,12 @@ The split follows `CLAUDE.md` → Model split:
   read each pending `data/inbox/<stem>.json` (text only); entries with a photo go to `health-ops` by path. The entry's date is the filename
   date unless the text says otherwise (e.g. "/eat yesterday dinner…"). Tell `health-ops` to run
   `uv run healthgo inbox --done <id> …` after recording.
+- **Recipe-based Cargill Cafe eats are auto-recorded.** An `eat` entry the bot built from the menu (`/eat` menu, 廚房自己配,
+  常吃 or a text shortcut; `raw.source == "cargill-cafe"` with a total kcal) is recorded by `healthgo inbox` / `healthgo daily`
+  straight into `data/manual/eating_out.jsonl` (`est_kcal` = the recipe kcal, plus `protein_g`, `fat_g`, `carb_g`, `items`,
+  `source: "cargill-cafe"`, `kcal_basis: "recipe"`) and moved to `data/inbox/done/`. Don't re-record or re-estimate them.
+  Only **no-recipe** dishes (text ends `(無食譜，需估算)`, no kcal) and free-text / photo eats still arrive pending and need an estimate
+  as below (a no-recipe dish: estimate from the dish name, `kcal_basis` is omitted).
 - **`feel` entries** (the `/feel` check-in, see memory `feel-checkin.md`): record as a `note` whose text is the entry's
   summary, prefixed `[feel]`; mark `partial` / `urgent` if set. Any Hep B symptom (B6) or dizziness with palpitations,
   cold sweat or shaking → say "see a doctor" in the confirmation.

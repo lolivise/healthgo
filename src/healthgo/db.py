@@ -36,7 +36,10 @@ CREATE TABLE inbody (
   date TEXT, weight_kg REAL, body_fat_pct REAL, skeletal_muscle_kg REAL, fat_mass_kg REAL,
   visceral_fat_level REAL, raw TEXT
 );
-CREATE TABLE eating_out (date TEXT, meal TEXT, description TEXT, est_kcal REAL);
+CREATE TABLE eating_out (
+  date TEXT, meal TEXT, description TEXT, est_kcal REAL,
+  protein_g REAL, fat_g REAL, carb_g REAL, source TEXT, kcal_basis TEXT
+);
 CREATE TABLE bloodwork (date TEXT, raw TEXT);
 CREATE TABLE reviews (date TEXT, week TEXT, verdict TEXT, report TEXT);
 CREATE TABLE notes (date TEXT, text TEXT);
@@ -172,8 +175,9 @@ def build() -> dict:
             r["date"], r.get("weight_kg"), r.get("body_fat_pct"), r.get("skeletal_muscle_kg"),
             r.get("fat_mass_kg"), r.get("visceral_fat_level"), json.dumps(r, ensure_ascii=False)))
     for r in store.read_jsonl(config.MANUAL / "eating_out.jsonl"):
-        con.execute("INSERT INTO eating_out VALUES (?,?,?,?)",
-                    (r["date"], r.get("meal"), r.get("description"), r.get("est_kcal")))
+        con.execute("INSERT INTO eating_out VALUES (?,?,?,?,?,?,?,?,?)",
+                    (r["date"], r.get("meal"), r.get("description"), r.get("est_kcal"), r.get("protein_g"),
+                     r.get("fat_g"), r.get("carb_g"), r.get("source"), r.get("kcal_basis")))
     for r in store.read_jsonl(config.MANUAL / "bloodwork.jsonl"):
         con.execute("INSERT INTO bloodwork VALUES (?,?)", (r["date"], json.dumps(r, ensure_ascii=False)))
     for r in store.read_jsonl(config.MANUAL / "reviews.jsonl"):

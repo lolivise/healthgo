@@ -1,0 +1,86 @@
+[
+  {
+    "id": "257e72db-24d3-4ecc-943a-6002215d3876",
+    "name_en": "Beverage",
+    "name_zh": "飲料",
+    "order": 11
+  },
+  {
+    "id": "281f5d0b-bf17-4353-908a-d2c2af014f9b",
+    "name_en": "Coriander",
+    "name_zh": "香菜",
+    "order": 4
+  },
+  {
+    "id": "2bd3dd67-2cc5-41a5-8ec8-43f1073abbab",
+    "name_en": "Beef Noodle Toppings",
+    "name_zh": "牛肉麵配料",
+    "order": 1
+  },
+  {
+    "id": "50343e22-b9e1-4fbe-97f2-c7e588d92699",
+    "name_en": "grass jelly add on",
+    "name_zh": "燒仙草配料",
+    "order": 13
+  },
+  {
+    "id": "71c4f847-7389-4287-b60e-a1e1e1a2f99a",
+    "name_en": "Sugar Level",
+    "name_zh": "甜度",
+    "order": 15
+  },
+  {
+    "id": "88ba4844-1b4e-4217-9d81-b451bec1cd03",
+    "name_en": "Seasoning",
+    "name_zh": "調味料",
+    "order": 2
+  },
+  {
+    "id": "9ebb7aee-8741-459f-b6a2-27c38a27016f",
+    "name_en": "side",
+    "name_zh": "小點",
+    "order": 7
+  },
+  {
+    "id": "a7db9581-2c1f-46f9-8925-aa8b8eda762d",
+    "name_en": "Seasoning",
+    "name_zh": "調味粉",
+    "order": 10
+  },
+  {
+    "id": "ab2e6ca5-8ddb-4721-b806-7a5e0da296ef",
+    "name_en": "Tea Add on",
+    "name_zh": "手搖配料",
+    "order": 14
+  },
+  {
+    "id": "afc768d5-4e92-494c-9339-731437819645",
+    "name_en": "Ba-Wan option",
+    "name_zh": "肉圓選項",
+    "order": 16
+  },
+  {
+    "id": "c1d67f6a-9321-4ed4-aba9-1f93ec10041a",
+    "name_en": "Hot Pot Broth",
+    "name_zh": "火鍋湯底",
+    "order": 5
+  },
+  {
+    "id": "e5bab1c4-b228-4876-b738-4e62c38efb6d",
+    "name_en": "Dessert Toppings",
+    "name_zh": "豆花配料",
+    "order": 6
+  },
+  {
+    "id": "f2ae2ec0-1ed6-4114-8871-225597039482",
+    "name_en": "Iron Plate Noodle Sauce",
+    "name_zh": "鐵板麵醬",
+    "order": 3
+  },
+  {
+    "id": "ffc6b58f-bc1b-4403-b023-ccee117ef6ad",
+    "name_en": "Thin noodles add on",
+    "name_zh": "麵線加料",
+    "order": 9
+  }
+]

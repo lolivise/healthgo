@@ -1,0 +1,98 @@
+[
+  {
+    "id": "01ac6afc-a09e-4009-817c-c326c89a360d",
+    "max": 1,
+    "menu_item_add_on_category_id": "c1d67f6a-9321-4ed4-aba9-1f93ec10041a",
+    "min": 0,
+    "order": 5,
+    "printed_individually": false
+  },
+  {
+    "id": "0959cb63-2fcf-4324-b08a-69175ead18dd",
+    "max": 1,
+    "menu_item_add_on_category_id": "a7db9581-2c1f-46f9-8925-aa8b8eda762d",
+    "min": 0,
+    "order": 11,
+    "printed_individually": false
+  },
+  {
+    "id": "3067063e-38ae-4a37-a18d-b17f4e058cf3",
+    "max": 2,
+    "menu_item_add_on_category_id": "ab2e6ca5-8ddb-4721-b806-7a5e0da296ef",
+    "min": 0,
+    "order": 15,
+    "printed_individually": false
+  },
+  {
+    "id": "3dee57da-2e5b-4692-bba1-0d110eeab35d",
+    "max": 1,
+    "menu_item_add_on_category_id": "281f5d0b-bf17-4353-908a-d2c2af014f9b",
+    "min": 0,
+    "order": 9,
+    "printed_individually": false
+  },
+  {
+    "id": "49c07108-1b64-4f5a-8f26-ad04d795bc35",
+    "max": 1,
+    "menu_item_add_on_category_id": "f2ae2ec0-1ed6-4114-8871-225597039482",
+    "min": 1,
+    "order": 8,
+    "printed_individually": false
+  },
+  {
+    "id": "57ae5ddb-ed1b-40b0-8ad1-a2dbb92e6959",
+    "max": 0,
+    "menu_item_add_on_category_id": "a7db9581-2c1f-46f9-8925-aa8b8eda762d",
+    "min": 0,
+    "order": 19,
+    "printed_individually": false
+  },
+  {
+    "id": "65982c18-c86a-496d-a815-1d5d60dfe9ea",
+    "max": 0,
+    "menu_item_add_on_category_id": "ffc6b58f-bc1b-4403-b023-ccee117ef6ad",
+    "min": 0,
+    "order": 10,
+    "printed_individually": false
+  },
+  {
+    "id": "9699d235-e5a9-4f6a-8305-6642bfa2eebe",
+    "max": 3,
+    "menu_item_add_on_category_id": "50343e22-b9e1-4fbe-97f2-c7e588d92699",
+    "min": 1,
+    "order": 14,
+    "printed_individually": false
+  },
+  {
+    "id": "a5d0ddae-2aec-4044-8682-cbf3a3e8144f",
+    "max": 3,
+    "menu_item_add_on_category_id": "e5bab1c4-b228-4876-b738-4e62c38efb6d",
+    "min": 1,
+    "order": 12,
+    "printed_individually": false
+  },
+  {
+    "id": "b4372fde-1b43-48db-85a1-6f27ec36bf54",
+    "max": 1,
+    "menu_item_add_on_category_id": "257e72db-24d3-4ecc-943a-6002215d3876",
+    "min": 1,
+    "order": 13,
+    "printed_individually": true
+  },
+  {
+    "id": "c4f4e465-c540-4fa4-83ee-688a4483b5ef",
+    "max": 1,
+    "menu_item_add_on_category_id": "71c4f847-7389-4287-b60e-a1e1e1a2f99a",
+    "min": 1,
+    "order": 16,
+    "printed_individually": false
+  },
+  {
+    "id": "e0794be1-1085-43a5-9457-2561d4036955",
+    "max": 0,
+    "menu_item_add_on_category_id": "88ba4844-1b4e-4217-9d81-b451bec1cd03",
+    "min": 0,
+    "order": 2,
+    "printed_individually": false
+  }
+]

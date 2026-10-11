@@ -1,3 +1,4 @@
+import { eatIsStale, eatNaming, eatShortcut, handleEatCallback, loadSession, settleEat, startEat, type Ctx } from "./eat";
 import { Answers, applyPress, finalText, firstStep, nextStep, rawAnswers, render, summarize } from "./feel";
 
 export interface Env {
@@ -7,6 +8,7 @@ export interface Env {
   WEBHOOK_SECRET: string;
   PULL_TOKEN: string;
   AI: Ai;
+  TG_API_BASE?: string; // tests only (wrangler dev): point the Telegram calls at a stub
 }
 
 const LABELS: Record<string, string> = {
@@ -28,7 +30,8 @@ const PENDING_TTL_S = 30 * 60;
 
 const HELP =
   "healthgo 收件匣指令：\n" +
-  "/eat 外食內容（例：/eat 朋友聚餐，韓式烤肉）\n" +
+  "/eat 記外食：Cargill 菜單、廚房自己配、常吃，或自由輸入\n" +
+  "　例：/eat 雞排飯、/eat 廚房 白飯1 紅燒肉1.5 蛋1、/eat 朋友聚餐，韓式烤肉\n" +
   "/feel 身體狀況回報（點選回答）\n" +
   "/weight 體重數字\n" +
   "/blood 驗血結果（文字或照片）\n" +
@@ -49,7 +52,7 @@ function safeEqual(a: string, b: string): boolean {
 }
 
 async function tg(env: Env, method: string, body: object): Promise<any> {
-  const res = await fetch(`https://api.telegram.org/bot${env.BOT_TOKEN}/${method}`, {
+  const res = await fetch(`${env.TG_API_BASE ?? "https://api.telegram.org"}/bot${env.BOT_TOKEN}/${method}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
@@ -112,7 +115,10 @@ async function startCheckin(env: Env, chatId: string): Promise<void> {
   if (id) await saveCheckin(env, chatId, { message_id: id, step: firstStep, answers: {}, started_at: nowS() });
 }
 
+const eatCtx = (env: Env): Ctx => ({ env, tg: (method, body) => tg(env, method, body) });
+
 async function handleCallback(cq: any, env: Env): Promise<void> {
+  if (String(cq.data ?? "").startsWith("e:")) return handleEatCallback(cq, eatCtx(env));
   const chatId = String(cq.message?.chat?.id ?? "");
   let toast: string | undefined;
   try {
@@ -194,6 +200,19 @@ async function handle(update: any, env: Env): Promise<void> {
     }
   }
 
+  // An open /eat flow: a stale one, or one cut off by another command, is settled; a reply to the
+  // "name this favourite" prompt renames it.
+  const ctx = eatCtx(env);
+  const eatOpen = await loadSession(env, chatId);
+  if (eatOpen) {
+    const cmd = m?.[1].toLowerCase();
+    if (eatIsStale(eatOpen) || (m && cmd !== "eat")) {
+      await settleEat(ctx, chatId, eatOpen);
+    } else if (!m && eatOpen.state.naming && !msg.photo && !msg.document && (raw || transcript)) {
+      if (await eatNaming(ctx, chatId, msg, raw || transcript)) return;
+    }
+  }
+
   // An open check-in: a stale one is settled; /cancel drops it; any other command saves it as partial;
   // plain text at the last question is the free-text answer.
   const open = await loadCheckin(env, chatId);
@@ -209,6 +228,11 @@ async function handle(update: any, env: Env): Promise<void> {
       if (transcript) await reply(env, chatId, `🎙 ${transcript}`);
       return;
     }
+  }
+  if (m && m[1].toLowerCase() === "eat" && !(m[2] ?? "").trim() && !msg.photo && !msg.document && !voice) {
+    await env.DB.prepare("DELETE FROM pending WHERE chat_id = ?").bind(chatId).run();
+    await startEat(ctx, chatId);
+    return;
   }
   if (m && m[1].toLowerCase() === "feel") {
     await env.DB.prepare("DELETE FROM pending WHERE chat_id = ?").bind(chatId).run();
@@ -243,6 +267,13 @@ async function handle(update: any, env: Env): Promise<void> {
     fileId = msg.document.file_id;
   } else if (voice) {
     fileId = voice.file_id;
+  }
+
+  // /eat text or a voice note: try the recipe menu first; anything that does not match falls through to a plain entry.
+  const hasMedia = (Array.isArray(msg.photo) && msg.photo.length > 0) || !!msg.document;
+  if (kind === "eat" && text && !hasMedia && (m || voice)) {
+    const orig = { message_id: msg.message_id, date: msg.date ?? Math.floor(Date.now() / 1000), text };
+    if (await eatShortcut(ctx, chatId, text, orig)) return;
   }
 
   // Bare command (tapped from the menu): remember it and ask for the content.
