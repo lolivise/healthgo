@@ -26,6 +26,7 @@ metadata:
   into `eating_out` (with protein/fat/carb) on inbox pull; the daily job re-syncs and pushes the menu.
 - **Name map (Darren, 2026-10-11):** his 筍乾 = POS ingredient **香脆筍**; his 黃金泡菜 = POS ingredient **泡菜**, which is
   **homemade** (no POS recipe). Both are small bento sides he adds to self-assembled bowls. POS menu item 泡菜(150g) is
-  wrongly linked to the 泡菜鍋 product; `overrides.json` re-points it.
+  wrongly linked to the 泡菜鍋 product; `overrides.json` re-points it. A bowl scoop of each is **50 g** (confirmed).
+  香脆筍 nutrition is from its can label (Darren supplied): 71 kcal/100 g.
 - `adjustments.json` assumes ~1,800 g of the 2,000 g 豬肥油 in 滷肉 renders out and is skimmed (an estimate, not
   confirmed by Darren). See [[data-sources]], [[daily-diet-baseline]].
