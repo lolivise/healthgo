@@ -29,8 +29,9 @@ Darren: he doesn't want to keep cutting hard or "kill my muscles"; the goal can 
 is to **be back at maintenance before he leaves**, so he travels with energy, less anxiety and no binge urge. He
 reported low energy and discomfort on the current intake. Built on [[evidence-maintenance-transition]] and
 [[evidence-cut-and-training]].
-- **Phase 1, gentle cut, 2026-10-12 → 2026-12-13:** the 2,075 kcal rice experiment ([[daily-diet-baseline]]) at
-  ~0.3–0.5 %/wk (deficit ~250–350 kcal, inside the muscle-safe zone). The W44 review (~11-01) measures his real TDEE.
+- **Phase 1, gentle cut, 2026-10-12 → 2026-12-13:** W42 on potato at ≈2,030 (freezer stock), then the 2,075 kcal rice
+  experiment from 10-19 ([[daily-diet-baseline]]) at ~0.3–0.5 %/wk (deficit ~250–350 kcal, inside the muscle-safe zone).
+  The W45 review (~11-08) measures his real TDEE.
   Its −0.25 %/wk fallback rule still applies.
 - **Phase 2, maintenance, 2026-12-14 → 2027-01-22 (~5.5 weeks, includes Christmas):** one straight step up to the
   measured maintenance (≈2,300–2,400), not a slow ramp. Expect +0.5–2 kg of water/glycogen in the first 2 weeks.
@@ -45,7 +46,7 @@ reported low energy and discomfort on the current intake. Built on [[evidence-ma
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
 maintenance is ≈2,450 ± 200 at ~91 kg (revised up from 2,330 at the full-week W41 review, 2026-10-11:
 14d −0.81 %/wk, 28d −0.55 %/wk, steps ~9,300/day and ~220–270 treadmill min/wk; the script's 2,525 ignores
-eat-out days). The W42–W44 fixed-2,075 rice phase is the real measurement. At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
+eat-out days). The fixed-intake weeks from W42 (potato ≈2,030, then rice 2,075 W43–W45) are the real measurement. At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
 So 2,500 needs:
 - more daily steps (the biggest lever, ≈40–50 kcal per +1,000 steps);
 - more muscle over time;

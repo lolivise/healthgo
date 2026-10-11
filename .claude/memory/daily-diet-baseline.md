@@ -74,7 +74,12 @@ These match the table above.
 **Changes agreed at the 2026-W41 review (2026-10-09):**
 - **Fat up to the 0.6 g/kg floor:** olive oil 8 g → **14 g**, permanently. Fish oil supplies the other 4 g. The first
   proposal (18 g) was made before the fish oil was known.
-- **2,000 kcal experiment, 3 weeks: 2026-10-12 → 2026-11-01 (W42–W44)**, with rice replacing potato.
+- **Moved one week (Darren, 2026-10-11):** he still has pre-made potato in the freezer, enough for W42, so
+  **W42 (10-12 → 10-18) is a potato week: potato 400 g + olive oil 14 g + fish oil + 600 g veg ≈ 2,030 kcal**
+  (the 1,974 baseline + 6 g oil). That is within noise of 2,075, so the W41 "slow down" still happens. Rice starts
+  **2026-10-19**. **Team lunch on Fri 2026-10-16:** ask about it at the W42 review, and remind him not to arrive empty
+  (eat the usual breakfast + shake first; see [[cargill-cafe]] for the 10/10 lesson).
+- **2,000 kcal rice experiment, 3 weeks: 2026-10-19 → 2026-11-08 (W43–W45)** (originally 10-12 → 11-01), with rice replacing potato.
   - Darren wanted 2,000 kcal: the 1,850 number "looks low" (not hunger or energy). He also has a long-term wish of a 2,500 TDEE.
   - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g + 600 g veg → **≈2,010 (spinach) – 2,070 (kale) kcal, ~2,040 average**, plus 36 from cocoa/coffee → **≈2,075** /
     ~174 P / 56 F / ~197 C. Decided 2026-10-09: keep the food as is and log the intake as 2,075. Don't trim the rice.
@@ -82,8 +87,8 @@ These match the table above.
   - Expected at TDEE ≈2,330: ≈ −0.33 %/wk, putting him at ~87 kg on 1/16 (vs ~85 at 1,850). He accepted the slower pace.
   - **Purpose: measure his real TDEE** from the daily weigh-ins at a known, constant intake.
   - **Rule:** if the 14-day trend is slower than −0.25 %/wk for 2 consecutive weekly reviews, go back to ~1,900
-    (≈75 g rice). Ignore the first rice week's scale noise, so judge from W43 on.
-  - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W44 review (~2026-11-01) from the measured
+    (≈75 g rice). Ignore the first rice week's scale noise (W43), so judge from W44 on.
+  - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W45 review (~2026-11-08) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
 - Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 14 g oil.
 - **Food gaps from the rice swap,** re-estimated with the real 600 g of veg:

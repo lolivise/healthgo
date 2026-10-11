@@ -6,7 +6,8 @@
   "baseline_intake_kcal": 1974,
   "intake_kcal_schedule": [
     {"from": "2026-07-15", "kcal": 1974, "note": "fixed potato diet incl. fish oil, 600 g veg, shake cocoa+coffee"},
-    {"from": "2026-10-12", "kcal": 2075, "note": "2,000 kcal rice experiment W42-W44; olive oil 14 g + fish oil; 600 g veg (spinach/kale avg)"}
+    {"from": "2026-10-12", "kcal": 2030, "note": "W42 potato week (freezer stock): potato 400 g + olive oil 14 g + fish oil, 600 g veg; team lunch Fri 10-16 logged separately"},
+    {"from": "2026-10-19", "kcal": 2075, "note": "2,000 kcal rice experiment W43-W45 (moved a week, potato stock); olive oil 14 g + fish oil; 600 g veg (spinach/kale avg)"}
   ],
   "cut": {
     "start_date": "2026-07-15",
