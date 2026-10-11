@@ -25,6 +25,9 @@ Decided with Darren 2026-10-09:
 - **Every review is sent to Telegram in full** (Darren, 2026-10-11: "every review need to push to telegram bot,
   so I can read it on my mobile"). `uv run healthgo send-report reports/<file>.md`, run by `health-writer`
   after the commit. It is plain text, split under the 4,096-char limit. A corrected report is re-sent.
+  **Phone layout (Darren, 2026-10-11):** the first send was "squished together" paragraphs, hard to read at a
+  ~350 px chat width. Reports are now one fact per line, bold titles with indented sub-bullets, each change on its
+  own line (rules in `.claude/skills/review/reference.md` → Report template). The sender renders them as Telegram HTML.
 - **Cadence:** a Telegram ping on Sunday 18:00 → he runs `/review` interactively. Daily red flags
   arrive on Telegram from the rule-based check, with no AI involved.
 
