@@ -724,8 +724,8 @@
     "name_zh": "滷百頁豆腐",
     "order": 32,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/ac604fdc-6a80-42a8-9a18-52dce485c0f9-1778924137763.png",
-    "remaining_count": null,
-    "status": "ACTIVE"
+    "remaining_count": 0,
+    "status": "SOLD_OUT"
   },
   {
     "category_id": "10d4ff2b-e4e9-42c9-9003-b151d201d95a",

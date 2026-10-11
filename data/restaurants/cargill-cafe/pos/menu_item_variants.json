@@ -314,7 +314,7 @@
   {
     "id": "4229a089-9f67-4b1a-b3d4-64e8d77c629f",
     "is_uber_enabled": false,
-    "kitchen_ticket_text": "煎魚排+檸檬胡椒 (鱸魚)",
+    "kitchen_ticket_text": "煎魚排+檸檬胡椒 (Barramundi)",
     "menu_item_id": "9f1a420b-9d40-4a55-8f8d-cdf0abfa0e46",
     "name_en": "Barramundi",
     "name_zh": "鱸魚",
@@ -1016,7 +1016,7 @@
   {
     "id": "dbfe9979-1fa5-4442-b76a-a8b512ad5e28",
     "is_uber_enabled": false,
-    "kitchen_ticket_text": "煎魚排+檸檬胡椒 (鯛魚)",
+    "kitchen_ticket_text": "煎魚排+檸檬胡椒(Snapper)",
     "menu_item_id": "9f1a420b-9d40-4a55-8f8d-cdf0abfa0e46",
     "name_en": "Snapper",
     "name_zh": "鯛魚",
