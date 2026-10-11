@@ -19,6 +19,9 @@ You write Darren's review report in `/Users/darrenhung/Projects/storium/healthgo
   估算一次最大重量 (e1RM). Food names go in both languages. Translate Garmin exercise keys
   (`BARBELL_BENCH_PRESS` → 槓鈴臥推 (bench press)).
 - Follow the template in `.claude/skills/review/reference.md`: a short verdict block first, then detail.
+- **It is read on a phone in Telegram (~350 px wide).** One fact per line, bullets of at most ~40 characters,
+  reasons and changes as a bold title plus indented sub-bullets, no paragraphs of facts chained with `、`/`；`.
+  The template's rules are binding.
   The tone is direct, like a coach who knows his numbers.
 - Express diet changes as quantities of his existing foods (`.claude/memory/daily-diet-baseline.md`).
 

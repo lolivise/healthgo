@@ -31,25 +31,77 @@ def send(text: str) -> bool:
 TELEGRAM_LIMIT = 4000  # the API caps a message at 4096 chars
 
 
-def _plain(md: str) -> str:
-    """Markdown report → plain text that reads well in Telegram (no parse_mode, so nothing can fail to parse)."""
+INDENT = "  "  # em spaces: Telegram keeps them, so nested bullets stay indented on a phone
+
+
+def _inline(s: str) -> str:
+    """Escape for Telegram HTML, then **bold** → <b>, `code` → plain."""
+    s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+    return s.replace("**", "").replace("`", "")
+
+
+def _cells(row: str) -> list[str]:
+    return [c.strip() for c in row.strip().strip("|").split("|")]
+
+
+def _table(rows: list[str]) -> list[str]:
+    """A Markdown table is unreadable at ~350 px, so each row becomes a bullet.
+
+    ≤3 columns: one line, `• label：value（header3 value3）`.
+    More columns: the label line, then one indented line per cell, `◦ header：value`.
+    """
+    head, body = _cells(rows[0]), [_cells(r) for r in rows[1:]]
     out = []
-    for line in md.splitlines():
-        s = line.rstrip()
-        if re.fullmatch(r"\|?[\s:|-]+\|?", s) and "-" in s:  # table separator row
+    for cells in body:
+        label, rest = cells[0], cells[1:]
+        if len(cells) <= 3:
+            line = f"• <b>{_inline(label)}</b>：{_inline(rest[0])}" if label else f"• {_inline(rest[0])}"
+            if len(rest) > 1 and rest[1]:
+                line += f"（{_inline(head[2])} {_inline(rest[1])}）"
+            out.append(line)
             continue
-        if s.startswith("|"):
-            s = " · ".join(c.strip() for c in s.strip("|").split("|"))
-        elif s.startswith("# "):
-            s = "📊 " + s[2:]
-        elif s.startswith("## "):
-            s = "\n▍" + s[3:]
-        elif s.startswith("### "):
-            s = "▸ " + s[4:]
-        elif s.strip() == "---":
-            s = "────────"
-        s = s.replace("**", "").replace("`", "")
-        out.append(s)
+        out.append(f"• <b>{_inline(label)}</b>")
+        for h, c in zip(head[1:], rest):
+            if c:
+                out.append(f"{INDENT}◦ {_inline(h)}：{_inline(c)}" if h else f"{INDENT}◦ {_inline(c)}")
+    return out
+
+
+def _telegram_html(md: str) -> str:
+    """Markdown report → Telegram HTML laid out for a phone: bold headings, bullets, indented sub-points."""
+    out: list[str] = []
+    lines = md.splitlines()
+    i = 0
+    while i < len(lines):
+        s = lines[i].rstrip()
+        if s.lstrip().startswith("|"):
+            rows = []
+            while i < len(lines) and lines[i].lstrip().startswith("|"):
+                if not re.fullmatch(r"\s*\|?[\s:|-]+\|?\s*", lines[i]):  # skip the separator row
+                    rows.append(lines[i])
+                i += 1
+            out.extend(_table(rows) if len(rows) > 1 else [_inline(" · ".join(_cells(rows[0])))])
+            continue
+        i += 1
+        indent = len(s) - len(s.lstrip())
+        t = s.strip()
+        if t.startswith("# "):
+            out.append(f"<b>📊 {_inline(t[2:])}</b>")
+        elif t.startswith("## "):
+            out += ["", f"<b>▍{_inline(t[3:])}</b>"]
+        elif t.startswith("### "):
+            out += ["", f"<b>▸ {_inline(t[4:])}</b>"]
+        elif t == "---":
+            out.append("────────────")
+        elif re.match(r"[-*] ", t):
+            out.append(f"{INDENT * (indent // 2)}{'◦' if indent else '•'} {_inline(t[2:])}")
+        elif indent and re.match(r"\d+\. ", t):
+            out.append(f"{INDENT * (indent // 2)}{_inline(t)}")
+        elif re.match(r"\d+\. ", t):
+            out += ["", _inline(t)]  # numbered reasons get breathing room
+        else:
+            out.append(_inline(t))
     return re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
 
 
@@ -74,19 +126,26 @@ def _chunks(text: str, limit: int = TELEGRAM_LIMIT) -> list[str]:
 
 def send_report(path: Path) -> bool:
     """Send a review report to Telegram in full, split into messages under the API limit."""
-    parts = _chunks(_plain(path.read_text()))
+    parts = _chunks(_telegram_html(path.read_text()))
     for i, part in enumerate(parts, 1):
-        if not _telegram(part if len(parts) == 1 else f"{part}\n\n（{i}/{len(parts)}）"):
+        text = part if len(parts) == 1 else f"{part}\n\n（{i}/{len(parts)}）"
+        # if Telegram rejects the HTML, the same text without tags still beats nothing
+        if not (_telegram(text, html=True) or _telegram(re.sub(r"</?b>", "", text)
+                                                         .replace("&lt;", "<").replace("&gt;", ">")
+                                                         .replace("&amp;", "&"))):
             _macos(f"週報 {path.name} 傳到 Telegram 失敗（{i}/{len(parts)}）")
             return False
     return True
 
 
-def _telegram(text: str) -> bool:
+def _telegram(text: str, html: bool = False) -> bool:
     try:
         token = vault.read("TELEGRAM/BOT_TOKEN")
         chat_id = vault.read("TELEGRAM/CHAT_ID")
-        body = json.dumps({"chat_id": chat_id, "text": text}).encode()
+        msg = {"chat_id": chat_id, "text": text}
+        if html:
+            msg["parse_mode"] = "HTML"
+        body = json.dumps(msg).encode()
         req = urllib.request.Request(
             f"https://api.telegram.org/bot{token}/sendMessage",
             data=body, headers={"Content-Type": "application/json"},

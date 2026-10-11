@@ -61,34 +61,61 @@ with no load recorded, so don't count them as strength loss.
 
 ## Report template (繁體中文)
 
+**Darren reads it on his phone in Telegram** (`healthgo send-report`, chat bubble ≈350 px ≈ 18–20 Chinese
+characters per line). Write for that screen:
+- **One fact per line.** Every number, change or lift gets its own bullet. Never chain facts with `、` / `；` /
+  `。` into a paragraph.
+- **A bullet is at most ~40 characters** (about 2 lines on the phone). If it's longer, split it into sub-bullets.
+- **Reasons and changes = bold title line + indented sub-bullets** (2-space `-`). The sender renders headings
+  bold, `-` as `•`, an indented `-` as an indented `◦`.
+- **Tables:** short ones only. Each row becomes a bullet on the phone (≤3 columns → one line, 4 → a label line
+  plus one sub-line per cell), so keep cells short.
+- **No long runs of numbers** like a 14-day weight string. Show 3–5 key points, or a short table.
+- **Paragraph text is for one-line notes only.**
+
 ```markdown
-# 週報 2026-W41（10/05 – 10/11）· 減脂第 13 週
+# 週報 2026-W41（10/05 – 10/11）
+減脂第 13 週
 
 ## 結論：繼續減脂 ✅
-- 體重趨勢每週 −0.6%（目標 0.5–0.75%），速度剛好
-- 主要動作力量持平：深蹲 (squat) e1RM 112 kg（前 4 週 113 kg）
-- 恢復正常：靜息心率 (RHR) 51、心率變異度 (HRV) 平衡
 
-**本週要改的：** 橄欖油 8 g → 18 g（脂肪拉到 0.6 g/kg 安全下限）
+1. **速度剛好**
+  - 14 天趨勢 −0.6 %/週
+  - 目標 0.5–0.75 %，上限 1 %
+2. **力量持平**
+  - 腿推 (leg press) e1RM 252 kg（前 4 週 240）
+  - 滑輪下拉 (lat pulldown) e1RM 78 kg，本輪最佳
+3. **恢復正常**
+  - 靜息心率 (RHR) 50（基準 49.6）
+  - 心率變異度 (HRV) 7/7 平衡
+
+## 本週要改的
+- **脂肪拉到安全下限**
+  - 橄欖油 (olive oil) 8 g → 14 g
+- **訓練**
+  - 腿伸屈 (leg extension) 維持 50 kg，觀察次數
 
 ---
 
-## 體重與身體組成
-| | 本週 | 上週 | 變化 |
-…（平均體重、14/28 天趨勢、估計體脂進度（由體重趨勢推算））
+## 體重
+| | 本週 | 上週 |
+|---|---|---|
+| 平均體重 | 91.0 kg | 91.7 kg |
+- 14 天趨勢：−0.81 %/週
+- 估計體脂：約 25 %（粗估）
 
 ## 力量 (Strength)
-…（主要動作 e1RM 表格、停滯或下降的動作、肩推 (OHP) 狀況）
+…（每個動作一行：重量 × 次數、e1RM、對照；刻意放輕的動作註明「非流失」；肩推 (OHP) 狀況）
 
 ## 恢復 (Recovery)
-…（RHR、HRV、睡眠、壓力、身體能量 (Body Battery) vs 你的 4 週基準）
+…（每項一行：本週 vs 4 週基準，用短表格）
 
 ## 飲食
-…（基準 1,846 kcal；外食紀錄；估算維持熱量 (TDEE)；建議調整用現有食物的份量表示）
+…（每餐外食一行：日期、kcal、內容；TDEE 一行；調整一項一行）
 
 ## 訓練建議
-…（只做針對性調整，不換整套課表）
+…（只做針對性調整，不換整套課表；一項一行）
 
 ## 距離目標
-…（離 2027-01-22 檢查點還有幾週、預估屆時體重、離 15–18% 體脂還差多少）
+…（檢查點倒數、預估體重、距 15–18 % 體脂；一項一行）
 ```
