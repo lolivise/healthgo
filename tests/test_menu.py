@@ -147,3 +147,27 @@ def test_pan_fried_override(shop, tmp_path):
     out = _names(shop, tmp_path, "虱目魚肚飯")  # ...unless the dish is on the pan-fried list
     assert out["oil_reason"] == "pan_fry" and out["oil_allowance_g"] == 5.0
     assert out["pan_fried_flag"] and not out["fried_flag"]
+
+
+def test_bowl_extra_ingredients_and_relink(shop, tmp_path):
+    d = tmp_path / "t"
+    (d / "overrides.json").write_text(json.dumps({
+        "bowl_extra_ingredients": {"raw": {"label": "生米", "alias": "米粒", "serve_g": 50}},
+        "relink_dishes": {"it": {"ingredient_id": "raw", "grams": 150, "reason": "test"}}}))
+    _names(shop, tmp_path, "泡菜(150g)")  # plain name: no fry/stir-fry oil allowance
+    out = menu.compute("t")
+    ex = out["bowl_extras"][0]
+    assert ex["label"] == "生米" and ex["serve_g"] == 50.0
+    assert ex["per_serve"]["kcal"] == pytest.approx(175.0)
+    items = menu.bowl_items(out)
+    assert items[0]["key"] == "bowl:ing:raw" and items[0]["name_en"] == "米粒"
+    dish = out["dishes"][0]  # relinked: 150 g raw rice, not the product tree (no oil allowance, no label scaling)
+    assert dish["nutrition"]["grams"] == 150.0 and dish["nutrition"]["kcal"] == pytest.approx(525.0)
+    assert dish["relinked"] == "test" and dish["oil_allowance_g"] == 0.0
+
+
+def test_relink_skips_scaled_to_label_g(shop, tmp_path):
+    (tmp_path / "t" / "overrides.json").write_text(json.dumps({
+        "relink_dishes": {"it": {"ingredient_id": "raw", "grams": 150, "reason": "x"}}}))
+    out = _names(shop, tmp_path, "泡菜(100g)")
+    assert out["nutrition"]["grams"] == 150.0 and "scaled_to_label_g" not in out

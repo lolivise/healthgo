@@ -487,7 +487,14 @@ def compute(shop: str) -> dict:
              "variant_label_zh": v.get("name_zh") or None,
              "price": num(v.get("price")), "status": v.get("status") or it.get("status")}
         pid = v.get("product_id")
-        if pid in prod_res:
+        rl = (c.overrides.get("relink_dishes") or {}).get(it["id"])
+        if rl and rl.get("ingredient_id") in c.ings:
+            # POS links the item to the wrong product: price it as `grams` of one ingredient instead
+            ri = c.ingredient(rl["ingredient_id"], float(rl["grams"]), "g")
+            d.update(_result(c, ri, it["name_en"], it["name_zh"], v.get("name_en"), v.get("name_zh"), scale=False))
+            d["retail"] = it["name_zh"] in RETAIL
+            d["relinked"] = rl.get("reason") or True
+        elif pid in prod_res:
             d.update(_result(c, prod_res[pid], it["name_en"], it["name_zh"], v.get("name_en"), v.get("name_zh"),
                              product_name=c.prods[pid]["label"], force_pan=it["name_zh"] in PAN_FRIED_DISHES))
             d["retail"] = it["name_zh"] in RETAIL
@@ -589,8 +596,19 @@ def compute(shop: str) -> dict:
         "hidden": sum(1 for x in dishes if x.get("hidden")),
         "oddities": {k: sorted(set(v)) if k != "unit_mismatches" else v for k, v in c.oddities.items()},
     }
+    # bowl extras: single ingredients offered as kitchen-bowl items (e.g. a bento side that has no component)
+    extras = []
+    for iid, ex in (c.overrides.get("bowl_extra_ingredients") or {}).items():
+        if iid not in c.ings:
+            continue
+        sg = float(ex["serve_g"])
+        r = c.ingredient(iid, sg, "g")
+        if not r.covered:
+            continue
+        extras.append({"ingredient_id": iid, "label": ex["label"], "alias": ex.get("alias") or c.label("ingredient", iid),
+                       "serve_g": sg, "per_serve": {k: _r1(r.n[k]) for k in KEYS}})
     return {"shop": shop, "synced_at": _synced_at(shop), "dishes": dishes, "addons": addons,
-            "components": comps, "summary": summary}
+            "components": comps, "bowl_extras": extras, "summary": summary}
 
 
 def _oil_summary(*groups: list) -> dict:
@@ -718,7 +736,10 @@ def bowl_items(data: dict) -> list[dict]:
     staples = [prods[n] for n in BOWL_STAPLES if n in prods]
     rest = [prods[n] for n in BOWL_PRODUCTS if n in prods] + sorted(
         (p for n, p in prods.items() if n not in BOWL_STAPLES + BOWL_PRODUCTS), key=lambda p: p["label"])
-    return staples + comps + rest
+    extras = [{"key": "bowl:ing:" + e["ingredient_id"], "ref": e["ingredient_id"], "label": e["label"],
+               "name_en": e["alias"], "serve_g": e["serve_g"], "per_serve": e["per_serve"]}
+              for e in data.get("bowl_extras") or []]
+    return staples + extras + comps + rest
 
 
 def assign_codes(shop: str, ref_ids: list[str]) -> dict[str, int]:
@@ -787,7 +808,7 @@ def menu_rows(shop: str) -> list[dict]:
         ps = c["per_serve"]
         rows.append({"code": codes[c["key"]], "shop": shop, "kind": "component", "item_ref": c["key"],
                      "ref_id": c["ref"], "category": "廚房", "name_zh": BOWL_RENAME.get(c["label"], c["label"]),
-                     "name_en": None, "variant": None, **{k: ps[k] for k in KEYS}, "grams": c["serve_g"],
+                     "name_en": c.get("name_en"), "variant": None, **{k: ps[k] for k in KEYS}, "grams": c["serve_g"],
                      "serve_g": c["serve_g"], "sort": i, "addon_combos": None, "est": 0})
     for i, a in enumerate(addons):
         n = nut(a)

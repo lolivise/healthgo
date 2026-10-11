@@ -1,5 +1,24 @@
 {
   "hide_menu_items": {
     "8b45defe-2548-463e-9718-84d6a1c2fa4f": "duplicate 奶茶 — only the 大/小 item is real (Darren, 2026-10-11)"
+  },
+  "bowl_extra_ingredients": {
+    "031a4965-dcca-4d3a-aa56-30aae6ab340b": {
+      "label": "筍乾",
+      "alias": "香脆筍",
+      "serve_g": 50
+    },
+    "96a867a5-88a1-4988-b2df-ae8be985e9f0": {
+      "label": "黃金泡菜",
+      "alias": "泡菜",
+      "serve_g": 50
+    }
+  },
+  "relink_dishes": {
+    "ae053f05-3a63-425d-8a51-ec73daad2b60": {
+      "ingredient_id": "96a867a5-88a1-4988-b2df-ae8be985e9f0",
+      "grams": 150,
+      "reason": "POS links it to 泡菜鍋 by mistake; it is 150 g of homemade 黃金泡菜 (Darren, 2026-10-11)"
+    }
   }
 }

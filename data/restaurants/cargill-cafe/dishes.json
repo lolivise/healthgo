@@ -19,11 +19,11 @@
       "name_en": "Kimchi",
       "name_zh": "泡菜",
       "nutrition": {
-        "carb": 5.8,
-        "fat": 0.4,
+        "carb": 12.5,
+        "fat": 5.7,
         "grams": 100.0,
-        "kcal": 35.0,
-        "protein": 2.0
+        "kcal": 111.0,
+        "protein": 2.4
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -1487,6 +1487,32 @@
       "warnings": []
     }
   ],
+  "bowl_extras": [
+    {
+      "alias": "香脆筍",
+      "ingredient_id": "031a4965-dcca-4d3a-aa56-30aae6ab340b",
+      "label": "筍乾",
+      "per_serve": {
+        "carb": 1.6,
+        "fat": 0.1,
+        "kcal": 9.5,
+        "protein": 0.5
+      },
+      "serve_g": 50.0
+    },
+    {
+      "alias": "泡菜",
+      "ingredient_id": "96a867a5-88a1-4988-b2df-ae8be985e9f0",
+      "label": "黃金泡菜",
+      "per_serve": {
+        "carb": 6.2,
+        "fat": 2.9,
+        "kcal": 55.5,
+        "protein": 1.2
+      },
+      "serve_g": 50.0
+    }
+  ],
   "components": [
     {
       "batch": {
@@ -1602,10 +1628,10 @@
     },
     {
       "batch": {
-        "carb": 120.7,
+        "carb": 120.8,
         "fat": 1.4,
         "kcal": 554.5,
-        "protein": 12.8
+        "protein": 12.4
       },
       "batch_g": 450.0,
       "breakdown": [
@@ -1643,7 +1669,7 @@
         "carb": 120.7,
         "fat": 1.4,
         "kcal": 554.5,
-        "protein": 12.8
+        "protein": 12.4
       },
       "serve_g": 450.0,
       "used_in_products": 15,
@@ -6547,10 +6573,10 @@
       "name_zh": "雞排飯",
       "nutrition": {
         "carb": 176.4,
-        "fat": 74.0,
+        "fat": 73.9,
         "grams": 750.0,
         "kcal": 1590.3,
-        "protein": 55.0
+        "protein": 54.7
       },
       "oil_allowance_g": 30.0,
       "oil_reason": "deep_fry_10pct",
@@ -6631,10 +6657,10 @@
       "name_zh": "炸鹹酥雞飯",
       "nutrition": {
         "carb": 197.8,
-        "fat": 69.2,
+        "fat": 69.1,
         "grams": 700.0,
         "kcal": 1640.4,
-        "protein": 57.1
+        "protein": 56.7
       },
       "oil_allowance_g": 25.0,
       "oil_reason": "deep_fry_10pct",
@@ -6719,11 +6745,11 @@
       "name_en": "Three Cup Chicken Bento",
       "name_zh": "三杯雞飯",
       "nutrition": {
-        "carb": 146.7,
-        "fat": 48.8,
+        "carb": 146.8,
+        "fat": 48.7,
         "grams": 780.0,
         "kcal": 1228.2,
-        "protein": 51.1
+        "protein": 50.7
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -6813,11 +6839,11 @@
       "name_en": "Braised Pork Belly Bento",
       "name_zh": "控肉飯",
       "nutrition": {
-        "carb": 132.0,
-        "fat": 64.5,
+        "carb": 132.1,
+        "fat": 64.4,
         "grams": 580.0,
         "kcal": 1311.9,
-        "protein": 43.1
+        "protein": 42.7
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -6873,10 +6899,10 @@
       "name_zh": "椒鹽魚排飯",
       "nutrition": {
         "carb": 157.3,
-        "fat": 4.1,
+        "fat": 4.0,
         "grams": 650.0,
         "kcal": 878.0,
-        "protein": 48.2
+        "protein": 47.8
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -6966,11 +6992,11 @@
       "name_en": "Three Cup King Oyster Mushroom Bento***(V)",
       "name_zh": "三杯杏鮑菇飯***(V)",
       "nutrition": {
-        "carb": 158.0,
-        "fat": 11.9,
+        "carb": 158.1,
+        "fat": 11.8,
         "grams": 723.0,
         "kcal": 815.7,
-        "protein": 20.5
+        "protein": 20.1
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -7079,11 +7105,11 @@
       "name_en": "Fried Pork Chop Bento",
       "name_zh": "炸排骨便當",
       "nutrition": {
-        "carb": 165.7,
-        "fat": 57.8,
+        "carb": 165.8,
+        "fat": 57.7,
         "grams": 700.0,
         "kcal": 1413.7,
-        "protein": 53.4
+        "protein": 53.0
       },
       "oil_allowance_g": 25.0,
       "oil_reason": "deep_fry_10pct",
@@ -7128,11 +7154,11 @@
       "name_en": "Pan-Fried Milkfish Belly Bento(I)",
       "name_zh": "虱目魚肚飯",
       "nutrition": {
-        "carb": 120.7,
+        "carb": 120.8,
         "fat": 28.6,
         "grams": 525.0,
         "kcal": 855.2,
-        "protein": 25.8
+        "protein": 25.5
       },
       "oil_allowance_g": 5.0,
       "oil_reason": "pan_fry",
@@ -7178,10 +7204,10 @@
       "name_zh": "土魠魚便當",
       "nutrition": {
         "carb": 122.7,
-        "fat": 15.0,
+        "fat": 14.9,
         "grams": 580.0,
         "kcal": 783.3,
-        "protein": 37.9
+        "protein": 37.5
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -7487,11 +7513,11 @@
       "name_en": "Taiwanese Thin Noodles Soup With Pork Chop",
       "name_zh": "炸排骨麵線",
       "nutrition": {
-        "carb": 165.7,
-        "fat": 57.8,
+        "carb": 165.8,
+        "fat": 57.7,
         "grams": 700.0,
         "kcal": 1413.7,
-        "protein": 53.4
+        "protein": 53.0
       },
       "oil_allowance_g": 25.0,
       "oil_reason": "deep_fry_10pct",
@@ -11272,74 +11298,9 @@
     {
       "breakdown": [
         {
-          "grams": 13.9,
-          "id": "e5107cd6-b45b-4e9c-ba9b-5ff784e4e25e",
-          "label": "米"
-        },
-        {
-          "grams": 9.3,
+          "grams": 150.0,
           "id": "96a867a5-88a1-4988-b2df-ae8be985e9f0",
           "label": "泡菜"
-        },
-        {
-          "grams": 9.3,
-          "id": "279a7d1a-f821-4ce2-acec-04d724c31435",
-          "label": "豬肉捲"
-        },
-        {
-          "grams": 9.3,
-          "id": "f7c87504-8a0a-4474-bb8d-a2ed136f61e3",
-          "label": "高麗菜"
-        },
-        {
-          "grams": 6.5,
-          "id": "dac5fc3d-9359-4988-90c6-c3e3fe47c14d",
-          "label": "豆腐835"
-        },
-        {
-          "grams": 5.6,
-          "id": "9cca240c-3600-4398-9b3a-c94fab9c8b4c",
-          "label": "雞蛋"
-        },
-        {
-          "grams": 4.6,
-          "id": "8457b424-1906-4e54-a941-e5af97819337",
-          "label": "綜合火鍋料"
-        },
-        {
-          "grams": 2.8,
-          "id": "eb081b9f-00ae-4820-9b4a-6fe7f516d2f5",
-          "label": "杏鮑菇"
-        },
-        {
-          "grams": 2.8,
-          "id": "f47c06e1-d83e-4832-b6a1-a3a8d239e403",
-          "label": "金針菇"
-        },
-        {
-          "grams": 1.9,
-          "id": "e0f1b569-3a26-4a26-a9ad-b6656909c7ca",
-          "label": "豆皮(盒裝)"
-        },
-        {
-          "grams": 0.7,
-          "id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
-          "label": "大骨粉"
-        },
-        {
-          "grams": 0.5,
-          "id": "19979099-0467-4e71-b0ef-325a4e0a32d6",
-          "label": "辣椒粉"
-        },
-        {
-          "grams": 0.4,
-          "id": "6f0a39e0-b7d4-4d97-bbf5-0407588531ac",
-          "label": "雞汁"
-        },
-        {
-          "grams": 0.2,
-          "id": "e4b3e69e-8549-42f4-b62d-bea9a8a187f0",
-          "label": "鰹魚粉"
         }
       ],
       "category": "Retail",
@@ -11350,26 +11311,24 @@
       "name_en": "Taiwanese pickled",
       "name_zh": "泡菜(150g)",
       "nutrition": {
-        "carb": 14.0,
-        "fat": 4.9,
+        "carb": 18.8,
+        "fat": 8.6,
         "grams": 150.0,
-        "kcal": 122.5,
-        "protein": 5.5
+        "kcal": 166.5,
+        "protein": 3.6
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
       "pan_fried_flag": false,
       "price": 6.5,
       "product_id": "157647ee-c964-42a5-b116-d734c751b5a5",
+      "relinked": "POS links it to 泡菜鍋 by mistake; it is 150 g of homemade 黃金泡菜 (Darren, 2026-10-11)",
       "retail": false,
-      "scaled_to_label_g": 150.0,
       "status": "ACTIVE",
       "variant_id": "3be8e408-8cac-49d5-8e3b-1028cb95756c",
       "variant_label": "Taiwanese pickled",
       "variant_label_zh": "泡菜",
-      "warnings": [
-        "scaled_to_label_g: 150 g"
-      ]
+      "warnings": []
     },
     {
       "breakdown": [
@@ -11546,7 +11505,7 @@
       }
     },
     "retail": 2,
-    "scaled_to_label_g": 1,
+    "scaled_to_label_g": 0,
     "unmapped_ingredients": [
       {
         "grams_used_total": 360.0,

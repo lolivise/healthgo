@@ -1738,16 +1738,16 @@
     "96a867a5-88a1-4988-b2df-ae8be985e9f0": {
       "label": "泡菜",
       "source": "tfda",
-      "source_id": "R4400301",
-      "source_name": "韓式泡菜",
+      "source_id": "R4400201",
+      "source_name": "黃金泡菜",
       "per100g": {
-        "kcal": 35.0,
-        "protein": 2.0,
-        "fat": 0.4,
-        "carb": 5.8
+        "kcal": 111.0,
+        "protein": 2.4,
+        "fat": 5.7,
+        "carb": 12.5
       },
       "confidence": "medium",
-      "note": "Korean kimchi [TFDA sample: 前處理描述:混合均勻打碎(大白菜,辣椒粉,大蒜,魚露,蔥,洋蔥,薑,胡蘿蔔,鹽,糖等)]"
+      "note": "TFDA 黃金泡菜 (Taiwanese sweet-sour pickled cabbage with oil, sugar); the cafe makes its own 黃金泡菜, so recipe differs somewhat (Darren, 2026-10-11)"
     },
     "0f72db14-752e-4658-a045-1ece2b4f3abf": {
       "label": "泡菜醬料",
@@ -3625,17 +3625,17 @@
     },
     "031a4965-dcca-4d3a-aa56-30aae6ab340b": {
       "label": "香脆筍",
-      "source": "usda",
-      "source_id": "169212",
-      "source_name": "Bamboo shoots, canned, drained solids",
+      "source": "tfda",
+      "source_id": "R4400701",
+      "source_name": "桂竹筍片",
       "per100g": {
         "kcal": 19.0,
-        "protein": 1.72,
-        "fat": 0.4,
-        "carb": 3.22
+        "protein": 1.0,
+        "fat": 0.2,
+        "carb": 3.3
       },
       "confidence": "low",
-      "note": "crispy bamboo; canned bamboo shoots proxy (seasoning not included)"
+      "note": "LOW: closest TFDA canned/seasoned bamboo-shoot entry (桂竹筍片: bamboo shoot, salt, spice). No TFDA entry or fetchable label for Taiwanese braised 香脆筍 (oil+soy+sugar); true value likely higher (~40-70 kcal/100 g) - replace with a brand label when available"
     },
     "b450bd16-386c-485d-a71b-0a0d78cb90f2": {
       "label": "香菜",
