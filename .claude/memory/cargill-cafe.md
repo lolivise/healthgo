@@ -28,5 +28,7 @@ metadata:
   **homemade** (no POS recipe). Both are small bento sides he adds to self-assembled bowls. POS menu item 泡菜(150g) is
   wrongly linked to the 泡菜鍋 product; `overrides.json` re-points it. A bowl scoop of each is **50 g** (confirmed).
   香脆筍 nutrition is from its can label (Darren supplied): 71 kcal/100 g.
+- **Bento side alternates** between 筍乾 and 黃金泡菜 (50 g either way). 便當基底 uses the average (+10 kcal adjustment
+  in `adjustments.json`), so no extra tap in the bot; the ~20 kcal swing is noise next to a ~1,200-1,600 kcal bento.
 - `adjustments.json` assumes ~1,800 g of the 2,000 g 豬肥油 in 滷肉 renders out and is skimmed (an estimate, not
   confirmed by Darren). See [[data-sources]], [[daily-diet-baseline]].

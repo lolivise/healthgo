@@ -5,5 +5,12 @@
     "fat": -1596.0,
     "carb": 0.0,
     "note": "滷肉 batch: the recipe adds 2000 g 豬肥油 (backfat) to 2000 g 五花肉 but the stated yield is only 2800 g, which put the result at 924 kcal/100 g (nearly pure fat). The backfat renders into the braising liquid and is skimmed, not served. Assume about 1800 g of backfat-equivalent (88.7% fat, 812 kcal/100 g) never reaches the serve: result about 400 kcal/100 g, in line with 紅燒肉 (382). An estimate, not a measurement."
+  },
+  "8b400caa-9dd4-4f03-8a5a-62cd8848bb69": {
+    "kcal": 10.0,
+    "protein": 0.14,
+    "fat": 0.6,
+    "carb": 0.99,
+    "note": "便當基底 side alternates between 香脆筍 (筍乾) and 黃金泡菜, 50 g either way (Darren, 2026-10-11). The recipe lists 50 g 香脆筍, so this adds the average swap: 25 g of 黃金泡菜 minus 25 g of 香脆筍 = 0.25 x (111-71.1 kcal, 2.4-1.84 P, 5.7-3.29 F, 12.5-8.55 C per 100 g). Recompute if either ingredient's nutrition changes."
   }
 }
