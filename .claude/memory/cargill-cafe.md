@@ -30,5 +30,10 @@ metadata:
   香脆筍 nutrition is from its can label (Darren supplied): 71 kcal/100 g.
 - **Bento side alternates** between 筍乾 and 黃金泡菜 (50 g either way). 便當基底 uses the average (+10 kcal adjustment
   in `adjustments.json`), so no extra tap in the bot; the ~20 kcal swing is noise next to a ~1,200-1,600 kcal bento.
+- **Eat-out pattern seen in W41 (2026-10-10/11):** all eat-outs that week were here. On 10/10 he skipped his
+  planned meals (only 2 energy bars + shake), then ate ~3,600 kcal across lunch, beef noodles and a loaded 豆花
+  (day ≈ 4,100). A typical self-assembled bowl is ~1,560 kcal (滷牛腱×2 + 滷肉 + ½ rice + 炒青菜 + 煎蛋×2).
+  **Advised at that review:** don't arrive empty (eat the shake + eggs first). The lighter default bowl drops the
+  滷肉 (362 kcal, 28 g fat) and one egg: 滷牛腱×2 + ½ rice + 炒青菜 + 煎蛋×1 ≈ 1,070 kcal / ~90 g protein.
 - `adjustments.json` assumes ~1,800 g of the 2,000 g 豬肥油 in 滷肉 renders out and is skimmed (an estimate, not
   confirmed by Darren). See [[data-sources]], [[daily-diet-baseline]].
