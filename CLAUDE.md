@@ -67,7 +67,7 @@ eating out, and `/feel` + notes via Telegram.
 
 | Path | What |
 |---|---|
-| `src/healthgo/` | Python CLI (`uv run healthgo …`): `sync`, `daily`, `check`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `install-launchd` |
+| `src/healthgo/` | Python CLI (`uv run healthgo …`): `sync`, `daily`, `check`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
 | `data/manual/*.jsonl` | Things Garmin never sees (`inbody` is history only, see below): `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |

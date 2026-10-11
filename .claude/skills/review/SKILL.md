@@ -80,9 +80,12 @@ Spawn `health-writer` with a self-contained brief containing:
 - every number the report should show (paste the relevant digest lines)
 - anything to emphasise or leave out
 
-It writes the report, records the review, commits and pushes, then returns the verdict block as written.
+It writes the report, records the review, commits and pushes, **sends the full report to Telegram**
+(`uv run healthgo send-report <path>`, so Darren can read it on his phone), then returns the verdict block as written.
 
-**Verify:** compare the returned verdict block with your decision. If it drifted, send a correction.
+**Verify:** compare the returned verdict block with your decision. If it drifted, send a correction, and
+re-send the corrected report with `send-report`. If the agent reports `TELEGRAM: failed`, run `send-report`
+yourself. **Every review ends with the report on Telegram** (Darren, 2026-10-11).
 
 ## 6. Tell Darren and learn: Opus
 

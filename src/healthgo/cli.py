@@ -9,6 +9,7 @@ import logging
 import sys
 from contextlib import contextmanager
 from datetime import date
+from pathlib import Path
 
 from . import config, store
 
@@ -236,6 +237,17 @@ def cmd_notify_test(args) -> int:
     return 0 if ok else 1
 
 
+def cmd_send_report(args) -> int:
+    from . import notify
+
+    path = Path(args.path)
+    if not path.is_absolute():
+        path = config.ROOT / path
+    ok = notify.send_report(path)
+    print("telegram" if ok else "failed (macOS notification shown)")
+    return 0 if ok else 1
+
+
 def cmd_install_launchd(args) -> int:
     from . import launchd
 
@@ -338,6 +350,10 @@ def main(argv: list[str] | None = None) -> int:
     n = sub.add_parser("notify-test")
     n.add_argument("text", nargs="?")
     n.set_defaults(fn=cmd_notify_test)
+
+    r = sub.add_parser("send-report", help="send a review report (reports/*.md) to Telegram in full")
+    r.add_argument("path")
+    r.set_defaults(fn=cmd_send_report)
 
     sub.add_parser("install-launchd").set_defaults(fn=cmd_install_launchd)
     sub.add_parser("uninstall-launchd").set_defaults(fn=cmd_uninstall_launchd)

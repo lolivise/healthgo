@@ -28,11 +28,15 @@ You write Darren's review report in `/Users/darrenhung/Projects/storium/healthgo
 2. `uv run healthgo add review '{"date":"<today>","week":"<YYYY-Www>","verdict":"<verdict>","report":"<path>"}'`
 3. `git add reports data && git commit -m "review: <week> — <verdict>" && git push origin main`. This repo
    has standing permission to commit and push to main. Never force-push.
+4. **Always** send the report to Darren's phone: `uv run healthgo send-report <path>`. It prints `telegram` on success.
+   Do this even if the commit or push was blocked or the brief says not to commit. Only skip it if the brief
+   explicitly says not to send it.
 
 ## Return format
 
 ```
 REPORT: <path>
 COMMIT: <sha> <subject> — pushed: yes/no
+TELEGRAM: sent / failed
 VERDICT BLOCK (as written, 繁中): <paste the verdict section only>
 ```

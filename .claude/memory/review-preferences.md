@@ -22,6 +22,9 @@ Decided with Darren 2026-10-09:
 - **Training advice level:** targeted adjustments to his existing routine (lighter weeks, stalled
   lifts, shoulder protection). **Not** a full new program.
 - **Diet changes:** adjust quantities of his existing foods, not a new diet ([[daily-diet-baseline]]).
+- **Every review is sent to Telegram in full** (Darren, 2026-10-11: "every review need to push to telegram bot,
+  so I can read it on my mobile"). `uv run healthgo send-report reports/<file>.md`, run by `health-writer`
+  after the commit. It is plain text, split under the 4,096-char limit. A corrected report is re-sent.
 - **Cadence:** a Telegram ping on Sunday 18:00 → he runs `/review` interactively. Daily red flags
   arrive on Telegram from the rule-based check, with no AI involved.
 

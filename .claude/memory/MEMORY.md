@@ -3,7 +3,7 @@
 - [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; 2,000 kcal rice experiment 2026-10-12→11-01 ≈2,040 kcal logged
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
-- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; 繁中 verdict-first; no waist/photos
+- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; 繁中 verdict-first; no waist/photos; every report sent to Telegram
 - [Trip Taiwan 2027](trip-taiwan-2027.md) — 2027-01-23→02-25 family road trip, will overeat; plan before/during/after; alerts off
 - [Garmin data access](garmin-data-access.md) — garminconnect 0.3.17, 1Password HealthGo/secrets, ≤1 login/24h, no readiness/VO2 on his watch, grams
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push
