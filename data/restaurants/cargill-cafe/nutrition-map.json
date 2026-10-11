@@ -3625,17 +3625,17 @@
     },
     "031a4965-dcca-4d3a-aa56-30aae6ab340b": {
       "label": "香脆筍",
-      "source": "tfda",
-      "source_id": "R4400701",
-      "source_name": "桂竹筍片",
+      "source": "manual",
+      "source_id": "label-darren-2026-10-11",
+      "source_name": "香脆筍 can nutrition panel (supplied by Darren): per 76 g serve 54 kcal, P1.4, F2.5, C6.5, Na 719 mg",
       "per100g": {
-        "kcal": 19.0,
-        "protein": 1.0,
-        "fat": 0.2,
-        "carb": 3.3
+        "kcal": 71.1,
+        "protein": 1.84,
+        "fat": 3.29,
+        "carb": 8.55
       },
-      "confidence": "low",
-      "note": "LOW: closest TFDA canned/seasoned bamboo-shoot entry (桂竹筍片: bamboo shoot, salt, spice). No TFDA entry or fetchable label for Taiwanese braised 香脆筍 (oil+soy+sugar); true value likely higher (~40-70 kcal/100 g) - replace with a brand label when available"
+      "confidence": "high",
+      "note": "Label values scaled from 76 g serve to 100 g. Darren calls it 筍乾. Previously TFDA 桂竹筍片 proxy (19 kcal)."
     },
     "b450bd16-386c-485d-a71b-0a0d78cb90f2": {
       "label": "香菜",

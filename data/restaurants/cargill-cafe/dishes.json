@@ -1493,10 +1493,10 @@
       "ingredient_id": "031a4965-dcca-4d3a-aa56-30aae6ab340b",
       "label": "筍乾",
       "per_serve": {
-        "carb": 1.6,
-        "fat": 0.1,
-        "kcal": 9.5,
-        "protein": 0.5
+        "carb": 4.3,
+        "fat": 1.6,
+        "kcal": 35.5,
+        "protein": 0.9
       },
       "serve_g": 50.0
     },
@@ -1628,10 +1628,10 @@
     },
     {
       "batch": {
-        "carb": 120.8,
-        "fat": 1.4,
-        "kcal": 554.5,
-        "protein": 12.4
+        "carb": 123.4,
+        "fat": 2.9,
+        "kcal": 580.5,
+        "protein": 12.8
       },
       "batch_g": 450.0,
       "breakdown": [
@@ -1660,16 +1660,16 @@
       "oil_reason": null,
       "pan_fried_flag": false,
       "per100g": {
-        "carb": 26.8,
-        "fat": 0.3,
-        "kcal": 123.2,
+        "carb": 27.4,
+        "fat": 0.6,
+        "kcal": 129.0,
         "protein": 2.8
       },
       "per_serve": {
-        "carb": 120.7,
-        "fat": 1.4,
-        "kcal": 554.5,
-        "protein": 12.4
+        "carb": 123.4,
+        "fat": 2.9,
+        "kcal": 580.5,
+        "protein": 12.8
       },
       "serve_g": 450.0,
       "used_in_products": 15,
@@ -6572,11 +6572,11 @@
       "name_en": "Crispy Chicken Cutlet Bento",
       "name_zh": "雞排飯",
       "nutrition": {
-        "carb": 176.4,
-        "fat": 73.9,
+        "carb": 179.0,
+        "fat": 75.5,
         "grams": 750.0,
-        "kcal": 1590.3,
-        "protein": 54.7
+        "kcal": 1616.3,
+        "protein": 55.1
       },
       "oil_allowance_g": 30.0,
       "oil_reason": "deep_fry_10pct",
@@ -6656,11 +6656,11 @@
       "name_en": "Taiwanese Chicken Nugget Bento",
       "name_zh": "炸鹹酥雞飯",
       "nutrition": {
-        "carb": 197.8,
-        "fat": 69.1,
+        "carb": 200.5,
+        "fat": 70.6,
         "grams": 700.0,
-        "kcal": 1640.4,
-        "protein": 56.7
+        "kcal": 1666.4,
+        "protein": 57.1
       },
       "oil_allowance_g": 25.0,
       "oil_reason": "deep_fry_10pct",
@@ -6745,11 +6745,11 @@
       "name_en": "Three Cup Chicken Bento",
       "name_zh": "三杯雞飯",
       "nutrition": {
-        "carb": 146.8,
-        "fat": 48.7,
+        "carb": 149.4,
+        "fat": 50.3,
         "grams": 780.0,
-        "kcal": 1228.2,
-        "protein": 50.7
+        "kcal": 1254.2,
+        "protein": 51.2
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -6839,11 +6839,11 @@
       "name_en": "Braised Pork Belly Bento",
       "name_zh": "控肉飯",
       "nutrition": {
-        "carb": 132.1,
-        "fat": 64.4,
+        "carb": 134.7,
+        "fat": 65.9,
         "grams": 580.0,
-        "kcal": 1311.9,
-        "protein": 42.7
+        "kcal": 1337.9,
+        "protein": 43.1
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -6898,11 +6898,11 @@
       "name_en": "Salt and Pepper Fish Fillet Bento(I)",
       "name_zh": "椒鹽魚排飯",
       "nutrition": {
-        "carb": 157.3,
-        "fat": 4.0,
+        "carb": 159.9,
+        "fat": 5.5,
         "grams": 650.0,
-        "kcal": 878.0,
-        "protein": 47.8
+        "kcal": 904.0,
+        "protein": 48.3
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -6992,11 +6992,11 @@
       "name_en": "Three Cup King Oyster Mushroom Bento***(V)",
       "name_zh": "三杯杏鮑菇飯***(V)",
       "nutrition": {
-        "carb": 158.1,
-        "fat": 11.8,
+        "carb": 160.7,
+        "fat": 13.4,
         "grams": 723.0,
-        "kcal": 815.7,
-        "protein": 20.1
+        "kcal": 841.7,
+        "protein": 20.5
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -7105,11 +7105,11 @@
       "name_en": "Fried Pork Chop Bento",
       "name_zh": "炸排骨便當",
       "nutrition": {
-        "carb": 165.8,
-        "fat": 57.7,
+        "carb": 168.4,
+        "fat": 59.2,
         "grams": 700.0,
-        "kcal": 1413.7,
-        "protein": 53.0
+        "kcal": 1439.7,
+        "protein": 53.5
       },
       "oil_allowance_g": 25.0,
       "oil_reason": "deep_fry_10pct",
@@ -7154,11 +7154,11 @@
       "name_en": "Pan-Fried Milkfish Belly Bento(I)",
       "name_zh": "虱目魚肚飯",
       "nutrition": {
-        "carb": 120.8,
-        "fat": 28.6,
+        "carb": 123.4,
+        "fat": 30.1,
         "grams": 525.0,
-        "kcal": 855.2,
-        "protein": 25.5
+        "kcal": 881.2,
+        "protein": 25.9
       },
       "oil_allowance_g": 5.0,
       "oil_reason": "pan_fry",
@@ -7203,11 +7203,11 @@
       "name_en": "Spanish Mackerel Bento(I)",
       "name_zh": "土魠魚便當",
       "nutrition": {
-        "carb": 122.7,
-        "fat": 14.9,
+        "carb": 125.3,
+        "fat": 16.4,
         "grams": 580.0,
-        "kcal": 783.3,
-        "protein": 37.5
+        "kcal": 809.3,
+        "protein": 37.9
       },
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -7513,11 +7513,11 @@
       "name_en": "Taiwanese Thin Noodles Soup With Pork Chop",
       "name_zh": "炸排骨麵線",
       "nutrition": {
-        "carb": 165.8,
-        "fat": 57.7,
+        "carb": 168.4,
+        "fat": 59.2,
         "grams": 700.0,
-        "kcal": 1413.7,
-        "protein": 53.0
+        "kcal": 1439.7,
+        "protein": 53.5
       },
       "oil_allowance_g": 25.0,
       "oil_reason": "deep_fry_10pct",
