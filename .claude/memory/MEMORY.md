@@ -13,6 +13,7 @@
 - [Feel check-in](feel-checkin.md) — Telegram /feel symptom questions (no libido); re-review the question set at the first review ≥ 2026-11-09
 - [Evidence: cut & training](evidence-cut-and-training.md) — 2023–26 research base: deficit ≤~500 kcal, protein, fat floor, diet breaks, volume/failure/tempo, holiday minimum dose
 - [Evidence: ending a cut](evidence-maintenance-transition.md) — straight-to-maintenance beats reverse ramp; +0.5–2 kg water jump; flexible rules; TDEE from trend
+- [Evidence: metabolic adaptation](evidence-metabolic-adaptation.md) — 2022–26 research; 6-signal rule (≥3 for ≥2 wk); fix = maintenance, never a bulk; status 10-12: none
 - [Evidence: Taiwanese man + Hep B](evidence-asian-hepb.md) — HPA BMI/waist norms, 15–18% sensible, InBody noise band, Taiwan DRI, HBV+metabolic risk, ALDH2/alcohol
 - [Cargill Cafe](cargill-cafe.md) — he co-owns it, usual eat-out; POS recipes → real kcal (planned); menu dishes + self-assembled kitchen bowls
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg
