@@ -1,6 +1,6 @@
 ---
 name: review
-description: Darren's health review — weekly (after the Sunday 18:00 Telegram ping) or any time he asks how he's doing, whether to keep cutting, if his strength is dropping, or for diet/training advice. Sonnet agents sync and gather the numbers, Opus asks for eating-out days and decides the verdict (keep cutting / slow down / diet break / adjust intake), a Sonnet agent writes the 繁體中文 report and commits. Trigger on /review, "review my progress", "how am I doing", "should I keep cutting", "give me advice".
+description: Darren's health review, whenever he wants one (there is no scheduled pull any more — this skill pulls Garmin data itself), or any time he asks how he's doing, whether to keep cutting, if his strength is dropping, or for diet/training advice. A Haiku agent pulls fresh Garmin + inbox data and gathers the numbers, Opus asks for eating-out days and decides the verdict (keep cutting / slow down / diet break / adjust intake), a Sonnet agent writes the 繁體中文 report, commits and sends it to Telegram. Trigger on /review, "review my progress", "how am I doing", "should I keep cutting", "give me advice".
 ---
 
 # /review
@@ -9,9 +9,19 @@ You (the main thread, **Opus**) are Darren's coach. You decide; Sonnet agents do
 `CLAUDE.md` → Model split). The output that matters is **one verdict he can act on this week**,
 grounded in his own numbers and bounded by his safety limits.
 
-Arguments: none → the latest week. `W41` / a date / "last 3 weeks" → that period. A free-text question →
+Arguments: none → the default window below. `W41` / a date / "last 3 weeks" → that period. A free-text question →
 answer it, but still run steps 1–3 first, because advice without fresh data is
 what this skill exists to prevent.
+
+**There is no scheduled job** (removed 2026-10-12 at Darren's request): nothing pulls Garmin data, sends
+recovery alerts or prepares weekly numbers on its own. **Every `/review` starts with a fresh pull** (step 2),
+so he can review any day. Start step 2 **at once, in parallel with step 1**: the pull takes a few minutes.
+
+**Default window** (weeks run Mon–Sun):
+- **Thu–Sun:** the current week, `--week-end <this coming Sunday>` (partial unless today is Sunday).
+- **Mon–Wed:** if the week that ended last Sunday has no review yet (check `reviews` / `reports/`), review
+  that full week, `--week-end <last Sunday>`, and mention the days since. Otherwise the current week, partial.
+- If the last review is more than 14 days old, say so and also ask the agent for the trend since then.
 
 ## 1. Load context: Opus, quickly
 
@@ -20,11 +30,15 @@ what this skill exists to prevent.
 - Read `config/plan.json` and the **verdict block only** of the 2 most recent `reports/*.md`, so advice
   builds on what was said last time.
 
-## 2. Gather numbers: `health-data` agent (Haiku)
+## 2. Pull and gather numbers: `health-data` agent (Haiku)
 
 Spawn the `health-data` agent with a self-contained brief:
-- the week to prepare (default: the latest due Sunday; for a mid-week review, `--week-end <coming Sunday>`
-  and say it's partial);
+- **pull first:** `uv run healthgo pull` (Garmin catch-up sync from the last complete day, Telegram inbox,
+  Cargill menu refresh, rebuild the db, recovery flags, commit & push). If it has been a long gap, the
+  catch-up covers every missing day; a 429 midway is fine, the data on disk is used and the next pull resumes;
+- the week to prepare: `uv run healthgo prepare-week --week-end <Sunday>` from the default window above,
+  and whether it's partial;
+- **return the flags `pull` printed**, since no daily Telegram alerts exist any more;
 - any extra questions this review needs answered, e.g. "e1RM per week for squat/bench/deadlift since
   2026-07-15", "weekly RHR since the cut began".
 
@@ -38,8 +52,8 @@ Login trouble belongs to `/sync`.
 ## 3. Read the Telegram inbox, then ask Darren: Opus. These are the only questions allowed
 
 **Inbox first.** Darren logs from his phone through the Telegram bot (`/eat`, `/feel`, `/weight`, `/note`,
-`/blood`, photos). Run `uv run healthgo inbox && uv run healthgo inbox --list` (a one-line pull plus a short
-table). For each pending entry, read `data/inbox/<stem>.json` (text only). Extract text values
+`/blood`, photos). `pull` already fetched new entries, so wait for the step 2 agent, then run
+`uv run healthgo inbox --list` (a short table). For each pending entry, read `data/inbox/<stem>.json` (text only). Extract text values
 as in `/log` step 1. **Never open the photos in the main thread**: pass their paths to `health-ops`, which reads them
 with Sonnet (meal photos: spawn it with `model: "haiku"`; bloodwork photos on Sonnet), records them, and returns the extracted values. The brief also tells it to run
 `uv run healthgo inbox --done <id> …` for every entry it recorded. An entry dated before the review window still

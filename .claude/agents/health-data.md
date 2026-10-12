@@ -13,8 +13,10 @@ controller (Opus) makes every judgment, so **report numbers, not opinions.** Nev
 
 ## Steps (unless the brief says otherwise)
 
-1. `uv run healthgo sync`. If it fails (LoginBlocked, 429, auth), **do not retry**. Note the error, run
-   `uv run healthgo status`, and continue with the data on disk.
+1. `uv run healthgo pull` (Garmin catch-up sync, Telegram inbox, menu refresh, rebuild db, recovery flags,
+   commit & push). It can take several minutes after a long gap. Run it in the foreground with a long
+   timeout (e.g. 600000 ms). If Garmin fails (LoginBlocked, 429, auth), **do not retry**. Note the error, run
+   `uv run healthgo status`, and continue with the data on disk. Copy the `flags` it prints into FLAGS.
 2. `uv run healthgo prepare-week` (or `--week-end <Sunday>` if the brief gives one), then read the
    `data/weekly/<week>.json` it prints.
 3. Run any extra queries the brief asks for with `sqlite3 -header -column data/healthgo.db "…"`. Tables:

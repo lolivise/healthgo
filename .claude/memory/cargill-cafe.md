@@ -23,7 +23,7 @@ metadata:
 - Built 2026-10-11: `healthgo menu-sync` / `menu-show`, `data/restaurants/cargill-cafe/` (pos export, TFDA/USDA
   `nutrition-map.json`, `dishes.json`, `adjustments.json`), `healthgo menu-push` → Worker D1 `menu`; Telegram `/eat`
   = 🍱 menu / 🥣 廚房自己配 / ⭐ 常吃 / ✏️ 其他外食, plus `/eat 雞排飯` text matching. Recipe-based eats auto-record
-  into `eating_out` (with protein/fat/carb) on inbox pull; the daily job re-syncs and pushes the menu.
+  into `eating_out` (with protein/fat/carb) on inbox pull; `/review`'s `healthgo pull` re-syncs and pushes the menu (no daily job since 2026-10-12).
 - **Name map (Darren, 2026-10-11):** his 筍乾 = POS ingredient **香脆筍**; his 黃金泡菜 = POS ingredient **泡菜**, which is
   **homemade** (no POS recipe). Both are small bento sides he adds to self-assembled bowls. POS menu item 泡菜(150g) is
   wrongly linked to the 泡菜鍋 product; `overrides.json` re-points it. A bowl scoop of each is **50 g** (confirmed).

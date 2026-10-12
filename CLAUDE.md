@@ -1,6 +1,6 @@
 # healthgo
 
-Darren's personal health brain: it pulls his Garmin Connect data every evening, watches for recovery
+Darren's personal health brain: it pulls his Garmin Connect data whenever he runs `/review`, watches for recovery
 red flags, and runs a weekly review that decides whether to **keep cutting, slow down, take a diet
 break, or adjust intake**. It is for him only, lives in a private repo, and has a single branch.
 
@@ -67,17 +67,17 @@ eating out, and `/feel` + notes via Telegram.
 
 | Path | What |
 |---|---|
-| `src/healthgo/` | Python CLI (`uv run healthgo …`): `sync`, `daily`, `check`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd` |
+| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
 | `data/manual/*.jsonl` | Things Garmin never sees (`inbody` is history only, see below): `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
 | `data/inbox/` | Telegram bot entries pulled from the Cloudflare Worker (`worker/`), pending until recorded; recorded ones move to `data/inbox/done/` |
-| `data/weekly/YYYY-Www.json` | Numbers prepared on Sunday 18:00 for `/review` |
+| `data/weekly/YYYY-Www.json` | Numbers prepared by `/review` (`prepare-week`) |
 | `data/state.json` | Sync bookkeeping: `complete_through`, login guard, alert de-duplication |
 | `data/healthgo.db` | SQLite built from the JSON (git-ignored). Query with `sqlite3 -header -column data/healthgo.db` |
 | `reports/YYYY-Www.md` | Weekly reviews (繁中) |
 | `config/plan.json` | Targets, trip dates, safety and alert thresholds |
-| `bin/healthgo-job` | launchd entry point → `healthgo daily` |
+| `bin/healthgo-job` | old launchd entry point → `healthgo daily` (job removed 2026-10-12) |
 | `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer` (see Model split) |
 
 **Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history: one scan, 2026-09-27), `eating_out`,
@@ -85,18 +85,21 @@ eating out, and `/feel` + notes via Telegram.
 
 ## Automation
 
-One launchd agent, `com.healthgo.daily`, runs daily at 20:00, Sundays at 18:00, and at login. Each run:
+**None scheduled, on purpose.** Darren removed the launchd job on 2026-10-12: data is pulled **on demand when
+he runs `/review`**, so he can review any day. `uv run healthgo pull` is that first step:
 1. Catch-up sync of every date since `complete_through`, minus a 3-day overlap.
-2. Pull the Telegram inbox (`healthgo inbox`); a failure is only a warning.
-3. Rebuild the database.
-4. Rule-based checks, with a Telegram alert, de-duplicated over 3 days and silenced during the trip.
-5. If a Sunday 18:00 has passed without a weekly file: prepare it and send a Telegram ping to run `/review`.
+2. Pull the Telegram inbox; a failure is only a warning.
+3. Refresh the Cargill menu from the POS and push it to the Worker; a failure is only a warning.
+4. Rebuild the database.
+5. Rule-based recovery checks, printed (no Telegram alert).
 6. Commit and push `data/`.
 
-Logs go to `~/Library/Logs/healthgo/daily.log`. Garmin login is capped at one credential attempt per 24h.
+What the removal gave up: daily red-flag alerts on Telegram, the Sunday "run /review" ping, and the daily menu
+refresh. `healthgo daily` and `install-launchd` still exist, so it's one command to bring the job back. Garmin login is
+capped at one credential attempt per 24h.
 
 ## Skills
 
-- `/review`: the weekly (or any-time) review. Sync, ask about eating out, verdict, 繁中 report, commit.
+- `/review`: the review, any day. Pull fresh data, ask about eating out, verdict, 繁中 report, commit, send to Telegram.
 - `/log`: record eating out (text or meal photo), bloodwork, a manual weight, or a note.
 - `/sync`: manual sync or backfill, status, and troubleshooting Garmin login, 429s, launchd and the library pin.

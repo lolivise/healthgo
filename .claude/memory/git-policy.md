@@ -15,5 +15,5 @@ track and for myself only."
 - Still forbidden without an explicit ask: force-push, `reset --hard`, `rebase`, `--amend`, `tag`, `stash drop`.
 - The exemption removes the question, not the report: say what was committed and whether it was pushed.
 
-**Why:** the daily launchd sync must commit unattended, and memory or report edits happen constantly.
+**Why:** `healthgo pull` (run by `/review`) commits data itself, and memory or report edits happen constantly.
 Nothing deploys from this repo.

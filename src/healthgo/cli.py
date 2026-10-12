@@ -44,7 +44,7 @@ def _do_sync(state: dict, *, start: date | None = None, force_login: bool = Fals
     except (garmin.GarminConnectTooManyRequestsError, sync.SyncAborted) as e:
         log.warning("rate limited: %s", e)
         notify.alert_once(state, "garmin_429",
-                          "healthgo：Garmin 暫時限制了請求次數 (429)。明天 20:00 會自動補抓缺少的日期。")
+                          "healthgo：Garmin 暫時限制了請求次數 (429)。下次執行 /review 時會自動補抓缺少的日期。")
     except garmin.GarminConnectAuthenticationError as e:
         log.error("authentication failed: %s", e)
         notify.alert_once(state, "garmin_auth",
@@ -171,6 +171,29 @@ def cmd_prepare_week(args) -> int:
     path = weekly.prepare(sunday)
     print(path.relative_to(config.ROOT))
     return 0
+
+
+def cmd_pull(args) -> int:
+    """What /review runs first: everything the old scheduled job did, minus the Telegram pings.
+
+    Garmin catch-up sync → Telegram inbox → Cargill menu refresh → rebuild db → print recovery flags →
+    commit & push. A Garmin failure is reported, not fatal: the review carries on with the data on disk.
+    """
+    from . import checks, db, gitops
+
+    with sync_lock():
+        state = store.load_state()
+        result = _do_sync(state)
+        _pull_inbox()
+        _refresh_menu()
+        db.build()
+        state = store.load_state()
+        flags = checks.run(config.today())
+        print(json.dumps({"sync": "ok" if result is not None else "failed",
+                          "complete_through": state.get("complete_through"),
+                          "flags": [f"{f.key}: {f.message}" for f in flags]}, ensure_ascii=False, indent=2))
+        print("git:", gitops.commit_and_push(f"data: pull {config.today()}"))
+    return 0 if result is not None else 1
 
 
 def cmd_daily(args) -> int:
@@ -314,7 +337,11 @@ def main(argv: list[str] | None = None) -> int:
     w.add_argument("--week-end", help="the Sunday ending the week (YYYY-MM-DD)")
     w.set_defaults(fn=cmd_prepare_week)
 
-    sub.add_parser("daily", help="launchd entry point").set_defaults(fn=cmd_daily)
+    sub.add_parser("pull", help="/review's first step: sync, inbox, menu, db, flags, commit & push (no pings)"
+                   ).set_defaults(fn=cmd_pull)
+
+    sub.add_parser("daily", help="old launchd entry point (job removed 2026-10-12; kept for reinstall)"
+                   ).set_defaults(fn=cmd_daily)
 
     a = sub.add_parser("add", help="append a manual record")
     a.add_argument("kind", choices=["eating_out", "bloodwork", "weight", "review", "note"])
