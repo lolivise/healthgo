@@ -5,6 +5,7 @@ metadata:
   type: user
 ---
 
+- **Height 177 cm** (told 2026-10-12).
 - **Darren, 36, lives in Perth** (Australia/Perth, AWST UTC+8, no DST). Family is in Taiwan.
 - **Goal shape:** a reasonable body-fat level and looking fit. Explicitly **not** an athlete or a
   bodybuilder. At 36, health maintenance outranks speed of progress.

@@ -45,8 +45,10 @@ reported low energy and discomfort on the current intake. Built on [[evidence-ma
 **Final goal (Darren, 2026-10-12): 86–88 kg at 15–18 % BF**, "look bulk a bit, but not huge". He isn't sure it's
 genetically doable and wants to try. Needs lean mass ≈ 70.5–75 kg (midpoint 87 kg @ 16.5 % ≈ 72.6), i.e. **+3–7 kg
 lean** over the ~68 kg estimate, so a multi-year path: finish the cut at ~15–16 % (~80–82 kg), then lean-bulk
-cycles (+10–15 % kcal, 0.25–0.5 %/wk) with short mini-cuts when BF passes ~18 %. Height and training age are not
-recorded yet; both are needed to judge feasibility (FFMI). Re-check lean mass with a DEXA/BIA if one becomes available.
+cycles (+10–15 % kcal, 0.25–0.5 %/wk) with short mini-cuts when BF passes ~18 %. **Why he wants it:** his face is big, and a lean-but-slim body makes his head look bigger. So the aim is
+**proportion**: wider shoulders and upper back (side delts, lats, traps) to frame the head, not total size.
+Feasibility at **177 cm**: lean 70.5–75 kg = FFMI 22.5–23.9 (now ~21.7), well under the ~25 natural ceiling, so
+doable; the limit is time (~1–2 kg lean/yr for a trained man). Training age not recorded yet. Re-check lean mass with a DEXA/BIA if one becomes available.
 - By 2026-12-13 he will have been in a deficit for ~22 weeks; the maintenance block doubles as the diet break.
 
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
