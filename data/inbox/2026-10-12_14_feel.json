@@ -1,0 +1,23 @@
+{
+  "answers": {
+    "note": "這是測試。不用理會",
+    "partial": false,
+    "q1": [
+      "other"
+    ],
+    "q2": 1,
+    "q3": "now",
+    "q4": [
+      "unknown"
+    ],
+    "urgent": false
+  },
+  "file_id": null,
+  "id": 14,
+  "kind": "feel",
+  "media_group_id": null,
+  "received_at": "2026-10-12T02:29:22.053Z",
+  "text": "其他｜嚴重度 1｜剛剛｜原因：不知道｜補充：這是測試。不用理會",
+  "tg_message_id": -69,
+  "voice": false
+}

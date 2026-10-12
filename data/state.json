@@ -2,14 +2,14 @@
   "alerts_sent": {
     "loss_fast": "2026-10-09"
   },
-  "complete_through": "2026-10-10",
-  "inbox_last_id": 12,
+  "complete_through": "2026-10-11",
+  "inbox_last_id": 14,
   "last_login_attempt_at": "2026-10-09T11:22:07+08:00",
   "last_login_result": "ok",
-  "last_sync_at": "2026-10-11T20:01:09+08:00",
+  "last_sync_at": "2026-10-12T10:44:12+08:00",
   "last_sync_window": [
     "2026-10-08",
-    "2026-10-11"
+    "2026-10-12"
   ],
   "menu_hash": {
     "cargill-cafe": "124809657acf4618ce4015515fed2c56db64ece7670d342f1c823e379e5eb9a5"
