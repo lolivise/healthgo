@@ -5,19 +5,40 @@
   "backfill_start": "2026-07-01",
   "baseline_intake_kcal": 1974,
   "intake_kcal_schedule": [
-    {"from": "2026-07-15", "kcal": 1974, "note": "fixed potato diet incl. fish oil, 600 g veg, shake cocoa+coffee"},
-    {"from": "2026-10-12", "kcal": 2030, "note": "W42 potato week (freezer stock): potato 400 g + olive oil 14 g + fish oil, 600 g veg; team lunch Fri 10-16 logged separately"},
-    {"from": "2026-10-19", "kcal": 2075, "note": "2,000 kcal rice experiment W43-W45 (moved a week, potato stock); olive oil 14 g + fish oil; 600 g veg (spinach/kale avg)"}
+    {
+      "from": "2026-07-15",
+      "kcal": 1974,
+      "note": "fixed potato diet incl. fish oil, 600 g veg, shake cocoa+coffee"
+    },
+    {
+      "from": "2026-10-12",
+      "kcal": 2030,
+      "note": "W42 potato week (freezer stock): potato 400 g + olive oil 14 g + fish oil, 600 g veg; team lunch Fri 10-16 logged separately"
+    },
+    {
+      "from": "2026-10-19",
+      "kcal": 2075,
+      "note": "2,000 kcal rice experiment W43-W45 (moved a week, potato stock); olive oil 14 g + fish oil; 600 g veg (spinach/kale avg)"
+    }
   ],
   "cut": {
     "start_date": "2026-07-15",
     "start_weight_kg": 102.0,
-    "target_body_fat_pct": [15, 18],
-    "target_rate_pct_per_week": [0.5, 0.75]
+    "target_body_fat_pct": [
+      15,
+      18
+    ],
+    "target_rate_pct_per_week": [
+      0.5,
+      0.75
+    ]
   },
   "checkpoint": {
     "date": "2027-01-22",
-    "weight_kg": [86, 88],
+    "weight_kg": [
+      86,
+      88
+    ],
     "weight_note": "expected landing zone, not a target (plan revised 2026-10-10)",
     "maintenance_from": "2026-12-14"
   },
@@ -32,7 +53,10 @@
     "min_kcal": 1700,
     "min_protein_g_per_kg": 1.6,
     "min_fat_g_per_kg": 0.6,
-    "diet_break_after_weeks": [10, 12]
+    "diet_break_after_weeks": [
+      10,
+      12
+    ]
   },
   "alerts": {
     "rhr_rise_bpm": 5,
@@ -41,5 +65,21 @@
     "body_battery_high_below": 50,
     "ohp_jump_ratio": 1.1,
     "resend_after_days": 3
+  },
+  "final_goal": {
+    "weight_kg": [
+      86,
+      88
+    ],
+    "body_fat_pct": [
+      15,
+      18
+    ],
+    "lean_mass_needed_kg": [
+      70.5,
+      75.0
+    ],
+    "set": "2026-10-12",
+    "note": "after the cut reaches ~15-16 %: lean-bulk cycles with mini-cuts"
   }
 }

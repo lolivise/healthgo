@@ -1,5 +1,5 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
-- [Cutting goal 2026](cutting-goal-2026.md) — cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target
+- [Cutting goal 2026](cutting-goal-2026.md) — FINAL goal 86–88 kg @ 15–18 % BF (set 10-12, needs +3–7 kg lean, multi-year bulk cycles); cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target
 - [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; W42 potato week ≈2,030 (freezer stock, team lunch Fri 10-16), then 2,000 kcal rice experiment 2026-10-19→11-08 logged 2,075
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
