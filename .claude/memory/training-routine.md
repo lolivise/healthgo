@@ -44,10 +44,10 @@ months off or only 1–2 days/wk. The 2026-07 cut is his first long consistent b
 early intermediate** (effective training age ~1.5–2 yr; bench e1RM ~0.75× bodyweight). He still has fast-gain
 potential, and his lifts rising during the cut (pulldown 67 → 78 e1RM) fit that. **Consistency is his biggest lever.**
 
-**Why he used to stop (told 2026-10-12):** overtraining, e.g. 12 sets/day × 6 days, no clear goal and no plan,
-chronic tiredness, and **all-or-nothing breaks**: once he rests, the break runs 1–2 months. Current volume is
-*higher* (~108–112 logged sets/wk, ~22/session, W37–W40, may include warm-ups) plus ~220–270 treadmill min/wk,
-in a deficit, on ~6.2 h sleep. Markers are fine so far, but this is the pattern to guard against.
+**Why he used to stop (told 2026-10-12):** overtraining, **36 sets/day × 6 days (~216/wk)** (he first said 12, corrected), no clear goal and no
+plan, chronic tiredness, and **all-or-nothing breaks**: once he rests, the break runs 1–2 months. Current volume is
+about half that (~108–112 logged sets/wk, ~22/session, W37–W40, may include warm-ups) plus ~220–270 treadmill
+min/wk, in a deficit, on ~6.2 h sleep. Markers are fine so far; the guard is against creeping back up.
 Proposed 2026-10-12 (pending his OK): ≤~18 working sets/session; planned deload every 6th week (half the sets,
 same loads, treadmill unchanged), first in W46 after the W45 TDEE measurement; a "never zero" floor of 2 full-body
 sessions/wk for any break, holiday or low patch.
