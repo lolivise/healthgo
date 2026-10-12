@@ -48,7 +48,8 @@ potential, and his lifts rising during the cut (pulldown 67 → 78 e1RM) fit tha
 plan, chronic tiredness, and **all-or-nothing breaks**: once he rests, the break runs 1–2 months. Current volume is
 about half that (~108–112 logged sets/wk, ~22/session, W37–W40, may include warm-ups) plus ~220–270 treadmill
 min/wk, in a deficit, on ~6.2 h sleep. Markers are fine so far; the guard is against creeping back up.
-Proposed 2026-10-12 (pending his OK): ≤~18 working sets/session; planned deload every 6th week (half the sets,
+**He keeps the current split as is (2026-10-12: "the training plan I have is doable")**: don't propose a rewrite;
+add shoulder-width work (side delts, shrugs) only as small tweaks inside a review. Still open: ≤~18 sets/session; planned deload every 6th week (half the sets,
 same loads, treadmill unchanged), first in W46 after the W45 TDEE measurement; a "never zero" floor of 2 full-body
 sessions/wk for any break, holiday or low patch.
 
