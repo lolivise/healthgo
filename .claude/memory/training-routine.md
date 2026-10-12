@@ -49,9 +49,8 @@ plan, chronic tiredness, and **all-or-nothing breaks**: once he rests, the break
 about half that (~108–112 logged sets/wk, ~22/session, W37–W40, may include warm-ups) plus ~220–270 treadmill
 min/wk, in a deficit, on ~6.2 h sleep. Markers are fine so far; the guard is against creeping back up.
 **He keeps the current split as is (2026-10-12: "the training plan I have is doable")**: don't propose a rewrite;
-add shoulder-width work (side delts, shrugs) only as small tweaks inside a review. Still open: ≤~18 sets/session; planned deload every 6th week (half the sets,
-same loads, treadmill unchanged), first in W46 after the W45 TDEE measurement; a "never zero" floor of 2 full-body
-sessions/wk for any break, holiday or low patch.
+add shoulder-width work (side delts, shrugs) only as small tweaks inside a review. Deload every 6th week and a "never zero" 2-session/wk floor were proposed and **declined for now** (2026-10-12:
+"no, not now"). Don't re-push them; raise again only if the data shows fatigue building or he starts skipping weeks.
 
 **How to apply:** a load drop with good recovery is **intentional**, not muscle loss. Don't call it "strength
 dropping". There is no InBody any more ([[data-sources]]), so the muscle signal is strength: use e1RM
