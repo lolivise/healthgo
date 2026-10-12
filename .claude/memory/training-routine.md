@@ -39,6 +39,11 @@ Derived from Garmin sets/activities 2026-07 → 2026-10 (first review, 2026-10-0
 - **Judge at W43–W44:** Friday HRV and stress against the mean above, Friday `/feel` entries, and shoulder or chest
   pressing loads.
 
+**Training history (told 2026-10-12):** lifting 3–4 years but on/off: blocks of 3–4 months at 6 days/wk, then 1–2
+months off or only 1–2 days/wk. The 2026-07 cut is his first long consistent block. Treat him as **late novice /
+early intermediate** (effective training age ~1.5–2 yr; bench e1RM ~0.75× bodyweight). He still has fast-gain
+potential, and his lifts rising during the cut (pulldown 67 → 78 e1RM) fit that. **Consistency is his biggest lever.**
+
 **How to apply:** a load drop with good recovery is **intentional**, not muscle loss. Don't call it "strength
 dropping". There is no InBody any more ([[data-sources]]), so the muscle signal is strength: use e1RM
 only for lifts whose load he hasn't deliberately reduced, and use reps at the same load. Otherwise use
