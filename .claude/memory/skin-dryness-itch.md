@@ -45,9 +45,9 @@ metadata:
 - Body after shower: QV Intensive Moisturiser (petrolatum/paraffin, water-free) or CeraVe Moisturising Cream (ceramides).
 - Wash: QV Gentle Wash (soap-free, pH balanced).
 - Hands: Neutrogena Norwegian Formula **Fragrance Free** hand cream (the plain "Norwegian Hand Cream" contains fragrance).
-- Face (his routine is lotion + sunscreen, no face masks): QV Intensive with Ceramides Light Moisturising Cream; backup CeraVe Moisturising Lotion. Avoid SPF-in-moisturiser and niacinamide-heavy (CeraVe PM) while it stings.
+- Face (his routine is lotion + sunscreen, no face masks): **CeraVe Daily Moisturising Lotion 236ml** (CW AU #91316, fragrance-free, face+body). The first pick, QV Intensive with Ceramides Light, looks discontinued (no CW AU page); the QV Ceramides range has niacinamide. Avoid SPF-in-moisturiser and niacinamide-heavy (CeraVe PM) while it stings.
 - Eye area: a thin layer of plain petroleum jelly (Vaseline Original); QV Intensive and Cicaplast labels say avoid the eye contour.
-- Cicaplast Baume B5 for cracked fingertips/patches.
+- Cicaplast Baume B5 optional (no CW AU page found, pharmacist-only in NZ); QV Intensive thick at night does the same job.
 - Sunscreen: Cancer Council SPF50 Sensitive (body); Avène Sunsitive SPF50 Fluid for face (AU stock not confirmed).
 
 **Daily routine given 2026-10-13:** he trains ~6–8 am (strength then treadmill, Garmin), **showers after the morning
