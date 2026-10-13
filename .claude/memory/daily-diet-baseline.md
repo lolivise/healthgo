@@ -98,6 +98,8 @@ These match the table above.
 - Calorie-equivalent swap: 400 g potato ≈ 86 g raw rice. Rice is far less filling per kcal. If he is hungry, add vegetables
   (~30 kcal/100 g).
 
+**Skin (2026-10-13):** proposed olive oil 14 → 7 g + 15 g walnuts from 10-19 for linoleic acid (≈ +35 kcal → ~2,110); not adopted until he agrees. See [[skin-dryness-itch]].
+
 **Salt (Darren, 2026-10-09):** no added salt. Vegetables are microwaved plain, with no dressing. Estimated sodium is only
 **≈1,000 mg/day** (chicken ~250, whey ~200, spinach ~160, yogurt ~150, eggs ~140, the rest small), while he trains 5 days/week
 and drinks 3.5–4 L of water. That is a plausible contributor to the 2026-10-09 headache and dizziness.

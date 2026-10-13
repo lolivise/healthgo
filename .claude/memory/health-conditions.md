@@ -17,6 +17,7 @@ metadata:
   - If he reports pain, suggest landmine press or a neutral-grip dumbbell press.
 - **Bloodwork twice a year.** The most recent results were all within healthy ranges. When he sends new
   results, record them with `/log` (bloodwork) and note the liver panel especially.
+- **Skin (2026-10-13):** dry/peeling hands and itch since the cut. Itch + Hep B goes to the doctor; see [[skin-dryness-itch]].
 - Otherwise healthy. No other conditions or medications reported.
 
 Related: [[user-profile]]
