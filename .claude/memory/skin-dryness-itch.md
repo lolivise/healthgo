@@ -41,6 +41,14 @@ metadata:
   the shower and on hands after washing; gloves for dishes. Eye area: pause the current cream ~2 weeks, use a bland
   fragrance-free emollient; if redness/stinging persists → GP (possible eyelid dermatitis).
 
+**Products suggested 2026-10-13 (he buys skincare at Chemist Warehouse AU; all fragrance-free):**
+- Body after shower: QV Intensive Moisturiser (petrolatum/paraffin, water-free) or CeraVe Moisturising Cream (ceramides).
+- Wash: QV Gentle Wash (soap-free, pH balanced).
+- Hands: Neutrogena Norwegian Formula **Fragrance Free** hand cream (the plain "Norwegian Hand Cream" contains fragrance).
+- Eye area: a thin layer of plain petroleum jelly (Vaseline Original); QV Intensive and Cicaplast labels say avoid the eye contour.
+- Cicaplast Baume B5 for cracked fingertips/patches.
+- Sunscreen: Cancer Council SPF50 Sensitive (body); Avène Sunsitive SPF50 Fluid for face (AU stock not confirmed).
+
 **How to apply:**
 - At reviews he starts, ask once how the skin is (better / same / worse). If worse after ~4 weeks of the oil swap +
   skin care, that points away from diet → doctor/dermatologist, don't keep tweaking food.
