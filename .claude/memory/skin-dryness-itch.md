@@ -50,6 +50,11 @@ metadata:
 - Cicaplast Baume B5 for cracked fingertips/patches.
 - Sunscreen: Cancer Council SPF50 Sensitive (body); Avène Sunsitive SPF50 Fluid for face (AU stock not confirmed).
 
+**Daily routine given 2026-10-13:** he trains ~6–8 am (strength then treadmill, Garmin), **showers after the morning
+workout; evening shower not always**. Morning: lukewarm short shower, soap-free wash → body moisturiser within 3 min →
+face moisturiser → sunscreen. Day: hand cream after each wash. Night: no-shower nights just face cream + Vaseline under
+eyes + re-moisturise itchy back/neck; thick hand cream/Cicaplast on fingertips. Rest days (Mon/Fri) same, shower whenever.
+
 **How to apply:**
 - At reviews he starts, ask once how the skin is (better / same / worse). If worse after ~4 weeks of the oil swap +
   skin care, that points away from diet → doctor/dermatologist, don't keep tweaking food.
