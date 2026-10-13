@@ -53,6 +53,8 @@ metadata:
 - Cicaplast Baume B5 optional (no CW AU page found, pharmacist-only in NZ); QV Intensive thick at night does the same job.
 - Sunscreen: Cancer Council SPF50 Sensitive (body); Avène Sunsitive SPF50 Fluid for face (AU stock not confirmed).
 
+**Bought all the products 2026-10-13** (skincare routine starts now; routine card sent to Telegram the same day).
+
 **Daily routine given 2026-10-13:** he trains ~6–8 am (strength then treadmill, Garmin), **showers after the morning
 workout; evening shower not always**. Morning: lukewarm short shower, soap-free wash → body moisturiser within 3 min →
 face moisturiser → sunscreen. Day: hand cream after each wash. Night: no-shower nights just face cream + Vaseline under
