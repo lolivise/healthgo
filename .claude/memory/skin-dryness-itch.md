@@ -33,7 +33,9 @@ metadata:
 - **Diet (proposed, awaiting his OK; start 2026-10-19 with the rice experiment so the fixed intake stays clean):**
   olive oil **14 g → 7 g**, add **15 g walnuts** (in the dinner yogurt). Net ≈ **+35 kcal** (logged intake 2,075 → **~2,110**),
   fat ~56 → ~59 g (still ≥ the 0.6 g/kg floor), LA ~6.5 → **~11–12 g**, ALA +1.4 g. Same routine, a food not a supplement,
-  so it is fine with Hep B. If adopted: update [[daily-diet-baseline]] and `config/plan.json` (W43–W45 intake) together.
+  so it is fine with Hep B.
+  - **v2, recommended 2026-10-13 after he asked to swap more:** olive oil **14 → ~4 g** (just enough to cook) + **20 g walnuts**. ≈ +40 kcal (→ ~2,115), fat ~59 g, LA **~13 g (meets the AI)**, ALA ~4 g. Full swap (25 g walnuts, 0 oil) is also fine nutritionally (+38 kcal, LA ~14.6 g) if he cooks without oil. Don't go past ~30 g walnuts: kcal creep, and LA is already at target. Raw unsalted, kept in fridge/freezer.
+  If adopted: update [[daily-diet-baseline]] and `config/plan.json` (W43–W45 intake) together.
 - **Doctor (GP / hepatologist) at the next visit, sooner if worse:** mention the itch with Hep B; ask for a liver panel
   incl. bilirubin, ALP, GGT; TSH (thyroid); plus the already-planned vitamin D and ferritin ([[supplements]]).
   **Go within days** if: yellow eyes/skin, dark urine, pale stools, itch that is widespread or worse at night, or a spreading rash.
