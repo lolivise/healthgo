@@ -35,6 +35,11 @@ metadata:
   fat ~56 → ~59 g (still ≥ the 0.6 g/kg floor), LA ~6.5 → **~11–12 g**, ALA +1.4 g. Same routine, a food not a supplement,
   so it is fine with Hep B.
   - **v2, recommended 2026-10-13 after he asked to swap more:** olive oil **14 → ~4 g** (just enough to cook) + **20 g walnuts**. ≈ +40 kcal (→ ~2,115), fat ~59 g, LA **~13 g (meets the AI)**, ALA ~4 g. Full swap (25 g walnuts, 0 oil) is also fine nutritionally (+38 kcal, LA ~14.6 g) if he cooks without oil. Don't go past ~30 g walnuts: kcal creep, and LA is already at target. Raw unsalted, kept in fridge/freezer.
+  - **Almonds evaluated instead, 2026-10-14: rejected, walnuts stay.** 20 g almonds give only ~2.5 g LA (walnuts ~7.6 g), so
+    the day lands at ~8 g LA vs the 13 g AI; reaching 13 g would take ~60 g almonds (~+260 kcal). Almonds win only on vitamin E
+    (~5 mg/20 g), Mg (already supplemented) and fibre, and carry ~4× the oxalate on top of 200 g spinach. Aflatoxin (synergy with
+    HBV) applies to both: fresh, Australian-grown, fridge/freezer, discard mouldy or bitter nuts. Minor open point: the swap drops
+    ~1.4 mg α-tocopherol (olive oil); check whether his multivitamin has vitamin E before adding anything.
   - ✅ **ADOPTED 2026-10-13 (v2), starts 2026-10-19.** Skin checkpoint **2026-11-01** (2 weeks, early read only); full judgement ~4 weeks (≈11-15). Rice experiment itself still runs to 11-08.
   If adopted: update [[daily-diet-baseline]] and `config/plan.json` (W43–W45 intake) together.
 - **Doctor (GP / hepatologist) at the next visit, sooner if worse:** mention the itch with Hep B; ask for a liver panel
@@ -54,6 +59,13 @@ metadata:
 - Sunscreen: Cancer Council SPF50 Sensitive (body); Avène Sunsitive SPF50 Fluid for face (AU stock not confirmed).
 
 **Bought all the products 2026-10-13** (skincare routine starts now; routine card sent to Telegram the same day).
+
+**Day-1 response (reported 2026-10-14):** started the new products; **no face stinging while wearing them**, and the
+**neck/shoulder sting/itch already eased**. A fast response to topical care alone points to a barrier/xerosis cause
+(sweat + showers + dry air) as the main driver. ⚠️ Attribution: skincare started 6 days before the walnut swap
+(10-19), so at the 11-01 / ~11-15 checkpoints any further gain can't be cleanly credited to diet. Walnuts still go
+ahead (LA was below the AI regardless). Itch + Hep B: no longer urgent, still mention at the next routine doctor visit;
+the "go within days" signs are unchanged.
 
 **Daily routine given 2026-10-13:** he trains ~6–8 am (strength then treadmill, Garmin), **showers after the morning
 workout; evening shower not always**. Morning: lukewarm short shower, soap-free wash → body moisturiser within 3 min →
