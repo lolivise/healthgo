@@ -40,6 +40,11 @@ metadata:
     (~5 mg/20 g), Mg (already supplemented) and fibre, and carry ~4× the oxalate on top of 200 g spinach. Aflatoxin (synergy with
     HBV) applies to both: fresh, Australian-grown, fridge/freezer, discard mouldy or bitter nuts. Minor open point: the swap drops
     ~1.4 mg α-tocopherol (olive oil); check whether his multivitamin has vitamin E before adding anything.
+  - **All raw/unsalted Coles nuts compared, 2026-10-14: walnuts still best** (most LA per kcal, plus ALA). Backup if
+    walnuts are out of stock: **pecans ~35 g** (Coles Australian; ~+150 kcal net, so trim elsewhere). ⛔ Brazil nuts:
+    selenium (~70–100 µg per nut, very variable) on top of the multi's 100 µg risks the 400 µg UL. ⛔ Peanuts: highest
+    aflatoxin risk, and he has Hep B. Pine nuts: Coles only sells toasted, and they're expensive. Macadamias, cashews,
+    hazelnuts: too little LA. Optional extra, not adopted: sunflower kernels (LA + vitamin E).
   - ✅ **ADOPTED 2026-10-13 (v2), starts 2026-10-19.** Skin checkpoint **2026-11-01** (2 weeks, early read only); full judgement ~4 weeks (≈11-15). Rice experiment itself still runs to 11-08.
   If adopted: update [[daily-diet-baseline]] and `config/plan.json` (W43–W45 intake) together.
 - **Doctor (GP / hepatologist) at the next visit, sooner if worse:** mention the itch with Hep B; ask for a liver panel
