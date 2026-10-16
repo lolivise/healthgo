@@ -1,6 +1,6 @@
 ---
 name: chicken-marinades
-description: The three chicken marinades — Mustard 蜜芥, Tikka 咖哩優格, Char Siu 叉燒 — each for 1 kg raw breast, all three made together and rotated daily, leftover marinade discarded; recipes, Coles labels, per-350 g numbers (~30 % retained → avg +50 kcal, +280 mg Na/day)
+description: The three chicken marinades — Mustard 蜜芥, Tikka 咖哩優格, Char Siu 叉燒 — each for 1 kg raw breast, all three made together and rotated daily, leftover marinade discarded; texture fix (thermometer 73→75 °C, 0.3 % soda + salt); recipes, Coles labels, per-350 g numbers (~30 % retained → avg +50 kcal, +280 mg Na/day)
 metadata:
   type: user
 ---
@@ -61,16 +61,34 @@ MasterFoods garlic powder 5 g, Ajinomoto MSG 5 g, water 100 g.
 - **Linoleic acid (LA):** Kewpie mayo and Laoganma are soybean oil (~53 % LA). The whole marinade would be ~9 g LA per
   Mustard portion and ~3 g per Char Siu portion. At 30 % retained that is **~1.2 g/day on average**. See [[skin-dryness-itch]].
 
-## Baking-soda velveting for Mustard + Tikka (advised 2026-10-16, not yet confirmed he does it)
+## Texture fix for Mustard + Tikka (researched 2026-10-16, proposed, not yet confirmed he does it)
 
-He wants a more tender texture for Mustard and Tikka. **Prep:** he buys **~4.5 kg breast fortnightly** and preps it all
-at once. Per 1 kg raw breast: **8 g baking soda** (≈1¾ tsp, a little under the common 1 tsp/lb ≈ 10 g/kg) dissolved in
-~100 g water → toss well → **30 min** (cut pieces 15–20 min; butterfly thick breasts) → **rinse well 2–3×, drain, press dry**
-→ marinate as usual → freeze. Char Siu doesn't need it.
-- **The rinse is required here:** both marinades are acidic (vinegar in mayo/mustard/Worcestershire; yoghurt), and leftover
-  soda would neutralise them and taste soapy. Past ~1 h or too much soda the meat turns spongy; if so, drop to 5 g/kg.
-- **Sodium:** 8 g of soda = ~2,200 mg Na per kg. Most rinses off. The residual is unmeasured, guessed at ~100–200 mg per 350 g.
-  Mustard and Tikka are already the lower-sodium days, so the day stays ≈2,000 mg with the ¼ tsp salt.
+**Problem (Darren, 2026-10-16):** Mustard and Tikka chicken comes out **dry and tough/chewy**. He cuts the breast into
+pieces, freezes them in the marinade, thaws, discards the marinade and **air-fries by time/eye with no thermometer**.
+He buys **~4.5 kg breast fortnightly** and preps it in one go. Full report: `research/reports/Chicken breast texture fix.md`.
+
+**Verdict: overcooking is the main cause, not freezing.** Broiler breast loses ~25 % at 75 °C and ~34 % at 89 °C (cooking
+loss), while shear force is flat until ~94 °C, so most of the "chewy" is dryness. One freeze-thaw cycle adds only a few
+points of drip loss and does *not* toughen the meat.
+
+**Recommendation, in order of impact:**
+1. **Instant-read thermometer** (one-off purchase; a single device, not a tracking chore). Cut pieces to an even
+   2.5–3 cm, preheat to ~200 °C, single layer, flip halfway. **Pull when the thickest piece reads ~73 °C**, rest
+   2–3 min covered, re-probe for **≥75 °C**. ⛔ **Safety line stays at 75 °C** (AU guidance) because of the Hep B. The gain is
+   not overshooting to 85–90 °C, not going lower. Pat the marinade off before cooking so the honey/mayo doesn't burn.
+2. **Pre-treatment before the marinade, per 1 kg** (replaces the 8 g/rinse advice given earlier that day): **baking soda 3 g
+   (≈0.3 %, the studied optimum; blogs use 1.35–1.4 %) + salt (Mustard 4 g, Tikka 2 g)** in ~30 g water, 30 min in the fridge,
+   **no rinse** (inference: rinse if a test batch tastes soapy), then marinate and freeze. Never put soda into the acidic
+   marinade. Evidence medium-low: the studies tumbled it in, and nobody has tested soda → acid marinade → freeze. Salt is
+   the surer half; salting before freezing cut moisture loss 22 % → 11 % (CI test).
+3. **Thaw in the fridge** in flat 1–2 cm bags, one bag per cooking day. Use a cold-water bath if short on time. **No microwave defrost**
+   (worst drip loss, toughest).
+4. **Batch-cooked:** fridge within 2 h, eat within 3 days, reheat by steaming or a covered medium-power microwave with a splash of water,
+   and slice after reheating.
+5. If it's still tough after all this, suspect woody-breast fillets, not his method.
+- **Test order:** first change only the thermometer + even cut. Then do one pre-treated 1 kg batch per flavour against an untreated one.
+- **Sodium:** the pre-treatment salt + soda (~840 mg Na per 350 g for Mustard, ~560 for Tikka, counted at 100 %) **replaces the ¼ tsp/day
+  salt on those days**. Days land at Mustard ≈2,000, Tikka ≈1,880, Char Siu (keeps the ¼ tsp) ≈1,900 mg. The Mustard day has no margin.
 - ⚠️ 4.5 kg ÷ 14 days ≈ 320 g/day, not 350. Asked whether each flavour is 1.5 kg (marinade ×1.5) — per-350 g numbers don't change either way.
 
 ## Label sources (per 100 g, read from coles.com.au 2026-10-16)
