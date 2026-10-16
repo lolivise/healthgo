@@ -1,7 +1,7 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
 - [Cutting goal 2026](cutting-goal-2026.md) — FINAL goal 86–88 kg @ 15–18 % BF (set 10-12, needs +3–7 kg lean, multi-year bulk cycles); cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target
 - [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; W42 potato week ≈2,030 (freezer stock, team lunch Fri 10-16), then 2,000 kcal rice experiment 2026-10-19→11-08 logged 2,075
-- [Chicken marinades](chicken-marinades.md) — Mustard 蜜芥 / Tikka 咖哩優格 / Char Siu 叉燒, 1 kg each, all 3 made together, rotated daily; avg +162 kcal, +10 g fat, +940 mg Na/day (missed until 10-16)
+- [Chicken marinades](chicken-marinades.md) — Mustard 蜜芥 / Tikka 咖哩優格 / Char Siu 叉燒, 1 kg each, all 3 made together, rotated daily, leftover discarded (~30 % eaten) → avg +50 kcal, +280 mg Na/day (missed until 10-16)
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
 - [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; 繁中 verdict-first; no waist/photos; every report sent to Telegram

@@ -23,5 +23,5 @@ metadata:
 **How to apply:**
 - Use waist < 90 cm (not BMI, since his height isn't recorded) as population-appropriate checks.
 - InBody is gone (2026-10-10); the noise row matters only for reading the 2026-09-27 scan or a future one-off.
-- His ~1,900 mg/day sodium (incl. chicken marinades, corrected 2026-10-16) plus salty banquet food means a quick water jump in Taiwan. Expect it, don't read it as fat.
+- His ~1,300 mg/day sodium (incl. chicken marinades, corrected 2026-10-16) plus salty banquet food means a quick water jump in Taiwan. Expect it, don't read it as fat.
 - Related: [[health-conditions]], [[safety-limits]], [[trip-taiwan-2027]], [[evidence-cut-and-training]].

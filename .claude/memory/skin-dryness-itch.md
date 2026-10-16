@@ -29,10 +29,9 @@ metadata:
    patients, more in the immune-active phase [V: US cohort 35 %; Central European study 24 %]. Bloodwork has been normal,
    so it's unlikely, but it **must go to his doctor**, not be explained away by diet ([[health-conditions]]).
 
-**⚠️ LA re-estimate 2026-10-16:** the chicken marinades were missed. Kewpie mayo (Mustard 蜜芥) and Laoganma (Char Siu 叉燒)
-are soybean oil and add **~4 g LA/day on average** (~9 g on a Mustard day). So before the swap LA was **≈10–11 g/day, not
-6–7**: close to the 13 g AI, which makes diet a **weaker** explanation for the skin. Non-diet causes and the GP check matter
-more. The walnut v2 swap still goes ahead from 10-19 (LA ≈ 17 g, harmless, and it adds ALA). No change needed. See [[chicken-marinades]].
+**LA re-estimate 2026-10-16:** the chicken marinades were missed. Kewpie mayo (Mustard 蜜芥) and Laoganma (Char Siu 叉燒)
+are soybean oil, but the leftover marinade is discarded, so only **~1.2 g LA/day** is eaten (~2.7 g on a Mustard day).
+LA before the swap was ≈7.5–8 g, and with walnut v2 it is ≈14 g. The assessment and plan below stand. See [[chicken-marinades]].
 
 **Advice given 2026-10-13:**
 - **Diet (proposed, awaiting his OK; start 2026-10-19 with the rice experiment so the fixed intake stays clean):**
