@@ -86,46 +86,50 @@ def _mean_intake(p: dict, start: date, end: date) -> float:
 
 
 def prepare(sunday: date) -> Path:
+    """Numbers for the Mon–Sun week ending `sunday`, using finished days only: a week still in progress stops at
+    yesterday (today's steps, stress and Body Battery are incomplete and would skew the averages)."""
     start = sunday - timedelta(days=6)
+    end = min(sunday, config.last_complete_day())
     base_start, base_end = start - timedelta(days=28), start - timedelta(days=1)
     p = config.plan()
     con = db.connect()
 
-    w_now, n_now = _weight_avg(con, start, sunday)
+    w_now, n_now = _weight_avg(con, start, end)
     w_prev, n_prev = _weight_avg(con, start - timedelta(days=7), start - timedelta(days=1))
-    slope14 = checks.weight_slope_pct_per_week(con, sunday, 14)
-    slope28 = checks.weight_slope_pct_per_week(con, sunday, 28)
+    slope14 = checks.weight_slope_pct_per_week(con, end, 14)
+    slope28 = checks.weight_slope_pct_per_week(con, end, 28)
     tdee = None
     if slope28 and w_now:
         kg_per_day = slope28[0] / 100 * w_now / 7
-        tdee = round(_mean_intake(p, sunday - timedelta(days=27), sunday) - kg_per_day * KCAL_PER_KG)
+        tdee = round(_mean_intake(p, end - timedelta(days=27), end) - kg_per_day * KCAL_PER_KG)
 
     recovery = {}
     for col in ("rhr", "hrv_last_night", "sleep_h", "sleep_score", "avg_stress", "bb_high", "bb_low", "steps",
                 "readiness_score"):
-        recovery[col] = {"week": _avg(con, col, start, sunday), "baseline_4w": _avg(con, col, base_start, base_end)}
+        recovery[col] = {"week": _avg(con, col, start, end), "baseline_4w": _avg(con, col, base_start, base_end)}
     hrv_statuses = [r[0] for r in con.execute(
         "SELECT hrv_status FROM daily WHERE date BETWEEN ? AND ? ORDER BY date",
-        (start.isoformat(), sunday.isoformat()))]
+        (start.isoformat(), end.isoformat()))]
 
     training = [dict(r) for r in con.execute(
         "SELECT type, COUNT(*) AS sessions, ROUND(SUM(duration_min)) AS minutes, ROUND(AVG(avg_hr)) AS avg_hr "
         "FROM activities WHERE date BETWEEN ? AND ? GROUP BY type ORDER BY sessions DESC",
-        (start.isoformat(), sunday.isoformat()))]
+        (start.isoformat(), end.isoformat()))]
     workouts = [dict(r) for r in con.execute(
         "SELECT date, name, duration_min FROM activities WHERE type = 'strength_training' "
-        "AND date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), sunday.isoformat()))]
+        "AND date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), end.isoformat()))]
 
     eating_out = [dict(r) for r in con.execute(
-        "SELECT * FROM eating_out WHERE date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), sunday.isoformat()))]
+        "SELECT * FROM eating_out WHERE date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), end.isoformat()))]
     last_review = con.execute("SELECT MAX(date) FROM reviews").fetchone()[0]
-    strength = _strength(con, start, sunday)
+    strength = _strength(con, start, end)
     con.close()
 
     cut_start = date.fromisoformat(p["cut"]["start_date"])
     summary = {
         "week": week_id(sunday),
-        "range": [start.isoformat(), sunday.isoformat()],
+        "range": [start.isoformat(), end.isoformat()],
+        "partial": end < sunday,
         "cut_week": (sunday - cut_start).days // 7 + 1,
         "days_to_checkpoint": (date.fromisoformat(p["checkpoint"]["date"]) - sunday).days,
         "weight": {
@@ -147,8 +151,8 @@ def prepare(sunday: date) -> Path:
         "strength": strength,
         "eating_out_recorded": eating_out,
         "last_review": last_review,
-        "days_since_review": (sunday - date.fromisoformat(last_review)).days if last_review else None,
-        "flags": [f.__dict__ for f in checks.run(sunday)],
+        "days_since_review": (config.today() - date.fromisoformat(last_review)).days if last_review else None,
+        "flags": [f.__dict__ for f in checks.run(end)],
         "in_trip": config.in_trip(sunday),
     }
     path = week_file(sunday)

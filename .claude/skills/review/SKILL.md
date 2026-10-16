@@ -17,8 +17,14 @@ what this skill exists to prevent.
 recovery alerts or prepares weekly numbers on its own. **Every `/review` starts with a fresh pull** (step 2),
 so he can review any day. Start step 2 **at once, in parallel with step 1**: the pull takes a few minutes.
 
+**Today is never analysed** (Darren, 2026-10-16). Its steps, stress, Body Battery, training and meals are still
+incomplete and pollute the averages, so every window ends **yesterday**: a review run on Sunday covers Mon–Sat.
+`prepare-week` and the recovery checks already stop at yesterday (`config.last_complete_day()`); any extra query
+in a brief must use `date <= <yesterday>` too, and that includes today's morning weigh-in. Eating out today is asked
+about and recorded, but counts in the next review.
+
 **Default window** (weeks run Mon–Sun):
-- **Thu–Sun:** the current week, `--week-end <this coming Sunday>` (partial unless today is Sunday).
+- **Thu–Sun:** the current week, `--week-end <this coming Sunday>`, data through yesterday (always partial).
 - **Mon–Wed:** if the week that ended last Sunday has no review yet (check `reviews` / `reports/`), review
   that full week, `--week-end <last Sunday>`, and mention the days since. Otherwise the current week, partial.
 - If the last review is more than 14 days old, say so and also ask the agent for the trend since then.
@@ -37,7 +43,7 @@ Spawn the `health-data` agent with a self-contained brief:
   Cargill menu refresh, rebuild the db, recovery flags, commit & push). If it has been a long gap, the
   catch-up covers every missing day; a 429 midway is fine, the data on disk is used and the next pull resumes;
 - the week to prepare: `uv run healthgo prepare-week --week-end <Sunday>` from the default window above,
-  and whether it's partial;
+  and whether it's partial. State yesterday's date in the brief as the last day to include;
 - **return the flags `pull` printed**, since no daily Telegram alerts exist any more;
 - any extra questions this review needs answered, e.g. "e1RM per week for squat/bench/deadlift since
   2026-07-15", "weekly RHR since the cut began".

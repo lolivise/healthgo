@@ -34,6 +34,10 @@ Decided with Darren 2026-10-09:
   mention any flags in the verdict**, since that is now the only place he sees them. Don't reinstall the job
   without asking.
 
+- **Never analyse today (Darren, 2026-10-16):** "only include the data of the date that is already passed". Today's
+  steps, stress, Body Battery and meals are incomplete and pollute the analysis, so every review window ends
+  yesterday (a Sunday review covers Mon–Sat). Built into `prepare-week` and the checks via `config.last_complete_day()`.
+
 **Why:** he wants the system to carry the tracking burden. Questions are acceptable only inside a
 review he chose to start.
 

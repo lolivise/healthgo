@@ -47,41 +47,41 @@ def weight_slope_pct_per_week(con, end: date, days: int = 14) -> tuple[float, in
     return round(slope * 7 / my * 100, 2), len(rows)
 
 
-def run(today: date) -> list[Flag]:
+def run(through: date) -> list[Flag]:
+    """Checks over days up to and including `through`, which must be a finished day (see config.last_complete_day)."""
     a = config.plan()["alerts"]
     flags: list[Flag] = []
     con = db.connect()
-    yesterday = today - timedelta(days=1)  # today is partial at 20:00
 
-    recent = _series(con, "rhr", today - timedelta(days=6), today)
-    base = _baseline(con, "rhr", today)
+    recent = _series(con, "rhr", through - timedelta(days=6), through)
+    base = _baseline(con, "rhr", through)
     if len(recent) >= 5 and len(base) >= 14 and mean(recent) - median(base) >= a["rhr_rise_bpm"]:
         flags.append(Flag("rhr_up", f"靜息心率 (RHR) 近 7 天平均 {mean(recent):.0f}，比你的基準 {median(base):.0f} "
                                     f"高 {mean(recent) - median(base):.0f} bpm。可能是恢復不足、壓力或快生病了。"))
 
-    statuses = _series(con, "hrv_status", today - timedelta(days=3), today)
+    statuses = _series(con, "hrv_status", through - timedelta(days=3), through)
     if len([s for s in statuses if s in ("LOW", "POOR", "UNBALANCED")]) >= 3:
         flags.append(Flag("hrv_low", f"心率變異度 (HRV) 最近 4 天有 3 天以上不在平衡範圍（{', '.join(statuses)}）。"
                                      "考慮今天輕量訓練、早點睡。"))
 
-    sleep = _series(con, "sleep_h", yesterday - timedelta(days=4), today)[-5:]
+    sleep = _series(con, "sleep_h", through - timedelta(days=4), through)
     short = [h for h in sleep if h < a["sleep_short_hours"]]
     if len(sleep) >= 4 and len(short) >= 3:
         flags.append(Flag("sleep_short", f"最近 5 晚有 {len(short)} 晚睡不到 {a['sleep_short_hours']:.0f} 小時。"
                                          "熱量赤字期睡眠不足最容易掉肌肉。"))
 
-    bb = _series(con, "bb_high", today - timedelta(days=3), today)
+    bb = _series(con, "bb_high", through - timedelta(days=3), through)
     if len(bb) >= 3 and len([v for v in bb if v < a["body_battery_high_below"]]) >= 3:
         flags.append(Flag("bb_low", f"身體能量 (Body Battery) 最近幾天最高只到 {max(bb)}，"
                                     f"連續低於 {a['body_battery_high_below']}。身體沒有充好電。"))
 
-    recent = _series(con, "avg_stress", today - timedelta(days=6), yesterday)
-    base = _baseline(con, "avg_stress", today)
+    recent = _series(con, "avg_stress", through - timedelta(days=6), through)
+    base = _baseline(con, "avg_stress", through)
     if len(recent) >= 5 and len(base) >= 14 and mean(recent) - median(base) >= a["stress_rise"]:
         flags.append(Flag("stress_up", f"壓力指數近 7 天平均 {mean(recent):.0f}，比你平常的 {median(base):.0f} "
                                        f"高 {mean(recent) - median(base):.0f}。"))
 
-    slope = weight_slope_pct_per_week(con, today)
+    slope = weight_slope_pct_per_week(con, through)
     limit = config.plan()["safety"]["max_loss_pct_per_week"]
     if slope and -slope[0] > limit:
         flags.append(Flag("loss_fast", f"近 14 天體重下降速度約每週 {-slope[0]:.2f}%（{slope[1]} 次量測），"
@@ -90,9 +90,10 @@ def run(today: date) -> list[Flag]:
     ohp = con.execute(
         "SELECT date, MAX(weight_kg) FROM sets WHERE weight_kg > 0 AND (category = 'SHOULDER_PRESS' "
         "OR exercise LIKE '%SHOULDER_PRESS%' OR exercise LIKE '%OVERHEAD_PRESS%') "
-        "AND date >= ? GROUP BY date ORDER BY date", ((today - timedelta(days=30)).isoformat(),)).fetchall()
-    recent_ohp = [kg for d, kg in ohp if d >= (today - timedelta(days=1)).isoformat()]
-    prior_ohp = [kg for d, kg in ohp if d < (today - timedelta(days=1)).isoformat()]
+        "AND date BETWEEN ? AND ? GROUP BY date ORDER BY date",
+        ((through - timedelta(days=30)).isoformat(), through.isoformat())).fetchall()
+    recent_ohp = [kg for d, kg in ohp if d >= (through - timedelta(days=1)).isoformat()]
+    prior_ohp = [kg for d, kg in ohp if d < (through - timedelta(days=1)).isoformat()]
     if recent_ohp and prior_ohp and max(recent_ohp) >= max(prior_ohp) * a["ohp_jump_ratio"]:
         flags.append(Flag("ohp_jump", f"肩推 (OHP) 重量 {max(recent_ohp):g} kg，比前 30 天最高 {max(prior_ohp):g} kg "
                                       f"跳了 {max(recent_ohp) / max(prior_ohp) * 100 - 100:.0f}%。注意右肩。"))

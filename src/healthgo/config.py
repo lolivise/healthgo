@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import os
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from functools import lru_cache
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -41,6 +41,11 @@ def now() -> datetime:
 
 def today() -> date:
     return now().date()
+
+
+def last_complete_day() -> date:
+    """Yesterday. Today's steps, stress and Body Battery are still filling in, so analysis never includes it."""
+    return today() - timedelta(days=1)
 
 
 def in_trip(d: date) -> bool:

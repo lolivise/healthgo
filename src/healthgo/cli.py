@@ -151,7 +151,7 @@ def cmd_check(args) -> int:
     from . import checks, db, notify
 
     db.build()
-    flags = checks.run(config.today())
+    flags = checks.run(config.last_complete_day())
     for f in flags:
         print(f"[{f.key}] {f.message}")
     if not flags:
@@ -188,7 +188,7 @@ def cmd_pull(args) -> int:
         _refresh_menu()
         db.build()
         state = store.load_state()
-        flags = checks.run(config.today())
+        flags = checks.run(config.last_complete_day())
         print(json.dumps({"sync": "ok" if result is not None else "failed",
                           "complete_through": state.get("complete_through"),
                           "flags": [f"{f.key}: {f.message}" for f in flags]}, ensure_ascii=False, indent=2))
@@ -209,7 +209,7 @@ def cmd_daily(args) -> int:
         db.build()
         today = config.today()
         if not config.in_trip(today):
-            for f in checks.run(today):
+            for f in checks.run(config.last_complete_day()):
                 notify.alert_once(state, f.key, f"⚠️ healthgo 恢復警示\n{f.message}")
         sunday = weekly.latest_due_sunday(config.now())
         if sunday and not weekly.week_file(sunday).exists():
