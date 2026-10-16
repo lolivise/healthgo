@@ -414,6 +414,15 @@
     "volume": "50.00"
   },
   {
+    "child_id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+    "child_item_type": "INGREDIENT",
+    "id": "15dac25f-5825-4959-9c07-a135b4a055ce",
+    "parent_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "500.00"
+  },
+  {
     "child_id": "bd98fbec-95df-4e2b-83c5-4f11ee1db48c",
     "child_item_type": "INGREDIENT",
     "id": "15f12edc-3790-4e6b-aacc-e957ff42372a",
@@ -1080,6 +1089,15 @@
     "volume": "600.00"
   },
   {
+    "child_id": "b36b081f-98c7-43ad-a547-21992a791873",
+    "child_item_type": "INGREDIENT",
+    "id": "321587c8-a255-4bb3-a0a6-cf1a967c9feb",
+    "parent_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
     "child_id": "abab8454-fcef-4975-867a-0d59e5a799b8",
     "child_item_type": "INGREDIENT",
     "id": "325c8bd8-b80e-48b5-8900-14d618a7f71b",
@@ -1150,6 +1168,15 @@
     "parent_item_type": "COMPONENT",
     "unit_type": "g",
     "volume": "750.00"
+  },
+  {
+    "child_id": "abd2f585-99fb-4323-94d5-7a5d3ea9fda4",
+    "child_item_type": "INGREDIENT",
+    "id": "3675ac33-e60e-47ea-880f-ba3771af0885",
+    "parent_id": "b064352a-b29f-4ab7-885f-c5c158f0cc0d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "200.00"
   },
   {
     "child_id": "d95160f5-2aa0-41c7-b21e-407a9f92296d",
@@ -1935,6 +1962,15 @@
     "volume": "2500.00"
   },
   {
+    "child_id": "53df52db-eb71-4795-bf58-d6ae5e196651",
+    "child_item_type": "INGREDIENT",
+    "id": "5797dde9-2217-49ea-bfa7-990ce76bd6a4",
+    "parent_id": "b064352a-b29f-4ab7-885f-c5c158f0cc0d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "150.00"
+  },
+  {
     "child_id": "c98280f2-787a-4b91-b35e-5b84d3fc1a31",
     "child_item_type": "INGREDIENT",
     "id": "57c5f10f-eb05-4625-982f-655635386eec",
@@ -2311,6 +2347,15 @@
     "parent_item_type": "COMPONENT",
     "unit_type": "g",
     "volume": "350.00"
+  },
+  {
+    "child_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "child_item_type": "COMPONENT",
+    "id": "69f13ee5-fb02-42ef-b93f-ea78d9abffd8",
+    "parent_id": "b064352a-b29f-4ab7-885f-c5c158f0cc0d",
+    "parent_item_type": "PRODUCT",
+    "unit_type": "g",
+    "volume": "100.00"
   },
   {
     "child_id": "98ce5e90-f533-4ff2-9395-bf6385223010",
@@ -3843,6 +3888,15 @@
     "volume": "170.00"
   },
   {
+    "child_id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+    "child_item_type": "INGREDIENT",
+    "id": "a7825e6d-cbbd-489c-bce6-9d26b3c46ced",
+    "parent_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "500.00"
+  },
+  {
     "child_id": "bb956fee-bbd3-4437-960d-93fbac20d45c",
     "child_item_type": "INGREDIENT",
     "id": "a83c7b29-cc94-4f79-8270-416af226d17d",
@@ -4219,6 +4273,15 @@
     "parent_item_type": "COMPONENT",
     "unit_type": "g",
     "volume": "80.00"
+  },
+  {
+    "child_id": "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc",
+    "child_item_type": "INGREDIENT",
+    "id": "b4dd38a8-ff2c-4aff-8e42-852c4f84c0df",
+    "parent_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "500.00"
   },
   {
     "child_id": "b6889298-49dc-44c7-b171-e5af596b5828",
@@ -4804,6 +4867,15 @@
     "parent_item_type": "PRODUCT",
     "unit_type": "個",
     "volume": "1.00"
+  },
+  {
+    "child_id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+    "child_item_type": "INGREDIENT",
+    "id": "d32f093a-d262-43bd-84a3-4a3fd29ddb6f",
+    "parent_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "ml",
+    "volume": "1000.00"
   },
   {
     "child_id": "ad2b250d-ca7c-47f7-b608-e457469b93aa",
@@ -5488,6 +5560,15 @@
     "parent_item_type": "PRODUCT",
     "unit_type": "g",
     "volume": "50.00"
+  },
+  {
+    "child_id": "8cf1455e-6ea5-4f26-9be0-ff152d29dea9",
+    "child_item_type": "INGREDIENT",
+    "id": "efbe0012-ad06-4e36-8196-3c3d78247712",
+    "parent_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "parent_item_type": "COMPONENT",
+    "unit_type": "g",
+    "volume": "1500.00"
   },
   {
     "child_id": "f7e3e337-bf66-4463-add0-5cf8c71549d2",

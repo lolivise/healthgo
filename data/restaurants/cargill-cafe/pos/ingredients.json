@@ -126,11 +126,11 @@
     "volume": "115.00"
   },
   {
-    "cost": "11.52",
+    "cost": "12.00",
     "id": "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc",
     "label": "蠔油",
-    "unit_type": "kg",
-    "volume": "2.40"
+    "unit_type": "g",
+    "volume": "2200.00"
   },
   {
     "cost": "0.00",
@@ -462,6 +462,13 @@
     "volume": "4800.00"
   },
   {
+    "cost": "18.00",
+    "id": "3a1a9f66-bf19-4474-956e-5e9854e1b3ed",
+    "label": "Topsids/牛肉切片",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
     "cost": "8.60",
     "id": "3dc8ba26-d7b7-4fd7-ad7c-016f78ba38cc",
     "label": "嫩精",
@@ -577,6 +584,13 @@
     "cost": "5.80",
     "id": "523734f6-6acf-451d-a94f-e0258da2f614",
     "label": "雞翅",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
+    "cost": "17.50",
+    "id": "53df52db-eb71-4795-bf58-d6ae5e196651",
+    "label": "Beef tri tips /牛臀三角",
     "unit_type": "g",
     "volume": "1000.00"
   },
@@ -749,7 +763,7 @@
     "volume": "20.00"
   },
   {
-    "cost": "55.00",
+    "cost": "88.00",
     "id": "678fe373-02d7-4720-bef0-e65adfb5a6b1",
     "label": "麵包粉 Obento",
     "unit_type": "g",
@@ -924,6 +938,13 @@
     "volume": "1000.00"
   },
   {
+    "cost": "17.50",
+    "id": "7c77f82c-3c95-444b-b017-8951cf0a105c",
+    "label": "Beef Rump/牛臀肉",
+    "unit_type": "g",
+    "volume": "1000.00"
+  },
+  {
     "cost": "19.00",
     "id": "7d836c85-cd05-4104-86d7-475ab5ddda8a",
     "label": "三色蒟蒻",
@@ -1015,6 +1036,13 @@
     "volume": "19800.00"
   },
   {
+    "cost": "18.50",
+    "id": "8cf1455e-6ea5-4f26-9be0-ff152d29dea9",
+    "label": "沙茶醬",
+    "unit_type": "g",
+    "volume": "737.00"
+  },
+  {
     "cost": "5.00",
     "id": "8f26988b-5df5-4adc-9a40-95cf8fa898e9",
     "label": "文蛤",
@@ -1064,7 +1092,7 @@
     "volume": "100.00"
   },
   {
-    "cost": "9.80",
+    "cost": "11.00",
     "id": "94cd8d5e-12e6-4931-be5b-84137d72363e",
     "label": "排骨",
     "unit_type": "g",
@@ -1293,6 +1321,13 @@
     "label": "奶精",
     "unit_type": "kg",
     "volume": "20.00"
+  },
+  {
+    "cost": "10.00",
+    "id": "abd2f585-99fb-4323-94d5-7a5d3ea9fda4",
+    "label": "空心菜",
+    "unit_type": "g",
+    "volume": "1000.00"
   },
   {
     "cost": "8.50",

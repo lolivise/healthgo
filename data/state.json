@@ -1,24 +1,28 @@
 {
   "alerts_sent": {
-    "loss_fast": "2026-10-09"
+    "loss_fast": "2026-10-09",
+    "menu_unmapped:Beef tri tips /牛臀三角,沙茶醬,空心菜": "2026-10-16"
   },
-  "complete_through": "2026-10-11",
+  "complete_through": "2026-10-15",
   "inbox_last_id": 14,
   "last_login_attempt_at": "2026-10-09T11:22:07+08:00",
   "last_login_result": "ok",
-  "last_sync_at": "2026-10-12T10:44:12+08:00",
+  "last_sync_at": "2026-10-16T11:09:44+08:00",
   "last_sync_window": [
-    "2026-10-08",
-    "2026-10-12"
+    "2026-10-09",
+    "2026-10-16"
   ],
   "menu_hash": {
-    "cargill-cafe": "124809657acf4618ce4015515fed2c56db64ece7670d342f1c823e379e5eb9a5"
+    "cargill-cafe": "95a4dedd7f0a500fc29df9303663ae77672ff0f25bcbe130b22f81da8ccd36b2"
   },
   "menu_unmapped": {
     "cargill-cafe": [
+      "Beef tri tips /牛臀三角",
       "三色蒟蒻",
       "椒鹽粉",
+      "沙茶醬",
       "當歸",
+      "空心菜",
       "統一布丁粉",
       "羊肉爐藥材包",
       "薑母鴨藥材包",

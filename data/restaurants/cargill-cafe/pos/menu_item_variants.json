@@ -74,7 +74,7 @@
     "price": "21.00",
     "product_id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
     "remaining_count": null,
-    "status": "SOLD_OUT",
+    "status": "ACTIVE",
     "uber_price": "27.30"
   },
   {
@@ -165,7 +165,7 @@
     "price": "15.00",
     "product_id": "3998c1d4-1640-420b-b824-cf5728c5e85a",
     "remaining_count": null,
-    "status": "ACTIVE",
+    "status": "UNAVAILABLE",
     "uber_price": "18.20"
   },
   {
@@ -178,7 +178,7 @@
     "price": "18.00",
     "product_id": "456d2944-74b9-4941-b6e9-8dc5df15c17e",
     "remaining_count": null,
-    "status": "ACTIVE",
+    "status": "UNAVAILABLE",
     "uber_price": "22.10"
   },
   {
@@ -204,7 +204,7 @@
     "price": "18.00",
     "product_id": "e90cbbcd-7c6c-4db0-a71f-ec7f096e0b81",
     "remaining_count": null,
-    "status": "ACTIVE",
+    "status": "UNAVAILABLE",
     "uber_price": "22.10"
   },
   {
@@ -490,7 +490,7 @@
     "price": "25.00",
     "product_id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
     "remaining_count": null,
-    "status": "SOLD_OUT",
+    "status": "ACTIVE",
     "uber_price": "32.50"
   },
   {

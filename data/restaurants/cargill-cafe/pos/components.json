@@ -28,7 +28,7 @@
     "volume": "2000.00"
   },
   {
-    "cost": "25.71",
+    "cost": "28.71",
     "id": "1aa53aa0-80c3-4bb9-9d78-25eeb005eef3",
     "label": "醃漬排骨",
     "unit_type": "g",
@@ -117,6 +117,13 @@
     "label": "煎基底",
     "unit_type": "個",
     "volume": "1.00"
+  },
+  {
+    "cost": "51.01",
+    "id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+    "label": "沙茶牛肉配方1(駱師傅)",
+    "unit_type": "g",
+    "volume": "4500.00"
   },
   {
     "cost": "3.49",
@@ -448,7 +455,7 @@
     "volume": "300.00"
   },
   {
-    "cost": "24.53",
+    "cost": "27.00",
     "id": "b9c3b425-0f18-48ac-8ea8-7838d331eee9",
     "label": "武當乾炸粉",
     "unit_type": "g",

@@ -2314,6 +2314,72 @@
     },
     {
       "batch": {
+        "carb": 793.9,
+        "fat": 500.0,
+        "kcal": 8947.3,
+        "protein": 82.2
+      },
+      "batch_g": 4500.0,
+      "breakdown": [
+        {
+          "grams": 1500.0,
+          "id": "8cf1455e-6ea5-4f26-9be0-ff152d29dea9",
+          "label": "沙茶醬"
+        },
+        {
+          "grams": 970.0,
+          "id": "110f1c2c-d28f-4f0b-954c-6703c077997e",
+          "label": "米酒"
+        },
+        {
+          "grams": 575.0,
+          "id": "d83b701a-bd64-4b39-a5c5-bf4d4a9a8e11",
+          "label": "金味王醬油"
+        },
+        {
+          "grams": 500.0,
+          "id": "b36b081f-98c7-43ad-a547-21992a791873",
+          "label": "糖"
+        },
+        {
+          "grams": 500.0,
+          "id": "11da3e5d-c071-4ec8-bef6-8dcfabaf48fc",
+          "label": "蠔油"
+        },
+        {
+          "grams": 500.0,
+          "id": "32ec46ff-53bd-4ef4-9370-7f5beaf9163c",
+          "label": "香油"
+        }
+      ],
+      "component_id": "3e6f5d92-aedb-49b8-b115-e7963eb5def7",
+      "coverage": 0.67,
+      "fried_flag": false,
+      "has_oil": false,
+      "label": "沙茶牛肉配方1(駱師傅)",
+      "oil_allowance_g": 0.0,
+      "oil_reason": null,
+      "pan_fried_flag": false,
+      "per100g": {
+        "carb": 17.6,
+        "fat": 11.1,
+        "kcal": 198.8,
+        "protein": 1.8
+      },
+      "per_serve": {
+        "carb": 17.6,
+        "fat": 11.1,
+        "kcal": 198.8,
+        "protein": 1.8
+      },
+      "serve_g": 100.0,
+      "used_in_products": 1,
+      "warnings": [],
+      "yield": 4500.0,
+      "yield_unit": "g"
+    },
+    {
+      "batch": {
         "carb": 5.0,
         "fat": 0.0,
         "kcal": 20.4,
@@ -7757,7 +7823,7 @@
       "price": 21.0,
       "product_id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
       "retail": false,
-      "status": "SOLD_OUT",
+      "status": "ACTIVE",
       "variant_id": "0d2ca6b5-a306-4456-b05c-0f5960d5b47e",
       "variant_label": "Beef Only",
       "variant_label_zh": "純牛肉",
@@ -7846,7 +7912,7 @@
       "price": 25.0,
       "product_id": "c890961d-7610-4593-b7c1-0abfcefd5bf5",
       "retail": false,
-      "status": "SOLD_OUT",
+      "status": "ACTIVE",
       "variant_id": "5ea9a433-8d49-4ef2-abe5-5ccfb8c4d7c8",
       "variant_label": "Half tendon half meat",
       "variant_label_zh": "半筋半肉",
@@ -9956,7 +10022,7 @@
       "price": 15.0,
       "product_id": "3998c1d4-1640-420b-b824-cf5728c5e85a",
       "retail": false,
-      "status": "ACTIVE",
+      "status": "UNAVAILABLE",
       "variant_id": "25118ba9-a722-46e3-a000-92a6c236ecf9",
       "variant_label": "Spanish mackerel thick soup",
       "variant_label_zh": "土魠魚羹",
@@ -10040,7 +10106,7 @@
       "price": 18.0,
       "product_id": "e90cbbcd-7c6c-4db0-a71f-ec7f096e0b81",
       "retail": false,
-      "status": "ACTIVE",
+      "status": "UNAVAILABLE",
       "variant_id": "2fc5d7d1-0e54-4aad-8fb2-11727b373fc3",
       "variant_label": "Spanish mackerel thick soup noodles",
       "variant_label_zh": "土魠魚羹(麵)",
@@ -10124,7 +10190,7 @@
       "price": 18.0,
       "product_id": "456d2944-74b9-4941-b6e9-8dc5df15c17e",
       "retail": false,
-      "status": "ACTIVE",
+      "status": "UNAVAILABLE",
       "variant_id": "25f5cd3d-4f68-4481-8b9d-d668958d39f1",
       "variant_label": "Spanish mackerel thick soup rice",
       "variant_label_zh": "土魠魚羹(飯)",
@@ -11457,11 +11523,11 @@
   "summary": {
     "counts": {
       "addons": 40,
-      "components": 85,
+      "components": 86,
       "dishes": 97,
       "dishes_fully_covered": 77,
       "dishes_with_grams": 85,
-      "ingredients": 281,
+      "ingredients": 286,
       "ingredients_mapped": 264,
       "linked": 85,
       "unlinked": 12
@@ -11513,6 +11579,16 @@
         "label": "蜜花生"
       },
       {
+        "grams_used_total": 200.0,
+        "id": "abd2f585-99fb-4323-94d5-7a5d3ea9fda4",
+        "label": "空心菜"
+      },
+      {
+        "grams_used_total": 150.0,
+        "id": "53df52db-eb71-4795-bf58-d6ae5e196651",
+        "label": "Beef tri tips /牛臀三角"
+      },
+      {
         "grams_used_total": 100.0,
         "id": "257f72c1-ade6-4161-af21-7906180cde9c",
         "label": "點心"
@@ -11526,6 +11602,11 @@
         "grams_used_total": 50.0,
         "id": "37a38e46-020c-4633-a6cb-0b5816d17b62",
         "label": "雙色小湯圓"
+      },
+      {
+        "grams_used_total": 33.3,
+        "id": "8cf1455e-6ea5-4f26-9be0-ff152d29dea9",
+        "label": "沙茶醬"
       },
       {
         "grams_used_total": 27.7,
@@ -11559,5 +11640,5 @@
       }
     ]
   },
-  "synced_at": "2026-10-11T16:18+08:00"
+  "synced_at": "2026-10-16T11:10+08:00"
 }

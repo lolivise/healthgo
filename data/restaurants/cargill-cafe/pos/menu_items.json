@@ -53,7 +53,7 @@
     "order": 56,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/0d19d247-cef9-4392-a96e-adbff1762270-1778235777749.jpeg",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "24f34c35-0c42-470b-aa26-b47d2c1313f4",
@@ -81,7 +81,7 @@
     "order": 84,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/13f20311-d07d-452e-8212-e1ab240320bd-1780930310523.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "03d229a2-bf04-4362-9a2a-90a20f6e0e78",
@@ -95,7 +95,7 @@
     "order": 38,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/14423bb1-6fca-40b6-a92d-0feb74c8157e-1778599943280.jpeg",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "10d4ff2b-e4e9-42c9-9003-b151d201d95a",
@@ -249,7 +249,7 @@
     "order": 65,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/335850a1-66b4-4598-a58a-a4b39b343783-1778846602636.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "10d4ff2b-e4e9-42c9-9003-b151d201d95a",
@@ -347,7 +347,7 @@
     "order": 92,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/470d53c2-eba0-49bd-aeb6-f09955dd38f6-1780930461872.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "67a65735-5d0e-452f-9805-dcb52efe2c26",
@@ -445,7 +445,7 @@
     "order": 67,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/65f48ef3-c388-4c9d-920c-2fb745adc2d8-1778856893058.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
@@ -724,8 +724,8 @@
     "name_zh": "滷百頁豆腐",
     "order": 32,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/ac604fdc-6a80-42a8-9a18-52dce485c0f9-1778924137763.png",
-    "remaining_count": 0,
-    "status": "SOLD_OUT"
+    "remaining_count": null,
+    "status": "ACTIVE"
   },
   {
     "category_id": "10d4ff2b-e4e9-42c9-9003-b151d201d95a",
@@ -767,7 +767,7 @@
     "order": 10,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/b0f6bbca-4705-48f1-9915-c2d062a535b9-1778850174615.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
@@ -823,7 +823,7 @@
     "order": 55,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/be74b4f0-cb39-4512-8b60-7243feae8103-1778844872993.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
@@ -1005,7 +1005,7 @@
     "order": 66,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/e05c5f34-75af-4395-8c1a-5d75121b9de9-1778855822614.png",
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "03d229a2-bf04-4362-9a2a-90a20f6e0e78",
@@ -1047,7 +1047,7 @@
     "order": 70,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/e9a8aa37-0b0d-415d-bec8-5c5b825b4ce7-1778599775086.jpeg",
     "remaining_count": null,
-    "status": "SOLD_OUT"
+    "status": "ACTIVE"
   },
   {
     "category_id": "67a65735-5d0e-452f-9805-dcb52efe2c26",
