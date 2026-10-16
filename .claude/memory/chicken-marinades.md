@@ -61,6 +61,18 @@ MasterFoods garlic powder 5 g, Ajinomoto MSG 5 g, water 100 g.
 - **Linoleic acid (LA):** Kewpie mayo and Laoganma are soybean oil (~53 % LA). The whole marinade would be ~9 g LA per
   Mustard portion and ~3 g per Char Siu portion. At 30 % retained that is **~1.2 g/day on average**. See [[skin-dryness-itch]].
 
+## Baking-soda velveting for Mustard + Tikka (advised 2026-10-16, not yet confirmed he does it)
+
+He wants a more tender texture for Mustard and Tikka. **Prep:** he buys **~4.5 kg breast fortnightly** and preps it all
+at once. Per 1 kg raw breast: **8 g baking soda** (≈1¾ tsp, a little under the common 1 tsp/lb ≈ 10 g/kg) dissolved in
+~100 g water → toss well → **30 min** (cut pieces 15–20 min; butterfly thick breasts) → **rinse well 2–3×, drain, press dry**
+→ marinate as usual → freeze. Char Siu doesn't need it.
+- **The rinse is required here:** both marinades are acidic (vinegar in mayo/mustard/Worcestershire; yoghurt), and leftover
+  soda would neutralise them and taste soapy. Past ~1 h or too much soda the meat turns spongy; if so, drop to 5 g/kg.
+- **Sodium:** 8 g of soda = ~2,200 mg Na per kg. Most rinses off. The residual is unmeasured, guessed at ~100–200 mg per 350 g.
+  Mustard and Tikka are already the lower-sodium days, so the day stays ≈2,000 mg with the ¼ tsp salt.
+- ⚠️ 4.5 kg ÷ 14 days ≈ 320 g/day, not 350. Asked whether each flavour is 1.5 kg (marinade ×1.5) — per-350 g numbers don't change either way.
+
 ## Label sources (per 100 g, read from coles.com.au 2026-10-16)
 
 | Product | kcal | P | F | C | Sugar | Na mg | Confidence |
