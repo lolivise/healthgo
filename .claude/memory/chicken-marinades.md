@@ -45,8 +45,16 @@ MasterFoods garlic powder 5 g, Ajinomoto MSG 5 g, water 100 g.
   | Char Siu 叉燒 | 39 | 1.7 | 5.1 | 373 | 0.9 |
   | **Daily average** | **~50** | **3.0** | **4.4** | **~280** | **1.2** |
 
+  **His method (Darren, 2026-10-16):** marinate → **freeze the chicken in the marinade** → defrost → take the chicken
+  out and throw away all the remaining sauce. This doesn't change the 30 %. Diffusion stops while frozen, so the soak
+  happens only before freezing and during the thaw. A longer soak lets a bit more **salt** (water-soluble) penetrate;
+  the fat and sugar (mayo, honey, yoghurt) stay on the surface, so what clings decides the kcal. Freeze-thaw also pushes
+  meat juice (drip loss) **out** into the bag, which works the other way.
+
   **To replace the estimate with a real number:** weigh the discarded marinade once per flavour (not a routine,
   just once). Retained % = (batch weight − discarded) ÷ batch weight. Batches are Mustard 255 g, Tikka 270 g, Char Siu 220 g.
+  The discarded liquid after thawing also holds ~20–50 g of meat juice per kg, so this slightly **under**-counts
+  what was retained. Treat the result as a floor.
 - Biggest contributors: Mustard kcal is the mayo (433 kcal/batch) and honey (203). Tikka sodium is the Shan
   Tikka mix (salt is its first ingredient, 20,600 mg Na/100 g → 2,060 mg/batch). Char Siu sodium comes from
   char siu sauce (1,696/batch), soy (688), MSG (615) and Laoganma (442).
