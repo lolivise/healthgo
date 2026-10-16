@@ -17,5 +17,6 @@
 - [Evidence: metabolic adaptation](evidence-metabolic-adaptation.md) — 2022–26 research; 6-signal rule (≥3 for ≥2 wk); fix = maintenance, never a bulk; status 10-12: none
 - [Evidence: Taiwanese man + Hep B](evidence-asian-hepb.md) — HPA BMI/waist norms, 15–18% sensible, InBody noise band, Taiwan DRI, HBV+metabolic risk, ALDH2/alcohol
 - [Evidence: fasted exercise](evidence-fasted-exercise.md) — 2023–26: fasted burns more fat in-session, no extra fat loss; cons, who should avoid; for him: either is fine, lift quality first
+- [Evidence: muscle turnover](evidence-muscle-turnover.md) — "muscle only burned when nothing else left" is false; protein ≈3 % of exercise fuel, but muscle turns over all day, net balance (lifting, protein, deficit) decides
 - [Cargill Cafe](cargill-cafe.md) — he co-owns it, usual eat-out; POS recipes → real kcal (planned); menu dishes + self-assembled kitchen bowls
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg
