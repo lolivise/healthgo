@@ -16,5 +16,6 @@
 - [Evidence: ending a cut](evidence-maintenance-transition.md) — straight-to-maintenance beats reverse ramp; +0.5–2 kg water jump; flexible rules; TDEE from trend
 - [Evidence: metabolic adaptation](evidence-metabolic-adaptation.md) — 2022–26 research; 6-signal rule (≥3 for ≥2 wk); fix = maintenance, never a bulk; status 10-12: none
 - [Evidence: Taiwanese man + Hep B](evidence-asian-hepb.md) — HPA BMI/waist norms, 15–18% sensible, InBody noise band, Taiwan DRI, HBV+metabolic risk, ALDH2/alcohol
+- [Evidence: fasted exercise](evidence-fasted-exercise.md) — 2023–26: fasted burns more fat in-session, no extra fat loss; cons, who should avoid; for him: either is fine, lift quality first
 - [Cargill Cafe](cargill-cafe.md) — he co-owns it, usual eat-out; POS recipes → real kcal (planned); menu dishes + self-assembled kitchen bowls
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg
