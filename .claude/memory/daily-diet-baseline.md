@@ -24,6 +24,10 @@ Source: `daily_diet_intake(1).csv`, given 2026-10-09.
 | Creatine (肌酸) | 5 g | 0 | 0 | 0 | 0 |
 | **Daily total** | | **1,846** | **167.3** | **44.7** | **186.3** |
 
+**⚠️ Chicken marinade, missing from this table until 2026-10-16:** the chicken is always marinated, with three
+flavours rotated daily (Mustard 蜜芥 / Tikka 咖哩優格 / Char Siu 叉燒). They average **+162 kcal, +10 g fat, +15 g carbs and
++940 mg sodium per day**. Every kcal figure below that was written before 10-16 leaves it out. See [[chicken-marinades]].
+
 **Water:** about **3.5–4 L/day** in total, including the water in coffee and protein shakes (Darren, 2026-10-09).
 That is adequate for ~91 kg with daily training and creatine. It is a steady habit, so it shouldn't move the scale
 trend. Coffee: **black, 2 × 300 ml cups/day**, plus the 10 g of instant coffee in the shake. Together that is
@@ -99,6 +103,11 @@ These match the table above.
   (~30 kcal/100 g).
 
 **Skin (2026-10-13), ADOPTED:** from **2026-10-19** olive oil **14 → 4 g** (cooking) + **20 g raw walnuts** in the dinner yogurt, for linoleic acid. Rice-experiment intake is logged as **≈2,115 kcal** (was 2,075), fat ~59 g. See [[skin-dryness-itch]].
+
+**⚠️ Correction 2026-10-16:** the sodium estimate and the ¼ tsp salt advice below came before the marinades were known.
+The marinades add **~940 mg Na/day** (Mustard ~520, Tikka ~1,060, Char Siu ~1,240 per 350 g), so real sodium is
+**≈1,900–2,000 mg/day** (≈1,500 on a Mustard day, ≈2,200 on a Char Siu day), already at the 2,000 mg target. **Withdrawn:
+don't add the ¼ tsp salt.** The 10-09 headache is better explained by the caffeine taper. See [[chicken-marinades]].
 
 **Salt (Darren, 2026-10-09):** no added salt. Vegetables are microwaved plain, with no dressing. Estimated sodium is only
 **≈1,000 mg/day** (chicken ~250, whey ~200, spinach ~160, yogurt ~150, eggs ~140, the rest small), while he trains 5 days/week

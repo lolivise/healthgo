@@ -3,22 +3,22 @@
   "timezone": "Australia/Perth",
   "inbox_url": "https://healthgo-inbox.systech202.workers.dev",
   "backfill_start": "2026-07-01",
-  "baseline_intake_kcal": 1974,
+  "baseline_intake_kcal": 2136,
   "intake_kcal_schedule": [
     {
       "from": "2026-07-15",
-      "kcal": 1974,
-      "note": "fixed potato diet incl. fish oil, 600 g veg, shake cocoa+coffee"
+      "kcal": 2136,
+      "note": "fixed potato diet incl. fish oil, 600 g veg, shake cocoa+coffee; +162 chicken marinade avg (added 2026-10-16, see chicken-marinades.md)"
     },
     {
       "from": "2026-10-12",
-      "kcal": 2030,
-      "note": "W42 potato week (freezer stock): potato 400 g + olive oil 14 g + fish oil, 600 g veg; team lunch Fri 10-16 logged separately"
+      "kcal": 2192,
+      "note": "W42 potato week (freezer stock): potato 400 g + olive oil 14 g + fish oil, 600 g veg; team lunch Fri 10-16 logged separately; +162 chicken marinade avg (added 2026-10-16, see chicken-marinades.md)"
     },
     {
       "from": "2026-10-19",
-      "kcal": 2115,
-      "note": "2,000 kcal rice experiment W43-W45 (10-19 -> 11-08); olive oil 4 g + walnuts 20 g (skin: linoleic acid) + fish oil; 600 g veg (spinach/kale avg)"
+      "kcal": 2277,
+      "note": "2,000 kcal rice experiment W43-W45 (10-19 -> 11-08); olive oil 4 g + walnuts 20 g (skin: linoleic acid) + fish oil; 600 g veg (spinach/kale avg); +162 chicken marinade avg (added 2026-10-16, see chicken-marinades.md)"
     }
   ],
   "cut": {
