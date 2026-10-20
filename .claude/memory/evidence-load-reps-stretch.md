@@ -26,6 +26,9 @@ Supersedes the [M] Load/Failure/Long-length rows of [[evidence-cut-and-training]
 - "Stretch matters" = use full ROM with control at the bottom; it is not a separate magic stimulus.
 - His log already fits this: lateral raise 12 × 15, triceps 20 × 15, curl 12.5 × 20, bench 50 × 10 ([[training-routine]]).
   Light sets only count if they reach ~1–2 RIR; record RIR or at least never stop "with plenty left".
-- No squat/deadlift: leg press deep (hips allowed to flex fully) + hip thrust/RDL-type work covers glutes.
+- No squat/deadlift, and **no hip thrust either** (Darren, 2026-10-21: he wants functional glutes for walking and
+  running, not glute size). His current leg day covers it: deep leg press (glute max), cable kickback (glute max),
+  hip abduction (glute med), plus ~9,500 steps/day. Don't add glute exercises unless he asks; just keep those sets
+  near failure.
 
 Related: [[evidence-cut-and-training]], [[training-routine]], [[health-conditions]].
