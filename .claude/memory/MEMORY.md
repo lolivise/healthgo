@@ -22,3 +22,4 @@
 - [Cargill Cafe](cargill-cafe.md) — he co-owns it, usual eat-out; POS recipes → real kcal (planned); menu dishes + self-assembled kitchen bowls
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg
 - [Evidence: body fat & muscle growth](evidence-body-fat-and-muscle-growth.md) — 2023–26: BF in 15–25 % range does not blunt hypertrophy (obesity + insulin resistance can); BF sets the fat cost of a surplus; higher BF = easier recomp; plan unchanged
+- [Evidence: load, reps & stretch](evidence-load-reps-stretch.md) — 2023–26: light 12–15+ reps = heavy for size only if near failure; heavy wins strength; full-ROM stretch yes, tricks no; EMG ≠ growth
