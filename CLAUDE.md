@@ -79,6 +79,7 @@ eating out, and `/feel` + notes via Telegram.
 | `config/plan.json` | Targets, trip dates, safety and alert thresholds |
 | `bin/healthgo-job` | old launchd entry point → `healthgo daily` (job removed 2026-10-12) |
 | `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer` (see Model split) |
+| `friends/tom/` | Training notes for Darren's friend Tom (T2 diabetes on GLP-1, hunched posture, beginner): profile and safety, 2-day plan, session log. Not part of the pipeline; Darren's own memory and safety limits don't apply to him |
 
 **Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history: one scan, 2026-09-27), `eating_out`,
 `bloodwork`, `reviews`, `notes`; view `strength_top`.
