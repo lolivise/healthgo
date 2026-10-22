@@ -76,6 +76,26 @@ LA before the swap was ≈7.5–8 g, and with walnut v2 it is ≈14 g. The asses
 ahead (LA was below the AI regardless). Itch + Hep B: no longer urgent, still mention at the next routine doctor visit;
 the "go within days" signs are unchanged.
 
+**Nape rash, reported 2026-10-22** (day 9 of the routine): red rash on the back of the neck, found because it
+started itching; he asked if the products clog it. On the neck he uses the QV moisturiser morning + night and the
+sunscreen every morning. Assessment (Opus, not a diagnosis): plausible but not proven. Candidates: (1) sweat rash
+(miliaria) or folliculitis from occlusion, a thick water-free cream + morning training sweat + warming weather;
+(2) contact dermatitis from a product, most likely the sunscreen; (3) spring sun rash (PLE) on exposed skin;
+(4) eczema from scratching an already-itchy area (the neck itched before the products, see 10-13). Advice: rash
+patch only, stop both products ~7 days (rest of the routine unchanged), rinse sweat promptly after training, hat or
+collar for sun; clears → reintroduce sunscreen alone to tell which. Chemist Warehouse pharmacist can look; 1 %
+hydrocortisone ≤7 days only if dry/patchy, not pustules. GP if spreading, pustules/painful, no better in ~1–2 weeks,
+or any liver sign.
+Photos 2026-10-22 22:35 (`~/Downloads/photo_2026-10-22 22.35.*.jpeg`): faint, mottled pink-red flat patches with
+fine bumps, from just below the hairline (stops where the hair starts) down to the base of the neck and toward the
+shoulders. No pustules, no clear scale, no blisters, not centred on follicles. Read: folliculitis unlikely; fits a
+mild contact/irritant dermatitis or sweat rash (miliaria rubra) where the products and sweat sit. Plan unchanged;
+hydrocortisone OK since there are no pustules. If the thick QV Intensive was used there, come back with the lighter
+CeraVe lotion instead. **Confirmed: he uses QV Intensive** (water-free, very occlusive) there morning + night, so
+the sweat-rash/occlusion reading moves up. Advice 2026-10-22: QV Intensive off the neck/upper back for good; body
+moisturiser in the morning (post-workout, sweaty) → the lighter CeraVe Daily Moisturising Lotion; keep QV Intensive
+for the dry spots only (hands, shins, elbows), mainly at night.
+
 **Daily routine given 2026-10-13:** he trains ~6–8 am (strength then treadmill, Garmin), **showers after the morning
 workout; evening shower not always**. Morning: lukewarm short shower, soap-free wash → body moisturiser within 3 min →
 face moisturiser → sunscreen. Day: hand cream after each wash. Night: no-shower nights just face cream + Vaseline under
