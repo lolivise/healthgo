@@ -137,7 +137,7 @@
     "order": 3,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/18dad004-f7c0-484a-9266-1da47522fdbd-1778850516490.png",
     "remaining_count": null,
-    "status": "SOLD_OUT"
+    "status": "ACTIVE"
   },
   {
     "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
@@ -445,7 +445,7 @@
     "order": 67,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/65f48ef3-c388-4c9d-920c-2fb745adc2d8-1778856893058.png",
     "remaining_count": null,
-    "status": "SOLD_OUT"
+    "status": "ACTIVE"
   },
   {
     "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
@@ -1131,7 +1131,7 @@
     "order": 8,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/fc1de29b-cd59-42c3-8c6b-77489e8ebbc4-1778935623095.jpeg",
     "remaining_count": null,
-    "status": "SOLD_OUT"
+    "status": "ACTIVE"
   },
   {
     "category_id": "da260cee-919e-4d16-9cf4-972f197ceefb",
