@@ -35,5 +35,10 @@ metadata:
   (day ≈ 4,100). A typical self-assembled bowl is ~1,560 kcal (滷牛腱×2 + 滷肉 + ½ rice + 炒青菜 + 煎蛋×2).
   **Advised at that review:** don't arrive empty (eat the shake + eggs first). The lighter default bowl drops the
   滷肉 (362 kcal, 28 g fat) and one egg: 滷牛腱×2 + ½ rice + 炒青菜 + 煎蛋×1 ≈ 1,070 kcal / ~90 g protein.
+- **Bulk-phase plan (asked 2026-10-23):** he wants to take lunch from here daily during the future lean bulk (food is free,
+  saves money; no meal prep). Plan sent: `reports/2026-10-23-bulk-cargill-plan.md`. Fixed no-cook breakfast/dinner
+  (bar, shake, yogurt 500 g, oats 80 g, walnuts 20 g, fish oil ≈ 1,340 kcal) + a kitchen bowl that scales:
+  滷牛腱×2 + rice 1 / 1.5 serves + 炒青菜 + 筍乾 ± 煎蛋 → days ≈ 2,710 / 2,850 / 2,975. Start at 2,700; fried bentos ≤1×/wk;
+  椒鹽魚排飯 and 土魠魚便當 recipes look like they miss frying oil (batter, no oil allowance), so don't rely on their kcal.
 - `adjustments.json` assumes ~1,800 g of the 2,000 g 豬肥油 in 滷肉 renders out and is skimmed (an estimate, not
   confirmed by Darren). See [[data-sources]], [[daily-diet-baseline]].
