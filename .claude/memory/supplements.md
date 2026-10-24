@@ -10,7 +10,7 @@ Disclosed 2026-10-09. All are daily:
 | Supplement | Dose | Notes |
 |---|---|---|
 | Whey protein | 50 g | counted in [[daily-diet-baseline]] |
-| Creatine | 5 g | keep constant (it holds water) |
+| Creatine | 5 g | keep constant (it holds water). **Bulk Nutrients Creatine Monohydrate**, unflavoured, micronised, nothing else in it (not Creapure), third-party batch tested (NMI/ARL etc.); label serving 3 g. Mixed into the post-workout shake. Start date unknown (asked 2026-10-24) |
 | Fish oil | 2 × 2 g capsules | 4 g fat + 1.2 g EPA/DHA; counted in the diet |
 | CoQ10 (ubidecarenone) | 150 mg | |
 | Blackmores Magnesium (citrate) | 1 tablet | Mg 150 mg elemental, no B6, no Mn. **Swapped in 2026-10-09** to replace a Mg complex (Mg 305 mg oxide, B6 50 mg, Mn 4 mg) |
@@ -36,6 +36,10 @@ Disclosed 2026-10-09. All are daily:
 - Suggested he ask the doctor to add **vitamin D (25-OH D)** and **ferritin / iron studies** to the next blood
   test. Supplement only if the doctor says to.
 - Avoid: fat burners, green tea extract, turmeric/curcumin capsules, "liver detox" herbals, proprietary pre-workout blends.
+
+**Creatine vs bloodwork (2026-10-24):** creatine raises **serum creatinine** a little, so the lab's eGFR can come back
+falsely low, which looks like a kidney problem when it isn't. Tell the doctor about the 5 g/day at every blood test, and
+don't read a small creatinine rise as kidney damage on its own; cystatin C is the creatine-independent check if one is ever needed.
 
 **How to apply:** don't suggest new supplements ([[health-conditions]]). Re-check this list if he reports
 tingling, GI issues or new liver results. Changes to it are his or his doctor's call.
