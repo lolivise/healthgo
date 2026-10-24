@@ -19,9 +19,10 @@ controller (Opus) makes every judgment, so **report numbers, not opinions.** Nev
    `uv run healthgo status`, and continue with the data on disk. Copy the `flags` it prints into FLAGS.
 2. `uv run healthgo prepare-week` (or `--week-end <Sunday>` if the brief gives one), then read the
    `data/weekly/<week>.json` it prints.
-3. Run any extra queries the brief asks for with `sqlite3 -header -column data/healthgo.db "…"`. **Never include
-   today's date**: today is incomplete (steps, stress, Body Battery still filling in), so every query ends at
-   `date <= <yesterday>`, today's weigh-in included. `prepare-week` already does this. Tables:
+3. Run any extra queries the brief asks for with `sqlite3 -header -column data/healthgo.db "…"`. **Stop at the last
+   complete day the brief gives**: normally yesterday (today's steps, stress, Body Battery are still filling in),
+   so queries end at `date <= <yesterday>`, today's weigh-in included. Exception: on Sunday from 18:00 today counts
+   and queries end at `date <= <today>`. `prepare-week` already does this. Tables:
    `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history only), `eating_out`, `bloodwork`,
    `reviews`, `notes`; view `strength_top`. Useful queries are in `.claude/skills/review/reference.md`.
 

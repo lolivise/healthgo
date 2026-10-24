@@ -43,9 +43,16 @@ def today() -> date:
     return now().date()
 
 
+SUNDAY_CLOSE_HOUR = 18
+
+
 def last_complete_day() -> date:
-    """Yesterday. Today's steps, stress and Body Battery are still filling in, so analysis never includes it."""
-    return today() - timedelta(days=1)
+    """Yesterday, since today's steps, stress and Body Battery are still filling in. Exception: from 18:00 on Sunday
+    the week is treated as done and today counts, so a Sunday-evening review covers the full Mon–Sun week."""
+    n = now()
+    if n.weekday() == 6 and n.hour >= SUNDAY_CLOSE_HOUR:
+        return n.date()
+    return n.date() - timedelta(days=1)
 
 
 def in_trip(d: date) -> bool:

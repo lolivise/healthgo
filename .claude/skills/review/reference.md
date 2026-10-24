@@ -20,9 +20,10 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
   from extra carbs (potato, oats) and fat. Protein stays the same.
 - **Near the trip:** from about 2027-01-16, plan maintenance regardless of the other signals ([[trip-taiwan-2027]]).
 - **The first 4–6 weeks of the cut** overstate fat loss (water and glycogen). Don't use them to calibrate the maintenance estimate.
-- **Deliberate load drops:** since late Sep 2026 he trains lighter and slower on purpose (form, mind-muscle;
-  see memory `training-routine.md`). An e1RM drop on a lift he deliberately de-loaded is **not** strength loss.
-  Judge strength by e1RM (or reps at the same load) on lifts whose load he has not deliberately lowered.
+- **No deliberate load drops any more (Darren, 2026-10-18):** the late-Sep technique phase (lighter, slower) finished by
+  W41. From W41 (2026-10-05) on every load is real, so **any drop in e1RM or reps at the same load against W41-or-later
+  numbers is real strength loss**. Never explain it away as "deliberately lighter" or "technique phase". Don't compare
+  against pre-W41 loads (that drop was the phase, already done). See memory `training-routine.md`.
 - **Muscle signal (no InBody anymore, gym removed it 2026-10-10):** strength on those lifts, plus the rate of loss staying
   within target (at most about 0.5-0.75 %/wk) and protein adequacy. Body-fat % is no longer measured: progress toward the
   15-18 % goal is estimated from the weight trend, assuming lean mass of about 68 kg from the one 2026-09-27 scan
@@ -105,7 +106,7 @@ characters per line). Write for that screen:
 - 估計體脂：約 25 %（粗估）
 
 ## 力量 (Strength)
-…（每個動作一行：重量 × 次數、e1RM、對照；刻意放輕的動作註明「非流失」；肩推 (OHP) 狀況）
+…（每個動作一行：重量 × 次數、e1RM、對照；對照 W41 起的數字，下降就寫下降（不寫「刻意放輕」）；肩推 (OHP) 狀況）
 
 ## 恢復 (Recovery)
 …（每項一行：本週 vs 4 週基準，用短表格）

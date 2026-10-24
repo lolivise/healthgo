@@ -1,44 +1,46 @@
 {
   "cut_week": 15,
-  "days_since_review": 4,
+  "days_since_review": 2,
   "days_to_checkpoint": 89,
   "eating_out_recorded": [],
   "flags": [
     {
       "key": "loss_fast",
-      "message": "近 14 天體重下降速度約每週 1.06%（14 次量測），超過安全上限 1.0%。掉太快容易流失肌肉，也增加膽結石風險。"
+      "message": "近 14 天體重下降速度約每週 1.32%（14 次量測），超過安全上限 1.0%。掉太快容易流失肌肉，也增加膽結石風險。"
     }
   ],
   "hrv_status_days": [
     "BALANCED",
     "BALANCED",
+    "BALANCED",
+    "BALANCED",
     "BALANCED"
   ],
   "in_trip": false,
-  "last_review": "2026-10-18",
-  "maintenance_kcal_estimate": 2753,
+  "last_review": "2026-10-22",
+  "maintenance_kcal_estimate": 2812,
   "maintenance_note": "baseline intake + 28-day weight trend × 7700 kcal/kg; ignores eating-out days and water swings, so treat as ±200 kcal",
   "partial": true,
   "range": [
     "2026-10-19",
-    "2026-10-21"
+    "2026-10-23"
   ],
   "recovery": {
     "avg_stress": {
       "baseline_4w": 31.9,
-      "week": 26.0
+      "week": 28.0
     },
     "bb_high": {
       "baseline_4w": 73.0,
-      "week": 90.3
+      "week": 88.0
     },
     "bb_low": {
       "baseline_4w": 12.5,
-      "week": 26.0
+      "week": 23.4
     },
     "hrv_last_night": {
       "baseline_4w": 43.4,
-      "week": 44.7
+      "week": 42.8
     },
     "readiness_score": {
       "baseline_4w": null,
@@ -46,19 +48,19 @@
     },
     "rhr": {
       "baseline_4w": 49.1,
-      "week": 47.7
+      "week": 47.0
     },
     "sleep_h": {
       "baseline_4w": 6.3,
-      "week": 7.2
+      "week": 7.1
     },
     "sleep_score": {
       "baseline_4w": 73.1,
-      "week": 79.3
+      "week": 81.2
     },
     "steps": {
       "baseline_4w": 9696.2,
-      "week": 9042.3
+      "week": 9296.4
     }
   },
   "strength": [
@@ -127,12 +129,39 @@
     },
     {
       "e1rm_change_pct": 0.0,
+      "e1rm_prior_4w": 49.0,
+      "e1rm_week": 49.0,
+      "exercise": "OVERHEAD_DUMBBELL_PRESS",
+      "sets_week": 3,
+      "top_prior_4w": 35.0,
+      "top_week": 35.0
+    },
+    {
+      "e1rm_change_pct": 0.0,
       "e1rm_prior_4w": 42.0,
       "e1rm_week": 42.0,
       "exercise": "ROW",
       "sets_week": 3,
       "top_prior_4w": 30.0,
       "top_week": 30.0
+    },
+    {
+      "e1rm_change_pct": -6.2,
+      "e1rm_prior_4w": 22.4,
+      "e1rm_week": 21.0,
+      "exercise": "DUMBBELL_LATERAL_RAISE",
+      "sets_week": 5,
+      "top_prior_4w": 16.0,
+      "top_week": 15.0
+    },
+    {
+      "e1rm_change_pct": -33.3,
+      "e1rm_prior_4w": 30.0,
+      "e1rm_week": 20.0,
+      "exercise": "CABLE_KICKBACK",
+      "sets_week": 3,
+      "top_prior_4w": 22.5,
+      "top_week": 15.0
     },
     {
       "e1rm_prior_4w": 140.0,
@@ -146,7 +175,7 @@
       "e1rm_prior_4w": null,
       "e1rm_week": null,
       "exercise": "WEIGHTED_INCLINE_Y_RAISE",
-      "sets_week": 4,
+      "sets_week": 6,
       "top_prior_4w": 10.0,
       "top_week": 8.0
     },
@@ -154,7 +183,7 @@
       "e1rm_prior_4w": null,
       "e1rm_week": null,
       "exercise": "WEIGHTED_CRUNCH",
-      "sets_week": 2,
+      "sets_week": 4,
       "top_prior_4w": 20.0,
       "top_week": 20.0
     },
@@ -182,19 +211,29 @@
       "date": "2026-10-21",
       "duration_min": 42.0,
       "name": "First Back Day"
+    },
+    {
+      "date": "2026-10-22",
+      "duration_min": 44.8,
+      "name": "Shoulder Day"
+    },
+    {
+      "date": "2026-10-23",
+      "duration_min": 10.5,
+      "name": "Functional Workout"
     }
   ],
   "training": [
     {
-      "avg_hr": 147.0,
-      "minutes": 85.0,
-      "sessions": 3,
+      "avg_hr": 146.0,
+      "minutes": 149.0,
+      "sessions": 5,
       "type": "treadmill_running"
     },
     {
-      "avg_hr": 117.0,
-      "minutes": 101.0,
-      "sessions": 3,
+      "avg_hr": 116.0,
+      "minutes": 157.0,
+      "sessions": 5,
       "type": "strength_training"
     },
     {
@@ -207,13 +246,13 @@
   "week": "2026-W43",
   "weight": {
     "avg_prev_week_kg": 90.67,
-    "avg_week_kg": 89.33,
-    "change_kg": -1.34,
-    "change_pct": -1.48,
+    "avg_week_kg": 89.3,
+    "change_kg": -1.37,
+    "change_pct": -1.51,
     "total_lost_since_cut_kg": 12.7,
-    "trend_14d_pct_per_week": -1.06,
-    "trend_28d_pct_per_week": -0.71,
+    "trend_14d_pct_per_week": -1.32,
+    "trend_28d_pct_per_week": -0.76,
     "weigh_ins_prev_week": 7,
-    "weigh_ins_week": 3
+    "weigh_ins_week": 5
   }
 }

@@ -23,7 +23,7 @@ judged on fixed-intake weeks (W42 on):
 2. Trend-measured TDEE < ~2,150 kcal at ~91 kg with steps unchanged (expected ~2,300–2,450).
 3. Steps down ≥ 15 % from the ~9,500/day baseline (< ~8,000) without a planned reason.
 4. RHR ≤ ~45 (≥5 bpm below the ~50 baseline) **with** HRV falling, or the existing RHR +5 bpm red flag.
-5. Reps at the same load down ≥ 5 % on ≥ 2 lifts he hasn't deliberately lightened.
+5. Reps at the same load (or e1RM) down ≥ 5 % on ≥ 2 lifts vs his W41-onward numbers (no lift is deliberately lightened any more).
 6. `/feel`: persistent fatigue, cold, hunger or worse sleep.
 
 **Action:** ≥3 signals → bring the planned maintenance block (2026-12-14) forward, 2–4 wk at measured maintenance.

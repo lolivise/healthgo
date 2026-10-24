@@ -87,7 +87,7 @@ def _mean_intake(p: dict, start: date, end: date) -> float:
 
 def prepare(sunday: date) -> Path:
     """Numbers for the Mon–Sun week ending `sunday`, using finished days only: a week still in progress stops at
-    yesterday (today's steps, stress and Body Battery are incomplete and would skew the averages)."""
+    `config.last_complete_day()` (yesterday, or today from Sunday 18:00)."""
     start = sunday - timedelta(days=6)
     end = min(sunday, config.last_complete_day())
     base_start, base_end = start - timedelta(days=28), start - timedelta(days=1)

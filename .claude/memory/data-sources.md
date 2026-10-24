@@ -18,8 +18,8 @@ What exists from now on:
 It stays in `data/manual/inbody.jsonl` as the only body-composition anchor.
 
 **How to apply:**
-- **Muscle signal = strength:** e1RM or reps at the same load for lifts whose load he hasn't deliberately lowered
-  ([[training-routine]]), plus a loss rate within target and protein ≥1.6 g/kg.
+- **Muscle signal = strength:** e1RM or reps at the same load against his W41-onward numbers; no load drop is
+  deliberate any more, so a decrease is real ([[training-routine]]), plus a loss rate within target and protein ≥1.6 g/kg.
 - **Body fat is estimated, not measured:** BF ≈ (weight − 68) ÷ weight, assuming lean mass held. 15–18 % ≈ 80–83 kg. Say it is
   a rough estimate; strength holding is what makes the 68 kg assumption believable.
 - If he ever gets a DEXA or another BIA, record it as a one-off; don't recreate a weekly ask.

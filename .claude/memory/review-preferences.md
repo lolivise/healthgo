@@ -36,7 +36,10 @@ Decided with Darren 2026-10-09:
 
 - **Never analyse today (Darren, 2026-10-16):** "only include the data of the date that is already passed". Today's
   steps, stress, Body Battery and meals are incomplete and pollute the analysis, so every review window ends
-  yesterday (a Sunday review covers Mon–Sat). Built into `prepare-week` and the checks via `config.last_complete_day()`.
+  yesterday. Built into `prepare-week` and the checks via `config.last_complete_day()`.
+- **Except Sunday from 18:00 (Darren, 2026-10-18):** "if the review happens after 6 o'clock on Sunday it needs to
+  review everything". The week is done, so a Sunday-evening review covers the full Mon–Sun week including Sunday.
+  Before 18:00 a Sunday review still covers Mon–Sat.
 
 **Why:** he wants the system to carry the tracking burden. Questions are acceptable only inside a
 review he chose to start.
