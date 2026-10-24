@@ -99,13 +99,15 @@ These match the table above.
   - **Purpose: measure his real TDEE** from the daily weigh-ins at a known, constant intake.
   - **Rule:** if the 14-day trend is slower than −0.25 %/wk for 2 consecutive weekly reviews, go back to ~1,900
     (≈75 g rice). Ignore the first rice week's scale noise (W43), so judge from W44 on.
-  - ⭐ **W43 review 2026-10-24: rice 100 → 180 g raw/day (90 g breakfast + 90 g lunch) from Sun 2026-10-25, logged ≈2,450 kcal**
-    (+285 kcal, +63 C, +5 P). Why: at 2,164 the rice-only weigh-ins 10-19→10-24 (89.6 → 88.7, avg 89.20) trended
+  - ⭐ **W43 review 2026-10-24: rice 100 → 200 g raw/day from Mon 2026-10-26, logged ≈2,520 kcal** (+356 kcal, +79 C, +7 P).
+    **200 g, not the 180 g first proposed (Darren):** his rice is frozen in **100 g raw packs**, so 200 g = one pack per meal
+    (breakfast + lunch), and 180 g doesn't divide. Keep later rice steps in 50/100 g units. **Mon start, not Sun:** Sun 10-25 was
+    already prepped at 100 g. Expected ~0.3 (TDEE 2,800) to ~0.5 %/wk (3,000). Why the step: at 2,164 the rice-only weigh-ins 10-19→10-24 (89.6 → 88.7, avg 89.20) trended
     −0.96 kg/wk ≈ −1.07 %/wk (14d −1.32 %/wk, inflated by the 10-11/12 eat-out spike and the ~0.4 kg potato→rice gut/water
     step), with **no eating out at all since 10-18** (confirmed), strength up on every lift and the best recovery of the cut.
     Week 1 already answered the experiment's question: **TDEE ≈ 2,800–3,000** (rough), not 2,330–2,450. The 140 g rule
-    pre-agreed on 10-22 was judged too small (→ ~0.75 %/wk). Expected now ~0.35–0.55 %/wk. **W44 + W45 (10-26 → 11-08) at a
-    fixed 2,450 are the clean TDEE measurement**; the −0.25 %/wk fallback rule now means going back to ~140 g, not 75 g.
+    pre-agreed on 10-22 was judged too small (→ ~0.75 %/wk). **W44 + W45 (10-26 → 11-08) at a fixed 2,520 are the clean
+    TDEE measurement**; the −0.25 %/wk fallback rule now means going to 150 g (1½ packs, ≈2,340), not 75 g.
     Bar still eaten daily.
   - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W45 review (~2026-11-08) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
