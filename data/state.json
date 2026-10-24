@@ -3,14 +3,14 @@
     "loss_fast": "2026-10-09",
     "menu_unmapped:Beef tri tips /牛臀三角,沙茶醬,空心菜": "2026-10-16"
   },
-  "complete_through": "2026-10-21",
+  "complete_through": "2026-10-23",
   "inbox_last_id": 21,
   "last_login_attempt_at": "2026-10-09T11:22:07+08:00",
   "last_login_result": "ok",
-  "last_sync_at": "2026-10-22T10:27:34+08:00",
+  "last_sync_at": "2026-10-24T16:45:49+08:00",
   "last_sync_window": [
-    "2026-10-17",
-    "2026-10-22"
+    "2026-10-19",
+    "2026-10-24"
   ],
   "menu_hash": {
     "cargill-cafe": "95a4dedd7f0a500fc29df9303663ae77672ff0f25bcbe130b22f81da8ccd36b2"
