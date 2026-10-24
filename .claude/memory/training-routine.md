@@ -55,6 +55,10 @@ landmine press on any pain. Friday trial data point: Fri 10-16 HRV 47 (mean 42.9
 - Only drop: cable kickback 22.5 × 10 → × 9 (small). Cable pullover skipped (W41 40 × 6 was also 10-10).
 - Advised: pulldown 55 kg and indoor row 35 kg are the new baseline, add load once 12 reps are clean. Flat bench stays
   at 50 kg until 12 clean reps on every working set, then 55; incline stays at 50.
+- **W43 (2026-10-24 review, rice week 1 at ~1 %/wk): every lift held or rose.** Sat 10-24 back day vs 10-17: pulldown
+  55 × 12/12/12 (→ advised **57.5 kg** next), indoor row **40 × 12 ×3** (e1RM 49 → 56, new baseline), row 30 × 15 ×3, curl
+  12.5 × 20 ×3, rear lateral 33 × 15 ×3, GHD 10 × 12 ×3. Leg press 200 × 10 (e1RM 266.7). One soft spot: lying DB triceps ext
+  back-off sets at 15 kg 15/15 (10-11) → 10/7 (10-18); check on the next chest days.
 - **If he trains at another gym again, ask him to flag it (a `/note`), and keep that session out of comparisons.**
 - **Cable triceps kickback reset for form (Darren, 2026-10-22):** 22.5 kg × 9–10 (W41–W42) was done with bad form; he dropped
   to **15 kg** (10-22: 15 × 15 / 10 / 8) to do it properly. This one reset is a form correction, not a strength loss: **the

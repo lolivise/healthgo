@@ -85,6 +85,12 @@ These match the table above.
   **2026-10-19**. **Team lunch on Fri 2026-10-16:** ask about it at the W42 review, and remind him not to arrive empty
   (eat the usual breakfast + shake first; see [[cargill-cafe]] for the 10/10 lesson).
 - **2,000 kcal rice experiment, 3 weeks: 2026-10-19 → 2026-11-08 (W43–W45)** (originally 10-12 → 11-01), with rice replacing potato.
+  - **Actually started Sun 2026-10-18** (one day early, Darren's note); walnuts 20 g from **2026-10-17**. Logged intake incl.
+    marinade ≈ **2,164 kcal** (`config/plan.json`). He skipped the energy bar on 10-12, 10-17 and 10-18 (not hungry pre-workout);
+    W42 review (10-18) asked him to **eat it daily, moved to the afternoon if not hungry**, so the TDEE measurement stays clean.
+    **Confirmed by Darren 2026-10-19: the bar is eaten EVERY day, weekends included, for the whole experiment.** On Sat/Sun
+    he eats a proper breakfast before the late-morning session and lunch after, which is why he used to skip it there; he
+    chose to eat it anyway to keep intake constant. **He will report any missed bar**; otherwise assume it was eaten.
   - Darren wanted 2,000 kcal: the 1,850 number "looks low" (not hunger or energy). He also has a long-term wish of a 2,500 TDEE.
   - Daily: **SunRice 100 g raw (50 g per meal)** + olive oil 14 g + fish oil 4 g + 600 g veg → **≈2,010 (spinach) – 2,070 (kale) kcal, ~2,040 average**, plus 36 from cocoa/coffee → **≈2,075** /
     ~174 P / 56 F / ~197 C. Decided 2026-10-09: keep the food as is and log the intake as 2,075. Don't trim the rice.
@@ -93,6 +99,14 @@ These match the table above.
   - **Purpose: measure his real TDEE** from the daily weigh-ins at a known, constant intake.
   - **Rule:** if the 14-day trend is slower than −0.25 %/wk for 2 consecutive weekly reviews, go back to ~1,900
     (≈75 g rice). Ignore the first rice week's scale noise (W43), so judge from W44 on.
+  - ⭐ **W43 review 2026-10-24: rice 100 → 180 g raw/day (90 g breakfast + 90 g lunch) from Sun 2026-10-25, logged ≈2,450 kcal**
+    (+285 kcal, +63 C, +5 P). Why: at 2,164 the rice-only weigh-ins 10-19→10-24 (89.6 → 88.7, avg 89.20) trended
+    −0.96 kg/wk ≈ −1.07 %/wk (14d −1.32 %/wk, inflated by the 10-11/12 eat-out spike and the ~0.4 kg potato→rice gut/water
+    step), with **no eating out at all since 10-18** (confirmed), strength up on every lift and the best recovery of the cut.
+    Week 1 already answered the experiment's question: **TDEE ≈ 2,800–3,000** (rough), not 2,330–2,450. The 140 g rule
+    pre-agreed on 10-22 was judged too small (→ ~0.75 %/wk). Expected now ~0.35–0.55 %/wk. **W44 + W45 (10-26 → 11-08) at a
+    fixed 2,450 are the clean TDEE measurement**; the −0.25 %/wk fallback rule now means going back to ~140 g, not 75 g.
+    Bar still eaten daily.
   - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W45 review (~2026-11-08) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
 - Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 14 g oil.
@@ -119,6 +133,17 @@ and drinks 3.5–4 L of water. That is a plausible contributor to the 2026-10-09
 
 **Eating out:** a team lunch at work or a meal with friends, about **once every 1–2 weeks**. Those days are
 the exception and should be logged as such, not assumed.
+- **Staff gathering every 2 weeks, mandatory** (Darren, 2026-10-18): W42 was Fri 10-16, so the next is in **W44
+  (~Fri 10-30)**, then W46, inside the rice-experiment TDEE window (10-18 → 11-08).
+  **He preps a whole day at once and can't prep half a day**, so on a gathering day there is **no prepped food at all**
+  (no rice, veg, chicken, oil; eggs only if he cooks them fresh). That day = energy bar → shake (whey, chia, creatine)
+  ± 2 eggs → **gathering lunch** → usual dinner yogurt + oats + walnuts (no prep needed) + coffee ≈ **960 kcal without
+  eggs / 1,100 with** + the gathering meal, so the day lands near the normal ~2,164 anyway. At the gathering pick
+  meat/fish dishes (that day's protein is otherwise only ~65–80 g). Log it with `/eat` (photo, drinks, and "no prep
+  today, eggs yes/no"); **next day straight back to the plan, no compensating cut**. At the W45 TDEE calculation: day
+  intake = those unprepped items + the logged meal (not 2,164 − one meal), and
+  check the trend with and without the 2–3 days after the gathering (sodium/carb water +1–1.5 kg, as on 10-11/12).
+  Error from a ±300 kcal misestimate over 21 days ≈ ±15 kcal/day, negligible.
 
 **Why it matters:** the intake is constant and known, so the weight trend can be turned
 directly into a maintenance-calorie (TDEE) estimate. Weekly weight change × ~7,700 kcal/kg ÷ 7 = the daily

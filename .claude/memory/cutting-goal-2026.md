@@ -34,7 +34,7 @@ reported low energy and discomfort on the current intake. Built on [[evidence-ma
   The W45 review (~11-08) measures his real TDEE.
   Its −0.25 %/wk fallback rule still applies.
 - **Phase 2, maintenance, 2026-12-14 → 2027-01-22 (~5.5 weeks, includes Christmas):** one straight step up to the
-  measured maintenance (≈2,300–2,400), not a slow ramp. Expect +0.5–2 kg of water/glycogen in the first 2 weeks.
+  measured maintenance (from the W45 number; the old ≈2,300–2,400 guess is stale, see 2026-10-24 below), not a slow ramp. Expect +0.5–2 kg of water/glycogen in the first 2 weeks.
   Judge from week 3: a flat trend = success; still rising >0.25 kg/wk → trim 100–150 kcal. The point is to
   practise eating at maintenance before the trip.
 - **The weight on 2027-01-22 is not a target.** The expected landing zone is ~86–88 kg (≈21–23 % BF if lean mass holds).
@@ -55,7 +55,10 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
 maintenance is ≈2,450 ± 200 at ~91 kg (revised up from 2,330 at the full-week W41 review, 2026-10-11:
 14d −0.81 %/wk, 28d −0.55 %/wk, steps ~9,300/day and ~220–270 treadmill min/wk; the script's 2,525 ignores
-eat-out days). The fixed-intake weeks from W42 (potato ≈2,030, then rice 2,075 W43–W45) are the real measurement. At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
+eat-out days). The fixed-intake weeks from W42 (potato ≈2,030, then rice 2,075 W43–W45) are the real measurement.
+⭐ **Revised 2026-10-24 (W43, first clean rice week, no eat-out): ≈2,800–3,000 (rough)**: −0.96 kg/wk at a known 2,164;
+prepare-week's 28d estimate said 2,812. Intake raised to ≈2,450 for W44–W45 to measure it cleanly ([[daily-diet-baseline]]).
+So Phase 2's "≈2,300–2,400" maintenance is stale: set it from the W45 number (likely ~2,700+). At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
 So 2,500 needs:
 - more daily steps (the biggest lever, ≈40–50 kcal per +1,000 steps);
 - more muscle over time;

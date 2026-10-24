@@ -1,15 +1,15 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
 - [Cutting goal 2026](cutting-goal-2026.md) — FINAL goal 86–88 kg @ 15–18 % BF (set 10-12, needs +3–7 kg lean, multi-year bulk cycles); cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target
-- [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; W42 potato week ≈2,030 (freezer stock, team lunch Fri 10-16), then 2,000 kcal rice experiment 2026-10-19→11-08 logged 2,075
+- [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; W42 potato week ≈2,030 (freezer stock, team lunch Fri 10-16), then rice experiment from 10-18 at 2,164 (100 g rice) → W43 review 10-24: too fast (~1 %/wk), rice 180 g ≈2,450 from 10-25, fixed to 11-08; TDEE ≈2,800–3,000
 - [Chicken marinades](chicken-marinades.md) — Mustard 蜜芥 / Tikka 咖哩優格 / Char Siu 叉燒, 1 kg each, all 3 made together, rotated daily, leftover discarded (~30 % eaten) → avg +50 kcal, +280 mg Na/day (missed until 10-16); texture fix = thermometer + 0.3 % soda
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
-- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; 繁中 verdict-first; no waist/photos; every report sent to Telegram
+- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; window ends yesterday, except Sunday ≥18:00 = full week incl. Sunday; 繁中 verdict-first; no waist/photos; every report sent to Telegram
 - [Trip Taiwan 2027](trip-taiwan-2027.md) — 2027-01-23→02-25 family road trip, will overeat; plan before/during/after; alerts off
 - [Garmin data access](garmin-data-access.md) — garminconnect 0.3.17, 1Password HealthGo/secrets, ≤1 login/24h, no readiness/VO2 on his watch, grams
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push
 - [Model split](model-split.md) — Garmin pulls + digest on Haiku, meal photos Haiku; Sonnet executes/writes; Opus main thread analyses and decides (standing rule)
-- [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; since late Sep 2026 lighter loads & slow tempo on purpose → judge muscle by strength at same load
+- [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; technique-phase deload finished by W41 → from W41 every load is real, a drop = real loss (never "刻意放輕")
 - [Skin dryness & itch](skin-dryness-itch.md) — since the cut (10-13): dry/peeling hands, itchy back/neck, eye cream stings; LA low → walnut swap proposed from 10-19; itch + Hep B → GP
 - [Supplements](supplements.md) — whey, creatine, fish oil, CoQ10, Blackmores Mg citrate (B6-free, swapped 2026-10-09), multivitamin w/ ginseng; tell doctor re Hep B
 - [Feel check-in](feel-checkin.md) — Telegram /feel symptom questions (no libido); re-review the question set at the first review ≥ 2026-11-09
@@ -21,5 +21,6 @@
 - [Evidence: muscle turnover](evidence-muscle-turnover.md) — "muscle only burned when nothing else left" is false; protein ≈3 % of exercise fuel, but muscle turns over all day, net balance (lifting, protein, deficit) decides
 - [Cargill Cafe](cargill-cafe.md) — he co-owns it, usual eat-out; POS recipes → real kcal (planned); menu dishes + self-assembled kitchen bowls
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg; BF scale/DEXA researched & declined 2026-10-23
+- [Performance first](performance-first.md) — main goal = body in good shape; judge the cut by strength/cardio/recovery before the scale; performance drop alone → slow the cut
 - [Evidence: body fat & muscle growth](evidence-body-fat-and-muscle-growth.md) — 2023–26: BF in 15–25 % range does not blunt hypertrophy (obesity + insulin resistance can); BF sets the fat cost of a surplus; higher BF = easier recomp; plan unchanged
 - [Evidence: load, reps & stretch](evidence-load-reps-stretch.md) — 2023–26: light 12–15+ reps = heavy for size only if near failure; heavy wins strength; full-ROM stretch yes, tricks no; EMG ≠ growth
