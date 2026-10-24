@@ -10,7 +10,7 @@ Disclosed 2026-10-09. All are daily:
 | Supplement | Dose | Notes |
 |---|---|---|
 | Whey protein | 50 g | counted in [[daily-diet-baseline]] |
-| Creatine | 5 g | keep constant (it holds water). **Bulk Nutrients Creatine Monohydrate**, unflavoured, micronised, nothing else in it (not Creapure), third-party batch tested (NMI/ARL etc.); label serving 3 g. Mixed into the post-workout shake. Start date unknown (asked 2026-10-24) |
+| Creatine | 5 g | keep constant (it holds water). **Bulk Nutrients Creatine Monohydrate**, unflavoured, micronised, nothing else in it (not Creapure), third-party batch tested (NMI/ARL etc.); label serving 3 g. Mixed into the post-workout shake. **Started 2026-09-24**, 5 g/day, no loading phase → muscle saturated ~3–4 weeks later (~10-15 → 10-22), so it overlaps the end of the technique phase and the W41–W43 strength gains; from W44 its effect (and its ~1–2 kg water) is flat |
 | Fish oil | 2 × 2 g capsules | 4 g fat + 1.2 g EPA/DHA; counted in the diet |
 | CoQ10 (ubidecarenone) | 150 mg | |
 | Blackmores Magnesium (citrate) | 1 tablet | Mg 150 mg elemental, no B6, no Mn. **Swapped in 2026-10-09** to replace a Mg complex (Mg 305 mg oxide, B6 50 mg, Mn 4 mg) |
