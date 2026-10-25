@@ -11517,6 +11517,30 @@
       "warnings": [
         "no_recipe"
       ]
+    },
+    {
+      "breakdown": [],
+      "category": "Retail",
+      "coverage": null,
+      "fried_flag": false,
+      "has_oil": false,
+      "menu_item_id": "e8f1667e-fa0d-4b47-b484-82e61b5872e3",
+      "name_en": "cat litter4.5kg",
+      "name_zh": "貓砂4.5kg",
+      "nutrition": null,
+      "oil_allowance_g": 0.0,
+      "oil_reason": null,
+      "pan_fried_flag": false,
+      "price": 20.0,
+      "product_id": null,
+      "retail": false,
+      "status": "ACTIVE",
+      "variant_id": "d418e0ba-edbd-4e36-9754-72d35e52908a",
+      "variant_label": "cat litter4.5kg",
+      "variant_label_zh": "貓砂4.5kg",
+      "warnings": [
+        "no_recipe"
+      ]
     }
   ],
   "shop": "cargill-cafe",
@@ -11524,13 +11548,13 @@
     "counts": {
       "addons": 40,
       "components": 86,
-      "dishes": 97,
+      "dishes": 98,
       "dishes_fully_covered": 77,
       "dishes_with_grams": 85,
       "ingredients": 286,
       "ingredients_mapped": 264,
       "linked": 85,
-      "unlinked": 12
+      "unlinked": 13
     },
     "hidden": 1,
     "missing_unit_weights": [],

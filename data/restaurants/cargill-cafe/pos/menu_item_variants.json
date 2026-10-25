@@ -1001,6 +1001,19 @@
     "uber_price": null
   },
   {
+    "id": "d418e0ba-edbd-4e36-9754-72d35e52908a",
+    "is_uber_enabled": false,
+    "kitchen_ticket_text": "貓砂4.5kg",
+    "menu_item_id": "e8f1667e-fa0d-4b47-b484-82e61b5872e3",
+    "name_en": "cat litter4.5kg",
+    "name_zh": "貓砂4.5kg",
+    "price": "20.00",
+    "product_id": null,
+    "remaining_count": null,
+    "status": "ACTIVE",
+    "uber_price": null
+  },
+  {
     "id": "d76f878f-253a-4ff5-96d2-439d5188f8c0",
     "is_uber_enabled": false,
     "kitchen_ticket_text": "麥香紅茶",

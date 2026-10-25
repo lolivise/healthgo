@@ -724,7 +724,7 @@
     "name_zh": "滷百頁豆腐",
     "order": 32,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/ac604fdc-6a80-42a8-9a18-52dce485c0f9-1778924137763.png",
-    "remaining_count": null,
+    "remaining_count": 3,
     "status": "ACTIVE"
   },
   {
@@ -1036,6 +1036,20 @@
     "status": "UNAVAILABLE"
   },
   {
+    "category_id": "10d4ff2b-e4e9-42c9-9003-b151d201d95a",
+    "description_en": "cat litter4.5kg",
+    "description_product_id": null,
+    "description_zh": "貓砂4.5kg",
+    "id": "e8f1667e-fa0d-4b47-b484-82e61b5872e3",
+    "is_uber_enabled": false,
+    "name_en": "cat litter4.5kg",
+    "name_zh": "貓砂4.5kg",
+    "order": 117,
+    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/e8f1667e-fa0d-4b47-b484-82e61b5872e3-1792916481218.png",
+    "remaining_count": null,
+    "status": "ACTIVE"
+  },
+  {
     "category_id": "845337e3-cace-4f36-a855-b4cb08c2b9ac",
     "description_en": "Slow-braised beef shank simmered in a fragrant broth infused with soy, ginger, star anise, and cinnamon, served with springy Guan Miao noodles.",
     "description_product_id": "f7c51c02-6654-440b-9f53-7b00faa331ad",
@@ -1046,8 +1060,8 @@
     "name_zh": "台灣牛肉麵",
     "order": 70,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/e9a8aa37-0b0d-415d-bec8-5c5b825b4ce7-1778599775086.jpeg",
-    "remaining_count": null,
-    "status": "ACTIVE"
+    "remaining_count": 0,
+    "status": "SOLD_OUT"
   },
   {
     "category_id": "67a65735-5d0e-452f-9805-dcb52efe2c26",
