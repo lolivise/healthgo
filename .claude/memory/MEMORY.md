@@ -28,3 +28,4 @@
 - [Evidence: inflammation, immunity, Hep B](evidence-inflammation-immunity-hepb.md) — hs-CRP ×2 is the only marker (not HRV); weight loss is his biggest lever; sleep ≥7 h = top immune lever; Hep B: ALT ≤30, never stop antivirals, no safe alcohol, no regain; 12 GP questions
 - [Evidence: facial aging](evidence-facial-aging.md) — "fast loss destroys collagen" = myth; face change tracks total loss + age >40, rate never studied; UV is the main cause → SPF50+ every day UV ≥3, tretinoin later via GP
 - [Evidence: max fat-loss rate](evidence-max-fat-loss-rate.md) — Alpert 2005 ≈69 kcal/kg fat/day ceiling (model, untested); his %/wk caps always sit below it → no change (10-25)
+- [Christmas party 2026](event-christmas-party-2026.md) — Fri 12-04 dress-up; projection 10-25: ~87 kg at plan pace, ~85.2 kg at the 0.7 %/wk cap (ceiling, not a target)

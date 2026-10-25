@@ -14,6 +14,9 @@ Taiwan is UTC+8, the same as Perth, so there are no timezone effects on the data
 **Plan agreed 2026-10-09:**
 - **Before (revised 2026-10-10):** the cut ends 2026-12-13; **maintenance from 2026-12-14** to departure, so he
   arrives with energy and the water/glycogen jump has already happened. No weight target for 01-22 ([[cutting-goal-2026]]).
+  **No pre-trip mini-cut (Darren, 2026-10-25):** asked about one inside the 5.5-week maintenance window; the gain is
+  ~0.5 kg visible at departure for a shortened diet break and leaving in a deficit before a 5-week eating trip, so he
+  chose the original plan. Don't re-propose it; the only open variant is if the 11-08 review moves maintenance to 11-09.
 - **During, minimum training** ([[evidence-cut-and-training]]): 1–2 short full-body sessions a week near failure hold
   muscle; daily walking. Protein options: 茶葉蛋, 無糖豆漿, 豆腐, convenience-store chicken ([[evidence-asian-hepb]]).
   Flexible rules, no forbidden foods ([[evidence-maintenance-transition]]).
