@@ -22,9 +22,14 @@ Fast vs slow at equal total loss: slow keeps ~1 kg more fat lost and RMR slightl
 regain at 3 y is the same (Purcell 2014: 71.2 vs 70.5 %). Slowing buys **muscle and recovery**, not less regain.
 
 **His EA, computed from Garmin 2026-10-25:** activity kcal (sum of `activities.calories`, includes BMR during the
-session so it overstates exercise) ≈ 590/day W37–W42. Net of BMR ≈ 450. So EA ≈ (2,023 − 450)/68 ≈ **23** in the
+session so it overstates exercise) ≈ 590/day ISO W38–W43. Net of BMR ≈ 450. So EA ≈ (2,023 − 450)/68 ≈ **23** in the
 first 13 weeks (below 25), 2,164 → ≈24, **2,520 → ≈30 (fine)**. The dry skin and hair-shedding window overlap the
 low-EA weeks: fits, not proven.
+
+Weekly EA (net of session BMR) W30–W43: **22–26, below 25 in 11 of 14 weeks**; lowest W40 (≈22, ~650 activity kcal/day).
+**14-day slope caveat (10-24):** `healthgo check` gave −1.73 %/wk, but the window starts on the 10-11/12 water spike
+(91.5 kg after eating out 10-10); 10-08 → 10-24 is −2.3 kg in 16 days ≈ −1.0 kg/wk ≈ 1.1 %/wk. Read the slope against a
+longer window when the first days of the 14 are a spike.
 
 **Side effects, threshold → signal:**
 | Harm | When | Watch |

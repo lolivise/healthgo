@@ -37,7 +37,7 @@ future plans and weekly reviews. Full 繁中 report: `research/reports/慢性發
 ## Immunity / viral infection
 - **Sleep is the strongest lever:** <6 h → 4.2× cold risk vs >7 h (Prather 2015, landmark); objectively short sleep
   weakens vaccine antibodies, **strongly in men** (ES 0.93; incl. hep A/B vaccines; Spiegel 2023 [V]). Garmin sleep is
-  exactly the objective measure. His weekly average: 5.8–6.6 h W37–W41, 7.15 h W42.
+  exactly the objective measure. His weekly average: 5.8–6.6 h ISO W38–W42, 7.15 h W43 (first week ≥7 h).
 - Moderate deficit does not impair immunity (CALERIE 2: thymus function improved [V summary]); harm = deep/long
   deficit + heavy load + low carb (IOC REDs 2023).
 - Regular exercise: COVID hospitalisation RR 0.58, plateau ~150–300 min/wk (Ezzatvar 2022). The "open window" after one

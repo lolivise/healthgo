@@ -52,7 +52,7 @@ stricter than `safety-limits.md`, the hard limits there still decide; a yellow h
 | /feel, notes | nothing | hunger, irritability, more hair shedding (window ≈ mid-Sep → mid-Nov 2026), skin worse | RUQ pain after fatty food, yellow eyes/skin, dark urine → doctor within days |
 | New supplements / herbal | none | — | any (esp. fat burners, "liver" or Chinese herbal) → ask the doctor first |
 
-- Garmin activity kcal include BMR during the session, so EA comes out conservative (≈590/day W37–W42 → EA ≈30 at 2,520).
+- Garmin activity kcal include BMR during the session, so EA comes out conservative (≈590/day ISO W38–W43 → EA ≈30 at 2,520). SQL `strftime('%W')` week labels are ISO − 1; label weeks in ISO.
 - Garmin HRV is **not** an inflammation marker; don't write "發炎升高" from HRV. Inflammation is judged from hs-CRP at the GP.
 - Report language: a changed face during a cut is expected deflation, not collagen damage; the skin lever is daily
   SPF50+, not slower eating ([[evidence-facial-aging]]).
