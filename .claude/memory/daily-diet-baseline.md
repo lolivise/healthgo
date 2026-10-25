@@ -160,3 +160,8 @@ water and glycogen loss, so they overstate the deficit.
   prefers a fixed routine.
 
 Related: [[cutting-goal-2026]]
+
+**Fat floor raised (2026-10-25, adopted):** from **Mon 2026-11-09** olive oil **4 → 13 g** (+~80 kcal, logged ≈2,600) so fat reaches the new
+0.7 g/kg floor (~62 g, ~22 % of kcal; at 2,520 it was ~53 g = 18.9 %). Starts after the W44–W45 TDEE window so that
+measurement stays clean. Walnuts 20 g unchanged (LA stays at the AI). If the 11-08 review brings maintenance forward,
+the extra oil is part of the maintenance kcal. See [[safety-limits]], [[evidence-rapid-loss-harms]].

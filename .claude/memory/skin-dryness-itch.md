@@ -107,3 +107,8 @@ eyes + re-moisturise itchy back/neck; thick hand cream/Cicaplast on fingertips. 
 - Never solve this with new supplements (evening primrose, biotin, collagen, etc.) — [[health-conditions]] rule.
 - Count skin worsening as a soft "slow the cut" signal alongside [[evidence-metabolic-adaptation]]; the planned
   maintenance block from 2026-12-14 ([[cutting-goal-2026]]) should also help if the deficit is part of it.
+
+**Sunscreen every day, adopted 2026-10-25** ([[evidence-facial-aging]]): SPF50+ **every day the UV index is ≥3** (Perth: most
+of the year), not "most mornings"; reapply every 2 h when outdoors, plus a hat. UV, not the cut, is the main driver of
+facial aging. Exception: keep sunscreen off the nape rash patch until it has cleared (10-22 advice). A topical retinoid
+(tretinoin, prescription) is for later, via GP, only once the dryness has settled.

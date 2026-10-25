@@ -47,6 +47,17 @@ def weight_slope_pct_per_week(con, end: date, days: int = 14) -> tuple[float, in
     return round(slope * 7 / my * 100, 2), len(rows)
 
 
+def rate_cap_pct_per_week(con, end: date) -> float | None:
+    """The weight-dependent loss cap from `safety.rate_cap_pct_per_week` (the leaner, the slower), at the last weigh-in."""
+    row = con.execute("SELECT kg FROM weights WHERE date <= ? ORDER BY date DESC LIMIT 1", (end.isoformat(),)).fetchone()
+    if not row:
+        return None
+    for step in sorted(config.plan()["safety"].get("rate_cap_pct_per_week", []), key=lambda s: -s["above_kg"]):
+        if row[0] > step["above_kg"]:
+            return step["pct"]
+    return None
+
+
 def run(through: date) -> list[Flag]:
     """Checks over days up to and including `through`, which must be a finished day (see config.last_complete_day)."""
     a = config.plan()["alerts"]
@@ -86,6 +97,9 @@ def run(through: date) -> list[Flag]:
     if slope and -slope[0] > limit:
         flags.append(Flag("loss_fast", f"近 14 天體重下降速度約每週 {-slope[0]:.2f}%（{slope[1]} 次量測），"
                                        f"超過安全上限 {limit}%。掉太快容易流失肌肉，也增加膽結石風險。"))
+    elif slope and (cap := rate_cap_pct_per_week(con, through)) and -slope[0] > cap:
+        flags.append(Flag("loss_above_cap", f"近 14 天體重下降速度約每週 {-slope[0]:.2f}%，超過目前體重的建議上限 "
+                                            f"{cap}%。越瘦，每減一公斤裡肌肉的比例越高，建議放慢。"))
 
     ohp = con.execute(
         "SELECT date, MAX(weight_kg) FROM sets WHERE weight_kg > 0 AND (category = 'SHOULDER_PRESS' "

@@ -6,7 +6,7 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
 
 | Signal | Keep cutting | Slow down | Diet break | Adjust intake |
 |---|---|---|---|---|
-| 14d weight trend | −0.5 to −0.75 %/wk | below −1.0 %/wk, or −0.75 to −1.0 % with any recovery flag | — | above −0.25 %/wk for 2+ weeks (a plateau) with good recovery |
+| 14d weight trend | −0.3 to −0.7 %/wk (>84 kg), −0.3 to −0.5 %/wk (≤84 kg) | faster than the weight-based cap (0.7 / 0.5 %, adopted 2026-10-25); faster than 1 % = hard stop | — | above −0.25 %/wk for 2+ weeks (a plateau) with good recovery |
 | Strength (e1RM, main lifts) | stable within ±3 % | −3 to −5 % on 1–2 lifts | −5 % or worse on several lifts for 2+ weeks | — |
 | Recovery | baseline | 1–2 flags (RHR +5, HRV unbalanced, sleep <6 h, BB high <50) | flags persisting 10+ days | — |
 | Cut length | — | — | 10–12+ weeks of continuous deficit with fatigue signs | — |

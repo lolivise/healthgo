@@ -24,6 +24,11 @@
       "from": "2026-10-26",
       "kcal": 2520,
       "note": "W43 review (10-24) slow down: rice-only trend ~-1.07 %/wk at 2,164 -> SunRice raw 100 -> 200 g (two frozen 100 g packs, one per meal at breakfast + lunch; +356 kcal); everything else as the 10-18 entry. Starts Mon 10-26 (Sun 10-25 already prepped at 100 g). Fixed for W44-W45 (10-26 -> 11-08) = TDEE measurement window"
+    },
+    {
+      "from": "2026-11-09",
+      "kcal": 2600,
+      "note": "Health-guard proposals adopted 2026-10-25: olive oil 4 -> 13 g (+80 kcal) for the 0.7 g/kg fat floor; everything else as the 10-26 entry. Superseded if the 11-08 review brings maintenance forward (see cutting-goal-2026.md)"
     }
   ],
   "cut": {
@@ -57,11 +62,25 @@
     "max_loss_pct_per_week": 1.0,
     "min_kcal": 1700,
     "min_protein_g_per_kg": 1.6,
-    "min_fat_g_per_kg": 0.6,
+    "min_fat_g_per_kg": 0.7,
     "diet_break_after_weeks": [
       10,
       12
-    ]
+    ],
+    "_comment": "max_loss_pct_per_week = absolute stop line; rate_cap_pct_per_week = weight-dependent cap (adopted 2026-10-25, evidence-rapid-loss-harms.md)",
+    "rate_cap_pct_per_week": [
+      {
+        "above_kg": 84,
+        "pct": 0.7
+      },
+      {
+        "above_kg": 0,
+        "pct": 0.5
+      }
+    ],
+    "min_protein_g_per_kg_ffm": 2.3,
+    "min_energy_availability_kcal": 1700,
+    "sleep_target_hours": 7.0
   },
   "alerts": {
     "rhr_rise_bpm": 5,

@@ -51,6 +51,10 @@ Feasibility at **177 cm**: lean 70.5–75 kg = FFMI 22.5–23.9 (now ~21.7), wel
 doable; the limit is time (~1–2 kg lean/yr for a trained man). Training age: 3–4 yr on/off ≈ late novice ([[training-routine]]), so an estimated ~2–3 kg lean in the first
 consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal (estimate, not a trial number). Re-check lean mass with a DEXA/BIA if one becomes available.
 - By 2026-12-13 he will have been in a deficit for ~22 weeks; the maintenance block doubles as the diet break.
+  ⚠️ **Decision point at the 11-08 (W45) review, adopted 2026-10-25:** he is past his own 10–12 wk diet-break rule
+  (14.5 wk on 10-25) and the first 13 weeks were at low energy availability ([[evidence-rapid-loss-harms]]). Once W45
+  measures TDEE: if **any** health-guard yellow (skin worse, more hair shedding, e1RM down, sleep, EA, rate over the cap)
+  → **bring maintenance forward to 11-09**; if all green → keep the gentle cut to 12-13 at ≤0.7 %/wk (≤0.5 % once ≤84 kg).
 
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
 maintenance is ≈2,450 ± 200 at ~91 kg (revised up from 2,330 at the full-week W41 review, 2026-10-11:

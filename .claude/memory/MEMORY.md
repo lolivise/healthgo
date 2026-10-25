@@ -1,16 +1,16 @@
 - [User profile](user-profile.md) — 36, Perth, disciplined; wants to look fit not athletic; hates tracking chores; reports in 繁中
-- [Cutting goal 2026](cutting-goal-2026.md) — FINAL goal 86–88 kg @ 15–18 % BF (set 10-12, needs +3–7 kg lean, multi-year bulk cycles); cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target
-- [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; W42 potato week ≈2,030 (freezer stock, team lunch Fri 10-16), then rice experiment from 10-18 at 2,164 (100 g rice) → W43 review 10-24: too fast (~1 %/wk), rice 200 g (2 × 100 g packs) ≈2,520 from Mon 10-26, fixed to 11-08; TDEE ≈2,800–3,000
+- [Cutting goal 2026](cutting-goal-2026.md) — FINAL goal 86–88 kg @ 15–18 % BF (set 10-12, needs +3–7 kg lean, multi-year bulk cycles); cut since 2026-07-15 from 102 kg; goal 15–18% BF finished after the trip; gentle cut → 12-13, maintenance 12-14 → 01-22, no pre-trip weight target; 11-08 review decides maintenance-forward if any health-guard yellow
+- [Daily diet baseline](daily-diet-baseline.md) — fixed diet (actual veg 600 g), meal timing, labels, water/coffee; W42 potato week ≈2,030 (freezer stock, team lunch Fri 10-16), then rice experiment from 10-18 at 2,164 (100 g rice) → W43 review 10-24: too fast (~1 %/wk), rice 200 g (2 × 100 g packs) ≈2,520 from Mon 10-26, fixed to 11-08; TDEE ≈2,800–3,000; olive oil 4 → 13 g from 11-09 (fat 0.7 g/kg, ≈2,600)
 - [Chicken marinades](chicken-marinades.md) — Mustard 蜜芥 / Tikka 咖哩優格 / Char Siu 叉燒, 1 kg each, all 3 made together, rotated daily, leftover discarded (~30 % eaten) → avg +50 kcal, +280 mg Na/day (missed until 10-16); texture fix = thermometer + 0.3 % soda
 - [Health conditions](health-conditions.md) — Hep B (controlled); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
-- [Safety limits](safety-limits.md) — never advise past: 1%/wk loss, 1,700 kcal, protein 1.6 g/kg, fat 0.6 g/kg; red-flag rules
+- [Safety limits](safety-limits.md) — never advise past: 0.7 %/wk (>84 kg) / 0.5 % (≤84 kg), 1 % hard stop; 1,700 kcal total and after exercise (EA); protein 1.6 g/kg & 2.3 g/kg FFM; fat 0.7 g/kg; sleep ≥7 h; red flags (tightened 10-25)
 - [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; window ends yesterday, except Sunday ≥18:00 = full week incl. Sunday; 繁中 verdict-first; no waist/photos; every report sent to Telegram
 - [Trip Taiwan 2027](trip-taiwan-2027.md) — 2027-01-23→02-25 family road trip, will overeat; plan before/during/after; alerts off
 - [Garmin data access](garmin-data-access.md) — garminconnect 0.3.17, 1Password HealthGo/secrets, ≤1 login/24h, no readiness/VO2 on his watch, grams
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push
 - [Model split](model-split.md) — Garmin pulls + digest on Haiku, meal photos Haiku; Sonnet executes/writes; Opus main thread analyses and decides (standing rule)
 - [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; technique-phase deload finished by W41 → from W41 every load is real, a drop = real loss (never "刻意放輕")
-- [Skin dryness & itch](skin-dryness-itch.md) — since the cut (10-13): dry/peeling hands, itchy back/neck, eye cream stings; LA low → walnut swap proposed from 10-19; itch + Hep B → GP
+- [Skin dryness & itch](skin-dryness-itch.md) — since the cut (10-13): dry/peeling hands, itchy back/neck, eye cream stings; LA low → walnut swap proposed from 10-19; itch + Hep B → GP; SPF50+ every day UV ≥3 (10-25)
 - [Supplements](supplements.md) — whey, creatine, fish oil, CoQ10, Blackmores Mg citrate (B6-free, swapped 2026-10-09), multivitamin w/ ginseng; tell doctor re Hep B
 - [Feel check-in](feel-checkin.md) — Telegram /feel symptom questions (no libido); re-review the question set at the first review ≥ 2026-11-09
 - [Evidence: cut & training](evidence-cut-and-training.md) — 2023–26 research base: deficit ≤~500 kcal, protein, fat floor, diet breaks, volume/failure/tempo, holiday minimum dose
@@ -24,6 +24,6 @@
 - [Performance first](performance-first.md) — main goal = body in good shape; judge the cut by strength/cardio/recovery before the scale; performance drop alone → slow the cut
 - [Evidence: body fat & muscle growth](evidence-body-fat-and-muscle-growth.md) — 2023–26: BF in 15–25 % range does not blunt hypertrophy (obesity + insulin resistance can); BF sets the fat cost of a surplus; higher BF = easier recomp; plan unchanged
 - [Evidence: load, reps & stretch](evidence-load-reps-stretch.md) — 2023–26: light 12–15+ reps = heavy for size only if near failure; heavy wins strength; full-ROM stretch yes, tricks no; EMG ≠ growth
-- [Evidence: too-fast loss](evidence-rapid-loss-harms.md) — 2023–26: cap 0.7 %/wk now, 0.5 % ≤84 kg; EA = intake − Garmin activity kcal ≥1,700; side effects + signals; his first 13 wk EA ≈23 (low), 2,520 → ≈30; proposals 10-25 await OK
+- [Evidence: too-fast loss](evidence-rapid-loss-harms.md) — 2023–26: cap 0.7 %/wk now, 0.5 % ≤84 kg; EA = intake − Garmin activity kcal ≥1,700; side effects + signals; his first 13 wk EA ≈23 (low), 2,520 → ≈30; all 4 proposals adopted 10-25
 - [Evidence: inflammation, immunity, Hep B](evidence-inflammation-immunity-hepb.md) — hs-CRP ×2 is the only marker (not HRV); weight loss is his biggest lever; sleep ≥7 h = top immune lever; Hep B: ALT ≤30, never stop antivirals, no safe alcohol, no regain; 12 GP questions
 - [Evidence: facial aging](evidence-facial-aging.md) — "fast loss destroys collagen" = myth; face change tracks total loss + age >40, rate never studied; UV is the main cause → SPF50+ every day UV ≥3, tretinoin later via GP

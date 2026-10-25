@@ -42,7 +42,7 @@ low-EA weeks: fits, not proven.
 HRV has **no** evidence as an early "too fast" marker. GLP-1 trials: 25–40 % of loss is DXA lean in untrained
 patients (JAMA 2024 viewpoint: sarcopenia unlikely for most); not comparable to him.
 
-**Proposals made 2026-10-25 (awaiting his OK, see [[safety-limits]]):** rate cap 0.7 → 0.5 %/wk by weight;
+**Proposals made 2026-10-25, all ADOPTED by him the same day (now in [[safety-limits]], `config/plan.json`):** rate cap 0.7 → 0.5 %/wk by weight;
 EA floor (intake − Garmin activity kcal ≥ 1,700) on top of the 1,700 total floor; fat floor 0.6 → 0.7 g/kg;
 protein floor restated as ≥2.3 g/kg FFM (~156 g, he eats ~167); diet break / maintenance timing reconsidered at 11-08
 (14.5 wk continuous deficit on 10-25 vs his own 10–12 wk rule; the plan had accepted 22 wk with the 12-14 maintenance
