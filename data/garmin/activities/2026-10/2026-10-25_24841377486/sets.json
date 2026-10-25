@@ -1062,7 +1062,7 @@
       "repetitionCount": 12,
       "setType": "ACTIVE",
       "startTime": "2026-10-25T01:18:29.0",
-      "weight": 33000.0,
+      "weight": 40000.0,
       "wktStepIndex": 21
     },
     {
@@ -1135,7 +1135,7 @@
       "repetitionCount": 11,
       "setType": "ACTIVE",
       "startTime": "2026-10-25T01:21:26.0",
-      "weight": 33000.0,
+      "weight": 40000.0,
       "wktStepIndex": 21
     },
     {

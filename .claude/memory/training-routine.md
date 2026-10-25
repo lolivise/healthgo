@@ -61,7 +61,9 @@ landmine press on any pain. Friday trial data point: Fri 10-16 HRV 47 (mean 42.9
   back-off sets at 15 kg 15/15 (10-11) → 10/7 (10-18); check on the next chest days.
 - **W43 full week (2026-10-25 chest day vs 10-18):** flat bench 50 kg 10/8/8 → **12/9/8** (e1RM 70.0, best since W41;
   55 kg once all three sets reach 12), incline 50 × 11/9/7 (top 10 → 11), single-arm cable chest press 15 → 20 × 12/11,
-  chest fly 33 × 12 held + 40 × 8. Lying DB triceps ext back-offs at 15 kg: 15/15 → 10/7 → **9/9** (first set now 15 × 15,
+  chest fly **40 × 12/11/8** (e1RM 46.2 → 56.0; Garmin logged the first two sets as 33 kg, Darren corrected 10-25,
+  fixed locally in sets.json — if a re-pull shows 33 kg again, the Garmin Connect entry wasn't edited). Hold 40 kg,
+  back to 33 on any front-shoulder discomfort. Lying DB triceps ext back-offs at 15 kg: 15/15 → 10/7 → **9/9** (first set now 15 × 15,
   the 20 kg set dropped): below 10-11 two sessions running, accessory only; hold 15 kg, target 12+ per set, re-check W44.
   ⚠️ prepare-week's "bench −4.5 %" compares against W39's 73.3 (pre-technique phase): ignore it, use W41+ only.
 - **If he trains at another gym again, ask him to flag it (a `/note`), and keep that session out of comparisons.**

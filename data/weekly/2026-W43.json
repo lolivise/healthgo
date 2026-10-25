@@ -1,7 +1,7 @@
 {
   "all_day_metrics_through": "2026-10-25",
   "cut_week": 15,
-  "days_since_review": 1,
+  "days_since_review": 0,
   "days_to_checkpoint": 89,
   "eating_out_recorded": [],
   "flags": [
@@ -81,7 +81,7 @@
       "weigh_ins": 7
     }
   ],
-  "last_review": "2026-10-24",
+  "last_review": "2026-10-25",
   "maintenance_kcal_estimate": 2977,
   "maintenance_note": "baseline intake + 28-day weight trend × 7700 kcal/kg; ignores eating-out days and water swings, so treat as ±200 kcal",
   "partial": false,
@@ -201,9 +201,9 @@
       "top_week": 40.0
     },
     {
-      "e1rm_change_pct": 9.7,
+      "e1rm_change_pct": 21.2,
       "e1rm_prior_4w": 46.2,
-      "e1rm_week": 50.7,
+      "e1rm_week": 56.0,
       "exercise": "CHEST_FLY",
       "sets_week": 3,
       "top_prior_4w": 33.0,
