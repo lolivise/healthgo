@@ -29,4 +29,5 @@
 - [Evidence: facial aging](evidence-facial-aging.md) — "fast loss destroys collagen" = myth; face change tracks total loss + age >40, rate never studied; UV is the main cause → SPF50+ every day UV ≥3, tretinoin later via GP
 - [Evidence: max fat-loss rate](evidence-max-fat-loss-rate.md) — Alpert 2005 ≈69 kcal/kg fat/day ceiling (model, untested); his %/wk caps always sit below it → no change (10-25)
 - [Evidence: exercise & aging](evidence-exercise-and-aging.md) — 池谷敏郎 never said exercise ages you; Miyachi 2004 heavy RT stiffens carotid ~20 %, reversible, cancelled by aerobic; RT + aerobic = −40 % mortality; plan unchanged, never cut cardio for lifting, exhale on effort
+- [Evidence: 池谷敏郎 claims](evidence-ikeya-anti-aging.md) — ~49 book claims checked: direction right, numbers inflated; his supplements all off-limits; proposed (not yet agreed): 40–42 °C bath/shower 1–2 h before bed, lunch veg → chicken → rice
 - [Christmas party 2026](event-christmas-party-2026.md) — Fri 12-04 dress-up; projection 10-25: ~87 kg at plan pace, ~85.2 kg at the 0.7 %/wk cap (ceiling, not a target)
