@@ -49,3 +49,8 @@ Decided with Darren 2026-10-09:
 review he chose to start.
 
 Related: [[user-profile]], [[safety-limits]]
+
+**Habit check (adopted 2026-10-25):** from tonight he takes a **40–42 °C bath/shower, ≥10 min, 1–2 h before bed**
+for sleep ([[evidence-ikeya-anti-aging]]). At the first full-week review ≥ 2026-11-08, compare Garmin weekly sleep
+(avg duration, bedtime/sleep start, sleep score) with the baseline: ISO W38–W42 5.8–6.6 h, W43 7.15 h. Don't ask him to
+log baths; ask once inside that review whether he kept it up. Confounder: rice 200 g started the same week (10-26).

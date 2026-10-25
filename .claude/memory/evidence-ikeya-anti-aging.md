@@ -35,8 +35,9 @@ hydrogen tablets (limited), long-acting vit C (high dose can raise ALT [U]), 玄
 
 **Applied to him (2026-10-25):** his diet already matches the supported parts (carbs at breakfast/lunch, dinner =
 yogurt + oats, fixed kcal, 1.9 g/kg protein > 1.62 plateau, olive oil ↑, coffee, no alcohol/smoking).
-**Proposed, awaiting his OK:** (1) 40–42 °C bath/shower 1–2 h before bed (sleep is his weakest metric; judge by Garmin
-sleep onset/duration at /review, no new tracking); (2) lunch order veg → chicken → rice; (3) optional post-meal walk.
+✅ **Adopted by Darren 2026-10-25:** (1) 40–42 °C bath/shower ≥10 min, 1–2 h before bed (sleep is his weakest
+metric; judged at the first review ≥ 11-08, see [[review-preferences]]); (2) eating order veg → chicken → rice at the
+rice meals ([[daily-diet-baseline]]). Not adopted: (3) post-meal walk.
 Optional food swap: fish 1–2×/wk for one chicken meal (he eats no fish).
 
 Related: [[evidence-exercise-and-aging]], [[evidence-inflammation-immunity-hepb]], [[daily-diet-baseline]], [[supplements]].

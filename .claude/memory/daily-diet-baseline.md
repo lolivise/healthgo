@@ -165,3 +165,7 @@ Related: [[cutting-goal-2026]]
 0.7 g/kg floor (~62 g, ~22 % of kcal; at 2,520 it was ~53 g = 18.9 %). Starts after the W44–W45 TDEE window so that
 measurement stays clean. Walnuts 20 g unchanged (LA stays at the AI). If the 11-08 review brings maintenance forward,
 the extra oil is part of the maintenance kcal. See [[safety-limits]], [[evidence-rapid-loss-harms]].
+
+**Eating order (2026-10-25, adopted):** at the rice meals (breakfast and lunch) eat **vegetables → chicken/eggs → rice
+last**. No change to amounts or kcal. Evidence: carbs-last −53 % glucose iAUC in T2D (Shukla 2017), thin in healthy
+adults; free habit, nothing to track. See [[evidence-ikeya-anti-aging]].
