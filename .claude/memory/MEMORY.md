@@ -24,3 +24,6 @@
 - [Performance first](performance-first.md) — main goal = body in good shape; judge the cut by strength/cardio/recovery before the scale; performance drop alone → slow the cut
 - [Evidence: body fat & muscle growth](evidence-body-fat-and-muscle-growth.md) — 2023–26: BF in 15–25 % range does not blunt hypertrophy (obesity + insulin resistance can); BF sets the fat cost of a surplus; higher BF = easier recomp; plan unchanged
 - [Evidence: load, reps & stretch](evidence-load-reps-stretch.md) — 2023–26: light 12–15+ reps = heavy for size only if near failure; heavy wins strength; full-ROM stretch yes, tricks no; EMG ≠ growth
+- [Evidence: too-fast loss](evidence-rapid-loss-harms.md) — 2023–26: cap 0.7 %/wk now, 0.5 % ≤84 kg; EA = intake − Garmin activity kcal ≥1,700; side effects + signals; his first 13 wk EA ≈23 (low), 2,520 → ≈30; proposals 10-25 await OK
+- [Evidence: inflammation, immunity, Hep B](evidence-inflammation-immunity-hepb.md) — hs-CRP ×2 is the only marker (not HRV); weight loss is his biggest lever; sleep ≥7 h = top immune lever; Hep B: ALT ≤30, never stop antivirals, no safe alcohol, no regain; 12 GP questions
+- [Evidence: facial aging](evidence-facial-aging.md) — "fast loss destroys collagen" = myth; face change tracks total loss + age >40, rate never studied; UV is the main cause → SPF50+ every day UV ≥3, tretinoin later via GP

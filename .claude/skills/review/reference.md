@@ -34,6 +34,31 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
 - **Doctor referral:** RHR up 8+ bpm for 2 weeks, HRV low for 2+ weeks despite rest, or anything
   liver-related. Say so plainly.
 
+## Health-guard checklist (inflammation, too-fast loss, immunity, face)
+
+Added 2026-10-25 from `research/reports/慢性發炎 減重過快 臉部老化.md`; evidence in memory `evidence-rapid-loss-harms.md`,
+`evidence-inflammation-immunity-hepb.md`, `evidence-facial-aging.md`. Run it every review with data already on hand
+(no new tracking). Yellow bands and the EA 1,500 red line are working numbers, not study cut-offs. Where a row is
+stricter than `safety-limits.md`, the hard limits there still decide; a yellow here argues for "slow down".
+
+| Check | Green | Yellow → slow down / eat more | Red |
+|---|---|---|---|
+| 14d weight trend | >84 kg: ≤0.7 %/wk; ≤84 kg: ≤0.5 %/wk | above that | >1 %/wk, or >1.5 kg/wk |
+| Energy availability: fixed-diet kcal (+ eat-out) − Garmin activity kcal (sum of `activities.calories`), weekly avg | ≥1,700 | 1,500–1,700 | <1,500 |
+| Weeks of continuous deficit | <10 | 10–12: raise a diet break | >12 with no break |
+| Main-lift e1RM | flat or up | down 2 weeks running | ≥5 % below the cut's best |
+| Sleep (Garmin weekly avg) | ≥7 h | 6–7 h | <6 h, or ≥3 nights <6 h |
+| RHR / HRV | stable | RHR falling **with** cold/tired on /feel (deep-deficit sign, not fitness) | RHR +5 bpm for a week, or HRV unbalanced most days |
+| /feel, notes | nothing | hunger, irritability, more hair shedding (window ≈ mid-Sep → mid-Nov 2026), skin worse | RUQ pain after fatty food, yellow eyes/skin, dark urine → doctor within days |
+| New supplements / herbal | none | — | any (esp. fat burners, "liver" or Chinese herbal) → ask the doctor first |
+
+- Garmin activity kcal include BMR during the session, so EA comes out conservative (≈590/day W37–W42 → EA ≈30 at 2,520).
+- Garmin HRV is **not** an inflammation marker; don't write "發炎升高" from HRV. Inflammation is judged from hs-CRP at the GP.
+- Report language: a changed face during a cut is expected deflation, not collagen damage; the skin lever is daily
+  SPF50+, not slower eating ([[evidence-facial-aging]]).
+- Before the Taiwan trip, and whenever alcohol comes up: no safe dose with Hep B; never stop antivirals; protect sleep
+  around flights ([[evidence-inflammation-immunity-hepb]]).
+
 ## Useful queries
 
 ```sql

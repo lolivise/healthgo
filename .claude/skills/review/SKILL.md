@@ -87,6 +87,9 @@ Work through `reference.md` → **Decision rules**:
 - **Muscle:** e1RM of the main lifts against the prior 4 weeks, plus rate of loss staying within target and protein adequacy (no InBody anymore; see `reference.md`).
 - **Recovery:** RHR, HRV, sleep, stress and Body Battery against his own baseline.
 - **Context:** cut week, phase (gentle cut → maintenance from 2026-12-14, see `cutting-goal-2026.md`), days to the trip; ground advice in the `evidence-*.md` memories.
+- **Health guard:** run `reference.md` → **Health-guard checklist** (too-fast loss, energy availability, deficit weeks,
+  sleep, RHR/HRV, /feel, supplements). Ask the step 2 agent for the weekly average of Garmin activity kcal
+  (`activities.calories` per day) so EA can be computed. Any yellow/red goes into the reasons or changes.
 - **Limits:** every change is checked against `safety-limits.md`. His fat intake is below the floor, so that's
   the first lever.
 
