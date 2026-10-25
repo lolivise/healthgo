@@ -27,6 +27,8 @@ first 13 weeks (below 25), 2,164 → ≈24, **2,520 → ≈30 (fine)**. The dry 
 low-EA weeks: fits, not proven.
 
 Weekly EA (net of session BMR) W30–W43: **22–26, below 25 in 11 of 14 weeks**; lowest W40 (≈22, ~650 activity kcal/day).
+**Checklist EA (raw activity kcal, as the review checklist computes it), W43 full review 10-25:** activity kcal/day W39 597,
+W40 648, W41 601, W42 590, W43 626 → W43 2,164 − 626 = **1,538 (yellow)**; at 2,520 from 10-26 ≈ **1,890 (green)**.
 **14-day slope caveat (10-24):** `healthgo check` gave −1.73 %/wk, but the window starts on the 10-11/12 water spike
 (91.5 kg after eating out 10-10); 10-08 → 10-24 is −2.3 kg in 16 days ≈ −1.0 kg/wk ≈ 1.1 %/wk. Read the slope against a
 longer window when the first days of the 14 are a spike.
