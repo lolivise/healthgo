@@ -85,11 +85,44 @@ def _mean_intake(p: dict, start: date, end: date) -> float:
     return sum(kcal(d) for d in days) / len(days)
 
 
+# Recorded overnight or in the morning, so today's value is already final before Darren reviews: last night's sleep,
+# HRV and RHR, the wake-up Body Battery peak, Garmin's morning readiness. Everything else in `daily` (steps, stress,
+# Body Battery low) fills in all day and only counts through `config.last_complete_day()`.
+MORNING_COLS = ("rhr", "hrv_last_night", "sleep_h", "sleep_score", "bb_high", "readiness_score")
+ALL_DAY_COLS = ("avg_stress", "bb_low", "steps")
+
+
+def _weekly_rows(con, sunday: date, end: date, day_end: date, weeks: int = 5) -> list[dict]:
+    """This week and the `weeks - 1` before it, one row each, so a report can show the trajectory."""
+    rows = []
+    for i in range(weeks - 1, -1, -1):
+        s_end = sunday - timedelta(days=7 * i)
+        s_start = s_end - timedelta(days=6)
+        kg, n = _weight_avg(con, s_start, min(s_end, end))
+        row = {"week": week_id(s_end), "avg_kg": kg, "weigh_ins": n}
+        for col in MORNING_COLS[:3]:
+            row[col] = _avg(con, col, s_start, min(s_end, end))
+        for col in ("avg_stress", "steps"):
+            row[col] = _avg(con, col, s_start, min(s_end, day_end))
+        row["eat_out_kcal"] = con.execute(
+            "SELECT ROUND(SUM(est_kcal)) FROM eating_out WHERE date BETWEEN ? AND ?",
+            (s_start.isoformat(), min(s_end, end).isoformat())).fetchone()[0]
+        rows.append(row)
+    for prev, row in zip(rows, rows[1:]):
+        if prev["avg_kg"] and row["avg_kg"]:
+            row["change_kg"] = round(row["avg_kg"] - prev["avg_kg"], 2)
+    return rows
+
+
 def prepare(sunday: date) -> Path:
-    """Numbers for the Mon–Sun week ending `sunday`, using finished days only: a week still in progress stops at
-    `config.last_complete_day()` (yesterday, or today from Sunday 18:00)."""
+    """Numbers for the Mon–Sun week ending `sunday`.
+
+    A week in progress runs through today for overnight/morning data, weigh-ins, workouts and meals (`MORNING_COLS`),
+    and through `config.last_complete_day()` for all-day metrics (`ALL_DAY_COLS`): before 18:00 today's steps and
+    stress are left out, from 18:00 they count (Darren, 2026-10-25). A past week is complete either way."""
     start = sunday - timedelta(days=6)
-    end = min(sunday, config.last_complete_day())
+    end = min(sunday, config.today())
+    day_end = min(sunday, config.last_complete_day())
     base_start, base_end = start - timedelta(days=28), start - timedelta(days=1)
     p = config.plan()
     con = db.connect()
@@ -104,9 +137,10 @@ def prepare(sunday: date) -> Path:
         tdee = round(_mean_intake(p, end - timedelta(days=27), end) - kg_per_day * KCAL_PER_KG)
 
     recovery = {}
-    for col in ("rhr", "hrv_last_night", "sleep_h", "sleep_score", "avg_stress", "bb_high", "bb_low", "steps",
-                "readiness_score"):
-        recovery[col] = {"week": _avg(con, col, start, end), "baseline_4w": _avg(con, col, base_start, base_end)}
+    for col in MORNING_COLS + ALL_DAY_COLS:
+        through = end if col in MORNING_COLS else day_end
+        recovery[col] = {"week": _avg(con, col, start, through),
+                         "baseline_4w": _avg(con, col, base_start, base_end)}
     hrv_statuses = [r[0] for r in con.execute(
         "SELECT hrv_status FROM daily WHERE date BETWEEN ? AND ? ORDER BY date",
         (start.isoformat(), end.isoformat()))]
@@ -123,13 +157,15 @@ def prepare(sunday: date) -> Path:
         "SELECT * FROM eating_out WHERE date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), end.isoformat()))]
     last_review = con.execute("SELECT MAX(date) FROM reviews").fetchone()[0]
     strength = _strength(con, start, end)
+    weeks = _weekly_rows(con, sunday, end, day_end)
     con.close()
 
     cut_start = date.fromisoformat(p["cut"]["start_date"])
     summary = {
         "week": week_id(sunday),
         "range": [start.isoformat(), end.isoformat()],
-        "partial": end < sunday,
+        "all_day_metrics_through": day_end.isoformat(),
+        "partial": day_end < sunday,
         "cut_week": (sunday - cut_start).days // 7 + 1,
         "days_to_checkpoint": (date.fromisoformat(p["checkpoint"]["date"]) - sunday).days,
         "weight": {
@@ -152,12 +188,73 @@ def prepare(sunday: date) -> Path:
         "eating_out_recorded": eating_out,
         "last_review": last_review,
         "days_since_review": (config.today() - date.fromisoformat(last_review)).days if last_review else None,
-        "flags": [f.__dict__ for f in checks.run(end)],
+        "flags": [f.__dict__ for f in checks.run(end, day_end)],
+        "last_5_weeks": weeks,
         "in_trip": config.in_trip(sunday),
     }
     path = week_file(sunday)
     store.write_json(path, summary)
     return path
+
+
+def _week_sunday(week: str | None) -> date | None:
+    """`2026-W43` → its Sunday; None for anything else (e.g. the old `2026-W43-midweek` labels)."""
+    try:
+        y, w = (week or "").split("-W")
+        return date.fromisocalendar(int(y), int(w), 7)
+    except ValueError:
+        return None
+
+
+def is_full_review(r: dict, sunday: date) -> bool:
+    """Whether review record `r` covered the whole Mon–Sun week ending `sunday`. New records say so with `kind` and
+    `through`; older ones count if they were written on or after that Sunday 18:00."""
+    if r.get("week") != week_id(sunday) or r.get("kind") == "midweek":
+        return False
+    if r.get("through"):
+        return r["through"] >= sunday.isoformat()
+    at = datetime.fromisoformat(r.get("recorded_at") or r["date"]).replace(tzinfo=None)
+    return at >= datetime.combine(sunday, time(config.EVENING_HOUR))
+
+
+def review_plan(now: datetime) -> dict:
+    """What /review runs at `now` (Darren, 2026-10-25).
+
+    Target: Sunday from 18:00 → the full week; any other time → a mid-week review of the current week. Before that,
+    if the week ending the Sunday before the target's week has no full review, it gets one first (`catch_up`), as if
+    it had been run that Sunday evening. Older unreviewed weeks get no report of their own; they're listed so the
+    full report's week-by-week table can call them out."""
+    today = now.date()
+    evening = now.hour >= config.EVENING_HOUR
+    if today.weekday() == 6 and evening:
+        sunday, kind, report = today, "full", f"reports/{week_id(today)}.md"
+    else:
+        sunday = today + timedelta(days=6 - today.weekday())
+        kind, report = "midweek", f"reports/{week_id(sunday)}-midweek-{today:%m-%d}.md"
+    target = {"kind": kind, "week": week_id(sunday), "week_end": sunday.isoformat(), "report": report,
+              "through": today.isoformat(),
+              "all_day_metrics_through": (today if evening else today - timedelta(days=1)).isoformat(),
+              "prepare": f"uv run healthgo prepare-week --week-end {sunday.isoformat()}"}
+
+    reviews = store.read_jsonl(config.MANUAL / "reviews.jsonl")
+    full = sorted(s for r in reviews if (s := _week_sunday(r.get("week"))) and is_full_review(r, s))
+    prev = sunday - timedelta(days=7)
+    catch_up = None
+    if prev not in full:
+        catch_up = {"kind": "full", "week": week_id(prev), "week_end": prev.isoformat(),
+                    "report": f"reports/{week_id(prev)}.md", "through": prev.isoformat(),
+                    "all_day_metrics_through": prev.isoformat(),
+                    "prepare": f"uv run healthgo prepare-week --week-end {prev.isoformat()}"}
+    last_full = max((s for s in full if s < sunday), default=None)
+    older = []
+    if last_full:
+        s = last_full + timedelta(days=7)
+        while s < prev:
+            older.append(week_id(s))
+            s += timedelta(days=7)
+    return {"now": now.isoformat(timespec="minutes"), "evening": evening, "catch_up": catch_up, "target": target,
+            "last_full_review_week": week_id(last_full) if last_full else None,
+            "older_weeks_without_full_review": older}
 
 
 def ready_message(sunday: date) -> str:

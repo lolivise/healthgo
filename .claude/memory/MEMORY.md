@@ -4,7 +4,7 @@
 - [Chicken marinades](chicken-marinades.md) — Mustard 蜜芥 / Tikka 咖哩優格 / Char Siu 叉燒, 1 kg each, all 3 made together, rotated daily, leftover discarded (~30 % eaten) → avg +50 kcal, +280 mg Na/day (missed until 10-16); texture fix = thermometer + 0.3 % soda
 - [Health conditions](health-conditions.md) — Hep B (controlled) on **entecavir** 0.5 mg ~10:30 am, self-managed (empty stomach ±2 h, never stop, creatine skews eGFR); right shoulder flares on heavy OHP; bloodwork 2×/yr, all normal
 - [Safety limits](safety-limits.md) — never advise past: 0.7 %/wk (>84 kg) / 0.5 % (≤84 kg), 1 % hard stop; 1,700 kcal total and after exercise (EA); protein 1.6 g/kg & 2.3 g/kg FFM; fat 0.7 g/kg; sleep ≥7 h; red flags (tightened 10-25)
-- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; window ends yesterday, except Sunday ≥18:00 = full week incl. Sunday; 繁中 verdict-first; no waist/photos; every report sent to Telegram
+- [Review preferences](review-preferences.md) — no InBody, ask eating-out each review; Sunday ≥18:00 = full week; else mid-week through today (steps/stress only from 18:00); missed Sunday caught up first; 繁中 verdict-first; no waist/photos; every report sent to Telegram
 - [Trip Taiwan 2027](trip-taiwan-2027.md) — 2027-01-23→02-25 family road trip, will overeat; plan before/during/after; alerts off
 - [Garmin data access](garmin-data-access.md) — garminconnect 0.3.17, 1Password HealthGo/secrets, ≤1 login/24h, no readiness/VO2 on his watch, grams
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push

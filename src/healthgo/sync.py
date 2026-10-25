@@ -5,6 +5,10 @@ AND which is before today (today is always partial at 20:00). Each run fetches
 from OVERLAP_DAYS before the day after it through today, so a Mac that was off
 for a week backfills the whole week, and late-settling sleep/HRV/readiness
 values get overwritten with their final versions.
+
+The window also never starts after the day of the previous sync (`state["last_sync_at"]`): a /review at 13:00 Monday
+and another at 18:30 Tuesday re-pulls all of Monday, so nothing logged after 13:00 is missed. Strength sets from that
+day on are re-fetched too, since they get edited in the app after the workout.
 """
 
 from __future__ import annotations
@@ -64,6 +68,12 @@ def daily_path(d: date):
     return config.DAILY_DIR / f"{d:%Y}" / f"{d.isoformat()}.json"
 
 
+def last_sync_day(state: dict) -> date | None:
+    """The day of the previous successful sync: anything logged after it (a later weigh-in, sets edited in the app,
+    the rest of that day) must be pulled again."""
+    return date.fromisoformat(state["last_sync_at"][:10]) if state.get("last_sync_at") else None
+
+
 def sync_window(state: dict, start_override: date | None = None) -> list[date]:
     end = config.today()
     if start_override:
@@ -72,6 +82,8 @@ def sync_window(state: dict, start_override: date | None = None) -> list[date]:
         start = date.fromisoformat(state["complete_through"]) + timedelta(days=1 - OVERLAP_DAYS)
     else:
         start = date.fromisoformat(config.plan()["backfill_start"])
+    if not start_override and (last := last_sync_day(state)):
+        start = min(start, last)
     start = min(start, end)
     return [start + timedelta(days=i) for i in range((end - start).days + 1)]
 
@@ -157,7 +169,7 @@ def run(client: Garmin, state: dict, start_override: date | None = None) -> dict
             state["complete_through"] = complete.isoformat()
             store.save_state(state)
 
-    refresh_from = today - timedelta(days=OVERLAP_DAYS)
+    refresh_from = min(today - timedelta(days=OVERLAP_DAYS), last_sync_day(state) or today, window[0])
     n_acts = sync_activities(client, window[0], window[-1], refresh_from)
 
     state["last_sync_at"] = config.now().isoformat(timespec="seconds")

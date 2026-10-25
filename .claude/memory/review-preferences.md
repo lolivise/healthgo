@@ -34,12 +34,16 @@ Decided with Darren 2026-10-09:
   mention any flags in the verdict**, since that is now the only place he sees them. Don't reinstall the job
   without asking.
 
-- **Never analyse today (Darren, 2026-10-16):** "only include the data of the date that is already passed". Today's
-  steps, stress, Body Battery and meals are incomplete and pollute the analysis, so every review window ends
-  yesterday. Built into `prepare-week` and the checks via `config.last_complete_day()`.
-- **Except Sunday from 18:00 (Darren, 2026-10-18):** "if the review happens after 6 o'clock on Sunday it needs to
-  review everything". The week is done, so a Sunday-evening review covers the full Mon–Sun week including Sunday.
-  Before 18:00 a Sunday review still covers Mon–Sat.
+- **Review window (Darren, 2026-10-25, replaces the 10-16 "never analyse today" rule):**
+  - **Sunday from 18:00 = full review** of the whole Mon–Sun week incl. Sunday, against the last 4 weeks (10-18 rule, kept).
+  - **Any other time = mid-week review through today.** He trains in the morning, so today's weigh-in, workout and
+    last night's sleep/HRV/RHR count. Before 18:00 today's steps and stress are left out (day not over); from 18:00
+    they count ("I'll probably be at home already … get ready to bed, so there is no much activities after that").
+  - **A missed Sunday is caught up first:** if last week has no full review (likely on the trip), run that full
+    review first, send it to Telegram, then the mid-week one.
+  - Built into `healthgo review-plan`, `prepare-week` and the checks (`config.last_complete_day()` = today from 18:00).
+- **Every pull is stamped** (`state.last_pull`) and the next pull re-fetches from that day, so nothing logged after
+  the previous pull is missed (Darren, 2026-10-25: "make sure all the data is complete and there's nothing missing").
 
 **Why:** he wants the system to carry the tracking burden. Questions are acceptable only inside a
 review he chose to start.

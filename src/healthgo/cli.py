@@ -151,7 +151,7 @@ def cmd_check(args) -> int:
     from . import checks, db, notify
 
     db.build()
-    flags = checks.run(config.last_complete_day())
+    flags = checks.run(config.today())
     for f in flags:
         print(f"[{f.key}] {f.message}")
     if not flags:
@@ -173,6 +173,13 @@ def cmd_prepare_week(args) -> int:
     return 0
 
 
+def cmd_review_plan(args) -> int:
+    from . import weekly
+
+    print(json.dumps(weekly.review_plan(config.now()), ensure_ascii=False, indent=2))
+    return 0
+
+
 def cmd_pull(args) -> int:
     """What /review runs first: everything the old scheduled job did, minus the Telegram pings.
 
@@ -183,14 +190,25 @@ def cmd_pull(args) -> int:
 
     with sync_lock():
         state = store.load_state()
+        previous = state.get("last_pull")
+        started = config.now().isoformat(timespec="seconds")
         result = _do_sync(state)
         _pull_inbox()
         _refresh_menu()
         db.build()
         state = store.load_state()
-        flags = checks.run(config.last_complete_day())
+        # Every pull is stamped, so the next review can say what it covers since this one.
+        state["last_pull"] = {"at": started, "garmin": "ok" if result is not None else "failed",
+                              "garmin_window": state.get("last_sync_window") if result is not None else None,
+                              "inbox_last_id": state.get("inbox_last_id")}
+        store.save_state(state)
+        flags = checks.run(config.today())
         print(json.dumps({"sync": "ok" if result is not None else "failed",
+                          "previous_pull_at": (previous or {}).get("at") or state.get("last_sync_at"),
+                          "this_pull_at": started,
+                          "garmin_window": state["last_pull"]["garmin_window"],
                           "complete_through": state.get("complete_through"),
+                          "all_day_metrics_through": config.last_complete_day().isoformat(),
                           "flags": [f"{f.key}: {f.message}" for f in flags]}, ensure_ascii=False, indent=2))
         print("git:", gitops.commit_and_push(f"data: pull {config.today()}"))
     return 0 if result is not None else 1
@@ -209,7 +227,7 @@ def cmd_daily(args) -> int:
         db.build()
         today = config.today()
         if not config.in_trip(today):
-            for f in checks.run(config.last_complete_day()):
+            for f in checks.run(config.today()):
                 notify.alert_once(state, f.key, f"⚠️ healthgo 恢復警示\n{f.message}")
         sunday = weekly.latest_due_sunday(config.now())
         if sunday and not weekly.week_file(sunday).exists():
@@ -336,6 +354,9 @@ def main(argv: list[str] | None = None) -> int:
     w = sub.add_parser("prepare-week", help="write data/weekly/<ISO week>.json")
     w.add_argument("--week-end", help="the Sunday ending the week (YYYY-MM-DD)")
     w.set_defaults(fn=cmd_prepare_week)
+
+    sub.add_parser("review-plan", help="which reviews /review runs now: a missed full week first, then today's"
+                   ).set_defaults(fn=cmd_review_plan)
 
     sub.add_parser("pull", help="/review's first step: sync, inbox, menu, db, flags, commit & push (no pings)"
                    ).set_defaults(fn=cmd_pull)

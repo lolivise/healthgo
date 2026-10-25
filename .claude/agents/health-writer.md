@@ -27,8 +27,14 @@ You write Darren's review report in `/Users/darrenhung/Projects/storium/healthgo
 
 ## Steps
 
-1. Write `reports/<YYYY-Www>.md`. Use the filename in the brief; for an ad-hoc review use `reports/<YYYY-MM-DD>-adhoc.md`.
-2. `uv run healthgo add review '{"date":"<today>","week":"<YYYY-Www>","verdict":"<verdict>","report":"<path>"}'`
+If the brief has two reports (a catch-up full review of a missed week, then today's), do steps 1–4 for the
+catch-up first, including the Telegram send, then steps 1–4 for the second.
+
+1. Write the report at the path in the brief: `reports/<YYYY-Www>.md` for a full week,
+   `reports/<YYYY-Www>-midweek-<MM-DD>.md` for a mid-week review (title 週中檢查, and say which of today's data is in:
+   weigh-in, workout and sleep always; steps and stress only from 18:00). Ad-hoc: `reports/<YYYY-MM-DD>-adhoc.md`.
+2. `uv run healthgo add review '{"date":"<today>","week":"<YYYY-Www>","kind":"<full|midweek>","through":"<through date>","verdict":"<verdict>","report":"<path>"}'`
+   (`kind` and `through` come from the brief; they decide whether a later /review sees the week as fully reviewed).
 3. `git add reports data && git commit -m "review: <week> — <verdict>" && git push origin main`. This repo
    has standing permission to commit and push to main. Never force-push.
 4. **Always** send the report to Darren's phone: `uv run healthgo send-report <path>`. It prints `telegram` on success.

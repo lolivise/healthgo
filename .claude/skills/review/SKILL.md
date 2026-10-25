@@ -9,7 +9,7 @@ You (the main thread, **Opus**) are Darren's coach. You decide; Sonnet agents do
 `CLAUDE.md` → Model split). The output that matters is **one verdict he can act on this week**,
 grounded in his own numbers and bounded by his safety limits.
 
-Arguments: none → the default window below. `W41` / a date / "last 3 weeks" → that period. A free-text question →
+Arguments: none → the plan below. `W41` / a date / "last 3 weeks" → that period. A free-text question →
 answer it, but still run steps 1–3 first, because advice without fresh data is
 what this skill exists to prevent.
 
@@ -17,22 +17,35 @@ what this skill exists to prevent.
 recovery alerts or prepares weekly numbers on its own. **Every `/review` starts with a fresh pull** (step 2),
 so he can review any day. Start step 2 **at once, in parallel with step 1**: the pull takes a few minutes.
 
-**Today is not analysed** (Darren, 2026-10-16). Its steps, stress, Body Battery, training and meals are still
-incomplete and pollute the averages, so every window ends **yesterday**. Any extra query in a brief must use
-`date <= <last complete day>` too, and that includes today's morning weigh-in. Eating out today is asked about and
-recorded, but counts in the next review.
+## What gets reviewed (Darren, 2026-10-25; replaces the 10-16 "never today" rule)
 
-**Exception: Sunday from 18:00, today counts** (Darren, 2026-10-18). The week is done, so a Sunday-evening review
-covers the **full Mon–Sun week including Sunday** (its training, weigh-in and meals), and the report is not partial.
-Before 18:00 on Sunday the normal rule holds (Mon–Sat). `prepare-week` and the recovery checks get this from
-`config.last_complete_day()`; state that date in every brief as the last day to include.
+Run `uv run healthgo review-plan` first (instant). It decides, and you follow it rather than working out dates:
 
-**Default window** (weeks run Mon–Sun):
-- **Sunday from 18:00:** the current week, `--week-end <today>`, full week including today.
-- **Thu–Sun (before Sunday 18:00):** the current week, `--week-end <this coming Sunday>`, data through yesterday (always partial).
-- **Mon–Wed:** if the week that ended last Sunday has no review yet (check `reviews` / `reports/`), review
-  that full week, `--week-end <last Sunday>`, and mention the days since. Otherwise the current week, partial.
-- If the last review is more than 14 days old, say so and also ask the agent for the trend since then.
+- **Sunday from 18:00 → full review** (`target.kind = full`) of the whole Mon–Sun week including Sunday, with the
+  4 weeks before it as the baseline. The report is `reports/<YYYY-Www>.md`, the complete template.
+- **Any other time → mid-week review** (`target.kind = midweek`) of the current week **through today**. Report
+  `reports/<YYYY-Www>-midweek-<MM-DD>.md`, same template, headed 週中檢查. He trains in the morning, so today
+  already has:
+  - **always in:** this morning's weigh-in, today's workout and sets, last night's sleep, HRV and RHR, the wake-up
+    Body Battery peak, and meals he reports.
+  - **before 18:00, left out for today:** steps, stress and Body Battery low (the day isn't over). They count
+    through yesterday.
+  - **from 18:00, all in:** he's home and winding down, so today's steps and stress count too.
+  `target.all_day_metrics_through` is that cut-off; `prepare-week` and the checks already apply it. State both
+  dates in every brief: "everything through `target.through`, steps/stress/BB-low through `all_day_metrics_through`".
+- **A missed Sunday comes first** (`catch_up` not null): the week before the target's week has no full review
+  (e.g. on the trip he forgot Sunday evening). Run a **complete full review of that week first**, exactly as if it
+  were that Sunday 18:00 (through its Sunday, nothing from this week), **send it to Telegram**, then do the target
+  review. One pull and one eating-out question serve both.
+- **Older weeks also missed** (`older_weeks_without_full_review`): no separate reports. The catch-up full report's
+  近 5 週 table covers them; say in one line which weeks went unreviewed.
+- **Mid-week verdicts:** a mid-week review gives a verdict and analysis like any review, but diet and target changes
+  normally wait for the Sunday full review (one partial week is noisy). Change something mid-week only if a safety
+  limit or a health-guard red is hit.
+
+Every pull is stamped (`state.last_pull`). `pull` prints `previous_pull_at` and `this_pull_at`, and always re-pulls
+from the day of the previous pull, so nothing logged after it (a later weigh-in, sets edited in the app) is missed.
+Mention in the report which pull it rests on only if the Garmin sync failed.
 
 ## 1. Load context: Opus, quickly
 
@@ -44,13 +57,13 @@ Before 18:00 on Sunday the normal rule holds (Mon–Sat). `prepare-week` and the
 ## 2. Pull and gather numbers: `health-data` agent (Haiku)
 
 Spawn the `health-data` agent with a self-contained brief:
-- **pull first:** `uv run healthgo pull` (Garmin catch-up sync from the last complete day, Telegram inbox,
+- **pull first:** `uv run healthgo pull` (Garmin catch-up sync from the day of the previous pull, Telegram inbox,
   Cargill menu refresh, rebuild the db, recovery flags, commit & push). If it has been a long gap, the
   catch-up covers every missing day; a 429 midway is fine, the data on disk is used and the next pull resumes;
-- the week to prepare: `uv run healthgo prepare-week --week-end <Sunday>` from the default window above,
-  and whether it's partial. State the last complete day in the brief as the last day to include (yesterday, or
-  today on Sunday from 18:00);
-- **return the flags `pull` printed**, since no daily Telegram alerts exist any more;
+- the week(s) to prepare: the `prepare` command of `catch_up` (if any) **and** of `target` from `review-plan`, one
+  digest per week, catch-up first. Give each week's `through` and `all_day_metrics_through` as the last days to
+  include in any extra query;
+- **return the flags `pull` printed** and its `previous_pull_at` / `this_pull_at`, since no daily Telegram alerts exist any more;
 - any extra questions this review needs answered, e.g. "e1RM per week for squat/bench/deadlift since
   2026-07-15", "weekly RHR since the cut began".
 
@@ -93,7 +106,10 @@ Work through `reference.md` → **Decision rules**:
 - **Limits:** every change is checked against `safety-limits.md`. His fat intake is below the floor, so that's
   the first lever.
 
-Settle the following:
+With a catch-up, decide that week first, on its own numbers only, then decide the target review building on it
+(its changes are what he's following now).
+
+Settle the following (per review):
 - **The verdict:** 繼續減脂 / 放慢速度 / 安排休息週 / 調整飲食.
 - **3 reasons**, with his numbers.
 - **What to change this week:** food quantities, training tweaks, shoulder notes.
@@ -104,7 +120,8 @@ If you are not running on Opus, give this step to a `general-purpose` agent with
 ## 5. Write it up: `health-writer` agent (Sonnet)
 
 Spawn `health-writer` with a self-contained brief containing:
-- the report path (`reports/<YYYY-Www>.md`)
+- the report path, `kind` (full / midweek) and `through` date from `review-plan`. With a catch-up, one brief holds
+  both reports in order: **catch-up first, written, committed and sent to Telegram, then the target report**
 - the **final verdict, reasons and changes** (in English or 繁中; it writes 繁中)
 - every number the report should show (paste the relevant digest lines)
 - anything to emphasise or leave out

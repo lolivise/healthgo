@@ -58,8 +58,10 @@ def rate_cap_pct_per_week(con, end: date) -> float | None:
     return None
 
 
-def run(through: date) -> list[Flag]:
-    """Checks over days up to and including `through`, which must be a finished day (see config.last_complete_day)."""
+def run(through: date, day_through: date | None = None) -> list[Flag]:
+    """Checks over days up to and including `through` (today counts: sleep, HRV, RHR and the morning weigh-in are in).
+    All-day metrics (stress) stop at `day_through`, default `config.last_complete_day()`."""
+    day_through = min(day_through or config.last_complete_day(), through)
     a = config.plan()["alerts"]
     flags: list[Flag] = []
     con = db.connect()
@@ -86,8 +88,8 @@ def run(through: date) -> list[Flag]:
         flags.append(Flag("bb_low", f"身體能量 (Body Battery) 最近幾天最高只到 {max(bb)}，"
                                     f"連續低於 {a['body_battery_high_below']}。身體沒有充好電。"))
 
-    recent = _series(con, "avg_stress", through - timedelta(days=6), through)
-    base = _baseline(con, "avg_stress", through)
+    recent = _series(con, "avg_stress", day_through - timedelta(days=6), day_through)
+    base = _baseline(con, "avg_stress", day_through)
     if len(recent) >= 5 and len(base) >= 14 and mean(recent) - median(base) >= a["stress_rise"]:
         flags.append(Flag("stress_up", f"壓力指數近 7 天平均 {mean(recent):.0f}，比你平常的 {median(base):.0f} "
                                        f"高 {mean(recent) - median(base):.0f}。"))

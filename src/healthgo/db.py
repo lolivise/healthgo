@@ -41,7 +41,7 @@ CREATE TABLE eating_out (
   protein_g REAL, fat_g REAL, carb_g REAL, source TEXT, kcal_basis TEXT
 );
 CREATE TABLE bloodwork (date TEXT, raw TEXT);
-CREATE TABLE reviews (date TEXT, week TEXT, verdict TEXT, report TEXT);
+CREATE TABLE reviews (date TEXT, week TEXT, verdict TEXT, report TEXT, kind TEXT, through TEXT);
 CREATE TABLE notes (date TEXT, text TEXT);
 CREATE VIEW strength_top AS
   SELECT date, exercise, MAX(weight_kg) AS top_kg, MAX(e1rm_kg) AS best_e1rm_kg, COUNT(*) AS sets
@@ -181,8 +181,8 @@ def build() -> dict:
     for r in store.read_jsonl(config.MANUAL / "bloodwork.jsonl"):
         con.execute("INSERT INTO bloodwork VALUES (?,?)", (r["date"], json.dumps(r, ensure_ascii=False)))
     for r in store.read_jsonl(config.MANUAL / "reviews.jsonl"):
-        con.execute("INSERT INTO reviews VALUES (?,?,?,?)", (r["date"], r.get("week"), r.get("verdict"),
-                                                             r.get("report")))
+        con.execute("INSERT INTO reviews VALUES (?,?,?,?,?,?)", (r["date"], r.get("week"), r.get("verdict"),
+                                                                 r.get("report"), r.get("kind"), r.get("through")))
     for r in store.read_jsonl(config.MANUAL / "notes.jsonl"):
         con.execute("INSERT INTO notes VALUES (?,?)", (r["date"], r.get("text")))
 

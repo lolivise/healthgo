@@ -130,6 +130,26 @@ characters per line). Write for that screen:
 - 14 天趨勢：−0.81 %/週
 - 估計體脂：約 25 %（粗估）
 
+## 近 5 週
+| 週 | 平均體重 | 變化 |
+|---|---|---|
+| W37 | 92.4 kg | — |
+| W38 | 91.9 kg | −0.5 |
+…（`last_5_weeks`，每週一行；有未做完整 review 的週，在表下用一行標出）
+- 睡眠 (sleep)、靜息心率 (RHR)、壓力 (stress) 只寫明顯的變化，一項一行
+```
+
+A **mid-week review** (`reports/<YYYY-Www>-midweek-<MM-DD>.md`) uses the same template, with this header:
+
+```markdown
+# 週中檢查 2026-W44（10/26 – 10/28）
+今天的體重、訓練、昨晚睡眠已計入
+步數、壓力只算到 10/27（18:00 前）
+飲食調整原則上等週日完整 review
+```
+
+```markdown
+
 ## 力量 (Strength)
 …（每個動作一行：重量 × 次數、e1RM、對照；對照 W41 起的數字，下降就寫下降（不寫「刻意放輕」）；肩推 (OHP) 狀況）
 

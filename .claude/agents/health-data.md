@@ -19,17 +19,18 @@ controller (Opus) makes every judgment, so **report numbers, not opinions.** Nev
    `uv run healthgo status`, and continue with the data on disk. Copy the `flags` it prints into FLAGS.
 2. `uv run healthgo prepare-week` (or `--week-end <Sunday>` if the brief gives one), then read the
    `data/weekly/<week>.json` it prints.
-3. Run any extra queries the brief asks for with `sqlite3 -header -column data/healthgo.db "…"`. **Stop at the last
-   complete day the brief gives**: normally yesterday (today's steps, stress, Body Battery are still filling in),
-   so queries end at `date <= <yesterday>`, today's weigh-in included. Exception: on Sunday from 18:00 today counts
-   and queries end at `date <= <today>`. `prepare-week` already does this. Tables:
+3. Run any extra queries the brief asks for with `sqlite3 -header -column data/healthgo.db "…"`. **Respect the two
+   cut-offs the brief gives**: weights, sets, activities, meals, sleep, HRV and RHR run through `through` (today
+   included, since he weighs in and trains in the morning); steps, stress and Body Battery low run through
+   `all_day_metrics_through` (yesterday before 18:00, today from 18:00). `prepare-week` already does this. Tables:
    `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history only), `eating_out`, `bloodwork`,
    `reviews`, `notes`; view `strength_top`. Useful queries are in `.claude/skills/review/reference.md`.
 
 ## Return format (plain text, ≤ 60 lines, no raw JSON dumps)
 
 ```
-DATA STATUS: complete_through=…, sync=<ok|failed: reason>, week=<YYYY-Www> <range>, partial=<yes/no>
+DATA STATUS: complete_through=…, sync=<ok|failed: reason>, previous_pull_at=…, this_pull_at=…, week=<YYYY-Www> <range>, all_day_metrics_through=…, partial=<yes/no>
+LAST 5 WEEKS (from last_5_weeks): one line per week: avg kg (change), weigh-ins, sleep h, RHR, HRV, stress, steps, eat-out kcal
 WEIGHT: avg wk …, prev wk …, change … kg (…%), trend14 …%/wk, trend28 …%/wk, weigh-ins …, lost since cut …
 MAINTENANCE EST: … kcal
 EATING OUT recorded this week: …

@@ -43,16 +43,17 @@ def today() -> date:
     return now().date()
 
 
-SUNDAY_CLOSE_HOUR = 18
+EVENING_HOUR = 18
 
 
 def last_complete_day() -> date:
-    """Yesterday, since today's steps, stress and Body Battery are still filling in. Exception: from 18:00 on Sunday
-    the week is treated as done and today counts, so a Sunday-evening review covers the full Mon–Sun week."""
+    """The last day whose all-day metrics (steps, stress, Body Battery low) are final enough to count.
+
+    From 18:00 that is today on any day (Darren is home and winding down, Darren 2026-10-25), otherwise yesterday.
+    Overnight and morning data (sleep, HRV, RHR, the morning weigh-in, the morning workout) count up to today regardless:
+    see `weekly.prepare`."""
     n = now()
-    if n.weekday() == 6 and n.hour >= SUNDAY_CLOSE_HOUR:
-        return n.date()
-    return n.date() - timedelta(days=1)
+    return n.date() if n.hour >= EVENING_HOUR else n.date() - timedelta(days=1)
 
 
 def in_trip(d: date) -> bool:
