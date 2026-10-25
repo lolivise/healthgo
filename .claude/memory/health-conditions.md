@@ -1,11 +1,27 @@
 ---
 name: health-conditions
-description: Hepatitis B (controlled, liver), right shoulder that flares on heavy overhead press, bloodwork twice a year — all normal as of 2026-10
+description: Hepatitis B controlled ON ENTECAVIR (antiviral, never stop), right shoulder that flares on heavy overhead press, bloodwork twice a year — all normal as of 2026-10
 metadata:
   type: user
 ---
 
 - **Hepatitis B, liver issues, under control** (reported 2026-10-09). Implications:
+  - ⭐ **He takes an antiviral: Entecavir-WGR** (entecavir, generic; told 2026-10-25, link:
+    safetyandquality.gov.au/medicine-finder/entecavir-wgr). **0.5 mg once daily at ~10:30 am** (breakfast finishes ~8:30, lunch starts after 12:30, so the window holds).
+    ⛔ **He tracks the timing himself carefully (2026-10-25): don't remind him or check it in reviews.** Only keep the
+    8:30–12:30 food gap intact when proposing any meal-timing change.
+    From the Australian CMI (read 2026-10-25):
+    - **Empty stomach: ≥2 h after a meal and ≥2 h before the next**, same time every day. The protein shake, energy bar
+      and yogurt all count as food. Any change to meal timing (rice packs, eat-out, trip) must keep that window.
+    - **Never stop it or lower the dose without his doctor.** Stopping is the best-documented trigger of a severe flare
+      ([[evidence-inflammation-immunity-hepb]]). Missed dose: take when remembered unless the next is near; never double.
+    - Tell every doctor, dentist and pharmacist; supplements count. Store below 25 °C in the blister (not the car).
+    - Lactic acidosis (rare, mostly in seriously ill patients) shows as **very weak/tired, unusual muscle pain, feeling
+      cold, dizziness, fast heartbeat, nausea**. These overlap with a hard cut, so never write them off as "just the
+      deficit" in a review: several together, or new and severe → doctor.
+    - Dose is adjusted for kidney function, and **creatine lowers the lab eGFR** without kidney harm ([[supplements]]):
+      the doctor must know about the 5 g/day so it doesn't trigger a wrong dose change.
+    - Interpreting tests: on entecavir the goal is undetectable HBV DNA; ALT ≤30 U/L is the male "normal".
   - **Never suggest new supplements** beyond what he already takes. The full list and its flags are in [[supplements]].
     Fat burners, high-dose green tea extract and many pre-workouts are hepatotoxic.
   - Very fast loss raises gallstone risk, which is one reason for the 1%/wk cap in [[safety-limits]].

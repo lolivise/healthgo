@@ -43,3 +43,7 @@ don't read a small creatinine rise as kidney damage on its own; cystatin C is th
 
 **How to apply:** don't suggest new supplements ([[health-conditions]]). Re-check this list if he reports
 tingling, GI issues or new liver results. Changes to it are his or his doctor's call.
+
+**Creatine × entecavir (2026-10-25):** he takes entecavir for Hep B ([[health-conditions]]), whose dose is adjusted when
+kidney function (CrCl/eGFR) is low. Creatine's falsely low eGFR therefore matters more than a lab curiosity: always tell
+the prescriber about the 5 g/day, and if eGFR ever comes back low, ask for cystatin C before any dose change.

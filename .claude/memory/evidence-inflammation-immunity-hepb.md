@@ -47,7 +47,7 @@ future plans and weekly reviews. Full 繁中 report: `research/reports/慢性發
 ## Hepatitis B
 - **Flare triggers with evidence:** stopping nucleos(t)ide antivirals (tenofovir stop → 70 % virological relapse in
   12 wk; severe flare 1.2 %, 3.6 % with cirrhosis; EASL 2025 [V]) and immunosuppression (steroids, rituximab). No
-  evidence colds, exercise or a deficit trigger flares. ⚠️ **Unknown whether he is on antivirals**: ask.
+  evidence colds, exercise or a deficit trigger flares. ✅ **He is on entecavir** (told 2026-10-25, details in [[health-conditions]]), so never stopping it is his #1 flare rule.
 - **Normal ALT for men = ≤30 U/L** (EASL 2025, WHO 2024), not the lab's 40. A rise during the cut can be the transient
   diet bump or a flare; only HBV DNA tells them apart.
 - Monitoring (EASL 2025): inactive pattern → ALT + HBV DNA every 12 months, fibrosis check every 2–3 y; higher DNA → 6-monthly.
