@@ -47,12 +47,18 @@ an industry-funded 2017 review of guidelines called sugar advice untrustworthy (
 | SSB umbrella | class I for CVD, T2D, uric acid, kidney stones; class II NAFLD, caries | Annu Rev Nutr 2024, 47 MAs (PMID 39207876) [V] | observational only |
 | Liver outcomes | ≥1 SSB/day: liver cancer HR 1.85, chronic liver disease death HR 1.68; diet drinks null | WHI, 98,786 women (PMID 37552302) [V] | women 50–79, small event counts, no HBV subgroup |
 | Teeth | <10 % kcal lower caries (moderate); <5 % lower still (very low) | Moynihan & Kelly 2014, 55 studies, no pooling (PMID 24323509) [V] | mostly observational |
+| **Very low sugar (U-shape)** | added sugar & death: lowest at 7.5–10 % kcal; >20 % +30 %; **<5 % +23 %** (MDCS) / +9 % ns (NSHDS); SSB ↑ death, "treats" ↓ | Ramne 2019 AJCN, 2 Swedish cohorts n≈48,700 (PMID 30590448) [V] | observational, FFQ, low eaters had *healthier* lifestyle → reverse causation/misreporting likely; same Lund group throughout |
+| U-shape follow-ups | CVD: lowest added-sugar group highest AF/aortic stenosis risk; treats inverse, SSB positive | Janzi 2020 (PMID 33425973), 2024 n=69,705 (PMID 39717036) [V] | same group; "treats protective" unexplained |
+| Low end, other checks | pooled cohorts: risk rises only from >10 % kcal (total sugar, fructose); added sugar null | Huang 2023 MA (PMID 37182401) [V]; genetics: sugar-intake genes track ↑TG, ↓HDL, ↑stroke/AF (Janzi 2025, PMID 41056811) [V] | genetic correlation ≠ causal MR, but points against a protective low end |
 | Hep B + sugar | **no data found** | — | gap |
 
 ## Hype spotted
 "Sugar causes hyperactivity" — 23 blinded studies, all CIs include 0 (Wolraich 1995, PMID 7474248) [V]. "Sugar feeds
 cancer" — no human evidence beyond obesity [S]. "Sugar is addictive like drugs" — rodent data ([[evidence-food-combinations]]).
 Huang's "<25 g/day" is often quoted as proven; the paper's own grading says low/very-low for most outcomes.
+"Zero sugar = longest life" is unproven, and so is the reverse: Ramne's <5 % excess risk (10-26 follow-up) is one
+group's observational signal, not shown in pooled cohorts or genetics. Read it as "no benefit from going to zero",
+not "eat more sugar".
 
 ## How it applies to Darren (2026-10-26)
 **No plan change.** 35 g/day, solid, fixed portions, in a deficit: below every 10 % line; the harm mechanisms (excess
