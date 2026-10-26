@@ -1,6 +1,6 @@
 ---
 name: evidence-diet-patterns
-description: Popular diets checked (researched 2026-10-26) — 16:8, 20:4/OMAD, 3–7-day fasts, keto, small frequent meals; none beats plain calorie restriction when calories match; for him no change, multi-day fasts and keto are a no; 16:8 only as a trip adherence option
+description: Popular diets checked (researched 2026-10-26) — 16:8, 20:4/OMAD, 3–7-day fasts, keto, small frequent meals; none beats plain calorie restriction when calories match; for him no change; multi-day fasts and keto are a no; 16:8 declined by him 2026-10-26
 metadata:
   type: reference
   sector: fat-loss
@@ -38,7 +38,7 @@ No human data on fasting in treated HBV (Ramadan studies excluded HBV). Unknown,
 **No change.** His plan already is the evidence-best form: fixed calories, ~40 g protein × 4 feedings, carbs around
 training. **Multi-day fasts: no** (breaks the 1,700 kcal and EA floors in [[safety-limits]], ~60 % lean loss, Hep B
 unknown). **Keto: no** (lean-mass penalty in lifters, high-volume training needs glycogen, LDL unchecked on eggs
-[[evidence-eggs-and-cholesterol]]). **20:4: no** (protein, BP/LDL). **16:8: optional, trip only**: a late-start window
-(first meal ~12:00) suits entecavir at 10:30 and may limit overeating in Taiwan ([[trip-taiwan-2027]]). Decide when planning the trip, not now.
+[[evidence-eggs-and-cholesterol]]). **20:4: no** (protein, BP/LDL). **16:8: declined by him 2026-10-26** ("don't think it
+change much"). He weighed early TRE with the same food, dinner by 16:30; at equal kcal it adds no fat loss. Don't re-propose it, for the trip either, unless he asks.
 
 Related: [[evidence-cutting]], [[evidence-fasted-exercise]], [[daily-diet-baseline]], [[health-conditions]], [[research-purpose]]
