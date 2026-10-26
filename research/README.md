@@ -119,6 +119,9 @@ turns out wrong (eggs and cholesterol), so each file states the old belief and w
 | `evidence-supplement-claims` | 2026-10-26 |
 | `evidence-food-combinations` (糖油混合物 sugar+fat, carb+protein food combining, 食物相剋) | 2026-10-26 |
 | `evidence-sugar` (limits, minimum, liver fat, liquid vs solid) | 2026-10-26 |
+| `evidence-sweeteners` (aspartame, sucralose, ace-K, erythritol: weight, glucose, liver, cancer headlines) | 2026-10-26 |
+
+Reports: `nutrition/代糖 人工甜味劑.md`.
 
 ## Known gaps for the first quarterly review
 

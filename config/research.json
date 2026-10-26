@@ -76,7 +76,8 @@
         "(\"nicotinamide mononucleotide\" OR \"nicotinamide riboside\" OR resveratrol OR spermidine OR \"apple cider vinegar\" OR \"conjugated linoleic acid\" OR garcinia OR \"raspberry ketone\" OR \"green coffee\") AND (\"weight loss\" OR \"fat loss\" OR aging OR longevity)",
         "(\"vitamin D\" OR probiotic OR melatonin OR zinc OR \"vitamin C\") AND supplementation AND (\"weight loss\" OR immunity OR infection OR sleep OR \"muscle strength\")",
         "(\"hyper-palatable\" OR hyperpalatable OR \"ultra-processed\" OR ultraprocessed OR \"fat and sugar\" OR \"fat and carbohydrate\") AND (\"energy intake\" OR \"food reward\" OR \"weight gain\" OR \"liver fat\")",
-        "(\"food combining\" OR \"meal sequence\" OR \"protein preload\" OR \"mixed meal\") AND (glucose OR insulin OR \"weight loss\")"
+        "(\"food combining\" OR \"meal sequence\" OR \"protein preload\" OR \"mixed meal\") AND (glucose OR insulin OR \"weight loss\")",
+        "(\"non-nutritive sweetener*\" OR \"artificial sweetener*\" OR \"low-calorie sweetener*\" OR aspartame OR sucralose OR acesulfame OR erythritol OR stevia OR \"artificially sweetened beverage*\") AND (\"body weight\" OR glucose OR insulin OR microbiota OR cancer OR liver OR cardiovascular OR mortality OR platelet)"
       ]
     }
   }

@@ -71,7 +71,9 @@ Chia is in the shake, not the yogurt. The cocoa and coffee add **≈36 kcal/day*
 
 **Labels checked from photos 2026-10-09:**
 - Yogurt is Coles Simply strawberry, sweetened, per 100 g: 92 kcal, 4.4 P, 1.7 F, 14.2 C, 12 g sugar.
-- Whey (chocolate) per 100 g: 401 kcal, 79 P, 5 F, 10 C. A label scoop is 30.4 g; he uses 50 g ≈ 1.6 scoops.
+- Whey = Optimum Nutrition Gold Standard 100% Whey, Double Rich Chocolate (2.27 kg, Chemist Warehouse); sweetened with
+  sucralose + ace-K (UK/EU label, not checked on the AU tub), see [[evidence-sweeteners]]. Diet soft drinks: Coke Zero +
+  Pepsi Max ≈1.25 L/week (Darren, 2026-10-26). Whey (chocolate) per 100 g: 401 kcal, 79 P, 5 F, 10 C. A label scoop is 30.4 g; he uses 50 g ≈ 1.6 scoops.
 - The energy bar is Nestlé chewy choc chip, 31.3 g: 122 kcal, 2.2 P, 3.6 F, 18.7 C.
 
 These match the table above.
