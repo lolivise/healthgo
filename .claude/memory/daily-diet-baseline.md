@@ -166,6 +166,12 @@ Related: [[cutting-goal-2026]]
 measurement stays clean. Walnuts 20 g unchanged (LA stays at the AI). If the 11-08 review brings maintenance forward,
 the extra oil is part of the maintenance kcal. See [[safety-limits]], [[evidence-rapid-loss-harms]].
 
+**Sugar (computed 2026-10-26, Darren asked):** free/added sugar ≈ **35 g/day** = strawberry yogurt ~22 g (12 g/100 g label
+minus ~5 g lactose) + choc-chip bar ~9 g (label sugar not on file, estimate) + marinade honey/char siu ~3.6 g (30 %) + whey ~1–2 g.
+At 2,520 kcal that is **≈5.6 % of energy**: well under WHO / Taiwan HPA <10 % (63 g), at the AHA men's 36 g, just over WHO's
+conditional <5 % (31 g). Total sugars incl. lactose + veg ≈ 60 g (no limit applies). **No change**; plain-yogurt swap (−~20 g) stays
+optional, never inside the 10-26 → 11-08 TDEE window. Eating out (手搖飲 全糖 ≈ 50–60 g/cup) is where it can blow past 10 %.
+
 **Eating order (2026-10-25, adopted):** at the rice meals (breakfast and lunch) eat **vegetables → chicken/eggs → rice
 last**. No change to amounts or kcal. Evidence: carbs-last −53 % glucose iAUC in T2D (Shukla 2017), thin in healthy
 adults; free habit, nothing to track. See [[evidence-ikeya-anti-aging]].
