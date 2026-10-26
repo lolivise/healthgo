@@ -117,6 +117,7 @@ turns out wrong (eggs and cholesterol), so each file states the old belief and w
 | `evidence-eggs-and-cholesterol` | 2026-10-26 |
 | `evidence-supplements` | 2026-10-26 |
 | `evidence-supplement-claims` | 2026-10-26 |
+| `evidence-food-combinations` (糖油混合物 sugar+fat, carb+protein food combining, 食物相剋) | 2026-10-26 |
 
 ## Known gaps for the first quarterly review
 
