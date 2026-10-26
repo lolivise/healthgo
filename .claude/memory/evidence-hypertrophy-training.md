@@ -16,6 +16,7 @@ The Load, Failure and Long-length rows are superseded by [[evidence-load-reps-st
 | Topic | Evidence | Strength |
 |---|---|---|
 | Volume | Pelland 2024/25 dose-response meta-regression (67 studies) [V]: growth rises with sets on a diminishing curve; biggest gains up to ~12 sets/muscle/wk, smaller to 18–24; ~11 sets/session plateau | strong |
+| Frequency | Schoenfeld 2019 (25 studies, PMID 30558493) [V]: volume-equated, frequency makes no meaningful difference to hypertrophy, trained or not. Pelland 2025 (PMID 41343037) [V]: frequency effect on hypertrophy compatible with negligible; on strength real, diminishing | strong |
 | Maintenance dose | Bickel 2011 [M]: 1/9 of the volume, 1 day/wk kept size for 32 wk. Spiering 2021 review [M]: ~1/3 of volume, ≥1 session/wk, keep intensity | moderate |
 | Failure | Robinson 2024 Sports Med [V]: hypertrophy improves closer to failure; strength barely. Refalo 2023 [M]: failure ≈ non-failure. Default **1–2 RIR** | moderate |
 | Load | Lopez 2021 [M]: ~30–85 % 1RM gives similar hypertrophy if sets are hard. Heavier is better for strength | strong |
@@ -28,5 +29,9 @@ The Load, Failure and Long-length rows are superseded by [[evidence-load-reps-st
 
 **How to apply:**
 - In a deficit, keep the volume he has (~10–16+ hard sets/muscle/wk). If recovery drops, cut sets, not intensity.
+- **Bulk with 4 lifting days (asked 10-26):** fine for hypertrophy if weekly hard sets per muscle stay the same. Lift
+  on WFH days + weekend, walk on the 3 office days. Move the dropped day's sets into the other 4, keep any one muscle
+  ≤~11 hard sets per session, keep the shoulder's 72 h gap. Cost: a little strength progress, ~300 kcal/wk less burn
+  (fold into the surplus by weight trend). Not decided as a schedule yet; set it when the bulk is planned.
 - Holiday minimum: 1–2 short full-body sessions/week near failure hold muscle. 5 weeks of light training costs little.
 - Related: [[evidence-cutting]], [[training-routine]], [[health-conditions]].
