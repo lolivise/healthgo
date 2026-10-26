@@ -1,6 +1,6 @@
 ---
 name: knowledge-review
-description: Quarterly review of Darren's health knowledge base — pulls the new PubMed research for each sector (fat-loss, training, medical, aging) with a script, Sonnet workers screen it against the evidence memories, Opus decides what changes and rewrites the evidence in place so it stays lean. Trigger on /knowledge-review, "review the knowledge base", "quarterly research review", "is our research still current".
+description: Quarterly review of Darren's health knowledge base — pulls the new PubMed research for each sector (fat-loss, training, medical, aging, nutrition) with a script, Sonnet workers screen it against the evidence memories, Opus decides what changes and rewrites the evidence in place so it stays lean. Trigger on /knowledge-review, "review the knowledge base", "quarterly research review", "is our research still current".
 ---
 
 # /knowledge-review
@@ -12,12 +12,19 @@ split). The sectors, searches and last-review dates are in `config/research.json
 Arguments: none → every quarterly sector that is due (`last_reviewed` ≥ ~3 months ago; ask once if none is due).
 A sector name → only that sector.
 
+**A new question in a sector** (e.g. "how many eggs a day?") uses the same split: a `health-research` agent pulls with
+`--since` a few years back and returns findings for a topic with no evidence file yet; Opus writes the new evidence file
+(≤ ~50 lines, `sector:` tag, `MEMORY.md` pointer) and adds it to the sector's table in `research/README.md`.
+
 ## The lean rule (Darren, 2026-10-26)
 
 Research accumulates and science corrects itself, so the knowledge base holds **the current best answer, not a
 history**:
 - An evidence file is rewritten in place. A contradicted row is **replaced**, never kept next to its correction.
   A refined row gets the new number. Confirming papers change nothing except, sometimes, the strength grade.
+- **Myths get one row, not a history.** When the current answer overturns a belief people still hold (eggs and
+  cholesterol), the file keeps a single `Old belief → now` row with the deciding evidence: it is the answer Darren needs
+  when someone repeats the old line. Everything else about the old view goes.
 - What changed and why goes in **one line** in `research/<sector>/CHANGELOG.md`
   (`YYYY-MM-DD · evidence-file · row: old → new (PMID)`). Git keeps the rest.
 - **Budget: each evidence file ≤ ~50 lines.** If an edit pushes it past that, merge or drop the weakest rows.
@@ -55,5 +62,10 @@ Then write each sector's `CHANGELOG.md` lines, check the budgets (`wc -l .claude
 
 - `rm research/*/reviews/*-pulled.md`.
 - Commit and push (`git add .claude config research && git commit -m "knowledge: <quarter> review (<sectors>)" && git push origin main`).
-- Reply to Darren in **繁中**, short: per sector, what changed (one line each), proposals waiting for his OK, PDFs worth
-  getting (paywalled papers the agents flagged). If nothing changed in a sector, say so in one line.
+- Reply to Darren in **繁中**, short. The research exists to change his plan (Darren, 2026-10-26), so lead with:
+  1. **對你計畫的影響**: what this changes in his diet, training, supplements or limits, or "no change" and why.
+  2. **值得一試**: things worth trying, with the evidence grade. Food, training and habit changes are proposals he can
+     adopt; **a new supplement is only ever "ask your doctor"** (Hep B, [[health-conditions]]).
+  3. **Hype spotted**: popular claims the review found weak, and what is wrong with the evidence (one line each).
+  Then per sector what changed (one line each), proposals waiting for his OK, PDFs worth getting. If nothing changed
+  in a sector, say so in one line.

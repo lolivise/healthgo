@@ -17,6 +17,7 @@
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg; BF scale/DEXA researched & declined 2026-10-23
 - [Performance first](performance-first.md) — main goal = body in good shape; judge the cut by strength/cardio/recovery before the scale; performance drop alone → slow the cut
 - [Christmas party 2026](event-christmas-party-2026.md) — Fri 12-04 dress-up; projection 10-25: ~87 kg at plan pace, ~85.2 kg at the 0.7 %/wk cap (ceiling, not a target)
+- [Research purpose](research-purpose.md) — research ends in 對你計畫的影響 + 值得一試 + hype spotted; flag weak studies; new supplements only via doctor (10-26)
 - [Evidence · fat-loss: cutting](evidence-cutting.md) — 2023–26 base: deficit ≤~500 kcal, protein, fat floor, diet breaks, adaptation, EA, sleep, stop signs (split from cut-and-training 10-26)
 - [Evidence · fat-loss: too-fast loss](evidence-rapid-loss-harms.md) — 2023–26: cap 0.7 %/wk now, 0.5 % ≤84 kg; EA = intake − Garmin activity kcal ≥1,700; side effects + signals; his first 13 wk EA ≈23 (low), 2,520 → ≈30; all 4 proposals adopted 10-25
 - [Evidence · fat-loss: max fat-loss rate](evidence-max-fat-loss-rate.md) — Alpert 2005 ≈69 kcal/kg fat/day ceiling (model, untested); his %/wk caps always sit below it → no change (10-25)
@@ -32,3 +33,6 @@
 - [Evidence · aging: exercise & aging](evidence-exercise-and-aging.md) — 池谷敏郎 never said exercise ages you; Miyachi 2004 heavy RT stiffens carotid ~20 %, reversible, cancelled by aerobic; RT + aerobic = −40 % mortality; plan unchanged, never cut cardio for lifting, exhale on effort
 - [Evidence · aging: facial aging](evidence-facial-aging.md) — "fast loss destroys collagen" = myth; face change tracks total loss + age >40, rate never studied; UV is the main cause → SPF50+ every day UV ≥3, tretinoin later via GP
 - [Evidence · aging: 池谷敏郎 claims](evidence-ikeya-anti-aging.md) — ~49 book claims checked: direction right, numbers inflated; his supplements all off-limits; adopted 10-25: 40–42 °C bath/shower 1–2 h before bed (judge sleep at review ≥11-08), eat veg → chicken → rice
+- [Evidence · nutrition: eggs & cholesterol](evidence-eggs-and-cholesterol.md) — ≤1/day no harm anywhere, 2/day no LDL change in most RCTs, US harm = what eggs come with; Asia null; his 2–4/day fine, check LDL/apoB next blood test (10-26)
+- [Evidence · nutrition: his supplements](evidence-supplements.md) — creatine works (eGFR drop = artefact, tell entecavir prescriber); whey small; fish oil 1.2 g safe cell; CoQ10/Mg/multivitamin no proven gain; ginseng the only Hep B-uncleared item (10-26)
+- [Evidence · nutrition: supplement hype check](evidence-supplement-claims.md) — ~30 popular supplements: only creatine/whey/caffeine work for a lifter; T-boosters, fat burners, NAD+ pills = myth/marker-only; liver red flags for Hep B; ask doctor: 25-OH vit D, melatonin only if bath trial fails (10-26)

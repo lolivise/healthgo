@@ -169,8 +169,11 @@ def cmd_pubmed(args) -> int:
     sectors = args.sector or [s for s, v in pubmed.research()["sectors"].items() if v["cadence"] == "quarterly"]
     since = date.fromisoformat(args.since) if args.since else None
     until = date.fromisoformat(args.until) if args.until else None
+    if args.out and len(sectors) != 1:
+        raise SystemExit("--out needs exactly one --sector")
+    out = Path(args.out) if args.out else None
     for s in sectors:
-        print(json.dumps(pubmed.pull(s, since, until), ensure_ascii=False))
+        print(json.dumps(pubmed.pull(s, since, until, out), ensure_ascii=False))
     return 0
 
 
@@ -370,6 +373,7 @@ def main(argv: list[str] | None = None) -> int:
     pm.add_argument("--sector", action="append", help="one sector (repeatable); default: every quarterly sector")
     pm.add_argument("--since", help="YYYY-MM-DD; default: the sector's last_reviewed")
     pm.add_argument("--until", help="YYYY-MM-DD; default: today")
+    pm.add_argument("--out", help="output file (one sector only); default: research/<sector>/reviews/<quarter>-pulled.md")
     pm.set_defaults(fn=cmd_pubmed)
 
     sub.add_parser("review-plan", help="which reviews /review runs now: a missed full week first, then today's"

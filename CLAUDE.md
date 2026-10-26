@@ -80,7 +80,7 @@ eating out, and `/feel` + notes via Telegram.
 | `reports/YYYY-Www.md` | Weekly reviews (繁中) |
 | `config/plan.json` | Targets, trip dates, events, safety and alert thresholds, strength baseline + excluded sessions, lean-mass estimate |
 | `config/research.json` | Research sectors: PubMed searches, cadence, `last_reviewed` |
-| `research/<sector>/` | Full research reports (繁中) + `notes/`, filed by sector (`fat-loss`, `training`, `medical`, `aging`, `measurement`, `food`). Index and quarterly-review scope: `research/README.md`. Distilled findings are the `evidence-*` memories, tagged `sector:` |
+| `research/<sector>/` | Full research reports (繁中) + `notes/`, filed by sector (`fat-loss`, `training`, `medical`, `aging`, `measurement`, `food`, `nutrition`). Index and quarterly-review scope: `research/README.md`. Distilled findings are the `evidence-*` memories, tagged `sector:` |
 | `bin/healthgo-job` | old launchd entry point → `healthgo daily` (job removed 2026-10-12) |
 | `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer`, `health-research` (see Model split) |
 | `friends/tom/` | Training notes for Darren's friend Tom (T2 diabetes on GLP-1, hunched posture, beginner): profile and safety, 2-day plan, session log. Not part of the pipeline; Darren's own memory and safety limits don't apply to him |

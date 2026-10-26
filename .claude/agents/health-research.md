@@ -39,6 +39,10 @@ when it could change advice for someone like him.
    - **CONFIRMS**: no wording change. Count only, unless it upgrades the strength grade.
    Weigh: meta-analysis of RCTs > single RCT > observational. A single small trial never overturns a meta-analysis;
    say "contested" instead.
+   **Flag weak evidence** (Darren, 2026-10-26: popular claims often rest on bad studies; spotting them is half the
+   job). Tag every paper you cite with what is wrong with it: `animal/cell` · `tiny n` (<30/arm) · `short` (<8 wk) ·
+   `surrogate` (a marker moves, the outcome doesn't) · `untrained/deficient` · `industry` · `retracted` ·
+   `abstract≠data` (conclusion stronger than its own numbers) · `heterogeneity` · `observational only`.
 5. Re-check up to 5 **[M]** citations (model memory, never verified) in the sector's evidence files: find the paper on
    PubMed and confirm the number, or give the correct one.
 
@@ -51,7 +55,9 @@ CHANGES:
   now: <current claim, ≤15 words>
   new: <PMID, type, k studies / n, effect with CI, year>
   proposed row: <replacement text, written the way the evidence file writes rows, with [V]>
-  strength: <strong|moderate|weak>
+  strength: <strong|moderate|weak> · flags: <tags or none>
+PLAN IMPACT (facts only, the controller decides): <what in his diet, training, supplements or limits this could
+  change, or "none">
 CONFIRMS: <n> papers (PMIDs …); strength upgrades: <row → grade, or none>
 [M] CHECKS: <citation> → verified | corrected: <right number> | not found
 PAYWALLED, worth a PDF: <PMID · title · why> (only if it could change a row)

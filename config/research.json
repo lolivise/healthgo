@@ -52,6 +52,28 @@
         "(\"passive body heating\" OR \"warm bath\" OR \"hot bath\" OR \"warm shower\" OR \"water-based passive body heating\") AND sleep",
         "(\"food order\" OR \"eating order\" OR \"carbohydrate-last\" OR \"meal sequence\") AND (glucose OR glycemic)"
       ]
+    },
+    "nutrition": {
+      "cadence": "quarterly",
+      "last_reviewed": "2026-10-26",
+      "queries": [
+        "(egg OR eggs OR \"egg consumption\" OR \"egg intake\") AND (cardiovascular OR \"coronary heart disease\" OR stroke OR mortality OR \"type 2 diabetes\")",
+        "(\"dietary cholesterol\" OR egg OR eggs) AND (\"LDL cholesterol\" OR \"LDL-C\" OR lipoprotein OR \"serum cholesterol\")",
+        "(egg OR eggs OR \"dietary cholesterol\") AND (\"fatty liver\" OR NAFLD OR MASLD OR liver OR hepatitis)",
+        "(\"whole egg\" OR \"egg white\" OR eggs) AND (\"resistance training\" OR \"muscle protein synthesis\" OR \"lean mass\" OR satiety)",
+        "(sodium OR salt) AND (\"blood pressure\" OR cardiovascular) AND (reduction OR substitute OR intake)",
+        "(\"linoleic acid\" OR \"omega-6\" OR \"saturated fat\" OR \"saturated fatty acids\") AND (cardiovascular OR \"LDL cholesterol\" OR inflammation)",
+        "creatine AND supplementation AND (\"lean mass\" OR strength OR kidney OR \"renal function\" OR creatinine OR safety)",
+        "(\"whey protein\" OR \"protein supplementation\") AND (\"resistance training\" OR \"lean mass\" OR kidney OR liver)",
+        "(\"branched-chain amino acids\" OR BCAA OR \"essential amino acids\" OR leucine) AND (\"muscle protein synthesis\" OR hypertrophy OR \"lean mass\" OR \"muscle damage\")",
+        "(\"omega-3\" OR \"fish oil\" OR EPA OR DHA) AND (cardiovascular OR \"atrial fibrillation\" OR triglycerides OR inflammation)",
+        "(\"coenzyme Q10\" OR ubiquinone OR magnesium OR multivitamin) AND supplementation AND (\"blood pressure\" OR sleep OR mortality OR \"exercise performance\" OR fatigue)",
+        "(\"dietary supplement\" OR herbal OR ginseng OR \"green tea extract\" OR turmeric OR curcumin) AND (\"liver injury\" OR hepatotoxicity)",
+        "(coffee OR caffeine) AND (liver OR \"hepatitis B\" OR sleep OR \"resistance exercise\")",
+        "(collagen OR glutamine OR \"beta-alanine\" OR citrulline OR \"beta-hydroxy-beta-methylbutyrate\" OR carnitine OR ashwagandha OR Tribulus OR fenugreek OR \"tongkat ali\") AND (\"resistance training\" OR \"muscle mass\" OR strength OR testosterone OR performance)",
+        "(\"nicotinamide mononucleotide\" OR \"nicotinamide riboside\" OR resveratrol OR spermidine OR \"apple cider vinegar\" OR \"conjugated linoleic acid\" OR garcinia OR \"raspberry ketone\" OR \"green coffee\") AND (\"weight loss\" OR \"fat loss\" OR aging OR longevity)",
+        "(\"vitamin D\" OR probiotic OR melatonin OR zinc OR \"vitamin C\") AND supplementation AND (\"weight loss\" OR immunity OR infection OR sleep OR \"muscle strength\")"
+      ]
     }
   }
 }

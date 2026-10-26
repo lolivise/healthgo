@@ -32,7 +32,7 @@ overturned. Full rules in `.claude/skills/knowledge-review/SKILL.md`.
 
 ## Sectors
 
-Sectors 1–4 are reviewed every quarter (`last_reviewed` per sector in `config/research.json`). Sectors 5–6 are
+Sectors 1–4 and 7 are reviewed every quarter (`last_reviewed` per sector in `config/research.json`). Sectors 5–6 are
 practical and only refreshed on demand (a purchase, a new problem).
 
 ### 1. Fat loss & energy balance (`fat-loss`) · quarterly
@@ -99,7 +99,22 @@ Reports: `measurement/Home body fat scales comparison.md`. Applied in memory `da
 
 ### 6. Food & kitchen (`food`) · on demand
 
-Reports: `food/Chicken breast texture fix.md`. Applied in memory `chicken-marinades`.
+Practical cooking and buying, no health claims. Reports: `food/Chicken breast texture fix.md`. Applied in memory
+`chicken-marinades`.
+
+### 7. Nutrition & supplements (`nutrition`) · quarterly (added 2026-10-26)
+
+Search area: specific foods and nutrients and what they do to health (eggs and dietary cholesterol, sodium, fat types),
+and **supplements**: everything he takes (whey, creatine, fish oil, CoQ10, magnesium, multivitamin with ginseng), BCAA,
+supplement/herbal liver injury, coffee. Deficit size and protein/fat floors stay in fat-loss; Hep B and liver risk stay
+in medical (cross-linked). One evidence file per theme, not per food. Nutrition is where old consensus most often
+turns out wrong (eggs and cholesterol), so each file states the old belief and what replaced it in one row.
+
+| Evidence | Researched |
+|---|---|
+| `evidence-eggs-and-cholesterol` | 2026-10-26 |
+| `evidence-supplements` | 2026-10-26 |
+| `evidence-supplement-claims` | 2026-10-26 |
 
 ## Known gaps for the first quarterly review
 
