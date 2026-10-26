@@ -49,8 +49,11 @@ Mention in the report which pull it rests on only if the Garmin sync failed.
 
 ## 1. Load context: Opus, quickly
 
-- Read `.claude/memory/MEMORY.md` and **every file it points to**. The goal, diet, health conditions,
-  safety limits and preferences are all needed for the verdict.
+- Read `.claude/memory/MEMORY.md` and **every file it points to except the `evidence-*` ones**. The goal, diet,
+  health conditions, safety limits and preferences are all needed for the verdict.
+- **Evidence files are on demand** (token budget, Darren 2026-10-26): their `MEMORY.md` lines carry the headline.
+  Open one only when a decision or a question in this review turns on it (e.g. `evidence-metabolic-adaptation` when
+  the trend stalls).
 - Read `config/plan.json` and the **verdict block only** of the 2 most recent `reports/*.md`, so advice
   builds on what was said last time.
 
@@ -99,10 +102,14 @@ Work through `reference.md` → **Decision rules**:
 - **Rate:** 14- and 28-day weight trend against the 0.5–0.75%/wk target and the 1% cap.
 - **Muscle:** e1RM of the main lifts against the prior 4 weeks, plus rate of loss staying within target and protein adequacy (no InBody anymore; see `reference.md`).
 - **Recovery:** RHR, HRV, sleep, stress and Body Battery against his own baseline.
-- **Context:** cut week, phase (gentle cut → maintenance from 2026-12-14, see `cutting-goal-2026.md`), days to the trip; ground advice in the `evidence-*.md` memories.
-- **Health guard:** run `reference.md` → **Health-guard checklist** (too-fast loss, energy availability, deficit weeks,
-  sleep, RHR/HRV, /feel, supplements). Ask the step 2 agent for the weekly average of Garmin activity kcal
-  (`activities.calories` per day) so EA can be computed. Any yellow/red goes into the reasons or changes.
+- **Context:** cut week, phase (gentle cut → maintenance from 2026-12-14, see `cutting-goal-2026.md`), days to the trip; ground advice in the `evidence-*.md` memories (open the one you need).
+- **Health guard:** run `reference.md` → **Health-guard checklist**. The digest's HEALTH GUARD line already bands
+  rate, energy availability, deficit weeks, sleep and strength; you add RHR/HRV, /feel and supplements. Any yellow/red
+  goes into the reasons or changes.
+- **Live facts come from the digest, not memory:** strength baselines since W41 (SINCE BASELINE), projections to the
+  Christmas party / maintenance / checkpoint, the training pattern and bloodwork status are recomputed every review.
+  Memory holds only the rules behind them (baseline date and excluded sessions live in `config/plan.json` →
+  `strength`). Don't copy these numbers back into memory; record decisions only.
 - **Limits:** every change is checked against `safety-limits.md`. His fat intake is below the floor, so that's
   the first lever.
 

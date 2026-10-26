@@ -9,7 +9,7 @@
 - [Garmin data access](garmin-data-access.md) — garminconnect 0.3.17, 1Password HealthGo/secrets, ≤1 login/24h, no readiness/VO2 on his watch, grams
 - [Git policy](git-policy.md) — commit & push straight to main without asking; never force-push
 - [Model split](model-split.md) — Garmin pulls + digest on Haiku, meal photos Haiku; Sonnet executes/writes; Opus main thread analyses and decides (standing rule)
-- [Training routine](training-routine.md) — 5-day split + daily treadmill, no squat/deadlift; technique-phase deload finished by W41 → from W41 every load is real, a drop = real loss (never "刻意放輕")
+- [Training routine](training-routine.md) — rules + current load decisions only (numbers come from prepare-week since 10-26); 5-day split + daily treadmill, no squat/deadlift; from W41 every load is real, a drop = real loss (never "刻意放輕"); excluded sessions in plan.json
 - [Skin dryness & itch](skin-dryness-itch.md) — since the cut (10-13): dry/peeling hands, itchy back/neck, eye cream stings; LA low → walnut swap proposed from 10-19; itch + Hep B → GP; SPF50+ every day UV ≥3 (10-25)
 - [Supplements](supplements.md) — whey, creatine, fish oil, CoQ10, Blackmores Mg citrate (B6-free, swapped 2026-10-09), multivitamin w/ ginseng; tell doctor re Hep B
 - [Feel check-in](feel-checkin.md) — Telegram /feel symptom questions (no libido); re-review the question set at the first review ≥ 2026-11-09

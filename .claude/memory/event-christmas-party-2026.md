@@ -13,6 +13,9 @@ Projection given on 10-25 (from 88.7 kg, lean mass ≈ 68 kg assumed, see [[data
 - **At the 0.7 %/wk cap every week** (ceiling, not a plan): **≈85.2 kg, BF ≈20 %**. Would need ≈2,200–2,300 kcal from
   11-09, which the plan does not do.
 
+The date is in `config/plan.json` → `events`, so every `prepare-week` digest re-projects it (`projections`: at the
+14/28-day trend and at the cap). Use that, not the 10-25 snapshot above, when he asks again.
+
 **Why:** a date he cares about, inside the gentle-cut phase ([[cutting-goal-2026]]).
 
 **How to apply:** the party is not a reason to cut faster or to skip bringing maintenance forward at the 11-08 review if

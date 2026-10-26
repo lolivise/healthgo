@@ -38,6 +38,11 @@ LAST REVIEW: <date> (<n> days)
 RECOVERY (week vs 4w baseline): RHR … vs …; HRV … vs … (statuses: …); sleep h … vs …; score …; stress … vs …; BB high … vs …; steps …
 TRAINING: per type sessions/minutes; strength workouts by date/name
 STRENGTH (e1RM week vs prior 4w): one line per loaded exercise: name, top kg, e1RM, change %
+HEALTH GUARD (from health_guard): rate trend14 …%/wk vs cap … [band]; EA … kcal (intake … − activity …/day, … kcal/kg FFM) [band]; deficit weeks … [band]; sleep … h, nights <6 h … [band]; strength non-green: name vs best …%, down … wk [band]
+SINCE BASELINE (from strength_since_baseline): one line each for the main lifts (LAT_PULLDOWN, BARBELL_BENCH_PRESS, INCLINE_BARBELL_BENCH_PRESS, LEG_PRESS, INDOOR_ROW, OVERHEAD_DUMBBELL_PRESS) and any exercise not green: name, weekly_best by week (W41 → now), vs best %, down weeks
+PROJECTIONS: now … kg, est BF …%, goal …–… kg; per date: label date, trend14 …, trend28 … (BF …%), at cap …
+PATTERN 4W (from training_pattern_4w): weekday → workouts; strength sessions/wk; logged sets/wk; cardio min/wk
+BLOODWORK: last recorded …, months since …, due yes/no (or "none recorded")
 FLAGS: key: message …
 EXTRA: answers to any specific questions in the brief
 ANOMALIES: missing days, odd values, anything that looked wrong in the data

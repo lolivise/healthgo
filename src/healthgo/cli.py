@@ -163,6 +163,17 @@ def cmd_check(args) -> int:
     return 0
 
 
+def cmd_pubmed(args) -> int:
+    from . import pubmed
+
+    sectors = args.sector or [s for s, v in pubmed.research()["sectors"].items() if v["cadence"] == "quarterly"]
+    since = date.fromisoformat(args.since) if args.since else None
+    until = date.fromisoformat(args.until) if args.until else None
+    for s in sectors:
+        print(json.dumps(pubmed.pull(s, since, until), ensure_ascii=False))
+    return 0
+
+
 def cmd_prepare_week(args) -> int:
     from . import db, weekly
 
@@ -354,6 +365,12 @@ def main(argv: list[str] | None = None) -> int:
     w = sub.add_parser("prepare-week", help="write data/weekly/<ISO week>.json")
     w.add_argument("--week-end", help="the Sunday ending the week (YYYY-MM-DD)")
     w.set_defaults(fn=cmd_prepare_week)
+
+    pm = sub.add_parser("pubmed", help="pull new PubMed papers per research sector (config/research.json)")
+    pm.add_argument("--sector", action="append", help="one sector (repeatable); default: every quarterly sector")
+    pm.add_argument("--since", help="YYYY-MM-DD; default: the sector's last_reviewed")
+    pm.add_argument("--until", help="YYYY-MM-DD; default: today")
+    pm.set_defaults(fn=cmd_pubmed)
 
     sub.add_parser("review-plan", help="which reviews /review runs now: a missed full week first, then today's"
                    ).set_defaults(fn=cmd_review_plan)

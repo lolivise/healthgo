@@ -38,6 +38,8 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | Voice notes | Workers AI Whisper | transcribed in the Worker; the text is handled like any note |
 | Information gathering: Garmin sync, running prep, querying the DB, building the numeric digest | **Haiku** | `health-data` agent (pinned `model: haiku`) |
 | Report writing: the 繁中 report from a decided verdict | **Sonnet** | `health-writer` agent |
+| **Research pulls** (quarterly `/knowledge-review`) | **no model** | `healthgo pubmed`, a script (Darren, 2026-10-26: data pulling never on Opus) |
+| **Screening research** against the evidence memories | **Sonnet** | `health-research` agent, one per sector, reads the title index and only the abstracts it picks |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |
 
 - The agents are defined in `.claude/agents/`, pinned with `model: sonnet`. Every brief to them must be
@@ -67,7 +69,7 @@ eating out, and `/feel` + notes via Telegram.
 
 | Path | What |
 |---|---|
-| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `review-plan`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd` |
+| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `review-plan`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd`, `pubmed` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
 | `data/manual/*.jsonl` | Things Garmin never sees (`inbody` is history only, see below): `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
@@ -76,10 +78,11 @@ eating out, and `/feel` + notes via Telegram.
 | `data/state.json` | Sync bookkeeping: `complete_through`, login guard, alert de-duplication |
 | `data/healthgo.db` | SQLite built from the JSON (git-ignored). Query with `sqlite3 -header -column data/healthgo.db` |
 | `reports/YYYY-Www.md` | Weekly reviews (繁中) |
-| `config/plan.json` | Targets, trip dates, safety and alert thresholds |
+| `config/plan.json` | Targets, trip dates, events, safety and alert thresholds, strength baseline + excluded sessions, lean-mass estimate |
+| `config/research.json` | Research sectors: PubMed searches, cadence, `last_reviewed` |
 | `research/<sector>/` | Full research reports (繁中) + `notes/`, filed by sector (`fat-loss`, `training`, `medical`, `aging`, `measurement`, `food`). Index and quarterly-review scope: `research/README.md`. Distilled findings are the `evidence-*` memories, tagged `sector:` |
 | `bin/healthgo-job` | old launchd entry point → `healthgo daily` (job removed 2026-10-12) |
-| `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer` (see Model split) |
+| `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer`, `health-research` (see Model split) |
 | `friends/tom/` | Training notes for Darren's friend Tom (T2 diabetes on GLP-1, hunched posture, beginner): profile and safety, 2-day plan, session log. Not part of the pipeline; Darren's own memory and safety limits don't apply to him |
 
 **Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history: one scan, 2026-09-27), `eating_out`,
@@ -107,3 +110,5 @@ capped at one credential attempt per 24h.
   is caught up first. Pull fresh data, ask about eating out, verdict, 繁中 report, commit, send to Telegram.
 - `/log`: record eating out (text or meal photo), bloodwork, a manual weight, or a note.
 - `/sync`: manual sync or backfill, status, and troubleshooting Garmin login, 429s, launchd and the library pin.
+- `/knowledge-review`: every ~3 months, per research sector: script pulls new PubMed papers, Sonnet screens them,
+  Opus rewrites the evidence memories in place (lean: current best answer only, changes logged in one line).

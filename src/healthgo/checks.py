@@ -103,6 +103,16 @@ def run(through: date, day_through: date | None = None) -> list[Flag]:
         flags.append(Flag("loss_above_cap", f"近 14 天體重下降速度約每週 {-slope[0]:.2f}%，超過目前體重的建議上限 "
                                             f"{cap}%。越瘦，每減一公斤裡肌肉的比例越高，建議放慢。"))
 
+    s = config.plan()["safety"]
+    act = con.execute("SELECT COUNT(DISTINCT date), COALESCE(SUM(calories), 0) FROM activities WHERE date BETWEEN ? AND ?",
+                      ((through - timedelta(days=6)).isoformat(), through.isoformat())).fetchone()
+    if act[0] >= 3:
+        from .facts import mean_intake
+        ea = mean_intake(config.plan(), through - timedelta(days=6), through) - act[1] / 7
+        if ea < s["min_energy_availability_kcal"]:
+            flags.append(Flag("ea_low", f"近 7 天能量可用性 (EA) 約 {ea:.0f} kcal/天（攝取 − 運動消耗），"
+                                        f"低於下限 {s['min_energy_availability_kcal']}。運動多的日子要吃夠。"))
+
     ohp = con.execute(
         "SELECT date, MAX(weight_kg) FROM sets WHERE weight_kg > 0 AND (category = 'SHOULDER_PRESS' "
         "OR exercise LIKE '%SHOULDER_PRESS%' OR exercise LIKE '%OVERHEAD_PRESS%') "

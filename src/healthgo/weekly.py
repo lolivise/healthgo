@@ -8,9 +8,8 @@ from __future__ import annotations
 
 from datetime import date, datetime, time, timedelta
 from pathlib import Path
-from statistics import mean
 
-from . import checks, config, db, store
+from . import checks, config, db, facts, store
 
 KCAL_PER_KG = 7700
 PREP_TIME = time(18, 0)
@@ -70,21 +69,6 @@ def _strength(con, start: date, end: date) -> list[dict]:
     return out
 
 
-def _mean_intake(p: dict, start: date, end: date) -> float:
-    """Average planned daily intake over [start, end] from `intake_kcal_schedule` (falls back to the baseline)."""
-    sched = sorted(p.get("intake_kcal_schedule", []), key=lambda e: e["from"])
-    days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
-
-    def kcal(d: date) -> float:
-        k = p["baseline_intake_kcal"]
-        for e in sched:
-            if date.fromisoformat(e["from"]) <= d:
-                k = e["kcal"]
-        return k
-
-    return sum(kcal(d) for d in days) / len(days)
-
-
 # Recorded overnight or in the morning, so today's value is already final before Darren reviews: last night's sleep,
 # HRV and RHR, the wake-up Body Battery peak, Garmin's morning readiness. Everything else in `daily` (steps, stress,
 # Body Battery low) fills in all day and only counts through `config.last_complete_day()`.
@@ -92,7 +76,7 @@ MORNING_COLS = ("rhr", "hrv_last_night", "sleep_h", "sleep_score", "bb_high", "r
 ALL_DAY_COLS = ("avg_stress", "bb_low", "steps")
 
 
-def _weekly_rows(con, sunday: date, end: date, day_end: date, weeks: int = 5) -> list[dict]:
+def _weekly_rows(con, p: dict, sunday: date, end: date, day_end: date, weeks: int = 5) -> list[dict]:
     """This week and the `weeks - 1` before it, one row each, so a report can show the trajectory."""
     rows = []
     for i in range(weeks - 1, -1, -1):
@@ -107,6 +91,7 @@ def _weekly_rows(con, sunday: date, end: date, day_end: date, weeks: int = 5) ->
         row["eat_out_kcal"] = con.execute(
             "SELECT ROUND(SUM(est_kcal)) FROM eating_out WHERE date BETWEEN ? AND ?",
             (s_start.isoformat(), min(s_end, end).isoformat())).fetchone()[0]
+        row["ea_kcal"] = facts.energy_availability(con, p, s_start, min(s_end, end))["ea_kcal"]
         rows.append(row)
     for prev, row in zip(rows, rows[1:]):
         if prev["avg_kg"] and row["avg_kg"]:
@@ -134,7 +119,7 @@ def prepare(sunday: date) -> Path:
     tdee = None
     if slope28 and w_now:
         kg_per_day = slope28[0] / 100 * w_now / 7
-        tdee = round(_mean_intake(p, end - timedelta(days=27), end) - kg_per_day * KCAL_PER_KG)
+        tdee = round(facts.mean_intake(p, end - timedelta(days=27), end) - kg_per_day * KCAL_PER_KG)
 
     recovery = {}
     for col in MORNING_COLS + ALL_DAY_COLS:
@@ -157,10 +142,15 @@ def prepare(sunday: date) -> Path:
         "SELECT * FROM eating_out WHERE date BETWEEN ? AND ? ORDER BY date", (start.isoformat(), end.isoformat()))]
     last_review = con.execute("SELECT MAX(date) FROM reviews").fetchone()[0]
     strength = _strength(con, start, end)
-    weeks = _weekly_rows(con, sunday, end, day_end)
-    con.close()
-
+    weeks = _weekly_rows(con, p, sunday, end, day_end)
     cut_start = date.fromisoformat(p["cut"]["start_date"])
+    since_baseline = facts.strength_since_baseline(con, p, end)
+    ea = facts.energy_availability(con, p, start, end)
+    guard = facts.health_guard(con, p, end, start, (end - cut_start).days // 7, recovery["sleep_h"]["week"],
+                               ea, since_baseline)
+    pattern = facts.training_pattern(con, end)
+    bloodwork = facts.bloodwork_status(con, p, config.today())
+    con.close()
     summary = {
         "week": week_id(sunday),
         "range": [start.isoformat(), end.isoformat()],
@@ -180,6 +170,12 @@ def prepare(sunday: date) -> Path:
         "maintenance_kcal_estimate": tdee,
         "maintenance_note": "baseline intake + 28-day weight trend × 7700 kcal/kg; ignores eating-out days "
                             "and water swings, so treat as ±200 kcal",
+        "health_guard": guard,
+        "projections": facts.projections(p, end, w_now, slope14[0] if slope14 else None,
+                                         slope28[0] if slope28 else None),
+        "strength_since_baseline": since_baseline,
+        "training_pattern_4w": pattern,
+        "bloodwork": bloodwork,
         "recovery": recovery,
         "hrv_status_days": hrv_statuses,
         "training": training,

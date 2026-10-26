@@ -1,0 +1,57 @@
+{
+  "_comment": "Machine-readable twin of research/README.md: the quarterly sectors, their PubMed searches and when each was last reviewed. `healthgo pubmed` pulls everything added to PubMed since `last_reviewed`; /knowledge-review moves the date forward once a sector is done. Each query is PubMed syntax; the study-type filter (meta-analysis, systematic review, RCT) is added by the code.",
+  "per_query_max": 60,
+  "sectors": {
+    "fat-loss": {
+      "cadence": "quarterly",
+      "last_reviewed": "2026-10-10",
+      "queries": [
+        "(\"energy deficit\" OR \"energy restriction\" OR \"caloric restriction\" OR \"calorie restriction\") AND (\"lean mass\" OR \"fat-free mass\" OR \"muscle mass\") AND (\"resistance training\" OR \"strength training\")",
+        "(\"rate of weight loss\" OR \"weight loss rate\" OR \"gradual weight loss\" OR \"rapid weight loss\") AND (\"body composition\" OR \"lean mass\" OR \"fat-free mass\")",
+        "\"energy availability\" AND (male OR men OR \"relative energy deficiency\")",
+        "(\"adaptive thermogenesis\" OR \"metabolic adaptation\") AND (\"weight loss\" OR \"energy restriction\")",
+        "(\"diet break\" OR \"intermittent energy restriction\" OR refeed) AND (\"body composition\" OR \"resting energy expenditure\")",
+        "(\"weight maintenance\" OR \"weight regain\" OR \"reverse diet\") AND (\"after weight loss\" OR \"post-weight loss\")",
+        "protein AND (\"energy restriction\" OR \"caloric deficit\" OR \"calorie restriction\") AND (\"lean mass\" OR \"fat-free mass\")",
+        "fasted AND (exercise OR training) AND (\"fat oxidation\" OR \"fat loss\" OR \"body composition\")"
+      ]
+    },
+    "training": {
+      "cadence": "quarterly",
+      "last_reviewed": "2026-10-10",
+      "queries": [
+        "(hypertrophy OR \"muscle growth\" OR \"muscle thickness\") AND (\"training volume\" OR \"weekly sets\" OR \"dose-response\")",
+        "(hypertrophy OR \"muscle growth\") AND (\"proximity to failure\" OR \"repetitions in reserve\" OR \"training to failure\")",
+        "(hypertrophy OR \"muscle growth\") AND (\"long muscle length\" OR \"lengthened partial\" OR \"stretch-mediated\" OR \"range of motion\")",
+        "(hypertrophy OR \"muscle strength\") AND (\"low-load\" OR \"high-load\" OR \"training load\") AND \"resistance training\"",
+        "(\"concurrent training\" OR \"interference effect\") AND (hypertrophy OR strength)",
+        "(\"body recomposition\" OR recomposition) AND \"resistance training\"",
+        "(detraining OR \"muscle memory\" OR retraining) AND \"resistance training\""
+      ]
+    },
+    "medical": {
+      "cadence": "quarterly",
+      "last_reviewed": "2026-10-10",
+      "queries": [
+        "(\"hepatitis B\" OR HBV) AND (obesity OR \"metabolic dysfunction\" OR \"fatty liver\" OR MASLD OR \"weight loss\")",
+        "\"hepatitis B\" AND (exercise OR \"physical activity\" OR diet OR alcohol)",
+        "entecavir AND (\"long-term\" OR discontinuation OR renal OR \"kidney function\")",
+        "(\"C-reactive protein\" OR \"hs-CRP\" OR \"low-grade inflammation\") AND (\"weight loss\" OR \"energy restriction\" OR exercise)",
+        "sleep AND (immunity OR \"immune function\" OR infection OR \"vaccine response\")",
+        "ALDH2 AND alcohol AND (Asian OR Taiwan OR Chinese)"
+      ]
+    },
+    "aging": {
+      "cadence": "quarterly",
+      "last_reviewed": "2026-10-25",
+      "queries": [
+        "(\"arterial stiffness\" OR \"pulse wave velocity\") AND (\"resistance training\" OR \"strength training\")",
+        "(\"resistance training\" OR \"muscle-strengthening\") AND (mortality OR longevity) AND (aerobic OR \"physical activity\")",
+        "(\"facial aging\" OR \"skin aging\" OR \"facial volume\") AND (\"weight loss\" OR GLP-1 OR semaglutide)",
+        "(photoaging OR sunscreen OR \"ultraviolet\") AND (\"skin aging\" OR wrinkles)",
+        "(\"passive body heating\" OR \"warm bath\" OR \"hot bath\" OR \"warm shower\" OR \"water-based passive body heating\") AND sleep",
+        "(\"food order\" OR \"eating order\" OR \"carbohydrate-last\" OR \"meal sequence\") AND (glucose OR glycemic)"
+      ]
+    }
+  }
+}

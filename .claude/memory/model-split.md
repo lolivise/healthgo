@@ -30,6 +30,13 @@ inbox (`data/inbox/`). If one is pasted into chat, ask him to resend it via the 
 - **Voice notes:** no Claude model takes audio. Workers AI Whisper transcribes them in the Worker, and the transcript is
   text like any note.
 
+**Research and the knowledge base (Darren, 2026-10-26):** "use lower tier agents to do the data pulling, instead of
+using Opus doing everything. this project need to be token efficient. Opus is for data analyse and reporting." And:
+research accumulates and science overturns itself, so "the area and knowledge need to be lean". Applied as: PubMed
+pulls are a script (`healthgo pubmed`), Sonnet `health-research` agents screen one sector each from a title index,
+Opus only decides and rewrites evidence in place; `/review` opens evidence files on demand instead of loading all of
+them; numbers that Garmin can produce are computed by `prepare-week`, never hand-copied into memory.
+
 **Why:** token cost. The main thread is the expensive, long-lived context, so raw Garmin JSON and table
 dumps must stay out of it.
 

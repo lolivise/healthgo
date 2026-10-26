@@ -80,8 +80,35 @@
     ],
     "min_protein_g_per_kg_ffm": 2.3,
     "min_energy_availability_kcal": 1700,
+    "energy_availability_red_kcal": 1500,
     "sleep_target_hours": 7.0
   },
+  "body": {
+    "lean_mass_kg_est": 68.1,
+    "note": "from the only InBody scan, 2026-09-27 (91.4 kg, 25.5 %); no scans since the gym removed the machine (data-sources.md)"
+  },
+  "strength": {
+    "_comment": "Baseline and exclusions for prepare-week's strength_since_baseline (training-routine.md). Every load from W41 on is real.",
+    "baseline_from": "2026-10-05",
+    "exclude": [
+      {
+        "date": "2026-10-10",
+        "why": "different gym, short of equipment (Darren, 2026-10-18)"
+      },
+      {
+        "exercise": "CABLE_KICKBACK",
+        "before": "2026-10-22",
+        "why": "22.5 kg sets had bad form; baseline restarts at 15 kg from 10-22 (Darren, 2026-10-22)"
+      }
+    ]
+  },
+  "events": [
+    {
+      "date": "2026-12-04",
+      "label": "Christmas party"
+    }
+  ],
+  "bloodwork_every_months": 6,
   "alerts": {
     "rhr_rise_bpm": 5,
     "sleep_short_hours": 6.0,
