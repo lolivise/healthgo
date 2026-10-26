@@ -3,6 +3,7 @@ name: evidence-fasted-exercise
 description: Fasted vs fed exercise research (researched 2026-10-16, 2023–26 focus) — more fat burned during the session, no extra fat loss; pros, cons, who should avoid; how it applies to Darren
 metadata:
   type: reference
+  sector: fat-loss
 ---
 
 Darren asked (2026-10-16) whether fasted cardio is better for fat loss. Answered in chat; this is the distilled base.
@@ -46,4 +47,4 @@ His ~30 min moderate morning treadmill is in the "doesn't matter" zone. Choose w
 quality matters more than fuel source during the cut, so a half scoop of whey or some oats before training is fine.
 It counts toward the daily total, so it isn't "wasted". Don't train fasted on dizzy days.
 
-Related: [[evidence-cut-and-training]], [[training-routine]], [[daily-diet-baseline]], [[health-conditions]], [[safety-limits]]
+Related: [[evidence-cutting]], [[training-routine]], [[daily-diet-baseline]], [[health-conditions]], [[safety-limits]]

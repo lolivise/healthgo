@@ -3,6 +3,7 @@ name: evidence-maintenance-transition
 description: Research base (researched 2026-10-10) for ending a cut — reverse diet vs straight to maintenance, expected scale jump, binge/rigid-restraint risk, holiday weight gain, how to estimate TDEE from the trend
 metadata:
   type: reference
+  sector: fat-loss
 ---
 
 **[V]** = checked online, **[M]** = from model memory, not re-checked.
@@ -23,4 +24,4 @@ metadata:
 - Pre-warn him about the +0.5–2 kg jump and judge only the trend after week 2. If weight still rises >0.25 kg/wk
   after week 3, trim 100–150 kcal.
 - Prefer flexible rules ("protein each meal, daily walk") over a list of forbidden foods, especially for the trip.
-- The plan built on this lives in [[cutting-goal-2026]] and [[trip-taiwan-2027]]. Related: [[evidence-cut-and-training]].
+- The plan built on this lives in [[cutting-goal-2026]] and [[trip-taiwan-2027]]. Related: [[evidence-cutting]].

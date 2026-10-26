@@ -3,10 +3,11 @@ name: evidence-facial-aging
 description: 2023–26 research (2026-10-25) on "Ozempic face" and facial aging after weight loss — "fast loss destroys collagen" is a myth; face change tracks total loss and age >40, rate never studied; UV is the main cause → daily SPF50+
 metadata:
   type: reference
+  sector: aging
 ---
 
 Darren worries (2026-10-25) that losing weight fast will age his face / destroy facial collagen, which is hard to
-repair at 36. Full 繁中 report: `research/reports/慢性發炎 減重過快 臉部老化.md`. **[V]** found online, **[U]** unverified.
+repair at 36. Full 繁中 report: `research/medical/慢性發炎 減重過快 臉部老化.md`. **[V]** found online, **[U]** unverified.
 
 | Claim | Verdict | Evidence |
 |---|---|---|

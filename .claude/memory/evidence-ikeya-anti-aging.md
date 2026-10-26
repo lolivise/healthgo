@@ -3,10 +3,11 @@ name: evidence-ikeya-anti-aging
 description: 池谷敏郎's book advice, ~49 claims fact-checked (2026-10-25) — direction right, numbers inflated, his supplements all unproven/off-limits; the one new useful item is a 40–42 °C bath/shower 1–2 h before bed for sleep (proposed)
 metadata:
   type: reference
+  sector: aging
 ---
 
 Darren asked (2026-10-25) to validate every anti-aging point in 池谷敏郎's books (vascular-age doctor, see
-[[evidence-exercise-and-aging]]). Full 繁中 table: `research/reports/池谷敏郎 抗老建議 逐條查證.md`. Sources were free
+[[evidence-exercise-and-aging]]). Full 繁中 table: `research/aging/池谷敏郎 抗老建議 逐條查證.md`. Sources were free
 book excerpts (PRESIDENT Online, 東洋経済, edh.tw), so the claim list is partial. [U] = snippet only.
 
 **Overall:** direction right (lose visceral fat, low salt, no alcohol/smoking, walk, coffee, green tea, fish, olive

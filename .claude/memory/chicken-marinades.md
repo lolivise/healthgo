@@ -65,7 +65,7 @@ MasterFoods garlic powder 5 g, Ajinomoto MSG 5 g, water 100 g.
 
 **Problem (Darren, 2026-10-16):** Mustard and Tikka chicken comes out **dry and tough/chewy**. He cuts the breast into
 pieces, freezes them in the marinade, thaws, discards the marinade and **air-fries by time/eye with no thermometer**.
-He buys **~4.5 kg breast fortnightly** and preps it in one go. Full report: `research/reports/Chicken breast texture fix.md`.
+He buys **~4.5 kg breast fortnightly** and preps it in one go. Full report: `research/food/Chicken breast texture fix.md`.
 
 **Verdict: overcooking is the main cause, not freezing.** Broiler breast loses ~25 % at 75 °C and ~34 % at 89 °C (cooking
 loss), while shear force is flat until ~94 °C, so most of the "chewy" is dryness. One freeze-thaw cycle adds only a few

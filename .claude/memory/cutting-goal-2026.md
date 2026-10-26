@@ -28,7 +28,7 @@ need ~1.5 kg/week. Do not resurrect it.
 Darren: he doesn't want to keep cutting hard or "kill my muscles"; the goal can finish after the trip. What he wants
 is to **be back at maintenance before he leaves**, so he travels with energy, less anxiety and no binge urge. He
 reported low energy and discomfort on the current intake. Built on [[evidence-maintenance-transition]] and
-[[evidence-cut-and-training]].
+[[evidence-cutting]].
 - **Phase 1, gentle cut, 2026-10-12 → 2026-12-13:** W42 on potato at ≈2,030 (freezer stock), then the 2,075 kcal rice
   experiment from 10-19 ([[daily-diet-baseline]]) at ~0.3–0.5 %/wk (deficit ~250–350 kcal, inside the muscle-safe zone).
   The W45 review (~11-08) measures his real TDEE.

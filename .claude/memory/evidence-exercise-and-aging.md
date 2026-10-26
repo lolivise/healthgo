@@ -3,10 +3,11 @@ name: evidence-exercise-and-aging
 description: Research (2026-10-25) on "exercise makes you age faster" (YouTube, 池谷敏郎) — he never said it; the real Japanese study is Miyachi 2004 (heavy RT stiffens carotid ~20 %, reversible, cancelled by aerobic); outcomes favour RT + aerobic; plan unchanged, exhale on effort
 metadata:
   type: reference
+  sector: aging
 ---
 
 Darren saw a YouTuber (2026-10-25) say a Japanese vascular doctor, **池谷敏郎 (Ikeya Toshiro)**, claims working out ages
-you faster. Full 繁中 report: `research/reports/運動會讓人老得快嗎 池谷敏郎 血管.md`. **[V]** read online, **[U]** secondary.
+you faster. Full 繁中 report: `research/aging/運動會讓人老得快嗎 池谷敏郎 血管.md`. **[V]** read online, **[U]** secondary.
 
 - **池谷 never wrote it.** His books say ROS harm vessels (causes listed: stress, UV, smoking, age, glucose spikes,
   not exercise) and "運動 brings good news" for the antioxidant enzymes that decline with age [V]. He says intense

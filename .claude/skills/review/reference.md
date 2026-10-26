@@ -36,7 +36,7 @@ Judge on **trends, not single days**. Weight noise from salt, carbs, creatine an
 
 ## Health-guard checklist (inflammation, too-fast loss, immunity, face)
 
-Added 2026-10-25 from `research/reports/慢性發炎 減重過快 臉部老化.md`; evidence in memory `evidence-rapid-loss-harms.md`,
+Added 2026-10-25 from `research/medical/慢性發炎 減重過快 臉部老化.md`; evidence in memory `evidence-rapid-loss-harms.md`,
 `evidence-inflammation-immunity-hepb.md`, `evidence-facial-aging.md`. Run it every review with data already on hand
 (no new tracking). Yellow bands and the EA 1,500 red line are working numbers, not study cut-offs. Where a row is
 stricter than `safety-limits.md`, the hard limits there still decide; a yellow here argues for "slow down".

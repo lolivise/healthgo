@@ -3,10 +3,11 @@ name: evidence-inflammation-immunity-hepb
 description: 2023–26 research (2026-10-25) on chronic low-grade inflammation (hs-CRP, drivers, what lowers it), immunity vs viral infection (sleep first) and keeping Hep B quiet (ALT ≤30, never stop antivirals, no alcohol, no weight regain)
 metadata:
   type: reference
+  sector: medical
 ---
 
 Darren asked (2026-10-25) for research on chronic inflammation, immunity and preventing viral illness, as a basis for
-future plans and weekly reviews. Full 繁中 report: `research/reports/慢性發炎 減重過快 臉部老化.md`.
+future plans and weekly reviews. Full 繁中 report: `research/medical/慢性發炎 減重過快 臉部老化.md`.
 **[V]** = source found online, **[U]** = unverified / secondary.
 
 ## Chronic low-grade inflammation

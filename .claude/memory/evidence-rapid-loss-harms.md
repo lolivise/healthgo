@@ -3,10 +3,11 @@ name: evidence-rapid-loss-harms
 description: 2023–26 research (2026-10-25) on what "too fast" means for him (0.7 %/wk now, 0.5 % ≤84 kg, EA ≥25 kcal/kg FFM) and each side effect of a fast cut with its threshold and the Garmin/blood signal
 metadata:
   type: reference
+  sector: fat-loss
 ---
 
 Darren asked (2026-10-25) how to define cutting too fast and its side effects. Full 繁中 report with links:
-`research/reports/慢性發炎 減重過快 臉部老化.md`; notes in `research/research_notes/慢性發炎 減重過快 臉部老化/`.
+`research/medical/慢性發炎 減重過快 臉部老化.md`; notes in `research/medical/notes/慢性發炎 減重過快 臉部老化/`.
 **[V]** = source found online (mostly abstracts), **[U]** = unverified / secondary only.
 
 **"Too fast" for him (lean ≈68 kg):**
@@ -55,4 +56,4 @@ protein floor restated as ≥2.3 g/kg FFM (~156 g, he eats ~167); diet break / m
 (14.5 wk continuous deficit on 10-25 vs his own 10–12 wk rule; the plan had accepted 22 wk with the 12-14 maintenance
 block as the break).
 
-Related: [[evidence-cut-and-training]], [[evidence-facial-aging]], [[cutting-goal-2026]].
+Related: [[evidence-cutting]], [[evidence-facial-aging]], [[cutting-goal-2026]].

@@ -3,6 +3,7 @@ name: evidence-asian-hepb
 description: Population-specific research base (researched 2026-10-10) for a 36-year-old Taiwanese man with Hep B — Taiwan BMI/waist/body-fat norms, InBody/BIA error, Taiwan DRI protein, HBV + metabolic risk, alcohol & ALDH2, testosterone at 36, Lunar New Year foods
 metadata:
   type: reference
+  sector: medical
 ---
 
 **[V]** = checked online, **[M]** = from model memory, not re-checked. Nothing here is a diagnosis; anything liver-related → his doctor.
@@ -24,4 +25,4 @@ metadata:
 - Use waist < 90 cm (not BMI, since his height isn't recorded) as population-appropriate checks.
 - InBody is gone (2026-10-10); the noise row matters only for reading the 2026-09-27 scan or a future one-off.
 - His ~1,300 mg/day sodium (incl. chicken marinades, corrected 2026-10-16) plus salty banquet food means a quick water jump in Taiwan. Expect it, don't read it as fat.
-- Related: [[health-conditions]], [[safety-limits]], [[trip-taiwan-2027]], [[evidence-cut-and-training]].
+- Related: [[health-conditions]], [[safety-limits]], [[trip-taiwan-2027]], [[evidence-cutting]].

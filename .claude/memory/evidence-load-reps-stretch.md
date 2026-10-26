@@ -3,11 +3,12 @@ name: evidence-load-reps-stretch
 description: Research (researched 2026-10-21, focus 2023–26) on whether heavy load is needed for hypertrophy — load, proximity to failure, stretch/long-length, glutes; verdict = light-moderate (12–15+ reps) grows muscle equally IF sets end near failure; heavy matters for strength
 metadata:
   type: reference
+  sector: training
 ---
 
 Darren asked (2026-10-21, voice note, interpreted): is heavy weight a must, or do lighter 12–15-rep sets grow muscle
 equally because growth comes from hard contractions and stretch? **[V]** = checked online, **[M]** = model memory.
-Supersedes the [M] Load/Failure/Long-length rows of [[evidence-cut-and-training]].
+Supersedes the [M] Load/Failure/Long-length rows of [[evidence-hypertrophy-training]].
 
 | Question | Evidence | Strength |
 |---|---|---|
@@ -32,4 +33,4 @@ Supersedes the [M] Load/Failure/Long-length rows of [[evidence-cut-and-training]
   **triceps** kickback on Shoulder Day, not a glute move (corrected 2026-10-21). Don't add glute exercises unless he asks; just keep those sets
   near failure.
 
-Related: [[evidence-cut-and-training]], [[training-routine]], [[health-conditions]].
+Related: [[evidence-hypertrophy-training]], [[training-routine]], [[health-conditions]].

@@ -25,6 +25,6 @@ It stays in `data/manual/inbody.jsonl` as the only body-composition anchor.
 - If he ever gets a DEXA or another BIA, record it as a one-off; don't recreate a weekly ask.
 
 **Body-fat scale / DEXA: researched and declined (2026-10-23).** After the comparison in
-`research/reports/Home body fat scales comparison.md` (pick would have been Garmin Index S2; DEXA in Perth ≈ A$120–185),
+`research/measurement/Home body fat scales comparison.md` (pick would have been Garmin Index S2; DEXA in Perth ≈ A$120–185),
 he chose to keep the current plan: "not training for bodybuilding but to be healthy", and no method is proven
 enough to justify it. **Don't re-suggest a scale or DEXA**; point to the report only if he raises it again.

@@ -3,6 +3,7 @@ name: evidence-max-fat-loss-rate
 description: "Daily fat-burn ceiling" = Alpert 2005 model, 290±25 kJ ≈ 69 kcal per kg fat per day; theoretical (Minnesota starvation data), never tested; his rate caps already sit at about half of it, so no plan or check change (2026-10-25)
 metadata:
   type: reference
+  sector: fat-loss
 ---
 
 Darren asked 2026-10-25 (from a YouTube video) whether there is a scientific daily ceiling on fat loss.

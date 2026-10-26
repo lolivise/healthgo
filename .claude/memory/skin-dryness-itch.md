@@ -20,7 +20,7 @@ metadata:
    Other nutrients are covered: zinc (multi 15 mg + chicken), vitamin A (carrot, spinach, kale), B vitamins, protein
    ~1.9 g/kg, water 3.5–4 L.
 2. **A long deficit itself:** ~13 weeks at ~1 %/wk lowers sebum and thyroid output (T3), both of which dry skin
-   ([[evidence-cut-and-training]], Adaptation row). Human data directly on weight loss and skin barrier is thin
+   ([[evidence-cutting]], Adaptation row). Human data directly on weight loss and skin barrier is thin
    (2024 Frontiers Nutr study was mice, no barrier loss).
 3. **Non-diet causes, probably the biggest:** daily treadmill + gym → more sweat and showers (hot water and soap strip
    lipids), meal-prep / dish / café hand washing, Perth spring wind and low humidity. Itch on back/neck/shoulders fits

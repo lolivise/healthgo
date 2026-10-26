@@ -3,6 +3,7 @@ name: evidence-muscle-turnover
 description: "Is muscle burned during exercise?" research (2026-10-16, 2023–26 focus) — fuel hierarchy is a myth-half-truth; muscle is turned over continuously; net balance over days decides; for him: lifting + 167 g protein + ≤500 kcal deficit already covers it
 metadata:
   type: reference
+  sector: fat-loss
 ---
 
 Darren asked (2026-10-16): is it true that muscle isn't used during exercise until sugar and fat run out, or is muscle
@@ -33,4 +34,4 @@ days**: training stimulus, total protein, energy deficit size, and (minor) timin
 His ~30 min moderate treadmill uses mostly fat/carbs; fasted adds a little amino-acid oxidation, irrelevant at his
 protein intake. Strength held through the cut = muscle kept ([[training-routine]]).
 
-Related: [[evidence-fasted-exercise]], [[evidence-cut-and-training]], [[daily-diet-baseline]], [[safety-limits]]
+Related: [[evidence-fasted-exercise]], [[evidence-cutting]], [[daily-diet-baseline]], [[safety-limits]]

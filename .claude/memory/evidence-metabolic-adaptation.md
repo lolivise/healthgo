@@ -3,6 +3,7 @@ name: evidence-metabolic-adaptation
 description: Research (2022–2026, researched 2026-10-12) on metabolic adaptation / adaptive thermogenesis + the 6-signal rule used to call it for Darren; fix = maintenance, never a bulk
 metadata:
   type: reference
+  sector: fat-loss
 ---
 
 Darren asked (2026-10-12) when we would call metabolic adaptation and whether he'd need to "bulk".
@@ -30,4 +31,4 @@ judged on fixed-intake weeks (W42 on):
 Never a bulk to fix it. Lean gain only after reaching 15–18 % BF (post-trip), +10–15 % kcal, 0.25–0.5 %/wk.
 Status 2026-10-12: 0–1 of 6 (only subjective low energy); RHR 51.6 → 50.1, steps 6,488 → 9,506, HRV 37 → 43, strength flat/up.
 
-Related: [[evidence-cut-and-training]], [[evidence-maintenance-transition]], [[cutting-goal-2026]], [[safety-limits]].
+Related: [[evidence-cutting]], [[evidence-maintenance-transition]], [[cutting-goal-2026]], [[safety-limits]].
