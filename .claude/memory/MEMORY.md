@@ -25,6 +25,7 @@
 - [Evidence · fat-loss: ending a cut](evidence-maintenance-transition.md) — straight-to-maintenance beats reverse ramp; +0.5–2 kg water jump; flexible rules; TDEE from trend
 - [Evidence · fat-loss: muscle turnover](evidence-muscle-turnover.md) — "muscle only burned when nothing else left" is false; protein ≈3 % of exercise fuel, but muscle turns over all day, net balance (lifting, protein, deficit) decides
 - [Evidence · fat-loss: fasted exercise](evidence-fasted-exercise.md) — 2023–26: fasted burns more fat in-session, no extra fat loss; cons, who should avoid; for him: either is fine, lift quality first
+- [Evidence · fat-loss: diet patterns](evidence-diet-patterns.md) — 16:8, 20:4, 3–7-day fasts, keto, small meals: none beats matched CR; autophagy/immune-reset/FMD/"91 % CV death" = hype; fasting ↑HBV in mice; for him no change, 16:8 only as a trip option (10-26)
 - [Evidence · training: hypertrophy](evidence-hypertrophy-training.md) — 2023–26 base: volume, maintenance/holiday dose, failure, tempo, age 36, detraining, lean bulk, shoulder (split from cut-and-training 10-26)
 - [Evidence · training: load, reps & stretch](evidence-load-reps-stretch.md) — 2023–26: light 12–15+ reps = heavy for size only if near failure; heavy wins strength; full-ROM stretch yes, tricks no; EMG ≠ growth
 - [Evidence · training: body fat & muscle growth](evidence-body-fat-and-muscle-growth.md) — 2023–26: BF in 15–25 % range does not blunt hypertrophy (obesity + insulin resistance can); BF sets the fat cost of a surplus; higher BF = easier recomp; plan unchanged

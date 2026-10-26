@@ -38,7 +38,8 @@ practical and only refreshed on demand (a purchase, a new problem).
 ### 1. Fat loss & energy balance (`fat-loss`) · quarterly
 
 Search area: deficit size, rate %/wk, energy availability (EA) / RED-S, adaptive thermogenesis, diet breaks,
-reverse diet vs straight to maintenance, protein and fat floors in a deficit.
+reverse diet vs straight to maintenance, protein and fat floors in a deficit, diet patterns (TRE, fasting, keto,
+meal frequency).
 
 | Evidence | Researched |
 |---|---|
@@ -49,6 +50,7 @@ reverse diet vs straight to maintenance, protein and fat floors in a deficit.
 | `evidence-maintenance-transition` | 2026-10-10 |
 | `evidence-muscle-turnover` | 2026-10-16 |
 | `evidence-fasted-exercise` | 2026-10-16 |
+| `evidence-diet-patterns` (16:8, 20:4, multi-day fasts, keto, meal frequency) | 2026-10-26 |
 
 Reports: cross-listed `medical/慢性發炎 減重過快 臉部老化.md` (the too-fast-loss section; notes
 `rapid_weight_loss_harms.md`).

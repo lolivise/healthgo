@@ -13,7 +13,9 @@
         "(\"diet break\" OR \"intermittent energy restriction\" OR refeed) AND (\"body composition\" OR \"resting energy expenditure\")",
         "(\"weight maintenance\" OR \"weight regain\" OR \"reverse diet\") AND (\"after weight loss\" OR \"post-weight loss\")",
         "protein AND (\"energy restriction\" OR \"caloric deficit\" OR \"calorie restriction\") AND (\"lean mass\" OR \"fat-free mass\")",
-        "fasted AND (exercise OR training) AND (\"fat oxidation\" OR \"fat loss\" OR \"body composition\")"
+        "fasted AND (exercise OR training) AND (\"fat oxidation\" OR \"fat loss\" OR \"body composition\")",
+        "(\"time-restricted eating\" OR \"time-restricted feeding\" OR \"intermittent fasting\" OR \"prolonged fasting\" OR \"meal frequency\") AND (\"body composition\" OR \"lean mass\" OR \"fat-free mass\")",
+        "(\"ketogenic diet\" OR \"low-carbohydrate diet\") AND (\"body composition\" OR \"lean mass\" OR \"fat-free mass\" OR LDL)"
       ]
     },
     "training": {
