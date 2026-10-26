@@ -1,6 +1,6 @@
 ---
 name: evidence-sweeteners
-description: Non-sugar sweeteners (researched 2026-10-26, 2023–26 PubMed, ~50 abstracts) — at his dose (diet cola ≈180 mL/day aspartame+ace-K, ON whey sucralose+ace-K) no proven harm; RCTs: beat sugar for weight, = water; cohort harm signals (HR 1.1–1.3) are reverse-causation-prone; liver cancer null in 1.5 M (sugary drinks are the liver signal); erythritol the one plausible-mechanism worry; no plan change
+description: Non-sugar sweeteners (researched 2026-10-26, 2023–26 PubMed, ~50 abstracts) — at his dose (diet cola ≈180 mL/day + ON whey, all aspartame 951 + ace-K 950, no sucralose/erythritol) no proven harm; RCTs: beat sugar for weight, = water; cohort harm signals (HR 1.1–1.3) are reverse-causation-prone; liver cancer null in 1.5 M (sugary drinks are the liver signal); erythritol the one plausible-mechanism worry; no plan change
 metadata:
   type: reference
   sector: nutrition
@@ -9,9 +9,10 @@ metadata:
 Darren asked (2026-10-26) what sweeteners actually do, given his Coke Zero / Pepsi Max and whey. Full report:
 `research/nutrition/代糖 人工甜味劑.md`. **[V]** = abstract checked, **[S]** = secondary/label. Flags name what is weak.
 
-**His exposure:** Coke Zero + Pepsi Max ≈1.25 L/week ≈180 mL/day (aspartame + ace-K; erythritol not checked on AU
-cans). Whey = Optimum Nutrition Gold Standard Double Rich Chocolate 50 g/day: sucralose + ace-K (UK/EU label, AU
-retailer lists sucralose) [S]; mg per serve not disclosed. ADIs at 89 kg: aspartame 40 mg/kg = 3,560 mg; sucralose 15
+**His exposure (labels read by Darren 2026-10-26):** Coke Zero + Pepsi Max ≈1.25 L/week ≈180 mL/day and Optimum
+Nutrition Gold Standard Double Rich Chocolate whey 50 g/day — **all three list only 950 (ace-K) + 951 (aspartame)**. No
+sucralose (the AU whey differs from the UK/EU sucralose formula) and no erythritol. mg per serve not disclosed.
+Practical ceiling given to him: ≤1–2 cans/day (ADI ≈12–18 cans at 89 kg is a toxicology ceiling, not a target). ADIs at 89 kg: aspartame 40 mg/kg = 3,560 mg; sucralose 15
 mg/kg = 1,335 mg (EFSA 2026 re-confirmed, PMID 41710869) [V]; ace-K 15 [S]. WHO/IARC: a 70 kg adult needs ~9–14 diet
 cans/day to reach the aspartame ADI [S] → his half-can ≈ a few % of it.
 
@@ -47,7 +48,7 @@ industry-funded; long-term outcome data are observational only.
 
 ## How it applies to Darren (2026-10-26)
 **No plan change.** Half a can a day + one whey serve is a small fraction of every ADI and well below every studied
-harmful dose (the sucralose insulin trial used ~4× a likely whey dose [推論]). In a cut, diet cola instead of sugary
+harmful dose; the sucralose insulin-sensitivity signal doesn't apply (his whey has none). In a cut, diet cola instead of sugary
 drinks is a net win (RCTs); against water it's neutral, so no need to add more either. Liver: diet drinks show no liver
 cancer signal in 1.5 M people; sugary drinks do, so 手搖飲 無糖/微糖 ([[evidence-sugar]]) matters more than Coke Zero.
 Small practical points: drink cola with meals, not sipped all day, and don't brush within ~30 min (acid erosion) [S];
