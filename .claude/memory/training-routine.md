@@ -1,6 +1,6 @@
 ---
 name: training-routine
-description: Darren's training rules and current load decisions — 5-day split (Tue legs, Wed back, Thu shoulders, Sat back, Sun chest, from 2026-10-10) + daily treadmill, no squat/deadlift, every load from W41 is real; the numbers themselves (baselines, sets/wk, cardio min) come from prepare-week
+description: Darren's training rules and current load decisions — 4-day split from W44 (Tue legs, Thu shoulders, Sat back, Sun chest; Wed back dropped 2026-10-26, walk only; 5-day trial from 2026-10-10) + daily treadmill, no squat/deadlift, every load from W41 is real; the numbers themselves (baselines, sets/wk, cardio min) come from prepare-week
 metadata:
   type: project
 ---
@@ -39,6 +39,11 @@ only the rules behind those numbers and the decisions made about them. Don't pas
   gets 72 h between shoulder day (Thu) and chest (Sun).
 - Extras: Friday energy bar at 3–4 pm, Friday treadmill easy or skipped, earlier bedtime on Wednesday.
 - Judge on Friday HRV and stress against those means, Friday `/feel` entries, and shoulder or chest pressing loads.
+- **Change from W44 (2026-10-26): Wednesday back day dropped, Wednesday = walk only.** Darren's office day, too
+  rushed, the one session he dreads; the reason he trains is to eat out without worry, so a routine without pressure
+  comes first. Back goes from ~20 to ~10 direct sets/wk (Sat: pull-up/pulldown 4 + row 6), nothing moved elsewhere,
+  on his request. Evidence check in [[evidence-hypertrophy-training]]: still grows, somewhat slower; well above the
+  maintenance dose. Option if back lags in the bulk: 3–4 row sets on another lifting day. Lifting = Tue, Thu, Sat, Sun.
 
 **Current load decisions (as of the W43 review, 2026-10-25).** Rule of thumb: add load once every working set
 reaches 12 clean reps.

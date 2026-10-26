@@ -33,5 +33,11 @@ The Load, Failure and Long-length rows are superseded by [[evidence-load-reps-st
   on WFH days + weekend, walk on the 3 office days. Move the dropped day's sets into the other 4, keep any one muscle
   ≤~11 hard sets per session, keep the shoulder's 72 h gap. Cost: a little strength progress, ~300 kcal/wk less burn
   (fold into the surplus by weight trend). Not decided as a schedule yet; set it when the bulk is planned.
+- **Halving back to ~10 sets/wk, once a week (asked 10-26, adopted):** defensible. Schoenfeld 2017 (PMID 27433992):
+  graded dose-response, ~+0.37 % growth per extra weekly set, so 20 → 10 sets costs roughly 3–4 percentage points of
+  growth over a block; Schoenfeld 2019 trained men (PMID 30153194): more volume = more size, not more strength; most of
+  the gain sits below ~12 sets (Pelland). 10 sets in one session is under the ~11-set plateau. In the cut, growth isn't
+  the aim and 10 sets holds muscle easily. Adherence: pleasant affect during exercise predicts future activity
+  (Rhodes & Kates 2015, PMID 25921307, 24 studies).
 - Holiday minimum: 1–2 short full-body sessions/week near failure hold muscle. 5 weeks of light training costs little.
 - Related: [[evidence-cutting]], [[training-routine]], [[health-conditions]].
