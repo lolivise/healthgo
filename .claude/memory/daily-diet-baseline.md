@@ -170,7 +170,7 @@ the extra oil is part of the maintenance kcal. See [[safety-limits]], [[evidence
 minus ~5 g lactose) + choc-chip bar ~9 g (label sugar not on file, estimate) + marinade honey/char siu ~3.6 g (30 %) + whey ~1–2 g.
 At 2,520 kcal that is **≈5.6 % of energy**: well under WHO / Taiwan HPA <10 % (63 g), at the AHA men's 36 g, just over WHO's
 conditional <5 % (31 g). Total sugars incl. lactose + veg ≈ 60 g (no limit applies). **No change**; plain-yogurt swap (−~20 g) stays
-optional, never inside the 10-26 → 11-08 TDEE window. Eating out (手搖飲 全糖 ≈ 50–60 g/cup) is where it can blow past 10 %.
+optional, never inside the 10-26 → 11-08 TDEE window. Eating out (手搖飲 全糖 ≈ 40–70 g/cup) is where it can blow past 10 %. Evidence: [[evidence-sugar]].
 
 **Eating order (2026-10-25, adopted):** at the rice meals (breakfast and lunch) eat **vegetables → chicken/eggs → rice
 last**. No change to amounts or kcal. Evidence: carbs-last −53 % glucose iAUC in T2D (Shukla 2017), thin in healthy
