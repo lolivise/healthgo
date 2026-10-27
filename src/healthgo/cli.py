@@ -193,10 +193,20 @@ def cmd_ask(args) -> int:
     if args.action == "watch":
         ask.watch(args.interval)
         return 0
-    if args.id is None or not args.file:
-        raise SystemExit("ask answer needs an id and the answer file")
-    print(json.dumps(ask.answer(args.id, Path(args.file)), ensure_ascii=False))
-    return 0
+    if args.id is None:
+        raise SystemExit(f"ask {args.action} needs a question id")
+    if args.action == "status":
+        if not args.arg:
+            raise SystemExit("ask status needs the text")
+        return 0 if ask.status(args.id, args.arg, done=args.done) else 1
+    if args.action == "file":
+        res = ask.file(args.id)
+    else:
+        if not args.arg:
+            raise SystemExit("ask answer needs the answer file")
+        res = ask.answer(args.id, Path(args.arg))
+    print(json.dumps(res, ensure_ascii=False))
+    return 0 if res["telegram"] else 1
 
 
 def cmd_transcript(args) -> int:
@@ -410,10 +420,12 @@ def main(argv: list[str] | None = None) -> int:
     pm.add_argument("--query", action="append", help="ad-hoc PubMed search (repeatable, /ask); needs --since and --out")
     pm.set_defaults(fn=cmd_pubmed)
 
-    k = sub.add_parser("ask", help="Telegram /ask questions: list, watch (one JSON line per new question), answer")
-    k.add_argument("action", choices=["list", "watch", "answer"])
-    k.add_argument("id", nargs="?", type=int, help="answer: the question id")
-    k.add_argument("file", nargs="?", help="answer: the answer markdown (data/asks/...)")
+    k = sub.add_parser("ask", help="Telegram /ask: list, watch (one JSON line per new question), status (progress "
+                                   "card line), file (index + track record + send + commit), answer (send only + commit)")
+    k.add_argument("action", choices=["list", "watch", "status", "file", "answer"])
+    k.add_argument("id", nargs="?", type=int, help="the question id")
+    k.add_argument("arg", nargs="?", help="status: the line to add · answer: the record markdown")
+    k.add_argument("--done", action="store_true", help="status: mark the card finished")
     k.add_argument("--interval", type=float, default=10, help="watch: seconds between polls")
     k.set_defaults(fn=cmd_ask)
 

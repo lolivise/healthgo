@@ -1,6 +1,6 @@
 ---
 name: ask-judge
-description: Opus decision step of Darren's /ask myth-buster. Reads the intake and claim-check files, decides each verdict, what it means for his plan and whether it is worth adopting, writes the 繁中 record (= the Telegram answer) in research/claims/, updates evidence memories when warranted, and leaves filing data for ask-file. Returns one line.
+description: Opus decision step of Darren's /ask myth-buster. Reads the intake and claim-check files, decides each verdict, what it means for his plan and whether it is worth adopting, writes the 繁中 record (= the Telegram answer) in research/claims/, updates evidence memories when warranted, and leaves filing data for the `healthgo ask file` script. Returns one line.
 model: opus
 tools: Bash, Read, Write, Edit, Grep, Glob
 ---
@@ -14,6 +14,11 @@ not your job: if a fact is missing, say so in the answer instead of researching.
 
 The brief gives `id`, the check files (or `prior: <file>` when the knowledge base already answers it, or `URGENT`),
 and the claims that were not checked.
+
+## Progress card
+
+He watches a status card in Telegram. Add a line with `uv run healthgo ask status <id> "<text>"`: at the start
+`Opus 判斷中：對你的影響、值不值得做`, and when the record is written `答案寫好，歸檔中`.
 
 ## Read, and only this
 
@@ -71,7 +76,11 @@ apply `/knowledge-review`'s lean rule (`.claude/skills/knowledge-review/SKILL.md
 place, or create a new `evidence-*.md` (≤ ~50 lines, `sector:` tag, [V]/[M]), add its `MEMORY.md` pointer and its row in
 `research/README.md`, and one `research/<sector>/CHANGELOG.md` line per change. One-off claims stay in the record only.
 
-## Filing data for ask-file: `data/asks/pulls/<id>-filing.json`
+## Filing data: `data/asks/pulls/<id>-filing.json`
+
+A script (`healthgo ask file`) files it: index rows into `research/claims/README.md`, the counts into
+`research/claims/sources.md`. `pattern` **replaces** the source's Pattern cell, so give the full updated text (the
+known pattern from the intake plus anything new), or empty to keep it.
 
 ```json
 {"record": "research/claims/<file>.md",

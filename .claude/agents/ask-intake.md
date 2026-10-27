@@ -18,25 +18,35 @@ Hep B on entecavir, no new supplements without his doctor.
 
 The brief gives `id`, `text` and `has_file`. Work files go in `data/asks/pulls/<id>-*` (git-ignored).
 
+## Progress card: Darren watches it live
+
+He sees a status card in Telegram under his question. Add a line at each milestone below with
+`uv run healthgo ask status <id> "<繁中, ≤ 40 chars>"` (no model, one command, never skip it: silence makes him think
+the bot is dead). Short and concrete, e.g. the claim or the paper found, never internal file names.
+
 ## Steps
 
 1. **Urgent?** If the text describes symptoms like chest pain, fainting, yellow eyes/skin, black stool, vomiting
    blood or severe right-side abdominal pain, stop and return only `URGENT: <symptom>`.
+   Otherwise card: `開始處理：讀取 YouTube 字幕` / `開始處理：讀取網頁` / `開始處理：整理你的問題`.
 2. **Fetch the source.**
    - YouTube (`youtube.com`, `youtu.be`, shorts): `uv run healthgo transcript '<url>' --out
      data/asks/pulls/<id>-source.md`, then read that file whole. `captions: null` → work from title and description.
    - Any other link: WebFetch it ("the health claims made, who the author is, and every study or reference cited").
      Save the useful part to `data/asks/pulls/<id>-source.md`.
    - Plain text: the claim is the text. No source file.
+   - Card after a video or page: `<channel or site>：<title, short>`.
    - `has_file: true`: `uv run healthgo ask list` gives the `file_id`; download it with
      `uv run python -c "from healthgo import inbox; c,e=inbox.download_file('<file_id>'); open('data/asks/pulls/<id>-file'+e,'wb').write(c); print(e)"`
      and read the image.
 3. **Already checked?** `grep -i` 2–4 keywords (中文 and English) in `research/claims/README.md`,
    `research/claims/sources.md` and the `description:` lines of `.claude/memory/evidence-*.md`. Note matching files,
    their verdict and date, and the source's known Pattern if it is in `sources.md`.
+   Card: `知識庫：之前查過（<date>）` or `知識庫：沒有現成答案，要查 PubMed`.
 4. **Extract claims**: up to 8 factual health claims, each one line with its [mm:ss] if from a video, ranked by how
    much it could change what Darren eats, trains, takes or does. Mark each CHECKABLE (a factual claim research can test)
    or OPINION. Note what the source cites for each (paper, book, "studies show", nothing). Skip motivational filler.
+   Card: `找到 <n> 個主張，挑重點查證中`.
 
 ## Write `data/asks/pulls/<id>-intake.md`
 

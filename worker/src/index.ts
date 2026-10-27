@@ -353,7 +353,7 @@ async function storeAsk(env: Env, chatId: string, msg: any, text: string, transc
     file_id: photo ?? msg.document?.file_id ?? null,
   };
   await env.ASKS.put(key, JSON.stringify(ask), { httpMetadata: { contentType: "application/json" } });
-  await reply(env, chatId, "❓ 收到問題，查資料中，答案會回覆在這則訊息下。", {
+  await reply(env, chatId, "📥 問題已存下，等 Mac 上的 Claude 接手（接手後會出現進度卡）。", {
     reply_parameters: { message_id: msg.message_id },
   });
 }

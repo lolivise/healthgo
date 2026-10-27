@@ -41,8 +41,13 @@ them; numbers that Garmin can produce are computed by `prepare-week`, never hand
 any data polling, information gathering, PubMed polling done by Sonnet. Maximize the sub-agent so the main thread does
 not consume a lot of tokens, because the main thread builds up but the sub-agent cleans itself up." Applied in `/ask`:
 the main thread never opens files and writes one-line briefs (instructions live in `.claude/agents/ask-*.md`); Sonnet
-`ask-intake` / `ask-check` / `ask-file` do the gathering and filing, and the decisions run in an **Opus sub-agent**
-(`ask-judge`), not in the main thread.
+`ask-intake` / `ask-check` do the gathering, and the decisions run in an **Opus sub-agent** (`ask-judge`), not in the
+main thread.
+
+**Sending a message is the lowest tier (Darren, 2026-10-27): "use Haiku to send message instead of Sonnet."** Applied
+one step further: a send needs no model at all, so it is a script (`healthgo ask status`, `healthgo ask file`), which
+costs nothing, where even a Haiku agent costs a few thousand tokens to start. Rule: **mechanical steps (send, file,
+commit) are scripts; if a model is truly needed for a low-tier step, it is Haiku, never Sonnet.**
 
 **Why:** token cost. The main thread is the expensive, long-lived context, so raw Garmin JSON and table
 dumps must stay out of it.

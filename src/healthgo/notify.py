@@ -140,29 +140,36 @@ def send_report(path: Path, reply_to: int | None = None, icon: str = "📊") -> 
     return True
 
 
-def _telegram(text: str, html: bool = False, reply_to: int | None = None) -> bool:
+def api(method: str, payload: dict) -> dict | None:
+    """One Bot API call to Darren's chat (chat_id is filled in). Returns `result`, or None on any failure."""
     try:
         token = vault.read("TELEGRAM/BOT_TOKEN")
-        chat_id = vault.read("TELEGRAM/CHAT_ID")
-        msg = {"chat_id": chat_id, "text": text}
-        if html:
-            msg["parse_mode"] = "HTML"
-        if reply_to:
-            msg["reply_parameters"] = {"message_id": reply_to, "allow_sending_without_reply": True}
-        body = json.dumps(msg).encode()
+        body = json.dumps({"chat_id": vault.read("TELEGRAM/CHAT_ID"), **payload}).encode()
         req = urllib.request.Request(
-            f"https://api.telegram.org/bot{token}/sendMessage",
+            f"https://api.telegram.org/bot{token}/{method}",
             data=body, headers={"Content-Type": "application/json"},
         )
         with urllib.request.urlopen(req, timeout=20) as resp:
-            if json.load(resp).get("ok"):
-                log.info("Telegram sent: %s", text.splitlines()[0][:60])
-                return True
-            log.warning("Telegram replied ok=false")
+            data = json.load(resp)
+            if data.get("ok"):
+                return data.get("result")
+            log.warning("Telegram %s replied ok=false", method)
     except Exception as e:  # never let a notification failure break the sync
         # the bot token is part of the URL, so log the type only
-        log.warning("Telegram send failed (%s)", type(e).__name__)
-    return False
+        log.warning("Telegram %s failed (%s)", method, type(e).__name__)
+    return None
+
+
+def _telegram(text: str, html: bool = False, reply_to: int | None = None) -> bool:
+    msg: dict = {"text": text}
+    if html:
+        msg["parse_mode"] = "HTML"
+    if reply_to:
+        msg["reply_parameters"] = {"message_id": reply_to, "allow_sending_without_reply": True}
+    if api("sendMessage", msg) is None:
+        return False
+    log.info("Telegram sent: %s", text.splitlines()[0][:60])
+    return True
 
 
 def alert_once(state: dict, key: str, text: str, today: date | None = None) -> bool:

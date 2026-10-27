@@ -27,6 +27,16 @@ cite them, don't re-derive them.
   `## Abstracts` (`sed -n '1,/^## Abstracts/p'`), then `grep -A12 "^### PMID <id>"` for ≤ 8 picks.
 - WebFetch with narrow prompts ("n, population, duration and the main effect size with CI").
 
+## Progress card: Darren watches it live
+
+He sees a status card in Telegram under his question. Add a line at each milestone below with
+`uv run healthgo ask status <id> "<繁中, ≤ 40 chars>"` (no model, one command, never skip it: silence makes him think
+the bot is dead). Short and concrete, e.g. the claim or the paper found, never internal file names.
+
+- Start: `主張 <n> 查證中：<claim, short>`
+- Origin found (or not): `主張 <n>：出處是 <author year / journal>` or `主張 <n>：找不到原始出處`
+- Done: `主張 <n>：<✅ 成立 | 🟡 部分成立 | ❌ 誤導 | ❓ 證據不足>`
+
 ## Steps
 
 1. **Origin.** The paper(s) the claim really comes from: the cited one first, else the likeliest (WebSearch, PubMed).

@@ -28,7 +28,19 @@ This session runs for hours and its context only grows; sub-agents clean themsel
 | 2. Pick ≤ 4 claims to check | **you** | Opus | — |
 | 3. Check each claim (origin paper, PubMed, fit to him) | `ask-check` × n, parallel | Sonnet | 1 line each |
 | 4. Verdicts, impact, worth it, write the 繁中 record, evidence edits | `ask-judge` | Opus | 1 line |
-| 5. Index + track record, send to Telegram, commit, clean up | `ask-file` | Sonnet | 1 line |
+| 5. Index + track record, send to Telegram, commit, clean up | `healthgo ask file` | **no model** (script) | 1 JSON line |
+| Progress card in Telegram, all along | `healthgo ask status` | **no model** (script) | — |
+
+## Progress card: he watches it live
+
+Darren hates sending a question and wondering for 20 minutes whether anything is happening (2026-10-27). So every
+question gets a **status card** in Telegram under it, one message edited in place, line by line:
+- The **watcher script** opens it the moment it sees the question ("收到，開始處理" or "排隊中（前面還有 N 題）"),
+  before any agent runs.
+- Each agent adds its own milestones (`uv run healthgo ask status <id> "<text>"`): source read, knowledge base hit or
+  miss, PubMed per claim, each verdict, Opus judging. The instructions are in their definitions.
+- `healthgo ask file` closes it ("完成，答案在下面 👇"), and the answer arrives as its own reply.
+Sending is a script, not a model: cheaper than even Haiku. You only post to the card on a failure.
 
 ## Start: arm the monitor
 
@@ -55,17 +67,20 @@ re-armed watcher re-prints still-pending questions: skip any id already in progr
    - `PRIOR:` covers the claim (a check < ~2 years old) and nothing new needs checking → step 4 with
      `prior=<file>`.
 2. **Pick** (you): up to 4 CHECKABLE claims that could change what he does, skipping ones a PRIOR already settles.
-   Opinions and minor claims become "unchecked".
+   Opinions and minor claims become "unchecked". Skip straight to step 4 if none need checking.
 3. **Check**: all in **one message**, one per picked claim:
    `Agent(subagent_type: "ask-check", description: "/ask <id> check <n>", prompt: "id=<id> n=<n> claim=<claim>
    source=<SOURCE line> known=<prior evidence files or none>")`.
 4. **Judge**: `Agent(subagent_type: "ask-judge", description: "/ask <id> judge", prompt: "id=<id>
    checks=data/asks/pulls/<id>-check-1.md,… | prior=<file> | URGENT unchecked=<claim; claim; …>")`.
-5. **File**: `Agent(subagent_type: "ask-file", description: "/ask <id> file", prompt: "id=<id>")`.
-6. One line here: `/ask <id>: <verdicts> · <filed line>`. Back to waiting.
+5. **File**: `uv run healthgo ask file <id>` (a script, no agent): index row, source track record, sends the record under
+   his question, marks it done in R2, commits + pushes, closes the progress card, deletes the work files. It prints
+   JSON: `telegram: false` → retry once (filing is idempotent); `done: false` → sent but still pending in R2, run
+   `uv run healthgo ask list` and never send twice; `git` other than `pushed` → `git push origin main` once.
+6. One line here: `/ask <id>: <verdicts> · <git result>`. Back to waiting.
 
 **Failure**: an agent that returns an error or nonsense gets **one** retry with the same brief. A second failure:
-one line to Darren here, and leave the question pending (it stays in R2; the next re-arm re-prints it). Never send a
+`uv run healthgo ask status <id> "⚠️ 卡住了：<step>，稍後再試"`, one line to Darren here, and leave the question pending (it stays in R2; the next re-arm re-prints it). Never send a
 half-finished answer.
 
 If this session isn't Opus, step 2 is still yours: the stakes are low, and `ask-judge` is pinned to Opus regardless.
