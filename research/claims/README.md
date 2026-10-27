@@ -52,3 +52,6 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 不用健身房，在家訓練也有效 | ✅ | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
 | 2026-10-27 | 食物熱效應是不小的消耗 | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
 | 2026-10-27 | TDEE = BMR + EAT + NEAT + TEF，BMR 最大 | ✅ | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | 走路比跑步更燃脂、更能減脂 | 🟡 | Wenyao文耀 | [2026-10-27-walking-vs-running-fat-loss.md](2026-10-27-walking-vs-running-fat-loss.md) |
+| 2026-10-27 | 兩個步行公式是頂級燃脂運動 | 🟡 | Wenyao文耀 | [2026-10-27-walking-vs-running-fat-loss.md](2026-10-27-walking-vs-running-fat-loss.md) |
+| 2026-10-27 | 走 1 個月勝過跑 10 年 | ❌ | Wenyao文耀 | [2026-10-27-walking-vs-running-fat-loss.md](2026-10-27-walking-vs-running-fat-loss.md) |
