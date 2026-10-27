@@ -41,3 +41,8 @@ active day, before ~28 % compensation), not by muscle "afterburn". Asked whether
 yes for **maintenance** (~⅓ volume, ≥1–2 sessions/wk, see [[evidence-hypertrophy-training]]), but not now: in a
 deficit and still +3–7 kg short of the goal. Decided: keep the 5-day split through the cut; revisit days only once at
 maintenance with no lean-mass goal pending.
+
+**"Exercise is only ~5 % of TEE" (asked 10-27):** true for the *average sedentary* adult (TEE ≈ BMR 60–70 % + TEF ~10 %
++ activity; deliberate exercise a few %). Not his case: Garmin 09-28→10-24 avg TEE 2,925, BMR 2,243, active 682;
+logged sessions 586/day ≈ 20 % gross (≈ 15 % net of the BMR inside them, ≈ 11 % after ~28 % compensation). No conflict
+with the muscle point: muscle *at rest* is cheap; the kcal come from *doing the work*. No change.

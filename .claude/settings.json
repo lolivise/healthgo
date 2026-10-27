@@ -8,7 +8,9 @@
       "Bash(git commit:*)",
       "Bash(git push origin main)",
       "Bash(git push origin HEAD:main)",
-      "Bash(tail -50 ~/Library/Logs/healthgo/daily.log)"
+      "Bash(tail -50 ~/Library/Logs/healthgo/daily.log)",
+      "Bash(git push)",
+      "Bash(git push -q)"
     ],
     "deny": [
       "Bash(git push --force:*)",
