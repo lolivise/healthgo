@@ -63,7 +63,7 @@ recomposition, lean bulk, detraining.
 | Evidence | Researched |
 |---|---|
 | `evidence-hypertrophy-training` | 2026-10-10 |
-| `evidence-load-reps-stretch` | 2026-10-21 |
+| `evidence-load-reps-stretch` | 2026-10-27 |
 | `evidence-body-fat-and-muscle-growth` | 2026-10-20 |
 
 Reports: none yet.
@@ -88,7 +88,7 @@ hygiene.
 
 | Evidence | Researched |
 |---|---|
-| `evidence-exercise-and-aging` | 2026-10-25 |
+| `evidence-exercise-and-aging` | 2026-10-27 |
 | `evidence-facial-aging` | 2026-10-25 |
 | `evidence-ikeya-anti-aging` | 2026-10-25 |
 

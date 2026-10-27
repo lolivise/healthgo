@@ -19,3 +19,9 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 
 | Date | Claim | Verdict | Source | File |
 |---|---|---|---|---|
+| 2026-10-27 | 高強度運動（跑步、重訓）增加心血管疾病 | 🟡 | 自己聽到的 | [2026-10-27-high-intensity-exercise-heart-risk.md](2026-10-27-high-intensity-exercise-heart-risk.md) |
+| 2026-10-27 | 跑越快、年紀越大，心血管風險越高 | ❌ | 自己聽到的 | [2026-10-27-high-intensity-exercise-heart-risk.md](2026-10-27-high-intensity-exercise-heart-risk.md) |
+| 2026-10-27 | 運動量有上限，太多反而有害（U/J 形） | 🟡 | 自己聽到的 | [2026-10-27-high-intensity-exercise-heart-risk.md](2026-10-27-high-intensity-exercise-heart-risk.md) |
+| 2026-10-27 | 重訓憋氣（Valsalva）傷心臟 | 🟡 | 自己聽到的 | [2026-10-27-breath-hold-and-rep-limit.md](2026-10-27-breath-hold-and-rep-limit.md) |
+| 2026-10-27 | 重訓應該一直吐氣、完全不憋氣 | 🟡 | 自己聽到的 | [2026-10-27-breath-hold-and-rep-limit.md](2026-10-27-breath-hold-and-rep-limit.md) |
+| 2026-10-27 | 做到次數上限就停，比硬推到力竭更安全更好 | 🟡 | 自己聽到的 | [2026-10-27-breath-hold-and-rep-limit.md](2026-10-27-breath-hold-and-rep-limit.md) |

@@ -30,9 +30,22 @@ you faster. Full 繁中 report: `research/aging/運動會讓人老得快嗎 池�
   point estimate back to 1 at ~130–140 min/wk, very low certainty, self-report [V]. Lee 2022: aerobic 2–4× guideline,
   no harm. Elite athletes SMR 0.67. Master@Heart 2023: lifelong endurance → more but more stable plaque. Werner 2019:
   endurance/HIIT lengthen telomeres, RT neutral.
+- **Upper dose / "intense exercise hurts the heart" (/ask 2026-10-27, all observational) [V abstracts]:** mortality curve
+  plateaus, no rise (SR 41579290: U-shape evidence "limited"; MA 40487062: vigorous 180 min/wk −23 % CVD death).
+  Running: no pace/volume dose-response (MA 31685526, HR CVD 0.70); Schnohr 2015 fast-jogger U = tiny n, all-cause.
+  Real signals only at extreme endurance: **AF** rises beyond ~78 MET-h/wk (MA 42861574, athletes OR 2.74); **CAC** in men
+  >3,000 MET-min/wk (MA 40373527) but mostly calcified, events equal or lower (SR 42007192). Acute exertion MI trigger
+  mostly in the sedentary (Mittleman 1993). No RT→MI/CAD evidence. **He is far below all thresholds; nothing changes.**
+  Palpitations/irregular HR or chest pain in exercise → doctor.
 - **Applied to him:** RT 250–310 min/wk (Garmin, incl. rest), mostly 8–20 reps; treadmill 220–490 min/wk at HR
   118–140 → he is in Kawano's "aerobic cancels it" group and Momma's best (combined) group. **Plan unchanged.** During
   future bulk cycles: **never cut cardio to add lifting**, and no need to add more RT time. One habit: **exhale on
-  effort, no long breath-holds** (heavy lifts spike BP to ~320/250), esp. leg press. No new tracking; BP at the GP visit.
+  effort, no long breath-holds** (heavy lifts spike BP to ~320/250 [M], MacDougall 1985), esp. leg press. No new tracking; BP at the GP visit.
+- **Breath-hold (Valsalva, /ask 2026-10-27) [V abstracts]:** acute only, healthy young, n 11–44: VM +37 mmHg MAP and a
+  transient PWV rise vs paced breathing (42213131); peak MAP + cerebral pulsatility up at 90 % 1RM leg press, blunted in
+  trained (42841366); biggest cerebral swing *after* the hold (31912226, → stand up slowly). IAP: squat >200, leg press
+  ~160–176, bench 79 mmHg (SR 31938009). **No outcome evidence of harm in healthy lifters**; events = case reports, mostly
+  undiagnosed aortic disease / hypertension / stimulants. Rule: **1–2 s brace on the hard rep at most, never across
+  reps**; heavy breathing after a set is normal. Thunderclap headache, tearing chest/back pain, fainting → ED.
 
 Related: [[training-routine]], [[evidence-inflammation-immunity-hepb]], [[cutting-goal-2026]], [[evidence-load-reps-stretch]].
