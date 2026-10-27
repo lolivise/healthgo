@@ -25,3 +25,7 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 重訓憋氣（Valsalva）傷心臟 | 🟡 | 自己聽到的 | [2026-10-27-breath-hold-and-rep-limit.md](2026-10-27-breath-hold-and-rep-limit.md) |
 | 2026-10-27 | 重訓應該一直吐氣、完全不憋氣 | 🟡 | 自己聽到的 | [2026-10-27-breath-hold-and-rep-limit.md](2026-10-27-breath-hold-and-rep-limit.md) |
 | 2026-10-27 | 做到次數上限就停，比硬推到力竭更安全更好 | 🟡 | 自己聽到的 | [2026-10-27-breath-hold-and-rep-limit.md](2026-10-27-breath-hold-and-rep-limit.md) |
+| 2026-10-27 | 扣掉瘦體重，代謝 20–60 歲持平、60 歲後才降 | ✅ | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
+| 2026-10-27 | 久坐通勤少消耗 100–140 kcal；NEAT 比運動多 | 🟡 | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
+| 2026-10-27 | 慢性發炎、殭屍細胞讓代謝變慢、變胖 | ❌ | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
+| 2026-10-27 | 睡 7–9 小時是提高代謝的不二法門 | ❌ | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |

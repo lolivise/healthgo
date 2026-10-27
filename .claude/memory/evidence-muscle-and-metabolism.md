@@ -18,7 +18,7 @@ metadata:
   only after ≥50 min at ≥70 % VO2max or hard intervals — LaForgia 2006, PMID 17101527; (3) after hard lifting, REE stays
   up 24–72 h (repair, protein turnover) — Hackney 2008, PMID 18714225, n=16.
 - **But TEE is constrained:** ~28 % of extra activity kcal is offset by lower BEE (n=1,754 DLW; more in higher body
-  fat) — Careau 2021, PMID 34453886; TEE plateaus at high activity — Pontzer 2016, PMID 26832439.
+  fat) — Careau 2021, PMID 34453886; TEE plateaus at high activity — Pontzer 2016, PMID 26832439. **Age:** TEE adjusted for fat-free mass is flat 20–60 y, −0.7 %/y after 60 (DLW, ~6,400 people, 29 countries, cross-sectional — Pontzer 2021, PMID 34385400); mid-life "slow metabolism" is lost lean mass and activity, not age.
 - **Muscle's real payoffs:** keeps RMR from falling during a cut, more work capacity, glucose disposal (muscle takes
   most insulin-stimulated glucose — DeFronzo 1981, PMID 7030826), strength with age.
 

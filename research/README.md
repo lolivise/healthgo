@@ -50,6 +50,7 @@ meal frequency).
 | `evidence-maintenance-transition` | 2026-10-10 |
 | `evidence-muscle-turnover` | 2026-10-16 |
 | `evidence-fasted-exercise` | 2026-10-16 |
+| `evidence-muscle-and-metabolism` | 2026-10-27 |
 | `evidence-diet-patterns` (16:8, 20:4, multi-day fasts, keto, meal frequency) | 2026-10-26 |
 
 Reports: cross-listed `medical/慢性發炎 減重過快 臉部老化.md` (the too-fast-loss section; notes

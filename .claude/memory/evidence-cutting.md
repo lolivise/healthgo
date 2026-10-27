@@ -22,7 +22,7 @@ Split out of the old `evidence-cut-and-training` on 2026-10-26; the training hal
 | Adaptation | RMR, leptin, T3 and testosterone fall in long cuts, most in lean men; contest-prep men recover T in ~1–3 months of eating more (Frontiers Nutr 2024 review [V]). Detail in [[evidence-metabolic-adaptation]] | moderate |
 | Low energy availability | IOC 2023 REDs consensus [M]: LEA ≈ <30 kcal/kg FFM/day, uncertain for men. EA = (intake − exercise kcal) ÷ FFM, not intake ÷ FFM. His floor (25 for men) is in [[evidence-rapid-loss-harms]] | strong (consensus) |
 | Cardio | Schumann 2022 meta-analysis (43 studies) [V]: concurrent training does not reduce hypertrophy or max strength; small hit to explosive strength. Walking is the lowest-cost option | strong |
-| Sleep | Nedeltcheva 2010 RCT (n=10) [M]: 5.5 h vs 8.5 h on the same deficit → 55 % less fat lost, 60 % more lean lost | moderate |
+| Sleep | Nedeltcheva 2010 RCT (n=10) [M]: 5.5 h vs 8.5 h on the same deficit → 55 % less fat lost, 60 % more lean lost. Wang 2018 *Sleep* RCT (n=36, 8 wk, PMID 29438540) [V]: ~1 h less on 5 nights/wk → same total loss, smaller fat share. Sleep loss does not lower metabolic rate (Markwald 2013, PMID 23818627, EE +5 % but intake up more [M]); its cost is fat-vs-lean partition and appetite | moderate |
 | When to stop | Stop signs: strength down across several lifts, persistent fatigue, worse sleep, mood, illness, or target reached. **Libido is not a signal for him** ([[feel-checkin]]) | expert |
 
 **How to apply:**
