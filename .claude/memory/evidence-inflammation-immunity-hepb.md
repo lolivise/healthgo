@@ -37,6 +37,16 @@ future plans and weekly reviews. Full 繁中 report: `research/medical/慢性發
   7. Alcohol: no protective dose (Zhao 2023, 107 cohorts [V]); a binge raises endotoxin.
 - His diet already matches most of it. Gaps: olive oil only ~4 g, little fruit, no legumes/fish (optional, weak).
 
+## Does inflammation make you fat via tiredness? (his hypothesis, 2026-10-27, abstracts checked)
+Chain "inflammation → fatigue → less exercise + more eating → gain": **each link only partly true, chain never tested,
+net effect null.** Fatigue: acute LPS/vaccine RCTs yes (Harrison 2009 PMID 19409533, n=16); low-grade CRP ↔ fatigue OR
+1.12 (UK Biobank n=147k, PMID 34135474), IL-6 MR → fatigue. Less activity: LPS lowers self-rated motivation (n=21, PMID
+41333238); MR CRP → moderate-activity days OR 0.92 (PMID 39088575, maybe via adiposity); nobody measured real training.
+More eating: **opposite** (LPS blunts hunger, PMID 41333238; MR CRP/IL-6 no appetite effect, BMI does, PMID 33079133).
+Net: MR CRP ↛ BMI (Welsh 2010, Timpson 2011); DILGOM n=3,735, 7 y: association gone after baseline BMI (PMID
+32812925); only positive cohort Engström 2003 (n=2,821 men, non-CRP proteins). Anti-TNF → +0.9–2.3 kg (PMID 32351392).
+For him: tiredness → check sleep, deficit, load, not "inflammation". No change.
+
 ## Immunity / viral infection
 - **Sleep is the strongest lever:** <6 h → 4.2× cold risk vs >7 h (Prather 2015, landmark); objectively short sleep
   weakens vaccine antibodies, **strongly in men** (ES 0.93; incl. hep A/B vaccines; Spiegel 2023 [V]). Garmin sleep is
