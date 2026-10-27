@@ -7,3 +7,4 @@ identifiable source. "Pattern" is the habitual flaw (e.g. 動物研究講成人�
 | Source | Type | Checked | ✅ | 🟡 | ❌ | ❓ | Pattern | Files |
 |---|---|---|---|---|---|---|---|---|
 | [越診所 | 功能醫學（陳君琳醫師）](https://www.youtube.com/watch?v=iGNsny1FyZ8) | YouTube | 4 | 1 | 1 | 2 | 0 | 賣自己的課程（抗發炎體質課程、折扣碼）；先正確引用一篇大研究建立可信度，再接上沒出處的發炎／殭屍細胞說法；其他數字多半只說「一項研究」 | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
+| [林勁瑋 x 大腦優先教練學院](https://www.youtube.com/watch?v=pbRbk7zQ-vw) | YouTube | 4 | 1 | 3 | 0 | 0 | 賣教練諮詢和課程（健身房贊助）；引用真論文、數字抄得對，但把老年糖尿病人或沒訓練的老人小研究（n=9、每組約 23 人）套到一般人；沒出處的說法（垃圾訓練量妨礙合成）夾在有出處的中間 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |

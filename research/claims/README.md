@@ -29,3 +29,7 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 久坐通勤少消耗 100–140 kcal；NEAT 比運動多 | 🟡 | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
 | 2026-10-27 | 慢性發炎、殭屍細胞讓代謝變慢、變胖 | ❌ | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
 | 2026-10-27 | 睡 7–9 小時是提高代謝的不二法門 | ❌ | 越診所 | 功能醫學（陳君琳醫師） | [2026-10-27-metabolism-age-inflammation.md](2026-10-27-metabolism-age-inflammation.md) |
+| 2026-10-27 | 每週 2 次重訓 16 週胰島素敏感度 +46%、內臟脂肪 −10% | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |
+| 2026-10-27 | 每週 1 次全身重訓代謝好處＝2–3 次 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |
+| 2026-10-27 | 總量相同時全身＝分部位（肌力、肌肥大） | ✅ | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |
+| 2026-10-27 | 分部位是垃圾訓練量，肌肉損傷妨礙長肌肉 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |

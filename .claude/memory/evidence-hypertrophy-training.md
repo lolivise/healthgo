@@ -16,7 +16,7 @@ The Load, Failure and Long-length rows are superseded by [[evidence-load-reps-st
 | Topic | Evidence | Strength |
 |---|---|---|
 | Volume | Pelland 2024/25 dose-response meta-regression (67 studies) [V]: growth rises with sets on a diminishing curve; biggest gains up to ~12 sets/muscle/wk, smaller to 18–24; ~11 sets/session plateau | strong |
-| Frequency | Schoenfeld 2019 (25 studies, PMID 30558493) [V]: volume-equated, frequency makes no meaningful difference to hypertrophy, trained or not. Pelland 2025 (PMID 41343037) [V]: frequency effect on hypertrophy compatible with negligible; on strength real, diminishing | strong |
+| Frequency | Schoenfeld 2019 (25 studies, PMID 30558493) [V]: volume-equated, frequency makes no meaningful difference to hypertrophy, trained or not. Pelland 2025 (PMID 41343037) [V]: frequency effect on hypertrophy compatible with negligible; on strength real, diminishing. Split vs full-body: Ramos-Campo 2024 JSCR meta, 14 studies, n=392 (PMID 38595233) [V abstract]: volume-equated, no difference in strength or hypertrophy (wide CIs, k=4–6 for size) → layout is preference | strong |
 | Maintenance dose | Bickel 2011 [M]: 1/9 of the volume, 1 day/wk kept size for 32 wk. Spiering 2021 review [M]: ~1/3 of volume, ≥1 session/wk, keep intensity | moderate |
 | Failure | Robinson 2024 Sports Med [V]: hypertrophy improves closer to failure; strength barely. Refalo 2023 [M]: failure ≈ non-failure. Default **1–2 RIR** | moderate |
 | Load | Lopez 2021 [M]: ~30–85 % 1RM gives similar hypertrophy if sets are hard. Heavier is better for strength | strong |
