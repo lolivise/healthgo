@@ -17,6 +17,7 @@
 - [Data sources](data-sources.md) — Garmin + weight + fixed diet + Telegram only; NO InBody since 2026-10-10 (gym removed it); BF estimated from weight, lean ≈ 68 kg; BF scale/DEXA researched & declined 2026-10-23
 - [Performance first](performance-first.md) — main goal = body in good shape; judge the cut by strength/cardio/recovery before the scale; performance drop alone → slow the cut
 - [Christmas party 2026](event-christmas-party-2026.md) — Fri 12-04 dress-up; projection 10-25: ~87 kg at plan pace, ~85.2 kg at the 0.7 %/wk cap (ceiling, not a target)
+- [Evidence-only answers](evidence-only-answers.md) — STANDING RULE 10-27: every answer cites verified research (paper, design, n, how measured); never common sense/model memory; no evidence → say so
 - [Research purpose](research-purpose.md) — research ends in 對你計畫的影響 + 值得一試 + hype spotted; flag weak studies; new supplements only via doctor (10-26)
 - [/ask myth-buster](ask-myth-buster.md) — Telegram /ask: YouTube/web/heard claims → source paper, quality, fit to him, worth it; every check filed in research/claims/ (search it first)
 - [Evidence · fat-loss: cutting](evidence-cutting.md) — 2023–26 base: deficit ≤~500 kcal, protein, fat floor, diet breaks, adaptation, EA, sleep, stop signs (split from cut-and-training 10-26)
@@ -26,6 +27,7 @@
 - [Evidence · fat-loss: ending a cut](evidence-maintenance-transition.md) — straight-to-maintenance beats reverse ramp; +0.5–2 kg water jump; flexible rules; TDEE from trend
 - [Evidence · fat-loss: muscle turnover](evidence-muscle-turnover.md) — "muscle only burned when nothing else left" is false; protein ≈3 % of exercise fuel, but muscle turns over all day, net balance (lifting, protein, deficit) decides
 - [Evidence · fat-loss: muscle & metabolism](evidence-muscle-and-metabolism.md) — resting muscle ≈13 kcal/kg/day (+1 kg ≈ +13 kcal; "50 kcal/lb" = hype); lifting +~50–100 kcal/day RMR (weak); exercise burns via the work itself, ~28 % compensated; for him lift to keep muscle, not to burn kcal; no change (10-26)
+- [Evidence · training: cardio vs lifting](evidence-cardio-vs-lifting.md) — 10-27: cardio ≥ lifting for fat loss; in a deficit cardio-only loses more lean + hip BMD, RT keeps it; strength & VO2 each cut mortality; keep both, no change
 - [Evidence · fat-loss: fasted exercise](evidence-fasted-exercise.md) — 2023–26: fasted burns more fat in-session, no extra fat loss; cons, who should avoid; for him: either is fine, lift quality first
 - [Evidence · fat-loss: diet patterns](evidence-diet-patterns.md) — 16:8, 20:4, 3–7-day fasts, keto, small meals: none beats matched CR; autophagy/immune-reset/FMD/"91 % CV death" = hype; fasting ↑HBV in mice; for him no change; 16:8 declined by him (10-26)
 - [Evidence · training: hypertrophy](evidence-hypertrophy-training.md) — 2023–26 base: volume, maintenance/holiday dose, failure, tempo, age 36, detraining, lean bulk, shoulder (split from cut-and-training 10-26)

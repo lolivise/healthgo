@@ -19,6 +19,8 @@ thresholds). **Change both together.**
 
 - **Safety limits** (`.claude/memory/safety-limits.md`) bound every recommendation. Hep B means no new
   supplements and a doctor referral for anything liver-related.
+- **Every answer is backed by verified research** (`.claude/memory/evidence-only-answers.md`): cite the paper,
+  design, n and how the number was measured; never common sense or model memory; no evidence → say so.
 - **Reports and advice are in Traditional Chinese (繁體中文)**, with English technical terms in brackets.
 - **Don't add tracking chores.** He rejected waist and photo tracking. Read Garmin data, and only ask
   questions inside a review he started (eating out since the last review).
@@ -55,8 +57,9 @@ Darren's standing rule (2026-10-09), for token efficiency:
 
 ## Git: commit and push straight to `main`, no asking
 
-A standing exemption for this repo (see `.claude/memory/git-policy.md`). Commit and push as part of
-finishing any change, then report what landed. **Never** force-push, `reset --hard`, `rebase`, `--amend`,
+A standing exemption for this repo (see `.claude/memory/git-policy.md`). **When any task is done (a question
+answered, an `/ask` filed, research, a memory edit), commit and push without asking**, then report what landed. Run
+each git command as its own Bash call from the repo root (no `cd … &&` chains) so the settings allow-list matches. **Never** force-push, `reset --hard`, `rebase`, `--amend`,
 `tag` or `stash drop` without an explicit ask. Everything is committed except the derived
 `data/healthgo.db`.
 
