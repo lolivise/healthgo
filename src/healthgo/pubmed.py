@@ -132,11 +132,19 @@ def pull(sector: str, since: date | None = None, until: date | None = None, out:
     since = since or date.fromisoformat(sec["last_reviewed"])
     until = until or config.today()
     out = out or config.ROOT / "research" / sector / "reviews" / f"{quarter(until)}-pulled.md"
-    client = Client()
+    return {"sector": sector, **_pull(sector, sec["queries"], since, until, out, cfg.get("per_query_max", 60))}
 
+
+def pull_queries(queries: list[str], since: date, out: Path, until: date | None = None, per_query_max: int = 40) -> dict:
+    """Ad-hoc pull for one question (/ask): the given searches, no sector, same study-type filter and file layout."""
+    return _pull("ad-hoc question", queries, since, until or config.today(), out, per_query_max)
+
+
+def _pull(label: str, queries: list[str], since: date, until: date, out: Path, per_query_max: int) -> dict:
+    client = Client()
     hits, by_pmid = [], {}
-    for i, q in enumerate(sec["queries"], 1):
-        count, pmids = search(client, q, since, until, cfg.get("per_query_max", 60))
+    for i, q in enumerate(queries, 1):
+        count, pmids = search(client, q, since, until, per_query_max)
         hits.append({"query": q, "count": count, "pmids": pmids})
         for pmid in pmids:
             by_pmid.setdefault(pmid, []).append(i)
@@ -145,8 +153,8 @@ def pull(sector: str, since: date | None = None, until: date | None = None, out:
         p["queries"] = by_pmid.get(p["pmid"], [])
 
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(render(sector, since, until, hits, papers))
-    return {"sector": sector, "since": since.isoformat(), "until": until.isoformat(), "papers": len(papers),
+    out.write_text(render(label, since, until, hits, papers))
+    return {"since": since.isoformat(), "until": until.isoformat(), "papers": len(papers),
             "truncated_queries": [i for i, h in enumerate(hits, 1) if h["count"] > len(h["pmids"])],
             "api_key": bool(client.key),
             "file": str(out.relative_to(config.ROOT) if out.is_relative_to(config.ROOT) else out)}

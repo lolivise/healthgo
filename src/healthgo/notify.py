@@ -68,7 +68,7 @@ def _table(rows: list[str]) -> list[str]:
     return out
 
 
-def _telegram_html(md: str) -> str:
+def _telegram_html(md: str, icon: str = "📊") -> str:
     """Markdown report → Telegram HTML laid out for a phone: bold headings, bullets, indented sub-points."""
     out: list[str] = []
     lines = md.splitlines()
@@ -87,7 +87,7 @@ def _telegram_html(md: str) -> str:
         indent = len(s) - len(s.lstrip())
         t = s.strip()
         if t.startswith("# "):
-            out.append(f"<b>📊 {_inline(t[2:])}</b>")
+            out.append(f"<b>{icon} {_inline(t[2:])}</b>")
         elif t.startswith("## "):
             out += ["", f"<b>▍{_inline(t[3:])}</b>"]
         elif t.startswith("### "):
@@ -124,27 +124,31 @@ def _chunks(text: str, limit: int = TELEGRAM_LIMIT) -> list[str]:
     return parts
 
 
-def send_report(path: Path) -> bool:
-    """Send a review report to Telegram in full, split into messages under the API limit."""
-    parts = _chunks(_telegram_html(path.read_text()))
+def send_report(path: Path, reply_to: int | None = None, icon: str = "📊") -> bool:
+    """Send a review report (or an /ask answer, threaded under the question) to Telegram in full,
+    split into messages under the API limit."""
+    parts = _chunks(_telegram_html(path.read_text(), icon))
     for i, part in enumerate(parts, 1):
         text = part if len(parts) == 1 else f"{part}\n\n（{i}/{len(parts)}）"
+        to = reply_to if i == 1 else None
         # if Telegram rejects the HTML, the same text without tags still beats nothing
-        if not (_telegram(text, html=True) or _telegram(re.sub(r"</?b>", "", text)
-                                                         .replace("&lt;", "<").replace("&gt;", ">")
-                                                         .replace("&amp;", "&"))):
-            _macos(f"週報 {path.name} 傳到 Telegram 失敗（{i}/{len(parts)}）")
+        if not (_telegram(text, html=True, reply_to=to) or _telegram(re.sub(r"</?b>", "", text)
+                                                                     .replace("&lt;", "<").replace("&gt;", ">")
+                                                                     .replace("&amp;", "&"), reply_to=to)):
+            _macos(f"{path.name} 傳到 Telegram 失敗（{i}/{len(parts)}）")
             return False
     return True
 
 
-def _telegram(text: str, html: bool = False) -> bool:
+def _telegram(text: str, html: bool = False, reply_to: int | None = None) -> bool:
     try:
         token = vault.read("TELEGRAM/BOT_TOKEN")
         chat_id = vault.read("TELEGRAM/CHAT_ID")
         msg = {"chat_id": chat_id, "text": text}
         if html:
             msg["parse_mode"] = "HTML"
+        if reply_to:
+            msg["reply_parameters"] = {"message_id": reply_to, "allow_sending_without_reply": True}
         body = json.dumps(msg).encode()
         req = urllib.request.Request(
             f"https://api.telegram.org/bot{token}/sendMessage",

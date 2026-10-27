@@ -8,6 +8,7 @@ export interface Env {
   WEBHOOK_SECRET: string;
   PULL_TOKEN: string;
   AI: Ai;
+  ASKS: R2Bucket; // /ask questions: pending/<id>.json until the Mac answers, then done/<id>.json
   TG_API_BASE?: string; // tests only (wrangler dev): point the Telegram calls at a stub
 }
 
@@ -17,6 +18,7 @@ const LABELS: Record<string, string> = {
   note: "備註",
   blood: "驗血",
   feel: "身體狀況",
+  ask: "提問",
 };
 
 // Asked after a bare command tapped from the menu; the next message gets that kind.
@@ -25,6 +27,7 @@ const PROMPTS: Record<string, string> = {
   weight: "⚖️ 體重多少？（例：90.8）",
   blood: "🩸 請傳驗血報告照片或文字",
   note: "📝 要記什麼？",
+  ask: "❓ 想問什麼？（例：聽說早上空腹喝咖啡會傷肝？）",
 };
 const PENDING_TTL_S = 30 * 60;
 
@@ -36,11 +39,12 @@ const HELP =
   "/weight 體重數字\n" +
   "/blood 驗血結果（文字或照片）\n" +
   "/note 其他備註（不加指令也會當備註）\n" +
+  "/ask 問一個健康問題（查證據後回覆：出處、科學根據、對你的影響、值不值得做）\n" +
   "/cancel 取消\n\n" +
   "🎙 也可以傳語音（會自動轉成文字）\n" +
   "也可以從選單點指令，再輸入內容或傳照片。";
 
-const COMMAND = /^\/(eat|feel|weight|note|blood|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
+const COMMAND = /^\/(eat|feel|weight|note|blood|ask|help|start|cancel)(?:@\w+)?(?:\s+([\s\S]*))?$/i;
 
 function safeEqual(a: string, b: string): boolean {
   const enc = new TextEncoder();
@@ -296,6 +300,8 @@ async function handle(update: any, env: Env): Promise<void> {
     }
   }
 
+  if (kind === "ask") return storeAsk(env, chatId, msg, text, voice ? transcribeError : "");
+
   const group: string | null = msg.media_group_id ? String(msg.media_group_id) : null;
   let firstOfGroup = true;
   if (group) {
@@ -327,6 +333,55 @@ async function handle(update: any, env: Env): Promise<void> {
   }
 }
 
+// ---- /ask: questions in R2, answered by a Claude session on the Mac that polls /asks ----
+
+interface Ask { id: number; asked_at: string; text: string; file_id: string | null }
+
+async function storeAsk(env: Env, chatId: string, msg: any, text: string, transcribeError: string): Promise<void> {
+  if (!text) {
+    await reply(env, chatId, transcribeError ? "⚠️ 語音轉錄失敗，請用文字再問一次。" : "❓ 請用文字寫下問題。");
+    return;
+  }
+  const key = `pending/${msg.message_id}.json`;
+  if (await env.ASKS.head(key) || await env.ASKS.head(`done/${msg.message_id}.json`)) return; // Telegram retry
+  const photo = Array.isArray(msg.photo) && msg.photo.length ? msg.photo[msg.photo.length - 1].file_id : null;
+  const ask: Ask = {
+    id: msg.message_id,
+    asked_at: new Date((msg.date ?? nowS()) * 1000).toISOString(),
+    text,
+    file_id: photo ?? msg.document?.file_id ?? null,
+  };
+  await env.ASKS.put(key, JSON.stringify(ask), { httpMetadata: { contentType: "application/json" } });
+  await reply(env, chatId, "❓ 收到問題，查資料中，答案會回覆在這則訊息下。", {
+    reply_parameters: { message_id: msg.message_id },
+  });
+}
+
+async function pendingAsks(env: Env): Promise<Ask[]> {
+  const out: Ask[] = [];
+  let cursor: string | undefined;
+  do {
+    const page = await env.ASKS.list({ prefix: "pending/", cursor });
+    for (const o of page.objects) {
+      const body = await env.ASKS.get(o.key);
+      if (body) out.push(await body.json<Ask>());
+    }
+    cursor = page.truncated ? page.cursor : undefined;
+  } while (cursor);
+  return out.sort((a, b) => a.id - b.id);
+}
+
+/** Move pending/<id> to done/<id> with the answer attached. 404 if it was never asked or is already done. */
+async function finishAsk(env: Env, id: number, answer: string): Promise<Response> {
+  const body = await env.ASKS.get(`pending/${id}.json`);
+  if (!body) return new Response("not found", { status: 404 });
+  const ask = await body.json<Ask>();
+  await env.ASKS.put(`done/${id}.json`, JSON.stringify({ ...ask, answer, answered_at: new Date().toISOString() }),
+    { httpMetadata: { contentType: "application/json" } });
+  await env.ASKS.delete(`pending/${id}.json`);
+  return Response.json({ ok: true, id });
+}
+
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
@@ -355,6 +410,19 @@ export default {
           "FROM entries WHERE id > ? ORDER BY id LIMIT 500",
       ).bind(since).all();
       return Response.json({ entries: results });
+    }
+
+    const asks = /^\/asks(?:\/(\d+)\/done)?$/.exec(url.pathname);
+    if (asks) {
+      const auth = req.headers.get("Authorization") ?? "";
+      if (!env.PULL_TOKEN || !safeEqual(auth, `Bearer ${env.PULL_TOKEN}`)) {
+        return new Response("unauthorized", { status: 401 });
+      }
+      if (req.method === "GET" && !asks[1]) return Response.json({ asks: await pendingAsks(env) });
+      if (req.method === "POST" && asks[1]) {
+        const { answer } = await req.json<{ answer?: string }>().catch(() => ({ answer: undefined }));
+        return finishAsk(env, Number(asks[1]), String(answer ?? ""));
+      }
     }
 
     return new Response("not found", { status: 404 });

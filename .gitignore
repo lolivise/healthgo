@@ -17,3 +17,6 @@ worker/node_modules/
 worker/.wrangler/
 worker/.dev.vars
 .dev.vars
+
+# /ask PubMed pulls (regenerated; the answer in data/asks/ is committed)
+data/asks/pulls/

@@ -1,7 +1,7 @@
 # healthgo-inbox
 
 Cloudflare Worker + D1. Telegram webhook -> D1 `entries`; the Mac pulls with `uv run healthgo inbox`
-(also part of `healthgo daily`). Photos stay on Telegram (file_id only); no R2.
+(also part of `healthgo daily`). Photos stay on Telegram (file_id only). `/ask` questions go to R2 (below).
 
 ## Setup
 
@@ -27,6 +27,15 @@ via getFile and transcribes it with Workers AI Whisper (`@cf/openai/whisper-larg
 free-text answer. Over 5 min or 20 MB, or on a Whisper error, the entry is stored with empty `text` and
 `transcribe_error` in `raw`; `inbox` then downloads the audio as `.oga`. Transcribed voices are not downloaded.
 Needs no deploy.sh change (the `[ai]` binding is in wrangler.toml; Workers AI has a free daily allowance).
+
+### /ask
+
+`/ask <question>` (or bare `/ask`, then the question; voice works) is stored in R2 bucket `healthgo-asks` (binding
+`ASKS`) as `pending/<message_id>.json` = `{id, asked_at, text, file_id}`, not in D1, and the bot replies "收到".
+`GET /asks` (Bearer `PULL_TOKEN`) lists pending questions; `POST /asks/<id>/done` with `{"answer": "..."}` moves one
+to `done/<id>.json` with the answer attached. A Claude session running the `/ask` skill polls with
+`uv run healthgo ask watch` and answers with `uv run healthgo ask answer <id> <file>`, which replies under the
+question. The bucket was created once with `npx wrangler r2 bucket create healthgo-asks`.
 
 ### /feel
 

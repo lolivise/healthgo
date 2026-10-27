@@ -166,6 +166,13 @@ def cmd_check(args) -> int:
 def cmd_pubmed(args) -> int:
     from . import pubmed
 
+    if args.query:
+        if args.sector or not (args.since and args.out):
+            raise SystemExit("--query needs --since and --out, and no --sector")
+        until = date.fromisoformat(args.until) if args.until else None
+        print(json.dumps(pubmed.pull_queries(args.query, date.fromisoformat(args.since), Path(args.out), until),
+                         ensure_ascii=False))
+        return 0
     sectors = args.sector or [s for s, v in pubmed.research()["sectors"].items() if v["cadence"] == "quarterly"]
     since = date.fromisoformat(args.since) if args.since else None
     until = date.fromisoformat(args.until) if args.until else None
@@ -174,6 +181,21 @@ def cmd_pubmed(args) -> int:
     out = Path(args.out) if args.out else None
     for s in sectors:
         print(json.dumps(pubmed.pull(s, since, until, out), ensure_ascii=False))
+    return 0
+
+
+def cmd_ask(args) -> int:
+    from . import ask
+
+    if args.action == "list":
+        print(json.dumps(ask.pending(), ensure_ascii=False, indent=2))
+        return 0
+    if args.action == "watch":
+        ask.watch(args.interval)
+        return 0
+    if args.id is None or not args.file:
+        raise SystemExit("ask answer needs an id and the answer file")
+    print(json.dumps(ask.answer(args.id, Path(args.file)), ensure_ascii=False))
     return 0
 
 
@@ -374,7 +396,15 @@ def main(argv: list[str] | None = None) -> int:
     pm.add_argument("--since", help="YYYY-MM-DD; default: the sector's last_reviewed")
     pm.add_argument("--until", help="YYYY-MM-DD; default: today")
     pm.add_argument("--out", help="output file (one sector only); default: research/<sector>/reviews/<quarter>-pulled.md")
+    pm.add_argument("--query", action="append", help="ad-hoc PubMed search (repeatable, /ask); needs --since and --out")
     pm.set_defaults(fn=cmd_pubmed)
+
+    k = sub.add_parser("ask", help="Telegram /ask questions: list, watch (one JSON line per new question), answer")
+    k.add_argument("action", choices=["list", "watch", "answer"])
+    k.add_argument("id", nargs="?", type=int, help="answer: the question id")
+    k.add_argument("file", nargs="?", help="answer: the answer markdown (data/asks/...)")
+    k.add_argument("--interval", type=float, default=10, help="watch: seconds between polls")
+    k.set_defaults(fn=cmd_ask)
 
     sub.add_parser("review-plan", help="which reviews /review runs now: a missed full week first, then today's"
                    ).set_defaults(fn=cmd_review_plan)

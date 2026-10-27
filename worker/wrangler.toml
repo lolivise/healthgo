@@ -11,3 +11,8 @@ database_id = "9823eeae-1b5c-4069-b885-61686d219dc1"
 
 [ai]
 binding = "AI"
+
+# /ask questions (pending/ until answered on the Mac, then done/). Create once: npx wrangler r2 bucket create healthgo-asks
+[[r2_buckets]]
+binding = "ASKS"
+bucket_name = "healthgo-asks"
