@@ -40,11 +40,12 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | Report writing: the 繁中 report from a decided verdict | **Sonnet** | `health-writer` agent |
 | **Research pulls** (quarterly `/knowledge-review`) | **no model** | `healthgo pubmed`, a script (Darren, 2026-10-26: data pulling never on Opus) |
 | **Screening research** against the evidence memories | **Sonnet** | `health-research` agent, one per sector, reads the title index and only the abstracts it picks |
-| **`/ask` myth-buster**: YouTube transcript / page fetch | **no model** | `healthgo transcript` (yt-dlp via uvx) |
-| **`/ask` myth-buster**: claim extraction, origin paper + PubMed check per claim | **Sonnet** | `health-research` agents, ad-hoc briefs; Opus writes the verdict and answer (impact + worth it are decisions) |
+| **`/ask` myth-buster**: transcript, PubMed pulls | **no model** | `healthgo transcript` (yt-dlp via uvx), `healthgo pubmed --query` |
+| **`/ask`**: intake + claim list, per-claim source check, filing/sending/commit | **Sonnet** | `ask-intake`, `ask-check` (parallel), `ask-file` |
+| **`/ask`**: verdicts, impact on his plan, worth it, the 繁中 record, evidence edits | **Opus** | `ask-judge` sub-agent (pinned `model: opus`). The long-running main thread only dispatches: one-line briefs, one-line returns, never opens files |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |
 
-- The agents are defined in `.claude/agents/`, pinned with `model: sonnet`. Every brief to them must be
+- The agents are defined in `.claude/agents/`, pinned with `model: sonnet` (except `health-data` on Haiku and `ask-judge` on Opus). Every brief to them must be
   self-contained, because they don't see this conversation.
 - **The main thread does not read raw Garmin JSON or dump query tables into its own context.** It reads the
   digest an agent returns. It may run a quick one-line command whose short output it needs to see.

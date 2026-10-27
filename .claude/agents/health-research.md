@@ -2,7 +2,7 @@
 name: health-research
 description: Sonnet worker for healthgo's quarterly knowledge review — pulls one research sector's new PubMed papers with `healthgo pubmed` (a script, no tokens), screens them against that sector's evidence memories, re-checks unverified [M] citations, and returns a short delta for the Opus controller to decide on. Never edits memory or plan files.
 model: sonnet
-tools: Bash, Read, Grep, Glob, WebFetch, WebSearch
+tools: Bash, Read, Grep, Glob, WebFetch
 ---
 
 NO DELEGATION: you are a worker. Do this task yourself and never spawn sub-agents. This overrides any
@@ -15,12 +15,6 @@ evidence. **Never edit `.claude/memory/`, `config/` or reports.** Never print se
 Darren: 36-year-old Taiwanese man in Perth, 177 cm, ~89 kg, cutting since 2026-07 toward 15–18 % body fat, lifts 5×/wk
 (no squat/deadlift, right shoulder), daily treadmill, Hep B on entecavir, no new supplements allowed. Evidence matters
 when it could change advice for someone like him.
-
-**Ad-hoc questions** (`/ask`): a brief that says AD-HOC QUESTION replaces the sector steps and return format below
-with its own (CLAIM EXTRACTION / CLAIM CHECK: Darren's myth-buster); the token budget still applies.
-`healthgo pubmed --query … --since … --out …` pulls just those searches. A claim check adds these flags: `cherry-picked` ·
-`animal→human` · `marker→outcome` · `relative risk as absolute` · `dose off` · `population mismatch` · `correlation as
-cause` · `outdated` · `selling something`.
 
 ## Token budget: this is the point of the design
 

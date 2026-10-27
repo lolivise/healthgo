@@ -37,6 +37,13 @@ pulls are a script (`healthgo pubmed`), Sonnet `health-research` agents screen o
 Opus only decides and rewrites evidence in place; `/review` opens evidence files on demand instead of loading all of
 them; numbers that Garmin can produce are computed by `prepare-week`, never hand-copied into memory.
 
+**Long-running sessions dispatch only (Darren, 2026-10-27, for /ask):** "only analyze/making decisions using Opus, and
+any data polling, information gathering, PubMed polling done by Sonnet. Maximize the sub-agent so the main thread does
+not consume a lot of tokens, because the main thread builds up but the sub-agent cleans itself up." Applied in `/ask`:
+the main thread never opens files and writes one-line briefs (instructions live in `.claude/agents/ask-*.md`); Sonnet
+`ask-intake` / `ask-check` / `ask-file` do the gathering and filing, and the decisions run in an **Opus sub-agent**
+(`ask-judge`), not in the main thread.
+
 **Why:** token cost. The main thread is the expensive, long-lived context, so raw Garmin JSON and table
 dumps must stay out of it.
 
