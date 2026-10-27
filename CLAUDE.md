@@ -43,7 +43,7 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | **Research pulls** (quarterly `/knowledge-review`) | **no model** | `healthgo pubmed`, a script (Darren, 2026-10-26: data pulling never on Opus) |
 | **Screening research** against the evidence memories | **Sonnet** | `health-research` agent, one per sector, reads the title index and only the abstracts it picks |
 | **`/ask` myth-buster**: transcript, PubMed pulls, Telegram progress card, filing + sending + commit | **no model** | `healthgo transcript` (yt-dlp via uvx), `healthgo pubmed --query`, `healthgo ask status`, `healthgo ask file` |
-| **`/ask`**: intake + claim list, per-claim source check | **Sonnet** | `ask-intake`, `ask-check` (parallel) |
+| **`/ask`**: intake + claim list, per-claim source check | **Sonnet** | `ask-intake`, `ask-check` (≤ 5 in parallel) |
 | **`/ask`**: verdicts, impact on his plan, worth it, the 繁中 record, evidence edits | **Opus** | `ask-judge` sub-agent (pinned `model: opus`). The long-running main thread only dispatches: one-line briefs, one-line returns, never opens files |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |
 
@@ -54,6 +54,8 @@ Darren's standing rule (2026-10-09), for token efficiency:
 - **Decisions never move to Sonnet.** If the main session is not running Opus, hand the decision step
   to a `general-purpose` agent with `model: opus`, passing it the digest and memory paths.
 - Agents never delegate further: delegation is one level deep.
+- **At most 5 sub-agents running at once, anywhere in this repo** (Darren, 2026-10-27). More work than that goes in
+  waves: spawn up to 5 in one message, wait until they have all returned, then the next up to 5.
 
 ## Git: commit and push straight to `main`, no asking
 

@@ -25,7 +25,7 @@ This session runs for hours and its context only grows; sub-agents clean themsel
 | Step | Agent | Model | Returns |
 |---|---|---|---|
 | 1. Fetch source, look up prior checks, list every claim | `ask-intake` | Sonnet | 1 line per claim |
-| 2–3. Check **every** claim (origin paper, PubMed, fit to him) | `ask-check` × n, parallel | Sonnet | 1 line each |
+| 2–3. Check **every** claim (origin paper, PubMed, fit to him) | `ask-check` × n, ≤ 5 at a time | Sonnet | 1 line each |
 | 4. Verdicts, impact, worth it, write the 繁中 record, evidence edits | `ask-judge` | Opus | 1 line |
 | 5. Index + track record, send to Telegram, commit, clean up | `healthgo ask file` | **no model** (script) | 1 JSON line |
 | Progress card in Telegram, all along | `healthgo ask status` | **no model** (script) | — |
@@ -75,7 +75,8 @@ first; new events wait.
    if some points go unchecked). A claim the knowledge base already covers is still checked, with `known=<file>`, so
    the worker only looks for newer evidence. OPINION claims (pure value judgments, nothing research can test) are not
    checked; they go to the judge as `opinions=`.
-3. **Check**: all in **one message**, one per CHECKABLE claim, `n` = its intake number:
+3. **Check**: one per CHECKABLE claim, `n` = its intake number, **in waves of at most 5** (repo rule: ≤ 5 sub-agents
+   at once): up to 5 in one message, wait for all of them, then the next wave:
    `Agent(subagent_type: "ask-check", description: "/ask <id> check <n>", prompt: "id=<id> n=<n> claim=<claim>
    source=<SOURCE line> known=<prior evidence/claims files or none>")`.
 4. **Judge**: `Agent(subagent_type: "ask-judge", description: "/ask <id> judge", prompt: "id=<id>

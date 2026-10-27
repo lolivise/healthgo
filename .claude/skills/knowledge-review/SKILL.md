@@ -36,9 +36,10 @@ history**:
 
 Read `config/research.json` and `research/README.md` (no evidence files yet). Decide which sectors run.
 
-## 2. Pull and screen: one `health-research` agent per sector (Sonnet), in parallel
+## 2. Pull and screen: one `health-research` agent per sector (Sonnet), ≤ 5 at a time
 
-Spawn them in one message. Each brief: the sector name, "run `uv run healthgo pubmed --sector <sector>`, screen it
+Spawn them **in waves of at most 5** (repo rule: ≤ 5 sub-agents at once): up to 5 in one message, wait for all of
+them, then the rest. Each brief: the sector name, "run `uv run healthgo pubmed --sector <sector>`, screen it
 against the sector's evidence files, re-check up to 5 [M] citations, return the delta in your format". The pull is a
 script (no tokens); the agent reads only the index and the abstracts it picks. Don't run the pull yourself, and don't
 open the pull files.
