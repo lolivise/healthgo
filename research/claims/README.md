@@ -44,3 +44,11 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 黃燈：精緻澱粉、紅肉要控制以抗發炎 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
 | 2026-10-27 | 紅燈：隱形糖、壞油、加工肉要避開以抗發炎 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
 | 2026-10-27 | 綠燈：omega-3 海鮮、彩虹蔬果、香料抗發炎 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
+| 2026-10-27 | 最大化每日總消耗才能高效減脂 | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | 運動只佔每日總消耗約 5% | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | NEAT 是減脂的秘密武器 | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | 減脂最有效的運動是重訓 | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | 增肌提高 BMR 變易瘦體質 | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | 不用健身房，在家訓練也有效 | ✅ | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | 食物熱效應是不小的消耗 | 🟡 | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |
+| 2026-10-27 | TDEE = BMR + EAT + NEAT + TEF，BMR 最大 | ✅ | 翻滾吧杰克 | [2026-10-27-tdee-exercise-5-percent-neat.md](2026-10-27-tdee-exercise-5-percent-neat.md) |

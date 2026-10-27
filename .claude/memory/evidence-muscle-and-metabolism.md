@@ -43,7 +43,8 @@ deficit and still +3–7 kg short of the goal. Decided: keep the 5-day split thr
 maintenance with no lean-mass goal pending.
 
 **"Exercise is only ~5 % of TEE" (asked 10-27, re-verified):** **no primary paper found that states 5 %** (not
-verified; the earlier "BMR 60–70 % + TEF 10 %" split was model memory, also unverified). Measured: DLW PAL (TEE ÷ REE)
+verified; BMR 60–70 % is still unverified; **TEF ≈10 % of TEE (5–15 %) is verified**: Westerterp 2004 review, PMID
+15507147; it follows total intake, and higher protein raises it acutely but not in chronic diets, MA 52 studies, PMID 39486625). Measured: DLW PAL (TEE ÷ REE)
 averages 1.7–1.8 in adults, range ~1.1–2.5 (Westerterp 2013, PMID 23637685), so all activity ≈ 30–45 % of TEE;
 spontaneous activity varies 100–800 kcal/d between people (chamber, n=177, Ravussin 1986, PMID 3782471). Wang 2012
 tissue rates = n=80 young women, MRI organ mass + calorimetry, regression-fitted. His case: Garmin 09-28→10-24 avg TEE 2,925, BMR 2,243, active 682;
