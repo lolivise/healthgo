@@ -123,6 +123,13 @@ turns out wrong (eggs and cholesterol), so each file states the old belief and w
 
 Reports: `nutrition/代糖 人工甜味劑.md`.
 
+### 8. Claims checked (`claims`) · every /ask
+
+Darren's myth-buster (2026-10-27): every YouTube video, web page or claim sent through Telegram `/ask` is traced to its
+source paper, graded, and filed in `claims/` (one file per source, index in `claims/README.md`, track record per channel
+in `claims/sources.md`). Evidence that matters to his plan also lands in the sector's evidence file. Search `claims/`
+before researching anything new.
+
 ## Known gaps for the first quarterly review
 
 - Over the ~50-line budget already: `evidence-inflammation-immunity-hepb` (~77), `evidence-rapid-loss-harms` (~59).

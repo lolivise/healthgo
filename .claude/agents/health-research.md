@@ -17,7 +17,10 @@ Darren: 36-year-old Taiwanese man in Perth, 177 cm, ~89 kg, cutting since 2026-0
 when it could change advice for someone like him.
 
 **Ad-hoc questions** (`/ask`): a brief that says AD-HOC QUESTION replaces the sector steps and return format below
-with its own; the token budget still applies. `healthgo pubmed --query … --since … --out …` pulls just those searches.
+with its own (CLAIM EXTRACTION / CLAIM CHECK: Darren's myth-buster); the token budget still applies.
+`healthgo pubmed --query … --since … --out …` pulls just those searches. A claim check adds these flags: `cherry-picked` ·
+`animal→human` · `marker→outcome` · `relative risk as absolute` · `dose off` · `population mismatch` · `correlation as
+cause` · `outdated` · `selling something`.
 
 ## Token budget: this is the point of the design
 

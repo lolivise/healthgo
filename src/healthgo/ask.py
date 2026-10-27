@@ -1,8 +1,9 @@
 """Telegram /ask: questions the Worker parks in R2 (`pending/<id>.json`), answered by a Claude session here.
 
 `watch` is the event source for that session's Monitor: it polls the Worker and prints one JSON line per question it
-has not printed before, so every stdout line is one thing to answer. `answer` sends the written answer to Telegram,
-threaded under the question, moves it to `done/` in R2 and commits the markdown under data/asks/.
+has not printed before, so every stdout line is one thing to answer. `answer` sends the written record
+(research/claims/<date>-<slug>.md) to Telegram threaded under the question, moves it to `done/` in R2 and commits the
+knowledge base it was filed into.
 The pull token and bot token never reach a log line or stdout: errors print the exception type only.
 """
 
@@ -16,7 +17,8 @@ from pathlib import Path
 
 from . import config, gitops, inbox, notify, vault
 
-ASKS = config.DATA / "asks"
+# Everything an answer may touch: the claim record + index, evidence memories, leftovers under data/asks/.
+COMMIT_PATHS = ("research", ".claude/memory", "data/asks")
 
 
 def _request(path: str, body: dict | None = None) -> dict:
@@ -67,7 +69,7 @@ def watch(interval: float = 10) -> None:
 
 
 def answer(ask_id: int, path: Path) -> dict:
-    """Send the answer under the question, then mark it done in R2 and commit data/asks/.
+    """Send the answer under the question, then mark it done in R2 and commit the knowledge base.
     If Telegram fails nothing is marked, so the question stays pending."""
     path = path if path.is_absolute() else config.ROOT / path
     if not notify.send_report(path, reply_to=ask_id, icon="❓"):
@@ -78,5 +80,6 @@ def answer(ask_id: int, path: Path) -> dict:
     except Exception as e:
         print(f"marking done failed ({type(e).__name__}); the answer was sent", file=sys.stderr)
         done = False
-    git = gitops.commit_and_push(f"ask: answer {ask_id}", ("data/asks",))
+    paths = tuple(p for p in COMMIT_PATHS if (config.ROOT / p).exists())
+    git = gitops.commit_and_push(f"ask: {path.stem} (/ask {ask_id})", paths)
     return {"id": ask_id, "telegram": True, "done": done, "git": git}

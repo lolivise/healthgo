@@ -199,6 +199,17 @@ def cmd_ask(args) -> int:
     return 0
 
 
+def cmd_transcript(args) -> int:
+    from . import transcript
+
+    try:
+        print(json.dumps(transcript.fetch(args.url, Path(args.out)), ensure_ascii=False))
+    except transcript.TranscriptError as e:
+        print(f"transcript failed: {e}", file=sys.stderr)
+        return 1
+    return 0
+
+
 def cmd_prepare_week(args) -> int:
     from . import db, weekly
 
@@ -405,6 +416,11 @@ def main(argv: list[str] | None = None) -> int:
     k.add_argument("file", nargs="?", help="answer: the answer markdown (data/asks/...)")
     k.add_argument("--interval", type=float, default=10, help="watch: seconds between polls")
     k.set_defaults(fn=cmd_ask)
+
+    t = sub.add_parser("transcript", help="YouTube video -> metadata + caption transcript as markdown (/ask)")
+    t.add_argument("url")
+    t.add_argument("--out", required=True, help="output file, e.g. data/asks/pulls/<id>-source.md")
+    t.set_defaults(fn=cmd_transcript)
 
     sub.add_parser("review-plan", help="which reviews /review runs now: a missed full week first, then today's"
                    ).set_defaults(fn=cmd_review_plan)

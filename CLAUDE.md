@@ -40,7 +40,8 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | Report writing: the 繁中 report from a decided verdict | **Sonnet** | `health-writer` agent |
 | **Research pulls** (quarterly `/knowledge-review`) | **no model** | `healthgo pubmed`, a script (Darren, 2026-10-26: data pulling never on Opus) |
 | **Screening research** against the evidence memories | **Sonnet** | `health-research` agent, one per sector, reads the title index and only the abstracts it picks |
-| **`/ask` questions**: origin + PubMed pull for one Telegram question | **Sonnet** | `health-research` agent, ad-hoc brief; Opus writes the answer (impact + worth it are decisions) |
+| **`/ask` myth-buster**: YouTube transcript / page fetch | **no model** | `healthgo transcript` (yt-dlp via uvx) |
+| **`/ask` myth-buster**: claim extraction, origin paper + PubMed check per claim | **Sonnet** | `health-research` agents, ad-hoc briefs; Opus writes the verdict and answer (impact + worth it are decisions) |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |
 
 - The agents are defined in `.claude/agents/`, pinned with `model: sonnet`. Every brief to them must be
@@ -70,11 +71,12 @@ eating out, and `/feel` + notes via Telegram.
 
 | Path | What |
 |---|---|
-| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `review-plan`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd`, `pubmed`, `ask` |
+| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `review-plan`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd`, `pubmed`, `ask`, `transcript` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
 | `data/manual/*.jsonl` | Things Garmin never sees (`inbody` is history only, see below): `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
-| `data/asks/YYYY-MM-DD_<id>.md` | Answers to Telegram `/ask` questions (繁中), sent under the question; `pulls/` is git-ignored |
+| `research/claims/` | `/ask` myth-buster records (繁中), one per source, = the Telegram answer; `README.md` index, `sources.md` track record per channel/site |
+| `data/asks/pulls/` | `/ask` working files (transcripts, PubMed pulls), git-ignored |
 | `data/inbox/` | Telegram bot entries pulled from the Cloudflare Worker (`worker/`), pending until recorded; recorded ones move to `data/inbox/done/` |
 | `data/weekly/YYYY-Www.json` | Numbers prepared by `/review` (`prepare-week`) |
 | `data/state.json` | Sync bookkeeping: `complete_through`, login guard, alert de-duplication |
@@ -112,8 +114,9 @@ capped at one credential attempt per 24h.
   is caught up first. Pull fresh data, ask about eating out, verdict, 繁中 report, commit, send to Telegram.
 - `/log`: record eating out (text or meal photo), bloodwork, a manual weight, or a note.
 - `/sync`: manual sync or backfill, status, and troubleshooting Garmin login, 429s, launchd and the library pin.
-- `/ask`: long-running answer desk. A Monitor runs `healthgo ask watch` (polls the Worker every 10 s); each Telegram
-  `/ask` question gets origin, evidence (PubMed via `health-research` when the knowledge base doesn't cover it), impact on
-  his plan, and worth-adopting, sent back in 繁中 under the question. Questions wait in R2 `healthgo-asks` until answered.
+- `/ask`: the myth-buster, a long-running answer desk. A Monitor runs `healthgo ask watch` (polls the Worker every
+  10 s). Each Telegram `/ask` (YouTube link → transcript, web page, or a claim he heard) is traced to its source paper,
+  graded for study quality and fit to him, answered in 繁中 (出處 · 科學證據 · 對你的影響 · 值不值得做) under the question,
+  and filed in `research/claims/` (+ evidence files when it adds real evidence). Questions wait in R2 `healthgo-asks`.
 - `/knowledge-review`: every ~3 months, per research sector: script pulls new PubMed papers, Sonnet screens them,
   Opus rewrites the evidence memories in place (lean: current best answer only, changes logged in one line).

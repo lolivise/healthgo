@@ -22,4 +22,4 @@ studies (tiny n, surrogate markers, industry funding, animal data, conclusions s
   Food, training and habit changes can be proposed directly.
 - Nutrition (foods + supplements) is a quarterly sector since 2026-10-26 (`research/README.md`).
 
-Related: [[model-split]], [[evidence-supplements]], [[evidence-supplement-claims]]
+Related: [[ask-myth-buster]], [[model-split]], [[evidence-supplements]], [[evidence-supplement-claims]]
