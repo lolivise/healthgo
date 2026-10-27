@@ -55,9 +55,16 @@ Each stdout line is one JSON event:
   minutes, run `uv run healthgo ask list` once and say in one line what failed.
 - `{"event":"recovered"}`: nothing to do.
 
+**Backlog first.** Questions he sent while the Mac was off (or while no session was watching) wait in R2 and are
+never lost. The watcher's first poll prints every one of them right away, oldest first, and opens their progress
+cards ("收到你 21:30 傳的問題（當時 Mac 沒開），開始處理"). **Start the pipeline on the first one immediately**: no
+greeting, no confirmation question. Say once: "監看中，每 10 秒檢查一次 /ask · 待處理 <n> 題" (n = the ask events
+printed on start). `"resumed": true` means a previous run was cut off mid-question (Mac shut down): **start that
+question over from step 1** (the work files may be half-written; agents overwrite them).
+
 **The monitor expires after 30 min: re-arm it immediately, every time, with the same call**, until Darren says stop. A
-re-armed watcher re-prints still-pending questions: skip any id already in progress. Say once at the start:
-"監看中，每 10 秒檢查一次 /ask". One question at a time, oldest first; new events wait.
+re-armed watcher re-prints still-pending questions: skip any id already in progress. One question at a time, oldest
+first; new events wait.
 
 ## Per question
 

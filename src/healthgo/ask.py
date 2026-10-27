@@ -16,6 +16,7 @@ import json
 import sys
 import time
 import urllib.request
+from datetime import datetime
 from pathlib import Path
 
 from . import config, gitops, inbox, notify, store, vault
@@ -25,6 +26,7 @@ CLAIMS = config.ROOT / "research" / "claims"
 # Everything an answer may touch: the claim record + index, evidence memories, leftovers under data/asks/.
 COMMIT_PATHS = ("research", ".claude/memory", "data/asks")
 CARD_LINES = 25  # keep the card well under Telegram's 4096 chars
+BACKLOG_S = 5 * 60  # older than this when first seen: sent while the Mac was off
 
 
 def _request(path: str, body: dict | None = None) -> dict:
@@ -89,10 +91,26 @@ def _emit(obj: dict) -> None:
     print(json.dumps(obj, ensure_ascii=False), flush=True)
 
 
+def pickup_line(ask: dict, pos: int, now: datetime | None = None) -> str:
+    """First line of a new progress card: picked up now, or queued. A question older than a few minutes was sent
+    while the Mac was off, so the card says when he sent it."""
+    now = now or config.now()
+    queue = "開始處理" if pos == 0 else f"排隊中（前面還有 {pos} 題）"
+    try:
+        asked = datetime.fromisoformat(ask["asked_at"].replace("Z", "+00:00")).astimezone(config.tz())
+    except (KeyError, ValueError):
+        return f"收到，{queue}"
+    if (now - asked).total_seconds() < BACKLOG_S:
+        return f"收到，{queue}"
+    when = asked.strftime("%H:%M") if asked.date() == now.date() else asked.strftime("%m/%d %H:%M")
+    return f"收到你 {when} 傳的問題（當時 Mac 沒開），{queue}"
+
+
 def watch(interval: float = 10) -> None:
     """Poll forever. A question is printed once per process; a failure streak prints one line, and so does recovery,
-    so a dead network can't flood the monitor. A question without a progress card gets one straight away (a re-armed
-    watcher finds the card already there and stays quiet)."""
+    so a dead network can't flood the monitor. Every question still pending in R2 — including ones sent while the Mac
+    was off — prints on the first poll, oldest first, and gets its progress card straight away. A question whose card
+    already exists was interrupted mid-run: it prints with `resumed: true` and the card says it restarts."""
     seen: set[int] = set()
     failing = False
     while True:
@@ -105,10 +123,16 @@ def watch(interval: float = 10) -> None:
                 if a["id"] in seen:
                     continue
                 seen.add(a["id"])
-                if not _status_file(a["id"]).exists():
-                    status(a["id"], "收到，開始處理" if pos == 0 else f"收到，排隊中（前面還有 {pos} 題）")
+                # no card: never picked up (maybe sent while the Mac was off) · one line: only an earlier watcher's
+                # pickup (a monitor re-arm), nothing to add · more: a run was cut off mid-question, restart it
+                card = store.read_json(_status_file(a["id"]), None)
+                resumed = bool(card and len(card.get("lines", [])) > 1)
+                if card is None:
+                    status(a["id"], pickup_line(a, pos))
+                elif resumed:
+                    status(a["id"], "上次處理中斷，重新開始" if pos == 0 else f"上次處理中斷，排隊重來（前面還有 {pos} 題）")
                 _emit({"event": "ask", "id": a["id"], "asked_at": a["asked_at"], "text": a["text"],
-                       "has_file": bool(a.get("file_id"))})
+                       "has_file": bool(a.get("file_id")), "resumed": resumed})
         except KeyboardInterrupt:
             raise
         except Exception as e:

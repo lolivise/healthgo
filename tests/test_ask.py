@@ -38,7 +38,7 @@ def test_watch_prints_each_question_once_and_one_line_per_failure_streak(monkeyp
     lines = [json.loads(l) for l in capsys.readouterr().out.splitlines()]
     assert [l["event"] for l in lines] == ["ask", "error", "recovered", "ask"]
     assert lines[0]["text"] == "空腹咖啡傷肝？" and lines[3] == {"event": "ask", "id": 9, "asked_at": "t",
-                                                                "text": "q2", "has_file": True}
+                                                                "text": "q2", "has_file": True, "resumed": False}
     assert cards == [(5, "收到，開始處理"), (9, "收到，排隊中（前面還有 1 題）")]
 
 
@@ -114,3 +114,28 @@ def test_update_sources_adds_then_accumulates(tmp_path):
                    "[a.md](a.md) · [b.md](b.md) |")
     ask.update_sources(f, {"name": "自己聽到的", "verdicts": {"✅": 1}}, "c.md")
     assert f.read_text().splitlines()[-1] == row
+
+
+def test_pickup_line_names_backlog_questions():
+    from datetime import datetime
+
+    now = datetime(2026, 10, 27, 9, 0, tzinfo=ask.config.tz())  # Perth, UTC+8
+    fresh = {"asked_at": "2026-10-27T00:58:00.000Z"}             # 08:58 Perth, 2 min ago
+    old = {"asked_at": "2026-10-26T13:30:00.000Z"}               # 21:30 Perth the day before
+    assert ask.pickup_line(fresh, 0, now) == "收到，開始處理"
+    assert ask.pickup_line(old, 0, now) == "收到你 10/26 21:30 傳的問題（當時 Mac 沒開），開始處理"
+    assert ask.pickup_line(old, 2, now).endswith("排隊中（前面還有 2 題）")
+
+
+def test_watch_restarts_an_interrupted_question(monkeypatch, capsys, tmp_path):
+    monkeypatch.setattr(ask, "PULLS", tmp_path)
+    ask.store.write_json(tmp_path / "5-status.json", {"message_id": 1, "lines": [["09:00", "收到"], ["09:01", "查證中"]]})
+    ask.store.write_json(tmp_path / "6-status.json", {"message_id": 2, "lines": [["09:02", "收到"]]})
+    cards = []
+    monkeypatch.setattr(ask, "status", lambda i, t, done=False: cards.append((i, t)))
+    monkeypatch.setattr(ask, "pending", lambda: [{"id": 5, "asked_at": "t", "text": "a"}, {"id": 6, "asked_at": "t", "text": "b"}])
+    monkeypatch.setattr(ask.time, "sleep", lambda _: (_ for _ in ()).throw(KeyboardInterrupt))
+    with pytest.raises(KeyboardInterrupt):
+        ask.watch(0)
+    assert cards == [(5, "上次處理中斷，重新開始")]  # 6 is a re-arm: its card already says 收到
+    assert [json.loads(l)["resumed"] for l in capsys.readouterr().out.splitlines()] == [True, False]
