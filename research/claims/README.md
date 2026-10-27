@@ -38,3 +38,9 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 脂肪細胞缺氧惡性循環，越缺氧越胖 | 🟡 | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
 | 2026-10-27 | 腸漏症和高風險飲食是發炎、變胖元兇 | 🟡 | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
 | 2026-10-27 | 皮質醇增加內臟脂肪 | 🟡 | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
+| 2026-10-27 | 意志力節食無效，要先降發炎才瘦得下來 | ❌ | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
+| 2026-10-27 | 睡眠是最強的天然消炎藥 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
+| 2026-10-27 | 胰島素阻抗是讓人變胖的機制 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
+| 2026-10-27 | 黃燈：精緻澱粉、紅肉要控制以抗發炎 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
+| 2026-10-27 | 紅燈：隱形糖、壞油、加工肉要避開以抗發炎 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
+| 2026-10-27 | 綠燈：omega-3 海鮮、彩虹蔬果、香料抗發炎 | 🟡 | 營養師Ricky's Time | [2026-10-27-inflammation-diet-sleep-insulin.md](2026-10-27-inflammation-diet-sleep-insulin.md) |
