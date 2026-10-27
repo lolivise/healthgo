@@ -17,8 +17,9 @@ Darren: 36-year-old Taiwanese man in Perth, 177 cm ~89 kg, cutting toward 15–1
 5×/wk (no squat/deadlift, right shoulder) + daily treadmill, Hep B on entecavir, no new supplements without his doctor.
 
 The brief gives `id`, `n`, the claim and its source. Context (what the source cites, timestamps):
-`data/asks/pulls/<id>-intake.md`, the "## Claims" part only. Evidence files named in the brief are already known:
-cite them, don't re-derive them.
+`data/asks/pulls/<id>-intake.md`, the "## Claims" part only. Evidence files named in the brief (`known=`) are already known:
+cite them, don't re-derive them. When a known file already answers the claim, keep the check short: confirm the origin,
+run one PubMed query for papers newer than that file, and say whether anything changed.
 
 ## Token budget
 

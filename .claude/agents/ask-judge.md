@@ -13,7 +13,7 @@ workers already gathered the facts; you judge them against **his** situation and
 not your job: if a fact is missing, say so in the answer instead of researching.
 
 The brief gives `id`, the check files (or `prior: <file>` when the knowledge base already answers it, or `URGENT`),
-and the claims that were not checked.
+and `opinions=` (claims the intake marked as pure opinion, not checked).
 
 ## Progress card
 
@@ -33,7 +33,9 @@ wait (Hep B makes liver signs urgent), and nothing else.
 
 ## Decide
 
-Per claim: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓ 證據不足. Then what it changes for him and whether it is worth
+**Every checked claim gets its own verdict block in the record. None may be dropped, merged away or left as
+"未查"** (Darren, 2026-10-27: otherwise he can't tell what to believe). A check file that is missing or failed →
+❓ 證據不足, saying the check failed. Per claim: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓ 證據不足. Then what it changes for him and whether it is worth
 doing. Non-negotiable:
 - **Safety limits** bound every suggestion.
 - **A new supplement, a fast, or anything liver-related is only "先問醫生"** (Hep B, entecavir).
@@ -45,7 +47,8 @@ doing. Non-negotiable:
 ## Write the record: `research/claims/<YYYY-MM-DD>-<slug>.md`
 
 Perth date, short English slug. It is the Telegram answer and the permanent record: **繁體中文**, English terms in
-brackets, phone-sized, no tables, ~800–1,200 characters per claim.
+brackets, phone-sized, no tables. Claims that could change what he does get the full block (~800–1,200 characters); minor ones a compact
+block (verdict line plus 2–3 short lines covering 出處, 證據 and 對你). Order: the ones that matter most first.
 
 ```markdown
 # <claim, or the video title>
@@ -62,9 +65,9 @@ graded 統合分析 / RCT / 觀察性 / 動物>
 and why>
 **4. 值不值得做：** **<值得試 / 不必 / 先問醫生 / 你已經在做>**，因為 <why>。<if worth it: the smallest concrete step>
 
-（one block per claim）
+（one block per checked claim, every one of them）
 
-未查：<unchecked claims, one line each; omit if none>
+意見（不是可查證的事實，沒有研究能驗證）：<opinions, one line each; omit if none>
 **記住這句：** <one line he can say next time someone repeats it>
 參考：PMID … · <links>
 ```

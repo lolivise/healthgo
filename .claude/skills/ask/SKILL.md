@@ -18,15 +18,14 @@ This session runs for hours and its context only grows; sub-agents clean themsel
   read; you only see their one-line returns.
 - **Briefs are one line of parameters.** Each agent's full instructions live in its definition in `.claude/agents/`.
   Don't repeat them.
-- **Your only decision** is which claims to check (step 2). Every other decision (verdicts, impact, worth it) belongs
-  to `ask-judge`, which runs on Opus.
+- **You decide nothing about the claims.** Every claim the intake lists gets checked (step 2). Every decision
+  (verdicts, impact, worth it) belongs to `ask-judge`, which runs on Opus.
 - Don't relay results to the chat beyond one line per question.
 
 | Step | Agent | Model | Returns |
 |---|---|---|---|
-| 1. Fetch source, look up prior checks, list claims | `ask-intake` | Sonnet | ≤ 15 lines |
-| 2. Pick ≤ 4 claims to check | **you** | Opus | — |
-| 3. Check each claim (origin paper, PubMed, fit to him) | `ask-check` × n, parallel | Sonnet | 1 line each |
+| 1. Fetch source, look up prior checks, list every claim | `ask-intake` | Sonnet | 1 line per claim |
+| 2–3. Check **every** claim (origin paper, PubMed, fit to him) | `ask-check` × n, parallel | Sonnet | 1 line each |
 | 4. Verdicts, impact, worth it, write the 繁中 record, evidence edits | `ask-judge` | Opus | 1 line |
 | 5. Index + track record, send to Telegram, commit, clean up | `healthgo ask file` | **no model** (script) | 1 JSON line |
 | Progress card in Telegram, all along | `healthgo ask status` | **no model** (script) | — |
@@ -71,15 +70,16 @@ first; new events wait.
 1. **Intake**: `Agent(subagent_type: "ask-intake", description: "/ask <id> intake", prompt: "id=<id> has_file=<…>
    text=<the text verbatim>")`.
    - Returns `URGENT: …` → go straight to step 4 with `URGENT`.
-   - `PRIOR:` covers the claim (a check < ~2 years old) and nothing new needs checking → step 4 with
-     `prior=<file>`.
-2. **Pick** (you): up to 4 CHECKABLE claims that could change what he does, skipping ones a PRIOR already settles.
-   Opinions and minor claims become "unchecked". Skip straight to step 4 if none need checking.
-3. **Check**: all in **one message**, one per picked claim:
+   - `PRIOR:` covers **every** listed claim (a check < ~2 years old) → step 4 with `prior=<file>`.
+2. **Check every CHECKABLE claim. Never pick, never skip** (Darren, 2026-10-27: "how do I know what I can believe"
+   if some points go unchecked). A claim the knowledge base already covers is still checked, with `known=<file>`, so
+   the worker only looks for newer evidence. OPINION claims (pure value judgments, nothing research can test) are not
+   checked; they go to the judge as `opinions=`.
+3. **Check**: all in **one message**, one per CHECKABLE claim, `n` = its intake number:
    `Agent(subagent_type: "ask-check", description: "/ask <id> check <n>", prompt: "id=<id> n=<n> claim=<claim>
-   source=<SOURCE line> known=<prior evidence files or none>")`.
+   source=<SOURCE line> known=<prior evidence/claims files or none>")`.
 4. **Judge**: `Agent(subagent_type: "ask-judge", description: "/ask <id> judge", prompt: "id=<id>
-   checks=data/asks/pulls/<id>-check-1.md,… | prior=<file> | URGENT unchecked=<claim; claim; …>")`.
+   checks=data/asks/pulls/<id>-check-1.md,… | prior=<file> | URGENT opinions=<claim; claim; …>")`.
 5. **File**: `uv run healthgo ask file <id>` (a script, no agent): index row, source track record, sends the record under
    his question, marks it done in R2, commits + pushes, closes the progress card, deletes the work files. It prints
    JSON: `telegram: false` → retry once (filing is idempotent); `done: false` → sent but still pending in R2, run
@@ -90,4 +90,3 @@ first; new events wait.
 `uv run healthgo ask status <id> "⚠️ 卡住了：<step>，稍後再試"`, one line to Darren here, and leave the question pending (it stays in R2; the next re-arm re-prints it). Never send a
 half-finished answer.
 
-If this session isn't Opus, step 2 is still yours: the stakes are low, and `ask-judge` is pinned to Opus regardless.

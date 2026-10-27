@@ -43,17 +43,20 @@ the bot is dead). Short and concrete, e.g. the claim or the paper found, never i
    `research/claims/sources.md` and the `description:` lines of `.claude/memory/evidence-*.md`. Note matching files,
    their verdict and date, and the source's known Pattern if it is in `sources.md`.
    Card: `知識庫：之前查過（<date>）` or `知識庫：沒有現成答案，要查 PubMed`.
-4. **Extract claims**: up to 8 factual health claims, each one line with its [mm:ss] if from a video, ranked by how
-   much it could change what Darren eats, trains, takes or does. Mark each CHECKABLE (a factual claim research can test)
-   or OPINION. Note what the source cites for each (paper, book, "studies show", nothing). Skip motivational filler.
-   Card: `找到 <n> 個主張，挑重點查證中`.
+4. **Extract claims**: **every** factual health claim the source makes, no cap: each one is checked, so a claim
+   left off the list is a claim he can't trust. One line each with its [mm:ss] if from a video, ranked by how much it
+   could change what Darren eats, trains, takes or does. Merge only true restatements of the same point; distinct
+   numbers or mechanisms are separate claims. Mark each CHECKABLE (anything research can test, including numbers,
+   mechanisms and "X works better than Y") or OPINION (a pure value judgment with no factual core; when in doubt,
+   CHECKABLE). Note what the source cites for each (paper, book, "studies show", nothing). Skip motivational filler.
+   Card: `找到 <n> 個主張，逐一查證中`.
 
 ## Write `data/asks/pulls/<id>-intake.md`
 
 Source (who, credentials, what they sell or promote, date, link) · every reference they cite, with timestamps ·
 the numbered claims with their citations and timestamps · prior matches in the knowledge base.
 
-## Return (≤ 15 lines, nothing else)
+## Return (header lines + one line per claim, nothing else)
 
 ```
 SOURCE: <who · type (YouTube/web/heard) · date> · known pattern: <from sources.md, or new>

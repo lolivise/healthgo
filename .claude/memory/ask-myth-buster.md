@@ -22,5 +22,8 @@ eggs/cholesterol as the model case).
   one record per source in `research/claims/`, an index row, the source's track record in `research/claims/sources.md`,
   and the matching `evidence-*` file when it adds real evidence. Search `research/claims/` before researching anything.
 - The answer always covers fit to him, not just whether the study is right in general.
+- **Every claim in a source is checked, never a top-N pick** (Darren, 2026-10-27, after seeing 未查 lines: "otherwise,
+  how do I know what I can believe"). Each claim gets its own verdict; only pure opinions go unchecked, labelled as
+  opinions, not as 未查.
 - Workflow: `.claude/skills/ask/SKILL.md`. Safety limits and the Hep B supplement rule bound every verdict
   ([[safety-limits]], [[health-conditions]]).
