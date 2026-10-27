@@ -1,0 +1,1 @@
+2026-10-27 · evidence-inflammation-immunity-hepb · Diet row red meat: "+0.23 mg/L only in diseased groups" → +0.23 overall, none unprocessed / in a deficit, cutting it null in healthy men; zonulin "leaky gut" test unreliable (41236373, 41905546)

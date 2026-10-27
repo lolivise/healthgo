@@ -33,3 +33,8 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 每週 1 次全身重訓代謝好處＝2–3 次 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |
 | 2026-10-27 | 總量相同時全身＝分部位（肌力、肌肥大） | ✅ | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |
 | 2026-10-27 | 分部位是垃圾訓練量，肌肉損傷妨礙長肌肉 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-10-27-full-body-vs-split-metabolic.md](2026-10-27-full-body-vs-split-metabolic.md) |
+| 2026-10-27 | 慢性發炎是減脂最大的隱形障礙 | ❌ | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
+| 2026-10-27 | 肥胖本身就是慢性發炎狀態（哈佛研究） | ✅ | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
+| 2026-10-27 | 脂肪細胞缺氧惡性循環，越缺氧越胖 | 🟡 | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
+| 2026-10-27 | 腸漏症和高風險飲食是發炎、變胖元兇 | 🟡 | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |
+| 2026-10-27 | 皮質醇增加內臟脂肪 | 🟡 | 營養師Ricky's Time | [2026-10-27-chronic-inflammation-fat-loss.md](2026-10-27-chronic-inflammation-fat-loss.md) |

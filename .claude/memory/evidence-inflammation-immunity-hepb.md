@@ -28,7 +28,9 @@ future plans and weekly reviews. Full 繁中 report: `research/medical/慢性發
   4. Sleep: CRP/IL-6 rise after several nights at ~4.3 h (Ballesio 2025 [V]); one short night no effect. Poor quality
      links more than 6–7 h duration. Sleep matters more for immunity than for CRP.
   5. Diet: Mediterranean (33 RCTs) lowers hs-CRP and IL-6; olive-oil-rich versions most (CRP −0.51, IL-6 −0.74 SMD)
-     [V]. Red meat +0.23 mg/L only in diseased groups. UPF, coffee: observational. **Linoleic acid does not raise CRP**
+     [V]. Red meat +0.23 mg/L CRP (22 RCTs), none for unprocessed or in a deficit, no IL-6/TNF-α
+     effect; cutting it 760 → 200 g/wk changed nothing in 102 healthy men (PMID 41236373, 41905546) [V]. "Leaky gut"
+     tests: the serum zonulin ELISA likely doesn't measure zonulin (Scheffler 2018) → ignore such results. UPF, coffee: observational. **Linoleic acid does not raise CRP**
      (RCTs) so the walnuts are fine. Fish oil plateaus at ~1.2 g EPA+DHA (he is there; no effect in overweight groups).
      Plant diversity ("30/wk") and fermented foods: weak / not replicated (2025 preprint).
   6. Mindfulness: effect mainly in stressed people, floor effect in healthy ones.
