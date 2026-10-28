@@ -146,6 +146,15 @@
         85
       ],
       "note": "guess; see cutting-goal-2026.md"
+    },
+    "phase_switch_weight_band": {
+      "stop_cut_kg": 81,
+      "stop_bulk_kg": 85,
+      "measure": "7-day average weight",
+      "raise_band_kg_per_cycle": 1,
+      "raise_if": "e1RM clearly above the previous cycle after a completed bulk",
+      "set": "2026-10-28",
+      "note": "replaces BF-based stop points; see cutting-goal-2026.md"
     }
   }
 }

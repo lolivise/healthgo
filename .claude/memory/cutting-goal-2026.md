@@ -57,6 +57,15 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
   measures TDEE: if **any** health-guard yellow (skin worse, more hair shedding, e1RM down, sleep, EA, rate over the cap)
   → **bring maintenance forward to 11-09**; if all green → keep the gentle cut to 12-13 at ≤0.7 %/wk (≤0.5 % once ≤84 kg).
 
+⭐ **Phase switches go by WEIGHT BAND, not estimated BF (Darren, 2026-10-28):** stop a cut when the **7-day average
+reaches 81 kg**; stop a bulk at **85 kg** (7-day avg). Why: lean mass is unknown (one BIA, ±~3 points → 65–71 kg), and
+across that whole range 81–85 kg = ~14–23.5 % BF, inside the 15–25 % zone where BF doesn't blunt growth
+([[evidence-body-fat-and-muscle-growth]]), so the worst case is only aesthetic. After stopping a cut expect the
+maintenance water rise to ~81.5–82 (arithmetic, not measured): don't cut again for it. **The band moves up:** after
+each completed bulk, if e1RM is clearly above the previous cycle's, raise both ends ~1 kg (e.g. 82–86 in 2028), or the
+86–88 kg final goal is never reached. That step is a rule of thumb (strength→muscle link and lean-gain rates unverified).
+DEXA optional: one scan ~2027-07 at ~82 kg would only refine the stop point; declined 10-23, not required.
+
 **Timeline projection (2026-10-28, from 88.6 kg 7-day avg; a guess, re-project at each review):** gentle cut → 12-13
 (~86.5 kg) · maintenance 12-14 → 01-22 · trip → 02-25 · maintenance → 03-07 · cut 2 from 03-08, ~0.4 kg/wk + two
 1–2 wk breaks → **~08-01 at ~81 kg (~16 %)**, range 07-05 → 09-13 · maintenance 08-02 → 08-15 · **lean bulk from
