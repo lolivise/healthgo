@@ -155,7 +155,7 @@ the exception and should be logged as such, not assumed.
   Error from a ±300 kcal misestimate over 21 days ≈ ±15 kcal/day, negligible.
 
 **Why it matters:** the intake is constant and known, so the weight trend can be turned
-directly into a maintenance-calorie (TDEE) estimate. Weekly weight change × ~7,700 kcal/kg ÷ 7 = the daily
+directly into a maintenance-calorie (TDEE) estimate. Weekly weight change × ~6,700–7,000 kcal/kg ÷ 7 (not 7,700, which fits only >25–30 kg body fat: Hall 2008, see [[evidence-maintenance-transition]]) = the daily
 deficit, and maintenance ≈ 1,846 + that deficit. The early weeks of the cut (from 2026-07-15) include
 water and glycogen loss, so they overstate the deficit.
 
