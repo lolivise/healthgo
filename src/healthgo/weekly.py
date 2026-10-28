@@ -11,7 +11,7 @@ from pathlib import Path
 
 from . import checks, config, db, facts, store
 
-KCAL_PER_KG = 7700
+KCAL_PER_KG = 6850  # Hall 2008 (PMID 17848938): 7,700 fits only >25-30 kg body fat; ~6,700-7,000 at his ~20 kg
 PREP_TIME = time(18, 0)
 
 
@@ -168,7 +168,7 @@ def prepare(sunday: date) -> Path:
             "total_lost_since_cut_kg": round(p["cut"]["start_weight_kg"] - w_now, 1) if w_now else None,
         },
         "maintenance_kcal_estimate": tdee,
-        "maintenance_note": "baseline intake + 28-day weight trend × 7700 kcal/kg; ignores eating-out days "
+        "maintenance_note": f"baseline intake + 28-day weight trend × {KCAL_PER_KG} kcal/kg; ignores eating-out days "
                             "and water swings, so treat as ±200 kcal",
         "health_guard": guard,
         "projections": facts.projections(p, end, w_now, slope14[0] if slope14 else None,
