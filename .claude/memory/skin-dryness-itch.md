@@ -101,6 +101,9 @@ workout; evening shower not always**. Morning: lukewarm short shower, soap-free 
 face moisturiser → sunscreen. Day: hand cream after each wash. Night: no-shower nights just face cream + Vaseline under
 eyes + re-moisturise itchy back/neck; thick hand cream/Cicaplast on fingertips. Rest days (Mon/Fri) same, shower whenever.
 
+**Status 2026-10-28 (Darren):** backs of the hands still feel dry (day 15 of skincare, day 9 of walnuts); no word on
+neck/back itch. **No hair loss this cut** (he says so), so hair is not part of the picture. Early skin read at 11-01, full ~11-15.
+
 **How to apply:**
 - At reviews he starts, ask once how the skin is (better / same / worse). If worse after ~4 weeks of the oil swap +
   skin care, that points away from diet → doctor/dermatologist, don't keep tweaking food.

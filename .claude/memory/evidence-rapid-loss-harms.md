@@ -41,7 +41,7 @@ longer window when the first days of the 14 are a spike.
 | REDs / hormones (T, T3, leptin ↓, cortisol ↑) | deep or long deficit + heavy training + low carb; drug-free bodybuilders T 543–922 → 175–227 ng/dL at ~5–6 % BF (2023 review [V]), recovers in 1–3 months | RHR **falling** with cold/tired on /feel (RHR drops in deep deficits, so a low RHR is not automatically "fitter") |
 | Gallstones | above | right-upper-quadrant pain >30 min after fatty food, fever, jaundice → doctor |
 | Transient ALT rise | weeks 2–6 of rapid loss, settles by 16–24 wk [V] | with Hep B only HBV DNA can tell a diet bump from a flare |
-| Hair (telogen effluvium) | 2–4 months after rapid loss [U timing] → **his window ≈ mid-Sep to mid-Nov 2026**; recovers 3–6 months | more hair in shower/pillow |
+| Hair (telogen effluvium) | 2–4 months after rapid loss [U timing] → **his window ≈ mid-Sep to mid-Nov 2026**; recovers 3–6 months | more hair in shower/pillow. **10-28: he reports no hair loss this cut** |
 | Skin xerosis/itch | EFA/zinc patterns; direct rate evidence thin | [[skin-dryness-itch]]; new itch + Hep B → liver panel |
 | Mood/binge | last ~2 months of contest prep; restraint +40 % | /feel hunger, irritability, waking at night |
 | Bone | ∝ total loss; lifting prevents it (GLP-1 + exercise trial) | low priority for him |
