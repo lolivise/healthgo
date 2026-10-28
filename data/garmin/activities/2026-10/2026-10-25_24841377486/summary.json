@@ -146,7 +146,7 @@
       "reps": 31,
       "sets": 3,
       "subCategory": "CHEST_FLY",
-      "volume": 1079000
+      "volume": 1240000
     },
     {
       "category": "BENCH_PRESS",
@@ -185,6 +185,7 @@
     "SCOPE_ATP_READ",
     "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
     "SCOPE_GCX_KID_WRITE",
+    "SCOPE_CIQ_APPSTORE_SERVICES_CREATE",
     "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
     "SCOPE_COMMUNITY_COURSE_WRITE",
     "SCOPE_GCX_KID_ADMIN_READ",
