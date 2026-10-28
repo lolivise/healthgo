@@ -23,8 +23,8 @@ from . import config, gitops, inbox, notify, store, vault
 
 PULLS = config.DATA / "asks" / "pulls"  # work files, git-ignored
 CLAIMS = config.ROOT / "research" / "claims"
-# Everything an answer may touch: the claim record + index, evidence memories, leftovers under data/asks/.
-COMMIT_PATHS = ("research", ".claude/memory", "data/asks")
+# Everything an answer may touch: the claim record + index, evidence memories. data/asks/ is all git-ignored work files.
+COMMIT_PATHS = ("research", ".claude/memory")
 CARD_LINES = 25  # keep the card well under Telegram's 4096 chars
 BACKLOG_S = 5 * 60  # older than this when first seen: sent while the Mac was off
 
