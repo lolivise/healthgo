@@ -27,3 +27,10 @@ strength) that a deficit otherwise takes. They do different jobs; the best-suppo
 the goal needs (Villareal, Deller). Treadmill stays for kcal and VO2; lifting stays for lean mass. No change to
 [[training-routine]]. Hep B not studied in any of these. See [[evidence-muscle-and-metabolism]] for the "muscle burns
 kcal" side.
+
+**"Same food, swap cardio ↔ lifting to cut or bulk?" (asked 10-28, answered from the rows above + [[evidence-muscle-and-metabolism]], [[evidence-body-fat-and-muscle-growth]]):**
+partly. Lifting never creates a surplus (it burns kcal too, ~305 vs treadmill ~356 per session), so the only dial at fixed
+intake is **how much cardio**, always on top of lifting. Treadmill net of session BMR and ~28 % compensation ≈ 150–200
+kcal/day (estimate from his Garmin): enough for a gentle cut or a maintenance recomp (Helms 2023, Vargas-Molina 2026), not a
+full cut or a real bulk; TDEE also falls as weight falls. Dropping cardio to "bulk" costs VO2/arterial benefits. No change:
+the bulk plan in [[training-routine]] already raises kcal +10–15 % and keeps ~150–190 walk min/wk.
