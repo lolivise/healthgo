@@ -40,7 +40,7 @@ reported low energy and discomfort on the current intake. Built on [[evidence-ma
 - **The weight on 2027-01-22 is not a target.** The expected landing zone is ~86–88 kg (≈21–23 % BF if lean mass holds).
   Don't let the scale push him back into a deficit before the trip.
 - **After the trip:** 1–2 weeks at maintenance, then resume at ~0.5 %/wk with a 1–2 week maintenance break
-  every 6–8 weeks until 15–18 %. Then the bulking phase below.
+  every 6–8 weeks until 15–18 %. Then the bulking phase below. How to eat in it (macro split, fat type, what to avoid): [[evidence-bulk-nutrition]].
 
 **Final goal (Darren, 2026-10-12): 86–88 kg at 15–18 % BF**, "look bulk a bit, but not huge". He isn't sure it's
 genetically doable and wants to try. Needs lean mass ≈ 70.5–75 kg (midpoint 87 kg @ 16.5 % ≈ 72.6), i.e. **+3–7 kg

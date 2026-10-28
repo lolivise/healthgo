@@ -121,8 +121,9 @@ turns out wrong (eggs and cholesterol), so each file states the old belief and w
 | `evidence-food-combinations` (糖油混合物 sugar+fat, carb+protein food combining, 食物相剋) | 2026-10-26 |
 | `evidence-sugar` (limits, minimum, liver fat, liquid vs solid) | 2026-10-26 |
 | `evidence-sweeteners` (aspartame, sucralose, ace-K, erythritol: weight, glucose, liver, cancer headlines) | 2026-10-26 |
+| `evidence-bulk-nutrition` (lean-bulk macro split, fat type and liver fat, what to avoid when overfeeding) | 2026-10-28 |
 
-Reports: `nutrition/代糖 人工甜味劑.md`.
+Reports: `nutrition/代糖 人工甜味劑.md`, `nutrition/增肌期飲食 巨量營養素分配.md` (notes `notes/增肌期飲食/`).
 
 ### 8. Claims checked (`claims`) · every /ask
 

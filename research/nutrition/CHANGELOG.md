@@ -12,3 +12,4 @@ One line per change to an evidence file: `YYYY-MM-DD · evidence-file · row: ol
 2026-10-28 · evidence-sugar · sugar–cancer [S] → sugary drinks probable-causal pancreatic/colorectal, small (WCRF 2026, may be preprint); 手搖飲 半糖 measured 46.5 g; carbs: no 60–90 min cut-off (42428101, 38035354, 37449467)
 2026-10-28 · evidence-eggs-and-cholesterol · AHA 2020 no target [V], 1 egg/day full text only; DGA 2015 nuance (31838890, 28359368)
 2026-10-28 · evidence-supplement-claims / food-combinations · collagen sponsorship source = letter, no data; Thomas 2013 no abstract, RR ~1.9 [M]; soymilk TIA heat-labile (Bowman-Birk slower) [V] (41579002, 23381591, 25678063)
+2026-10-28 · evidence-bulk-nutrition · new file: lean-bulk macros (protein ~2 g/kg kept, fat 0.9–1.0 g/kg + SFA ≤10 %, carbs = rest), overfeeding harms ranked (22215165, 23679146, 29844096, 31369090, 38636844, 41712097, 40885400, 24668862)
