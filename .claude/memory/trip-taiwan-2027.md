@@ -33,5 +33,5 @@ the 2-week weight trend and strength, not the first weigh-in.
 **Entecavir on the trip (2026-10-25):** he takes entecavir daily ([[health-conditions]]). Bring the full 34-day supply
 **plus ~1–2 weeks' buffer**, in hand luggage, in the original labelled packs, with a doctor's letter / prescription copy.
 Same time zone (UTC+8), so his 10:30 am dose doesn't move; he manages the timing himself (no reminders). Keep it below 25 °C (not in the car). Never "take a
-break" from it on holiday. Ask the GP/pharmacist before leaving how much supply the PBS allows early (travel
-exemption) [not checked].
+break" from it on holiday. ⛔ **Supply is handled, don't raise it (Darren, 2026-10-28):** he has travelled with it before
+and always carries **at least 45 tablets** (covers 34 days + 11 buffer). No PBS / early-supply advice needed.
