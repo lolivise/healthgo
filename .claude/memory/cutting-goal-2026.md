@@ -63,7 +63,7 @@ maintenance is ≈2,450 ± 200 at ~91 kg (revised up from 2,330 at the full-week
 eat-out days). The fixed-intake weeks from W42 (potato ≈2,030, then rice 2,075 W43–W45) are the real measurement.
 ⭐ **Revised 2026-10-24 (W43, first clean rice week, no eat-out): ≈2,800–3,000 (rough)**: −0.96 kg/wk at a known 2,164;
 prepare-week's 28d estimate said 2,812. Intake raised to ≈2,520 (rice 200 g) for W44–W45 to measure it cleanly ([[daily-diet-baseline]]).
-So Phase 2's "≈2,300–2,400" maintenance is stale: set it from the W45 number (likely ~2,700+). At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
+So Phase 2's "≈2,300–2,400" maintenance is stale: set it from the W45 number (likely ~2,700+). At 80–83 kg with the same routine it will be *lower*, but only by **~100–250 kcal** (recalculated 10-28; the old "~2,100–2,200" was scaled from the stale 2,450): −7 kg fat × 4.5 kcal/kg rest ≈ −30 (Elia 1992, [[evidence-muscle-and-metabolism]]); walking/treadmill cost scales with mass ≈ −40–50 (Ludlow & Weyand 2016, PMID 26679617); TEF ≈ −10; adaptation 80–135 if it persists ([[evidence-long-cut-duration]]). From today's rough ~2,700–2,900 → **~2,500–2,750**: arithmetic from verified parts, re-anchor on the W45 number.
 So 2,500 needs:
 - more daily steps (the biggest lever, ≈40 kcal net per +1,000 steps at ~88 kg: calculated 10-28 from Ludlow & Weyand 2016, PMID 26679617, walking-cost equation fitted to 127 treadmill VO2 values, at 4.8 km/h, 0.76 m step; ~54 gross; step length is the weak link, 0.70–0.80 m → 37–42);
 - more muscle over time;
