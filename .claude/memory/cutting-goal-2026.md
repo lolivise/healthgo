@@ -57,6 +57,13 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
   measures TDEE: if **any** health-guard yellow (skin worse, more hair shedding, e1RM down, sleep, EA, rate over the cap)
   → **bring maintenance forward to 11-09**; if all green → keep the gentle cut to 12-13 at ≤0.7 %/wk (≤0.5 % once ≤84 kg).
 
+**Timeline projection (2026-10-28, from 88.6 kg 7-day avg; a guess, re-project at each review):** gentle cut → 12-13
+(~86.5 kg) · maintenance 12-14 → 01-22 · trip → 02-25 · maintenance → 03-07 · cut 2 from 03-08, ~0.4 kg/wk + two
+1–2 wk breaks → **~08-01 at ~81 kg (~16 %)**, range 07-05 → 09-13 · maintenance 08-02 → 08-15 · **lean bulk from
+2027-08-16** at ~0.2 kg/wk (Iraki 2019 low end, Helms 2023) → ~11-28 at ~84–85 kg (~18 %, the mini-cut line) ·
+maintenance 11-29 → departure. **Trip 2: Taiwan ~2028-01-12** (Darren, 10-28: 2 weeks before CNY 2028-01-26).
+If the 11-08 review brings maintenance forward, cut 2 ends ~4 weeks later. After trip 2: mini-cut, then the next bulk.
+
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
 maintenance is ≈2,450 ± 200 at ~91 kg (revised up from 2,330 at the full-week W41 review, 2026-10-11:
 14d −0.81 %/wk, 28d −0.55 %/wk, steps ~9,300/day and ~220–270 treadmill min/wk; the script's 2,525 ignores
