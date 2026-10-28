@@ -106,7 +106,10 @@ neck/back itch. **No hair loss this cut** (he says so), so hair is not part of t
 **Nape rash cleared after stopping QV Intensive (Darren, 10-28)** → occlusion + sweat (miliaria) reading confirmed; QV
 Intensive stays off neck/upper back for good. **But the prickly itch (刺癢) on back + shoulders still happens without it.**
 Asked him: what he puts there now (CeraVe lotion or nothing), when the itch comes (training sweat / after shower / night),
-and whether sunscreen went back on the nape. Not resolved yet.
+and whether sunscreen went back on the nape. **Answers 10-28:** nothing on back/shoulders; itch comes **after the shower**;
+CeraVe lotion on the neck, no rash back. Read: post-shower xerosis on an unmoisturised area. Advice: thin CeraVe lotion on
+back + shoulders within 3 min of every shower (lotion, not QV Intensive), lukewarm short shower, soap-free wash, pat dry;
+reintroduce sunscreen on the nape alone. Re-check ~11-11 (2 wk): no better → GP (Hep B itch rule).
 
 **How to apply:**
 - At reviews he starts, ask once how the skin is (better / same / worse). If worse after ~4 weeks of the oil swap +
