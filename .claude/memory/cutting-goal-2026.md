@@ -63,6 +63,12 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
 2027-08-16** at ~0.2 kg/wk (Iraki 2019 low end, Helms 2023) → ~11-28 at ~84–85 kg (~18 %, the mini-cut line) ·
 maintenance 11-29 → departure. **Trip 2: Taiwan ~2028-01-12** (Darren, 10-28: 2 weeks before CNY 2028-01-26).
 If the 11-08 review brings maintenance forward, cut 2 ends ~4 weeks later. After trip 2: mini-cut, then the next bulk.
+**2028 projection (10-28; trip 2 length assumed ~5 wk like 2027):** trip 01-12 → ~02-13 · maintenance → 02-27 ·
+mini-cut 1 02-28 → 04-09 (~6 wk, → ~82.5 kg, ~16 %) · maintenance → 04-23 · bulk 2 04-24 → 08-13 (~16 wk, → ~86 kg,
+~18 %) · mini-cut 2 08-14 → 09-24 · maintenance → 10-08 · short bulk 3 10-09 → 12-03 · maintenance through Christmas.
+End 2028 ≈ 84–85 kg, lean ~70–70.5 (coaching-model guess) = touching the bottom of the goal (86 kg @ 18 % needs 70.5).
+Alternative offered: since BF 15–25 % doesn't blunt growth ([[evidence-body-fat-and-muscle-growth]]), one longer slow
+bulk with fewer mini-cuts is equally valid; 18 % is an aesthetic line, not a physiological one.
 
 **Long-term wish (2026-10-09):** "one day raise my TDEE to 2,500 and keep the same routine". Current
 maintenance is ≈2,450 ± 200 at ~91 kg (revised up from 2,330 at the full-week W41 review, 2026-10-11:
