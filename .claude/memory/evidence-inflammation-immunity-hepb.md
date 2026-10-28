@@ -51,7 +51,7 @@ For him: tiredness → check sleep, deficit, load, not "inflammation". No change
 - **Sleep is the strongest lever:** <6 h → 4.2× cold risk vs >7 h (Prather 2015, landmark); objectively short sleep
   weakens vaccine antibodies, **strongly in men** (ES 0.93; incl. hep A/B vaccines; Spiegel 2023 [V]). Garmin sleep is
   exactly the objective measure. His weekly average: 5.8–6.6 h ISO W38–W42, 7.15 h W43 (first week ≥7 h).
-- Moderate deficit does not impair immunity (CALERIE 2: thymus function improved [V summary]); harm = deep/long
+- Moderate deficit does not impair immunity (CALERIE 2, Spadaro 2022 Science, PMID 35143297 [V abstract]: ~14 % CR for 2 y improved thymopoiesis; `surrogate`, no infection outcomes); harm = deep/long
   deficit + heavy load + low carb (IOC REDs 2023).
 - Regular exercise: COVID hospitalisation RR 0.58, plateau ~150–300 min/wk (Ezzatvar 2022). The "open window" after one
   hard session is contested since 2018. Real risk = stacked stressors (long-haul flight, crowds, broken sleep → the

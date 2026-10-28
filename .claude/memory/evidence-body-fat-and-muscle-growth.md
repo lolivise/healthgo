@@ -12,8 +12,8 @@ Darren asked (2026-10-20) whether body fat affects muscle growth, wanting recent
 
 ## The claim and where it comes from
 "Fatter people build less muscle / should cut before bulking" rests on the **P-ratio** (share of a weight change
-that is lean tissue). Forbes 1987/2000 (sedentary people, cross-sectional) [V via summary]: higher fat mass → a
-smaller lean share of any gain or loss. Hall 2007 Br J Nutr [V] extended it to large changes. **No lifting in that
+that is lean tissue). Forbes 2000, PMID 10865771 [V abstract] (review; 1987 PMID 3306482 title only): higher fat mass → a
+smaller lean share of any gain or loss (overfeeding: thin 60–70 % lean vs obese 30–40 %); a bigger deficit raises the lean share. Hall 2007 Br J Nutr [V] extended it to large changes. **No lifting in that
 data.** The partitioning effect is about *where a surplus goes*, not how well muscle responds to training.
 
 ## Evidence
@@ -26,7 +26,7 @@ data.** The partitioning effect is about *where a surplus goes*, not how well mu
 | Surplus size decides fat gain | Helms 2023 Sports Med Open [V]: trained lifters, maintenance vs +5 % vs +15 % for 8 wk → no hypertrophy/strength difference, more fat at +15 %. Smith/Tinsley 2021 [V]: trained men (~14 % BF), 6 wk overfeeding, ~0.55 %/wk gain ≈ all FFM on average, huge individual spread (R² 0.18–0.40) | moderate |
 | Extra energy still adds protein (untrained) | Hatamoto 2024 Clin Nutr RCT, 23 young men, 6 wk [V partial abstract]: +40 % surplus raised body protein 0.44 kg (+3.7 %); +10 % protein-only arm smaller. Not lifters | low transfer |
 | Recomp at higher BF | Vargas-Molina 2026 Eur J Appl Physiol RCT, trained, BMI ~26, 10 wk, protein 2.5 g/kg [V abstract]: maintenance **and** ~−250 kcal both lost fat and kept/gained FFM vs habitual diet. Murphy & Koehler 2022 [V, see [[evidence-hypertrophy-training]]]: deficit >~500 kcal kills lean gain | moderate |
-| Hormones | Biernikiewicz 2025 J Sex Med meta-analysis (28 studies, overweight/obese men) [V abstract]: diet weight loss → large testosterone rise (d 1.39). 2022 CR meta-analysis [V via summary]: T effect of CR depends on BMI (rises in obese, can fall in lean). Effect is mostly an obesity-range story | moderate |
+| Hormones | Biernikiewicz 2025 J Sex Med meta-analysis (28 studies, overweight/obese men) [V abstract]: diet weight loss → large testosterone rise (d 1.39). Smith 2022 Nutr Rev SR, PMID 34613412 [V abstract] (7 RCTs, no pooled effect): CR raised T in 3/4 overweight/obese studies, lowered it in 2/3 normal-weight studies; SHBG rose in 4/4 (`tiny n`). Effect is mostly an obesity-range story | moderate |
 
 ## Verdict (Opus, 2026-10-20)
 - **In the range he lives in (~15–25 % BF, active, insulin-sensitive), body fat itself does not measurably slow

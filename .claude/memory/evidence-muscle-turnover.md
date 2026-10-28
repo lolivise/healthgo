@@ -18,9 +18,9 @@ days**: training stimulus, total protein, energy deficit size, and (minor) timin
 ## Key evidence
 | Study | Finding |
 |---|---|
-| Clauss & Jensen 2025, Scand J Med Sci Sports 35:e70038 [V summary] | endurance exercise: protein ≈ **3.3 %** of energy (95 % CI 2.97–3.58); oxidation ~doubles vs rest, rises with intensity; low starting glycogen ↑ protein use; carbs before/during ↓ leucine oxidation |
+| Clauss & Jensen 2025, Scand J Med Sci Sports, PMID 40135445 [V abstract] (MA 30 studies, n=286, ≥60 min) | endurance exercise: protein ≈ **3.3 %** of energy (95 % CI 2.97–3.58); oxidation more than doubles vs rest, rises with intensity, not duration; [glycogen/carb points below: not in abstract] low starting glycogen ↑ protein use; carbs before/during ↓ leucine oxidation |
 | Gillen 2019 MSSE, PMID 31083047 [V abstract] | crossover n=8 trained men; fasted 10 km run after a low-carb evening (2-day protocol) → phenylalanine oxidation +~11 % (8.8 vs 7.9) vs high-carb; `tiny n` |
-| Kumar 2009 review, PMID 19164770 [paper found, abstract not read] | during exercise MPS ↓, breakdown ~unchanged; after exercise fasted both ↑, net still negative until you eat |
+| Kumar 2009 review, PMID 19164770 [V abstract] | during exercise MPS ↓, breakdown ~unchanged; after exercise fasted both ↑, net still negative until you eat |
 | Trommelen 2023, Cell Rep Med [V abstract] | 100 g protein after lifting → larger, >12 h anabolic response than 25 g; total intake matters more than per-meal cap |
 | Oxfeldt 2023, J Physiol, PMID 37329147 [V abstract] | RCT n=30 trained women, 10 d at 25 vs 50 kcal/kg FFM: myofibrillar + sarcoplasmic MPS ↓ despite 2.2 g/kg protein and training; lean mass and RMR fell; `short`, women |
 | Areta 2014, PMID 24595305 [V abstract] | n=15, 5 d at 30 vs 45 kcal/kg FFM: resting MPS −27 %; one lifting bout restores it; 15/30 g whey after adds ~16/34 % on top; `tiny n` |

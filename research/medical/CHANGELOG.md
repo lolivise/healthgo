@@ -1,3 +1,4 @@
 2026-10-27 · evidence-inflammation-immunity-hepb · Diet row red meat: "+0.23 mg/L only in diseased groups" → +0.23 overall, none unprocessed / in a deficit, cutting it null in healthy men; zonulin "leaky gut" test unreliable (41236373, 41905546)
 2026-10-28 · evidence-asian-hepb · Deurenberg → 2002 [V]; T decline → Feldman 2002 MMAS 1.6 %/yr long., 40–70 y (not Travison, no "0.4"); Corona 2013 +2.87 nmol/L [V]; Taiwan BF/fibre still no source (12164465, 11836290, 23482592)
 2026-10-28 · evidence-inflammation-immunity-hepb · flu/COVID Handbook wording [U] → [V]: flu recommended generally, carrier status GP's call; COVID no group at 36
+2026-10-28 · evidence-inflammation-immunity-hepb · CALERIE thymus [V] Spadaro 2022, surrogate only (35143297)

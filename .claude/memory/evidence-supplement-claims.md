@@ -23,7 +23,7 @@ PMID 27797728, 40 studies) [V].
 | Zinc / vit C | acute cold only | zinc acetate lozenges ≥75 mg/d within 24 h: −2.7 days (PMID 27378206, n=199) [V]; vit C halves colds only in marathon/soldier groups, general RR 0.97 (PMID 23440782) [V] | `tiny n`; megadose C → kidney stones [S] |
 | Tongkat ali | clinically low testosterone | T SMD 1.35 in 5 RCTs (PMID 36013514) [V] | `surrogate`, `industry`, effect implausibly big |
 | HMB, collagen for muscle | beginners / elderly | no trained-man evidence | `deficient` |
-| Collagen for skin | small | 19 RCTs, 95 % women, hydration/wrinkles at ~90 d (PMID 33742704) [V] | `industry` (sponsorship review PMID 41579002, title only), subjective |
+| Collagen for skin | small | 19 RCTs, 95 % women, hydration/wrinkles at ~90 d (PMID 33742704) [V] | `industry` (PMID 41579002 is an Am J Med 2026 letter, no data), subjective |
 | Apple cider vinegar | ~1–2 kg | 10 RCTs SMD −0.39, mostly overweight/T2D (PMID 41010525) [V] | `hetero` I² 62–83 %, `short`; reflux, enamel |
 
 ## Myth or hype (what's wrong with the evidence)
@@ -44,7 +44,7 @@ PMID 27797728, 40 studies) [V].
 ## Liver red flags (Hep B: never)
 Green tea extract (ALT +78 % in a 12-month trial subgroup, PMID 36178169; 34 liver cases reviewed, PMID 18484782) [V];
 ashwagandha (cholestatic injury series, PMID 31991029) [V]; turmeric/curcumin with piperine (biopsy-proven case,
-PMID 40026546) [V]; garcinia (34 case reports, 1 death, 9 transplants; USP liver caution, PMID 41262061) [V] `observational only`; CLA (animal). Kidney (entecavir): vitamin C supplements ↔ more kidney stones in men (Thomas 2013 cohort; HR not re-read) and oxalate nephropathy case reports at IV megadose (PMID 39511062) [V title].
+PMID 40026546) [V]; garcinia (34 case reports, 1 death, 9 transplants; USP liver caution, PMID 41262061) [V] `observational only`; CLA (animal). Kidney (entecavir): vitamin C supplements ↔ more kidney stones in men (Thomas 2013 JAMA Intern Med research letter, PMID 23381591, no abstract; RR ~1.9 [M, needs PDF]) and oxalate nephropathy case reports at IV megadose (PMID 39511062) [V title].
 
 ## How it applies to Darren (2026-10-26)
 Nothing new to take. Two things to raise with the doctor at the next blood test: **25-OH vitamin D** (settles the only
