@@ -103,6 +103,10 @@ eyes + re-moisturise itchy back/neck; thick hand cream/Cicaplast on fingertips. 
 
 **Status 2026-10-28 (Darren):** backs of the hands still feel dry (day 15 of skincare, day 9 of walnuts); no word on
 neck/back itch. **No hair loss this cut** (he says so), so hair is not part of the picture. Early skin read at 11-01, full ~11-15.
+**Nape rash cleared after stopping QV Intensive (Darren, 10-28)** → occlusion + sweat (miliaria) reading confirmed; QV
+Intensive stays off neck/upper back for good. **But the prickly itch (刺癢) on back + shoulders still happens without it.**
+Asked him: what he puts there now (CeraVe lotion or nothing), when the itch comes (training sweat / after shower / night),
+and whether sunscreen went back on the nape. Not resolved yet.
 
 **How to apply:**
 - At reviews he starts, ask once how the skin is (better / same / worse). If worse after ~4 weeks of the oil swap +
