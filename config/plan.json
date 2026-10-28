@@ -152,7 +152,7 @@
       "stop_bulk_kg": 85,
       "measure": "7-day average weight",
       "raise_band_kg_per_cycle": 1,
-      "raise_if": "e1RM clearly above the previous cycle after a completed bulk",
+      "raise_if": "at the floor of a mini-cut, e1RM clearly (~5 %, main lifts excl. OHP) above the previous time at the same weight; then stop that cut ~1 kg early and raise the next bulk ceiling ~1 kg. Never judged by e1RM during a bulk",
       "set": "2026-10-28",
       "note": "replaces BF-based stop points; see cutting-goal-2026.md"
     }

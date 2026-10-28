@@ -61,9 +61,13 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
 reaches 81 kg**; stop a bulk at **85 kg** (7-day avg). Why: lean mass is unknown (one BIA, ±~3 points → 65–71 kg), and
 across that whole range 81–85 kg = ~14–23.5 % BF, inside the 15–25 % zone where BF doesn't blunt growth
 ([[evidence-body-fat-and-muscle-growth]]), so the worst case is only aesthetic. After stopping a cut expect the
-maintenance water rise to ~81.5–82 (arithmetic, not measured): don't cut again for it. **The band moves up:** after
-each completed bulk, if e1RM is clearly above the previous cycle's, raise both ends ~1 kg (e.g. 82–86 in 2028), or the
-86–88 kg final goal is never reached. That step is a rule of thumb (strength→muscle link and lean-gain rates unverified).
+maintenance water rise to ~81.5–82 (arithmetic, not measured): don't cut again for it. **The band moves up, judged at the SAME weight (corrected 10-28, Darren's point):**
+e1RM rising *during* a bulk doesn't prove muscle (strength and size dissociate: Schoenfeld 2019, PMID 30153194, more
+volume → more size, not more strength; Lopez 2021: load drives strength, not size; how much extra body mass/food adds
+to e1RM is unverified). So compare e1RM **at the bottom of the band, cut vs previous cut**: when a mini-cut reaches the
+floor, if e1RM is clearly above the last time at that weight (~5 % across the main lifts excl. OHP: an arbitrary line),
+stop that cut ~1 kg early and raise the next bulk's ceiling ~1 kg (e.g. 82–86), or the 86–88 kg goal is never reached.
+Same weight + higher strength = most likely more muscle (or skill); still a rule of thumb, lean-gain rates unverified.
 DEXA optional: one scan ~2027-07 at ~82 kg would only refine the stop point; declined 10-23, not required.
 
 **Timeline projection (2026-10-28, from 88.6 kg 7-day avg; a guess, re-project at each review):** gentle cut → 12-13
