@@ -34,3 +34,8 @@ intake is **how much cardio**, always on top of lifting. Treadmill net of sessio
 kcal/day (estimate from his Garmin): enough for a gentle cut or a maintenance recomp (Helms 2023, Vargas-Molina 2026), not a
 full cut or a real bulk; TDEE also falls as weight falls. Dropping cardio to "bulk" costs VO2/arterial benefits. No change:
 the bulk plan in [[training-routine]] already raises kcal +10–15 % and keeps ~150–190 walk min/wk.
+- **Follow-up 10-28 (he feels 2,520 is already a lot of food):** proposed bulk = cardio Mon/Sat/Sun + lift Tue–Sun, cut = cardio
+  Mon/Wed/Fri/Sat/Sun + lift Tue/Thu/Sat/Sun. Both are 9 sessions/wk; net burn est. (session kcal − session BMR, × 0.72)
+  treadmill ≈214, lift ≈167 → bulk ≈235/day, cut ≈248/day: **~13 kcal/day apart**, both ~110–125/day *below* now
+  (W40–W43: 6.8 treadmill + 6.3 strength/wk ≈358/day). Session count/minutes is the dial, not type. Fullness fix =
+  energy density (PMID 36460778), oil already 4 → 13 g from 11-09. No change; maintenance kcal decided at W45.
