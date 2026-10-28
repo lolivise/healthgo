@@ -74,7 +74,11 @@ Chia is in the shake, not the yogurt. The cocoa and coffee add **≈36 kcal/day*
 - Whey = Optimum Nutrition Gold Standard 100% Whey, Double Rich Chocolate (2.27 kg, Chemist Warehouse); sweetened with
   ace-K 950 + aspartame 951 (AU label, read by Darren 2026-10-26; no sucralose), see [[evidence-sweeteners]]. Diet soft drinks: Coke Zero +
   Pepsi Max ≈1.25 L/week (Darren, 2026-10-26). Whey (chocolate) per 100 g: 401 kcal, 79 P, 5 F, 10 C. A label scoop is 30.4 g; he uses 50 g ≈ 1.6 scoops.
-- The energy bar is Nestlé chewy choc chip, 31.3 g: 122 kcal, 2.2 P, 3.6 F, 18.7 C.
+- The energy bar is Uncle Tobys chewy choc chip muesli bar, 31.3 g: 122 kcal, 2.2 P, 3.6 F, 18.7 C (Coles label
+  checked 10-28: 510 kJ, SFA 1.3, sugars 5.4, fibre 3.4, Na 13 mg). **From 2026-10-28 he may rotate in the Uncle Tobys
+  Yoghurt variety pack** (strawberry / honeycomb / mango passionfruit; one shared panel: 510 kJ = 122 kcal, 2.2 P,
+  3.5 F, SFA 1.3, 18.7 C, sugars 5.8, fibre 3.3, Na 6 mg): same kcal and macros, so the table and the intake
+  schedule don't change. Per-flavour panels aren't published separately.
 
 These match the table above.
 
