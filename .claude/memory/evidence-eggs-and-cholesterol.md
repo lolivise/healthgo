@@ -10,7 +10,7 @@ Darren asked (2026-10-26) how many eggs a day are fine, benefits and drawbacks. 
 **[S]** = memory or secondary only. Flags name what is weak about the evidence.
 
 ## Old belief → now
-**"Eggs raise cholesterol, max ~3 a week / 300 mg cholesterol a day"** → the 300 mg cap was dropped (US DGA 2015) [S];
+**"Eggs raise cholesterol, max ~3 a week / 300 mg cholesterol a day"** → the 300 mg cap was dropped (US DGA 2015–2020), though it still says eat as little cholesterol as possible within a healthy pattern (Kanter 2017 review, PMID 28359368; DGA text not retrieved) [S];
 AHA 2020 sets no cholesterol number, judges the whole diet (Carson, PMID 31838890) [V]. Saturated fat predicts LDL,
 egg cholesterol doesn't (crossover n=61, PMID 40339906) [V]. **The opposite myth is wrong too**: eggs are not "free" —
 RCTs show a small LDL rise on average, and data above 1/day is thin.
@@ -32,7 +32,7 @@ High LDL or familial hypercholesterolaemia, established heart disease, type 2 di
 "hyper-responders" whose LDL jumps on eggs; no reliable rate found. Only a blood test shows which you are.
 
 ## Guidelines
-AHA 2020: no cholesterol target, ~1 egg/day fine for healthy people [S for the egg line]. Heart Foundation Australia
+AHA 2020 (Carson, PMID 31838890) [V]: no numeric cholesterol target, pattern-based advice; observational data show no CVD signal, intervention studies show higher LDL above average intakes. "~1 egg/day fine for healthy people" is in the full text only [S]. Heart Foundation Australia
 2019: up to 7/wk is fine [S, site unreachable]. Nordic NNR 2023: ≤1/day not harmful [V]. Taiwan HPA: not retrieved.
 
 ## How it applies to Darren (2026-10-26)

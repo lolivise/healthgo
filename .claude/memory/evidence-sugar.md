@@ -20,9 +20,9 @@ History: 1960s sugar-industry funding shaped the Harvard CHD review that blamed 
 an industry-funded 2017 review of guidelines called sugar advice untrustworthy (Erickson, PMID 27992898) [V, `industry`].
 
 ## Minimum
-**None for sugar.** Glucose is made by the liver (gluconeogenesis). IOM carb RDA 130 g/day = brain glucose [S]; he eats
+**None for sugar.** Glucose is made by the liver (gluconeogenesis). IOM carb RDA 130 g/day = brain glucose (IOM 2002 DRI ch. 6, PMID 12449285, text not retrieved) [S]; he eats
 ~280+ g carbs. More carbs don't add hypertrophy at matched protein/kcal: 11 RCTs SMD 0.15, ns (PMID 41712097, 2026) [V,
-`tiny n`, `short`, GRADE low]. Only endurance >60–90 min benefits from in-session carbs [S].
+`tiny n`, `short`, GRADE low]. In-session carbs help endurance, more the longer the event and in less-trained people; no minute cut-off (MA 136 studies, PMID 37449467) [V].
 
 ## Limits
 | Source | Limit | At 2,520 kcal |
@@ -54,7 +54,7 @@ an industry-funded 2017 review of guidelines called sugar advice untrustworthy (
 
 ## Hype spotted
 "Sugar causes hyperactivity" — 23 blinded studies, all CIs include 0 (Wolraich 1995, PMID 7474248) [V]. "Sugar feeds
-cancer" — no human evidence beyond obesity [S]. "Sugar is addictive like drugs" — rodent data ([[evidence-food-combinations]]).
+cancer" — no evidence sugar feeds tumours directly, but sugary drinks are graded probable-causal for pancreatic (RR 1.09 per 355 mL/day) and colorectal (1.07) cancer, small, cohort-based (WCRF CUP 2026, PMID 42428101, 51 cohorts; may be a preprint) [V] `observational only`. "Sugar is addictive like drugs" — rodent data ([[evidence-food-combinations]]).
 Huang's "<25 g/day" is often quoted as proven; the paper's own grading says low/very-low for most outcomes.
 "Zero sugar = longest life" is unproven, and so is the reverse: Ramne's <5 % excess risk (10-26 follow-up) is one
 group's observational signal, not shown in pooled cohorts or genetics. Read it as "no benefit from going to zero",
@@ -64,8 +64,8 @@ not "eat more sugar".
 **No plan change.** 35 g/day, solid, fixed portions, in a deficit: below every 10 % line; the harm mechanisms (excess
 energy, liquid) don't apply. Sweetened → plain yogurt (Chobani Plain Greek, see [[evidence-food-combinations]]) is
 justified by **protein and teeth, not liver or weight** (energy-matched trials show no liver/TG change); stays optional, after
-11-08. **The one real lever is liquid sugar when eating out and on the Taiwan trip** ([[trip-taiwan-2027]]): 手搖飲 全糖
-≈40–70 g/cup [S] — one cup alone exceeds his whole day; order 無糖/微糖. Liquid + excess kcal is exactly the liver-fat
+11-08. **The one real lever is liquid sugar when eating out and on the Taiwan trip** ([[trip-taiwan-2027]]): 手搖飲 **半糖** 700 mL
+measured 46.5 ± 15.7 g (HPLC, 126 Taiwan samples, 2026, Europe PMC only, no PMID); 全糖 higher; by label 60 % of 半糖 and 13 % of 微糖 drinks exceed 25 g (PMID 38035354, 1,581 drinks) [V] — one 半糖 cup alone exceeds his whole day; order 無糖. Liquid + excess kcal is exactly the liver-fat
 combination, and liver is what Hep B makes matter ([[evidence-inflammation-immunity-hepb]]). An occasional drink is far
 below studied exposures (daily, weeks to years).
 

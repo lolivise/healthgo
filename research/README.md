@@ -135,9 +135,9 @@ before researching anything new.
 
 - Over the ~50-line budget already: `evidence-inflammation-immunity-hepb` (~77), `evidence-rapid-loss-harms` (~59).
   Condense them at the first review of their sectors.
-- `evidence-cutting` and `evidence-hypertrophy-training` still have many **[M]** rows (model memory, never checked
-  online): Garthe, Morton, Helms, Nedeltcheva, Bickel, Spiering, Refalo, Lopez, Schoenfeld, Bosquet, Iraki,
-  Barakat. Check them first.
+- All [M]/[S]/[U] citations in the evidence memories were checked against PubMed on 2026-10-28 (tiers 1–3). Still
+  unverified (paywall / not indexed / no source): REDs <30 kcal/kg FFM, Bosquet week figures, "⅓ of bulk is fat",
+  Frontiers 2025 NMA, Hackett & Hagstrom 2017, TGA melatonin, LiverTox ginseng, Taiwan BF/fibre norms.
 - Sector 2 has no full report behind its evidence.
 - Timing: the first review falls around 2027-01, but he's in Taiwan 2027-01-23 → 02-25. Run it before the
   trip or after it.

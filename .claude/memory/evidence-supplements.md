@@ -22,7 +22,7 @@ Standing rule: no new supplements ([[health-conditions]]); this file only judges
 
 ## Old belief → now
 - **"Creatine damages kidneys"** → creatinine rises because creatine turns into it; measured GFR is flat (PMID 42507286). [V]
-- **"Creatine causes hair loss"** → came from one 2009 rugby study of DHT [S]; first direct RCT (Lak 2025, PMID 40265319,
+- **"Creatine causes hair loss"** → came from one rugby study (van der Merwe 2009, PMID 19741313, crossover n=20: DHT:T ratio rose, hair never measured) [V]; first direct RCT (Lak 2025, PMID 40265319,
   n=38, 12 wk) found no change in DHT or hair. [V]
 - **"More fish oil is better for the heart"** → above ~1.5 g/d in at-risk people it raises AF; benefit trials mixed.
 

@@ -13,8 +13,8 @@ Darren asked (2026-10-26) what sweeteners actually do, given his Coke Zero / Pep
 Nutrition Gold Standard Double Rich Chocolate whey 50 g/day — **all three list only 950 (ace-K) + 951 (aspartame)**. No
 sucralose (the AU whey differs from the UK/EU sucralose formula) and no erythritol. mg per serve not disclosed.
 Practical ceiling given to him: ≤1–2 cans/day (ADI ≈12–18 cans at 89 kg is a toxicology ceiling, not a target). ADIs at 89 kg: aspartame 40 mg/kg = 3,560 mg; sucralose 15
-mg/kg = 1,335 mg (EFSA 2026 re-confirmed, PMID 41710869) [V]; ace-K 15 [S]. WHO/IARC: a 70 kg adult needs ~9–14 diet
-cans/day to reach the aspartame ADI [S] → his half-can ≈ a few % of it.
+mg/kg = 1,335 mg (EFSA 2026 re-confirmed, PMID 41710869) [V]; ace-K 15 (EFSA 2025, PMID 40309404, replaced SCF 9) [V]. WHO 2023: a 70 kg adult needs >9–14 diet
+cans/day (200–300 mg each) to pass the aspartame ADI [V] → his half-can ≈ a few % of it.
 
 ## Old belief → now
 **"Sweeteners cause cancer / diabetes / make you fatter"** → RCTs (moderate certainty) show the opposite vs sugar and no
@@ -39,10 +39,10 @@ industry-funded; long-term outcome data are observational only.
 | Sucralose-6-acetate | in vitro genotoxic signal only; in vivo micronucleus negative; EFSA 2026 no genotoxicity concern | PMID 37246822; 42612746; 41710869 [V] | cell; rebuttal industry-funded [S] |
 | **Erythritol** | plasma level → MACE HR 1.8–2.2 in cardiac-risk patients; 30 g dose ↑ platelet reactivity (n 10) | PMID 36849732; 39114916 [V] | tiny n, surrogate, also made by the body (marker?); MR 2026 null for liver |
 | Funding | most RCTs favouring sweeteners industry-funded; unfavourable cohorts mostly not | PMID 39225985 [V] | — |
-| Teeth | aspartame non-cariogenic | PMID 40157710 [V] | — ; cola acid (phosphoric, pH ~3) erodes enamel regardless of sweetener [S] |
+| Teeth | aspartame non-cariogenic | PMID 40157710 [V] | — ; acidic drinks erode enamel in vitro, diet or not (pH figure not verified) [S] |
 
 ## Hype spotted
-"IARC says aspartame causes cancer" (2B = can't exclude, same tier as aloe vera extract [S]). "Sucralose damages DNA"
+"IARC says aspartame causes cancer" (2B = can't exclude, same tier as aloe vera **whole-leaf** extract [S, IARC Vol 108 not opened]). "Sucralose damages DNA"
 (cell assay, not people). "Diet soda causes diabetes" (cohorts; reverses when bias-adjusted). The pro side oversells too:
 "proven safe long-term" rests on ≤1-yr, often industry-funded trials.
 
@@ -51,7 +51,7 @@ industry-funded; long-term outcome data are observational only.
 harmful dose; the sucralose insulin-sensitivity signal doesn't apply (his whey has none). In a cut, diet cola instead of sugary
 drinks is a net win (RCTs); against water it's neutral, so no need to add more either. Liver: diet drinks show no liver
 cancer signal in 1.5 M people; sugary drinks do, so 手搖飲 無糖/微糖 ([[evidence-sugar]]) matters more than Coke Zero.
-Small practical points: drink cola with meals, not sipped all day, and don't brush within ~30 min (acid erosion) [S];
+Small practical points: drink cola with meals, not sipped all day, use fluoride toothpaste; waiting 30 min to brush is **not supported** (MA of in-situ studies, PMID 33052542; scoping review PMID 38621371; no clinical RCTs) [V];
 avoid erythritol-heavy "sugar-free" products (E968) as a daily habit — the only sweetener with a plausible clotting
 mechanism. Caffeine at half a can is trivial except close to his ~21:00 bedtime.
 

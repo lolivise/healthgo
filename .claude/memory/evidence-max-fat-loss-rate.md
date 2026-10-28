@@ -15,7 +15,7 @@ by fat-free mass. Popular "max fat loss calculators" (fatcalc etc.) use it.
 **Strength of evidence: weak-moderate.** It is a mathematical model fitted to one old dataset (Minnesota
 Starvation Experiment, lean men, semistarvation), never tested prospectively, no head-to-head with Hall's
 model. The all-or-nothing "beyond the line it's all muscle" is a simplification: Forbes/Hall (2007) show the
-lean share of loss rises gradually as fat mass falls. A claimed "corrected 22 kcal/lb" figure is unverified.
+lean share of loss rises gradually as fat mass falls.
 Likely higher with adequate protein and lifting.
 
 **Applied to him (lean ≈ 68 kg assumed, all-fat 7,700 kcal/kg):**

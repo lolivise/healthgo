@@ -19,11 +19,11 @@ PMID 27797728, 40 studies) [V].
 | Item | Case | Evidence | Flags |
 |---|---|---|---|
 | Vitamin D | only if blood level is low | VITAL n=25,871: cancer HR 0.96, CVD 0.97 (PMID 30415629) [V]; D-Health (Australia) n=21,315: death HR 1.04 (PMID 35026158) [V] | `deficient`; "low D is bad" is observational |
-| Melatonin | sleep onset, small | dose-response MA 2024 (PMID 38888087) [V]; latency ~7 min [S] | `hetero`; prescription in Australia under 55 [S] |
+| Melatonin | sleep onset, small | dose-response MA 2024 (PMID 38888087) [V]; latency −7 min (4.4–9.8), MA 19 RCTs n=1,683, in primary sleep disorders (PMID 23691095) [V] | `hetero`; prescription in Australia under 55 [S, TGA page not reached] |
 | Zinc / vit C | acute cold only | zinc acetate lozenges ≥75 mg/d within 24 h: −2.7 days (PMID 27378206, n=199) [V]; vit C halves colds only in marathon/soldier groups, general RR 0.97 (PMID 23440782) [V] | `tiny n`; megadose C → kidney stones [S] |
 | Tongkat ali | clinically low testosterone | T SMD 1.35 in 5 RCTs (PMID 36013514) [V] | `surrogate`, `industry`, effect implausibly big |
 | HMB, collagen for muscle | beginners / elderly | no trained-man evidence | `deficient` |
-| Collagen for skin | small | 19 RCTs, 95 % women, hydration/wrinkles at ~90 d (PMID 33742704) [V] | `industry` [S], subjective |
+| Collagen for skin | small | 19 RCTs, 95 % women, hydration/wrinkles at ~90 d (PMID 33742704) [V] | `industry` (sponsorship review PMID 41579002, title only), subjective |
 | Apple cider vinegar | ~1–2 kg | 10 RCTs SMD −0.39, mostly overweight/T2D (PMID 41010525) [V] | `hetero` I² 62–83 %, `short`; reflux, enamel |
 
 ## Myth or hype (what's wrong with the evidence)
@@ -31,11 +31,11 @@ PMID 27797728, 40 studies) [V].
   falls, in fasted designs (PMID 38625669) `surrogate`. Redundant with whey.
 - **Collagen + whey "+2.7 kg muscle"** (2026 RCT, PMID 42426859, n=40) `tiny n`, `abstract≠data`: implausible gain, collagen is a poor protein.
 - **T-boosters**: D-aspartic acid null in trained men, oestradiol −16 % (PMID 28841667) [V]; fenugreek total T +0.25 SMD,
-  free T null, "very low certainty" (PMID 42688439) [V] `surrogate`; tribulus no testosterone data; ZMA maker-run trial [S].
+  free T null, "very low certainty" (PMID 42688439) [V] `surrogate`; tribulus no testosterone data; ZMA: Brilla & Conte 2000, not PubMed-indexed, maker link unverified [S].
 - **Ashwagandha**: strength gain gone after correction, 3 RCTs n=161 (PMID 42738987) [V] `tiny n`, `industry` + liver risk.
 - **Fat burners**: green tea extract −0.04 kg outside Japan (Cochrane, PMID 23235664) [V]; garcinia null (PMID 31984610)
   [V]; L-carnitine no fat oxidation, 15/18 studies biased (PMID 42887880) [V]; green coffee all high-bias (PMID 20871849)
-  [V]; raspberry ketone no human trial; CLA −0.42 SMD `hetero`, steatosis signal [S]; citrulline strength null (PMID 34176406) [V].
+  [V]; raspberry ketone no human trial; CLA −0.42 SMD `hetero`, t10c12 CLA caused insulin resistance in obese men (PMID 18980783) [V], liver-fat signal mainly `animal/cell`; citrulline strength null (PMID 34176406) [V].
 - **Longevity pills**: NMN no muscle/grip/gait effect (PMID 40275690) [V]; NR/resveratrol/spermidine raise markers only
   `surrogate`, `tiny n`, `industry`.
 - **Others**: glutamine (no trial in healthy lifters), glucosamine (≈ placebo combined, PMID 29980200) [V], probiotics for
@@ -44,7 +44,7 @@ PMID 27797728, 40 studies) [V].
 ## Liver red flags (Hep B: never)
 Green tea extract (ALT +78 % in a 12-month trial subgroup, PMID 36178169; 34 liver cases reviewed, PMID 18484782) [V];
 ashwagandha (cholestatic injury series, PMID 31991029) [V]; turmeric/curcumin with piperine (biopsy-proven case,
-PMID 40026546) [V]; garcinia, CLA [S]. Kidney (entecavir): megadose vitamin C [S].
+PMID 40026546) [V]; garcinia (34 case reports, 1 death, 9 transplants; USP liver caution, PMID 41262061) [V] `observational only`; CLA (animal). Kidney (entecavir): vitamin C supplements ↔ more kidney stones in men (Thomas 2013 cohort; HR not re-read) and oxalate nephropathy case reports at IV megadose (PMID 39511062) [V title].
 
 ## How it applies to Darren (2026-10-26)
 Nothing new to take. Two things to raise with the doctor at the next blood test: **25-OH vitamin D** (settles the only

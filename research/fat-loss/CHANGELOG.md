@@ -11,3 +11,7 @@ One line per change to an evidence file: `YYYY-MM-DD · evidence-file · row: ol
 2026-10-28 · evidence-hypertrophy-training · Maintenance dose [V] (Bickel young only, Spiering 1 set/wk); Detraining week figures unverified; Lean bulk Iraki = opinion, Helms 2023 favours low end (21131862, 33629972, 23347054, 31247944, 37914977)
 2026-10-28 · evidence-metabolic-adaptation · "no bulking at 21–25 % BF" [M] → no trial exists, opinion (35233712)
 2026-10-28 · cutting-goal-2026 / trip-taiwan-2027 · steps ≈40 kcal net/1,000 (26679617); FFMI 25 = Kouri preliminary (7496846); lean-gain rates = coaching model; post-trip +2–4 kg → estimate, vacation data +0.3–0.4 kg (26768234)
+2026-10-28 · evidence-cutting · Garthe [M] → [V] LBM +2.1 vs −0.2 %; Helms [V] review; Peos ICECAP not lean (~25 % BF), FM/FFM ns (21558571, 24864135, 33587549)
+2026-10-28 · evidence-muscle-turnover · Gillen, Oxfeldt, Areta, Ali TRE [S] → [V] with n; Kumar found, abstract unread; "Frontiers 2025 NMA" not found (31083047, 37329147, 24595305, 41687432, 19164770)
+2026-10-28 · evidence-fasted-exercise · Vieira RCT + JBMT MA [V] (fat mass favours fasted, fragile); Aird no 60-min cut-off; Edinburgh 2020 = before vs after carbs; Slater → 2023 evening study, 24 h intake −443 (40335157, 41316673, 29315892, 31628477, 36170970)
+2026-10-28 · evidence-what-drives-overeating / max-fat-loss-rate / muscle-and-metabolism · Al Khatib +385 [V]; "22 kcal/lb" deleted (no source); BMR 60–70 % = sedentary textbook, ≈55–60 % at PAL 1.7–1.8 (27804960, 23637685)

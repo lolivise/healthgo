@@ -25,12 +25,12 @@ are no different from fed exercise. The daily/weekly energy deficit decides fat 
 |---|---|---|
 | Kazeminasab 2025, Clin Nutr ESPEN [V abstract] | meta-analysis, 28 RCTs, 302 healthy adults, acute | higher fat oxidation during exercise ≠ higher 24 h fat oxidation or fat loss; not metabolically better |
 | Hofstätter 2025, Physiol Rep [V] | 8 wk RCT, n=36, 3×60 min Fatmax cycling: 16 h fasted vs carb snack vs normal diet | fat oxidation improved in all groups, no group difference; fat mass ↓ in all, no difference; fasted group weight +0.46 kg |
-| Vieira 2025, IJSNEM [S] | 12 wk RCT, n≈28, resistance training, fasted 10–12 h vs carb meal 1–2 h before, diet controlled | strength and power gains equal |
-| 2025 resistance-training meta-analysis (J Bodywork Mov Ther, S1360859225003043) [S] | fasted vs fed RT | reportedly no difference in FFM, fat mass, hypertrophy, strength. Unverified |
-| Schoenfeld 2014 [V]; Hackett & Hagstrom 2017 (5 studies, 96 people) [S] | body composition | no advantage for fasted |
-| Aird 2018, Scand J Med Sci Sports (46 studies) [S] | performance | eating before helps prolonged (≳60 min) aerobic performance; little effect on short sessions |
-| Edinburgh/Gonzalez 2019, JCEM (Bath) [S] | 6 wk, overweight men | fasted group had better insulin sensitivity; same weight loss |
-| Slater 2024 (MMU) [S] | appetite | morning fasted exercise usually doesn't raise later intake |
+| Vieira 2025, IJSNEM, PMID 40335157 [V abstract] | 12 wk RCT, n=28, 2 RT sessions/wk, overnight-fasted vs carb meal 1–2 h before, isocaloric guidance | muscle thickness, 1RM, power rose equally; `tiny n` |
+| Vieira 2025 JBMT meta-analysis, PMID 41316673 [V abstract] | fasted vs fed RT, only 4 trials, 3 high risk of bias, same group | FFM, hypertrophy, strength ns; fat mass favoured fasted SMD −1.00 (−1.97 to −0.03), fragile |
+| Schoenfeld 2014 [V]; Hackett & Hagstrom 2017 (5 studies, 96 people) [S, not in PubMed] | body composition | no advantage for fasted |
+| Aird 2018, Scand J Med Sci Sports, PMID 29315892 [V abstract] (46 studies) | performance | eating before helps prolonged aerobic performance (P=.012), not shorter (P=.687); no minute cut-off given |
+| Edinburgh 2020, JCEM, PMID 31628477 [V abstract] | 6 wk, men BMI ~31, cycling before vs after carbs | before-carbs: lower insulin, better oral glucose insulin sensitivity; weight not reported in abstract; `surrogate` |
+| Slater 2023, IJSNEM, PMID 36170970 [V abstract] ("Slater 2024 MMU" morning study not found) | appetite, n=16 crossover, 7 h fast before **evening** exercise | post-exercise intake +99 kcal but 24 h net intake −443 kcal; performance −3.8 %; acute |
 | NCT07487090 (ongoing, 16 wk) | fasted vs fed aerobic | hypothesis: fasted causes more energy compensation. Check results later |
 
 ## Pros / cons / who should avoid

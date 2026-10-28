@@ -32,10 +32,10 @@ harm is overeating, not a toxic reaction.
 | Claim | Verdict | Key source | Flags |
 |---|---|---|---|
 | Food combining (Hay diet) beats balanced | **myth** | Golay 2000 RCT n=54, 6 wk, equal kcal: −6.2 vs −7.5 kg, NS (PMID 10805507) [V] | only RCT; small |
-| Protein+starch "rot", pH conflict | **myth** | stomach + pancreas secrete proteases, amylase, lipase together [S] | no human data |
+| Protein+starch "rot", pH conflict | **myth** | stomach + pancreas secrete proteases, amylase, lipase together [textbook GI physiology; no food-combining trial] | no human data |
 | Veg → meat → rice lowers glucose | helpful, small | PATTERN, healthy Chinese adults, rice/chicken/veg: ↓ glucose, ↑ GLP-1, no extra insulin (PMID 31053510) [V]; Shukla 2017 T2D −53 % iAUC (PMID 28989726) [V] | n=16, single meals, no fat-loss outcome |
-| Carbs add muscle growth to protein post-lift | **myth** for MPS; real for glycogen | Glynn 2010 n=13 (PMID 20519362) [V]; Staples 2011 [S] | biopsy, small |
-| 豆漿+雞蛋, 牛奶+柳丁, 海鮮+維C (arsenic) | **myth** | trypsin inhibitors die in cooking; no harm data [S] | — |
+| Carbs add muscle growth to protein post-lift | **myth** for MPS; real for glycogen | Glynn 2010 n=13 (PMID 20519362) [V]; Staples 2011 n=9 crossover, 25 g whey ± 50 g maltodextrin, no added MPS (PMID 21131864) [V] | biopsy, `tiny n` |
+| 豆漿+雞蛋, 牛奶+柳丁, 海鮮+維C (arsenic) | **myth** | soy trypsin inhibitor is heat-labile (soymilk processing studies, e.g. PMID 25678063, abstract not read); no human harm data found [S] | — |
 | 菠菜+豆腐 → stones | **myth, reversed** | calcium binds oxalate in the gut → *less* absorbed (PMID 30566003) [V] | — |
 | Tea/coffee/cocoa ↓ non-haem iron | **real**, matters only if iron-short | −50–94 % per meal (Hurrell 1999, PMID 10999016) [V] | single meal |
 | Vit C + iron, fat + carotenoids | helpful | PMID 15277161 (n=7) [V] | tiny n |

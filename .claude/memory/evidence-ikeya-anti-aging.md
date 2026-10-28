@@ -31,8 +31,8 @@ looking 40 y older; "vessel age" numbers (baPWV/CAVI predict CVD, but age conver
 folate/aspiration, beta-cell exhaustion, amazake/black-bean yogurt, 1-min post-meal move (only longer breaks tested).
 
 **His supplements, all off-limits for him** ([[supplements]], Hep B rule): NMN (small 12-wk RCTs, no liver data),
-hydrogen tablets (limited), long-acting vit C (high dose can raise ALT [U]), 玄米酵素 (no trials), prescription EPA (AF
-3.1 vs 2.1 % in REDUCE-IT; >1 g/d AF HR 1.49 [U]) → **don't raise his 1.2 g fish oil**. Green tea *extract* toxic ≥800 mg EGCG.
+hydrogen tablets (limited), long-acting vit C (high dose can raise ALT: no source found 10-28), 玄米酵素 (no trials), prescription EPA (AF/flutter
+hospitalisation 3.1 vs 2.1 % at 4 g/d in REDUCE-IT, PMID 30415628 [V]; Gencer 2021, PMID 34612056 [V]: >1 g/d AF HR 1.49 (1.04–2.15), ≤1 g/d 1.12, older CVD patients) → **don't raise his 1.2 g fish oil**. Green tea *extract* toxic ≥800 mg EGCG.
 
 **Applied to him (2026-10-25):** his diet already matches the supported parts (carbs at breakfast/lunch, dinner =
 yogurt + oats, fixed kcal, 1.9 g/kg protein > 1.62 plateau, olive oil ↑, coffee, no alcohol/smoking).

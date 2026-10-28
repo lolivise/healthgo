@@ -74,7 +74,7 @@ For him: tiredness → check sleep, deficit, load, not "inflammation". No change
 - Coffee: linked to less fibrosis/HCC (EASL 2025, not RCT). Exercise 1,000–1,500 MET-min/wk ↔ lower HCC on
   antivirals (Korean cohort, mixed). Aflatoxin: discard mouldy nuts/grains.
 - Vaccines (Australian Handbook): **hep A for any chronic liver disease if not immune**; chronic liver disease is a
-  pneumococcal risk condition (GP decides for a non-cirrhotic carrier). Flu/COVID wording not re-checked [U].
+  pneumococcal risk condition (GP decides for a non-cirrhotic carrier). Flu (Handbook read 10-28) [V]: annual vaccine recommended for adults generally; "chronic liver disease" (progressive >6 mo, incl. cirrhosis) is a risk condition, whether a non-cirrhotic carrier counts is the GP's call. COVID: a healthy 36-year-old is in no recommended group (≥65, or 18–64 severely immunocompromised) [V].
 - Transmission: shared food/utensils fine; no shared razors/toothbrushes; non-immune household/sexual contacts vaccinated.
 - Supplements, "not for you": turmeric/curcumin (TGA 2023 liver-injury warning; avoid with liver disease),
   ashwagandha (3/5 with chronic liver disease died of ACLF, 2023 series), green tea extract ≥800 mg EGCG, Taiwanese

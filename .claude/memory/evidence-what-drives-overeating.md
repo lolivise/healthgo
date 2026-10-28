@@ -33,7 +33,7 @@ want to eat and can't control themselves. **[V]** = abstract read this session, 
   31105044, n = 20) [V]; Japanese men +813 kcal (PMID 39267249, n = 9) [V]; meta of 10 RCTs: effect ≈ energy density
   (PMID 42746678, low certainty) [V]. Larger portions +295 kcal/day (PMID 34687532, 22 RCTs) [V]; lower energy density
   −223 kcal at same food weight (PMID 36460778, 38 RCTs) [V]; slower eating SMD 0.45 less (PMID 24847856) [V].
-  Sleep ≤ 5.5 h +204 kcal/day (PMID 33001515, 15 studies) [V]; Al Khatib 2017 +385 [U]. Self-report under-counts
+  Sleep ≤ 5.5 h +204 kcal/day (PMID 33001515, 15 studies) [V]; Al Khatib 2017 +385 (252–517), MA 11 studies n=172, TEE unchanged (PMID 27804960) [V]. Self-report under-counts
   310–820 kcal/day (PMID 33564834) [V].
 - Gaps: short lab trials, mostly Western; "loss of control" eating not checked.
 

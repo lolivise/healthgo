@@ -11,14 +11,14 @@ metadata:
 | Topic | Evidence | Strength |
 |---|---|---|
 | Taiwan norms | HPA 國民健康署 [V]: BMI 18.5–<24 healthy, 24–<27 overweight, ≥27 obese; **men's waist < 90 cm**. WHO 2004 Asian action points 23 / 27.5 | official |
-| Asian body fat | Deurenberg 2000/2002 [M]: Asians carry ~3–5 points more body fat at the same BMI. Taiwan "healthy" male body fat is quoted as ~12–22 % (30–59 y), unverified at source | moderate |
+| Asian body fat | Deurenberg 2002 Obes Rev, PMID 12164465 [V 10-28] (literature overview, Singapore/Indonesia/HK data, not Taiwan): Asians carry 3–5 points more body fat at the same BMI. Taiwan "healthy" male body fat is quoted as ~12–22 % (30–59 y), no source found (10-28; HPA site unreachable) | moderate |
 | Goal check | **15–18 % is a sensible, healthy target** for him. Going below ~15 % adds no health benefit and argues against a long deficit with Hep B | moderate |
 | InBody error | BIA vs DXA is fine at group level but individual error is a few points (several Asian studies [V]). Hydration shifts readings (~0.6 points BF). Steady creatine 5 g biases consistently. Treat **< ~1–1.5 points BF or < ~1 kg SMM as noise**; act on a 3+ scan trend under the same conditions (morning, fasted, after the toilet, no hard training in the prior 12 h) | moderate |
 | Taiwan DRI (8th ed., Dec 2023) | Protein RDA **70 g/day** for men [V]; his ~168 g is a deliberate sport intake. Fibre AI newly added (~25–35 g, unverified). Sodium/potassium/calcium figures unverified (public guidance: salt < 6 g ≈ 2,400 mg Na [M]) | official |
 | HBV + metabolism | Cohorts [V]: metabolic risk factors (diabetes, ≥3 cardiometabolic factors) raise HCC risk in HBV carriers; MASLD + HBV in one biopsy cohort HR ~4. **Fat loss and metabolic health help, not harm.** 3–5 % weight loss improves liver fat, 7–10 % fibrosis (MASLD guidance) | moderate |
 | Protein / whey / creatine in HBV | No HBV-specific evidence of harm or of safety found. Keep current intake, mention it at bloodwork, no new supplements | none |
 | Alcohol | No HBV-specific safe limit found; even moderate drinking worsens liver fibrosis in MASLD (EASL 2025 abstract, weak). **ALDH2 deficiency in ~45–55 % of Taiwanese** [V]; flushers carry ~4–5× oesophageal-cancer odds with regular drinking. Keep minimal; doctor sets any limit | moderate |
-| Testosterone | Age decline ~0.4–1.6 %/yr from mid-30s (MMAS, Travison 2007) [M], small at 36. Weight loss from obesity raises T (Corona 2013 meta-analysis) [V via summary]. Big deficits + very low fat lower it; it recovers in ~1–3 months of eating more | moderate |
+| Testosterone | Total T falls ~0.8 %/yr cross-sectionally, 1.6 %/yr longitudinally; free T ~2–3 %/yr (Feldman 2002 MMAS, PMID 11836290 [V], n=1,709 men aged 40–70, `observational only`); no data for age 36. Weight loss from obesity raises T: Corona 2013, PMID 23482592 [V] (MA 24 studies, obese men): low-calorie diet +2.87 nmol/L (1.68–4.07), bariatric +8.73, scales with weight lost. Big deficits + very low fat lower it; it recovers in ~1–3 months of eating more | moderate |
 | Holiday foods in Taiwan | Energy-dense: 蘿蔔糕, 年糕, 油飯, 麻油雞, 瓜子/糖果, fried dishes, hotpot (very salty broth). Easy protein: 茶葉蛋, 滷蛋, 無糖豆漿, 豆腐, convenience-store 雞胸 / boiled eggs, fish | practical |
 
 **How to apply:**

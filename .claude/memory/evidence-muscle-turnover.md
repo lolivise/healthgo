@@ -19,15 +19,15 @@ days**: training stimulus, total protein, energy deficit size, and (minor) timin
 | Study | Finding |
 |---|---|
 | Clauss & Jensen 2025, Scand J Med Sci Sports 35:e70038 [V summary] | endurance exercise: protein ≈ **3.3 %** of energy (95 % CI 2.97–3.58); oxidation ~doubles vs rest, rises with intensity; low starting glycogen ↑ protein use; carbs before/during ↓ leucine oxidation |
-| Gillen 2019 [S] | fasted low-carb 10 km run → higher amino-acid oxidation than high-carb |
-| Kumar 2009 review [S] | during exercise MPS ↓, breakdown ~unchanged; after exercise fasted both ↑, net still negative until you eat |
+| Gillen 2019 MSSE, PMID 31083047 [V abstract] | crossover n=8 trained men; fasted 10 km run after a low-carb evening (2-day protocol) → phenylalanine oxidation +~11 % (8.8 vs 7.9) vs high-carb; `tiny n` |
+| Kumar 2009 review, PMID 19164770 [paper found, abstract not read] | during exercise MPS ↓, breakdown ~unchanged; after exercise fasted both ↑, net still negative until you eat |
 | Trommelen 2023, Cell Rep Med [V abstract] | 100 g protein after lifting → larger, >12 h anabolic response than 25 g; total intake matters more than per-meal cap |
-| Oxfeldt 2023, J Physiol [S] | low energy availability ↓ myofibrillar + sarcoplasmic MPS in trained women despite training |
-| Areta 2014 [S] | 5 d deficit: resting MPS −27 %; one lifting bout restores it |
+| Oxfeldt 2023, J Physiol, PMID 37329147 [V abstract] | RCT n=30 trained women, 10 d at 25 vs 50 kcal/kg FFM: myofibrillar + sarcoplasmic MPS ↓ despite 2.2 g/kg protein and training; lean mass and RMR fell; `short`, women |
+| Areta 2014, PMID 24595305 [V abstract] | n=15, 5 d at 30 vs 45 kcal/kg FFM: resting MPS −27 %; one lifting bout restores it; 15/30 g whey after adds ~16/34 % on top; `tiny n` |
 | Refalo, Trexler & Helms 2025, Strength Cond J [V abstract] | 29 studies, lifters in deficit: linear dose-response protein → FFM retention; stronger in men, leaner people, >4 wk |
 | Murphy 2022 SJMSS (meta-reg) [V] | deficit ≈ >500 kcal/day prevents lean gain; strength unaffected |
-| Frontiers Nutr 2025 NMA [S] | diet-only loss ≈ 25 % FFM; exercise + restriction limits it |
-| TRE in lifters meta-analysis 2026 (PubMed 41687432) [S] | no significant FFM loss vs control when lifting |
+| "Frontiers Nutr 2025 NMA" [not found on PubMed, 10-28] | diet-only loss ≈ 25 % FFM; exercise + restriction limits it: treat as unverified |
+| Ali 2026 Nutr Res, PMID 41687432 [V abstract] | 8 RCTs, lifters, TRE vs habitual diet: FFM +0.27 kg (−0.80 to 1.34) ns, FM −1.25 kg; few small short trials |
 
 ## How it applies to Darren
 167 g protein ≈ 1.8 g/kg BW ≈ 2.4 g/kg lean (~68 kg), in the effective range; deficit ≤ ~500 kcal; 5 lifting days.
