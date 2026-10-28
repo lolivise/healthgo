@@ -16,7 +16,8 @@ Darren asked (2026-10-25) how to define cutting too fast and its side effects. F
 | >84 kg (~20–23 % BF) | **0.7 %/wk** (~0.6 kg) | Garthe 2011 0.7 > 1.4 % [U numbers]; Ruiz-Castellano 2021 review [V]: 1 %/wk case lost 42.8 % as FFM |
 | ≤84 kg (≤~19 %) and post-trip | **0.5 %/wk** | Helms 2020 ≤0.5 % [V]; Forbes/Hall model [V]: lean share of each kg ≈34 % at 20 kg fat → ≈46 % at 12 kg (untrained upper bound) |
 | Any time, hard stop | 1 %/wk (existing [[safety-limits]]) | |
-| Gallstone risk jumps | >1.5 kg/wk or >25 % of start weight lost [U]; very low fat worst (Stokes 2014 [V]: fat 19–30 % of kcal protective) | |
+| Gallstone risk jumps | **>1.5 kg/wk** [V 10-28]: Weinsier 1995 Am J Med, PMID 7847427 (pooled 9 groups / 5 prospective reports, obese, exponential fit r²=0.98), the only data-derived cut-off. **>24 % of start weight** is expert summary only (Erlinger 2000 review, PMID 11192327). VLCD 500 vs LCD 1,200–1,500 kcal: symptomatic gallstones HR 3.4 (1.8–6.3) (Johansson 2014 Int J Obes, PMID 23736359, matched cohort 3,320/arm). Very low fat worst (Stokes 2014, PMID 24321208 [V]: higher-fat vs low-fat RR 0.09). **Him:** even the first 13 wk (~0.9 kg/wk) sat under 1.5 kg/wk, total loss ~13 % | obese cohorts |
+| Rapid loss and liver histology | Andersen 1991 J Hepatol, PMID 2051001 [V 10-28] (uncontrolled n=41 morbidly obese, VLCD, biopsies, median −34 kg): 24 % got slight portal inflammation/fibrosis, fibrosis linked to faster loss (p=0.026). **No human study on weight-loss rate in chronic hepatitis B exists** (searched 10-28); don't cite Andersen as HBV evidence | poor fit |
 | Low energy availability | **EA = (intake − exercise kcal) ÷ FFM < 25 kcal/kg** → <~1,700 kcal after exercise | Ruiz-Castellano 2021 [V]; IOC REDs 2023 [V]. Male cut-off is uncertain, a direction not a line |
 
 Fast vs slow at equal total loss: slow keeps ~1 kg more fat lost and RMR slightly better (Ashtary-Larky 2020 [V]);

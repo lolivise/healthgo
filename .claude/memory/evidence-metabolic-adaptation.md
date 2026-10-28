@@ -16,7 +16,7 @@ Darren asked (2026-10-12) when we would call metabolic adaptation and whether he
 | Biggest component | NEAT/steps; SR 36 trials, n=1,561 (Br J Nutr 2018, PMID 29845903) [V]: NEAT fell in 63 % of diet-only arms, 27 % diet+exercise, 23 % exercise-only; bigger loss ↔ bigger drop. Standing instead of sitting only +0.15 kcal/min (MA 46 studies, PMID 29385357) [V], so posture tricks are tiny; steps are the lever | moderate |
 | Recovery | Physique athletes: RMR rebounds early, mostly restored within ~6 wk (Buechel 2026, abstract [V]); hormones 1–3 months (2024 review [V]) | moderate |
 | Fix | Poon 2025 Nutr Rev, 12 RCTs [V]: diet breaks blunt the RMR drop (<100 kcal), same fat loss, weaker in trained people. MATADOR 2018 [V]. **No evidence a surplus is needed; maintenance is enough** [M inference] | moderate |
-| Bulk | Helms 2023 Sports Med Open [V]: maintenance vs +5 % vs +15 % for 8 wk, no muscle difference, more fat with bigger surplus. Iraki 2019 [V]: +10–20 %, 0.25–0.5 %/wk. No support for bulking at 21–25 % BF [M] | moderate |
+| Bulk | Helms 2023 Sports Med Open [V]: maintenance vs +5 % vs +15 % for 8 wk, no muscle difference, more fat with bigger surplus. Iraki 2019 [V]: +10–20 %, 0.25–0.5 %/wk. Starting BF vs surplus outcome in trained men: **no trial exists** (searched 10-28; Larson-Meyer 2022, PMID 35233712: weight-gain research is lacking), so "don't bulk at 21–25 % BF" is opinion, not evidence | moderate |
 
 **The 6-signal rule for Darren (decided 2026-10-12).** Call meaningful adaptation only when **≥3 hold for ≥2 weeks**,
 judged on fixed-intake weeks (W42 on):

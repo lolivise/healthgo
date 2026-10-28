@@ -47,9 +47,10 @@ genetically doable and wants to try. Needs lean mass ≈ 70.5–75 kg (midpoint 
 lean** over the ~68 kg estimate, so a multi-year path: finish the cut at ~15–16 % (~80–82 kg), then lean-bulk
 cycles (+10–15 % kcal, 0.25–0.5 %/wk) with short mini-cuts when BF passes ~18 %. **Why he wants it:** his face is big, and a lean-but-slim body makes his head look bigger. So the aim is
 **proportion**: wider shoulders and upper back (side delts, lats, traps) to frame the head, not total size.
-Feasibility at **177 cm**: lean 70.5–75 kg = FFMI 22.5–23.9 (now ~21.7), well under the ~25 natural ceiling, so
-doable; the limit is time (~1–2 kg lean/yr for a trained man). Training age: 3–4 yr on/off ≈ late novice ([[training-routine]]), so an estimated ~2–3 kg lean in the first
-consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal (estimate, not a trial number). Re-check lean mass with a DEXA/BIA if one becomes available.
+Feasibility at **177 cm**: lean 70.5–75 kg = FFMI 22.5–23.9 (now ~21.7), well under the ~25 seen in non-users (Kouri 1995,
+PMID 7496846 [V]: cross-sectional, 74 drug-free athletes reached up to 25.0; a "preliminary" steroid screen, not a proven ceiling), so
+doable; the limit is time. Training age: 3–4 yr on/off ≈ late novice ([[training-routine]]), so an estimated ~2–3 kg lean in the first
+consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal. ⚠️ **These lean-gain rates are coaching models, no primary longitudinal data found (10-28)**: treat the timeline as a guess. Re-check lean mass with a DEXA/BIA if one becomes available.
 - By 2026-12-13 he will have been in a deficit for ~22 weeks; the maintenance block doubles as the diet break.
   ⚠️ **Decision point at the 11-08 (W45) review, adopted 2026-10-25:** he is past his own 10–12 wk diet-break rule
   (14.5 wk on 10-25) and the first 13 weeks were at low energy availability ([[evidence-rapid-loss-harms]]). Once W45
@@ -64,7 +65,7 @@ eat-out days). The fixed-intake weeks from W42 (potato ≈2,030, then rice 2,075
 prepare-week's 28d estimate said 2,812. Intake raised to ≈2,520 (rice 200 g) for W44–W45 to measure it cleanly ([[daily-diet-baseline]]).
 So Phase 2's "≈2,300–2,400" maintenance is stale: set it from the W45 number (likely ~2,700+). At 80–83 kg with the same routine it will likely be *lower* (~2,100–2,200).
 So 2,500 needs:
-- more daily steps (the biggest lever, ≈40–50 kcal per +1,000 steps);
+- more daily steps (the biggest lever, ≈40 kcal net per +1,000 steps at ~88 kg: calculated 10-28 from Ludlow & Weyand 2016, PMID 26679617, walking-cost equation fitted to 127 treadmill VO2 values, at 4.8 km/h, 0.76 m step; ~54 gross; step length is the weak link, 0.70–0.80 m → 37–42);
 - more muscle over time;
 - a gradual reverse diet after the cut (+~100 kcal/week while the weight holds) to find his true maintenance.
 

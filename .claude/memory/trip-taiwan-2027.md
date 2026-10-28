@@ -23,8 +23,10 @@ Taiwan is UTC+8, the same as Perth, so there are no timezone effects on the data
 - **During:** no calorie rules, only a loose guide: protein at most meals, walk at road-trip stops,
   go easy on alcohol (liver, see [[health-conditions]]). **Telegram alerts are silenced**
   (`config/plan.json` → `trip`).
-- **After:** expect +2–4 kg on the scale, mostly water, glycogen and food weight. Real fat gain is
-  likely ≤1–1.5 kg. Ignore the scale for week 1, then re-set targets from the 7-day weight average and strength, resume the cut. The
+- **After:** expect a scale jump of a few kg (food, sodium, gut content; glycogen should already be refilled during the
+  Dec–Jan maintenance). **Size is an estimate, not data** (corrected 10-28): measured vacation gains are small, +0.32 kg
+  and still +0.41 kg 6 wk later after 1–3 wk trips (Cooper & Tokar 2016, PMID 26768234, n=122, scale only); no study
+  covers 5 weeks or splits fat from water ([[evidence-maintenance-transition]]). Ignore the scale for week 1, then re-set targets from the 7-day weight average and strength, resume the cut. The
   first /review back covers the whole 5 weeks of watch data.
 
 **How to apply:** don't treat trip-period weight gain as failure. Frame the return review around
