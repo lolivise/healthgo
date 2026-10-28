@@ -111,6 +111,10 @@ These match the table above.
     pre-agreed on 10-22 was judged too small (→ ~0.75 %/wk). **W44 + W45 (10-26 → 11-08) at a fixed 2,520 are the clean
     TDEE measurement**; the −0.25 %/wk fallback rule now means going to 150 g (1½ packs, ≈2,340), not 75 g.
     Bar still eaten daily.
+  - **Weight lines for 11-01 / 11-08 (given 10-28, start 88.7 kg on 10-25, judge a 3-day average, eat-out days excluded):**
+    hard stop 1 %/wk = 87.8 / 86.9; cap 0.7 %/wk = 88.1 / 87.5; expected 0.3–0.5 %/wk = 88.4–88.3 / 88.2–87.8; slow
+    0.25 %/wk = 88.5 / 88.3. 11-01 acts only on the hard stop (rice-step water week); 11-08 decides. Swapping whey for
+    chicken adds ~0 kcal (175 g raw chicken ≈ 210 kcal vs 201) and +175 g food, so it was advised against (he finds 2,520 a lot).
   - **The 2027-01-22 checkpoint (83–85 kg) is NOT changed yet.** Re-plan at the W45 review (~2026-11-08) from the measured
     rate and TDEE, and update `config/plan.json` too if it moves.
 - Fallback numbers: 1,852 kcal = 60 g rice. Potato version of 2,000 kcal ≈ 470 g potato + 14 g oil.
