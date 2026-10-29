@@ -196,6 +196,15 @@ fat ≈53 → **≈68 g** (~0.77 g/kg, above the 0.7 floor). Most of the extra y
 **not** replace the olive oil step. Lower step (100 g rice + 2 bars) becomes ≈2,259 kcal / ≈172 g protein. Like every 11-09
 number, the kcal is reset at the 11-08 review from the measured TDEE.
 
+**Protein check, 2-year horizon (Darren asked 2026-10-29; arithmetic on [[safety-limits]] + [[evidence-bulk-nutrition]]):**
+assumed lean gain +1–1.5 kg/yr from now (his condition; the rate itself is a coaching model, unverified). At **177 g/day**
+the binding rule is the cut floor 2.3 g/kg FFM (Helms 2014, PMID 24092765, deficit only); bulks need ≥1.6 g/kg BW (Morton
+2018, PMID 28698222), target ~2.0. Margins over 2 years (FFM 68 → 71): cuts +20 → +14 g; bulks +40 g over the floor,
++6–9 g over 2.0 g/kg. Worst case (true FFM 71 now → 74): cut margin +7 g. **177 g only falls short once FFM > 77 kg**
+(172 g lower step: > 74.8 kg), beyond the 70.5–75 kg goal, i.e. 6–9 years at that rate. Building the tissue itself costs
+≤4 g/day (1.5 kg/yr even if it were 100 % protein). **Verdict: no increase needed for 2 years or for the whole goal.**
+Re-check only if intake drops (less chicken/whey, or the 172 g step during a late mini-cut with a DEXA showing FFM ≥ 74).
+
 **Fat floor raised (2026-10-25, adopted):** from **Mon 2026-11-09** olive oil **4 → 13 g** (+~80 kcal, logged ≈2,600) so fat reaches the new
 0.7 g/kg floor (~62 g, ~22 % of kcal; at 2,520 it was ~53 g = 18.9 %). Starts after the W44–W45 TDEE window so that
 measurement stays clean. Walnuts 20 g unchanged (LA stays at the AI). The cut runs to 12-13 regardless (Darren, 10-29), and from 12-14
