@@ -18,6 +18,6 @@ The date is in `config/plan.json` → `events`, so every `prepare-week` digest r
 
 **Why:** a date he cares about, inside the gentle-cut phase ([[cutting-goal-2026]]).
 
-**How to apply:** the party is not a reason to cut faster or to skip bringing maintenance forward at the 11-08 review if
+**How to apply:** the party is not a reason to cut faster than [[safety-limits]] allow (the cut runs to 12-13 regardless, Darren 10-29), even if
 a health guard is yellow. Expect a +1–1.5 kg spike after it (eating out); judge the trend. Compare the real 12-04 trend
 weight with this projection at the next review after it.

@@ -52,10 +52,17 @@ PMID 7496846 [V]: cross-sectional, 74 drug-free athletes reached up to 25.0; a "
 doable; the limit is time. Training age: 3–4 yr on/off ≈ late novice ([[training-routine]]), so an estimated ~2–3 kg lean in the first
 consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal. ⚠️ **These lean-gain rates are coaching models, no primary longitudinal data found (10-28)**: treat the timeline as a guess. Re-check lean mass with a DEXA/BIA if one becomes available.
 - By 2026-12-13 he will have been in a deficit for ~22 weeks; the maintenance block doubles as the diet break.
-  ⚠️ **Decision point at the 11-08 (W45) review, adopted 2026-10-25:** he is past his own 10–12 wk diet-break rule
-  (14.5 wk on 10-25) and the first 13 weeks were at low energy availability ([[evidence-rapid-loss-harms]]). Once W45
-  measures TDEE: if **any** health-guard yellow (skin worse, more hair shedding, e1RM down, sleep, EA, rate over the cap)
-  → **bring maintenance forward to 11-09**; if all green → keep the gentle cut to 12-13 at ≤0.7 %/wk (≤0.5 % once ≤84 kg).
+  ⭐ **The cut runs to 2026-12-13 no matter what (Darren, 2026-10-29: "Strict the plan, I want to cut until 12-13 no
+  matter what. 11-08 is just to calculate my TDEE.")** This replaces the 10-25 rule that any health-guard yellow at the
+  11-08 review would bring maintenance forward to 11-09. ⛔ **Never propose ending the cut early or bringing maintenance
+  forward again.** He knows he is past his own 10–12 wk break rule, and break timing is opinion, not evidence
+  ([[evidence-long-cut-duration]]).
+  - **11-08 (W45) review = TDEE measurement only:** set the 11-09 → 12-13 intake from the measured TDEE so the rate sits
+    inside [[safety-limits]] (≤0.7 %/wk above 84 kg, ≤0.5 % at or below 84 kg), with the fat floor oil step.
+  - **What still applies inside the cut:** a yellow/red argues for *more kcal within the cut* (slower rate), never for
+    stopping it. The hard limits (1 %/wk stop line, 1,700 kcal / EA floors, protein and fat floors) and the doctor
+    referrals (RHR +8 for 2 wk, liver signs, lactic-acidosis cluster on entecavir, [[health-conditions]]) are unchanged:
+    those are medical, not a plan choice, so say so plainly if one fires.
 
 ⭐ **Phase switches go by WEIGHT BAND, not estimated BF (Darren, 2026-10-28):** stop a cut when the **7-day average
 reaches 81 kg**; stop a bulk at **85 kg** (7-day avg). Why: lean mass is unknown (one BIA, ±~3 points → 65–71 kg), and
@@ -75,7 +82,7 @@ DEXA optional: one scan ~2027-07 at ~82 kg would only refine the stop point; dec
 1–2 wk breaks → **~08-01 at ~81 kg (~16 %)**, range 07-05 → 09-13 · maintenance 08-02 → 08-15 · **lean bulk from
 2027-08-16** at ~0.2 kg/wk (Iraki 2019 low end, Helms 2023) → ~11-28 at ~84–85 kg (~18 %, the mini-cut line) ·
 maintenance 11-29 → departure. **Trip 2: Taiwan ~2028-01-12** (Darren, 10-28: 2 weeks before CNY 2028-01-26).
-If the 11-08 review brings maintenance forward, cut 2 ends ~4 weeks later. After trip 2: mini-cut, then the next bulk.
+After trip 2: mini-cut, then the next bulk.
 **2028 projection (10-28; trip 2 length assumed ~5 wk like 2027):** trip 01-12 → ~02-13 · maintenance → 02-27 ·
 mini-cut 1 02-28 → 04-09 (~6 wk, → ~82.5 kg, ~16 %) · maintenance → 04-23 · bulk 2 04-24 → 08-13 (~16 wk, → ~86 kg,
 ~18 %) · mini-cut 2 08-14 → 09-24 · maintenance → 10-08 · short bulk 3 10-09 → 12-03 · maintenance through Christmas.

@@ -28,7 +28,7 @@
     {
       "from": "2026-11-09",
       "kcal": 2600,
-      "note": "Health-guard proposals adopted 2026-10-25: olive oil 4 -> 13 g (+80 kcal) for the 0.7 g/kg fat floor; everything else as the 10-26 entry. Superseded if the 11-08 review brings maintenance forward (see cutting-goal-2026.md)"
+      "note": "Health-guard proposals adopted 2026-10-25: olive oil 4 -> 13 g (+80 kcal) for the 0.7 g/kg fat floor; everything else as the 10-26 entry. Cut runs to 12-13 regardless (Darren, 2026-10-29); 11-08 review resets this kcal from the measured TDEE so the rate stays within the cap"
     }
   ],
   "cut": {
