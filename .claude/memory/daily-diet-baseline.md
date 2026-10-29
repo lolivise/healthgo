@@ -116,6 +116,11 @@ These match the table above.
     Week 1 already answered the experiment's question: **TDEE ≈ 2,800–3,000** (rough), not 2,330–2,450. The 140 g rule
     pre-agreed on 10-22 was judged too small (→ ~0.75 %/wk). **W44 + W45 (10-26 → 11-08) at a fixed 2,520 are the clean
     TDEE measurement**; the −0.25 %/wk fallback rule now means going to 150 g (1½ packs, ≈2,340), not 75 g.
+  - ⭐ **Rice only in whole 100 g packs, never 150 g (Darren, 2026-10-29):** he has 30–40 frozen 100 g packs, and splitting
+    one (thaw, cut, refreeze) is a hassle. **Lower step if 11-08 says eat less = 100 g rice + 2 energy bars** (2nd bar in
+    the afternoon, outside the 8:30–12:30 entecavir gap): −356 + 122 = **−234 kcal → ≈2,286** (≈2,366 with the 11-09
+    oil step); carbs −60 g, protein −4.6 g (still ~170 g, above the 156 g floor), fat +3.6 g, sugar +~5 g. Use it instead of 150 g.
+    For a smaller average step, mix days (e.g. 100 g on some days, 200 g on others), still whole packs.
     Bar still eaten daily.
   - **Weight lines for 11-01 / 11-08 (given 10-28; start = 88.5 kg, the Mon 10-26 morning weigh-in, still on Sunday's
     100 g rice, Darren's correction; judge a 3-day average, eat-out days excluded):** hard stop 1 %/wk = 87.7 / 86.9;
