@@ -186,8 +186,9 @@ but with little margin, so don't cut protein further without re-checking [[safet
 
 ⭐ **Yogurt swap from Mon 2026-11-09 (Darren, 2026-10-29): Coles Simply strawberry 310 g → Chobani Plain Greek Whole
 Milk 300 g/day** (strained, unsweetened). Label per 100 g (Woolworths product page 463666, screenshot from Darren 2026-10-29; 160 g serve × 5.7 ≈ 907 g tub):
-360 kJ = 86 kcal, 8.6 P, 4.0 F (2.6 SFA), 3.9 C, 2.7 g sugar (lactose), Na 32 mg. Ingredients not yet seen: check the
-tub has no sugar or sweetener. 300 g = **258 kcal, 25.8 P, 12.0 F (7.8 SFA), 11.7 C, 8.1 sugar, 96 mg Na** vs 310 g
+360 kJ = 86 kcal, 8.6 P, 4.0 F (2.6 SFA), 3.9 C, 2.7 g sugar (lactose), Na 32 mg. Ingredients (Woolworths page, Darren
+10-29): skim milk, cream (milk), live yogurt cultures (S. thermophilus, L. bulgaricus, L. acidophilus, Bifidus, L. casei);
+no sugar or sweetener, so all its sugar is lactose. 300 g = **258 kcal, 25.8 P, 12.0 F (7.8 SFA), 11.7 C, 8.1 sugar, 96 mg Na** vs 310 g
 strawberry 285 / 13.6 / 5.3 / 44.0 / 37.2 → **−27 kcal, +12.2 P, +6.7 F, −32.3 C, sugar −29.1 g** (all ~22 g added sugar gone; free sugar ≈35 → **≈13 g/day**).
 Oats and walnuts stay in it. **11-09 intake, all three changes together:** 2,520 + 80 (oil 4 → 13 g) − 80 (whey 50 → 30 g)
 − 27 (yogurt) = **≈2,493 kcal**, protein ≈165 → **≈177 g/day** (≈2.0 g/kg at 88 kg, back above the 156 g floor with margin),
