@@ -55,3 +55,36 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-27 | 走路比跑步更燃脂、更能減脂 | 🟡 | Wenyao文耀 | [2026-10-27-walking-vs-running-fat-loss.md](2026-10-27-walking-vs-running-fat-loss.md) |
 | 2026-10-27 | 兩個步行公式是頂級燃脂運動 | 🟡 | Wenyao文耀 | [2026-10-27-walking-vs-running-fat-loss.md](2026-10-27-walking-vs-running-fat-loss.md) |
 | 2026-10-27 | 走 1 個月勝過跑 10 年 | ❌ | Wenyao文耀 | [2026-10-27-walking-vs-running-fat-loss.md](2026-10-27-walking-vs-running-fat-loss.md) |
+| 2026-10-29 | 水果安全，每天 2–4 份，不用理會限制建議 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 水果果糖小腸就處理掉，不會到肝臟 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 稀釋半糖奶茶（<5 g 糖）傷不了肝 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 打成果汁讓果糖吸收大大加快 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 零卡飲料對減重沒幫助 | ❌ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 零卡飲料要單獨喝，不要配食物 | ❌ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 長期代糖和高血壓、糖尿病、中風、腎病、死亡有關 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 蔗糖素配碳水造成高胰島素和飢餓 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 糖造成慢性中毒（脂肪肝、糖尿病、痛風等） | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 含糖飲料像喝毒油 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 大量果糖在肝臟變 VLDL、造成脂肪肝 | ✅ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 120 kcal 蔗糖飲料送 72 kcal 到肝，是半碗飯的 3 倍 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 果糖耗 ATP，造成疲勞、假飢餓、尿酸、痛風、血壓 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 大量果糖讓人變胖、變懶、胰島素阻抗 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 果糖不刺激胰島素和瘦素，所以一直吃 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 葡萄糖升胰島素和瘦素讓你飽 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 糖透過多巴胺上癮，食品業加糖讓人上鉤 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 水果抗氧化物降低氧化壓力是真的好處 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 添加糖 <10 % 熱量（美國 2021 標示） | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 台灣營養標示讓糖藏不住，但乳糖會誤導 | ✅ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 運動強化粒線體，糖和脂肪被燒掉不儲存 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 甜食慢慢吃、飯後吃降低傷害 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 水果果糖因纖維和脂肪吸收較慢 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 果糖干擾粒線體燃脂的三個酵素 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 果糖觸發肝臟 JNK1 發炎 | ❓ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 古猿基因突變給人類果糖變脂肪的生存模式 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 葡萄糖 80 % 到全身、20 % 到肝臟 | ✅ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 半碗飯 DNL 做出不到 1 kcal VLDL，無害 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 甜味、腸道神經足細胞、大腦代謝經多巴胺驅動想吃糖 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 黑糖紅糖二砂都是蔗糖，只差製程 | ✅ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 蔗糖分解成一半葡萄糖一半果糖 | ✅ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 甘蔗汁每 100 g 有 15.7 g 蔗糖 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-29 | 水果果糖從柳橙 2 g 到香蕉約 10 g／100 g | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
