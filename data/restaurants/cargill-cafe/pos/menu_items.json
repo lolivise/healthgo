@@ -724,7 +724,7 @@
     "name_zh": "滷百頁豆腐",
     "order": 32,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/ac604fdc-6a80-42a8-9a18-52dce485c0f9-1778924137763.png",
-    "remaining_count": 3,
+    "remaining_count": null,
     "status": "ACTIVE"
   },
   {
@@ -1060,8 +1060,8 @@
     "name_zh": "台灣牛肉麵",
     "order": 70,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/e9a8aa37-0b0d-415d-bec8-5c5b825b4ce7-1778599775086.jpeg",
-    "remaining_count": 0,
-    "status": "SOLD_OUT"
+    "remaining_count": null,
+    "status": "ACTIVE"
   },
   {
     "category_id": "67a65735-5d0e-452f-9805-dcb52efe2c26",
