@@ -53,7 +53,7 @@ meals are fine; eating order stays (PATTERN fits his exact meal). Coffee/cocoa v
 chicken/eggs → no action; ferritin only if bloodwork flags. **Where it matters:** eating out, staff gatherings and the
 Taiwan trip ([[trip-taiwan-2027]]) — 甜點, 炸物, 麵包, 手搖飲 are the sugar+fat / fat+salt foods that add ~500 kcal
 unnoticed; protein first, these last and shared. Overfeeding on saturated fat hits liver fat hardest → relevant to Hep B
-([[evidence-inflammation-immunity-hepb]]). Optional later (never inside the 10-26 → 11-08 TDEE window): plain yogurt cuts
+([[evidence-inflammation-immunity-hepb]]). **Adopted from 11-09 (Darren, 10-29): Chobani Plain Greek Whole Milk 300 g/day** (see [[daily-diet-baseline]]); plain yogurt cuts
 ~20 g added sugar/day. Checked Coles 10-26 (third-party labels): **Chobani Plain Greek Whole Milk** at the same 310 g ≈
 −18 kcal, +13 P, +7 F, −32 C → swap with nothing else changed; 0.5 % version −111 kcal; **avoid "Greek style" (Coles,
 Jalna, Farmers Union)**: +~120 kcal, ~29 g fat (~21 g sat), no extra protein. Yogurt fat never replaces the 11-09 olive oil step.

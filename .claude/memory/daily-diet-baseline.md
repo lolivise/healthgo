@@ -70,7 +70,7 @@ Chicken, potato and oats are weighed **raw**. Olive oil is for cooking.
 Chia is in the shake, not the yogurt. The cocoa and coffee add **≈36 kcal/day**, not in the CSV.
 
 **Labels checked from photos 2026-10-09:**
-- Yogurt is Coles Simply strawberry, sweetened, per 100 g: 92 kcal, 4.4 P, 1.7 F, 14.2 C, 12 g sugar.
+- Yogurt is Coles Simply strawberry, sweetened, per 100 g: 92 kcal, 4.4 P, 1.7 F, 14.2 C, 12 g sugar (**until 11-08; Chobani Plain Greek Whole Milk 300 g from 11-09**, see below).
 - Whey = Optimum Nutrition Gold Standard 100% Whey, Double Rich Chocolate (2.27 kg, Chemist Warehouse); sweetened with
   ace-K 950 + aspartame 951 (AU label, read by Darren 2026-10-26; no sucralose), see [[evidence-sweeteners]]. Diet soft drinks: Coke Zero +
   Pepsi Max ≈1.25 L/week (Darren, 2026-10-26). Whey (chocolate) per 100 g: 401 kcal, 79 P, 5 F, 10 C. A label scoop is 30.4 g; he uses 50 g ≈ 1.6 scoops.
@@ -184,6 +184,17 @@ Related: [[cutting-goal-2026]]
 ≈181 → **≈165 g/day**, above the 156 g floor (2.3 g/kg FFM); with the 100 g rice + 2 bars step too, ≈160 g, still above
 but with little margin, so don't cut protein further without re-checking [[safety-limits]].
 
+⭐ **Yogurt swap from Mon 2026-11-09 (Darren, 2026-10-29): Coles Simply strawberry 310 g → Chobani Plain Greek Whole
+Milk 300 g/day** (strained, unsweetened). Per 100 g (third-party labels, checked 10-26, Coles site had no panel; confirm on the
+tub, no sugar or sweetener in the ingredients): ≈86 kcal, 8.6 P, 4.0 F (2.6 SFA), 3.9 C, 2.6 g sugar (lactose).
+300 g = **258 kcal, 25.8 P, 12.0 F (7.7 SFA), 11.6 C, 7.7 sugar** vs 310 g strawberry 285 / 13.6 / 5.3 / 44.0 / 37.2 →
+**−27 kcal, +12.2 P, +6.7 F, −32.4 C, sugar −29.5 g** (all ~22 g added sugar gone; free sugar ≈35 → **≈13 g/day**).
+Oats and walnuts stay in it. **11-09 intake, all three changes together:** 2,520 + 80 (oil 4 → 13 g) − 80 (whey 50 → 30 g)
+− 27 (yogurt) = **≈2,493 kcal**, protein ≈165 → **≈177 g/day** (≈2.0 g/kg at 88 kg, back above the 156 g floor with margin),
+fat ≈53 → **≈68 g** (~0.77 g/kg, above the 0.7 floor). Most of the extra yogurt fat is saturated, which is why it does
+**not** replace the olive oil step. Lower step (100 g rice + 2 bars) becomes ≈2,259 kcal / ≈172 g protein. Like every 11-09
+number, the kcal is reset at the 11-08 review from the measured TDEE.
+
 **Fat floor raised (2026-10-25, adopted):** from **Mon 2026-11-09** olive oil **4 → 13 g** (+~80 kcal, logged ≈2,600) so fat reaches the new
 0.7 g/kg floor (~62 g, ~22 % of kcal; at 2,520 it was ~53 g = 18.9 %). Starts after the W44–W45 TDEE window so that
 measurement stays clean. Walnuts 20 g unchanged (LA stays at the AI). The cut runs to 12-13 regardless (Darren, 10-29), and from 12-14
@@ -192,8 +203,8 @@ the extra oil is part of the maintenance kcal. See [[safety-limits]], [[evidence
 **Sugar (computed 2026-10-26, Darren asked):** free/added sugar ≈ **35 g/day** = strawberry yogurt ~22 g (12 g/100 g label
 minus ~5 g lactose) + choc-chip bar ~9 g (label sugar not on file, estimate) + marinade honey/char siu ~3.6 g (30 %) + whey ~1–2 g.
 At 2,520 kcal that is **≈5.6 % of energy**: well under WHO / Taiwan HPA <10 % (63 g), at the AHA men's 36 g, just over WHO's
-conditional <5 % (31 g). Total sugars incl. lactose + veg ≈ 60 g (no limit applies). **No change**; plain-yogurt swap (−~20 g) stays
-optional, never inside the 10-26 → 11-08 TDEE window. Eating out (手搖飲 全糖 ≈ 40–70 g/cup) is where it can blow past 10 %. Evidence: [[evidence-sugar]].
+conditional <5 % (31 g). Total sugars incl. lactose + veg ≈ 60 g (no limit applies). Plain-yogurt swap **adopted from 11-09** (Chobani, see above):
+added sugar → ≈13 g/day. Eating out (手搖飲 全糖 ≈ 40–70 g/cup) is where it can blow past 10 %. Evidence: [[evidence-sugar]].
 
 **Eating order (2026-10-25, adopted):** at the rice meals (breakfast and lunch) eat **vegetables → chicken/eggs → rice
 last**. No change to amounts or kcal. Evidence: carbs-last −53 % glucose iAUC in T2D (Shukla 2017), thin in healthy

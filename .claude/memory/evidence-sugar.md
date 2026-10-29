@@ -63,8 +63,8 @@ not "eat more sugar".
 ## How it applies to Darren (2026-10-26)
 **No plan change.** 35 g/day, solid, fixed portions, in a deficit: below every 10 % line; the harm mechanisms (excess
 energy, liquid) don't apply. Sweetened → plain yogurt (Chobani Plain Greek, see [[evidence-food-combinations]]) is
-justified by **protein and teeth, not liver or weight** (energy-matched trials show no liver/TG change); stays optional, after
-11-08. **The one real lever is liquid sugar when eating out and on the Taiwan trip** ([[trip-taiwan-2027]]): 手搖飲 **半糖** 700 mL
+justified by **protein and teeth, not liver or weight** (energy-matched trials show no liver/TG change); **adopted
+from 11-09** (Chobani Whole Milk 300 g, Darren 10-29). **The one real lever is liquid sugar when eating out and on the Taiwan trip** ([[trip-taiwan-2027]]): 手搖飲 **半糖** 700 mL
 measured 46.5 ± 15.7 g (HPLC, 126 Taiwan samples, 2026, Europe PMC only, no PMID); 全糖 higher; by label 60 % of 半糖 and 13 % of 微糖 drinks exceed 25 g (PMID 38035354, 1,581 drinks) [V] — one 半糖 cup alone exceeds his whole day; order 無糖. Liquid + excess kcal is exactly the liver-fat
 combination, and liver is what Hep B makes matter ([[evidence-inflammation-immunity-hepb]]). An occasional drink is far
 below studied exposures (daily, weeks to years).
