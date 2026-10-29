@@ -61,7 +61,9 @@ reaches 12 clean reps.
   Accessory only.
 - Cable kickback: 15 kg from 10-22; 15 × 15 on all three sets 10-29 → next load step up.
 - DB shoulder press 10-29: 35 × 12/12/11 (10-22: 12/11/10). Still hold 35 kg (shoulder rule above).
-- Seated row (ROW) 30 kg: e1RM 42 in W44 vs 45 in W43 (down week 1); a second down week = real loss.
+- Seated row (ROW): 30 kg × 12/12/12 (10-21, 10-28) and × 15/15/15 (10-24), so no drop; 3 × 15 reached → next load step up.
+  ⚠️ The digest's W43 "best 45" came from the 15-rep sets; a 12-rep session at the same load reads as −6.7 %. Before calling
+  any e1RM "drop" a loss, check the sets: same load with fewer reps on a fixed rep target is not a decrease (mistake made 10-29).
 
 **Training history (told 2026-10-12):** lifting 3–4 years but on/off: blocks of 3–4 months at 6 days/wk, then 1–2
 months off or only 1–2 days/wk. The 2026-07 cut is his first long consistent block. Treat him as **late novice /
