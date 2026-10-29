@@ -61,7 +61,7 @@ So the potato-era baseline was really **≈1,974 kcal** (1,893 + 45 veg + 36 coc
 Chicken, potato and oats are weighed **raw**. Olive oil is for cooking.
 
 **Post-workout protein drink (Darren, 2026-10-09):**
-- 50 g whey
+- 50 g whey (**30 g from 2026-11-09**, see below)
 - 10 g chia
 - 5 g creatine
 - **5 g cocoa powder** (Cadbury Bournville, AU label per 100 g: 327 kcal, 22.5 P, 11 F, 19 C → 5 g ≈ 16 kcal)
@@ -118,7 +118,7 @@ These match the table above.
     TDEE measurement**; the −0.25 %/wk fallback rule now means going to 150 g (1½ packs, ≈2,340), not 75 g.
   - ⭐ **Rice only in whole 100 g packs, never 150 g (Darren, 2026-10-29):** he has 30–40 frozen 100 g packs, and splitting
     one (thaw, cut, refreeze) is a hassle. **Lower step if 11-08 says eat less = 100 g rice + 2 energy bars** (2nd bar in
-    the afternoon, outside the 8:30–12:30 entecavir gap): −356 + 122 = **−234 kcal → ≈2,286** (≈2,366 with the 11-09
+    the afternoon, outside the 8:30–12:30 entecavir gap): −356 + 122 = **−234 kcal → ≈2,286** (≈2,286 from 11-09 too: oil +80 and whey −80 cancel; ≈2,366 had assumed 50 g whey with the 11-09
     oil step); carbs −60 g, protein −4.6 g (still ~170 g, above the 156 g floor), fat +3.6 g, sugar +~5 g. Use it instead of 150 g.
     For a smaller average step, mix days (e.g. 100 g on some days, 200 g on others), still whole packs.
     Bar still eaten daily.
@@ -178,6 +178,11 @@ water and glycogen loss, so they overstate the deficit.
   prefers a fixed routine.
 
 Related: [[cutting-goal-2026]]
+
+**Whey 50 → 30 g from Mon 2026-11-09 (Darren, 2026-10-29):** −80 kcal, −15.8 g protein, −1 g fat, −2 g carbs (ON label
+401 kcal / 79 P per 100 g). It cancels the oil step below, so 11-09 intake stays **≈2,520** (plan.json updated). Protein
+≈181 → **≈165 g/day**, above the 156 g floor (2.3 g/kg FFM); with the 100 g rice + 2 bars step too, ≈160 g, still above
+but with little margin, so don't cut protein further without re-checking [[safety-limits]].
 
 **Fat floor raised (2026-10-25, adopted):** from **Mon 2026-11-09** olive oil **4 → 13 g** (+~80 kcal, logged ≈2,600) so fat reaches the new
 0.7 g/kg floor (~62 g, ~22 % of kcal; at 2,520 it was ~53 g = 18.9 %). Starts after the W44–W45 TDEE window so that

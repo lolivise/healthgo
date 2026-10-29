@@ -9,7 +9,7 @@ Disclosed 2026-10-09. All are daily:
 
 | Supplement | Dose | Notes |
 |---|---|---|
-| Whey protein | 50 g | counted in [[daily-diet-baseline]] |
+| Whey protein | 50 g → **30 g from 2026-11-09** (Darren, 10-29) | counted in [[daily-diet-baseline]] |
 | Creatine | 5 g | keep constant (it holds water). **Bulk Nutrients Creatine Monohydrate**, unflavoured, micronised, nothing else in it (not Creapure), third-party batch tested (NMI/ARL etc.); label serving 3 g. Mixed into the post-workout shake. **Started 2026-09-24**, 5 g/day, no loading phase → muscle saturated ~3–4 weeks later (~10-15 → 10-22), so it overlaps the end of the technique phase and the W41–W43 strength gains; from W44 its effect (and its ~1–2 kg water) is flat |
 | Fish oil | 2 × 2 g capsules | 4 g fat + 1.2 g EPA/DHA; counted in the diet |
 | CoQ10 (ubidecarenone) | 150 mg | |
