@@ -49,7 +49,7 @@ only the rules behind those numbers and the decisions made about them. Don't pas
   (hamstrings/glutes: leg curl, hip thrust, RDL-free) from Tuesday (leg press, quads). Watch Friday HRV/stress, since
   Friday was the slump day; the surplus should help. Not Monday: Mon + Tue legs back-to-back.
 
-**Current load decisions (as of the W43 review, 2026-10-25).** Rule of thumb: add load once every working set
+**Current load decisions (as of the W44 mid-week review, 2026-10-29).** Rule of thumb: add load once every working set
 reaches 12 clean reps.
 - DB shoulder press (OVERHEAD_DUMBBELL_PRESS): **hold 35 kg for 8–12 reps, no further increase** (right shoulder);
   swap to neutral-grip DB or landmine press on any pain.
@@ -59,7 +59,9 @@ reaches 12 clean reps.
 - Chest fly: hold 40 kg; back to 33 on any front-shoulder discomfort.
 - Lying DB triceps extension: back-off sets at 15 kg slipped (15/15 → 10/7 → 9/9); hold 15 kg, target 12+, re-check W44.
   Accessory only.
-- Cable kickback: 15 kg from 10-22, add load at 12 clean reps.
+- Cable kickback: 15 kg from 10-22; 15 × 15 on all three sets 10-29 → next load step up.
+- DB shoulder press 10-29: 35 × 12/12/11 (10-22: 12/11/10). Still hold 35 kg (shoulder rule above).
+- Seated row (ROW) 30 kg: e1RM 42 in W44 vs 45 in W43 (down week 1); a second down week = real loss.
 
 **Training history (told 2026-10-12):** lifting 3–4 years but on/off: blocks of 3–4 months at 6 days/wk, then 1–2
 months off or only 1–2 days/wk. The 2026-07 cut is his first long consistent block. Treat him as **late novice /
