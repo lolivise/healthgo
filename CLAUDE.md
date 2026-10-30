@@ -44,10 +44,12 @@ Darren's standing rule (2026-10-09), for token efficiency:
 | **Screening research** against the evidence memories | **Sonnet** | `health-research` agent, one per sector, reads the title index and only the abstracts it picks |
 | **`/ask` myth-buster**: transcript, PubMed pulls, Telegram progress card, filing + sending + commit | **no model** | `healthgo transcript` (yt-dlp via uvx), `healthgo pubmed --query`, `healthgo ask status`, `healthgo ask file` |
 | **`/ask`**: intake + claim list, per-claim source check | **Sonnet** | `ask-intake`, `ask-check` (≤ 5 in parallel) |
-| **`/ask`**: verdicts, impact on his plan, worth it, the 繁中 record, evidence edits | **Opus** | `ask-judge` sub-agent (pinned `model: opus`). The long-running main thread only dispatches: one-line briefs, one-line returns, never opens files |
+| **`/ask`**: verdicts, impact on his plan, worth it, the 繁中 record, evidence edits | **Opus** | `ask-judge` sub-agent (pinned `model: opus`). The long-running main thread only routes and dispatches: one-line briefs, one-line returns, never opens files |
+| **`/ask` plan questions**: food/exercise → numbers, scenarios, research points | **Sonnet** + **no model** | `plan-intake`; projections by `healthgo whatif` (script) |
+| **`/ask` plan questions**: what the change does, worth it, the 繁中 answer | **Opus** | `plan-judge` sub-agent (pinned `model: opus`) |
 | **Analysis and decisions**: the verdict, diet or training changes, whether to force a login, plan or target changes, memory updates | **Opus** | the main conversation |
 
-- The agents are defined in `.claude/agents/`, pinned with `model: sonnet` (except `health-data` on Haiku and `ask-judge` on Opus). Every brief to them must be
+- The agents are defined in `.claude/agents/`, pinned with `model: sonnet` (except `health-data` on Haiku and `ask-judge`/`plan-judge` on Opus). Every brief to them must be
   self-contained, because they don't see this conversation.
 - **The main thread does not read raw Garmin JSON or dump query tables into its own context.** It reads the
   digest an agent returns. It may run a quick one-line command whose short output it needs to see.
@@ -77,11 +79,12 @@ eating out, and `/feel` + notes via Telegram.
 
 | Path | What |
 |---|---|
-| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `review-plan`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd`, `pubmed`, `ask`, `transcript` |
+| `src/healthgo/` | Python CLI (`uv run healthgo …`): `pull`, `sync`, `daily` (old job), `check`, `review-plan`, `prepare-week`, `add`, `status`, `build-db`, `inbox`, `login`, `notify-test`, `send-report`, `install-launchd`, `pubmed`, `ask`, `transcript`, `whatif` |
 | `data/garmin/daily/YYYY/DATE.json` | Raw Garmin responses for one day: summary, sleep, HRV, stress, Body Battery, RHR, weigh-ins, … |
 | `data/garmin/activities/YYYY-MM/DATE_ID/` | `summary.json`, `sets.json` (strength), `activity.fit` |
 | `data/manual/*.jsonl` | Things Garmin never sees (`inbody` is history only, see below): `eating_out`, `bloodwork`, `weight` (seed), `reviews`, `notes` |
 | `research/claims/` | `/ask` myth-buster records (繁中), one per source, = the Telegram answer; `README.md` index, `sources.md` track record per channel/site |
+| `research/plan-questions/` | `/ask` answers about his own plan (what-if swaps, projections), 繁中, = the Telegram answer; `README.md` index |
 | `data/asks/pulls/` | `/ask` working files (transcripts, PubMed pulls), git-ignored |
 | `data/inbox/` | Telegram bot entries pulled from the Cloudflare Worker (`worker/`), pending until recorded; recorded ones move to `data/inbox/done/` |
 | `data/weekly/YYYY-Www.json` | Numbers prepared by `/review` (`prepare-week`) |
@@ -92,7 +95,7 @@ eating out, and `/feel` + notes via Telegram.
 | `config/research.json` | Research sectors: PubMed searches, cadence, `last_reviewed` |
 | `research/<sector>/` | Full research reports (繁中) + `notes/`, filed by sector (`fat-loss`, `training`, `medical`, `aging`, `measurement`, `food`, `nutrition`). Index and quarterly-review scope: `research/README.md`. Distilled findings are the `evidence-*` memories, tagged `sector:` |
 | `bin/healthgo-job` | old launchd entry point → `healthgo daily` (job removed 2026-10-12) |
-| `.claude/agents/` | Workers (`health-data` on Haiku, the rest Sonnet): `health-data`, `health-ops`, `health-writer`, `health-research` (see Model split) |
+| `.claude/agents/` | Workers (`health-data` on Haiku, `ask-judge`/`plan-judge` on Opus, the rest Sonnet): `health-data`, `health-ops`, `health-writer`, `health-research`, `ask-intake`, `ask-check`, `ask-judge`, `plan-intake`, `plan-judge` (see Model split) |
 | `friends/tom/` | Training notes for Darren's friend Tom (T2 diabetes on GLP-1, hunched posture, beginner): profile and safety, 2-day plan, session log. Not part of the pipeline; Darren's own memory and safety limits don't apply to him |
 
 **Database tables:** `daily`, `weights`, `activities`, `sets` (with `e1rm_kg`), `inbody` (history: one scan, 2026-09-27), `eating_out`,
@@ -120,8 +123,10 @@ capped at one credential attempt per 24h.
   is caught up first. Pull fresh data, ask about eating out, verdict, 繁中 report, commit, send to Telegram.
 - `/log`: record eating out (text or meal photo), bloodwork, a manual weight, or a note.
 - `/sync`: manual sync or backfill, status, and troubleshooting Garmin login, 429s, launchd and the library pin.
-- `/ask`: the myth-buster, a long-running answer desk. A Monitor runs `healthgo ask watch` (polls the Worker every
-  10 s). Each Telegram `/ask` (YouTube link → transcript, web page, or a claim he heard) is traced to its source paper,
+- `/ask`: the long-running answer desk, two desks behind one command. **Plan desk**: a question about his own plan (food or
+  exercise swap, more cardio, "if my weight/lifts are Z…") → `healthgo whatif` projections + evidence, answered in 繁中,
+  filed in `research/plan-questions/`, propose-only (adopted at `/review`). A Monitor runs `healthgo ask watch` (polls
+  the Worker every 10 s). **Myth-buster**: each `/ask` claim (YouTube link → transcript, web page, or a claim he heard) is traced to its source paper,
   graded for study quality and fit to him, answered in 繁中 (出處 · 科學證據 · 對你的影響 · 值不值得做) under the question,
   and filed in `research/claims/` (+ evidence files when it adds real evidence). Questions wait in R2 `healthgo-asks`.
 - `/knowledge-review`: every ~3 months, per research sector: script pulls new PubMed papers, Sonnet screens them,

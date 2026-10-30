@@ -118,8 +118,7 @@ def prepare(sunday: date) -> Path:
     slope28 = checks.weight_slope_pct_per_week(con, end, 28)
     tdee = None
     if slope28 and w_now:
-        kg_per_day = slope28[0] / 100 * w_now / 7
-        tdee = round(facts.mean_intake(p, end - timedelta(days=27), end) - kg_per_day * KCAL_PER_KG)
+        tdee = round(facts.tdee_estimate(p, end, w_now, slope28[0], KCAL_PER_KG))
 
     recovery = {}
     for col in MORNING_COLS + ALL_DAY_COLS:

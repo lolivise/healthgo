@@ -21,6 +21,13 @@ The brief gives `id`, `n`, the claim and its source. Context (what the source ci
 cite them, don't re-derive them. When a known file already answers the claim, keep the check short: confirm the origin,
 run one PubMed query for papers newer than that file, and say whether anything changed.
 
+**Plan questions** (`source=plan question`): the "claim" is a research question behind something Darren is
+thinking of changing in his own plan (e.g. "dumbbell vs barbell bench press for chest hypertrophy"). Nobody made the
+claim, so skip origin and distortion: ORIGIN = the best paper(s) that answer it, DISTORTION = n/a, and the verdict
+says what the evidence supports (`supported` = the option he asked about works as well or better, `misleading/wrong`
+= it does worse, `unknown` = not studied). Context is `data/asks/pulls/<id>-intake.md`, the research points part.
+Card lines: `查證 <n>：<question, short>` · `查證 <n>：找到 <author year / design>` · `查證 <n>：<結論, ≤ 10 字>`.
+
 ## Token budget
 
 - PubMed pull is a script: `uv run healthgo pubmed --query '<q>' [--query '<q2>' …] --since <10 years ago> --out

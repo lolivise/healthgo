@@ -31,6 +31,13 @@ def mean_intake(p: dict, start: date, end: date) -> float:
     return sum(intake_on(p, d) for d in days) / len(days)
 
 
+def tdee_estimate(p: dict, end: date, w_now: float, trend28_pct_per_week: float, kcal_per_kg: float) -> float:
+    """Maintenance kcal: mean planned intake over the 28 days to `end`, plus what the 28-day weight trend says the
+    deficit was (Hall 2008, PMID 17848938, for kcal per kg). Ignores eating-out days and water swings: ±200 kcal."""
+    kg_per_day = trend28_pct_per_week / 100 * w_now / 7
+    return mean_intake(p, end - timedelta(days=27), end) - kg_per_day * kcal_per_kg
+
+
 def _excluded(row, rules: list[dict]) -> bool:
     for r in rules:
         if "date" in r and row["date"] == r["date"]:

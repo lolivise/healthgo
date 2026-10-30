@@ -28,6 +28,8 @@ the bot is dead). Short and concrete, e.g. the claim or the paper found, never i
 
 1. **Urgent?** If the text describes symptoms like chest pain, fainting, yellow eyes/skin, black stool, vomiting
    blood or severe right-side abdominal pain, stop and return only `URGENT: <symptom>`.
+   **Wrong desk?** Plain text that asks about changing his own plan ("what if I swap X for Y", "if I eat/train …",
+   "when would I reach …") with no third-party claim to verify → stop and return only `ROUTE: plan`.
    Otherwise card: `開始處理：讀取 YouTube 字幕` / `開始處理：讀取網頁` / `開始處理：整理你的問題`.
 2. **Fetch the source.**
    - YouTube (`youtube.com`, `youtu.be`, shorts): `uv run healthgo transcript '<url>' --out

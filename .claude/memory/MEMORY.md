@@ -20,6 +20,7 @@
 - [Evidence-only answers](evidence-only-answers.md) — STANDING RULE 10-27: every answer cites verified research (paper, design, n, how measured); never common sense/model memory; no evidence → say so
 - [Research purpose](research-purpose.md) — research ends in 對你計畫的影響 + 值得一試 + hype spotted; flag weak studies; new supplements only via doctor (10-26)
 - [/ask myth-buster](ask-myth-buster.md) — Telegram /ask: YouTube/web/heard claims → source paper, quality, fit to him, worth it; every check filed in research/claims/ (search it first)
+- [/ask plan questions](ask-plan-questions.md) — Telegram /ask also answers what-ifs about his OWN plan (diet/exercise swaps, projections) via `healthgo whatif` + evidence; propose-only, filed in research/plan-questions/ (10-30)
 - [Evidence · fat-loss: cutting](evidence-cutting.md) — 2023–26 base: deficit ≤~500 kcal, protein, fat floor, diet breaks, adaptation, EA, sleep, stop signs (split from cut-and-training 10-26)
 - [Evidence · fat-loss: too-fast loss](evidence-rapid-loss-harms.md) — 2023–26: cap 0.7 %/wk now, 0.5 % ≤84 kg; EA = intake − Garmin activity kcal ≥1,700; side effects + signals; his first 13 wk EA ≈23 (low), 2,520 → ≈30; all 4 proposals adopted 10-25
 - [Evidence · fat-loss: max fat-loss rate](evidence-max-fat-loss-rate.md) — Alpert 2005 ≈69 kcal/kg fat/day ceiling (model, untested); his %/wk caps always sit below it → no change (10-25)

@@ -139,3 +139,25 @@ def test_watch_restarts_an_interrupted_question(monkeypatch, capsys, tmp_path):
         ask.watch(0)
     assert cards == [(5, "上次處理中斷，重新開始")]  # 6 is a re-arm: its card already says 收到
     assert [json.loads(l)["resumed"] for l in capsys.readouterr().out.splitlines()] == [True, False]
+
+
+def test_file_plan_question_indexes_in_plan_questions_and_skips_sources(monkeypatch, tmp_path):
+    pulls, claims, plan = tmp_path / "pulls", tmp_path / "claims", tmp_path / "plan"
+    for d in (pulls, claims, plan):
+        d.mkdir()
+    (plan / "README.md").write_text("| Date | Question | Answer | File |\n|---|---|---|---|\n")
+    (claims / "README.md").write_text("")
+    (pulls / "7-filing.json").write_text(json.dumps({
+        "kind": "plan", "record": "research/plan-questions/2026-10-30-rice-to-sweet-potato.md",
+        "index_rows": [{"date": "2026-10-30", "question": "飯換地瓜？", "answer": "可以換"}]}))
+    monkeypatch.setattr(ask, "PULLS", pulls)
+    monkeypatch.setattr(ask, "CLAIMS", claims)
+    monkeypatch.setattr(ask, "PLAN_QUESTIONS", plan)
+    monkeypatch.setattr(ask, "status", lambda *a, **k: True)
+    monkeypatch.setattr(ask, "update_sources", lambda *a: pytest.fail("plan questions have no source"))
+    monkeypatch.setattr(ask, "answer", lambda i, p: {"id": i, "telegram": True, "done": True, "git": "pushed"})
+    assert ask.file(7)["telegram"] is True
+    assert (plan / "README.md").read_text().splitlines()[-1] == (
+        "| 2026-10-30 | 飯換地瓜？ | 可以換 | [2026-10-30-rice-to-sweet-potato.md](2026-10-30-rice-to-sweet-potato.md) |")
+    assert (claims / "README.md").read_text() == ""
+    assert not list(pulls.iterdir())

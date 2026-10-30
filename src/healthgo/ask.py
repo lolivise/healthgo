@@ -4,6 +4,8 @@
 has not printed before, so every stdout line is one thing to answer. It also opens the question's progress card in
 Telegram the moment it sees it, so Darren knows it was picked up before any agent starts.
 `status` adds a line to that card (one message, edited in place); the agents call it at each milestone.
+A question is either a claim to check (myth-buster, filed in research/claims/) or a question about his own plan
+(filing `kind: plan`, filed in research/plan-questions/, no source track record).
 `file` is the last step, no model involved: index row + source track record from the judge's filing JSON, then
 `answer` sends the record under the question, marks it done in R2 and commits the knowledge base.
 The pull token and bot token never reach a log line or stdout: errors print the exception type only.
@@ -23,6 +25,7 @@ from . import config, gitops, inbox, notify, store, vault
 
 PULLS = config.DATA / "asks" / "pulls"  # work files, git-ignored
 CLAIMS = config.ROOT / "research" / "claims"
+PLAN_QUESTIONS = config.ROOT / "research" / "plan-questions"  # "what if I change X" answers about his own plan
 # Everything an answer may touch: the claim record + index, evidence memories. data/asks/ is all git-ignored work files.
 COMMIT_PATHS = ("research", ".claude/memory")
 CARD_LINES = 25  # keep the card well under Telegram's 4096 chars
@@ -205,10 +208,13 @@ def file(ask_id: int) -> dict:
     filing = json.loads((PULLS / f"{int(ask_id)}-filing.json").read_text())
     record = filing["record"]
     name = Path(record).name
-    if f"]({name})" not in (CLAIMS / "README.md").read_text():  # a retry after a failed send files nothing twice
+    plan = filing.get("kind") == "plan"
+    index = (PLAN_QUESTIONS if plan else CLAIMS) / "README.md"
+    if f"]({name})" not in index.read_text():  # a retry after a failed send files nothing twice
         for r in filing.get("index_rows", []):
-            _append_line(CLAIMS / "README.md", _row([r["date"], r["claim"], r["verdict"], r["source"], f"[{name}]({name})"]))
-        if filing.get("source"):
+            cells = [r["date"], r["question"], r["answer"]] if plan else [r["date"], r["claim"], r["verdict"], r["source"]]
+            _append_line(index, _row([*cells, f"[{name}]({name})"]))
+        if filing.get("source") and not plan:
             update_sources(CLAIMS / "sources.md", filing["source"], name)
     status(ask_id, "寄出答案")
     res = answer(ask_id, Path(record))

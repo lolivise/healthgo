@@ -220,6 +220,19 @@ def cmd_transcript(args) -> int:
     return 0
 
 
+def cmd_whatif(args) -> int:
+    from . import whatif
+
+    def day(s: str | None) -> date | None:
+        return date.fromisoformat(s) if s else None
+
+    res = whatif.run(kcal=args.kcal, delta=args.delta, change_from=day(args.change_from), burn=args.burn,
+                     loss_rate=args.loss_rate, weight=args.weight, at=day(args.at), lean=args.lean,
+                     protein=args.protein, fat=args.fat, target=args.target)
+    print(json.dumps(res, ensure_ascii=False, indent=1))
+    return 1 if "error" in res else 0
+
+
 def cmd_prepare_week(args) -> int:
     from . import db, weekly
 
@@ -428,6 +441,22 @@ def main(argv: list[str] | None = None) -> int:
     k.add_argument("--done", action="store_true", help="status: mark the card finished")
     k.add_argument("--interval", type=float, default=10, help="watch: seconds between polls")
     k.set_defaults(fn=cmd_ask)
+
+    wi = sub.add_parser("whatif", help="plan vs one changed variable: weight at each plan date, when the stop-cut "
+                                       "weight is reached, safety checks (/ask plan questions; reads the DB)")
+    g = wi.add_mutually_exclusive_group()
+    g.add_argument("--kcal", type=float, help="daily intake from --from (absolute)")
+    g.add_argument("--delta", type=float, default=0, help="daily intake change vs the plan from --from (+/- kcal)")
+    wi.add_argument("--from", dest="change_from", help="YYYY-MM-DD the change starts (default: the scenario start)")
+    wi.add_argument("--burn", type=float, default=0, help="extra activity kcal/day from --from (negative = less)")
+    wi.add_argument("--loss-rate", type=float, help="ignore the energy model: lose this %% of weight per week")
+    wi.add_argument("--weight", type=float, help="hypothetical starting weight (7-day avg kg)")
+    wi.add_argument("--at", help="YYYY-MM-DD the hypothetical weight is reached (default: today)")
+    wi.add_argument("--lean", type=float, help="hypothetical lean mass kg (body-fat estimate, goal weight)")
+    wi.add_argument("--protein", type=float, help="scenario protein g/day, checked against the safety floor")
+    wi.add_argument("--fat", type=float, help="scenario fat g/day, checked against the safety floor")
+    wi.add_argument("--target", type=float, help="weight to reach (default: phase_switch stop_cut_kg)")
+    wi.set_defaults(fn=cmd_whatif)
 
     t = sub.add_parser("transcript", help="YouTube video -> metadata + caption transcript as markdown (/ask)")
     t.add_argument("url")

@@ -1,13 +1,27 @@
 ---
 name: ask
-description: Darren's myth-buster: a long-running answer desk for Telegram /ask. Watches the Worker every 10 s with a Monitor; each question (a YouTube link, a web page, or a claim he heard) is traced to its source paper, graded for study quality and fit to him, answered in 繁中 (where it comes from, the science, impact on him, worth adopting?), sent back under the question, and filed in the claims knowledge base. The main thread only dispatches; sub-agents do all the work. Trigger on /ask, "watch my asks", "start the ask monitor", "answer my Telegram questions".
+description: Darren's long-running answer desk for Telegram /ask, two desks behind one command. Myth-buster: a YouTube link, web page or claim he heard is traced to its source paper, graded, answered in 繁中 and filed in research/claims/. Plan desk: a question about his own plan ("what if I swap X for Y", "more cardio?", "if I weigh Z by Christmas, when do I reach 81 kg?") is turned into `healthgo whatif` projections plus evidence, answered in 繁中 and filed in research/plan-questions/. Watches the Worker every 10 s with a Monitor; the main thread only routes and dispatches, sub-agents do all the work. Trigger on /ask, "watch my asks", "start the ask monitor", "answer my Telegram questions".
 ---
 
-# /ask: myth-buster desk (dispatcher)
+# /ask: answer desk (dispatcher)
 
-**Why it exists** ([[ask-myth-buster]]): YouTube and web health claims often quote part of a paper or build a
-statement around a study that says something else. Each `/ask` is traced to its source, graded, checked against
-Darren's own situation, answered, and **filed in `research/claims/`** so the knowledge base keeps growing.
+**Why it exists**: two kinds of questions reach him on his phone, away from the Mac.
+- **Claims** ([[ask-myth-buster]]): YouTube and web health claims often quote part of a paper or build a statement
+  around a study that says something else. Each is traced to its source, graded, checked against Darren's own
+  situation, answered, and **filed in `research/claims/`** so the knowledge base keeps growing.
+- **His own plan** ([[ask-plan-questions]]): "what happens if I change X in my diet", "swap exercise A for B", "how
+  does the prediction look if my weight or lifts change". Answered from the `healthgo whatif` projections (a script)
+  and the evidence memories, **filed in `research/plan-questions/`**. Proposes only; adopting it happens at `/review`.
+
+## Route each question (your one judgement call)
+
+From the event's `text` alone, no file reads:
+- **Claims desk**: any link, a photo, or a claim someone else made ("YouTube 說…", "聽說…", "is it true that…"), even if
+  he also asks whether it applies to him (the myth-buster's 對你的影響 covers that).
+- **Plan desk**: plain text about changing or projecting **his own** plan: food or kcal swaps, exercise swaps, more or
+  less cardio, "if my weight / lifts are Z, then…", "when will I reach…", "should I…".
+- **Unsure** → claims desk. Either intake can bounce it: `ROUTE: plan` / `ROUTE: claims` → start over at the other
+  desk's step 1 (one bounce only; a second goes to the plan desk).
 
 ## This thread is a dispatcher. Keep it tiny
 
@@ -18,17 +32,17 @@ This session runs for hours and its context only grows; sub-agents clean themsel
   read; you only see their one-line returns.
 - **Briefs are one line of parameters.** Each agent's full instructions live in its definition in `.claude/agents/`.
   Don't repeat them.
-- **You decide nothing about the claims.** Every claim the intake lists gets checked (step 2). Every decision
-  (verdicts, impact, worth it) belongs to `ask-judge`, which runs on Opus.
+- **You decide nothing but the route.** Every claim the intake lists gets checked (step 2). Every decision
+  (verdicts, impact, worth it, what a plan change would do) belongs to `ask-judge` / `plan-judge`, which run on Opus.
 - Don't relay results to the chat beyond one line per question.
 
-| Step | Agent | Model | Returns |
+| Step | Claims desk | Plan desk | Returns |
 |---|---|---|---|
-| 1. Fetch source, look up prior checks, list every claim | `ask-intake` | Sonnet | 1 line per claim |
-| 2–3. Check **every** claim (origin paper, PubMed, fit to him) | `ask-check` × n, ≤ 5 at a time | Sonnet | 1 line each |
-| 4. Verdicts, impact, worth it, write the 繁中 record, evidence edits | `ask-judge` | Opus | 1 line |
-| 5. Index + track record, send to Telegram, commit, clean up | `healthgo ask file` | **no model** (script) | 1 JSON line |
-| Progress card in Telegram, all along | `healthgo ask status` | **no model** (script) | — |
+| 1. Intake | `ask-intake` (Sonnet): fetch source, prior checks, list every claim | `plan-intake` (Sonnet): food/exercise → numbers, `healthgo whatif` scenarios, research points | ≤ 15 lines |
+| 2–3. Check | `ask-check` × every claim, ≤ 5 at a time | `ask-check` × each research point with `known: none` only, ≤ 5 at a time | 1 line each |
+| 4. Decide + write the 繁中 answer | `ask-judge` (Opus) | `plan-judge` (Opus) | 1 line |
+| 5. Index, send to Telegram, commit, clean up | `healthgo ask file` (**no model**, script) | same | 1 JSON line |
+| Progress card in Telegram, all along | `healthgo ask status` (**no model**, script) | same | — |
 
 ## Progress card: he watches it live
 
@@ -65,7 +79,7 @@ question over from step 1** (the work files may be half-written; agents overwrit
 re-armed watcher re-prints still-pending questions: skip any id already in progress. One question at a time, oldest
 first; new events wait.
 
-## Per question
+## Per question: claims desk
 
 1. **Intake**: `Agent(subagent_type: "ask-intake", description: "/ask <id> intake", prompt: "id=<id> has_file=<…>
    text=<the text verbatim>")`.
@@ -86,6 +100,20 @@ first; new events wait.
    JSON: `telegram: false` → retry once (filing is idempotent); `done: false` → sent but still pending in R2, run
    `uv run healthgo ask list` and never send twice; `git` other than `pushed` → `git push origin main` once.
 6. One line here: `/ask <id>: <verdicts> · <git result>`. Back to waiting.
+
+## Per question: plan desk
+
+1. **Intake**: `Agent(subagent_type: "plan-intake", description: "/ask <id> plan intake", prompt: "id=<id>
+   has_file=<…> text=<the text verbatim>")`. `URGENT: …` → step 3 with `URGENT`. `ROUTE: claims` → claims desk.
+2. **Check** each `RESEARCH` line with `known: none`, in waves of at most 5:
+   `Agent(subagent_type: "ask-check", description: "/ask <id> check <n>", prompt: "id=<id> n=<n> claim=<research
+   question> source=plan question known=none")`. Lines with a `known:` file are not re-checked: the judge cites the
+   evidence file (`/knowledge-review` keeps those current). No research lines → straight to step 3.
+3. **Judge**: `Agent(subagent_type: "plan-judge", description: "/ask <id> plan judge", prompt: "id=<id>
+   checks=data/asks/pulls/<id>-check-1.md,…|none known=<evidence files from the RESEARCH lines>|none | URGENT")`.
+4. **File**: `uv run healthgo ask file <id>`, exactly as the claims desk's step 5 (it reads `kind: plan` from the
+   filing JSON and indexes into `research/plan-questions/`).
+5. One line here: `/ask <id> (plan): <answer word> · <git result>`. Back to waiting.
 
 **Failure**: an agent that returns an error or nonsense gets **one** retry with the same brief. A second failure:
 `uv run healthgo ask status <id> "⚠️ 卡住了：<step>，稍後再試"`, one line to Darren here, and leave the question pending (it stays in R2; the next re-arm re-prints it). Never send a
