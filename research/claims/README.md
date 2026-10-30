@@ -88,3 +88,14 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-29 | 蔗糖分解成一半葡萄糖一半果糖 | ✅ | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
 | 2026-10-29 | 甘蔗汁每 100 g 有 15.7 g 蔗糖 | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
 | 2026-10-29 | 水果果糖從柳橙 2 g 到香蕉約 10 g／100 g | 🟡 | 張修修的不正常人生 | [2026-10-29-sugar-fructose-fruit-sweeteners.md](2026-10-29-sugar-fructose-fruit-sweeteners.md) |
+| 2026-10-30 | 頭痛、心跳快、胸悶、極度疲勞就別練；少練一次不掉肌肉 | ✅ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 熬夜加班後激烈運動會讓心臟電訊號出錯而猝死 | 🟡 | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 熬夜後短暫胸悶心悸是心臟電訊號警訊 | 🟡 | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 運動不會補疲勞；壓力大的人越練越差 | 🟡 | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 運動不提升免疫、有時降低；肌肉男一年感冒 3 次以上 | 🟡 | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 中等運動收縮壓 120→180、HIIT 超過 200，正常人沒事 | 🟡 | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 心率 100–140 中等、>140 高強度 | 🟡 | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 運動後血糖和麩醯胺酸下降讓免疫細胞挨餓（免疫窗口） | ❌ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 高強度訓練皮質醇破壞 T 細胞、分解抗體，免疫低 72 小時 | ❌ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 免疫之後超補償；感冒主要是穿濕衣著涼 | ❌ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-10-30 | 重訓和有氧超補償、肌肉抗老、規律運動大大有益健康 | ✅ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |

@@ -35,8 +35,10 @@ you faster. Full 繁中 report: `research/aging/運動會讓人老得快嗎 池�
   Running: no pace/volume dose-response (MA 31685526, HR CVD 0.70); Schnohr 2015 fast-jogger U = tiny n, all-cause.
   Real signals only at extreme endurance: **AF** rises beyond ~78 MET-h/wk (MA 42861574, athletes OR 2.74); **CAC** in men
   >3,000 MET-min/wk (MA 40373527) but mostly calcified, events equal or lower (SR 42007192). Acute exertion MI trigger
-  mostly in the sedentary (Mittleman 1993). No RT→MI/CAD evidence. **He is far below all thresholds; nothing changes.**
-  Palpitations/irregular HR or chest pain in exercise → doctor.
+  mostly in the sedentary (Mittleman 1993). No RT→MI/CAD evidence. **Sudden cardiac death:** most vs least active RR 0.52
+  (MA 32631241, 8 cohorts, 1,193 SCD), no further drop past 20–25 MET-h/wk; race arrests 0.82/100k, mostly coronary
+  disease, ⅓ of ischaemic cases had symptoms beforehand (34021577) [V abstracts 10-30]. **He is far below all
+  thresholds; nothing changes.** Palpitations/irregular HR or chest pain in exercise → doctor.
 - **Applied to him:** RT 250–310 min/wk (Garmin, incl. rest), mostly 8–20 reps; treadmill 220–490 min/wk at HR
   118–140 → he is in Kawano's "aerobic cancels it" group and Momma's best (combined) group. **Plan unchanged.** During
   future bulk cycles: **never cut cardio to add lifting**, and no need to add more RT time. One habit: **exhale on

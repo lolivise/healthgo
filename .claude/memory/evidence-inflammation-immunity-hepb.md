@@ -53,9 +53,12 @@ For him: tiredness → check sleep, deficit, load, not "inflammation". No change
   exactly the objective measure. His weekly average: 5.8–6.6 h ISO W38–W42, 7.15 h W43 (first week ≥7 h).
 - Moderate deficit does not impair immunity (CALERIE 2, Spadaro 2022 Science, PMID 35143297 [V abstract]: ~14 % CR for 2 y improved thymopoiesis; `surrogate`, no infection outcomes); harm = deep/long
   deficit + heavy load + low carb (IOC REDs 2023).
-- Regular exercise: COVID hospitalisation RR 0.58, plateau ~150–300 min/wk (Ezzatvar 2022). The "open window" after one
-  hard session is contested since 2018. Real risk = stacked stressors (long-haul flight, crowds, broken sleep → the
-  Taiwan trip).
+- Regular exercise: COVID hospitalisation RR 0.58, plateau ~150–300 min/wk (Ezzatvar 2022). Cochrane 2020 (PMID
+  32246780 [V], 14 RCTs, n=1,377, moderate aerobic): cold **count unchanged** (RR 1.00), severity lower (moderate
+  certainty). More colds only in competitive athletes (MA 41408785: 3.2 vs 1.7/yr, low quality). **Old belief "open
+  window" (glutamine/glucose dip, cortisol, 72 h) → now:** the post-session lymphocyte drop is redistribution, not
+  suppression (Campbell & Turner 2018, PMID 29713319); glutamine trials cut no infections. Real risk = stacked
+  stressors (long-haul flight, crowds, broken sleep → the Taiwan trip).
 
 ## Hepatitis B
 - **Flare triggers with evidence:** stopping nucleos(t)ide antivirals (tenofovir stop → 70 % virological relapse in
