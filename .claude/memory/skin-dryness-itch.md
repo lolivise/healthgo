@@ -110,6 +110,8 @@ and whether sunscreen went back on the nape. **Answers 10-28:** nothing on back/
 CeraVe lotion on the neck, no rash back. Read: post-shower xerosis on an unmoisturised area. Advice: thin CeraVe lotion on
 back + shoulders within 3 min of every shower (lotion, not QV Intensive), lukewarm short shower, soap-free wash, pat dry;
 reintroduce sunscreen on the nape alone. Re-check ~11-11 (2 wk): no better → GP (Hep B itch rule).
+**Checkpoint 11-01 (W44 review, 2 wk of walnuts):** hands / post-shower itch **about the same**; nape sweat rash healed.
+No diet signal yet; full read ~11-11/11-15, then the GP rule above.
 
 **How to apply:**
 - At reviews he starts, ask once how the skin is (better / same / worse). If worse after ~4 weeks of the oil swap +

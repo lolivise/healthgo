@@ -49,19 +49,19 @@ only the rules behind those numbers and the decisions made about them. Don't pas
   (hamstrings/glutes: leg curl, hip thrust, RDL-free) from Tuesday (leg press, quads). Watch Friday HRV/stress, since
   Friday was the slump day; the surplus should help. Not Monday: Mon + Tue legs back-to-back.
 
-**Current load decisions (as of the W44 mid-week review, 2026-10-29).** Rule of thumb: add load once every working set
+**Current load decisions (as of the W44 full review, 2026-11-01).** Rule of thumb: add load once every working set
 reaches 12 clean reps.
 - DB shoulder press (OVERHEAD_DUMBBELL_PRESS): **hold 35 kg for 8–12 reps, no further increase** (right shoulder);
   swap to neutral-grip DB or landmine press on any pain.
-- Lat pulldown: 57.5 kg next (55 × 12 on all three sets 10-24).
+- Lat pulldown: 57.5 kg next. 55 × 12/12/12 on 10-24, 10-28 and 10-31 and still not moved up (W44): make the step at the next back day.
 - Indoor row: 40 kg is the baseline.
 - Flat barbell bench: stay at 50 kg until all three sets reach 12, then 55. Incline bench stays at 50.
 - Chest fly: hold 40 kg; back to 33 on any front-shoulder discomfort.
-- Lying DB triceps extension: back-off sets at 15 kg slipped (15/15 → 10/7 → 9/9); hold 15 kg, target 12+, re-check W44.
+- Lying DB triceps extension: 15 kg back-off sets recovering (10-18 10/7 → 10-25 9/9 → 11-01 12/10); hold 15 kg until all sets reach 12. The digest's "−25 % vs best 30" is an e1RM artefact of the 20 kg × 15 first set, not a loss. Weighted crunch "−28.7 %" likewise (same 20 kg, 20–40-rep sets): ignore e1RM on high-rep accessories.
   Accessory only.
-- Cable kickback: 15 kg from 10-22; 15 × 15 on all three sets 10-29 → next load step up.
+- Cable kickback: 15 kg from 10-22; 15 × 15 on all three sets 10-29 → 17.5 kg next shoulder day.
 - DB shoulder press 10-29: 35 × 12/12/11 (10-22: 12/11/10). Still hold 35 kg (shoulder rule above).
-- Seated row (ROW): 30 kg × 12/12/12 (10-21, 10-28) and × 15/15/15 (10-24), so no drop; 3 × 15 reached → next load step up.
+- Seated row (ROW): 30 kg × 12/12/12 (10-21, 10-28) and × 15/15/15 (10-24), so no drop; 3 × 15 reached again 10-31 → next load step up at the next back day.
   ⚠️ The digest's W43 "best 45" came from the 15-rep sets; a 12-rep session at the same load reads as −6.7 %. Before calling
   any e1RM "drop" a loss, check the sets: same load with fewer reps on a fixed rep target is not a decrease (mistake made 10-29).
 
