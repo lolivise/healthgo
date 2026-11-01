@@ -5305,6 +5305,42 @@
     },
     {
       "batch": {
+        "carb": 0.0,
+        "fat": 0.0,
+        "kcal": 0.0,
+        "protein": 0.0
+      },
+      "batch_g": 55.0,
+      "breakdown": [
+        {
+          "grams": 55.0,
+          "id": "0bd3e024-c228-4cd2-bbd5-8bff9ca5384b",
+          "label": "芋圓(EMMA)"
+        }
+      ],
+      "component_id": "dd04d80b-40b2-4067-a88f-aa7bd65d3861",
+      "coverage": 0.0,
+      "fried_flag": false,
+      "has_oil": false,
+      "label": "芋圓成品(EMMA)",
+      "oil_allowance_g": 0.0,
+      "oil_reason": null,
+      "pan_fried_flag": false,
+      "per100g": {
+        "carb": 0.0,
+        "fat": 0.0,
+        "kcal": 0.0,
+        "protein": 0.0
+      },
+      "per_serve": null,
+      "serve_g": null,
+      "used_in_products": 0,
+      "warnings": [],
+      "yield": 55.0,
+      "yield_unit": "g"
+    },
+    {
+      "batch": {
         "carb": 281.0,
         "fat": 0.0,
         "kcal": 1210.0,
@@ -10229,7 +10265,7 @@
       "price": 7.5,
       "product_id": "b2fbf5ea-1892-4177-b14a-8c7a2c46d103",
       "retail": false,
-      "status": "ACTIVE",
+      "status": "UNAVAILABLE",
       "variant_id": "82bdb709-2625-4238-b264-cf43a13e12d5",
       "variant_label": "Large",
       "variant_label_zh": "大",
@@ -11547,11 +11583,11 @@
   "summary": {
     "counts": {
       "addons": 40,
-      "components": 86,
+      "components": 87,
       "dishes": 98,
       "dishes_fully_covered": 77,
       "dishes_with_grams": 85,
-      "ingredients": 290,
+      "ingredients": 291,
       "ingredients_mapped": 264,
       "linked": 85,
       "unlinked": 13
@@ -11618,6 +11654,11 @@
         "label": "點心"
       },
       {
+        "grams_used_total": 55.0,
+        "id": "0bd3e024-c228-4cd2-bbd5-8bff9ca5384b",
+        "label": "芋圓(EMMA)"
+      },
+      {
         "grams_used_total": 50.0,
         "id": "7d836c85-cd05-4104-86d7-475ab5ddda8a",
         "label": "三色蒟蒻"
@@ -11664,5 +11705,5 @@
       }
     ]
   },
-  "synced_at": "2026-10-16T11:10+08:00"
+  "synced_at": "2026-11-01T18:17+08:00"
 }

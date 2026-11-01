@@ -1,25 +1,26 @@
 {
   "alerts_sent": {
     "loss_fast": "2026-10-09",
-    "menu_unmapped:Beef tri tips /牛臀三角,沙茶醬,空心菜": "2026-10-16"
+    "menu_unmapped:Beef tri tips /牛臀三角,沙茶醬,空心菜": "2026-10-16",
+    "menu_unmapped:芋圓(EMMA)": "2026-11-01"
   },
-  "complete_through": "2026-10-28",
+  "complete_through": "2026-10-31",
   "inbox_last_id": 24,
   "last_login_attempt_at": "2026-10-09T11:22:07+08:00",
   "last_login_result": "ok",
   "last_pull": {
-    "at": "2026-10-29T09:08:27+08:00",
+    "at": "2026-11-01T18:14:42+08:00",
     "garmin": "ok",
     "garmin_window": [
-      "2026-10-25",
-      "2026-10-29"
+      "2026-10-26",
+      "2026-11-01"
     ],
-    "inbox_last_id": 22
+    "inbox_last_id": 24
   },
-  "last_sync_at": "2026-10-29T09:09:31+08:00",
+  "last_sync_at": "2026-11-01T18:16:24+08:00",
   "last_sync_window": [
-    "2026-10-25",
-    "2026-10-29"
+    "2026-10-26",
+    "2026-11-01"
   ],
   "menu_hash": {
     "cargill-cafe": "95a4dedd7f0a500fc29df9303663ae77672ff0f25bcbe130b22f81da8ccd36b2"
@@ -34,6 +35,7 @@
       "空心菜",
       "統一布丁粉",
       "羊肉爐藥材包",
+      "芋圓(EMMA)",
       "薑母鴨藥材包",
       "蜜花生",
       "豆花粉",

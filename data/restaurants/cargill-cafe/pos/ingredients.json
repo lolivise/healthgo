@@ -70,6 +70,13 @@
     "volume": "800.00"
   },
   {
+    "cost": "3.00",
+    "id": "0bd3e024-c228-4cd2-bbd5-8bff9ca5384b",
+    "label": "芋圓(EMMA)",
+    "unit_type": "g",
+    "volume": "420.00"
+  },
+  {
     "cost": "3.50",
     "id": "0d5d6c56-d806-49cd-a9b7-d9d1b7cf8842",
     "label": "澄黺",

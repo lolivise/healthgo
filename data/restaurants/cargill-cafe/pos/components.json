@@ -553,6 +553,13 @@
     "volume": "1.00"
   },
   {
+    "cost": "0.39",
+    "id": "dd04d80b-40b2-4067-a88f-aa7bd65d3861",
+    "label": "芋圓成品(EMMA)",
+    "unit_type": "g",
+    "volume": "55.00"
+  },
+  {
     "cost": "3.77",
     "id": "e0284e8c-751c-4bb3-81cd-d825c32b693e",
     "label": "鹹酥雞",
