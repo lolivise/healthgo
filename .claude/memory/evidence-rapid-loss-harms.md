@@ -48,8 +48,8 @@ longer window when the first days of the 14 are a spike.
 | Bone | ∝ total loss; lifting prevents it (GLP-1 + exercise trial) | low priority for him |
 | Metabolic adaptation | continuous RMR −179 vs intermittent −86 kcal/d (MATADOR) | [[evidence-metabolic-adaptation]] 6-signal rule |
 | Infections | sleep <6 h, long deficit + heavy load | [[evidence-inflammation-immunity-hepb]] |
-HRV has **no** evidence as an early "too fast" marker. GLP-1 trials: 25–40 % of loss is DXA lean in untrained
-patients (JAMA 2024 viewpoint: sarcopenia unlikely for most); not comparable to him.
+HRV has **no** evidence as an early "too fast" marker. GLP-1 trials: median **28 %** of loss is lean (IQR 16–40; DXA/BIA ~29 %,
+CT/MRI muscle ~25 %), diet-only arms often similar, no study measured function (SR 35 RCTs, Ann Intern Med 2026, PMID 41996180 [V]); untrained, obese, no lifting, not comparable to him.
 
 **Proposals made 2026-10-25, all ADOPTED by him the same day (now in [[safety-limits]], `config/plan.json`):** rate cap 0.7 → 0.5 %/wk by weight;
 EA floor (intake − Garmin activity kcal ≥ 1,700) on top of the 1,700 total floor; fat floor 0.6 → 0.7 g/kg;

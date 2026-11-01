@@ -102,3 +102,22 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-11-01 | 規律運動能穩定荷爾蒙 | 🟡 | 自己聽到的 | [2026-11-01-sleep-timing-social-jetlag.md](2026-11-01-sleep-timing-social-jetlag.md) |
 | 2026-11-01 | 一週 1–2 天睡覺、起床時間不同會荷爾蒙失調 | 🟡 | 自己聽到的 | [2026-11-01-sleep-timing-social-jetlag.md](2026-11-01-sleep-timing-social-jetlag.md) |
 | 2026-11-01 | 差多少才失調；晚起（9 點睡到 10–11 點）vs 凌晨 2–3 點才睡 | 🟡 | 自己聽到的 | [2026-11-01-sleep-timing-social-jetlag.md](2026-11-01-sleep-timing-social-jetlag.md) |
+| 2026-11-01 | bimagrumab 幾乎沒有副作用 | ❌ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | bimagrumab 真的存在（阻斷 myostatin 的抗體） | ✅ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 中年就有合成阻抗，練了也長不起來 | ❌ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 熱量赤字關掉 mTORC1、拆肌肉當燃料 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 每減 1 公斤至少 1/4 公斤是肌肉 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 掉肌肉讓基礎代謝崩盤 | ❌ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | BELIEVE：bimagrumab + semaglutide 90–93% 減的是脂肪 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 二期試驗不節食不運動，脂肪 −20.5%、瘦體重 +3.6–4.5% | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | GLP-1 減掉的 25–40% 是瘦體重 | ✅ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 停 GLP-1 後復胖，回來的全是脂肪 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 肌肉處理 80% 血糖，肌肉少就得糖尿病 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 中年後肌少型肥胖很危險 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 肌肉少增加關節退化、骨折、臥床 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 肌肉少免疫變差、重症死亡率上升 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 肌肉是最大的內分泌器官 | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | bimagrumab 治包涵體肌炎失敗 | ✅ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 禮來停掉 bimagrumab 糖尿病試驗、改做 tirzepatide | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | 禮來 19 億美元收購 Versanis | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-01 | myostatin 1997 年發現，比利時藍牛沒有它 | ✅ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
