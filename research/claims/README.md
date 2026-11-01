@@ -99,3 +99,6 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-10-30 | 高強度訓練皮質醇破壞 T 細胞、分解抗體，免疫低 72 小時 | ❌ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
 | 2026-10-30 | 免疫之後超補償；感冒主要是穿濕衣著涼 | ❌ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
 | 2026-10-30 | 重訓和有氧超補償、肌肉抗老、規律運動大大有益健康 | ✅ | 卓叔增重 | [2026-10-30-exercise-sleep-loss-heart-immunity.md](2026-10-30-exercise-sleep-loss-heart-immunity.md) |
+| 2026-11-01 | 規律運動能穩定荷爾蒙 | 🟡 | 自己聽到的 | [2026-11-01-sleep-timing-social-jetlag.md](2026-11-01-sleep-timing-social-jetlag.md) |
+| 2026-11-01 | 一週 1–2 天睡覺、起床時間不同會荷爾蒙失調 | 🟡 | 自己聽到的 | [2026-11-01-sleep-timing-social-jetlag.md](2026-11-01-sleep-timing-social-jetlag.md) |
+| 2026-11-01 | 差多少才失調；晚起（9 點睡到 10–11 點）vs 凌晨 2–3 點才睡 | 🟡 | 自己聽到的 | [2026-11-01-sleep-timing-social-jetlag.md](2026-11-01-sleep-timing-social-jetlag.md) |
