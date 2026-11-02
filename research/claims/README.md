@@ -129,3 +129,14 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-11-02 | 心跳不是運動強度的唯一依據 | ✅ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
 | 2026-11-02 | 心肺功能有標準可以比 | ✅ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
 | 2026-11-02 | 追公車、爬樓梯就喘代表心肺差 | 🟡 | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 運動後喘 >5 分鐘、心跳 >10 分鐘降不下來＝心臟或氣管有問題 | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 運動一開始喘是鼻塞造成，張嘴呼吸沒用 | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 有氧運動練心輸出量，肺幾乎不變 | ✅ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 體能差的人吸高濃度氧不會多出運動能力 | ❌ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 未訓練者停下 1–2 分鐘就不喘，10–20 分鐘有氧幾週改善 | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 未訓練者運動瓶頸是心輸出量不是換氣 | ✅ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 呼吸肌訓練只小幅提升肺活量，肺大小受胸腔限制 | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 心輸出量一般人 5–6 L/min vs 選手 20–40（差 5–8 倍） | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 換氣與肺活量教科書數值（6 L/min、170 L/min、4–5 L） | ✅ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 古人骨頭負荷等於運動員，所以現代心臟練不夠 | ❌ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-02 | 人類演化來做耐力跑（持久狩獵） | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
