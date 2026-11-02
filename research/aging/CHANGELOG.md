@@ -7,3 +7,4 @@ One line per change to an evidence file: `YYYY-MM-DD · evidence-file · row: ol
 2026-10-28 · evidence-exercise-and-aging · Miyachi [U] → [V] +11.6 % is high-intensity all ages (young +14.3, middle-aged none); Kawano, Bjørnsen, MacDougall [V] (22267567, 16915024, 26129928, 3980383)
 2026-10-28 · evidence-ikeya-anti-aging · REDUCE-IT AF = hospitalisation 3.1 vs 2.1 % at 4 g; Gencer >1 g HR 1.49, ≤1 g 1.12 [V]; vit C ALT no source (30415628, 34612056)
 2026-10-30 · evidence-exercise-and-aging · upper-dose row: + sudden cardiac death, active vs inactive RR 0.52; race arrests 0.82/100k, mostly coronary, ⅓ prior symptoms (32631241, 34021577)
+2026-11-02 · evidence-sleep-timing · new row "exercise timing → sleep": none → no overall morning/evening winner, evening hard exercise more WASO SMD −0.51; no fat-mass timing effect (42632303, 42658446)

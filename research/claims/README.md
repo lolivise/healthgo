@@ -121,3 +121,11 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-11-01 | 禮來停掉 bimagrumab 糖尿病試驗、改做 tirzepatide | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
 | 2026-11-01 | 禮來 19 億美元收購 Versanis | 🟡 | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
 | 2026-11-01 | myostatin 1997 年發現，比利時藍牛沒有它 | ✅ | 挺健康 Team Health | [2026-11-01-bimagrumab-glp1-muscle-loss.md](2026-11-01-bimagrumab-glp1-muscle-loss.md) |
+| 2026-11-02 | 運動量每週最多增加 10% | 🟡 | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 運動過度有六種身體現象 | ❓ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 過度訓練症候群有五個特徵 | ❓ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 晨跑還是夜跑效果比較好 | ❓ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 「333」運動口訣（每週 3 次、30 分鐘、心跳 130） | 🟡 | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 心跳不是運動強度的唯一依據 | ✅ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 心肺功能有標準可以比 | ✅ | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |
+| 2026-11-02 | 追公車、爬樓梯就喘代表心肺差 | 🟡 | 黃瑽寧愛+好醫生（陳曉謙） | [2026-11-02-cardio-fitness-10pct-overtraining.md](2026-11-02-cardio-fitness-10pct-overtraining.md) |

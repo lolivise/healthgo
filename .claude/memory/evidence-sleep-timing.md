@@ -20,6 +20,7 @@ No study defines a safe size of shift. Record: `research/claims/2026-11-01-sleep
 | Short weekday + long weekend sleep: no excess mortality vs 7 h (<65 y) | Åkerstedt 2019, PMID 29790200, n=43,880 cohort |
 | 13–14 h single nights: never studied; habitual ≥9 h ↔ mortality RR 1.39 (reverse causation) | PMID 28890167, 137 cohorts |
 | Exercise timing shifts the clock: 7 am / 1–4 pm advance, 7–10 pm delay | Youngstedt 2019 J Physiol, PMID 30784068, n≈100 |
+| Morning vs evening exercise on sleep: no overall winner; evening moderate–vigorous → more WASO, SMD −0.51 (−0.89 to −0.12), larger at higher intensity, small-study bias possible. Fat mass/weight: no timing effect (42658446) [V abstracts 11-02] | MA 16 RCTs, Sleep Med Rev 2026, PMID 42632303 |
 | Training doesn't raise resting testosterone: SMD 0.00 (−0.20 to 0.20) | MA 11 RCTs, PMID 35134000, n=421 men |
 
 **Unverified, not to cite:** "the clock re-aligns ~1 h/day"; morning light preventing the weekend delay (Crowley's 1 h

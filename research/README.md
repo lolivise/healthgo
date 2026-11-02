@@ -92,7 +92,7 @@ hygiene.
 | `evidence-exercise-and-aging` | 2026-10-27 |
 | `evidence-facial-aging` | 2026-10-25 |
 | `evidence-ikeya-anti-aging` | 2026-10-25 |
-| `evidence-sleep-timing` (social jetlag, weekend sleep shift, catch-up sleep) | 2026-11-01 |
+| `evidence-sleep-timing` (social jetlag, weekend sleep shift, catch-up sleep, exercise timing) | 2026-11-02 |
 
 Reports: `aging/運動會讓人老得快嗎 池谷敏郎 血管.md`, `aging/池谷敏郎 抗老建議 逐條查證.md`; cross-listed
 `medical/慢性發炎 減重過快 臉部老化.md` (notes `facial_aging_collagen.md`).
