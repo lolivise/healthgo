@@ -15,3 +15,4 @@ One line per change to an evidence file: `YYYY-MM-DD · evidence-file · row: ol
 2026-10-28 · evidence-bulk-nutrition · new file: lean-bulk macros (protein ~2 g/kg kept, fat 0.9–1.0 g/kg + SFA ≤10 %, carbs = rest), overfeeding harms ranked (22215165, 23679146, 29844096, 31369090, 38636844, 41712097, 40885400, 24668862)
 2026-10-29 · evidence-sugar · Form matters: cohorts only → + trials: fruit lowers weight/BP, SSB raises; gout SSB/juice yes, whole fruit no (36842451, 37582096, 31061018; ask 195)
 2026-10-29 · evidence-sweeteners · Glucose: + alone/with carbs/preload all = water; "drink diet soda alone" (Dalenberg 2020) unsupported (36839408, PMC7784207; ask 195)
+2026-11-04 · evidence-sugar · T2D: SSB only → + sugar in food not linked (total RR 0.96, added 0.99 ns; 40122386; ask 246)

@@ -17,3 +17,4 @@ One line per change to an evidence file: `YYYY-MM-DD · evidence-file · row: ol
 2026-10-28 · evidence-what-drives-overeating / max-fat-loss-rate / muscle-and-metabolism · Al Khatib +385 [V]; "22 kcal/lb" deleted (no source); BMR 60–70 % = sedentary textbook, ≈55–60 % at PAL 1.7–1.8 (27804960, 23637685)
 2026-10-28 · evidence-muscle-turnover / metabolic-adaptation / body-fat-and-muscle-growth · summary-level → abstract [V]: Clauss & Jensen (intensity not duration), Kumar, Martins −54 kcal gone at 1–2 y + 2021 AT predicts less fat loss, Forbes 2000, Smith 2022 CR/T (40135445, 19164770, 32386226, 32844188, 34116675, 10865771, 34613412)
 2026-11-01 · evidence-rapid-loss-harms · GLP-1 lean share: 25–40 % (JAMA 2024 viewpoint) → median 28 % (IQR 16–40), CT/MRI ~25 %, diet-only similar, no function data (41996180)
+2026-11-04 · evidence-diet-patterns · Keto LDL: +8 mg/dL avg → + rise depends on leanness (BMI <25 +41, 25–35 ≈0, ≥35 −7; 38237807; ask 246)

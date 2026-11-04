@@ -140,3 +140,25 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-11-02 | 換氣與肺活量教科書數值（6 L/min、170 L/min、4–5 L） | ✅ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
 | 2026-11-02 | 古人骨頭負荷等於運動員，所以現代心臟練不夠 | ❌ | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
 | 2026-11-02 | 人類演化來做耐力跑（持久狩獵） | 🟡 | Dr.BreathE 原氣 | [2026-11-02-lung-capacity-cardiac-output.md](2026-11-02-lung-capacity-cardiac-output.md) |
+| 2026-11-04 | 碳水 <50 g 兩週切換燃脂，其他好處都從這來 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 減糖減碳才減真脂肪，高碳水減脂是上坡 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 戒碳水 1–2 週至少掉 13 磅，大多是肝醣水 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 碳水變膽固醇，戒糖兩週膽固醇大幅改善 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 飽和脂肪致病已被完全推翻，元凶是碳水 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 糖尿病不是生活方式／基因，是吃糖碳水造成 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 肝臟脂肪大部分來自碳水 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 戒糖兩週改善胰島素阻抗、解除體重設定點 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 胰島素阻抗造成代謝慢、無法突破的體重下限 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 減糖兩週能量穩定、情緒記憶專注變好 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 碳水 <50 g 三天嘴饞消失 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 脂肪存 10 萬 kcal vs 糖 1,700，燃脂適應能量穩定 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 全穀 85 % 碳水所以不好，指引推穀物是錯 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 改善胰島素阻抗幫脂肪肝、降心臟病中風癌症 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 戒糖改善視力、腎功能、神經病變 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 戒糖讓動脈癒合、血壓大降、可減藥 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 減糖降發炎疼痛，可停消炎藥 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 減碳改善青春痘、皮膚炎、臉腫 | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 戒糖減少夜尿 | ❓ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 胰島素阻抗改善後鉀鎂 B1 鈣 D 吸收變好 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 戒糖逆轉像橘皮組織的萎縮、長肌肉 | ❓ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 美國人每天 54 g 添加糖、總糖 275 g | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
