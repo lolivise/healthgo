@@ -162,3 +162,13 @@ Verdicts: ✅ 成立 · 🟡 部分成立／誇大 · ❌ 誤導／錯誤 · ❓
 | 2026-11-04 | 胰島素阻抗改善後鉀鎂 B1 鈣 D 吸收變好 | ❌ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
 | 2026-11-04 | 戒糖逆轉像橘皮組織的萎縮、長肌肉 | ❓ | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
 | 2026-11-04 | 美國人每天 54 g 添加糖、總糖 275 g | 🟡 | 柏格醫生中文 (Dr Berg) | [2026-11-04-no-sugar-carbs-two-weeks-berg.md](2026-11-04-no-sugar-carbs-two-weeks-berg.md) |
+| 2026-11-04 | 每個成年人一生至少驗一次 Lp(a)，一般血脂四項看不到 | ✅ | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | EA =（攝取 − 運動）÷ 去脂體重，理想 45、40 也可以 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | 能量不足 (REDs) 讓男性睪固酮、性慾、骨密度、免疫下降、常感冒 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | 長期嚴重熱量／蛋白質不足讓骨髓減少造血，血球全部下降 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | 沒管理的少吃多動，對規律運動者弊大於利 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | oxLDL 正常值 10–170，功能醫學理想 <115，偏高增加心血管風險 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | 講者 76 kg、14% 體脂每天需要約 3,340 kcal，是實際吃的兩倍 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | Lp(a) >50 mg/dL 是高風險切點，心肌梗塞和中風明顯上升 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | Lp(a) 九成以上由基因決定，飲食運動幾乎改不了 | ✅ | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |
+| 2026-11-04 | 反式脂肪升 LDL 降 HDL；血中偏高是假期炸物、燒烤、蛋糕造成 | 🟡 | 林勁瑋 x 大腦優先教練學院 | [2026-11-04-blood-test-lpa-energy-availability.md](2026-11-04-blood-test-lpa-energy-availability.md) |

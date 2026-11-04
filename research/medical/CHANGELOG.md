@@ -3,3 +3,4 @@
 2026-10-28 · evidence-inflammation-immunity-hepb · flu/COVID Handbook wording [U] → [V]: flu recommended generally, carrier status GP's call; COVID no group at 36
 2026-10-28 · evidence-inflammation-immunity-hepb · CALERIE thymus [V] Spadaro 2022, surrogate only (35143297)
 2026-10-30 · evidence-inflammation-immunity-hepb · exercise/immunity row: + Cochrane cold count RR 1.00, severity lower; athletes 3.2 vs 1.7/yr; "open window" contested → old-belief row, lymphocyte drop = redistribution (32246780, 41408785, 29713319)
+2026-11-04 · evidence-blood-markers · new file: Lp(a) once per lifetime (36036785), oxLDL no standard (29173602), trans fat LDL/HDL (20209147), CALERIE blood counts (41825741, 27410480; ask 254)

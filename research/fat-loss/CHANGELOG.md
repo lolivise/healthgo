@@ -18,3 +18,4 @@ One line per change to an evidence file: `YYYY-MM-DD · evidence-file · row: ol
 2026-10-28 · evidence-muscle-turnover / metabolic-adaptation / body-fat-and-muscle-growth · summary-level → abstract [V]: Clauss & Jensen (intensity not duration), Kumar, Martins −54 kcal gone at 1–2 y + 2021 AT predicts less fat loss, Forbes 2000, Smith 2022 CR/T (40135445, 19164770, 32386226, 32844188, 34116675, 10865771, 34613412)
 2026-11-01 · evidence-rapid-loss-harms · GLP-1 lean share: 25–40 % (JAMA 2024 viewpoint) → median 28 % (IQR 16–40), CT/MRI ~25 %, diet-only similar, no function data (41996180)
 2026-11-04 · evidence-diet-patterns · Keto LDL: +8 mg/dL avg → + rise depends on leanness (BMI <25 +41, 25–35 ≈0, ≥35 −7; 38237807; ask 246)
+2026-11-04 · evidence-cutting · Low EA row: 30/45 unverified → 2018 IOC text: 45 = energy balance, <30 disturbed, both women-derived, male threshold unknown; + SR 13 LEA experiments, T down in only half (41794545; ask 254)
