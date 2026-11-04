@@ -227,6 +227,6 @@ The 10-26 → 11-08 TDEE window ended early; 11-08 re-derives TDEE from a noisy 
 diet cola not after lunch. He logs bloating 0–3 + finish time for 3 nights. From 11-09 the old steps would give 2,259 (EA ≈1,600, yellow):
 decide at 11-08 whether whey stays 50 g. The "lower step" paragraph above is now in force.
 ⭐ **Decided later 2026-11-04 (Darren): whey 50 → 30 g and the Chobani swap on 11-09 are a must; refill with walnuts +15 g
-(20 → 35 g in the dinner yogurt), ≈2,357 kcal from 11-09, EA ≈1,700.** Walnuts chosen over honey/almond: linoleic acid for
+(20 → 35 g in the dinner yogurt), ≈2,363 kcal from 11-09, EA ≈1,700.** Coles walnut label per 100 g (Darren, 2026-11-04): 696 kcal, 14.4 P, 69.2 F (4.4 SFA), 3.0 C, 6.4 fibre; 35 g = 244 kcal, +10.4 g fat. Walnuts chosen over honey/almond: linoleic acid for
 skin ([[skin-dryness-itch]]), tiny volume; honey is free sugar and a high-fructose gas suspect (unverified). Check the walnut
 pack label for kcal/100 g. 11-08 may still reset the kcal.
