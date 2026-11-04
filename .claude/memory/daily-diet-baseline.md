@@ -230,3 +230,6 @@ decide at 11-08 whether whey stays 50 g. The "lower step" paragraph above is now
 (20 → 35 g in the dinner yogurt), ≈2,363 kcal from 11-09, EA ≈1,700.** Coles walnut label per 100 g (Darren, 2026-11-04): 696 kcal, 14.4 P, 69.2 F (4.4 SFA), 3.0 C, 6.4 fibre; 35 g = 244 kcal, +10.4 g fat. Walnuts chosen over honey/almond: linoleic acid for
 skin ([[skin-dryness-itch]]), tiny volume; honey is free sugar and a high-fructose gas suspect (unverified). Check the walnut
 pack label for kcal/100 g. 11-08 may still reset the kcal.
+**Meal layout from 2026-11-05 (Darren, 2026-11-04):** one 100 g rice pack is split half at breakfast (50 g) and half at lunch (50 g)
+(thaw it once, eat both halves the same day, no refreeze). Vegetables **200 g at breakfast + 200 g at lunch = 400 g/day** (he confirmed; the
+600 g in the table above, incl. 150 g tomato, may be stale: open question, ≈ −45 to −65 kcal if so).
