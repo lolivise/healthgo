@@ -1,0 +1,749 @@
+{
+  "all_day_metrics_through": "2026-11-03",
+  "bloodwork": {
+    "due": null,
+    "every_months": 6,
+    "last_recorded": null,
+    "note": "no bloodwork recorded in healthgo yet; ask for the date of the last test"
+  },
+  "cut_week": 17,
+  "days_since_review": 3,
+  "days_to_checkpoint": 75,
+  "eating_out_recorded": [],
+  "flags": [
+    {
+      "key": "sleep_short",
+      "message": "最近 5 晚有 3 晚睡不到 6 小時。熱量赤字期睡眠不足最容易掉肌肉。"
+    }
+  ],
+  "health_guard": {
+    "deficit_weeks": {
+      "band": "red",
+      "weeks": 16
+    },
+    "energy_availability": {
+      "activity_kcal_per_day": 661,
+      "band": "green",
+      "ea_kcal": 1859,
+      "ea_per_kg_ffm": 27.3,
+      "intake_kcal": 2520
+    },
+    "rate": {
+      "band": "green",
+      "cap": 0.7,
+      "trend14_pct_per_week": -0.02
+    },
+    "sleep": {
+      "avg_h": 6.0,
+      "band": "yellow",
+      "nights_under_6h": 2
+    },
+    "strength": [
+      {
+        "band": "red",
+        "down_weeks_running": 0,
+        "exercise": "WEIGHTED_CRUNCH",
+        "vs_best_pct": -28.7
+      },
+      {
+        "band": "red",
+        "down_weeks_running": 0,
+        "exercise": "DUMBBELL_LYING_TRICEPS_EXTENSION",
+        "vs_best_pct": -25.0
+      }
+    ]
+  },
+  "hrv_status_days": [
+    "UNBALANCED",
+    "BALANCED",
+    "BALANCED"
+  ],
+  "in_trip": false,
+  "last_5_weeks": [
+    {
+      "avg_kg": 91.01,
+      "avg_stress": 33.6,
+      "ea_kcal": 1422,
+      "eat_out_kcal": 5182.0,
+      "hrv_last_night": 43.4,
+      "rhr": 50.0,
+      "sleep_h": 6.6,
+      "steps": 9407.4,
+      "week": "2026-W41",
+      "weigh_ins": 7
+    },
+    {
+      "avg_kg": 90.67,
+      "avg_stress": 30.7,
+      "change_kg": -0.34,
+      "ea_kcal": 1501,
+      "eat_out_kcal": 1480.0,
+      "hrv_last_night": 44.0,
+      "rhr": 48.3,
+      "sleep_h": 6.5,
+      "steps": 10570.0,
+      "week": "2026-W42",
+      "weigh_ins": 7
+    },
+    {
+      "avg_kg": 89.13,
+      "avg_stress": 28.3,
+      "change_kg": -1.54,
+      "ea_kcal": 1538,
+      "eat_out_kcal": null,
+      "hrv_last_night": 44.3,
+      "rhr": 46.9,
+      "sleep_h": 7.1,
+      "steps": 10005.9,
+      "week": "2026-W43",
+      "weigh_ins": 7
+    },
+    {
+      "avg_kg": 88.85,
+      "avg_stress": 30.3,
+      "change_kg": -0.28,
+      "ea_kcal": 1900,
+      "eat_out_kcal": 3470.0,
+      "hrv_last_night": 40.3,
+      "rhr": 48.0,
+      "sleep_h": 6.5,
+      "steps": 10621.0,
+      "week": "2026-W44",
+      "weigh_ins": 6
+    },
+    {
+      "avg_kg": 88.83,
+      "avg_stress": 28.5,
+      "change_kg": -0.02,
+      "ea_kcal": 1859,
+      "eat_out_kcal": null,
+      "hrv_last_night": 45.0,
+      "rhr": 48.0,
+      "sleep_h": 6.0,
+      "steps": 11548.0,
+      "week": "2026-W45",
+      "weigh_ins": 3
+    }
+  ],
+  "last_review": "2026-11-01",
+  "maintenance_kcal_estimate": 2931,
+  "maintenance_note": "baseline intake + 28-day weight trend × 6850 kcal/kg; ignores eating-out days and water swings, so treat as ±200 kcal",
+  "partial": true,
+  "projections": {
+    "dates": [
+      {
+        "at_cap_kg": 86.2,
+        "at_trend14_kg": 88.8,
+        "at_trend28_kg": 85.9,
+        "bf_pct_at_trend28": 20.7,
+        "date": "2026-12-04",
+        "label": "Christmas party"
+      },
+      {
+        "at_cap_kg": 85.3,
+        "at_trend14_kg": 88.7,
+        "at_trend28_kg": 84.9,
+        "bf_pct_at_trend28": 19.8,
+        "date": "2026-12-14",
+        "label": "maintenance starts"
+      },
+      {
+        "at_cap_kg": 85.3,
+        "at_trend14_kg": 88.7,
+        "at_trend28_kg": 84.9,
+        "bf_pct_at_trend28": 19.8,
+        "date": "2027-01-22",
+        "label": "checkpoint"
+      },
+      {
+        "at_cap_kg": 85.3,
+        "at_trend14_kg": 88.7,
+        "at_trend28_kg": 84.9,
+        "bf_pct_at_trend28": 19.8,
+        "date": "2028-01-12",
+        "label": "Taiwan trip 2 (approx: 2 weeks before CNY 2028-01-26)"
+      }
+    ],
+    "est_bf_pct": 23.3,
+    "goal_weight_kg": [
+      80.1,
+      83.0
+    ],
+    "lean_mass_kg_est": 68.1,
+    "weight_kg": 88.83
+  },
+  "range": [
+    "2026-11-02",
+    "2026-11-04"
+  ],
+  "recovery": {
+    "avg_stress": {
+      "baseline_4w": 30.7,
+      "week": 28.5
+    },
+    "bb_high": {
+      "baseline_4w": 79.6,
+      "week": 78.0
+    },
+    "bb_low": {
+      "baseline_4w": 16.2,
+      "week": 18.5
+    },
+    "hrv_last_night": {
+      "baseline_4w": 43.0,
+      "week": 45.0
+    },
+    "readiness_score": {
+      "baseline_4w": null,
+      "week": null
+    },
+    "rhr": {
+      "baseline_4w": 48.3,
+      "week": 48.0
+    },
+    "sleep_h": {
+      "baseline_4w": 6.7,
+      "week": 6.0
+    },
+    "sleep_score": {
+      "baseline_4w": 77.4,
+      "week": 70.7
+    },
+    "steps": {
+      "baseline_4w": 10151.1,
+      "week": 11548.0
+    }
+  },
+  "strength": [
+    {
+      "e1rm_change_pct": 0.0,
+      "e1rm_prior_4w": 280.0,
+      "e1rm_week": 280.0,
+      "exercise": "LEG_PRESS",
+      "sets_week": 6,
+      "top_prior_4w": 200.0,
+      "top_week": 200.0
+    },
+    {
+      "e1rm_change_pct": 2.6,
+      "e1rm_prior_4w": 78.0,
+      "e1rm_week": 80.0,
+      "exercise": "LAT_PULLDOWN",
+      "sets_week": 4,
+      "top_prior_4w": 60.0,
+      "top_week": 60.0
+    },
+    {
+      "e1rm_change_pct": 0.0,
+      "e1rm_prior_4w": 70.0,
+      "e1rm_week": 70.0,
+      "exercise": "WEIGHTED_LEG_EXTENSIONS",
+      "sets_week": 3,
+      "top_prior_4w": 50.0,
+      "top_week": 50.0
+    },
+    {
+      "e1rm_change_pct": 0.0,
+      "e1rm_prior_4w": 50.4,
+      "e1rm_week": 50.4,
+      "exercise": "HAMSTRING_CURL",
+      "sets_week": 3,
+      "top_prior_4w": 36.0,
+      "top_week": 36.0
+    },
+    {
+      "e1rm_change_pct": 16.7,
+      "e1rm_prior_4w": 42.0,
+      "e1rm_week": 49.0,
+      "exercise": "ROW",
+      "sets_week": 3,
+      "top_prior_4w": 30.0,
+      "top_week": 35.0
+    },
+    {
+      "e1rm_prior_4w": null,
+      "e1rm_week": null,
+      "exercise": "_3_WAY_WEIGHTED_CALF_RAISE",
+      "sets_week": 2,
+      "top_prior_4w": 120.0,
+      "top_week": 120.0
+    },
+    {
+      "e1rm_prior_4w": 79.8,
+      "e1rm_week": null,
+      "exercise": "WEIGHTED_STANDING_HIP_ABDUCTION",
+      "sets_week": 2,
+      "top_prior_4w": 57.0,
+      "top_week": 57.0
+    },
+    {
+      "e1rm_prior_4w": 58.8,
+      "e1rm_week": null,
+      "exercise": "WEIGHTED_SLIDING_HIP_ADDUCTION",
+      "sets_week": 2,
+      "top_prior_4w": 43.0,
+      "top_week": 43.0
+    },
+    {
+      "e1rm_prior_4w": null,
+      "e1rm_week": null,
+      "exercise": "WEIGHTED_INCLINE_Y_RAISE",
+      "sets_week": 2,
+      "top_prior_4w": 8.0,
+      "top_week": 8.0
+    },
+    {
+      "e1rm_prior_4w": null,
+      "e1rm_week": null,
+      "exercise": "WEIGHTED_CRUNCH",
+      "sets_week": 2,
+      "top_prior_4w": 20.0,
+      "top_week": 20.0
+    },
+    {
+      "e1rm_prior_4w": 56.0,
+      "e1rm_week": null,
+      "exercise": "INDOOR_ROW",
+      "sets_week": 3,
+      "top_prior_4w": 40.0,
+      "top_week": 40.0
+    },
+    {
+      "e1rm_prior_4w": 16.2,
+      "e1rm_week": null,
+      "exercise": "DUMBBELL_BICEPS_CURL",
+      "sets_week": 3,
+      "top_prior_4w": 12.5,
+      "top_week": 12.5
+    }
+  ],
+  "strength_since_baseline": [
+    {
+      "best": 280.0,
+      "down_weeks_running": 0,
+      "exercise": "LEG_PRESS",
+      "guard": "green",
+      "latest": 280.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 252.0,
+        "2026-W42": 252.0,
+        "2026-W43": 266.7,
+        "2026-W44": 280.0,
+        "2026-W45": 280.0
+      }
+    },
+    {
+      "best": 180.0,
+      "down_weeks_running": 0,
+      "exercise": "_3_WAY_WEIGHTED_CALF_RAISE",
+      "guard": "green",
+      "latest": 180.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 180.0,
+        "2026-W42": 180.0,
+        "2026-W43": 180.0,
+        "2026-W44": 180.0,
+        "2026-W45": 180.0
+      }
+    },
+    {
+      "best": 85.5,
+      "down_weeks_running": 0,
+      "exercise": "WEIGHTED_STANDING_HIP_ABDUCTION",
+      "guard": "green",
+      "latest": 85.5,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 75.0,
+        "2026-W42": 75.0,
+        "2026-W43": 79.8,
+        "2026-W44": 85.5,
+        "2026-W45": 85.5
+      }
+    },
+    {
+      "best": 80.0,
+      "down_weeks_running": 0,
+      "exercise": "LAT_PULLDOWN",
+      "guard": "green",
+      "latest": 80.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 70.0,
+        "2026-W42": 77.0,
+        "2026-W43": 77.0,
+        "2026-W44": 77.0,
+        "2026-W45": 80.0
+      }
+    },
+    {
+      "best": 70.0,
+      "down_weeks_running": 0,
+      "exercise": "WEIGHTED_LEG_EXTENSIONS",
+      "guard": "green",
+      "latest": 70.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 70.0,
+        "2026-W42": 70.0,
+        "2026-W43": 70.0,
+        "2026-W44": 70.0,
+        "2026-W45": 70.0
+      }
+    },
+    {
+      "best": 70.0,
+      "down_weeks_running": 0,
+      "exercise": "INCLINE_BARBELL_BENCH_PRESS",
+      "guard": "green",
+      "latest": 70.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 63.3,
+        "2026-W42": 66.7,
+        "2026-W43": 68.3,
+        "2026-W44": 70.0
+      }
+    },
+    {
+      "best": 70.0,
+      "down_weeks_running": 0,
+      "exercise": "BARBELL_BENCH_PRESS",
+      "guard": "green",
+      "latest": 70.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 56.0,
+        "2026-W42": 66.7,
+        "2026-W43": 70.0,
+        "2026-W44": 70.0
+      }
+    },
+    {
+      "best": 64.5,
+      "down_weeks_running": 0,
+      "exercise": "WEIGHTED_SLIDING_HIP_ADDUCTION",
+      "guard": "green",
+      "latest": 64.5,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 49.0,
+        "2026-W42": 50.2,
+        "2026-W43": 58.8,
+        "2026-W44": 64.5,
+        "2026-W45": 64.5
+      }
+    },
+    {
+      "best": 60.0,
+      "down_weeks_running": 0,
+      "exercise": "INDOOR_ROW",
+      "guard": "green",
+      "latest": 60.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 42.0,
+        "2026-W42": 50.2,
+        "2026-W43": 56.0,
+        "2026-W44": 60.0,
+        "2026-W45": 60.0
+      }
+    },
+    {
+      "best": 56.0,
+      "down_weeks_running": 0,
+      "exercise": "CHEST_FLY",
+      "guard": "green",
+      "latest": 56.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 46.2,
+        "2026-W42": 47.3,
+        "2026-W43": 56.0,
+        "2026-W44": 56.0
+      }
+    },
+    {
+      "best": 51.3,
+      "down_weeks_running": 0,
+      "exercise": "ROW",
+      "guard": "green",
+      "latest": 51.3,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W42": 42.0,
+        "2026-W43": 45.0,
+        "2026-W44": 45.0,
+        "2026-W45": 51.3
+      }
+    },
+    {
+      "best": 50.4,
+      "down_weeks_running": 0,
+      "exercise": "HAMSTRING_CURL",
+      "guard": "green",
+      "latest": 50.4,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 50.4,
+        "2026-W42": 50.4,
+        "2026-W43": 50.4,
+        "2026-W44": 50.4,
+        "2026-W45": 50.4
+      }
+    },
+    {
+      "best": 49.5,
+      "down_weeks_running": 0,
+      "exercise": "SEATED_REAR_LATERAL_RAISE",
+      "guard": "green",
+      "latest": 49.5,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W42": 49.5,
+        "2026-W43": 49.5,
+        "2026-W44": 49.5
+      }
+    },
+    {
+      "best": 49.0,
+      "down_weeks_running": 0,
+      "exercise": "OVERHEAD_DUMBBELL_PRESS",
+      "guard": "green",
+      "latest": 49.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 42.0,
+        "2026-W42": 49.0,
+        "2026-W43": 49.0,
+        "2026-W44": 49.0
+      }
+    },
+    {
+      "best": 48.0,
+      "down_weeks_running": 0,
+      "exercise": "STANDING_CABLE_PULLOVER",
+      "guard": "green",
+      "latest": 48.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 48.0
+      }
+    },
+    {
+      "best": 46.7,
+      "down_weeks_running": 0,
+      "exercise": "WEIGHTED_CRUNCH",
+      "guard": "red",
+      "latest": 33.3,
+      "vs_best_pct": -28.7,
+      "weekly_best": {
+        "2026-W41": 46.7,
+        "2026-W42": 46.7,
+        "2026-W43": 33.3,
+        "2026-W44": 33.3,
+        "2026-W45": 33.3
+      }
+    },
+    {
+      "best": 46.2,
+      "down_weeks_running": 0,
+      "exercise": "SIT_UP",
+      "guard": "green",
+      "latest": 46.2,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W42": 46.2
+      }
+    },
+    {
+      "best": 30.0,
+      "down_weeks_running": 0,
+      "exercise": "SINGLE_ARM_CABLE_CHEST_PRESS",
+      "guard": "green",
+      "latest": 30.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 22.5,
+        "2026-W42": 22.5,
+        "2026-W43": 28.0,
+        "2026-W44": 30.0
+      }
+    },
+    {
+      "best": 30.0,
+      "down_weeks_running": 0,
+      "exercise": "DUMBBELL_LYING_TRICEPS_EXTENSION",
+      "guard": "red",
+      "latest": 22.5,
+      "vs_best_pct": -25.0,
+      "weekly_best": {
+        "2026-W41": 30.0,
+        "2026-W42": 30.0,
+        "2026-W43": 22.5,
+        "2026-W44": 22.5
+      }
+    },
+    {
+      "best": 22.5,
+      "down_weeks_running": 0,
+      "exercise": "DUMBBELL_BICEPS_CURL",
+      "guard": "green",
+      "latest": 22.5,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 20.8,
+        "2026-W42": 20.8,
+        "2026-W43": 20.8,
+        "2026-W44": 22.5,
+        "2026-W45": 22.5
+      }
+    },
+    {
+      "best": 22.5,
+      "down_weeks_running": 0,
+      "exercise": "CABLE_KICKBACK",
+      "guard": "green",
+      "latest": 22.5,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W43": 22.5,
+        "2026-W44": 22.5
+      }
+    },
+    {
+      "best": 21.0,
+      "down_weeks_running": 0,
+      "exercise": "DUMBBELL_LATERAL_RAISE",
+      "guard": "green",
+      "latest": 21.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 18.0,
+        "2026-W42": 18.0,
+        "2026-W43": 21.0,
+        "2026-W44": 21.0
+      }
+    },
+    {
+      "best": 14.0,
+      "down_weeks_running": 0,
+      "exercise": "WEIGHTED_GHD_BACK_EXTENSIONS",
+      "guard": "green",
+      "latest": 14.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W42": 14.0,
+        "2026-W43": 14.0,
+        "2026-W44": 14.0
+      }
+    },
+    {
+      "best": 12.0,
+      "down_weeks_running": 0,
+      "exercise": "WEIGHTED_INCLINE_Y_RAISE",
+      "guard": "green",
+      "latest": 12.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W41": 12.0,
+        "2026-W42": 12.0,
+        "2026-W43": 12.0,
+        "2026-W44": 12.0,
+        "2026-W45": 12.0
+      }
+    },
+    {
+      "best": 10.0,
+      "down_weeks_running": 0,
+      "exercise": "ONE_ARM_CABLE_LATERAL_RAISE",
+      "guard": "green",
+      "latest": 10.0,
+      "vs_best_pct": 0.0,
+      "weekly_best": {
+        "2026-W44": 10.0
+      }
+    }
+  ],
+  "strength_workouts": [
+    {
+      "date": "2026-11-03",
+      "duration_min": 53.4,
+      "name": "Leg Day"
+    },
+    {
+      "date": "2026-11-04",
+      "duration_min": 42.0,
+      "name": "First Back Day"
+    }
+  ],
+  "training": [
+    {
+      "avg_hr": 137.0,
+      "minutes": 147.0,
+      "sessions": 3,
+      "type": "treadmill_running"
+    },
+    {
+      "avg_hr": 115.0,
+      "minutes": 95.0,
+      "sessions": 2,
+      "type": "strength_training"
+    },
+    {
+      "avg_hr": 68.0,
+      "minutes": 103.0,
+      "sessions": 2,
+      "type": "meditation"
+    }
+  ],
+  "training_pattern_4w": {
+    "by_weekday": {
+      "Fri": {
+        "Functional Workout": 3
+      },
+      "Mon": {
+        "Functional Workout": 3
+      },
+      "Sat": {
+        "Second Back Day": 4
+      },
+      "Sun": {
+        "Chest Day": 4
+      },
+      "Thu": {
+        "Leg Day": 1,
+        "Shoulder Day": 3
+      },
+      "Tue": {
+        "Leg Day": 4
+      },
+      "Wed": {
+        "First Back Day": 4
+      }
+    },
+    "cardio_min_per_week": {
+      "treadmill_running": 280
+    },
+    "logged_sets_per_week": 106,
+    "strength_sessions_per_week": 6.5,
+    "window": [
+      "2026-10-08",
+      "2026-11-04"
+    ]
+  },
+  "week": "2026-W45",
+  "weight": {
+    "avg_prev_week_kg": 88.85,
+    "avg_week_kg": 88.83,
+    "change_kg": -0.02,
+    "change_pct": -0.02,
+    "total_lost_since_cut_kg": 13.2,
+    "trend_14d_pct_per_week": -0.02,
+    "trend_28d_pct_per_week": -0.78,
+    "weigh_ins_prev_week": 6,
+    "weigh_ins_week": 3
+  }
+}
