@@ -10265,7 +10265,7 @@
       "price": 7.5,
       "product_id": "b2fbf5ea-1892-4177-b14a-8c7a2c46d103",
       "retail": false,
-      "status": "UNAVAILABLE",
+      "status": "ACTIVE",
       "variant_id": "82bdb709-2625-4238-b264-cf43a13e12d5",
       "variant_label": "Large",
       "variant_label_zh": "大",
