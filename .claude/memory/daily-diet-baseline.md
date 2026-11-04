@@ -232,7 +232,10 @@ skin ([[skin-dryness-itch]]), tiny volume; honey is free sugar and a high-fructo
 pack label for kcal/100 g. 11-08 may still reset the kcal.
 **Meal layout from 2026-11-05 (Darren, 2026-11-04):** one 100 g rice pack is split half at breakfast (50 g) and half at lunch (50 g)
 (thaw it once, eat both halves the same day, no refreeze). ⭐ **Real vegetable amounts (Darren, 2026-11-04), replacing the 600 g
-table above: 445 g/day = frozen stir-fry 125 g + spinach/kale 200 g + tomato 120 g**, about half of each in breakfast and lunch
-(≈200 g/meal). That is −43 kcal vs the 600 g table. **Olive oil 18 g/day** (not 13; +45 kcal to keep EA ≥1,700), cooked into
-breakfast and lunch. **Intake: ≈2,368 kcal 11-05 → 11-08, ≈2,365 from 11-09** (whey 30 g, Chobani 300 g, walnuts 35 g), EA ≈1,705–1,710.
-The 11-09 plan.json note and the earlier "13 g oil / 2,366 / 2,363" figures in this section are superseded by these.
+table above: 570 g/day = frozen stir-fry 250 g + spinach/kale 200 g + tomato 120 g**, half of each at breakfast and half at lunch
+(≈285 g/meal: stir-fry 125 g + spinach/kale 100 g + tomato 60 g). ⭐ **Stir-fry is 250 g/day, not 125 g (Darren corrected
+2026-11-04: "I am having 250g a day")**, i.e. 125 g per meal; it was first recorded as 125 g/day (445 g total). That is ≈−5 kcal vs
+the 600 g table (tomato 120 not 150 g). **Olive oil 18 g/day** (not 13; +45 kcal to keep EA ≥1,700), cooked into
+breakfast and lunch. **Intake: ≈2,406 kcal 11-05 → 11-08, ≈2,403 from 11-09** (whey 30 g, Chobani 300 g, walnuts 35 g), EA ≈1,743–1,746
+at ~660 activity kcal. (The stir-fry fix adds +38 kcal, +1.5 P, +4.9 C, +3.2 g fibre to the 2,368 / 2,365 first worked out.)
+The 11-09 plan.json note and the earlier "13 g oil / 2,366 / 2,363 / 2,368 / 2,365" figures in this section are superseded by these.
