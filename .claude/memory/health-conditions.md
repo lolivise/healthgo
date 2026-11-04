@@ -38,6 +38,11 @@ metadata:
 - **Bloodwork twice a year.** The most recent results were all within healthy ranges. When he sends new
   results, record them with `/log` (bloodwork) and note the liver panel especially.
 - **Skin (2026-10-13):** dry/peeling hands and itch since the cut. Itch + Hep B goes to the doctor; see [[skin-dryness-itch]].
+- **Chronic bloated stomach (told 2026-11-04):** lifelong. His doctor attributed it to the liver and digestion and said it will
+  not recover; advice was **don't eat too full, and exercise**. Meal VOLUME is his trigger: after rice 100 → 200 g (2026-10-26)
+  the bloating rose and sleep fell (5–6 h). So size meals by volume as well as kcal; keep the last meal small and finished
+  ≥3 h before bed (reflux evidence only, sleep evidence mixed). A literature check found no evidence that rice itself causes
+  gas; fermentable foods (oats, lactose, 600 g veg, cola) are unproven suspects. See [[daily-diet-baseline]].
 - Otherwise healthy. No other conditions or medications reported.
 
 Related: [[user-profile]]
