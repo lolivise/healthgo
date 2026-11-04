@@ -53,7 +53,7 @@ only the rules behind those numbers and the decisions made about them. Don't pas
 reaches 12 clean reps.
 - DB shoulder press (OVERHEAD_DUMBBELL_PRESS): **hold 35 kg for 8–12 reps, no further increase** (right shoulder);
   swap to neutral-grip DB or landmine press on any pain.
-- Lat pulldown: 57.5 kg next. 55 × 12/12/12 on 10-24, 10-28 and 10-31 and still not moved up (W44): make the step at the next back day.
+- Lat pulldown: stepped up to 60 kg on 11-04 (W45 midweek review; e1RM 80). Hold 60 until all three sets reach 12.
 - Indoor row: 40 kg is the baseline.
 - Flat barbell bench: stay at 50 kg until all three sets reach 12, then 55. Incline bench stays at 50.
 - Chest fly: hold 40 kg; back to 33 on any front-shoulder discomfort.
