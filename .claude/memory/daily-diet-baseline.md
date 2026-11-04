@@ -219,3 +219,10 @@ added sugar → ≈13 g/day. Eating out (手搖飲 全糖 ≈ 40–70 g/cup) is 
 **Eating order (2026-10-25, adopted):** at the rice meals (breakfast and lunch) eat **vegetables → chicken/eggs → rice
 last**. No change to amounts or kcal. Evidence: carbs-last −53 % glucose iAUC in T2D (Shukla 2017), thin in healthy
 adults; free habit, nothing to track. See [[evidence-ikeya-anti-aging]].
+
+⭐ **Diet change from Thu 2026-11-05 (Darren, 2026-11-04, "option A"): ≈2,366 kcal.** Why: chronic bloating (doctor: don't eat too full,
+[[health-conditions]]) got worse and sleep fell to 5–6 h after rice 100 → 200 g. Rice back to **100 g (one frozen pack)**,
+**2nd energy bar in the afternoon** (outside the entecavir gap), **olive oil 4 → 13 g** (the 11-09 step, brought forward) to keep EA ≈1,700.
+The 10-26 → 11-08 TDEE window ended early; 11-08 re-derives TDEE from a noisy 10-26 → 11-04 trend. Last meal (yogurt + oats) finished ≥3 h before bed;
+diet cola not after lunch. He logs bloating 0–3 + finish time for 3 nights. From 11-09 the old steps would give 2,259 (EA ≈1,600, yellow):
+decide at 11-08 whether whey stays 50 g. The "lower step" paragraph above is now in force.
