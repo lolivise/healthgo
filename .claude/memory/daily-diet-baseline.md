@@ -231,5 +231,8 @@ decide at 11-08 whether whey stays 50 g. The "lower step" paragraph above is now
 skin ([[skin-dryness-itch]]), tiny volume; honey is free sugar and a high-fructose gas suspect (unverified). Check the walnut
 pack label for kcal/100 g. 11-08 may still reset the kcal.
 **Meal layout from 2026-11-05 (Darren, 2026-11-04):** one 100 g rice pack is split half at breakfast (50 g) and half at lunch (50 g)
-(thaw it once, eat both halves the same day, no refreeze). Vegetables **200 g at breakfast + 200 g at lunch = 400 g/day** (he confirmed; the
-600 g in the table above, incl. 150 g tomato, may be stale: open question, ≈ −45 to −65 kcal if so).
+(thaw it once, eat both halves the same day, no refreeze). ⭐ **Real vegetable amounts (Darren, 2026-11-04), replacing the 600 g
+table above: 445 g/day = frozen stir-fry 125 g + spinach/kale 200 g + tomato 120 g**, about half of each in breakfast and lunch
+(≈200 g/meal). That is −43 kcal vs the 600 g table. **Olive oil 18 g/day** (not 13; +45 kcal to keep EA ≥1,700), cooked into
+breakfast and lunch. **Intake: ≈2,368 kcal 11-05 → 11-08, ≈2,365 from 11-09** (whey 30 g, Chobani 300 g, walnuts 35 g), EA ≈1,705–1,710.
+The 11-09 plan.json note and the earlier "13 g oil / 2,366 / 2,363" figures in this section are superseded by these.
