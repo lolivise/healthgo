@@ -60,10 +60,13 @@ only the rules behind those numbers and the decisions made about them. Don't pas
   inversely associated). 3 sets only as a superset with cable kickback, to stay ≤ 50 min (11-05 was 50.3 min).
   DB lateral raise back to **14 kg**, raise to shoulder height (≤ 90°, Kolber 2014).
 - **Sunday chest:** + **DB lateral raise 3 × 15 at 12–14 kg**, to shoulder height (weekend, no time cap). Placement
-  (decided 11-05 after reading the 4 Sunday sessions): **after lying triceps extension, as a superset with the weighted
-  crunch** (raise → crunch → rest, × 3). Not first: heavy incline/flat bench must not start on a fatigued cuff, and
-  multi-joint first favours bench strength (Nunes 2021, PMID 32077380); hypertrophy is order-independent. Superset
-  saves ~3–4 min (Sunday drifted 63 → 82.5 min, 10-18 → 11-01).
+  (Darren's order, 11-05): **chest fly → DB lateral raise (3 straight sets) → cable kickback + weighted crunch as a
+  superset**. Not first: heavy incline/flat bench must not start on a fatigued cuff, and multi-joint first favours bench
+  strength (Nunes 2021, PMID 32077380); hypertrophy is order-independent. Sunday drifted 63 → 82.5 min (10-18 → 11-01).
+- ⭐ **Sunday triceps: lying DB triceps extension → cable kickback (Darren, from W45; first Sunday 11-08).** Kickback is
+  now Thu + Sun, 3 sets each; lying extension is no longer done. Trade-off: kickback trains the long head with the
+  shoulder extended (short length), losing the stretched position (Maeo 2023, PMID 35819335, `tiny n`: overhead >
+  neutral); the overhead variant would put the right shoulder in full flexion, so kickback is a reasonable choice for him.
 - Result: side delt 5 → 6 sets/wk over 2 days (Schoenfeld 2019: frequency neutral when volume equal), rear delt
   3 → 5–6 (Thu + Sat), external rotation 0 → 2–3. Recurring "funny" feeling, pain, swelling or night pain → physio.
 - ⚠️ Tuesday legs runs 53 min (10-27, 11-03), over the weekday cap: trim a leg-press ramp set or superset
@@ -77,7 +80,7 @@ reaches 12 clean reps.
 - Indoor row: 40 kg is the baseline.
 - Flat barbell bench: stay at 50 kg until all three sets reach 12, then 55. Incline bench stays at 50.
 - Chest fly: hold 40 kg; back to 33 on any front-shoulder discomfort.
-- Lying DB triceps extension: 15 kg back-off sets recovering (10-18 10/7 → 10-25 9/9 → 11-01 12/10); hold 15 kg until all sets reach 12. The digest's "−25 % vs best 30" is an e1RM artefact of the 20 kg × 15 first set, not a loss. Weighted crunch "−28.7 %" likewise (same 20 kg, 20–40-rep sets): ignore e1RM on high-rep accessories.
+- Lying DB triceps extension (**dropped from W45**, replaced by Sunday cable kickback; history only): 15 kg back-off sets recovering (10-18 10/7 → 10-25 9/9 → 11-01 12/10); hold 15 kg until all sets reach 12. The digest's "−25 % vs best 30" is an e1RM artefact of the 20 kg × 15 first set, not a loss. Weighted crunch "−28.7 %" likewise (same 20 kg, 20–40-rep sets): ignore e1RM on high-rep accessories.
   Accessory only.
 - Cable kickback: 15 kg from 10-22; 15 × 15 on all three sets 10-29 → 17.5 kg next shoulder day.
 - DB shoulder press 10-29: 35 × 12/12/11 (10-22: 12/11/10). Still hold 35 kg (shoulder rule above).
