@@ -12,6 +12,9 @@ only the rules behind those numbers and the decisions made about them. Don't pas
 
 - **Split:** early-morning sessions, Back ×2, Chest, Shoulders, Legs, plus short "Functional Workout" sessions, and
   treadmill ~30 min most days.
+- ⭐ **Weekday lifting ≤ 50 min (Darren, 2026-11-05):** he goes to work after training, so Tue/Wed/Thu (and any
+  weekday) sessions must fit in 50 min; only weekend sessions may run over an hour. Any exercise added to a weekday
+  session must be paid for by removing or supersetting something. He also wants sessions efficient, not long.
 - **No squat or deadlift**, ever ([[health-conditions]]). Legs = leg press and machines. Garmin labels are inconsistent:
   bench shows as BARBELL_BENCH_PRESS, BENCH_PRESS or UNKNOWN.
 - **Technique phase (late Sep → early Oct 2026) is OVER.** He lowered loads for posture and slower tempo, and the
@@ -48,6 +51,19 @@ only the rules behind those numbers and the decisions made about them. Don't pas
   (~150–190 min/wk, keeps the cardio floor in [[evidence-exercise-and-aging]]). Make Friday legs a different emphasis
   (hamstrings/glutes: leg curl, hip thrust, RDL-free) from Tuesday (leg press, quads). Watch Friday HRV/stress, since
   Friday was the slump day; the surplus should help. Not Monday: Mon + Tue legs back-to-back.
+
+**Shoulder split change (Darren's proposal 2026-11-05, tuned by evidence; start Sun 11-08 / Thu 11-12):**
+- Trigger: Thu 11-05 the right shoulder "felt funny" on the 3rd delt exercise (cable lateral raise) after DB lateral
+  raise 14→**16 kg** and OHP 35 × 12/12/12, the heaviest shoulder session so far. Side delts were 5 sets/wk, all Thursday.
+- **Thursday:** cable lateral raise (2 sets) → **rope face pull, 2–3 × 15, light, finish thumbs back (external
+  rotation)**: rear delt + external rotators (Kolber 2014/2017: lifters with impingement have weak ERs; ER training
+  inversely associated). 3 sets only as a superset with cable kickback, to stay ≤ 50 min (11-05 was 50.3 min).
+  DB lateral raise back to **14 kg**, raise to shoulder height (≤ 90°, Kolber 2014).
+- **Sunday chest:** + **DB lateral raise 3 × 15 at 12–14 kg**, last, to shoulder height (weekend, no time cap).
+- Result: side delt 5 → 6 sets/wk over 2 days (Schoenfeld 2019: frequency neutral when volume equal), rear delt
+  3 → 5–6 (Thu + Sat), external rotation 0 → 2–3. Recurring "funny" feeling, pain, swelling or night pain → physio.
+- ⚠️ Tuesday legs runs 53 min (10-27, 11-03), over the weekday cap: trim a leg-press ramp set or superset
+  adduction/abduction. Flagged 11-05, his call.
 
 **Current load decisions (as of the W44 full review, 2026-11-01).** Rule of thumb: add load once every working set
 reaches 12 clean reps.
