@@ -59,7 +59,11 @@ only the rules behind those numbers and the decisions made about them. Don't pas
   rotation)**: rear delt + external rotators (Kolber 2014/2017: lifters with impingement have weak ERs; ER training
   inversely associated). 3 sets only as a superset with cable kickback, to stay ≤ 50 min (11-05 was 50.3 min).
   DB lateral raise back to **14 kg**, raise to shoulder height (≤ 90°, Kolber 2014).
-- **Sunday chest:** + **DB lateral raise 3 × 15 at 12–14 kg**, last, to shoulder height (weekend, no time cap).
+- **Sunday chest:** + **DB lateral raise 3 × 15 at 12–14 kg**, to shoulder height (weekend, no time cap). Placement
+  (decided 11-05 after reading the 4 Sunday sessions): **after lying triceps extension, as a superset with the weighted
+  crunch** (raise → crunch → rest, × 3). Not first: heavy incline/flat bench must not start on a fatigued cuff, and
+  multi-joint first favours bench strength (Nunes 2021, PMID 32077380); hypertrophy is order-independent. Superset
+  saves ~3–4 min (Sunday drifted 63 → 82.5 min, 10-18 → 11-01).
 - Result: side delt 5 → 6 sets/wk over 2 days (Schoenfeld 2019: frequency neutral when volume equal), rear delt
   3 → 5–6 (Thu + Sat), external rotation 0 → 2–3. Recurring "funny" feeling, pain, swelling or night pain → physio.
 - ⚠️ Tuesday legs runs 53 min (10-27, 11-03), over the weekday cap: trim a leg-press ramp set or superset
