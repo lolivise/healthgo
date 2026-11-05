@@ -336,7 +336,7 @@
     "price": "7.50",
     "product_id": "b2bf0ef5-9911-43b6-bbe9-8d69321a508c",
     "remaining_count": null,
-    "status": "UNAVAILABLE",
+    "status": "ACTIVE",
     "uber_price": null,
     "unit_type": null,
     "volume": null
