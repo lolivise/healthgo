@@ -43,6 +43,9 @@ metadata:
   the bloating rose and sleep fell (5–6 h). So size meals by volume as well as kcal; keep the last meal small and finished
   ≥3 h before bed (reflux evidence only, sleep evidence mixed). A literature check found no evidence that rice itself causes
   gas; fermentable foods (oats, lactose, 600 g veg, cola) are unproven suspects. See [[daily-diet-baseline]].
+  **Result (Darren, 2026-11-06): bloating improved** within 2 days of the 11-05 change (rice back to 100 g, 2nd bar in the
+  afternoon, last meal earlier); sleep 5.06 → 6.12 → 6.50 h over the same nights. When raising kcal at 11-08 or later,
+  prefer low-volume foods (oil, walnuts) over more rice volume; don't go back to 200 g rice without asking about bloating.
 - Otherwise healthy. No other conditions or medications reported.
 
 Related: [[user-profile]]
