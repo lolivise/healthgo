@@ -59,6 +59,11 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
   ([[evidence-long-cut-duration]]).
   - **11-08 (W45) review = TDEE measurement only:** set the 11-09 → 12-13 intake from the measured TDEE so the rate sits
     inside [[safety-limits]] (≤0.7 %/wk above 84 kg, ≤0.5 % at or below 84 kg), with the fat floor oil step.
+  - ⭐ **Steer by the rate band, not a precise TDEE (Darren, 2026-11-06, after a messy window: glycogen step, 2 eat-out
+    days, diet change 11-05, food left out 11-06):** 11-08 gives a TDEE *range* (~2,500–2,900 then) and picks a starting
+    intake; after that the only control is the 14-day rate held in **0.3–0.7 %/wk** (>84 kg), adjusted one step at a time
+    in whole rice packs / energy bars. Don't chase a clean measurement or extend a "measurement window". The 12-14
+    maintenance kcal falls out of the last 2–4 cut weeks: intake + weekly kg lost × 6,850 ÷ 7.
   - **What still applies inside the cut:** a yellow/red argues for *more kcal within the cut* (slower rate), never for
     stopping it. The hard limits (1 %/wk stop line, 1,700 kcal / EA floors, protein and fat floors) and the doctor
     referrals (RHR +8 for 2 wk, liver signs, lactic-acidosis cluster on entecavir, [[health-conditions]]) are unchanged:
