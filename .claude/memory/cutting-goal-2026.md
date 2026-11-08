@@ -64,6 +64,7 @@ consistent year in a surplus, then ~1–2 kg/yr → **~2–3 years** to the goal
     intake; after that the only control is the 14-day rate held in **0.3–0.7 %/wk** (>84 kg), adjusted one step at a time
     in whole rice packs / energy bars. Don't chase a clean measurement or extend a "measurement window". The 12-14
     maintenance kcal falls out of the last 2–4 cut weeks: intake + weekly kg lost × 6,850 ÷ 7.
+  - ⭐ **11-08 result (W45 full review):** TDEE range **≈2,500–2,700** (2,520 kcal 10-26 → 11-04 gave flat weight; script's 2,890 is inflated by W43's drop). Intake stays **≈2,403 from 11-09** because EA (intake − ~704 Garmin activity kcal) lands right on the 1,700 floor: the hard limit, not the 0.3 % band, now binds. Expected rate ~0.1–0.3 %/wk; Christmas ≈ 87.8–88.4 kg. If the 14-day trend is still ≈0 at 11-15/11-22, say plainly the cut has stalled at this intake and the EA floor blocks cutting further (his call on more steps).
   - **What still applies inside the cut:** a yellow/red argues for *more kcal within the cut* (slower rate), never for
     stopping it. The hard limits (1 %/wk stop line, 1,700 kcal / EA floors, protein and fat floors) and the doctor
     referrals (RHR +8 for 2 wk, liver signs, lactic-acidosis cluster on entecavir, [[health-conditions]]) are unchanged:
