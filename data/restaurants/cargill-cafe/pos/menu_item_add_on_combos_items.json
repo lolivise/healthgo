@@ -695,8 +695,8 @@
     "order": 1,
     "price": "1.00",
     "product_id": null,
-    "remaining_count": null,
-    "status": "ACTIVE",
+    "remaining_count": 0,
+    "status": "UNAVAILABLE",
     "uber_price": null,
     "unit_type": "g",
     "volume": "100.00"
