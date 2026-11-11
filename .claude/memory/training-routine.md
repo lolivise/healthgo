@@ -30,7 +30,17 @@ only the rules behind those numbers and the decisions made about them. Don't pas
 - **Garmin set corrections:** chest fly on 2026-10-25 was logged as 33 kg for the first two sets; Darren corrected it to 40 kg
   locally and in Garmin Connect, so re-pulls keep 40 kg.
 
-**Schedule trial from 2026-10-10 (agreed 2026-10-09):**
+⭐ **Schedule change from W46 (Darren, 2026-11-11): Mon / Wed / Fri mornings = treadmill walk ONLY.** Rushing to
+lift before the office was too hard. This drops **Wednesday back** (pulldown 4 + indoor row 3 + row 3 + DB curl 3 +
+Y-raise 2) and the Mon/Fri 10-min "Functional" sessions (wall slide, push-up plus, Y-raise). Back is now Saturday only
+(~10 sets/wk, see the 10-26 halving note in [[evidence-hypertrophy-training]]). **Thursday = shoulders + arms**
+(full delt + biceps + triceps), still ≤ 50 min. Proposed Thursday (11-11, awaiting his first sessions): warm-up wall
+slide + push-up plus 2 rounds → DB shoulder press 35 kg 3 × 8–12 → DB lateral raise 14 kg 3 × 15 (≤ 90°) → superset
+DB curl 14 kg 3 × 10–15 + cable kickback 15 kg 3 × 15 → superset cable lateral raise 2 + rope face pull 2 × 15;
+Thursday crunch dropped (Tue + Sun keep it). Over 50 min → drop the 3rd DB lateral set first. The bulk plan below
+(Wed back, Fri legs) needs re-deciding when the bulk starts.
+
+**Schedule trial from 2026-10-10 (agreed 2026-10-09; Mon/Wed/Fri superseded 2026-11-11 above):**
 
 | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|---|---|---|---|---|---|
