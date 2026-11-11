@@ -38,11 +38,11 @@ Y-raise 2) and the Mon/Fri 10-min "Functional" sessions (wall slide, push-up plu
 shoulder press was proposed (front delt grows from bench: Lanza 2024 JBMT, PMID 39593465, RCT n=24, MRI), but
 ⭐ **he chose to keep it, done FIRST** (11-11). Order costs the later lift strength, not growth (Nunes 2021, PMID
 32077380). **Agreed Thursday (from 11-12):** warm-up wall slide + push-up plus 2 rounds → **DB shoulder press 35 kg
-3 × 8–12** (hold, shoulder rule) → DB lateral raise 14 kg 3 × 12–16 near failure (≤ 90°) → single-arm cable lateral
-raise **2** × 12–16 (load up from 5 kg so failure lands in 12–16; Larsen 2025 Front Physiol 16:1611468: cable = DB,
-trained n=24, ~10 sets/wk to failure, +3–5 % thickness in 8 wk) → superset DB curl 14 kg 3 × 10–15 + cable kickback
-15 kg 3 × 15 → rope face pull 2 × 15. Side delt/wk: Thu 5 + Sun 3 + **Sat 2 single-arm cable lateral (new,
-weekend)** = 10. Thursday crunch dropped (Tue + Sun keep it). ⚠️ Thursday lateral raise follows the press, so compare
+3 × 8–12** (hold, shoulder rule) → DB lateral raise 14 kg 3 × 12–16 near failure (≤ 90°) → superset DB curl 14 kg
+3 × 10–15 + cable kickback 15 kg 3 × 15 → rope face pull 2 × 15 → **weighted crunch 2 × 20 @ 20 kg last** (Darren,
+11-11: Thursday cable lateral raise removed, crunch kept at the end). Side delt/wk: Thu 3 + Sun 3 + **Sat 2
+single-arm cable lateral (new, weekend; load so failure lands in 12–16, Larsen 2025 Front Physiol 16:1611468: cable
+= DB)** = 8. Proposed, his call: a 4th DB lateral set on Thursday (→ 9/wk; Pelland: most gain ≤ ~12). ⚠️ Thursday lateral raise follows the press, so compare
 its reps only with other Thursdays, never with Sunday's. "Funny" right shoulder → neutral-grip DB or landmine press. The bulk plan below
 (Wed back, Fri legs) needs re-deciding when the bulk starts.
 
