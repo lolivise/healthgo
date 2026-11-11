@@ -34,10 +34,15 @@ only the rules behind those numbers and the decisions made about them. Don't pas
 lift before the office was too hard. This drops **Wednesday back** (pulldown 4 + indoor row 3 + row 3 + DB curl 3 +
 Y-raise 2) and the Mon/Fri 10-min "Functional" sessions (wall slide, push-up plus, Y-raise). Back is now Saturday only
 (~10 sets/wk, see the 10-26 halving note in [[evidence-hypertrophy-training]]). **Thursday = shoulders + arms**
-(full delt + biceps + triceps), still ≤ 50 min. Proposed Thursday (11-11, awaiting his first sessions): warm-up wall
-slide + push-up plus 2 rounds → DB shoulder press 35 kg 3 × 8–12 → DB lateral raise 14 kg 3 × 15 (≤ 90°) → superset
-DB curl 14 kg 3 × 10–15 + cable kickback 15 kg 3 × 15 → superset cable lateral raise 2 + rope face pull 2 × 15;
-Thursday crunch dropped (Tue + Sun keep it). Over 50 min → drop the 3rd DB lateral set first. The bulk plan below
+(full delt + biceps + triceps), still ≤ 50 min. ⭐ **Side delt is his priority (Darren, 11-11): front delt is
+already trained by Sunday bench + incline, so the Thursday DB shoulder press is dropped** (Lanza 2024 JBMT, PMID
+39593465, RCT n=24, 10 wk bench only, MRI: anterior delt CSA grew; no study tests bench + OHP vs bench alone; also
+removes his right-shoulder flare lift). Proposed Thursday (11-11, awaiting first sessions): warm-up wall slide +
+push-up plus 2 rounds → DB lateral raise 14 kg 3 × 12–16 near failure (≤ 90°) → single-arm cable lateral raise 3 ×
+12–16 (load up from 5 kg so failure lands in 12–16; Larsen 2025 Front Physiol 16:1611468: cable = DB, trained n=24,
+~10 sets/wk to failure, +3–5 % thickness in 8 wk) → superset DB curl 14 kg 3 × 10–15 + cable kickback 15 kg 3 × 15 →
+rope face pull 2–3 × 15. Side delt/wk: Thu 6 + Sun 3 + **Sat 2 single-arm cable lateral (new, weekend)** = 11.
+Thursday crunch dropped (Tue + Sun keep it). Over 50 min → drop the 3rd face-pull set first. The bulk plan below
 (Wed back, Fri legs) needs re-deciding when the bulk starts.
 
 **Schedule trial from 2026-10-10 (agreed 2026-10-09; Mon/Wed/Fri superseded 2026-11-11 above):**
