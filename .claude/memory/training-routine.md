@@ -37,13 +37,16 @@ Y-raise 2) and the Mon/Fri 10-min "Functional" sessions (wall slide, push-up plu
 (full delt + biceps + triceps), still ≤ 50 min. ⭐ **Side delt is his priority (Darren, 11-11).** Dropping the DB
 shoulder press was proposed (front delt grows from bench: Lanza 2024 JBMT, PMID 39593465, RCT n=24, MRI), but
 ⭐ **he chose to keep it, done FIRST** (11-11). Order costs the later lift strength, not growth (Nunes 2021, PMID
-32077380). **Agreed Thursday (from 11-12):** warm-up wall slide + push-up plus 2 rounds → **DB shoulder press 35 kg
+32077380). **Agreed Thursday (from 11-12):** warm-up **incline Y raise 2 × 15 @ 8 kg** (Darren 11-11: replaces wall
+slide + push-up plus on Thursday; Y raise = lower trap, Kolber 2017; push-up plus has EMG-only evidence) → **DB shoulder press 35 kg
 3 × 8–12** (hold, shoulder rule) → DB lateral raise 14 kg 3 × 12–16 near failure (≤ 90°) → superset DB curl 14 kg
 3 × 10–15 + cable kickback 15 kg 3 × 15 → rope face pull 2 × 15 → **weighted crunch 2 × 20 @ 20 kg last** (Darren,
 11-11: Thursday cable lateral raise removed, crunch kept at the end). Side delt/wk: Thu 3 + Sun 3 + **Sat 2
 single-arm cable lateral (new, weekend; load so failure lands in 12–16, Larsen 2025 Front Physiol 16:1611468: cable
 = DB)** = 8. Proposed, his call: a 4th DB lateral set on Thursday (→ 9/wk; Pelland: most gain ≤ ~12). ⚠️ Thursday lateral raise follows the press, so compare
-its reps only with other Thursdays, never with Sunday's. "Funny" right shoulder → neutral-grip DB or landmine press. The bulk plan below
+its reps only with other Thursdays, never with Sunday's. Rest: press 2 min, lateral raise 90 s, curl↔kickback
+superset 0 s within / 90 s between rounds, face pull + crunch 60 s, Y raise 30 s (Singer 2024 PMID 39205815: no
+hypertrophy gain beyond 90 s); estimated ~35 min, not yet measured. "Funny" right shoulder → neutral-grip DB or landmine press. The bulk plan below
 (Wed back, Fri legs) needs re-deciding when the bulk starts.
 
 **Schedule trial from 2026-10-10 (agreed 2026-10-09; Mon/Wed/Fri superseded 2026-11-11 above):**
