@@ -4,26 +4,26 @@
     "menu_unmapped:Beef tri tips /牛臀三角,沙茶醬,空心菜": "2026-10-16",
     "menu_unmapped:芋圓(EMMA)": "2026-11-01"
   },
-  "complete_through": "2026-11-07",
+  "complete_through": "2026-11-14",
   "inbox_last_id": 24,
   "last_login_attempt_at": "2026-10-09T11:22:07+08:00",
   "last_login_result": "ok",
   "last_pull": {
-    "at": "2026-11-08T18:25:02+08:00",
+    "at": "2026-11-15T19:17:43+08:00",
     "garmin": "ok",
     "garmin_window": [
-      "2026-11-03",
-      "2026-11-08"
+      "2026-11-09",
+      "2026-11-15"
     ],
     "inbox_last_id": 24
   },
-  "last_sync_at": "2026-11-08T18:26:17+08:00",
+  "last_sync_at": "2026-11-15T19:19:16+08:00",
   "last_sync_window": [
-    "2026-11-03",
-    "2026-11-08"
+    "2026-11-09",
+    "2026-11-15"
   ],
   "menu_hash": {
-    "cargill-cafe": "95a4dedd7f0a500fc29df9303663ae77672ff0f25bcbe130b22f81da8ccd36b2"
+    "cargill-cafe": "85dcc7e80f42be9bd15125978ade6135f06d7143cd9e3ebf5db5c254954a3594"
   },
   "menu_unmapped": {
     "cargill-cafe": [

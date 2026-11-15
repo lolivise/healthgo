@@ -63,6 +63,7 @@
   "maxRunningCadenceInStepsPerMinute": 222.0,
   "maxSpeed": 2.7709999084472656,
   "minActivityLapDuration": 311.32598876953125,
+  "moderateIntensityMinutes": 55,
   "movingDuration": 3878.0,
   "ownerDisplayName": "49de0d23-a7c3-4853-9194-a0e6b27990d3",
   "ownerFullName": "Darren",
@@ -175,5 +176,6 @@
     "ROLE_GCM_USER",
     "ROLE_GCW_USER"
   ],
+  "vigorousIntensityMinutes": 7,
   "waterEstimated": 680.0
 }
