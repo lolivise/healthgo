@@ -1,9 +1,22 @@
 ---
 name: health-conditions
-description: Hepatitis B controlled ON ENTECAVIR (antiviral, never stop), right shoulder that flares on heavy overhead press, bloodwork twice a year — all normal as of 2026-10
+description: Hepatitis B controlled ON ENTECAVIR (antiviral, never stop); FINASTERIDE 1.25 mg/day for hair, restarted 2026-11-19 after 6+ months off; right shoulder that flares on heavy overhead press, bloodwork twice a year — all normal as of 2026-10
 metadata:
   type: user
 ---
+
+- ⭐ **Finasteride 1.25 mg/day, RESTARTED 2026-11-19** for hair thinning: a quarter of a 5 mg tablet of
+  列腺威膜衣錠 (Taiwan generic, = 波斯卡/Proscar; opendrug.com.tw). **He took it before and stopped it for 6+ months**
+  (stopped ~May 2026 or earlier). **He took it ~1.5 years before stopping** (≈ late 2024 → ~May 2026; told 11-19). He told the
+  prescribing doctor he takes liver medication (entecavir); **the doctor said they don't conflict.** ⚠️ **Side effect on his
+  first course (Darren, 11-19): lower libido and fewer morning erections (性慾下降、晨勃減少).** (A voice transcript first read
+  this as "heart rate / pulse went down": wrong, he corrected it.) Whether this is why he stopped, and whether it recovered
+  after stopping: asked 11-19. This confounds the "libido / morning erections" too-fast-cut signal in
+  [[evidence-rapid-loss-harms]]: on finasteride a drop there no longer points to the diet alone. Keep it out of /feel
+  ([[feel-checkin]] has no libido question by his choice); only discuss it when he raises it. So the thinning noticed by 11-19 has
+  **two candidate causes that can't be told apart**: telogen effluvium after the fast Jul–Sep loss ([[cutting-goal-2026]], cut
+  ended 11-19) and androgenetic alopecia resuming after stopping finasteride. The restart itself is not the cause. Doctor cleared it with entecavir (above). Evidence check (liver, entecavir, PSA, side effects, split-tablet pregnancy handling, training):
+  `research/medical/notes/finasteride/finasteride_check.md`. Tell every doctor; PSA reads ~halved on it.
 
 - **Hepatitis B, liver issues, under control** (reported 2026-10-09). Implications:
   - ⭐ **He takes an antiviral: Entecavir-WGR** (entecavir, generic; told 2026-10-25, link:
