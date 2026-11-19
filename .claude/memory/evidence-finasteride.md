@@ -23,6 +23,7 @@ Checked 2026-11-19 when he restarted finasteride 1.25 mg/day ([[health-condition
 | PSA | 1 mg: 0.7 → 0.5 ng/mL at 12 mo; 5 mg ≈ −50 %; any confirmed rise from nadir needs work-up | label [V] |
 | Handling | women pregnant or possibly pregnant must not handle crushed/broken tablets (male fetus genitalia); semen exposure tiny (≤1.52 ng/mL). **He splits 5 mg tablets → broken tablets** | label 5.1 [V] |
 | Muscle | no RCT in trained men; indirect: dutasteride + T (Bhasin 2012, PMID 22396515, n=139) and finasteride 5 mg + T (Borst 2014, PMID 24326421, n=60 older men) didn't blunt FFM/strength gains | [V] |
+| Testosterone | finasteride blocks T → DHT, it does **not** lower T: label (finasteride 5 mg BPH generic) "median circulating testosterone increased by approximately 10–20 % but remained within the physiologic range"; 1 mg phase III review: DHT −68.4 %, T +9.1 % median at 1 y (McClellan & Markham 1999, Drugs; review, not read in full) | label [V] (drugcentral, 11-19); review [S] |
 | Creatine | DHT +56 % (van der Merwe 2009, n=20, unreplicated); hair RCT null (Lak 2025) → [[evidence-supplements]] | [V] |
 
 **For him:** restart is evidence-backed for pattern loss; stopping ~6 mo ago may have contributed to the thinning but can't be
