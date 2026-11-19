@@ -34,6 +34,11 @@
       "from": "2026-11-09",
       "kcal": 2403,
       "note": "[Corrected again 2026-11-04: frozen stir-fry 250 g/day not 125 g -> veg 570 g/day, +38 kcal => 2,403 kcal, EA ~1,743.] [Corrected 2026-11-04: veg 445 g (-43 kcal) and olive oil 18 g (+45 vs 13 g) => 2,365 kcal, EA ~1,705; the arithmetic below started from 2,366.] Darren 2026-11-04: whey 50 -> 30 g and Chobani yogurt swap stay a must; refill with raw walnuts +15 g (20 -> 35 g in the dinner yogurt, +104 kcal; Coles label per 100 g: 696 kcal, 14.4 P, 69.2 F (4.4 SFA), 3.0 C, 6.4 fibre, 2.7 sugar). With rice 100 g kept: 2,366 - 80 (whey) - 27 (yogurt) + 104 = ~2,363, EA ~1,700 at ~660 activity kcal. Walnuts over honey/almond: LA for skin, low volume, honey = free sugar + high-fructose gas suspect. 11-08 review may still reset the kcal from the measured TDEE. Original 11-09 note: Health-guard proposals adopted 2026-10-25: olive oil 4 -> 13 g (+80 kcal) for the 0.7 g/kg fat floor; whey 50 -> 30 g (-80 kcal, -15.8 g protein; Darren 2026-10-29); yogurt Coles Simply strawberry 310 g -> Chobani Plain Greek Whole Milk 300 g (-27 kcal, +12.2 g protein, +6.7 g fat, -29.5 g sugar; Darren 2026-10-29), so kcal nets to ~2,493 and protein ~177 g; everything else as the 10-26 entry. Cut runs to 12-13 regardless (Darren, 2026-10-29); 11-08 review resets this kcal from the measured TDEE so the rate stays within the cap"
+    },
+    {
+      "from": "2026-11-19",
+      "kcal": 2647,
+      "note": "CUT ENDED 2026-11-19, Darren's own decision: his hair has got thinner (fits telogen effluvium 2-4 months after the fast Jul-Sep phase). Straight step to maintenance (no ramp). TDEE range ~2,500-2,700 (W45) + 28-day trend ~0 at a mixed ~2,420 base + eat-out days, and the true weight probably slightly down under the post-weekend water => maintenance ~2,600-2,700; start at 2,403 + 2 energy bars (+244) = ~2,647. He doesn't want more rice (bloating). Equal-kcal swaps allowed: 1 bar = 122 kcal ~ walnuts +17 g ~ olive oil +14 g. Judge from week 3: 7-day trend rising >0.25 kg/wk -> trim 100-150; falling >0.25 kg/wk -> add one step."
     }
   ],
   "cut": {
@@ -55,7 +60,8 @@
       88
     ],
     "weight_note": "expected landing zone, not a target (plan revised 2026-10-10)",
-    "maintenance_from": "2026-12-14"
+    "maintenance_from": "2026-11-19",
+    "maintenance_note": "was 2026-12-14; brought forward by Darren 2026-11-19 because of hair thinning (cutting-goal-2026.md)"
   },
   "trip": {
     "start": "2027-01-23",

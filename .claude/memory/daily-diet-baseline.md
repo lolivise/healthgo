@@ -239,3 +239,10 @@ the 600 g table (tomato 120 not 150 g). **Olive oil 18 g/day** (not 13; +45 kcal
 breakfast and lunch. **Intake: ≈2,406 kcal 11-05 → 11-08, ≈2,403 from 11-09** (whey 30 g, Chobani 300 g, walnuts 35 g), EA ≈1,743–1,746
 at ~660 activity kcal. (The stir-fry fix adds +38 kcal, +1.5 P, +4.9 C, +3.2 g fibre to the 2,368 / 2,365 first worked out.)
 The 11-09 plan.json note and the earlier "13 g oil / 2,366 / 2,363 / 2,368 / 2,365" figures in this section are superseded by these.
+
+⭐ **MAINTENANCE from 2026-11-19 (cut ended, hair thinning, [[cutting-goal-2026]]): ≈2,647 kcal = the 11-09 diet + 2 more energy bars
+(4/day).** Darren asked not to add rice (bloating) and to use energy bars or other energy-dense food. Rice stays 100 g. Added 2 bars =
++244 kcal, +4.4 P, +7.2 F (2.6 SFA), +37.4 C, +10.8 g sugar, only ~63 g of food. Timing: outside the entecavir window (~08:30–12:30),
+e.g. one with/after lunch and one mid-afternoon, or one in the evening ≥3 h before bed. **Equal-kcal swaps (his choice, per bar ≈122 kcal):**
+walnuts +17 g (into the dinner yogurt; LA for skin) or olive oil +14 g (cooked into breakfast/lunch, zero volume). Not: liquid sugar
+(手搖飲, juice), butter/coconut/fried snacks (SFA, [[evidence-bulk-nutrition]]). Free sugar ≈16 → ≈27 g/day, under the 10 % kcal line (≈66 g).

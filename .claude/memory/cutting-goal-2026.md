@@ -1,9 +1,22 @@
 ---
 name: cutting-goal-2026
-description: The cut — started 2026-07-15 at 102 kg, goal 15–18% BF (~80–83 kg) finished after the trip; gentle cut to 2026-12-13, then maintenance 12-14 → 01-22 (no pre-trip weight target)
+description: The cut — started 2026-07-15 at 102 kg, goal 15–18% BF (~80–83 kg) finished after the trip; CUT ENDED 2026-11-19 (Darren, hair thinning), maintenance ≈2,650 → 01-22 (no pre-trip weight target)
 metadata:
   type: project
 ---
+
+⭐⭐ **CUT ENDED 2026-11-19 — Darren's own decision, not a proposal (he said: "今天開始我要停止減脂，因為我覺得我掉髮的情況有點多… my
+hair has become thinner").** This overrides the "cut to 12-13 no matter what" rule below: that rule stopped *me* proposing an
+early end; he chose it himself. Maintenance now runs **2026-11-19 → 2027-01-22** (~9 weeks incl. Christmas), then the trip.
+- **Maintenance kcal ≈2,650** (2,403 + 2 energy bars). Basis: W45 TDEE range ≈2,500–2,700; 28-day OLS slope to 11-19 ≈0.00 %/wk
+  at a mixed base ≈2,420 (2,164 ×3 d, 2,520 ×10, 2,403 ×15) + unlogged eat-out (11-06 McD, 11-13 → 11-15 weekend), with the
+  11-16 → 11-18 readings (90.3/89.1/88.9) still carrying weekend water over the 87.6–87.9 of 11-09 → 11-12. Garmin active kcal
+  ≈541/day, steps ≈10,070 (11-06 → 11-18). He didn't want more rice (bloating, [[daily-diet-baseline]]).
+- Rules from [[evidence-maintenance-transition]]: straight step, expect +0.5–2 kg water in 2 weeks, judge from week 3
+  (rising >0.25 kg/wk → −100–150; falling >0.25 kg/wk → +1 step).
+- Hair: see [[evidence-rapid-loss-harms]]; ferritin/zinc/vit D/TSH at the next blood test via GP, no supplements (Hep B rule).
+- **After the trip: not yet re-decided.** The old "resume at ~0.5 %/wk" plan stands as a placeholder; re-decide with him after
+  the trip, with the hair outcome as an input. The 81 kg cut-stop band and final goal are unchanged.
 
 **Phase: cutting since 2026-07-15**, starting at **102 kg**. By 2026-10-09 he was **90.6 kg**
 (−11.4 kg in ~12 weeks ≈ 0.95 kg/week, ~1%/week — at the top of the safe range).
