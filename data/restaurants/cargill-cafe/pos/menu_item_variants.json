@@ -78,19 +78,6 @@
     "uber_price": "27.30"
   },
   {
-    "id": "1427a341-7dbd-433f-b8be-f21441f9c551",
-    "is_uber_enabled": false,
-    "kitchen_ticket_text": "古道百香果綠茶",
-    "menu_item_id": "826c6fd7-8078-4362-b48c-3377f5c2f653",
-    "name_en": "Gudao Passion Fruit Green Tea",
-    "name_zh": "古道百香果綠茶",
-    "price": "4.00",
-    "product_id": "6287f839-9909-456d-8ce1-48bd6c32dc50",
-    "remaining_count": null,
-    "status": "ACTIVE",
-    "uber_price": null
-  },
-  {
     "id": "160460f9-d379-4468-a94d-c21acb14052f",
     "is_uber_enabled": false,
     "kitchen_ticket_text": "米漿 (大)",
@@ -102,19 +89,6 @@
     "remaining_count": null,
     "status": "ACTIVE",
     "uber_price": "8.00"
-  },
-  {
-    "id": "1c66f2c8-1645-4c02-a2d1-2cef2694cdf3",
-    "is_uber_enabled": false,
-    "kitchen_ticket_text": "維大力",
-    "menu_item_id": "f595f2d1-4e87-44a4-80e5-43b7b0ec806b",
-    "name_en": "Vitali",
-    "name_zh": "維大力",
-    "price": "3.00",
-    "product_id": "b471a0cd-e870-47f0-8b46-50da28079375",
-    "remaining_count": null,
-    "status": "ACTIVE",
-    "uber_price": null
   },
   {
     "id": "1d2225ef-a6f0-4df7-b523-8e8e3157a4c3",
@@ -195,6 +169,19 @@
     "uber_price": "4.55"
   },
   {
+    "id": "277defe1-0569-443f-bfd2-35aa1e5df210",
+    "is_uber_enabled": false,
+    "kitchen_ticket_text": "開喜烏龍茶(有糖)",
+    "menu_item_id": "c3c51ac7-fc56-41ea-bec5-5195c9bddd89",
+    "name_en": "Kai Shi Oolong tea(sugar)",
+    "name_zh": "開喜烏龍茶(有糖)",
+    "price": "4.00",
+    "product_id": null,
+    "remaining_count": null,
+    "status": "ACTIVE",
+    "uber_price": null
+  },
+  {
     "id": "2fc5d7d1-0e54-4aad-8fb2-11727b373fc3",
     "is_uber_enabled": true,
     "kitchen_ticket_text": "土魠魚羹(麵)",
@@ -232,6 +219,32 @@
     "remaining_count": null,
     "status": "ACTIVE",
     "uber_price": "24.70"
+  },
+  {
+    "id": "32c1214c-d6d2-44df-b793-6b4e2a3e78bf",
+    "is_uber_enabled": false,
+    "kitchen_ticket_text": "開喜烏龍茶(無糖)",
+    "menu_item_id": "001fce51-883f-4aea-8445-5f7ef40f5f36",
+    "name_en": "Kai Shi Oolong tea(no sugar)",
+    "name_zh": "開喜烏龍茶(無糖)",
+    "price": "4.00",
+    "product_id": null,
+    "remaining_count": null,
+    "status": "ACTIVE",
+    "uber_price": null
+  },
+  {
+    "id": "3360916a-b514-4de6-b540-456a57624932",
+    "is_uber_enabled": false,
+    "kitchen_ticket_text": "咖啡廣場",
+    "menu_item_id": "a38f845d-0a00-48f6-98d2-b771cef52e74",
+    "name_en": "Cafe Plaza",
+    "name_zh": "咖啡廣場",
+    "price": "2.50",
+    "product_id": null,
+    "remaining_count": null,
+    "status": "ACTIVE",
+    "uber_price": null
   },
   {
     "id": "38ada512-33b3-4759-8821-2cf9fa7a6397",
@@ -598,19 +611,6 @@
     "uber_price": null
   },
   {
-    "id": "6e581635-49ba-4daf-be35-998a1ca249bf",
-    "is_uber_enabled": false,
-    "kitchen_ticket_text": "CC檸檬",
-    "menu_item_id": "d694cc83-62c3-4801-a1a0-fa5e55621efb",
-    "name_en": "CC Lemon",
-    "name_zh": "CC檸檬",
-    "price": "4.00",
-    "product_id": "585d8122-9afa-42cc-a165-1cfeef4be9e7",
-    "remaining_count": null,
-    "status": "ACTIVE",
-    "uber_price": null
-  },
-  {
     "id": "76b2cf56-62f7-48b2-b759-d56ad42e8389",
     "is_uber_enabled": true,
     "kitchen_ticket_text": "炸魚排 (Snapper)",
@@ -648,19 +648,6 @@
     "remaining_count": null,
     "status": "ACTIVE",
     "uber_price": "19.00"
-  },
-  {
-    "id": "7ceddb15-4148-4cb7-adc9-519304526a26",
-    "is_uber_enabled": false,
-    "kitchen_ticket_text": "茶裏王-台式綠茶",
-    "menu_item_id": "fe89c9f7-f84f-49f1-a59e-65e94aa39235",
-    "name_en": "Taiwanese Style Green Tea",
-    "name_zh": "茶裏王-台式綠茶",
-    "price": "4.00",
-    "product_id": null,
-    "remaining_count": null,
-    "status": "ACTIVE",
-    "uber_price": null
   },
   {
     "id": "7cef7f14-dc0e-4414-bd89-2857ce1ec3e5",
@@ -778,19 +765,6 @@
     "remaining_count": null,
     "status": "ACTIVE",
     "uber_price": "5.20"
-  },
-  {
-    "id": "b0d82908-ea85-4083-b607-fd948b33c31c",
-    "is_uber_enabled": false,
-    "kitchen_ticket_text": "古道蘋果桃子茶",
-    "menu_item_id": "13f20311-d07d-452e-8212-e1ab240320bd",
-    "name_en": "Gudao Apple and Peach Tea",
-    "name_zh": "古道蘋果桃子茶",
-    "price": "4.00",
-    "product_id": "26066358-0ad6-4c0f-ae27-3796e1e6b411",
-    "remaining_count": null,
-    "status": "ACTIVE",
-    "uber_price": null
   },
   {
     "id": "b0f04a4f-952d-48b6-905d-3f78adada0c2",
@@ -1126,19 +1100,6 @@
     "name_zh": "0.5",
     "price": "0.50",
     "product_id": null,
-    "remaining_count": null,
-    "status": "ACTIVE",
-    "uber_price": null
-  },
-  {
-    "id": "e600cffc-1c04-4986-9cd8-1edc4b65c895",
-    "is_uber_enabled": false,
-    "kitchen_ticket_text": "古道梅子綠茶",
-    "menu_item_id": "dba2ae8b-3274-4cbb-b051-e7172fd2156f",
-    "name_en": "Gudao Plum Green Tea",
-    "name_zh": "古道梅子綠茶",
-    "price": "4.00",
-    "product_id": "7038453d-05d3-4ba1-9cda-b9e7affffa8a",
     "remaining_count": null,
     "status": "ACTIVE",
     "uber_price": null

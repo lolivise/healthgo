@@ -10738,48 +10738,14 @@
       "warnings": []
     },
     {
-      "breakdown": [
-        {
-          "grams": 340.0,
-          "id": "b8f3b97f-d6b6-4634-a869-12765d9bfc7b",
-          "label": "Gudao Apple Peach Tea / 古道雙味果茶"
-        }
-      ],
-      "category": "Drinks",
-      "coverage": 1.0,
-      "fried_flag": false,
-      "has_oil": false,
-      "menu_item_id": "13f20311-d07d-452e-8212-e1ab240320bd",
-      "name_en": "Gudao Apple and Peach Tea",
-      "name_zh": "古道蘋果桃子茶",
-      "nutrition": {
-        "carb": 28.2,
-        "fat": 0.0,
-        "grams": 340.0,
-        "kcal": 112.2,
-        "protein": 0.0
-      },
-      "oil_allowance_g": 0.0,
-      "oil_reason": null,
-      "pan_fried_flag": false,
-      "price": 4.0,
-      "product_id": "26066358-0ad6-4c0f-ae27-3796e1e6b411",
-      "retail": false,
-      "status": "ACTIVE",
-      "variant_id": "b0d82908-ea85-4083-b607-fd948b33c31c",
-      "variant_label": "Gudao Apple and Peach Tea",
-      "variant_label_zh": "古道蘋果桃子茶",
-      "warnings": []
-    },
-    {
       "breakdown": [],
       "category": "Drinks",
       "coverage": null,
       "fried_flag": false,
       "has_oil": false,
-      "menu_item_id": "fe89c9f7-f84f-49f1-a59e-65e94aa39235",
-      "name_en": "Taiwanese Style Green Tea",
-      "name_zh": "茶裏王-台式綠茶",
+      "menu_item_id": "c3c51ac7-fc56-41ea-bec5-5195c9bddd89",
+      "name_en": "Kai Shi Oolong tea(sugar)",
+      "name_zh": "開喜烏龍茶(有糖)",
       "nutrition": null,
       "oil_allowance_g": 0.0,
       "oil_reason": null,
@@ -10788,114 +10754,36 @@
       "product_id": null,
       "retail": false,
       "status": "ACTIVE",
-      "variant_id": "7ceddb15-4148-4cb7-adc9-519304526a26",
-      "variant_label": "Taiwanese Style Green Tea",
-      "variant_label_zh": "茶裏王-台式綠茶",
+      "variant_id": "277defe1-0569-443f-bfd2-35aa1e5df210",
+      "variant_label": "Kai Shi Oolong tea(sugar)",
+      "variant_label_zh": "開喜烏龍茶(有糖)",
       "warnings": [
         "no_recipe"
       ]
     },
     {
-      "breakdown": [
-        {
-          "grams": 340.0,
-          "id": "00a51c69-ebee-444d-9748-8c51388303ed",
-          "label": "Gudao Plum green tea / 古道梅子綠茶"
-        }
-      ],
+      "breakdown": [],
       "category": "Drinks",
-      "coverage": 1.0,
+      "coverage": null,
       "fried_flag": false,
       "has_oil": false,
-      "menu_item_id": "dba2ae8b-3274-4cbb-b051-e7172fd2156f",
-      "name_en": "Gudao Plum Green Tea",
-      "name_zh": "古道梅子綠茶",
-      "nutrition": {
-        "carb": 28.2,
-        "fat": 0.0,
-        "grams": 340.0,
-        "kcal": 112.2,
-        "protein": 0.0
-      },
+      "menu_item_id": "001fce51-883f-4aea-8445-5f7ef40f5f36",
+      "name_en": "Kai Shi Oolong tea(no sugar)",
+      "name_zh": "開喜烏龍茶(無糖)",
+      "nutrition": null,
       "oil_allowance_g": 0.0,
       "oil_reason": null,
       "pan_fried_flag": false,
       "price": 4.0,
-      "product_id": "7038453d-05d3-4ba1-9cda-b9e7affffa8a",
+      "product_id": null,
       "retail": false,
       "status": "ACTIVE",
-      "variant_id": "e600cffc-1c04-4986-9cd8-1edc4b65c895",
-      "variant_label": "Gudao Plum Green Tea",
-      "variant_label_zh": "古道梅子綠茶",
-      "warnings": []
-    },
-    {
-      "breakdown": [
-        {
-          "grams": 340.0,
-          "id": "b0ea624b-a465-467f-9f92-55e369471990",
-          "label": "Gudao Passion fruit green tea / 古道百香果綠茶"
-        }
-      ],
-      "category": "Drinks",
-      "coverage": 1.0,
-      "fried_flag": false,
-      "has_oil": false,
-      "menu_item_id": "826c6fd7-8078-4362-b48c-3377f5c2f653",
-      "name_en": "Gudao Passion fruit green tea",
-      "name_zh": "古道百香果綠茶",
-      "nutrition": {
-        "carb": 28.2,
-        "fat": 0.0,
-        "grams": 340.0,
-        "kcal": 112.2,
-        "protein": 0.0
-      },
-      "oil_allowance_g": 0.0,
-      "oil_reason": null,
-      "pan_fried_flag": false,
-      "price": 4.0,
-      "product_id": "6287f839-9909-456d-8ce1-48bd6c32dc50",
-      "retail": false,
-      "status": "ACTIVE",
-      "variant_id": "1427a341-7dbd-433f-b8be-f21441f9c551",
-      "variant_label": "Gudao Passion Fruit Green Tea",
-      "variant_label_zh": "古道百香果綠茶",
-      "warnings": []
-    },
-    {
-      "breakdown": [
-        {
-          "grams": 340.0,
-          "id": "28ef6679-9541-4968-b8b1-d95c92cd805c",
-          "label": "Vitali / 維大力"
-        }
-      ],
-      "category": "Drinks",
-      "coverage": 1.0,
-      "fried_flag": false,
-      "has_oil": false,
-      "menu_item_id": "f595f2d1-4e87-44a4-80e5-43b7b0ec806b",
-      "name_en": "Vitali",
-      "name_zh": "維大力",
-      "nutrition": {
-        "carb": 39.1,
-        "fat": 0.0,
-        "grams": 340.0,
-        "kcal": 156.4,
-        "protein": 0.0
-      },
-      "oil_allowance_g": 0.0,
-      "oil_reason": null,
-      "pan_fried_flag": false,
-      "price": 3.0,
-      "product_id": "b471a0cd-e870-47f0-8b46-50da28079375",
-      "retail": false,
-      "status": "ACTIVE",
-      "variant_id": "1c66f2c8-1645-4c02-a2d1-2cef2694cdf3",
-      "variant_label": "Vitali",
-      "variant_label_zh": "維大力",
-      "warnings": []
+      "variant_id": "32c1214c-d6d2-44df-b793-6b4e2a3e78bf",
+      "variant_label": "Kai Shi Oolong tea(no sugar)",
+      "variant_label_zh": "開喜烏龍茶(無糖)",
+      "warnings": [
+        "no_recipe"
+      ]
     },
     {
       "breakdown": [
@@ -11068,38 +10956,28 @@
       "warnings": []
     },
     {
-      "breakdown": [
-        {
-          "grams": 340.0,
-          "id": "a11d5862-01aa-452a-b55f-5f147bbf2c09",
-          "label": "CC Lemon / CC檸檬"
-        }
-      ],
+      "breakdown": [],
       "category": "Drinks",
-      "coverage": 1.0,
+      "coverage": null,
       "fried_flag": false,
       "has_oil": false,
-      "menu_item_id": "d694cc83-62c3-4801-a1a0-fa5e55621efb",
-      "name_en": "CC Lemon",
-      "name_zh": "CC檸檬",
-      "nutrition": {
-        "carb": 29.2,
-        "fat": 0.0,
-        "grams": 340.0,
-        "kcal": 115.6,
-        "protein": 0.0
-      },
+      "menu_item_id": "a38f845d-0a00-48f6-98d2-b771cef52e74",
+      "name_en": "Cafe Plaza",
+      "name_zh": "咖啡廣場",
+      "nutrition": null,
       "oil_allowance_g": 0.0,
       "oil_reason": null,
       "pan_fried_flag": false,
-      "price": 4.0,
-      "product_id": "585d8122-9afa-42cc-a165-1cfeef4be9e7",
+      "price": 2.5,
+      "product_id": null,
       "retail": false,
       "status": "ACTIVE",
-      "variant_id": "6e581635-49ba-4daf-be35-998a1ca249bf",
-      "variant_label": "CC Lemon",
-      "variant_label_zh": "CC檸檬",
-      "warnings": []
+      "variant_id": "3360916a-b514-4de6-b540-456a57624932",
+      "variant_label": "Cafe Plaza",
+      "variant_label_zh": "咖啡廣場",
+      "warnings": [
+        "no_recipe"
+      ]
     },
     {
       "breakdown": [
@@ -11584,13 +11462,13 @@
     "counts": {
       "addons": 40,
       "components": 87,
-      "dishes": 98,
-      "dishes_fully_covered": 77,
-      "dishes_with_grams": 85,
+      "dishes": 95,
+      "dishes_fully_covered": 72,
+      "dishes_with_grams": 80,
       "ingredients": 291,
       "ingredients_mapped": 264,
-      "linked": 85,
-      "unlinked": 13
+      "linked": 80,
+      "unlinked": 15
     },
     "hidden": 1,
     "missing_unit_weights": [],

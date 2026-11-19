@@ -1,5 +1,19 @@
 [
   {
+    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
+    "description_en": "Kai Shi Oolong tea(no sugar)",
+    "description_product_id": null,
+    "description_zh": "開喜烏龍茶(無糖)",
+    "id": "001fce51-883f-4aea-8445-5f7ef40f5f36",
+    "is_uber_enabled": false,
+    "name_en": "Kai Shi Oolong tea(no sugar)",
+    "name_zh": "開喜烏龍茶(無糖)",
+    "order": 11,
+    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/001fce51-883f-4aea-8445-5f7ef40f5f36-1794993957956.jpeg",
+    "remaining_count": null,
+    "status": "ACTIVE"
+  },
+  {
     "category_id": "e53961d3-dc90-4c05-bfa9-dfe9a58f3c22",
     "description_en": "Fresh eggs pan-fried to golden perfection with a lightly crispy edge and tender yolk.",
     "description_product_id": "2a2b8e2b-614a-4186-9689-0fe80a0c594b",
@@ -22,7 +36,7 @@
     "is_uber_enabled": false,
     "name_en": "Sweet Green Tea",
     "name_zh": "生活泡沫綠茶",
-    "order": 109,
+    "order": 21,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/038f785c-5a47-47a2-894d-57fd2cd9cd61-1784015059879.jpeg",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -70,20 +84,6 @@
     "status": "ACTIVE"
   },
   {
-    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
-    "description_en": "Apple and Peach Tea",
-    "description_product_id": null,
-    "description_zh": "蘋果桃子茶",
-    "id": "13f20311-d07d-452e-8212-e1ab240320bd",
-    "is_uber_enabled": false,
-    "name_en": "Gudao Apple and Peach Tea",
-    "name_zh": "古道蘋果桃子茶",
-    "order": 84,
-    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/13f20311-d07d-452e-8212-e1ab240320bd-1780930310523.png",
-    "remaining_count": null,
-    "status": "UNAVAILABLE"
-  },
-  {
     "category_id": "03d229a2-bf04-4362-9a2a-90a20f6e0e78",
     "description_en": "A rich and savory thick soup featuring tender mackerel pike chunks in a flavorful broth infused with dried fish powder, bamboo shoots, and cabbage.",
     "description_product_id": "3998c1d4-1640-420b-b824-cf5728c5e85a",
@@ -120,7 +120,7 @@
     "is_uber_enabled": false,
     "name_en": "Uni-President Milk Tea",
     "name_zh": "麥香奶茶",
-    "order": 107,
+    "order": 19,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/1678402e-8211-417d-b4a1-6aaf9e3d75bd-1780930583419.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -148,7 +148,7 @@
     "is_uber_enabled": true,
     "name_en": "Milk Tea",
     "name_zh": "奶茶",
-    "order": 45,
+    "order": 3,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/1978ec9b-aaa8-4cad-bb55-32c6d6d8a98b-1778908743971.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -232,7 +232,7 @@
     "is_uber_enabled": false,
     "name_en": "Coke Zero",
     "name_zh": "無糖可樂",
-    "order": 90,
+    "order": 13,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/3030deb8-2e80-4c51-ae68-6b2c4a69dd6c-1780930753406.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -302,7 +302,7 @@
     "is_uber_enabled": false,
     "name_en": "Coke",
     "name_zh": "可樂",
-    "order": 89,
+    "order": 12,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/41688d4a-c5fb-4941-96e1-4a04089bb4c4-1780930762025.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -344,10 +344,10 @@
     "is_uber_enabled": true,
     "name_en": "HeySong Sarsaparilla",
     "name_zh": "黑松沙士",
-    "order": 92,
+    "order": 15,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/470d53c2-eba0-49bd-aeb6-f09955dd38f6-1780930461872.png",
     "remaining_count": null,
-    "status": "UNAVAILABLE"
+    "status": "ACTIVE"
   },
   {
     "category_id": "67a65735-5d0e-452f-9805-dcb52efe2c26",
@@ -386,7 +386,7 @@
     "is_uber_enabled": false,
     "name_en": "itoen green tea no sugar",
     "name_zh": "伊藤園無糖綠茶",
-    "order": 81,
+    "order": 7,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/516c7a32-dc78-4470-a633-b762e5b58f0d-1780931545748.jpeg",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -428,7 +428,7 @@
     "is_uber_enabled": false,
     "name_en": "Taiwanese black Tea",
     "name_zh": "紅茶",
-    "order": 46,
+    "order": 4,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/62a0608c-839f-47c0-864d-43f5e10254d2-1778908450238.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -456,7 +456,7 @@
     "is_uber_enabled": false,
     "name_en": " bottled water",
     "name_zh": "瓶裝水",
-    "order": 111,
+    "order": 22,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/6ba9d8d0-2154-4d62-98a4-f0adb752fcf1-1784792685790.webp",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -505,20 +505,6 @@
   },
   {
     "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
-    "description_en": "Passion fruit green tea",
-    "description_product_id": null,
-    "description_zh": "百香果綠茶",
-    "id": "826c6fd7-8078-4362-b48c-3377f5c2f653",
-    "is_uber_enabled": false,
-    "name_en": "Gudao Passion fruit green tea",
-    "name_zh": "古道百香果綠茶",
-    "order": 87,
-    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/826c6fd7-8078-4362-b48c-3377f5c2f653-1780930368472.png",
-    "remaining_count": null,
-    "status": "UNAVAILABLE"
-  },
-  {
-    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
     "description_en": "Oolong Tea",
     "description_product_id": null,
     "description_zh": "烏龍茶",
@@ -526,7 +512,7 @@
     "is_uber_enabled": false,
     "name_en": "itoen golden Oolong Tea",
     "name_zh": "伊藤園黃金烏龍茶",
-    "order": 83,
+    "order": 9,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/8372b4cb-b575-456f-93d4-1cd27ffc2943-1780930239493.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -540,7 +526,7 @@
     "is_uber_enabled": false,
     "name_en": "Milk Tea",
     "name_zh": "奶茶",
-    "order": 48,
+    "order": 6,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/8b45defe-2548-463e-9718-84d6a1c2fa4f-1781441108669.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -582,7 +568,7 @@
     "is_uber_enabled": false,
     "name_en": "Sprite",
     "name_zh": "雪碧",
-    "order": 91,
+    "order": 14,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/92cc3620-942c-4e30-8e73-c6f419baf54e-1780930774801.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -596,7 +582,7 @@
     "is_uber_enabled": true,
     "name_en": "Soy Milk",
     "name_zh": "豆漿",
-    "order": 43,
+    "order": 1,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/92d86018-8e50-4a4c-92ba-e58b89697f2c-1778908483575.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -624,7 +610,7 @@
     "is_uber_enabled": false,
     "name_en": "Green Tea",
     "name_zh": "綠茶",
-    "order": 47,
+    "order": 5,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/99b1be09-96d0-46d1-9479-4cfd1d9ad451-1778921445989.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -668,6 +654,20 @@
     "name_zh": "煎魚排+檸檬胡椒",
     "order": 10,
     "photo_url": null,
+    "remaining_count": null,
+    "status": "ACTIVE"
+  },
+  {
+    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
+    "description_en": "Cafe Plaza",
+    "description_product_id": null,
+    "description_zh": "咖啡廣場",
+    "id": "a38f845d-0a00-48f6-98d2-b771cef52e74",
+    "is_uber_enabled": false,
+    "name_en": "Cafe Plaza",
+    "name_zh": "咖啡廣場",
+    "order": 17,
+    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/a38f845d-0a00-48f6-98d2-b771cef52e74-1794993913570.jpeg",
     "remaining_count": null,
     "status": "ACTIVE"
   },
@@ -724,8 +724,8 @@
     "name_zh": "滷百頁豆腐",
     "order": 32,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/ac604fdc-6a80-42a8-9a18-52dce485c0f9-1778924137763.png",
-    "remaining_count": 0,
-    "status": "SOLD_OUT"
+    "remaining_count": null,
+    "status": "ACTIVE"
   },
   {
     "category_id": "10d4ff2b-e4e9-42c9-9003-b151d201d95a",
@@ -778,7 +778,7 @@
     "is_uber_enabled": false,
     "name_en": "Sweet Black Tea",
     "name_zh": "生活泡沫紅茶",
-    "order": 108,
+    "order": 20,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/b7215540-111d-48a0-ac86-07a10724fd92-1784014967258.jpeg",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -834,8 +834,22 @@
     "is_uber_enabled": false,
     "name_en": "Oi Ocha Hojicha Tea",
     "name_zh": "伊藤園焙茶",
-    "order": 82,
+    "order": 8,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/bec922ab-9870-477f-9378-76258fa10f4d-1780929765765.png",
+    "remaining_count": null,
+    "status": "ACTIVE"
+  },
+  {
+    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
+    "description_en": "Kai Shi Oolong tea(sugar)",
+    "description_product_id": null,
+    "description_zh": "開喜烏龍茶(有糖)",
+    "id": "c3c51ac7-fc56-41ea-bec5-5195c9bddd89",
+    "is_uber_enabled": false,
+    "name_en": "Kai Shi Oolong tea(sugar)",
+    "name_zh": "開喜烏龍茶(有糖)",
+    "order": 10,
+    "photo_url": null,
     "remaining_count": null,
     "status": "ACTIVE"
   },
@@ -862,7 +876,7 @@
     "is_uber_enabled": true,
     "name_en": "Apple Sidra",
     "name_zh": "蘋果西打",
-    "order": 94,
+    "order": 16,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/c99409d1-fd23-41fd-87cd-12829eb3857a-1780930488148.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -952,20 +966,6 @@
     "status": "ACTIVE"
   },
   {
-    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
-    "description_en": "CC Lemon",
-    "description_product_id": null,
-    "description_zh": "CC檸檬",
-    "id": "d694cc83-62c3-4801-a1a0-fa5e55621efb",
-    "is_uber_enabled": false,
-    "name_en": "CC Lemon",
-    "name_zh": "CC檸檬",
-    "order": 96,
-    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/d694cc83-62c3-4801-a1a0-fa5e55621efb-1780930518827.png",
-    "remaining_count": null,
-    "status": "UNAVAILABLE"
-  },
-  {
     "category_id": "da260cee-919e-4d16-9cf4-972f197ceefb",
     "description_en": "Crispy golden fried chicken cutlet seasoned with a blend of Taiwanese spices, delivering a juicy interior with a fragrant, savory crust.",
     "description_product_id": "3604c6c6-d68d-4c2e-abdd-e0f9b21f8faa",
@@ -978,20 +978,6 @@
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/d6a171ae-d7fc-4357-857c-32b612d7f90a-1778853042820.png",
     "remaining_count": null,
     "status": "ACTIVE"
-  },
-  {
-    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
-    "description_en": "Plum Green Tea",
-    "description_product_id": null,
-    "description_zh": "梅子綠茶",
-    "id": "dba2ae8b-3274-4cbb-b051-e7172fd2156f",
-    "is_uber_enabled": false,
-    "name_en": "Gudao Plum Green Tea",
-    "name_zh": "古道梅子綠茶",
-    "order": 86,
-    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/dba2ae8b-3274-4cbb-b051-e7172fd2156f-1780930343352.png",
-    "remaining_count": null,
-    "status": "UNAVAILABLE"
   },
   {
     "category_id": "845337e3-cace-4f36-a855-b4cb08c2b9ac",
@@ -1030,7 +1016,7 @@
     "is_uber_enabled": false,
     "name_en": "Uni-President black tea",
     "name_zh": "麥香紅茶",
-    "order": 97,
+    "order": 18,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/e5ac107d-bd02-4ec8-8b3e-0a01d858e86e-1780930552309.png",
     "remaining_count": null,
     "status": "UNAVAILABLE"
@@ -1086,7 +1072,7 @@
     "is_uber_enabled": true,
     "name_en": "Rice peanut milk",
     "name_zh": "米漿",
-    "order": 44,
+    "order": 2,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/ee925db0-c1a3-431b-b659-6c030b681193-1778925912469.png",
     "remaining_count": null,
     "status": "ACTIVE"
@@ -1104,20 +1090,6 @@
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/f2301739-5a1c-4c8c-bb7f-cca5c4d84790-1778844519790.png",
     "remaining_count": null,
     "status": "ACTIVE"
-  },
-  {
-    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
-    "description_en": "Vitali",
-    "description_product_id": null,
-    "description_zh": "維大力",
-    "id": "f595f2d1-4e87-44a4-80e5-43b7b0ec806b",
-    "is_uber_enabled": false,
-    "name_en": "Vitali",
-    "name_zh": "維大力",
-    "order": 88,
-    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/f595f2d1-4e87-44a4-80e5-43b7b0ec806b-1780930427270.png",
-    "remaining_count": null,
-    "status": "UNAVAILABLE"
   },
   {
     "category_id": "bfd62040-2d65-42b9-a953-369d0f9843fc",
@@ -1160,20 +1132,6 @@
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/fd69f177-566f-4f19-b3de-73526ce8c2de-1778916741860.png",
     "remaining_count": null,
     "status": "ACTIVE"
-  },
-  {
-    "category_id": "40c389c2-dbf0-411c-ad30-c3c39b7e397a",
-    "description_en": "Taiwanese Style Green Tea",
-    "description_product_id": null,
-    "description_zh": "茶裏王-台式綠茶",
-    "id": "fe89c9f7-f84f-49f1-a59e-65e94aa39235",
-    "is_uber_enabled": false,
-    "name_en": "Taiwanese Style Green Tea",
-    "name_zh": "茶裏王-台式綠茶",
-    "order": 85,
-    "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/fe89c9f7-f84f-49f1-a59e-65e94aa39235-1784015298848.jpeg",
-    "remaining_count": null,
-    "status": "UNAVAILABLE"
   },
   {
     "category_id": "24f34c35-0c42-470b-aa26-b47d2c1313f4",
