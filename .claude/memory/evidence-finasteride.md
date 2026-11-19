@@ -24,6 +24,10 @@ Checked 2026-11-19 when he restarted finasteride 1.25 mg/day ([[health-condition
 | Handling | women pregnant or possibly pregnant must not handle crushed/broken tablets (male fetus genitalia); semen exposure tiny (≤1.52 ng/mL). **He splits 5 mg tablets → broken tablets** | label 5.1 [V] |
 | Muscle | no RCT in trained men; indirect: dutasteride + T (Bhasin 2012, PMID 22396515, n=139) and finasteride 5 mg + T (Borst 2014, PMID 24326421, n=60 older men) didn't blunt FFM/strength gains | [V] |
 | Testosterone | finasteride blocks T → DHT, it does **not** lower T: label (finasteride 5 mg BPH generic) "median circulating testosterone increased by approximately 10–20 % but remained within the physiologic range"; 1 mg phase III review: DHT −68.4 %, T +9.1 % median at 1 y (McClellan & Markham 1999, Drugs; review, not read in full) | label [V] (drugcentral, 11-19); review [S] |
+| Libido driver | T + estradiol drive desire/erections (Finkelstein 2013 NEJM, PMID 24024838, RCT n=400); only clearly low T (<~230–375 ng/dL, EMAS PMID 20554979) links to sexual symptoms; DHT block on top of T: no change (Bhasin 2012) | [V] |
+| Nocebo | told about sexual AE 43.6 % vs not told 15.3 % (Mondaini 2007, PMID 17655657, n=107, 5 mg, 1 y, no placebo arm, unreplicated); 5 mg AE gap gone in yrs 2–4 (PLESS label) | [V] |
+| Muscle within normal T | no circulating or muscle hormone (T, DHT…) predicted hypertrophy, androgen-receptor content did (Morton 2018, PMID 30356739, n=49 trained, 12 wk); post-exercise spikes irrelevant (West 2010/2012) | [V] |
+| What lowers T | big/long deficit (Friedl 2000 Rangers 4.5 nmol/L, recovers on refeeding; Mäestu 2010 n=14 −11 %), 5 h sleep −10–15 % (Leproult 2011), low-fat diet SMD −0.38 (Whittaker 2021), chronic alcohol; NOT resistance training (Potter 2021 SMD 0.00) or a 28-d surplus (Sato 2014) | [V] |
 | Creatine | DHT +56 % (van der Merwe 2009, n=20, unreplicated); hair RCT null (Lak 2025) → [[evidence-supplements]] | [V] |
 
 **For him:** restart is evidence-backed for pattern loss; stopping ~6 mo ago may have contributed to the thinning but can't be

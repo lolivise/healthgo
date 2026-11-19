@@ -79,9 +79,11 @@ population norms.
 | `evidence-inflammation-immunity-hepb` | 2026-10-25 |
 | `evidence-asian-hepb` | 2026-10-10 |
 | `evidence-blood-markers` (Lp(a), oxLDL, trans fat, blood counts in a deficit; from /ask 254) | 2026-11-04 |
+| `evidence-finasteride` (hair, dose, stopping/restart, sexual AE + nocebo, T/DHT, muscle, liver vs entecavir, PSA, handling) | 2026-11-19 |
 
 Reports: `medical/慢性發炎 減重過快 臉部老化.md` (notes: `inflammation_drivers_markers`,
-`inflammation_prevention`, `immunity_viral_hepb`).
+`inflammation_prevention`, `immunity_viral_hepb`) · `medical/Finasteride 睪固酮 性慾 增肌.md` (notes:
+`finasteride/finasteride_check`, `finasteride-testosterone-muscle/hormones_libido`, `…/hormones_muscle`; cross-listed in training).
 
 ### 4. Aging & longevity (`aging`) · quarterly
 
