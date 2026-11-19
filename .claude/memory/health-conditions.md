@@ -10,8 +10,12 @@ metadata:
   (stopped ~May 2026 or earlier). **He took it ~1.5 years before stopping** (≈ late 2024 → ~May 2026; told 11-19). He told the
   prescribing doctor he takes liver medication (entecavir); **the doctor said they don't conflict.** ⚠️ **Side effect on his
   first course (Darren, 11-19): lower libido and fewer morning erections (性慾下降、晨勃減少).** (A voice transcript first read
-  this as "heart rate / pulse went down": wrong, he corrected it.) Whether this is why he stopped, and whether it recovered
-  after stopping: asked 11-19. This confounds the "libido / morning erections" too-fast-cut signal in
+  this as "heart rate / pulse went down": wrong, he corrected it.) **His answers 11-19:** not a significant drawback for him (less often in the
+  mood, but desire and function are there); that is **not** why he stopped. **He stopped because he saw no difference in his
+  hair** while on it. He noticed no change after stopping either; the thinning became obvious only in the last few months
+  (the cut), so **he leans toward the cut as the cause**. Counterpoint given (label/placebo data): "no change" on finasteride
+  can itself be the effect, since untreated men keep losing hair; the two causes still can't be separated. He restarts anyway;
+  judge hair at ~6 and 12 months (≈2027-05 / 2027-11). This confounds the "libido / morning erections" too-fast-cut signal in
   [[evidence-rapid-loss-harms]]: on finasteride a drop there no longer points to the diet alone. Keep it out of /feel
   ([[feel-checkin]] has no libido question by his choice); only discuss it when he raises it. So the thinning noticed by 11-19 has
   **two candidate causes that can't be told apart**: telogen effluvium after the fast Jul–Sep loss ([[cutting-goal-2026]], cut
