@@ -25,6 +25,8 @@ All rows [V] = abstract read 2026-11-22, no full text.
 | Novice running injury | 17.8 /1,000 h vs 7.7 (Videbæk 2015, PMID 25951917); weekly +10 % rule no benefit (Buist 2008 RCT n=532); single run > 10 % over 30-day longest HR 1.5–2.3 (Brandt Frandsen 2025 BJSM, PMID 40623829, n=5,205, observational) | moderate |
 | ROM / stiffness | Full-ROM RT = stretching for ROM (Alizadeh 2023, PMID 36622555, 55 studies); stretching doesn't cut injury RR 0.96, RT 0.32 (Lauersen 2014); ≥ 60 s static pre-lift −4.6 % (Behm 2016). Cause of "stiff" feeling: no source | strong / none |
 | HYROX | Running ~60 % of time, VO2max predicts finish (Brandt 2025, PMID 40230601, n=11); ~50 % (Rappelt 2026, n≈39,700 results); injury 14.4/1,000 h knee/lower leg (Chittenden 2026, n=89). No station-injury data | weak |
+| Cadence +5–10 % (video claim 11-22) | Lab load only (Heiderscheit 2011, PMID 20581720, n=45); injury RCT no difference, more foot injuries (PMID 41476413, n=140); injured vs healthy cadence equal (PMID 31643019) → optional cue, not protection | weak |
+| Tissue "3–6× slower", week 4–6 peak (video claim) | Unsourced. Tendon stiffness SMD 0.70 after ≥ 8 wk (Bohm 2015, PMID 27747846); novice injuries follow volume spikes (+86 % the week before, Nielsen 2013, PMID 22990565), not calendar week; intensity progression no extra Achilles/calf injuries (Ramskov 2018 RCT n=447, PMID 29895234); BMI HR 1.15/unit, prior injury 2.7 (Buist 2010) | moderate |
 | HIIT + Hep B | No study found | none |
 
 **For him (2026-11-22, proposed, his call):** 4×4 on Wed + Fri replacing the walk, lifting unchanged, ramp from 4×2.5 min by
