@@ -66,8 +66,9 @@ recomposition, lean bulk, detraining.
 | `evidence-hypertrophy-training` | 2026-10-10 |
 | `evidence-load-reps-stretch` | 2026-10-27 |
 | `evidence-body-fat-and-muscle-growth` | 2026-10-20 |
+| `evidence-running-vo2max-concurrent` (running intervals, VO2max, interference, HYROX) | 2026-11-22 |
 
-Reports: none yet.
+Reports: `training/跑步間歇 VO2max 混合訓練.md` (2026-11-22).
 
 ### 3. Medical: Hep B, inflammation, immunity (`medical`) · quarterly
 

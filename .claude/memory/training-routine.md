@@ -107,6 +107,10 @@ reaches 12 clean reps.
   ⚠️ The digest's W43 "best 45" came from the 15-rep sets; a 12-rep session at the same load reads as −6.7 %. Before calling
   any e1RM "drop" a loss, check the sets: same load with fewer reps on a fixed rep target is not a decrease (mistake made 10-29).
 
+⏳ **Proposed 2026-11-22, his call (not adopted):** running intervals (Norwegian 4×4) on Wed + Fri replacing the walk,
+lifting unchanged; ramp 4×2.5 min → 4×4 by 12-16 (+10 % running time per session); Cooper 12-min test 12-18 and 01-15.
+Evidence: [[evidence-running-vo2max-concurrent]]. If adopted, move Mon/Wed/Fri rule above.
+
 **Training history (told 2026-10-12):** lifting 3–4 years but on/off: blocks of 3–4 months at 6 days/wk, then 1–2
 months off or only 1–2 days/wk. The 2026-07 cut is his first long consistent block. Treat him as **late novice /
 early intermediate** (effective training age ~1.5–2 yr; bench e1RM ~0.75× bodyweight). He still has fast-gain
