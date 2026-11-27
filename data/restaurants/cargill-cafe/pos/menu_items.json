@@ -66,8 +66,8 @@
     "name_zh": "大腸麵線",
     "order": 56,
     "photo_url": "https://d1abw1a1nxk9nx.cloudfront.net/menu-items/9557401e-6891-4115-97aa-61e6fb54f655/0d19d247-cef9-4392-a96e-adbff1762270-1778235777749.jpeg",
-    "remaining_count": null,
-    "status": "ACTIVE"
+    "remaining_count": 0,
+    "status": "SOLD_OUT"
   },
   {
     "category_id": "24f34c35-0c42-470b-aa26-b47d2c1313f4",
@@ -627,7 +627,7 @@
     "order": 103,
     "photo_url": null,
     "remaining_count": null,
-    "status": "ACTIVE"
+    "status": "UNAVAILABLE"
   },
   {
     "category_id": "bfd62040-2d65-42b9-a953-369d0f9843fc",
