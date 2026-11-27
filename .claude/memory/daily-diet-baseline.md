@@ -246,3 +246,11 @@ The 11-09 plan.json note and the earlier "13 g oil / 2,366 / 2,363 / 2,368 / 2,3
 e.g. one with/after lunch and one mid-afternoon, or one in the evening ≥3 h before bed. **Equal-kcal swaps (his choice, per bar ≈122 kcal):**
 walnuts +17 g (into the dinner yogurt; LA for skin) or olive oil +14 g (cooked into breakfast/lunch, zero volume). Not: liquid sugar
 (手搖飲, juice), butter/coconut/fried snacks (SFA, [[evidence-bulk-nutrition]]). Free sugar ≈16 → ≈27 g/day, under the 10 % kcal line (≈66 g).
+
+⭐ **In practice, maintenance = eating out every day, calories NOT counted (Darren, 2026-11-27: "I eat out everyday, don't
+count the calories").** Since about 11-16 the fixed diet above is not what he eats, so `prepare-week` intake / EA figures
+(built from the fixed 2,647) are not real; say "EA 無法精算" in reviews. **Don't estimate eat-out kcal and don't ask for meal
+details.** Control is the scale only: daily morning weigh-in, 7-day average from maintenance week 3 (≥ 12-03); rising
+> 0.25 kg/wk → swap one or two eat-out meals back to the home fixed meals; falling > 0.25 kg/wk → eat more
+([[evidence-maintenance-transition]]). Flexible eat-out rules given 11-27: protein each meal (floor ≈143 g/day), 手搖飲
+無糖/微糖, no alcohol (Hep B). Re-ask at the post-trip re-plan whether the next cut returns to the fixed diet.
